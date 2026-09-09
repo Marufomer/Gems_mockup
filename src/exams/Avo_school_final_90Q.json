@@ -1,0 +1,1001 @@
+{
+  "id": "avo-school-final-90q",
+  "title": "Avo school final(90Q)",
+  "module": "AVO School Final",
+  "description": "90-question AVO school final covering avionics, electrical, electronic, flight instrument, navigation, communication, and aircraft systems topics.",
+  "durationMinutes": 150,
+  "totalQuestions": 90,
+  "color": "blue",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Stab trim actuator moves the ______.",
+      "options": [
+        "A. Elevator",
+        "B. Horizontal stabilizer",
+        "C. Vertical stabilizer"
+      ],
+      "correctIndex": 1,
+      "explanation": "The source marks Horizontal stabilizer as the answer."
+    },
+    {
+      "id": 2,
+      "question": "Where do you see the pitch limit indicator (PLI)?",
+      "options": [
+        "A. EHSI",
+        "B. ND",
+        "C. EADI"
+      ],
+      "correctIndex": 2,
+      "explanation": "The source marks EADI as the answer."
+    },
+    {
+      "id": 3,
+      "question": "Field Loadable Software (FLS) is distributed by:",
+      "options": [
+        "A. By electronic transfer, CD-ROM or PCMCIA",
+        "B. By Personal Computer Memory Card International (PCMCIA) only",
+        "C. CD-ROM only"
+      ],
+      "correctIndex": 0,
+      "explanation": "The source marks electronic transfer, CD-ROM or PCMCIA as the answer."
+    },
+    {
+      "id": 4,
+      "question": "Glideslope annunciation shows ____ color when GS beam is captured.",
+      "options": [
+        "A. Green",
+        "B. White",
+        "C. Amber"
+      ],
+      "correctIndex": 0,
+      "explanation": "The source marks Green as the answer."
+    },
+    {
+      "id": 5,
+      "question": "Which of the following statements is wrong about aircraft software restriction?",
+      "options": [
+        "A. Modifications to aircraft software will be subject to the same approval procedures as are applied to hardware modifications.",
+        "B. Modifications to aircraft software may not be subjected to the same approval procedures as are applied to hardware modifications.",
+        "C. Post-certificate modification of software of equipment in the catastrophic, hazardous, or major categories must not be made unless it has been approved by the responsible design organization."
+      ],
+      "correctIndex": 1,
+      "explanation": "The source marks the second statement as the answer."
+    },
+    {
+      "id": 6,
+      "question": "Which of the following is not true about software certification?",
+      "options": [
+        "A. Post-certification modification must be based on rule apply to the application on hardware.",
+        "B. Initial certification of software must be designed from approved company.",
+        "C. Post-certification modification must not be based on rule apply to the application on hardware."
+      ],
+      "correctIndex": 2,
+      "explanation": "The source marks the third statement as the answer."
+    },
+    {
+      "id": 7,
+      "question": "The capacity of a single battery cell in a series-connected battery is:",
+      "options": [
+        "A. Equal with battery capacity",
+        "B. Greater than battery capacity",
+        "C. Less than the battery capacity"
+      ],
+      "correctIndex": 0,
+      "explanation": "In the source, Equal with battery capacity is marked."
+    },
+    {
+      "id": 8,
+      "question": "Three essential elements of an oscillator circuit are ______.",
+      "options": [
+        "A. An amplifier, a wave shaping network and negative feedback",
+        "B. An amplifier, a positive feedback path and a wave shaping network",
+        "C. An AC input, a wave shaping network and an amplifier"
+      ],
+      "correctIndex": 1,
+      "explanation": "The source marks the amplifier, positive feedback path and wave shaping network combination."
+    },
+    {
+      "id": 9,
+      "question": "In an NPN transistor the P is the:",
+      "options": [
+        "A. Base",
+        "B. Emitter",
+        "C. Collector"
+      ],
+      "correctIndex": 0,
+      "explanation": "The source marks Base as the answer."
+    },
+    {
+      "id": 10,
+      "question": "The smallest particles of an element or a compound which can normally separately exist is called ______.",
+      "options": [
+        "A. Electrons",
+        "B. Atoms",
+        "C. Molecules"
+      ],
+      "correctIndex": 1,
+      "explanation": "The source marks Atoms as the answer."
+    },
+    {
+      "id": 11,
+      "question": "What is the primary function of the microcontroller bus and timing system?",
+      "options": [
+        "A. It facilitates communication between different components within the microcontroller chip.",
+        "B. It regulates power distribution to various parts of the microcontroller.",
+        "C. It monitors external input/output devices connected to the microcontroller."
+      ],
+      "correctIndex": 0,
+      "explanation": "The source marks the communication function as the answer."
+    },
+    {
+      "id": 12,
+      "question": "Skin effect occurs when a conductor carries current at ______ frequencies.",
+      "options": [
+        "A. Low",
+        "B. High",
+        "C. Medium"
+      ],
+      "correctIndex": 1,
+      "explanation": "The source marks High as the answer."
+    },
+    {
+      "id": 13,
+      "question": "Which of the following is NOT the major function of a transformer in a power supply circuit?",
+      "options": [
+        "A. Alternating AC waveform to DC waveform",
+        "B. Electrical isolation of load from main power line",
+        "C. Step up/down AC voltages and currents"
+      ],
+      "correctIndex": 0,
+      "explanation": "The source marks Alternating AC waveform to DC waveform."
+    },
+    {
+      "id": 14,
+      "question": "The international system of units (SI) of power is ______.",
+      "options": [
+        "A. Kilo Watt",
+        "B. Watt",
+        "C. Mega Watt"
+      ],
+      "correctIndex": 1,
+      "explanation": "The source marks Watt as the answer."
+    },
+    {
+      "id": 15,
+      "question": "In a binary weighted resistor, if each digital HIGH bit represents 5 V, what will be the analog voltage for the digital bit 1001?",
+      "options": [
+        "A. 5.625 V",
+        "B. 0.5625 V",
+        "C. 3.125 V"
+      ],
+      "correctIndex": 0,
+      "explanation": "The source marks 5.625 V as the answer."
+    },
+    {
+      "id": 16,
+      "question": "Class AB operation is often used in power amplifiers in order to:",
+      "options": [
+        "A. Overcome a cross-over distortion",
+        "B. Remove even harmonics",
+        "C. Get maximum efficiency"
+      ],
+      "correctIndex": 0,
+      "explanation": "The source marks overcoming crossover distortion."
+    },
+    {
+      "id": 17,
+      "question": "What does a buffer primarily do to a digital signal?",
+      "options": [
+        "A. Regulate logic levels",
+        "B. Invert it",
+        "C. Provide extra current drive"
+      ],
+      "correctIndex": 2,
+      "explanation": "The source marks Provide extra current drive."
+    },
+    {
+      "id": 18,
+      "question": "What is the purpose of interface chips in a microcontroller?",
+      "options": [
+        "A. Correct error sent by the I/O devices",
+        "B. Interface the RAM and ROM",
+        "C. Convert signals between microprocessor and peripherals."
+      ],
+      "correctIndex": 2,
+      "explanation": "The source marks converting signals between the microprocessor and peripherals."
+    },
+    {
+      "id": 19,
+      "question": "When the temperature increases, the resistance of pure metals will ______.",
+      "options": [
+        "A. No change",
+        "B. Increase",
+        "C. Decrease"
+      ],
+      "correctIndex": 1,
+      "explanation": "The source marks Increase as the answer."
+    },
+    {
+      "id": 20,
+      "question": "Inductance affects the direct current flow:",
+      "options": [
+        "A. Only at the time of turning off",
+        "B. At the time of turning on and off",
+        "C. At all the time of operation"
+      ],
+      "correctIndex": 1,
+      "explanation": "The source marks At the time of turning on and off."
+    },
+    {
+      "id": 21,
+      "question": "What type of feedback is required to sustain the oscillation of an oscillator circuit?",
+      "options": [
+        "A. Out-of-phase feedback",
+        "B. Negative or degenerative feedback",
+        "C. Positive or regenerative feedback"
+      ],
+      "correctIndex": 2,
+      "explanation": "The source marks Positive or regenerative feedback."
+    },
+    {
+      "id": 22,
+      "question": "_____ filters allow all frequencies above a certain cut-off frequency to pass.",
+      "options": [
+        "A. High Pass",
+        "B. Band Pass",
+        "C. Low Pass"
+      ],
+      "correctIndex": 0,
+      "explanation": "The source marks High Pass."
+    },
+    {
+      "id": 23,
+      "question": "A system that converts a digital signal into an analog signal is called:",
+      "options": [
+        "A. DDC",
+        "B. DAC",
+        "C. ADC"
+      ],
+      "correctIndex": 1,
+      "explanation": "The source marks DAC."
+    },
+    {
+      "id": 24,
+      "question": "In Boolean algebra AND law, which of the following is true?",
+      "options": [
+        "A. A·1=0",
+        "B. A·A=A",
+        "C. A·0=1"
+      ],
+      "correctIndex": 1,
+      "explanation": "The source marks A·A=A."
+    },
+    {
+      "id": 25,
+      "question": "The grounding lead resistance must not be less than ______ ohm to prevent shock hazard in case of inadvertent contact with higher voltages.",
+      "options": [
+        "A. 1k",
+        "B. 1 mega",
+        "C. 100K"
+      ],
+      "correctIndex": 0,
+      "explanation": "The source marks 1k as the answer."
+    },
+    {
+      "id": 26,
+      "question": "What is the abbreviation of AWG?",
+      "options": [
+        "A. American Wire Gauge",
+        "B. Aircraft Wire Gauge",
+        "C. Aviation Wire Gauge"
+      ],
+      "correctIndex": 0,
+      "explanation": "The source marks American Wire Gauge."
+    },
+    {
+      "id": 27,
+      "question": "What does EHSI stand for?",
+      "options": [
+        "A. Electronic Horizontal Situation Indicator (EHSI)",
+        "B. Electronic Attitude Director Indicator (EADI)",
+        "C. Symbol generator"
+      ],
+      "correctIndex": 0,
+      "explanation": "The source marks Electronic Horizontal Situation Indicator (EHSI)."
+    },
+    {
+      "id": 28,
+      "question": "Before wire can be assembled to connectors, terminals, splices, etc., the insulation must be ______ from connecting ends to expose the bare conductor.",
+      "options": [
+        "A. Stripped",
+        "B. Shorted",
+        "C. Insulated"
+      ],
+      "correctIndex": 0,
+      "explanation": "The source marks Stripped."
+    },
+    {
+      "id": 29,
+      "question": "What is the SI unit of capacitance?",
+      "options": [
+        "A. Farad (F)",
+        "B. Micro Farad",
+        "C. Milli Farad"
+      ],
+      "correctIndex": 0,
+      "explanation": "The source marks Farad (F)."
+    },
+    {
+      "id": 30,
+      "question": "The period of a wave is:",
+      "options": [
+        "A. The same as the frequency",
+        "B. Time required to complete one cycle",
+        "C. Expressed in amperes"
+      ],
+      "correctIndex": 1,
+      "explanation": "The source marks Time required to complete one cycle."
+    },
+    {
+      "id": 31,
+      "question": "_____ is the process of electrically connecting the various metallic parts of an aircraft so that they will collectively form an integral electronic unit.",
+      "options": [
+        "A. Insulating",
+        "B. Bonding",
+        "C. Crimping"
+      ],
+      "correctIndex": 1,
+      "explanation": "The source marks Bonding."
+    },
+    {
+      "id": 32,
+      "question": "How are voltage multipliers constructed?",
+      "options": [
+        "A. By different combinations of inductors",
+        "B. By different combinations of capacitors and inductors",
+        "C. By different combinations of diodes and capacitors"
+      ],
+      "correctIndex": 2,
+      "explanation": "The source marks combinations of diodes and capacitors."
+    },
+    {
+      "id": 33,
+      "question": "Airplanes with multiple independent pitot and static systems require:",
+      "options": [
+        "A. All systems checked for leaks",
+        "B. Random systems checked for leaks",
+        "C. No leak check is required for such type"
+      ],
+      "correctIndex": 0,
+      "explanation": "The source marks all systems checked for leaks."
+    },
+    {
+      "id": 34,
+      "question": "Which one of the following mechanisms is used to control drift on the gyro head for remote indication systems?",
+      "options": [
+        "A. Torque leveling system with level switches",
+        "B. Slaving torque motors with amplifiers",
+        "C. Only a liquid leveling switch"
+      ],
+      "correctIndex": 1,
+      "explanation": "The source marks slaving torque motors with amplifiers."
+    },
+    {
+      "id": 35,
+      "question": "Which one of the following is not a requirement for a rotating wheel to be a gyro?",
+      "options": [
+        "A. Fixed spin axis",
+        "B. High speed",
+        "C. Greater inertia"
+      ],
+      "correctIndex": 0,
+      "explanation": "The source marks Fixed spin axis."
+    },
+    {
+      "id": 36,
+      "question": "Which of the following gyro rotors is canted upward 30 degrees?",
+      "options": [
+        "A. Gyro horizon",
+        "B. Rate gyros for rate of turn indicator",
+        "C. Vertical gyro"
+      ],
+      "correctIndex": 1,
+      "explanation": "The source marks rate gyros for the rate-of-turn indicator."
+    },
+    {
+      "id": 37,
+      "question": "Which one of the following is true about the error signal that is computed in an autopilot?",
+      "options": [
+        "A. Both A and B are true",
+        "B. Provide command to the autopilot servo",
+        "C. Become zero (null) when equivalent feedback signal is sent to autopilot computer"
+      ],
+      "correctIndex": 0,
+      "explanation": "The source marks Both A and B are true."
+    },
+    {
+      "id": 38,
+      "question": "Which of the following is not correct about ring laser gyros?",
+      "options": [
+        "A. They measure movement about an axis extremely quickly and provide continuous output",
+        "B. They are very rugged and have a shorter service life.",
+        "C. They are extremely accurate and generally are considered superior to mechanical gyroscopes."
+      ],
+      "correctIndex": 1,
+      "explanation": "The source marks the second statement."
+    },
+    {
+      "id": 39,
+      "question": "The procedure of correcting deviation error in a magnetic compass indication is called:",
+      "options": [
+        "A. Compass Magnetization",
+        "B. Compass Installation",
+        "C. Compass Swinging"
+      ],
+      "correctIndex": 2,
+      "explanation": "The source marks Compass Swinging."
+    },
+    {
+      "id": 40,
+      "question": "Which one of the following is not correct about a compass bowl?",
+      "options": [
+        "A. It can be made from plastic",
+        "B. A brass case forms the bowl",
+        "C. It can be made from magnetic material"
+      ],
+      "correctIndex": 0,
+      "explanation": "The source marks It can be made from plastic."
+    },
+    {
+      "id": 41,
+      "question": "What indication will an instantaneous vertical speed indicator present when the aircraft is moving downwards with its pitch down?",
+      "options": [
+        "A. Rate of climb",
+        "B. Rate of descent",
+        "C. Status of pitch"
+      ],
+      "correctIndex": 1,
+      "explanation": "The source marks Rate of descent."
+    },
+    {
+      "id": 42,
+      "question": "What parameter of an antenna is the ratio of the effective radiating area to the physical area of the antenna?",
+      "options": [
+        "A. Aperture efficiency",
+        "B. Antenna efficiency",
+        "C. Antenna gain"
+      ],
+      "correctIndex": 0,
+      "explanation": "The source marks Aperture efficiency."
+    },
+    {
+      "id": 43,
+      "question": "How does an aircraft become electrically charged as it flies through the air?",
+      "options": [
+        "A. An aircraft cannot be charged when it flies through the air.",
+        "B. There is friction between the aircraft and air which causes electron transfer between the aircraft and air.",
+        "C. The aircraft fuselage material determines whether it is charged or not."
+      ],
+      "correctIndex": 1,
+      "explanation": "The source marks friction and electron transfer as the answer."
+    },
+    {
+      "id": 44,
+      "question": "A device that moves a primary control surface in response to an autopilot output is known as:",
+      "options": [
+        "A. Linear Variable Differential Transmitter (LVDT)",
+        "B. Servo",
+        "C. Synchro"
+      ],
+      "correctIndex": 1,
+      "explanation": "The source marks Servo."
+    },
+    {
+      "id": 45,
+      "question": "Which of the following is a horizontal directional locator?",
+      "options": [
+        "A. Locator",
+        "B. Marker Beacon",
+        "C. Glideslope"
+      ],
+      "correctIndex": 0,
+      "explanation": "The source marks Locator."
+    },
+    {
+      "id": 46,
+      "question": "In an ADF control panel, when REC is selected:",
+      "options": [
+        "A. The radio output is only bearing information",
+        "B. The radio uses a conventional AM receiver",
+        "C. The radio uses only the ADF loop antenna"
+      ],
+      "correctIndex": 0,
+      "explanation": "The source page does not visibly mark an answer; the first option is retained for this JSON."
+    },
+    {
+      "id": 47,
+      "question": "What is the progressive decrease of signal strength with increasing distance called?",
+      "options": [
+        "A. Propagation",
+        "B. Radiation",
+        "C. Attenuation"
+      ],
+      "correctIndex": 2,
+      "explanation": "Attenuation describes progressive signal-strength loss with distance."
+    },
+    {
+      "id": 48,
+      "question": "Which one of the following types of synchros is DC operated?",
+      "options": [
+        "A. Basic design",
+        "B. Control synchro",
+        "C. Torque synchro"
+      ],
+      "correctIndex": 0,
+      "explanation": "The source marks Basic design."
+    },
+    {
+      "id": 49,
+      "question": "The green color on the Weather Radar display indicates:",
+      "options": [
+        "A. Heavy concentration, moderate/severe turbulence",
+        "B. Light concentration, slight turbulence",
+        "C. Moderate concentration, light turbulence"
+      ],
+      "correctIndex": 1,
+      "explanation": "The source marks Light concentration, slight turbulence."
+    },
+    {
+      "id": 50,
+      "question": "Which of the following is the semiconductor diode which can be used in switching microwave signals?",
+      "options": [
+        "A. Tunnel diode",
+        "B. Varactor diode",
+        "C. PIN diode"
+      ],
+      "correctIndex": 2,
+      "explanation": "PIN diodes are used as RF/microwave switches; the source page does not show a visible selected answer."
+    },
+    {
+      "id": 51,
+      "question": "How much voltage do typical zener diodes produce at their operating point?",
+      "options": [
+        "A. 10 to 100 V",
+        "B. 10 to 100 mV",
+        "C. 10 to 1000 V"
+      ],
+      "correctIndex": 1,
+      "explanation": "The source marks 10 to 100 mV."
+    },
+    {
+      "id": 52,
+      "question": "Where is the VHF antenna located?",
+      "options": [
+        "A. On the vertical stabilizer",
+        "B. Inside the radome",
+        "C. Top and bottom of the fuselage"
+      ],
+      "correctIndex": 0,
+      "explanation": "The source marks On the vertical stabilizer."
+    },
+    {
+      "id": 53,
+      "question": "What is the receiver part of a synchro system?",
+      "options": [
+        "A. Generator",
+        "B. Rheostat",
+        "C. Motor"
+      ],
+      "correctIndex": 2,
+      "explanation": "A synchro receiver is represented by the motor element."
+    },
+    {
+      "id": 54,
+      "question": "In an optical fiber, the concept of numerical aperture is applicable in determining the ability of:",
+      "options": [
+        "A. Light collection",
+        "B. Light dispersion",
+        "C. Light polarization"
+      ],
+      "correctIndex": 0,
+      "explanation": "Numerical aperture relates to the light-gathering ability of an optical fiber."
+    },
+    {
+      "id": 55,
+      "question": "Which frequency band is not used for satellite transmission?",
+      "options": [
+        "A. C-band",
+        "B. L-band",
+        "C. K-band"
+      ],
+      "correctIndex": 1,
+      "explanation": "The source page does not visibly mark an answer; L-band is retained here."
+    },
+    {
+      "id": 56,
+      "question": "On BITE, ______ supplies trend and servicing information and monitoring reports for the detection of possible failure appearance.",
+      "options": [
+        "A. Maintenance Support",
+        "B. Prognostic function",
+        "C. Diagnosis Function"
+      ],
+      "correctIndex": 0,
+      "explanation": "The source wording identifies Maintenance Support as the selected choice."
+    },
+    {
+      "id": 57,
+      "question": "How many inputs are there to the recording heads of the GMR system?",
+      "options": [
+        "A. Two",
+        "B. Four",
+        "C. Six"
+      ],
+      "correctIndex": 1,
+      "explanation": "The source marks Four."
+    },
+    {
+      "id": 58,
+      "question": "Which one of the following communication systems is used by the cockpit crew, cabin crew and maintenance crew?",
+      "options": [
+        "A. Flight Interphone System",
+        "B. VHF",
+        "C. Service Interphone System"
+      ],
+      "correctIndex": 2,
+      "explanation": "The source marks Service Interphone System."
+    },
+    {
+      "id": 59,
+      "question": "The differing properties of land and water with regard to electromagnetic ground wave absorption cause ______ of NDB transmission.",
+      "options": [
+        "A. Night effect",
+        "B. Mountain effect",
+        "C. Coastal refraction"
+      ],
+      "correctIndex": 2,
+      "explanation": "The source marks Coastal refraction."
+    },
+    {
+      "id": 60,
+      "question": "Which one of the following grouping of instruments can be considered as flight instruments?",
+      "options": [
+        "A. Oil temperature indication, tachometer, cylinder head temperature indications",
+        "B. Weather indication, ground collision alerting, anti-collision indications",
+        "C. Airspeed, altimeter, altitude, vertical speed, rate of turn and bank indications"
+      ],
+      "correctIndex": 2,
+      "explanation": "The source marks the airspeed, altimeter, altitude, vertical speed, rate-of-turn and bank group."
+    },
+    {
+      "id": 61,
+      "question": "VOR navigation aids are identified by how many alpha characters?",
+      "options": [
+        "A. Two",
+        "B. Three",
+        "C. Five"
+      ],
+      "correctIndex": 1,
+      "explanation": "The source marks Three."
+    },
+    {
+      "id": 62,
+      "question": "The number of independent PSUs in a typical commercial aircraft is:",
+      "options": [
+        "A. 1",
+        "B. 2",
+        "C. 5"
+      ],
+      "correctIndex": 1,
+      "explanation": "The source marks 2."
+    },
+    {
+      "id": 63,
+      "question": "Which of the following is true about the synchronous motor?",
+      "options": [
+        "A. Not a self-starting motor",
+        "B. Similar with induction motor",
+        "C. Self-starting motor"
+      ],
+      "correctIndex": 0,
+      "explanation": "The source page does not visibly mark an answer; Not a self-starting motor is retained."
+    },
+    {
+      "id": 64,
+      "question": "What affects the frequency of the alternator?",
+      "options": [
+        "A. Aircraft altitude",
+        "B. External temperature",
+        "C. Number of poles"
+      ],
+      "correctIndex": 2,
+      "explanation": "The source marks Number of poles."
+    },
+    {
+      "id": 65,
+      "question": "Which of the following power-consuming devices is always supplied from the battery bus?",
+      "options": [
+        "A. Vital A.C. consumers",
+        "B. Essential D.C. consumers",
+        "C. Vital D.C. consumers"
+      ],
+      "correctIndex": 2,
+      "explanation": "The source page does not visibly mark an answer; Vital D.C. consumers is retained."
+    },
+    {
+      "id": 66,
+      "question": "What section represents the type of information contained within the 32-bit word of ARINC 429 specification?",
+      "options": [
+        "A. BSM",
+        "B. Label",
+        "C. SDI"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Label field identifies the type of information in an ARINC 429 word."
+    },
+    {
+      "id": 67,
+      "question": "Failure of the differential current relay would be backed up by:",
+      "options": [
+        "A. Armature circuit",
+        "B. Field circuit",
+        "C. Exciter protection relay"
+      ],
+      "correctIndex": 2,
+      "explanation": "The source page does not visibly mark an answer; Exciter protection relay is retained."
+    },
+    {
+      "id": 68,
+      "question": "Which of the following power-consuming devices is always supplied from the battery bus?",
+      "options": [
+        "A. Vital A.C. consumers",
+        "B. Essential D.C. consumers",
+        "C. Vital D.C. consumers"
+      ],
+      "correctIndex": 2,
+      "explanation": "The source page does not visibly mark an answer; Vital D.C. consumers is retained."
+    },
+    {
+      "id": 69,
+      "question": "In an aircraft brushless AC generator, the pilot exciter armature is mounted:",
+      "options": [
+        "A. On the main generator stator",
+        "B. On the exciter generator stator",
+        "C. On the exciter generator rotor"
+      ],
+      "correctIndex": 2,
+      "explanation": "The source page does not visibly mark an answer; On the exciter generator rotor is retained."
+    },
+    {
+      "id": 70,
+      "question": "The modern AC alternator does not utilize brushes or slip rings, known as:",
+      "options": [
+        "A. AC generator",
+        "B. Brushless",
+        "C. DC generator"
+      ],
+      "correctIndex": 1,
+      "explanation": "The source marks Brushless."
+    },
+    {
+      "id": 71,
+      "question": "What do protocols (set of rules) govern?",
+      "options": [
+        "A. Standards",
+        "B. Communication",
+        "C. Metropolitan communication"
+      ],
+      "correctIndex": 1,
+      "explanation": "Protocols govern communication between systems or devices."
+    },
+    {
+      "id": 72,
+      "question": "The RVDT consists of:",
+      "options": [
+        "A. One primary winding and two secondary windings",
+        "B. One primary winding and one secondary winding",
+        "C. Two primary windings and one secondary winding"
+      ],
+      "correctIndex": 0,
+      "explanation": "An RVDT uses one primary and two secondary windings."
+    },
+    {
+      "id": 73,
+      "question": "Which of the following is not a common type of position sensor?",
+      "options": [
+        "A. Linear Rotary Variable Differential Transformer (LRVDT)",
+        "B. Rotary Variable Differential Transformer (RVDT)",
+        "C. Linear Variable Differential Transformer (LVDT)"
+      ],
+      "correctIndex": 0,
+      "explanation": "The source page does not visibly mark an answer; LRVDT is retained."
+    },
+    {
+      "id": 74,
+      "question": "What is the loss in signal power called as the signal travels down the line?",
+      "options": [
+        "A. Fading",
+        "B. Attenuation",
+        "C. Interruption"
+      ],
+      "correctIndex": 1,
+      "explanation": "The source wording corresponds to attenuation."
+    },
+    {
+      "id": 75,
+      "question": "What term applies to the difference between the speed of the rotating stator field and the rotor?",
+      "options": [
+        "A. Slip",
+        "B. Rotor error",
+        "C. Synchronous"
+      ],
+      "correctIndex": 0,
+      "explanation": "The source page does not visibly mark an answer; Slip is retained."
+    },
+    {
+      "id": 76,
+      "question": "Which of the following is true about the synchronous motor?",
+      "options": [
+        "A. Not a self-starting motor",
+        "B. Similar with induction motor",
+        "C. Self-starting motor"
+      ],
+      "correctIndex": 0,
+      "explanation": "The source page does not visibly mark an answer; Not a self-starting motor is retained."
+    },
+    {
+      "id": 77,
+      "question": "What affects the frequency of the alternator?",
+      "options": [
+        "A. Aircraft altitude",
+        "B. External temperature",
+        "C. Number of poles"
+      ],
+      "correctIndex": 2,
+      "explanation": "The source marks Number of poles."
+    },
+    {
+      "id": 78,
+      "question": "Some actuator motors are subjected to heavy and sudden loads. Because of this such motors are equipped with:",
+      "options": [
+        "A. Limit switch",
+        "B. Overload release clutch",
+        "C. Thermal switch"
+      ],
+      "correctIndex": 1,
+      "explanation": "The source page does not visibly mark an answer; Overload release clutch is retained."
+    },
+    {
+      "id": 79,
+      "question": "Which of the following is true about servo motors?",
+      "options": [
+        "A. The servo motor utilizes a regular motor and couples it with a sensor for positional feedback.",
+        "B. The output shaft of this motor can be moved to a particular angle, position and velocity that a regular motor does not have.",
+        "C. A servo motor rotates only in one direction."
+      ],
+      "correctIndex": 0,
+      "explanation": "The source page does not visibly mark an answer; the first statement is retained."
+    },
+    {
+      "id": 80,
+      "question": "Both engines are normally pressure fed from the center tank:",
+      "options": [
+        "A. Alternatively from both center & main tanks",
+        "B. Always from center tank, quantity decreases to near zero",
+        "C. Until the center tank quantity decreases to near zero"
+      ],
+      "correctIndex": 0,
+      "explanation": "The source marks Alternatively from both center & main tanks."
+    },
+    {
+      "id": 81,
+      "question": "Failure of the differential current relay would be backed up by:",
+      "options": [
+        "A. Armature circuit",
+        "B. Field circuit",
+        "C. Exciter protection relay"
+      ],
+      "correctIndex": 2,
+      "explanation": "The source page does not visibly mark an answer; Exciter protection relay is retained."
+    },
+    {
+      "id": 82,
+      "question": "Which of the following is a component of the motor, has dual function, and supports the rotating parts of the machine?",
+      "options": [
+        "A. The core",
+        "B. Rotor",
+        "C. Outer Frame"
+      ],
+      "correctIndex": 2,
+      "explanation": "The source page does not visibly mark an answer; Outer Frame is retained."
+    },
+    {
+      "id": 83,
+      "question": "Which of the following is not a factor that affects the resistance of a conductor?",
+      "options": [
+        "A. Surface area",
+        "B. Cross-sectional area",
+        "C. Length"
+      ],
+      "correctIndex": 0,
+      "explanation": "The source page does not visibly mark an answer; Surface area is retained."
+    },
+    {
+      "id": 84,
+      "question": "What is the relationship between current and voltage in a pure resistor circuit?",
+      "options": [
+        "A. Current lags behind the voltage by 90 degrees",
+        "B. Current leads the voltage by 90 degrees",
+        "C. Current is in phase with the voltage"
+      ],
+      "correctIndex": 0,
+      "explanation": "The source visibly marks the first option, so that answer is preserved exactly as requested."
+    },
+    {
+      "id": 85,
+      "question": "A monotonic DAC is one whose analog output increases for:",
+      "options": [
+        "A. An increase in digital output",
+        "B. An increase in analog input",
+        "C. Decrease in digital input"
+      ],
+      "correctIndex": 0,
+      "explanation": "The source page does not visibly mark an answer; the first option is retained."
+    },
+    {
+      "id": 86,
+      "question": "The type of register in which data is entered into it only one bit at a time, but a single clock pulse can make it available as output terminals is:",
+      "options": [
+        "A. Serial-in parallel-out register",
+        "B. Serial-in serial-out register",
+        "C. Parallel-in parallel-out register"
+      ],
+      "correctIndex": 0,
+      "explanation": "This description corresponds to a serial-in parallel-out register."
+    },
+    {
+      "id": 87,
+      "question": "Which terminal belongs to the SCR?",
+      "options": [
+        "A. Drain",
+        "B. Base",
+        "C. Anode"
+      ],
+      "correctIndex": 2,
+      "explanation": "The source marks Anode."
+    },
+    {
+      "id": 88,
+      "question": "For which part of the wing does the wing thermal anti-ice system prevent ice?",
+      "options": [
+        "A. The trailing edge of the wing",
+        "B. The upper surface of the wing",
+        "C. The leading edges of the wing"
+      ],
+      "correctIndex": 2,
+      "explanation": "The source marks The leading edges of the wing."
+    },
+    {
+      "id": 89,
+      "question": "Which of the following is the term given for the effect of armature flux on the main field flux?",
+      "options": [
+        "A. Armature reaction",
+        "B. Armature interaction",
+        "C. Commutation"
+      ],
+      "correctIndex": 0,
+      "explanation": "The source page does not visibly mark an answer; Armature reaction is retained."
+    },
+    {
+      "id": 90,
+      "question": "The first commercial aircraft was the:",
+      "options": [
+        "A. Boeing 707",
+        "B. Airbus A320",
+        "C. Boeing 777"
+      ],
+      "correctIndex": 0,
+      "explanation": "The source visibly marks Boeing 707."
+    }
+  ]
+}

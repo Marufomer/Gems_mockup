@@ -1,0 +1,594 @@
+{
+  "id": "avo-1-module-3-4",
+  "title": "AVO-1 – Module 3, 4",
+  "module": "AVO-1 – Module 3, 4",
+  "description": "Final exam covering transformers, AC and DC circuits, filters, measuring instruments, oscilloscopes, three-phase systems, resonance, and basic electrical measurements.",
+  "durationMinutes": 150,
+  "totalQuestions": 53,
+  "color": "blue",
+  "questions": [
+    {
+      "id": 1,
+      "question": "What type of transformer core is commonly used for high-frequency transformers?",
+      "options": [
+        "A. Air core",
+        "B. Iron core only",
+        "C. Steel core"
+      ],
+      "correctIndex": 0,
+      "explanation": "Air-core transformers are commonly used at high frequencies because conventional iron cores have increased core losses at high frequencies."
+    },
+    {
+      "id": 2,
+      "question": "In a series RC circuit, the total current I —",
+      "options": [
+        "A. Leads the source voltage",
+        "B. Lags the source voltage",
+        "C. Is always in phase with the source voltage"
+      ],
+      "correctIndex": 0,
+      "explanation": "In a capacitive RC circuit, the current leads the applied voltage by a phase angle."
+    },
+    {
+      "id": 3,
+      "question": "Resistance is measured using a —",
+      "options": [
+        "A. Ammeter",
+        "B. Ohmmeter",
+        "C. Frequency meter"
+      ],
+      "correctIndex": 1,
+      "explanation": "An ohmmeter is designed to measure electrical resistance in ohms."
+    },
+    {
+      "id": 4,
+      "question": "How is energy transferred from the primary winding to the secondary winding of a transformer?",
+      "options": [
+        "A. By magnetic flux",
+        "B. By direct electrical connection",
+        "C. By mechanical rotation"
+      ],
+      "correctIndex": 0,
+      "explanation": "A transformer transfers energy through the changing magnetic flux linking the primary and secondary windings."
+    },
+    {
+      "id": 5,
+      "question": "Which statement is NOT generally true about passive filters?",
+      "options": [
+        "A. They are easier to design",
+        "B. They require an external power supply for gain",
+        "C. They can be made using resistors, capacitors, and inductors"
+      ],
+      "correctIndex": 0,
+      "explanation": "No explanation."
+    },
+    {
+      "id": 6,
+      "question": "A low-pass filter is designed to —",
+      "options": [
+        "A. Pass high frequencies and block low frequencies",
+        "B. Block high frequencies while allowing low frequencies to pass",
+        "C. Block all frequencies"
+      ],
+      "correctIndex": 1,
+      "explanation": "A low-pass filter allows frequencies below its cutoff frequency to pass and attenuates higher frequencies."
+    },
+    {
+      "id": 7,
+      "question": "A transformer winding having a high number of turns is generally the —",
+      "options": [
+        "A. High-voltage winding",
+        "B. Low-voltage winding",
+        "C. Ground winding"
+      ],
+      "correctIndex": 0,
+      "explanation": "For a transformer, induced voltage is proportional to the number of turns, so the higher-voltage winding normally has more turns."
+    },
+    {
+      "id": 8,
+      "question": "What type of transformer has an output voltage higher than its input voltage?",
+      "options": [
+        "A. Step-down transformer",
+        "B. Isolation transformer",
+        "C. Step-up transformer"
+      ],
+      "correctIndex": 2,
+      "explanation": "A step-up transformer increases the secondary voltage above the primary voltage."
+    },
+    {
+      "id": 9,
+      "question": "In a pure resistive AC circuit, current and voltage are —",
+      "options": [
+        "A. 90° out of phase",
+        "B. In phase",
+        "C. 180° out of phase"
+      ],
+      "correctIndex": 1,
+      "explanation": "A pure resistance causes no phase shift, so current and voltage are in phase."
+    },
+    {
+      "id": 10,
+      "question": "RMS value of an AC voltage or current represents its —",
+      "options": [
+        "A. Effective heating value compared with DC",
+        "B. Maximum instantaneous value only",
+        "C. Average value over one half-cycle only"
+      ],
+      "correctIndex": 0,
+      "explanation": "The RMS value is the effective value of an AC quantity and produces the same heating effect in a resistor as the equivalent DC value."
+    },
+    {
+      "id": 11,
+      "question": "What is meant by instantaneous voltage?",
+      "options": [
+        "A. The voltage value at any particular instant of time",
+        "B. The maximum voltage of a complete cycle",
+        "C. The average voltage of all cycles"
+      ],
+      "correctIndex": 0,
+      "explanation": "Instantaneous voltage is the value of the voltage at a specific point in time."
+    },
+    {
+      "id": 12,
+      "question": "A transformer has 110 primary turns and 20 secondary turns. What is the primary-to-secondary turns ratio?",
+      "options": [
+        "A. 5.5:1",
+        "B. 1:5.5",
+        "C. 130:1"
+      ],
+      "correctIndex": 0,
+      "explanation": "The turns ratio is Np/Ns = 110/20 = 5.5, so the primary-to-secondary ratio is 5.5:1."
+    },
+    {
+      "id": 13,
+      "question": "An ammeter is connected —",
+      "options": [
+        "A. In parallel with the circuit",
+        "B. In series with the circuit",
+        "C. Across the power supply only"
+      ],
+      "correctIndex": 1,
+      "explanation": "An ammeter must be connected in series so the circuit current flows through the meter."
+    },
+    {
+      "id": 14,
+      "question": "Multimeter sensitivity is commonly expressed in —",
+      "options": [
+        "A. kΩ/V",
+        "B. V/A",
+        "C. A/Ω"
+      ],
+      "correctIndex": 0,
+      "explanation": "Analog voltmeter sensitivity is commonly specified in ohms per volt, often expressed as kΩ/V."
+    },
+    {
+      "id": 15,
+      "question": "Which device is used to convert AC into DC?",
+      "options": [
+        "A. Rectifier",
+        "B. Oscillator",
+        "C. Transformer only"
+      ],
+      "correctIndex": 0,
+      "explanation": "A rectifier converts alternating current into pulsating direct current, which can then be filtered for smoother DC."
+    },
+    {
+      "id": 16,
+      "question": "Which meter movement type uses magnetic repulsion as part of its operating principle?",
+      "options": [
+        "A. Moving-iron vane type",
+        "B. D'Arsonval moving-coil type",
+        "C. Digital meter type"
+      ],
+      "correctIndex": 0,
+      "explanation": "Moving-iron instruments can operate using the attraction or repulsion of magnetized iron parts."
+    },
+    {
+      "id": 17,
+      "question": "Which instrument is used to measure very high resistance values?",
+      "options": [
+        "A. Megohmmeter",
+        "B. Ammeter",
+        "C. Wattmeter"
+      ],
+      "correctIndex": 0,
+      "explanation": "A megohmmeter, often called a megger, is designed to measure very high insulation resistance."
+    },
+    {
+      "id": 18,
+      "question": "To measure voltage drop across a component, the meter should be connected —",
+      "options": [
+        "A. In series with the component",
+        "B. In parallel with the component",
+        "C. In series with the power source only"
+      ],
+      "correctIndex": 1,
+      "explanation": "A voltmeter measures potential difference between two points, so it is connected in parallel with the component."
+    },
+    {
+      "id": 19,
+      "question": "An oscilloscope primarily represents a signal as —",
+      "options": [
+        "A. Voltage versus time",
+        "B. Resistance versus current",
+        "C. Power versus resistance"
+      ],
+      "correctIndex": 0,
+      "explanation": "An oscilloscope displays the variation of an electrical signal, commonly voltage, with time."
+    },
+    {
+      "id": 20,
+      "question": "Which statement is true for a parallel circuit?",
+      "options": [
+        "A. The current in each branch is less than the total current",
+        "B. The same current always flows through every branch",
+        "C. The total current is less than every branch current"
+      ],
+      "correctIndex": 0,
+      "explanation": "In a parallel circuit, total current is the sum of the branch currents, so each individual branch current is normally less than the total."
+    },
+    {
+      "id": 21,
+      "question": "The impedance of a series RLC circuit at resonance is —",
+      "options": [
+        "A. Maximum",
+        "B. Minimum",
+        "C. Infinite"
+      ],
+      "correctIndex": 1,
+      "explanation": "At series resonance, inductive and capacitive reactances cancel, leaving only resistance; therefore impedance is minimum."
+    },
+    {
+      "id": 22,
+      "question": "A filter made using resistors, capacitors, and/or inductors without active devices is called a —",
+      "options": [
+        "A. Passive filter",
+        "B. Active filter",
+        "C. Digital processor"
+      ],
+      "correctIndex": 0,
+      "explanation": "Passive filters use passive components such as resistors, capacitors, and inductors and do not provide power gain."
+    },
+    {
+      "id": 23,
+      "question": "Which expression can be used to calculate power factor in an AC circuit?",
+      "options": [
+        "A. True power / apparent power",
+        "B. Apparent power / true power",
+        "C. Reactive power / true power"
+      ],
+      "correctIndex": 0,
+      "explanation": "Power factor is PF = P/S, where P is true power in watts and S is apparent power in volt-amperes."
+    },
+    {
+      "id": 24,
+      "question": "In a three-phase delta connection, the —",
+      "options": [
+        "A. Line voltage is equal to phase voltage",
+        "B. Line voltage is √3 times phase voltage",
+        "C. Line voltage is half the phase voltage"
+      ],
+      "correctIndex": 0,
+      "explanation": "For a balanced delta connection, line voltage equals phase voltage."
+    },
+    {
+      "id": 25,
+      "question": "A signal that does not change with time is a —",
+      "options": [
+        "A. DC signal",
+        "B. AC signal",
+        "C. Saw-tooth signal"
+      ],
+      "correctIndex": 0,
+      "explanation": "A constant signal has a fixed value with time and is therefore a DC signal."
+    },
+    {
+      "id": 26,
+      "question": "A transformer has 1000 primary turns and is connected to 250 V AC. If the required secondary voltage is 400 V, how many secondary turns are required?",
+      "options": [
+        "A. 625 turns",
+        "B. 1,600 turns",
+        "C. 2,500 turns"
+      ],
+      "correctIndex": 1,
+      "explanation": "Using Vs/Vp = Ns/Np, Ns = (400/250) × 1000 = 1,600 turns."
+    },
+    {
+      "id": 27,
+      "question": "In each complete cycle of an AC sine wave, how many maximum peak values occur?",
+      "options": [
+        "A. One",
+        "B. Two",
+        "C. Four"
+      ],
+      "correctIndex": 1,
+      "explanation": "A complete sine-wave cycle has one positive maximum peak and one negative maximum peak, giving two maximum peak values in magnitude."
+    },
+    {
+      "id": 28,
+      "question": "Values measured at any particular instant along an AC waveform are called —",
+      "options": [
+        "A. RMS values",
+        "B. Average values",
+        "C. Instantaneous values"
+      ],
+      "correctIndex": 2,
+      "explanation": "An instantaneous value is the magnitude of an AC quantity at a particular instant of time."
+    },
+    {
+      "id": 29,
+      "question": "The total opposition to AC current flow in a circuit is called —",
+      "options": [
+        "A. Resistance",
+        "B. Impedance",
+        "C. Conductance"
+      ],
+      "correctIndex": 1,
+      "explanation": "Impedance is the total opposition to AC current and includes both resistance and reactance."
+    },
+    {
+      "id": 30,
+      "question": "Which waveform rises upward and then drops sharply?",
+      "options": [
+        "A. Saw-tooth waveform",
+        "B. Sine waveform",
+        "C. Square waveform"
+      ],
+      "correctIndex": 0,
+      "explanation": "A saw-tooth waveform has a gradual rise or fall followed by a sharp transition back to the starting level."
+    },
+    {
+      "id": 31,
+      "question": "The condition in an RLC circuit where inductive and capacitive reactances are equal and opposite is called —",
+      "options": [
+        "A. Saturation",
+        "B. Resonance",
+        "C. Rectification"
+      ],
+      "correctIndex": 1,
+      "explanation": "At resonance, XL and XC are equal in magnitude and opposite in phase, so they cancel."
+    },
+    {
+      "id": 32,
+      "question": "If the capacitance in a series RLC circuit is decreased while inductance remains constant, the resonant frequency —",
+      "options": [
+        "A. Decreases",
+        "B. Increases",
+        "C. Remains unchanged"
+      ],
+      "correctIndex": 1,
+      "explanation": "The resonant frequency is fr = 1/(2π√LC). Decreasing capacitance increases the resonant frequency."
+    },
+    {
+      "id": 33,
+      "question": "What is the relationship between current and voltage in a pure resistive AC circuit?",
+      "options": [
+        "A. Current leads voltage by 90°",
+        "B. Current lags voltage by 90°",
+        "C. Current is in phase with voltage"
+      ],
+      "correctIndex": 2,
+      "explanation": "In a pure resistive circuit, current and voltage reach their corresponding maximum and zero values at the same time."
+    },
+    {
+      "id": 34,
+      "question": "Which statement describes an ideal transformer?",
+      "options": [
+        "A. It has no losses and no magnetic leakage",
+        "B. It has high copper losses",
+        "C. It always has a voltage drop due to resistance"
+      ],
+      "correctIndex": 0,
+      "explanation": "An ideal transformer is assumed to have no power losses and perfect magnetic coupling with no leakage flux."
+    },
+    {
+      "id": 35,
+      "question": "Filters created using transistors or other active devices are called —",
+      "options": [
+        "A. Passive filters",
+        "B. Active filters",
+        "C. Mechanical filters"
+      ],
+      "correctIndex": 1,
+      "explanation": "Active filters use active components such as transistors or operational amplifiers along with passive components."
+    },
+    {
+      "id": 36,
+      "question": "In an ideal transformer, if the number of secondary turns is tripled while the load condition is considered through the turns relationship, the secondary current will —",
+      "options": [
+        "A. Decrease to one-third",
+        "B. Triple",
+        "C. Remain exactly the same"
+      ],
+      "correctIndex": 0,
+      "explanation": "For an ideal transformer, voltage and current ratios are inversely related to turns. Increasing secondary turns by three times causes the corresponding secondary current rating to decrease to one-third."
+    },
+    {
+      "id": 37,
+      "question": "Which statement about an ammeter is NOT correct?",
+      "options": [
+        "A. It is connected in series",
+        "B. It should have very low internal resistance",
+        "C. It is connected across the source voltage"
+      ],
+      "correctIndex": 2,
+      "explanation": "An ammeter is connected in series with the load, not directly across a voltage source."
+    },
+    {
+      "id": 38,
+      "question": "In a three-phase delta connection, the —",
+      "options": [
+        "A. Line voltage equals phase voltage",
+        "B. Line current always equals phase current",
+        "C. Line voltage is √3 times phase voltage"
+      ],
+      "correctIndex": 0,
+      "explanation": "In a balanced delta connection, line voltage is equal to phase voltage."
+    },
+    {
+      "id": 39,
+      "question": "Which meter movement is generally not suitable for directly measuring AC?",
+      "options": [
+        "A. D'Arsonval moving-coil meter",
+        "B. Moving-iron meter",
+        "C. Electrodynamometer meter"
+      ],
+      "correctIndex": 0,
+      "explanation": "A D'Arsonval moving-coil movement responds to the average direction of current and therefore requires rectification to measure AC."
+    },
+    {
+      "id": 40,
+      "question": "A D'Arsonval meter movement converts —",
+      "options": [
+        "A. Mechanical energy into heat",
+        "B. Electrical energy into mechanical movement",
+        "C. Chemical energy into electrical energy"
+      ],
+      "correctIndex": 1,
+      "explanation": "Current through the moving coil produces a magnetic force that creates mechanical movement of the pointer."
+    },
+    {
+      "id": 41,
+      "question": "Which oscilloscope control moves the traced image up or down on the screen?",
+      "options": [
+        "A. Horizontal position",
+        "B. Vertical position",
+        "C. Focus"
+      ],
+      "correctIndex": 1,
+      "explanation": "The vertical position control moves the displayed waveform upward or downward on the screen."
+    },
+    {
+      "id": 42,
+      "question": "Which oscilloscope control adjusts the electron beam so the displayed trace is sharply defined?",
+      "options": [
+        "A. Focus",
+        "B. Vertical position",
+        "C. Time/div"
+      ],
+      "correctIndex": 0,
+      "explanation": "The focus control adjusts the electron beam to produce a sharp, clearly defined trace."
+    },
+    {
+      "id": 43,
+      "question": "A common fault in an inductor is —",
+      "options": [
+        "A. Open circuit",
+        "B. Increased capacitance only",
+        "C. Perfect continuity with no winding"
+      ],
+      "correctIndex": 0,
+      "explanation": "A broken winding or connection can cause an inductor to have an open circuit."
+    },
+    {
+      "id": 44,
+      "question": "In a three-phase star/wye connection, the —",
+      "options": [
+        "A. Line current and phase current are the same",
+        "B. Line voltage and phase voltage are always the same",
+        "C. Line current is √3 times phase current"
+      ],
+      "correctIndex": 0,
+      "explanation": "For a balanced star connection, line current is equal to phase current."
+    },
+    {
+      "id": 45,
+      "question": "Why are transformer cores laminated?",
+      "options": [
+        "A. To increase eddy-current losses",
+        "B. To decrease eddy-current losses",
+        "C. To increase winding resistance"
+      ],
+      "correctIndex": 1,
+      "explanation": "Thin insulated laminations increase the resistance to circulating eddy currents and therefore reduce eddy-current losses."
+    },
+    {
+      "id": 46,
+      "question": "In a balanced three-phase star/wye connection, the line voltage is —",
+      "options": [
+        "A. Equal to phase voltage",
+        "B. √3 times the phase voltage",
+        "C. One-third of the phase voltage"
+      ],
+      "correctIndex": 1,
+      "explanation": "For a balanced star connection, VL = √3 VP."
+    },
+    {
+      "id": 47,
+      "question": "An oscilloscope can be used to represent a signal's —",
+      "options": [
+        "A. Voltage versus time",
+        "B. Resistance versus temperature only",
+        "C. Mass versus volume"
+      ],
+      "correctIndex": 0,
+      "explanation": "The oscilloscope commonly displays voltage amplitude as a function of time, allowing waveform frequency and other characteristics to be observed."
+    },
+    {
+      "id": 48,
+      "question": "Why are electrical systems and equipment grounded?",
+      "options": [
+        "A. For safety",
+        "B. To increase resistance",
+        "C. To eliminate all current"
+      ],
+      "correctIndex": 0,
+      "explanation": "Grounding provides a safe path for fault current and helps protect people and equipment from electric shock and damage."
+    },
+    {
+      "id": 49,
+      "question": "In a balanced three-phase delta connection, the magnitude of line current is —",
+      "options": [
+        "A. Equal to phase current",
+        "B. √3 times the phase current",
+        "C. One-third of phase current"
+      ],
+      "correctIndex": 1,
+      "explanation": "For a balanced delta connection, IL = √3 IP."
+    },
+    {
+      "id": 50,
+      "question": "A digital multimeter can typically measure —",
+      "options": [
+        "A. AC/DC voltage, AC/DC current, and resistance",
+        "B. Only resistance",
+        "C. Only AC voltage"
+      ],
+      "correctIndex": 0,
+      "explanation": "A typical digital multimeter provides measurements such as AC/DC voltage, AC/DC current, and resistance."
+    },
+    {
+      "id": 51,
+      "question": "If the period of an AC waveform is 25 ms, what is its frequency?",
+      "options": [
+        "A. 4 Hz",
+        "B. 40 Hz",
+        "C. 400 Hz"
+      ],
+      "correctIndex": 1,
+      "explanation": "Frequency is f = 1/T. With T = 25 ms = 0.025 s, f = 1/0.025 = 40 Hz."
+    },
+    {
+      "id": 52,
+      "question": "Which statement about apparent power and true power is generally correct for an AC circuit?",
+      "options": [
+        "A. Apparent power is always less than true power",
+        "B. Apparent power is equal to reactive power only",
+        "C. Apparent power is equal to or greater than true power"
+      ],
+      "correctIndex": 2,
+      "explanation": "Apparent power S is the vector combination of true and reactive power, so its magnitude is equal to or greater than true power P."
+    },
+    {
+      "id": 53,
+      "question": "The peak value of a sinusoidal AC quantity is approximately —",
+      "options": [
+        "A. 0.707 times the RMS value",
+        "B. 1.41 times the RMS value",
+        "C. 2.82 times the RMS value"
+      ],
+      "correctIndex": 1,
+      "explanation": "For a sine wave, RMS = peak/√2, so peak = 1.414 × RMS."
+    }
+  ]
+}

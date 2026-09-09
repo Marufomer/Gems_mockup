@@ -1,0 +1,1177 @@
+{
+  "id": "avo1-part-2",
+  "title": "AVO1-part-2",
+  "module": "AVO1 – Part 2",
+  "description": "Exam covering AC circuits, transformers, filters, measuring instruments, resonance, three-phase systems, and electrical measurements.",
+  "durationMinutes": 150,
+  "totalQuestions": 106,
+  "color": "blue",
+  "questions": [
+    {
+      "id": 1,
+      "question": "In a delta 3-phase AC load:",
+      "options": [
+        "A. VL = √3 VP, IL = √3 IP",
+        "B. VL = VP, IL = IP",
+        "C. VL = VP, IL = √3 IP"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is VL = VP, IL = √3 IP. This follows the standard electrical principle associated with the question."
+    },
+    {
+      "id": 2,
+      "question": "___ allows all frequency above the cut-off to pass",
+      "options": [
+        "A. high pass filter",
+        "B. band-pass filter",
+        "C. high-pass filter"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is high pass filter. This follows the standard electrical principle associated with the question."
+    },
+    {
+      "id": 3,
+      "question": "The power factor in a resonant RLC circuit is",
+      "options": [
+        "A. infinity",
+        "B. unity (1)",
+        "C. 0.5"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is unity (1). This follows the standard electrical principle associated with the question."
+    },
+    {
+      "id": 4,
+      "question": "In a pure resistive circuit",
+      "options": [
+        "A. phase shift is zero and PF is 100%",
+        "B. 180° phase shift and PF is 50%",
+        "C. the phase shift is zero and the PF is 100%"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is the phase shift is zero and the PF is 100%. This follows the standard electrical principle associated with the question."
+    },
+    {
+      "id": 5,
+      "question": "Reactive power is measured in",
+      "options": [
+        "A. Volt-Ampere reactive",
+        "B. Watt",
+        "C. Volt"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is Volt-Ampere reactive. This follows the standard electrical principle associated with the question."
+    },
+    {
+      "id": 6,
+      "question": "Band reject filters does the exact opposite of",
+      "options": [
+        "A. band-pass filter",
+        "B. Band pass filter",
+        "C. band-stop filter"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is Band pass filter. This follows the standard electrical principle associated with the question."
+    },
+    {
+      "id": 7,
+      "question": "The purpose of filters is for",
+      "options": [
+        "A. frequency selection",
+        "B. voltage regulation",
+        "C. current amplification"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is frequency selection. This follows the standard electrical principle associated with the question."
+    },
+    {
+      "id": 8,
+      "question": "The resistance of Ammeter",
+      "options": [
+        "A. low resistance",
+        "B. high resistance",
+        "C. medium resistance"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is low resistance. This follows the standard electrical principle associated with the question."
+    },
+    {
+      "id": 9,
+      "question": "Average voltage",
+      "options": [
+        "A. 1.414 Vpeak",
+        "B. 0.707 Vpeak",
+        "C. 0.638 Vpeak"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is 0.638 Vpeak. This follows the standard electrical principle associated with the question."
+    },
+    {
+      "id": 10,
+      "question": "no line between winding",
+      "options": [
+        "A. air core",
+        "B. iron core",
+        "C. ferrite core"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is air core. This follows the standard electrical principle associated with the question."
+    },
+    {
+      "id": 11,
+      "question": "In an oscilloscope vertical position = 4, x10 probe, attenuation; 5 Volt/Div, what is peak-topeak and Vrms",
+      "options": [
+        "A. 200 V peak-to-peak and 70.7 V RMS",
+        "B. 20 V peak-to-peak and 7.07 V RMS",
+        "C. 200 V peak-to-peak and 141.4 V RMS"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 200 V peak-to-peak and 70.7 V RMS. This follows the standard electrical principle associated with the question."
+    },
+    {
+      "id": 12,
+      "question": "opposition to flow of current in a purely capacitive circuit",
+      "options": [
+        "A. capacitive reactance",
+        "B. resistance",
+        "C. inductive reactance"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is capacitive reactance. This follows the standard electrical principle associated with the question."
+    },
+    {
+      "id": 13,
+      "question": "opposition to flow of current in a purely inductive circuit",
+      "options": [
+        "A. capacitive reactance",
+        "B. resistance",
+        "C. inductive reactance"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is inductive reactance. This follows the standard electrical principle associated with the question."
+    },
+    {
+      "id": 14,
+      "question": "which one of the following is not basic element of a transformer",
+      "options": [
+        "A. secondary winding",
+        "B. primary winding",
+        "C. mutual flux"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is mutual flux. This follows the standard electrical principle associated with the question."
+    },
+    {
+      "id": 15,
+      "question": "power dissipated on a resistor",
+      "options": [
+        "A. active power",
+        "B. apparent power",
+        "C. reactive power"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is active power. This follows the standard electrical principle associated with the question."
+    },
+    {
+      "id": 16,
+      "question": "Two AC signals which can be added like DC",
+      "options": [
+        "A. 180° out of phase",
+        "B. in quadrature",
+        "C. in phase"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is in phase. This follows the standard electrical principle associated with the question."
+    },
+    {
+      "id": 17,
+      "question": "End-to-End connection in 3 phase",
+      "options": [
+        "A. delta",
+        "B. series",
+        "C. star"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is delta. This follows the standard electrical principle associated with the question."
+    },
+    {
+      "id": 18,
+      "question": "Current sensitivity is used to",
+      "options": [
+        "A. measure frequency",
+        "B. deflect to full scale",
+        "C. measure resistance"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is deflect to full scale. This follows the standard electrical principle associated with the question."
+    },
+    {
+      "id": 19,
+      "question": "long range transmission is achieved by",
+      "options": [
+        "A. rectifier",
+        "B. transformer",
+        "C. capacitor"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is transformer. This follows the standard electrical principle associated with the question."
+    },
+    {
+      "id": 20,
+      "question": "What happens to the secondary current when number of turns in secondary is tripled",
+      "options": [
+        "A. three times",
+        "B. unchanged",
+        "C. one third"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is one third. This follows the standard electrical principle associated with the question."
+    },
+    {
+      "id": 21,
+      "question": "The voltmeter range is increasing using",
+      "options": [
+        "A. parallel resistance",
+        "B. shunt capacitance",
+        "C. series resistance"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is series resistance. This follows the standard electrical principle associated with the question."
+    },
+    {
+      "id": 22,
+      "question": "Which is function of transformers",
+      "options": [
+        "A. convert AC to DC",
+        "B. increase frequency",
+        "C. step down AC voltage and current"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is step down AC voltage and current. This follows the standard electrical principle associated with the question."
+    },
+    {
+      "id": 23,
+      "question": "The ratio of active power to apparent power is",
+      "options": [
+        "A. efficiency",
+        "B. form factor",
+        "C. power factor"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is power factor. This follows the standard electrical principle associated with the question."
+    },
+    {
+      "id": 24,
+      "question": "The effective value of a sine wave is known as",
+      "options": [
+        "A. average value",
+        "B. root mean square (RMS) value",
+        "C. the root mean square (RMS) value"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is the root mean square (RMS) value. This follows the standard electrical principle associated with the question."
+    },
+    {
+      "id": 25,
+      "question": "The primary winding of a transformer",
+      "options": [
+        "A. can be either low-voltage or high-voltage winding",
+        "B. always a high-voltage winding",
+        "C. can be either low voltage winding or high voltage winding"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is can be either low voltage winding or high voltage winding. This follows the standard electrical principle associated with the question."
+    },
+    {
+      "id": 26,
+      "question": "capacitive reactance is more if",
+      "options": [
+        "A. capacitor is less and frequency is greater",
+        "B. capacitor is greater and frequency is greater",
+        "C. capacitor is less and frequency is less"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is capacitor is less and frequency is less. This follows the standard electrical principle associated with the question."
+    },
+    {
+      "id": 27,
+      "question": "The ability of material to conduct magnetic flux through it",
+      "options": [
+        "A. permeability",
+        "B. reluctance",
+        "C. conductivity"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is permeability. This follows the standard electrical principle associated with the question."
+    },
+    {
+      "id": 28,
+      "question": "The dot in transformer",
+      "options": [
+        "A. winding resistance",
+        "B. phase difference/polarity relationship between windings",
+        "C. core material"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is phase difference/polarity relationship between windings. This follows the standard electrical principle associated with the question."
+    },
+    {
+      "id": 29,
+      "question": "rise, width, fall",
+      "options": [
+        "A. triangle wave",
+        "B. square wave",
+        "C. sine wave"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is square wave. This follows the standard electrical principle associated with the question."
+    },
+    {
+      "id": 30,
+      "question": "In purely inductive circuit",
+      "options": [
+        "A. active power is zero",
+        "B. active power is maximum",
+        "C. reactive power is zero"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is active power is zero. This follows the standard electrical principle associated with the question."
+    },
+    {
+      "id": 31,
+      "question": "To measure current in ammeter ideally the resistant should be",
+      "options": [
+        "A. very high",
+        "B. very low",
+        "C. infinite"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is very low. This follows the standard electrical principle associated with the question."
+    },
+    {
+      "id": 32,
+      "question": "Wattmeter is used to measure",
+      "options": [
+        "A. reactive power",
+        "B. active power",
+        "C. apparent power"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is active power. This follows the standard electrical principle associated with the question."
+    },
+    {
+      "id": 33,
+      "question": "In a delta connection",
+      "options": [
+        "A. line voltage is √3 times phase voltage",
+        "B. line voltage is equal to phase voltage",
+        "C. phase voltage is √3 times line voltage"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is line voltage is equal to phase voltage. This follows the standard electrical principle associated with the question."
+    },
+    {
+      "id": 34,
+      "question": "When measuring its output of generating heat, one of the values generate equal amount of AC",
+      "options": [
+        "A. peak-to-peak value",
+        "B. average value",
+        "C. RMS value"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is RMS value. This follows the standard electrical principle associated with the question."
+    },
+    {
+      "id": 35,
+      "question": "In series RLC resonant circuit the total impedance is",
+      "options": [
+        "A. minimum",
+        "B. maximum",
+        "C. infinite"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is minimum. This follows the standard electrical principle associated with the question."
+    },
+    {
+      "id": 36,
+      "question": "high frequency transformer core material is",
+      "options": [
+        "A. laminated steel core",
+        "B. copper core",
+        "C. air core"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is air core. This follows the standard electrical principle associated with the question."
+    },
+    {
+      "id": 37,
+      "question": "Energy is transferred from primary to secondary winding in a transformer by",
+      "options": [
+        "A. resistance",
+        "B. flux",
+        "C. current"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is flux. This follows the standard electrical principle associated with the question."
+    },
+    {
+      "id": 38,
+      "question": "which one of the following is not true about passive filters",
+      "options": [
+        "A. pass all frequencies",
+        "B. block high frequencies",
+        "C. easier to design"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is easier to design. This follows the standard electrical principle associated with the question."
+    },
+    {
+      "id": 39,
+      "question": "low pass filters",
+      "options": [
+        "A. across the source only",
+        "B. in series with the circuit",
+        "C. block high frequency passing through"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is block high frequency passing through. This follows the standard electrical principle associated with the question."
+    },
+    {
+      "id": 40,
+      "question": "An ammeter is connected",
+      "options": [
+        "A. in series to circuit",
+        "B. wattmeter",
+        "C. megohmmeter"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is in series to circuit. This follows the standard electrical principle associated with the question."
+    },
+    {
+      "id": 41,
+      "question": "Convert AC to DC",
+      "options": [
+        "A. digital filter",
+        "B. rectifier",
+        "C. passive filter"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is rectifier. This follows the standard electrical principle associated with the question."
+    },
+    {
+      "id": 42,
+      "question": "Instrument used for high value of resistance measurement",
+      "options": [
+        "A. saw-tooth",
+        "B. megohmmeter",
+        "C. triangular wave"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is megohmmeter. This follows the standard electrical principle associated with the question."
+    },
+    {
+      "id": 43,
+      "question": "Types of filter made by using resistors, capacitors, or inductors is called",
+      "options": [
+        "A. inductance",
+        "B. resonance",
+        "C. passive filter"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is passive filter. This follows the standard electrical principle associated with the question."
+    },
+    {
+      "id": 44,
+      "question": "which type of wave form ramps upward and then sharply drops",
+      "options": [
+        "A. saw-tooth",
+        "B. requires DC input",
+        "C. has high copper loss"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is saw-tooth. This follows the standard electrical principle associated with the question."
+    },
+    {
+      "id": 45,
+      "question": "___ defined capacitance and inductance are equal and opposite",
+      "options": [
+        "A. two",
+        "B. resonance",
+        "C. four"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is resonance. This follows the standard electrical principle associated with the question."
+    },
+    {
+      "id": 46,
+      "question": "Ideal transformer",
+      "options": [
+        "A. power transformer",
+        "B. communication cable",
+        "C. no loss and no magnetic leakage"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is no loss and no magnetic leakage. This follows the standard electrical principle associated with the question."
+    },
+    {
+      "id": 47,
+      "question": "In each complete cycle of AC are always maximum of peak values",
+      "options": [
+        "A. 2",
+        "B. soft iron core",
+        "C. copper core"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 2. This follows the standard electrical principle associated with the question."
+    },
+    {
+      "id": 48,
+      "question": "Characteristic impedance of 75 Ω indicates 75 Ω load for a pulse signal",
+      "options": [
+        "A. zero deflection",
+        "B. half deflection",
+        "C. communication cable"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is communication cable. This follows the standard electrical principle associated with the question."
+    },
+    {
+      "id": 49,
+      "question": "Hysteresis loss can be reduced by",
+      "options": [
+        "A. multi phase",
+        "B. DC only",
+        "C. soft iron core"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is soft iron core. This follows the standard electrical principle associated with the question."
+    },
+    {
+      "id": 50,
+      "question": "When we use DC ammeter in AC",
+      "options": [
+        "A. zero deflection",
+        "B. direct relation with quantity being measured",
+        "C. no relation"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is zero deflection. This follows the standard electrical principle associated with the question."
+    },
+    {
+      "id": 51,
+      "question": "In many practical application it can be advantage to use",
+      "options": [
+        "A. multi phase",
+        "B. infinity",
+        "C. one"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is multi phase. This follows the standard electrical principle associated with the question."
+    },
+    {
+      "id": 52,
+      "question": "torque deflection",
+      "options": [
+        "A. RMS value to average value",
+        "B. average value to RMS value",
+        "C. peak value to average value"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is RMS value to average value. This follows the standard electrical principle associated with the question."
+    },
+    {
+      "id": 53,
+      "question": "when ohmmeter is in open circuit it reads",
+      "options": [
+        "A. half the peak",
+        "B. twice the peak",
+        "C. equal to the peak"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is twice the peak. This follows the standard electrical principle associated with the question."
+    },
+    {
+      "id": 54,
+      "question": "The form factor is the ratio of",
+      "options": [
+        "A. change in resistance",
+        "B. change in capacitance",
+        "C. RMS value to average value"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is RMS value to average value. This follows the standard electrical principle associated with the question."
+    },
+    {
+      "id": 55,
+      "question": "A triangular wave peak to peak value is",
+      "options": [
+        "A. real power",
+        "B. twice of the peak",
+        "C. apparent power"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is twice of the peak. This follows the standard electrical principle associated with the question."
+    },
+    {
+      "id": 56,
+      "question": "A voltage that changes level instantaneously is a char of",
+      "options": [
+        "A. square wave",
+        "B. lagging",
+        "C. in phase"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is square wave. This follows the standard electrical principle associated with the question."
+    },
+    {
+      "id": 57,
+      "question": "In AC power alternates due to",
+      "options": [
+        "A. 0°",
+        "B. 180°",
+        "C. change in polarity"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is change in polarity. This follows the standard electrical principle associated with the question."
+    },
+    {
+      "id": 58,
+      "question": "The power in a purely resistive AC circuit is",
+      "options": [
+        "A. electrostatic induction",
+        "B. real power",
+        "C. electrolysis"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is real power. This follows the standard electrical principle associated with the question."
+    },
+    {
+      "id": 59,
+      "question": "In purely inductive circuit current-voltage",
+      "options": [
+        "A. lagging",
+        "B. inductance",
+        "C. capacitance"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is lagging. This follows the standard electrical principle associated with the question."
+    },
+    {
+      "id": 60,
+      "question": "the phase angle of a pure resistor is",
+      "options": [
+        "A. apparent power",
+        "B. 0 (I and V are in phase)",
+        "C. reactive power"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is 0 (I and V are in phase). This follows the standard electrical principle associated with the question."
+    },
+    {
+      "id": 61,
+      "question": "What is the principle of transformer",
+      "options": [
+        "A. capacitors",
+        "B. mutual induction",
+        "C. transistors"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is mutual induction. This follows the standard electrical principle associated with the question."
+    },
+    {
+      "id": 62,
+      "question": "Reciprocal of resistance",
+      "options": [
+        "A. the same value",
+        "B. conductance",
+        "C. zero"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is conductance. This follows the standard electrical principle associated with the question."
+    },
+    {
+      "id": 63,
+      "question": "which AC power system is the working power",
+      "options": [
+        "A. AC only",
+        "B. both AC and DC equally",
+        "C. true power"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is true power. This follows the standard electrical principle associated with the question."
+    },
+    {
+      "id": 64,
+      "question": "The main components used in AC filters are",
+      "options": [
+        "A. capacitors",
+        "B. silicon steel",
+        "C. aluminum"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is capacitors. This follows the standard electrical principle associated with the question."
+    },
+    {
+      "id": 65,
+      "question": "frequency in each 3 phase voltages have",
+      "options": [
+        "A. produce voltage",
+        "B. reduce oscillation",
+        "C. the same value"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is the same value. This follows the standard electrical principle associated with the question."
+    },
+    {
+      "id": 66,
+      "question": "a transformer operates on",
+      "options": [
+        "A. AC only",
+        "B. measure frequency",
+        "C. bypass excess current and extend measuring range"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is AC only. This follows the standard electrical principle associated with the question."
+    },
+    {
+      "id": 67,
+      "question": "the material commonly used for transformer core is",
+      "options": [
+        "A. to measure temperature",
+        "B. silicon steel",
+        "C. to identify polarity"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is silicon steel. This follows the standard electrical principle associated with the question."
+    },
+    {
+      "id": 68,
+      "question": "the function of the damping system is to",
+      "options": [
+        "A. series RLC at resonance only",
+        "B. purely resistive only",
+        "C. reduce oscillation"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is reduce oscillation. This follows the standard electrical principle associated with the question."
+    },
+    {
+      "id": 69,
+      "question": "The shunt in an ammeter is used to",
+      "options": [
+        "A. hysteresis loss",
+        "B. copper loss",
+        "C. bypass excess current and extend measuring range"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is bypass excess current and extend measuring range. This follows the standard electrical principle associated with the question."
+    },
+    {
+      "id": 70,
+      "question": "use of electrodynamometer",
+      "options": [
+        "A. true power",
+        "B. to identify polarity",
+        "C. apparent power"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is to identify polarity. This follows the standard electrical principle associated with the question."
+    },
+    {
+      "id": 71,
+      "question": "In which circuit is the power factor zero",
+      "options": [
+        "A. resistor",
+        "B. inductor",
+        "C. capacitor"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is inductor. This follows the standard electrical principle associated with the question."
+    },
+    {
+      "id": 72,
+      "question": "loss due to continuous magnetization & demagnetization",
+      "options": [
+        "A. hysteresis loss",
+        "B. +Vm = -Vm",
+        "C. +Vm = 2Vm"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is hysteresis loss. This follows the standard electrical principle associated with the question."
+    },
+    {
+      "id": 73,
+      "question": "Apparent power times cosθ",
+      "options": [
+        "A. true power",
+        "B. eliminate all losses",
+        "C. reduce winding material"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is true power. This follows the standard electrical principle associated with the question."
+    },
+    {
+      "id": 74,
+      "question": "prototype of a high pass filter, what is connected in shunt",
+      "options": [
+        "A. apparent power is always less than true power",
+        "B. apparent power is always zero",
+        "C. apparent power is always greater than or equal to true power"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is apparent power is always greater than or equal to true power. This follows the standard electrical principle associated with the question."
+    },
+    {
+      "id": 75,
+      "question": "In a symmetric, non-sinusoidal what is the max values",
+      "options": [
+        "A. 0.707 peak",
+        "B. +Vm = -Vm",
+        "C. peak"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is +Vm = -Vm. This follows the standard electrical principle associated with the question."
+    },
+    {
+      "id": 76,
+      "question": "Advantage of autotransformer",
+      "options": [
+        "A. during turning on and off",
+        "B. reduce winding material",
+        "C. never"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is reduce winding material. This follows the standard electrical principle associated with the question."
+    },
+    {
+      "id": 77,
+      "question": "which one of the following is true",
+      "options": [
+        "A. apparent power is always greater the actual true power",
+        "B. chemical field",
+        "C. gravitational field"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is apparent power is always greater the actual true power. This follows the standard electrical principle associated with the question."
+    },
+    {
+      "id": 78,
+      "question": "Irms is equal with",
+      "options": [
+        "A. 0.707 peak",
+        "B. it measures only AC",
+        "C. it has no power source"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 0.707 peak. This follows the standard electrical principle associated with the question."
+    },
+    {
+      "id": 79,
+      "question": "Inductor affect DC current in",
+      "options": [
+        "A. is always in phase",
+        "B. during turning on and off",
+        "C. leads source voltage"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is during turning on and off. This follows the standard electrical principle associated with the question."
+    },
+    {
+      "id": 80,
+      "question": "Electrical measuring meter use some effect these are",
+      "options": [
+        "A. magnetic field",
+        "B. ground winding",
+        "C. high-voltage winding"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is magnetic field. This follows the standard electrical principle associated with the question."
+    },
+    {
+      "id": 81,
+      "question": "Ohm meter current measuring instrument like voltmeter and ammeter but differ",
+      "options": [
+        "A. it has its own power",
+        "B. kΩ/V",
+        "C. V/kΩ"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is it has its own power. This follows the standard electrical principle associated with the question."
+    },
+    {
+      "id": 82,
+      "question": "In RC circuit total current",
+      "options": [
+        "A. leads source voltage",
+        "B. moving-iron vane type instrument",
+        "C. electrostatic type"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is leads source voltage. This follows the standard electrical principle associated with the question."
+    },
+    {
+      "id": 83,
+      "question": "Transformer winding having high number of turns",
+      "options": [
+        "A. one",
+        "B. zero",
+        "C. high voltage winding"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is high voltage winding. This follows the standard electrical principle associated with the question."
+    },
+    {
+      "id": 84,
+      "question": "Multimeter sensitivity is measured in",
+      "options": [
+        "A. kΩ/V",
+        "B. decrease resistance to zero",
+        "C. extend the range and control voltage"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is kΩ/V. This follows the standard electrical principle associated with the question."
+    },
+    {
+      "id": 85,
+      "question": "Which one of following use force of repulsion for meter movement",
+      "options": [
+        "A. reactive power is greater than active power",
+        "B. both are always equal",
+        "C. moving iron vane type instrument"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is moving iron vane type instrument. This follows the standard electrical principle associated with the question."
+    },
+    {
+      "id": 86,
+      "question": "signal do not change at all frequency is",
+      "options": [
+        "A. remain unchanged",
+        "B. increase",
+        "C. zero"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is zero. This follows the standard electrical principle associated with the question."
+    },
+    {
+      "id": 87,
+      "question": "A multiplier in ammeter is used to",
+      "options": [
+        "A. zero frequency",
+        "B. extend the range & control voltage",
+        "C. high frequency"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is extend the range & control voltage. This follows the standard electrical principle associated with the question."
+    },
+    {
+      "id": 88,
+      "question": "on highly capacitive circuit",
+      "options": [
+        "A. current leads voltage by 90°",
+        "B. current is in phase with voltage",
+        "C. reactive power is greater than active power"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is reactive power is greater than active power. This follows the standard electrical principle associated with the question."
+    },
+    {
+      "id": 89,
+      "question": "If the capacitor in series RLC circuit decrease the resonant frequency",
+      "options": [
+        "A. isolation transformer",
+        "B. increase",
+        "C. step-up transformer"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is increase. This follows the standard electrical principle associated with the question."
+    },
+    {
+      "id": 90,
+      "question": "Skin effect occur when conductor pass",
+      "options": [
+        "A. connected across source voltage",
+        "B. connected to ground only",
+        "C. high frequency"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is high frequency. This follows the standard electrical principle associated with the question."
+    },
+    {
+      "id": 91,
+      "question": "Relationship b/n current and voltage in pure resistive circuit",
+      "options": [
+        "A. moving-iron meter",
+        "B. electrodynamometer",
+        "C. current is in phase with voltage"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is current is in phase with voltage. This follows the standard electrical principle associated with the question."
+    },
+    {
+      "id": 92,
+      "question": "Type of transformer having out higher than the input called",
+      "options": [
+        "A. chemical to electrical",
+        "B. electrical to mechanical",
+        "C. step-up transformer"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is step-up transformer. This follows the standard electrical principle associated with the question."
+    },
+    {
+      "id": 93,
+      "question": "Not true about ammeter",
+      "options": [
+        "A. focus",
+        "B. horizontal position",
+        "C. connected across source voltage"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is connected across source voltage. This follows the standard electrical principle associated with the question."
+    },
+    {
+      "id": 94,
+      "question": "Meter that not used to measure AC measurements",
+      "options": [
+        "A. vertical position",
+        "B. time/div",
+        "C. D'Arsonval meter"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is D'Arsonval meter. This follows the standard electrical principle associated with the question."
+    },
+    {
+      "id": 95,
+      "question": "D'Arsonval meter changes",
+      "options": [
+        "A. open circuit",
+        "B. overvoltage",
+        "C. electrical to mechanical"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is electrical to mechanical. This follows the standard electrical principle associated with the question."
+    },
+    {
+      "id": 96,
+      "question": "___ controls the electron beam as it is aimed and converges on the screen",
+      "options": [
+        "A. time & voltage (T/V)",
+        "B. power & frequency only",
+        "C. resistance & current"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is time & voltage (T/V). This follows the standard electrical principle associated with the question."
+    },
+    {
+      "id": 97,
+      "question": "___ moves the trace image up or down allowing better observation and measurements",
+      "options": [
+        "A. in open circuit",
+        "B. vertical position",
+        "C. in parallel with the circuit"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is vertical position. This follows the standard electrical principle associated with the question."
+    },
+    {
+      "id": 98,
+      "question": "Common fault in inductor (i.e. when inductor is completely failed it is characterized by)",
+      "options": [
+        "A. triangular wave",
+        "B. square wave",
+        "C. open circuit"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is open circuit. This follows the standard electrical principle associated with the question."
+    },
+    {
+      "id": 99,
+      "question": "Oscilloscope is used to represent",
+      "options": [
+        "A. measure resistance",
+        "B. time & frequency T/V",
+        "C. increase voltage"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is time & frequency T/V. This follows the standard electrical principle associated with the question."
+    },
+    {
+      "id": 100,
+      "question": "Voltage drop meter measurement",
+      "options": [
+        "A. decrease eddy current",
+        "B. meter in parallel with the circuit",
+        "C. increase copper loss"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is meter in parallel with the circuit. This follows the standard electrical principle associated with the question."
+    },
+    {
+      "id": 101,
+      "question": "What type of signal is used in digital circuit in input and output gates",
+      "options": [
+        "A. one-third of phase current",
+        "B. square wave",
+        "C. √3 times the phase current"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is square wave. This follows the standard electrical principle associated with the question."
+    },
+    {
+      "id": 102,
+      "question": "Hairspring is used to",
+      "options": [
+        "A. provide controlling torque",
+        "B. only resistance",
+        "C. only AC current"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is provide controlling torque. This follows the standard electrical principle associated with the question."
+    },
+    {
+      "id": 103,
+      "question": "Laminated transformers to",
+      "options": [
+        "A. 2 times effective value",
+        "B. decrease eddy current",
+        "C. 1.41 times effective value"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is decrease eddy current. This follows the standard electrical principle associated with the question."
+    },
+    {
+      "id": 104,
+      "question": "In delta connection",
+      "options": [
+        "A. the magnitude of line current is √3 times the phase current",
+        "B. Option B",
+        "C. Option C"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is the magnitude of line current is √3 times the phase current. This follows the standard electrical principle associated with the question."
+    },
+    {
+      "id": 105,
+      "question": "Digital multimeter measures the",
+      "options": [
+        "A. Option B",
+        "B. AC & DC current, voltmeter and resistance",
+        "C. Option C"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is AC & DC current, voltmeter and resistance. This follows the standard electrical principle associated with the question."
+    },
+    {
+      "id": 106,
+      "question": "The peak value is",
+      "options": [
+        "A. Option B",
+        "B. Option C",
+        "C. 1.41 times the effective value"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is 1.41 times the effective value. This follows the standard electrical principle associated with the question."
+    }
+  ]
+}

@@ -1,0 +1,364 @@
+{
+  "1": {
+    "id": 1,
+    "title": "Aircraft Instruments – Introduction",
+    "module": "Avionics",
+    "totalQuestions": 100,
+    "durationMinutes": 150,
+    "questions": [
+      {
+        "id": 1,
+        "question": "What is the coefficient of expansion of brass when exposed to changes in temperature?",
+        "options": [
+          "Has a negligible coefficient of linear expansion",
+          "Has higher linear expansion",
+          "Is not affected by temperature changes"
+        ],
+        "correctIndex": 1,
+        "explanation": "Brass has a relatively high coefficient of thermal expansion compared to other metals like invar, which is why it is often used in bimetallic strips."
+      },
+      {
+        "id": 2,
+        "question": "Which instrument provides the pilot with attitude information without external visual reference?",
+        "options": [
+          "Altimeter",
+          "Artificial Horizon (Attitude Indicator)",
+          "Turn and Slip Indicator",
+          "Vertical Speed Indicator"
+        ],
+        "correctIndex": 1,
+        "explanation": "The Attitude Indicator (Artificial Horizon) uses a gyroscope to display pitch and roll relative to the Earth's horizon."
+      },
+      {
+        "id": 3,
+        "question": "Static pressure is fed into which of the following flight instruments?",
+        "options": [
+          "Altimeter, Airspeed Indicator, and Vertical Speed Indicator",
+          "Airspeed Indicator only",
+          "Altimeter and Turn Coordinator only",
+          "Attitude Indicator and Directional Gyro"
+        ],
+        "correctIndex": 0,
+        "explanation": "Static pressure is used by all three pitot-static instruments: the Altimeter, Airspeed Indicator, and Vertical Speed Indicator."
+      },
+      {
+        "id": 4,
+        "question": "In an aircraft pitot-static system, what happens to the airspeed indicator if the pitot tube drain and ram air hole freeze shut during climb?",
+        "options": [
+          "It reads zero immediately",
+          "It acts like an altimeter and indicates increasing airspeed",
+          "It freezes at the last indicated airspeed",
+          "It oscillates rapidly between high and low values"
+        ],
+        "correctIndex": 1,
+        "explanation": "Trapped air in the pitot chamber will act like an aneroid barometer, causing the airspeed indicator to read higher as ambient static pressure decreases during a climb."
+      },
+      {
+        "id": 5,
+        "question": "What is the primary function of a Bourdon tube in aircraft instrumentation?",
+        "options": [
+          "To measure high fluid or gas pressures such as hydraulic or oil pressure",
+          "To measure electrical voltage of the alternator",
+          "To indicate rate of turn",
+          "To detect cabin differential pressure"
+        ],
+        "correctIndex": 0,
+        "explanation": "A Bourdon tube is a curved, hollow metal tube that straightens under pressure, commonly used in high-pressure oil and hydraulic gauges."
+      },
+      {
+        "id": 6,
+        "question": "A thermocouple temperature sensor operates based on which physical principle?",
+        "options": [
+          "Piezoelectric effect",
+          "Seebeck thermoelectric effect",
+          "Faraday induction effect",
+          "Photoelectric effect"
+        ],
+        "correctIndex": 1,
+        "explanation": "Thermocouples work via the Seebeck effect: two dissimilar metals joined together produce a voltage proportional to temperature difference."
+      },
+      {
+        "id": 7,
+        "question": "What type of gyro is utilized in an aircraft turn coordinator?",
+        "options": [
+          "Rate-integrating gyro",
+          "Rate gyro with its gimbal tilted at approximately 30 degrees",
+          "Earth gyro with vertical axis",
+          "Tied gyro with north-seeking slave unit"
+        ],
+        "correctIndex": 1,
+        "explanation": "A turn coordinator uses a rate gyro canted at about 30 degrees so that it senses both rate of roll and rate of yaw."
+      },
+      {
+        "id": 8,
+        "question": "Which of the following errors is characteristic of a magnetic compass during acceleration on an east or west heading in the Northern Hemisphere?",
+        "options": [
+          "Apparent turn toward the South",
+          "Apparent turn toward the North",
+          "No error occurs on east or west headings",
+          "Oscillations between East and West"
+        ],
+        "correctIndex": 1,
+        "explanation": "ANDS rule: Accelerate North, Decelerate South when flying on easterly or westerly headings in the Northern Hemisphere."
+      },
+      {
+        "id": 9,
+        "question": "What is the calibrated airspeed (CAS) corrected for to obtain true airspeed (TAS)?",
+        "options": [
+          "Instrument error and position error",
+          "Density altitude (non-standard temperature and pressure)",
+          "Compressibility error only",
+          "Magnetic deviation and drift angle"
+        ],
+        "correctIndex": 1,
+        "explanation": "True Airspeed is Calibrated Airspeed corrected for altitude and non-standard temperature (air density variations)."
+      },
+      {
+        "id": 10,
+        "question": "What does the green arc on an airspeed indicator represent?",
+        "options": [
+          "Flap operating range",
+          "Normal operating airspeed range",
+          "Caution range",
+          "Never-exceed speed range"
+        ],
+        "correctIndex": 1,
+        "explanation": "The green arc indicates the normal operating range of the aircraft from Vs1 (stall speed clean) to Vno (maximum structural cruising speed)."
+      },
+      {
+        "id": 11,
+        "question": "Which instrument detects the rate of change in static pressure to indicate climb or descent rate?",
+        "options": [
+          "Vertical Speed Indicator (VSI)",
+          "Altimeter",
+          "Machmeter",
+          "Turn Coordinator"
+        ],
+        "correctIndex": 0,
+        "explanation": "The VSI utilizes a calibrated leak orifice to measure the differential pressure between inside and outside of an aneroid capsule as static pressure changes."
+      },
+      {
+        "id": 12,
+        "question": "What is the function of a flux valve (flux gate) in a slaved directional gyro system?",
+        "options": [
+          "To regulate vacuum suction pressure",
+          "To detect the horizontal component of the Earth's magnetic field",
+          "To cancel centrifugal force during turns",
+          "To measure fuel flow rate"
+        ],
+        "correctIndex": 1,
+        "explanation": "A flux valve senses the direction of the Earth's horizontal magnetic flux lines and sends correction signals to continuously slave the gyro."
+      },
+      {
+        "id": 13,
+        "question": "What does an Electronic Flight Instrument System (EFIS) PFD primarily display?",
+        "options": [
+          "Navigation maps and terrain radar only",
+          "Engine parameters and warning annunciations",
+          "Primary flight dynamics: attitude, airspeed, altitude, heading, and vertical speed",
+          "Electrical bus distribution and circuit breaker status"
+        ],
+        "correctIndex": 2,
+        "explanation": "The Primary Flight Display (PFD) consolidates the six core flight instruments into a single comprehensive glass screen."
+      },
+      {
+        "id": 14,
+        "question": "If an aircraft altimeter subscale is set to 29.92 inHg (1013.25 hPa), what altitude does it indicate?",
+        "options": [
+          "True Altitude",
+          "Absolute Altitude (AGL)",
+          "Pressure Altitude",
+          "Density Altitude"
+        ],
+        "correctIndex": 2,
+        "explanation": "Setting standard sea level pressure 29.92 inHg on the Kollsman window causes the altimeter to indicate Pressure Altitude."
+      },
+      {
+        "id": 15,
+        "question": "What is the purpose of an accelerometer (g-meter) on high-performance aircraft?",
+        "options": [
+          "To measure ground speed along the runway",
+          "To record structural load factors along the vertical aircraft axis",
+          "To calibrate fuel consumption",
+          "To determine crosswind drift"
+        ],
+        "correctIndex": 1,
+        "explanation": "Accelerometers record the positive and negative g-forces acting perpendicularly on the aircraft airframe during maneuvers or turbulence."
+      }
+    ]
+  },
+  "2": {
+    "id": 2,
+    "title": "Aircraft Powerplant – Introduction",
+    "module": "Powerplant",
+    "totalQuestions": 100,
+    "durationMinutes": 150,
+    "questions": [
+      {
+        "id": 1,
+        "question": "What are the four strokes of a reciprocating internal combustion engine in order?",
+        "options": [
+          "A. Intake, compression, power, exhaust",
+          "B. Compression, intake, ignition, power",
+          "C. Suction, spark, combustion, scavenging",
+          "D. Fuel delivery, compression, expansion, scavenge"
+        ],
+        "correctIndex": 0,
+        "explanation": "The four-stroke Otto cycle sequence is intake, compression, power, and exhaust."
+      },
+      {
+        "id": 2,
+        "question": "What is the primary function of an aircraft engine turbocharger?",
+        "options": [
+          "A. To cool cylinder head temperatures",
+          "B. To maintain sea-level manifold pressure at higher altitudes",
+          "C. To directly drive the propeller gearbox",
+          "D. To vaporize fuel before entering the cylinders"
+        ],
+        "correctIndex": 1,
+        "explanation": "A turbocharger maintains sea-level rated manifold pressure as ambient atmospheric pressure falls with increasing altitude."
+      },
+      {
+        "id": 3,
+        "question": "In a gas turbine engine, which section experiences the highest gas temperatures?",
+        "options": [
+          "A. Diffuser inlet",
+          "B. High-pressure compressor stage",
+          "C. Turbine inlet guide vanes and first-stage turbine nozzle",
+          "D. Exhaust nozzle exit cone"
+        ],
+        "correctIndex": 2,
+        "explanation": "The turbine nozzle and first-stage turbine guide vanes bear the extreme hot combustion gas directly from the combustor."
+      },
+      {
+        "id": 4,
+        "question": "The VSV position during engine start-up is:",
+        "options": [
+          "A. Fully closed",
+          "B. Fully open",
+          "C. 50% open",
+          "D. Controlled by FADEC"
+        ],
+        "correctIndex": 0,
+        "explanation": "During engine start-up, the Variable Stator Vanes (VSV) are in the fully closed position to provide high pressure ratio and stable airflow through the compressor."
+      },
+      {
+        "id": 5,
+        "question": "What causes magneto timing drift in piston aero engines?",
+        "options": [
+          "A. Breaker point contact wear and cam follower wear",
+          "B. Changes in battery voltage",
+          "C. Oil viscosity changes",
+          "D. Alternator belt slippage"
+        ],
+        "correctIndex": 0,
+        "explanation": "Breaker point contact erosion and rubbing block/cam follower wear are the main causes of internal timing drift in aircraft magnetos."
+      },
+      {
+        "id": 6,
+        "question": "What is the primary purpose of twin magnetos in an aircraft piston engine?",
+        "options": [
+          "A. To charge dual 24V batteries simultaneously",
+          "B. Redundancy for safety and more complete fuel combustion via dual spark plugs",
+          "C. One operates cylinders 1-3 and the other operates 4-6",
+          "D. To provide electrical power to cockpit avionics"
+        ],
+        "correctIndex": 1,
+        "explanation": "Dual magnetos offer dual redundancy if one fails, and two spark plugs per cylinder yield more complete, faster combustion."
+      },
+      {
+        "id": 7,
+        "question": "What is the function of a deaerator?",
+        "options": [
+          "A. Removes air and gases from fuel and lubricating oil systems",
+          "B. Increases engine bleed air pressure for anti-icing",
+          "C. Cools hydraulic fluid prior to pump intake",
+          "D. Equalizes cabin differential pressure"
+        ],
+        "correctIndex": 0,
+        "explanation": "A deaerator separates entrapped air bubbles and volatile vapor from fuel or lubricating engine oil, preventing pump cavitation and foaming."
+      },
+      {
+        "id": 8,
+        "question": "Which component regulates fuel flow in a modern commercial turbofan engine?",
+        "options": [
+          "A. Mechanical butterfly valve",
+          "B. Hydro-mechanical unit (HMU) commanded by FADEC/EEC",
+          "C. Gravity-feed siphon tube",
+          "D. Exhaust back-pressure regulator"
+        ],
+        "correctIndex": 1,
+        "explanation": "The Full Authority Digital Engine Control (FADEC) commands the Hydro-Mechanical Unit (HMU) torque motor to precisely meter fuel flow."
+      }
+    ]
+  },
+  "3": {
+    "id": 3,
+    "title": "Aircraft Airframe – Introduction",
+    "module": "Airframe",
+    "totalQuestions": 100,
+    "durationMinutes": 150,
+    "questions": [
+      {
+        "id": 1,
+        "question": "Which structural member in a semi-monocoque fuselage carries the primary bending loads?",
+        "options": [
+          "A. Longerons and stringers",
+          "B. Bulkheads and formers only",
+          "C. Fabric skin covering",
+          "D. Window retaining clips"
+        ],
+        "correctIndex": 0,
+        "explanation": "Longerons are heavy longitudinal members that absorb and transfer principal bending loads in a semi-monocoque fuselage."
+      },
+      {
+        "id": 2,
+        "question": "What is the primary hazard of intergranular corrosion in aluminum airframe alloys?",
+        "options": [
+          "A. It only discolors the exterior paint coating",
+          "B. It forms along the grain boundaries unseen from the surface and causes sudden structural failure",
+          "C. It lubricates fasteners excessively",
+          "D. It increases electrical resistance of static wicks"
+        ],
+        "correctIndex": 1,
+        "explanation": "Intergranular corrosion attacks the grain boundaries inside high-strength aluminum alloys, weakening structure without noticeable exterior clues."
+      },
+      {
+        "id": 3,
+        "question": "What aerodynamic control surface controls aircraft yaw?",
+        "options": [
+          "A. Ailerons",
+          "B. Elevator",
+          "C. Rudder",
+          "D. Flaps"
+        ],
+        "correctIndex": 2,
+        "explanation": "The rudder is hinged to the vertical stabilizer and controls aircraft motion about the vertical axis (yaw)."
+      },
+      {
+        "id": 4,
+        "question": "What is the purpose of vortex generators mounted along the upper surface of a wing?",
+        "options": [
+          "A. To increase cruising speed by 20%",
+          "B. To delay boundary layer separation and prevent stall at high angles of attack",
+          "C. To generate lift while parked on the ground",
+          "D. To dump lift during landing rollout"
+        ],
+        "correctIndex": 1,
+        "explanation": "Vortex generators energize the boundary layer by mixing high-energy air downward, delaying aerodynamic stall."
+      },
+      {
+        "id": 5,
+        "question": "Which type of hydraulic fluid is synthetic, fire-resistant, and colored purple?",
+        "options": [
+          "A. MIL-H-5606 (mineral-based, red)",
+          "B. Skydrol (phosphate ester base, purple)",
+          "C. Dextron automatic fluid",
+          "D. Castrol vegetable brake oil"
+        ],
+        "correctIndex": 1,
+        "explanation": "Skydrol is a phosphate ester-based synthetic hydraulic fluid with extreme fire resistance, dyed purple for identification."
+      }
+    ]
+  }
+}

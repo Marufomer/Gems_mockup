@@ -1,0 +1,616 @@
+{
+  "id": "avo-1-module-1-2",
+  "title": "AVO-1 – Module 1, 2",
+  "module": "AVO-1 – Module 1, 2",
+  "description": "Final exam covering basic electrical theory, resistance, capacitance, inductance, magnetism, generators, and fundamental electrical principles.",
+  "durationMinutes": 150,
+  "totalQuestions": 55,
+  "color": "blue",
+  "questions": [
+    {
+      "id": 1,
+      "question": "As the cross-sectional area of a resistor increases, the resistance value will —",
+      "options": [
+        "A. Decrease",
+        "B. Increase",
+        "C. Remain unchanged"
+      ],
+      "correctIndex": 0,
+      "explanation": "For a conductor of the same material and length, resistance is inversely proportional to cross-sectional area."
+    },
+    {
+      "id": 2,
+      "question": "Which of the following is NOT a factor affecting the resistance of a conductor of a given material at constant temperature?",
+      "options": [
+        "A. Length of the conductor",
+        "B. Cross-sectional area",
+        "C. Directivity of the material"
+      ],
+      "correctIndex": 2,
+      "explanation": "Resistance depends on length, cross-sectional area, material resistivity, and temperature. Directivity is not a standard resistance factor."
+    },
+    {
+      "id": 3,
+      "question": "What is the total current in a series circuit?",
+      "options": [
+        "A. IT = I1 = I2 = ... = In",
+        "B. IT = I1 + I2 + ... + In",
+        "C. IT = I1 − I2"
+      ],
+      "correctIndex": 0,
+      "explanation": "The same current flows through every component in a series circuit."
+    },
+    {
+      "id": 4,
+      "question": "Which type of material usually cuts across magnetic lines of force?",
+      "options": [
+        "A. Ferromagnetic",
+        "B. Diamagnetic",
+        "C. Paramagnetic"
+      ],
+      "correctIndex": 1,
+      "explanation": "Diamagnetic materials tend to move away from regions of stronger magnetic field and are weakly repelled by magnetic fields."
+    },
+    {
+      "id": 5,
+      "question": "Electricity is produced in a generator by the principle of —",
+      "options": [
+        "A. Electrostatic attraction",
+        "B. Electromagnetic induction",
+        "C. Chemical reaction"
+      ],
+      "correctIndex": 1,
+      "explanation": "A generator produces EMF when a conductor experiences a changing magnetic flux, which is electromagnetic induction."
+    },
+    {
+      "id": 6,
+      "question": "Electric current in a metallic conductor is the flow of electrons from —",
+      "options": [
+        "A. Positive plate to negative plate",
+        "B. Negative plate to positive plate",
+        "C. Neutral point to positive plate"
+      ],
+      "correctIndex": 1,
+      "explanation": "Electron flow in a metallic conductor is from negative toward positive; conventional current is in the opposite direction."
+    },
+    {
+      "id": 7,
+      "question": "When temperature increases, the resistance of a pure metal generally —",
+      "options": [
+        "A. Increases",
+        "B. Decreases",
+        "C. Becomes zero"
+      ],
+      "correctIndex": 0,
+      "explanation": "In pure metals, higher temperature causes more lattice vibration, increasing resistance."
+    },
+    {
+      "id": 8,
+      "question": "Which is a factor affecting the resistance of a conductor at constant temperature?",
+      "options": [
+        "A. Resistivity",
+        "B. Frequency only",
+        "C. Atmospheric pressure only"
+      ],
+      "correctIndex": 0,
+      "explanation": "Resistivity is a material property that directly affects resistance."
+    },
+    {
+      "id": 9,
+      "question": "The time constant for charging or discharging a resistor-capacitor circuit to about 63% of its final voltage is —",
+      "options": [
+        "A. RC",
+        "B. R/C",
+        "C. C/R"
+      ],
+      "correctIndex": 0,
+      "explanation": "The RC time constant is τ = RC. After one time constant, a charging capacitor reaches about 63.2% of its final voltage."
+    },
+    {
+      "id": 10,
+      "question": "What is the total resistance of resistors connected in parallel?",
+      "options": [
+        "A. 1/RT = 1/R1 + 1/R2 + ... + 1/Rn",
+        "B. RT = R1 + R2 + ... + Rn",
+        "C. RT = R1 − R2 − ... − Rn"
+      ],
+      "correctIndex": 0,
+      "explanation": "For parallel resistors, the reciprocal of total resistance equals the sum of the reciprocals of the individual resistances."
+    },
+    {
+      "id": 11,
+      "question": "What does Coulomb's law state?",
+      "options": [
+        "A. Force is directly proportional to the product of charges and inversely proportional to the square of their separation",
+        "B. Current is directly proportional to resistance",
+        "C. Voltage is inversely proportional to current"
+      ],
+      "correctIndex": 0,
+      "explanation": "Coulomb's law states that electrostatic force is proportional to the product of two charges and inversely proportional to the square of the distance between them."
+    },
+    {
+      "id": 12,
+      "question": "Which statement is NOT true about an electromagnet?",
+      "options": [
+        "A. It produces a magnetic field when current flows",
+        "B. Its magnetic strength can be controlled",
+        "C. It needs no power supply"
+      ],
+      "correctIndex": 2,
+      "explanation": "An electromagnet requires electrical current, so it needs a power source to produce its magnetic field."
+    },
+    {
+      "id": 13,
+      "question": "If a circuit cannot be de-energized before rescuing a victim, what should be done?",
+      "options": [
+        "A. Wear protective equipment and remove the victim",
+        "B. Touch the victim with bare hands",
+        "C. Pour water over the victim"
+      ],
+      "correctIndex": 0,
+      "explanation": "When the circuit cannot be de-energized, appropriate protective equipment and safe rescue procedures must be used to avoid becoming part of the electrical circuit."
+    },
+    {
+      "id": 14,
+      "question": "Like electrical charges —",
+      "options": [
+        "A. Attract each other",
+        "B. Repel each other",
+        "C. Have no effect on each other"
+      ],
+      "correctIndex": 1,
+      "explanation": "Like charges repel, while unlike charges attract."
+    },
+    {
+      "id": 15,
+      "question": "Which statement is NOT correct about electricity?",
+      "options": [
+        "A. It can be transmitted over long distances",
+        "B. It can be converted into other forms of energy",
+        "C. It cannot be sent over a long distance"
+      ],
+      "correctIndex": 2,
+      "explanation": "Electricity can be transmitted over long distances through electrical power systems."
+    },
+    {
+      "id": 16,
+      "question": "Which subatomic particle has no electrical charge?",
+      "options": [
+        "A. Proton",
+        "B. Electron",
+        "C. Neutron"
+      ],
+      "correctIndex": 2,
+      "explanation": "A neutron has no net electrical charge; a proton is positive and an electron is negative."
+    },
+    {
+      "id": 17,
+      "question": "Which statement correctly identifies both applications?",
+      "options": [
+        "A. A photovoltaic device produces voltage from light, while a thermocouple can be used in aircraft fire detection",
+        "B. A photovoltaic device measures pressure, while a thermocouple stores electrical energy",
+        "C. A photovoltaic device produces voltage from heat, while a thermocouple measures resistance"
+      ],
+      "correctIndex": 0,
+      "explanation": "Photovoltaic devices convert light energy into electrical voltage. Thermocouples can detect temperature changes and are used in aircraft fire detection systems."
+    },
+    {
+      "id": 18,
+      "question": "Which law gives the relationship between resistance, voltage, and current?",
+      "options": [
+        "A. Faraday's law",
+        "B. Ohm's law",
+        "C. Coulomb's law"
+      ],
+      "correctIndex": 1,
+      "explanation": "Ohm's law is V = IR, relating voltage, current, and resistance."
+    },
+    {
+      "id": 19,
+      "question": "Which material can be easily magnetized and exhibits strong magnetic properties?",
+      "options": [
+        "A. Ferromagnetic material",
+        "B. Diamagnetic material",
+        "C. Insulating material"
+      ],
+      "correctIndex": 0,
+      "explanation": "Ferromagnetic materials, such as iron, can be strongly magnetized and retain significant magnetic properties."
+    },
+    {
+      "id": 20,
+      "question": "The capacitance of a parallel-plate capacitor is proportional to the —",
+      "options": [
+        "A. Area of the plates",
+        "B. Resistance of the wire",
+        "C. Frequency of the supply only"
+      ],
+      "correctIndex": 0,
+      "explanation": "For a parallel-plate capacitor, C = εA/d, so capacitance is directly proportional to plate area."
+    },
+    {
+      "id": 21,
+      "question": "When a '+' symbol is used to indicate current direction on a conductor diagram, the current is —",
+      "options": [
+        "A. Travelling toward you",
+        "B. Travelling away from you",
+        "C. Not flowing"
+      ],
+      "correctIndex": 1,
+      "explanation": "In the indicated convention, a plus/arrow-type current direction marking can denote current travelling away from the observer."
+    },
+    {
+      "id": 22,
+      "question": "Current flowing through a conductor produces a —",
+      "options": [
+        "A. Magnetic field",
+        "B. Vacuum",
+        "C. Chemical battery"
+      ],
+      "correctIndex": 0,
+      "explanation": "An electric current creates a magnetic field around the conductor."
+    },
+    {
+      "id": 23,
+      "question": "Conduction in a solid material mainly depends on —",
+      "options": [
+        "A. Free electrons",
+        "B. Bound neutrons",
+        "C. Atomic mass only"
+      ],
+      "correctIndex": 0,
+      "explanation": "In metallic solids, electrical conduction occurs mainly through the movement of free electrons."
+    },
+    {
+      "id": 24,
+      "question": "An enormous spark caused by the discharge of static electricity from a highly charged cloud is called —",
+      "options": [
+        "A. Lightning",
+        "B. Conduction",
+        "C. Capacitance"
+      ],
+      "correctIndex": 0,
+      "explanation": "Lightning is a large electrostatic discharge between clouds, within clouds, or between a cloud and the ground."
+    },
+    {
+      "id": 25,
+      "question": "One coulomb is equal to —",
+      "options": [
+        "A. One ampere × second",
+        "B. One volt × second",
+        "C. One ohm × ampere"
+      ],
+      "correctIndex": 0,
+      "explanation": "Charge is Q = It, so one coulomb equals one ampere flowing for one second."
+    },
+    {
+      "id": 26,
+      "question": "Which component is used to control current by varying resistance?",
+      "options": [
+        "A. Rheostat",
+        "B. Capacitor",
+        "C. Transformer"
+      ],
+      "correctIndex": 0,
+      "explanation": "A rheostat is a variable resistor commonly used to control current in a circuit."
+    },
+    {
+      "id": 27,
+      "question": "The SI unit of potential difference is the —",
+      "options": [
+        "A. Ampere",
+        "B. Volt",
+        "C. Ohm"
+      ],
+      "correctIndex": 1,
+      "explanation": "Potential difference is measured in volts (V)."
+    },
+    {
+      "id": 28,
+      "question": "Which of the following is an electrical control device?",
+      "options": [
+        "A. Switch",
+        "B. Fuse wire only",
+        "C. Insulator"
+      ],
+      "correctIndex": 0,
+      "explanation": "A switch controls the opening and closing of an electrical circuit."
+    },
+    {
+      "id": 29,
+      "question": "The study of the generation, distribution, and utilization of electric energy is called —",
+      "options": [
+        "A. Electricity",
+        "B. Mechanics",
+        "C. Thermodynamics"
+      ],
+      "correctIndex": 0,
+      "explanation": "In the terminology used in this question, electricity covers the generation, distribution, and utilization of electrical energy."
+    },
+    {
+      "id": 30,
+      "question": "When cells are connected in series, the total —",
+      "options": [
+        "A. Voltage increases",
+        "B. Voltage becomes zero",
+        "C. Resistance always decreases"
+      ],
+      "correctIndex": 0,
+      "explanation": "When cells are connected in series with the same polarity direction, their voltages add together."
+    },
+    {
+      "id": 31,
+      "question": "The opposition to current flow is called —",
+      "options": [
+        "A. Resistance",
+        "B. Capacitance",
+        "C. Inductance"
+      ],
+      "correctIndex": 0,
+      "explanation": "Resistance opposes the flow of electric current and is measured in ohms."
+    },
+    {
+      "id": 32,
+      "question": "When frequency increases, inductive reactance XL will —",
+      "options": [
+        "A. Increase",
+        "B. Decrease",
+        "C. Remain constant"
+      ],
+      "correctIndex": 0,
+      "explanation": "Inductive reactance is XL = 2πfL, so it increases directly with frequency."
+    },
+    {
+      "id": 33,
+      "question": "The total current in a parallel circuit is —",
+      "options": [
+        "A. The sum of the individual branch currents",
+        "B. The same as the current in only the largest branch",
+        "C. The difference between the branch currents"
+      ],
+      "correctIndex": 0,
+      "explanation": "By Kirchhoff's current law, total current entering a parallel network equals the sum of the currents in its branches."
+    },
+    {
+      "id": 34,
+      "question": "When the surface area of a conductive resistor increases, its resistance value will —",
+      "options": [
+        "A. Decrease",
+        "B. Increase",
+        "C. Become infinite"
+      ],
+      "correctIndex": 0,
+      "explanation": "For the same material and length, R = ρL/A, so increasing cross-sectional area decreases resistance. Note: the supplied answer for this item was corrected because 'increases' is physically incorrect."
+    },
+    {
+      "id": 35,
+      "question": "What is the application of light to produce voltage called?",
+      "options": [
+        "A. Photovoltaic effect",
+        "B. Piezoelectric effect",
+        "C. Thermionic effect"
+      ],
+      "correctIndex": 0,
+      "explanation": "The photovoltaic effect produces an electrical voltage when light interacts with a suitable material."
+    },
+    {
+      "id": 36,
+      "question": "Electricity is produced in a generator by the principle of —",
+      "options": [
+        "A. Electromagnetic induction",
+        "B. Electrolysis",
+        "C. Thermal expansion"
+      ],
+      "correctIndex": 0,
+      "explanation": "A generator converts mechanical energy to electrical energy through electromagnetic induction."
+    },
+    {
+      "id": 37,
+      "question": "When temperature increases, the resistance of pure metals generally —",
+      "options": [
+        "A. Increases",
+        "B. Decreases",
+        "C. Does not change"
+      ],
+      "correctIndex": 0,
+      "explanation": "Pure metals have a positive temperature coefficient of resistance, so resistance increases with temperature."
+    },
+    {
+      "id": 38,
+      "question": "Atomic mass number is the sum of the number of protons and —",
+      "options": [
+        "A. Electrons",
+        "B. Neutrons",
+        "C. Molecules"
+      ],
+      "correctIndex": 1,
+      "explanation": "The mass number is the total number of protons and neutrons in the nucleus."
+    },
+    {
+      "id": 39,
+      "question": "What is the formula for capacitors connected in series?",
+      "options": [
+        "A. 1/CT = 1/C1 + 1/C2 + ... + 1/Cn",
+        "B. CT = C1 + C2 + ... + Cn",
+        "C. CT = C1 − C2 − ... − Cn"
+      ],
+      "correctIndex": 0,
+      "explanation": "For capacitors in series, the reciprocal of total capacitance equals the sum of the reciprocals of individual capacitances."
+    },
+    {
+      "id": 40,
+      "question": "The atomic number of an element is equal to the number of —",
+      "options": [
+        "A. Protons",
+        "B. Neutrons",
+        "C. Protons plus neutrons"
+      ],
+      "correctIndex": 0,
+      "explanation": "Atomic number is defined by the number of protons in the nucleus."
+    },
+    {
+      "id": 41,
+      "question": "Like electrical charges —",
+      "options": [
+        "A. Repel each other",
+        "B. Attract each other",
+        "C. Cancel each other"
+      ],
+      "correctIndex": 0,
+      "explanation": "Like charges repel each other."
+    },
+    {
+      "id": 42,
+      "question": "Opposition to the flow of electric current is called —",
+      "options": [
+        "A. Resistance",
+        "B. Voltage",
+        "C. Charge"
+      ],
+      "correctIndex": 0,
+      "explanation": "Resistance is the opposition to current flow."
+    },
+    {
+      "id": 43,
+      "question": "The time constant of a resistor-capacitor circuit is —",
+      "options": [
+        "A. RC",
+        "B. R + C",
+        "C. R/C"
+      ],
+      "correctIndex": 0,
+      "explanation": "The RC time constant is τ = RC and represents the time for a charging capacitor to reach about 63% of its final voltage."
+    },
+    {
+      "id": 44,
+      "question": "Aircraft equipment and the airframe are placed at the same electrical potential by —",
+      "options": [
+        "A. Bonding",
+        "B. Insulation",
+        "C. Rectification"
+      ],
+      "correctIndex": 0,
+      "explanation": "Bonding provides a low-resistance electrical connection between aircraft components so they remain at substantially the same electrical potential."
+    },
+    {
+      "id": 45,
+      "question": "What is the formula for total resistance of resistors connected in parallel?",
+      "options": [
+        "A. 1/RT = 1/R1 + 1/R2 + ... + 1/Rn",
+        "B. RT = R1 + R2 + ... + Rn",
+        "C. RT = R1 × R2 × ... × Rn"
+      ],
+      "correctIndex": 0,
+      "explanation": "For parallel resistors, reciprocal resistances add together."
+    },
+    {
+      "id": 46,
+      "question": "Which state of matter has a definite mass but takes the volume and shape of its container?",
+      "options": [
+        "A. Solid",
+        "B. Liquid",
+        "C. Gas"
+      ],
+      "correctIndex": 2,
+      "explanation": "A gas has mass but has neither a fixed volume nor a fixed shape; it expands to fill its container."
+    },
+    {
+      "id": 47,
+      "question": "Which dielectric material can withstand high voltage and help prevent arcing between capacitor plates?",
+      "options": [
+        "A. Mica",
+        "B. Copper",
+        "C. Aluminum foil"
+      ],
+      "correctIndex": 0,
+      "explanation": "Mica is a good electrical insulator with high dielectric strength and is used in capacitors."
+    },
+    {
+      "id": 48,
+      "question": "Faraday's law states that the induced EMF is related to the —",
+      "options": [
+        "A. Rate of change of magnetic flux linkage",
+        "B. Resistance only",
+        "C. Mass of the conductor only"
+      ],
+      "correctIndex": 0,
+      "explanation": "Faraday's law states that induced EMF is proportional to the rate of change of magnetic flux linkage."
+    },
+    {
+      "id": 49,
+      "question": "If the mutual distance between two inductors decreases, their magnetic coupling/force generally —",
+      "options": [
+        "A. Increases",
+        "B. Decreases",
+        "C. Becomes zero"
+      ],
+      "correctIndex": 0,
+      "explanation": "Bringing inductors closer increases magnetic coupling and therefore increases the mutual magnetic effect."
+    },
+    {
+      "id": 50,
+      "question": "What is the total voltage in a series circuit with several voltage sources connected in the same direction?",
+      "options": [
+        "A. The sum of the individual voltages",
+        "B. The smallest individual voltage",
+        "C. Always zero"
+      ],
+      "correctIndex": 0,
+      "explanation": "Series voltage sources connected in aiding polarity add together."
+    },
+    {
+      "id": 51,
+      "question": "Which device is used to convert chemical energy into electrical energy?",
+      "options": [
+        "A. Battery",
+        "B. Transformer",
+        "C. Resistor"
+      ],
+      "correctIndex": 0,
+      "explanation": "A battery converts stored chemical energy into electrical energy through electrochemical reactions."
+    },
+    {
+      "id": 52,
+      "question": "What is the formula for inductors connected in parallel when mutual coupling is neglected?",
+      "options": [
+        "A. 1/LT = 1/L1 + 1/L2 + ... + 1/Ln",
+        "B. LT = L1 + L2 + ... + Ln",
+        "C. LT = L1 × L2 × ... × Ln"
+      ],
+      "correctIndex": 0,
+      "explanation": "For uncoupled inductors in parallel, reciprocal inductances add in the same mathematical form as parallel resistances."
+    },
+    {
+      "id": 53,
+      "question": "The magnetic field strength or magnetizing force H is measured in —",
+      "options": [
+        "A. Ampere per metre (A/m)",
+        "B. Weber (Wb)",
+        "C. Tesla (T)"
+      ],
+      "correctIndex": 0,
+      "explanation": "Magnetizing field strength H is measured in amperes per metre (A/m)."
+    },
+    {
+      "id": 54,
+      "question": "Eddy current loss in an electrical machine is an —",
+      "options": [
+        "A. Unwanted power loss caused by circulating currents in conductive material",
+        "B. Increase in useful output power",
+        "C. Method of increasing battery capacity"
+      ],
+      "correctIndex": 0,
+      "explanation": "Eddy currents circulate within conductive magnetic materials and cause unwanted heating and power loss."
+    },
+    {
+      "id": 55,
+      "question": "Which statement is NOT true about the EMF induced when a magnet is moved relative to a coil?",
+      "options": [
+        "A. The galvanometer deflects in the same direction when the magnet is removed as when it is inserted",
+        "B. The galvanometer deflects in opposite directions for insertion and removal",
+        "C. The direction of induced EMF depends on the direction of change of magnetic flux"
+      ],
+      "correctIndex": 0,
+      "explanation": "The supplied statement is NOT true. By Lenz's law, removing the magnet produces an induced current in the opposite direction to that produced when the magnet is inserted."
+    }
+  ]
+}
