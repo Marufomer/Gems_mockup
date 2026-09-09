@@ -107,16 +107,18 @@ export default function AvailableExams({ onStartExam }) {
 
   return (
     <section className="mb-6">
-      <div className="mb-4 flex items-center justify-between">
+      <div className="mb-4 flex flex-col sm:flex-row sm:items-center justify-between gap-2">
         <div>
-          <h2 className="text-xl font-bold text-gray-900">Available Exams</h2>
-          <p className="text-gray-500 text-sm mt-0.5">Select an exam from <code className="text-xs bg-slate-100 text-blue-600 px-1.5 py-0.5 rounded font-mono">src/exams/</code> to start your test</p>
+          <h2 className="text-lg sm:text-xl font-bold text-gray-900">Available Exams</h2>
+          <p className="text-gray-500 text-xs sm:text-sm mt-0.5">
+            Select an exam from <code className="text-[11px] sm:text-xs bg-slate-100 text-blue-600 px-1.5 py-0.5 rounded font-mono">src/exams/</code> to start your test
+          </p>
         </div>
-        <span className="text-xs bg-blue-50 text-blue-700 border border-blue-200 font-semibold px-2.5 py-1 rounded-full">
+        <span className="self-start sm:self-auto text-xs bg-blue-50 text-blue-700 border border-blue-200 font-semibold px-2.5 py-1 rounded-full">
           {exams.length} Exam{exams.length === 1 ? '' : 's'} Loaded
         </span>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
         {exams.map((exam) => (
           <ExamCard key={exam.id} exam={exam} onStartExam={onStartExam} />
         ))}

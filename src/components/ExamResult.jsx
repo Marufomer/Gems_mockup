@@ -111,9 +111,9 @@ export default function ExamResult({
   return (
     <div className="min-h-screen bg-[#f8fafc] text-slate-800 font-sans flex flex-col">
       {/* Clean Navbar - Logo Only (No profile, No notification as requested) */}
-      <header className="bg-white border-b border-slate-200 px-6 py-3 flex items-center justify-between sticky top-0 z-30 shadow-xs">
+      <header className="bg-white border-b border-slate-200 px-4 sm:px-6 py-2.5 sm:py-3 flex items-center justify-between sticky top-0 z-30 shadow-xs">
         <div className="flex items-center gap-2.5">
-          <div className="w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center shadow-xs">
+          <div className="w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center shadow-xs shrink-0">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"
@@ -124,12 +124,12 @@ export default function ExamResult({
               <path d="M13.06 15.473a48.45 48.45 0 0 1 7.666-3.282c.134 1.414.22 2.843.255 4.285a.75.75 0 0 1-.46.71 47.878 47.878 0 0 0-8.105 4.342.75.75 0 0 1-.832 0 47.877 47.877 0 0 0-8.104-4.342.75.75 0 0 1-.461-.71c.035-1.442.121-2.87.255-4.286A48.4 48.4 0 0 1 6 13.18v1.27a1.5 1.5 0 0 0-.14 2.508c-.09.38-.222.753-.397 1.11.452.213.901.434 1.346.661a6.729 6.729 0 0 0 .551-1.608 1.5 1.5 0 0 0 .14-2.67v-.645a48.549 48.549 0 0 1 3.44 1.668 2.25 2.25 0 0 0 2.12 0Z" />
             </svg>
           </div>
-          <span className="text-xl font-bold text-slate-900 tracking-tight">ExamPrep</span>
+          <span className="text-lg sm:text-xl font-bold text-slate-900 tracking-tight">ExamPrep</span>
         </div>
 
         <button
           onClick={onBackToDashboard}
-          className="flex items-center gap-1.5 text-xs font-semibold text-blue-600 hover:text-blue-700 hover:bg-blue-50 py-1.5 px-3 rounded-lg transition-colors cursor-pointer"
+          className="flex items-center gap-1.5 text-xs font-semibold text-blue-600 hover:text-blue-700 hover:bg-blue-50 py-1.5 px-2.5 sm:px-3 rounded-lg transition-colors cursor-pointer shrink-0"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -141,15 +141,16 @@ export default function ExamResult({
           >
             <path strokeLinecap="round" strokeLinejoin="round" d="M10.5 19.5 3 12m0 0 7.5-7.5M3 12h18" />
           </svg>
-          Back to My Exams
+          <span className="hidden sm:inline">Back to My Exams</span>
+          <span className="sm:hidden">Dashboard</span>
         </button>
       </header>
 
       {/* Main Result Body (2-Column Layout, NO Left Sidebar) */}
-      <main className="flex-1 max-w-[1380px] w-full mx-auto px-6 py-6 grid grid-cols-1 lg:grid-cols-12 gap-6">
+      <main className="flex-1 max-w-[1380px] w-full mx-auto px-3 sm:px-6 py-4 sm:py-6 grid grid-cols-1 lg:grid-cols-12 gap-5 sm:gap-6">
         
         {/* LEFT / MAIN COLUMN (Results, Metrics, Missed Questions) */}
-        <div className="lg:col-span-8 flex flex-col gap-5">
+        <div className="lg:col-span-8 flex flex-col gap-4 sm:gap-5">
           
           {/* Top Breadcrumb Link & Page Heading */}
           <div>
@@ -162,16 +163,16 @@ export default function ExamResult({
               </svg>
               Back to My Exams
             </button>
-            <h1 className="text-2xl font-bold text-slate-900 tracking-tight">
+            <h1 className="text-xl sm:text-2xl font-bold text-slate-900 tracking-tight">
               Exam Result
             </h1>
           </div>
 
           {/* Exam Header Banner Card */}
-          <div className="bg-white rounded-2xl border border-slate-200 p-5 shadow-xs flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+          <div className="bg-white rounded-2xl border border-slate-200 p-4 sm:p-5 shadow-xs flex flex-col sm:flex-row sm:items-center justify-between gap-3.5 sm:gap-4">
             <div className="flex items-center gap-3.5">
-              <div className={`w-12 h-12 rounded-xl ${examData.iconBg || 'bg-purple-600'} text-white flex items-center justify-center flex-shrink-0 shadow-xs`}>
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-6 h-6">
+              <div className={`w-11 h-11 sm:w-12 sm:h-12 rounded-xl ${examData.iconBg || 'bg-purple-600'} text-white flex items-center justify-center shrink-0 shadow-xs`}>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-5 h-5 sm:w-6 sm:h-6">
                   <path
                     fillRule="evenodd"
                     d="M11.078 2.25c-.917 0-1.699.663-1.85 1.567L9.05 4.889c-.02.12-.115.26-.297.348a7.493 7.493 0 0 0-.986.57c-.166.115-.334.126-.45.083L6.3 5.508a1.875 1.875 0 0 0-2.282.819l-.922 1.597a1.875 1.875 0 0 0 .432 2.385l.84.692c.095.078.17.229.154.43a7.598 7.598 0 0 0 0 1.139c.015.2-.059.352-.153.43l-.841.692a1.875 1.875 0 0 0-.432 2.385l.922 1.597a1.875 1.875 0 0 0 2.282.818l1.019-.382c.115-.043.283-.031.45.082.312.214.641.405.985.57.182.088.277.228.297.35l.178 1.071c.151.904.933 1.567 1.85 1.567h1.844c.916 0 1.699-.663 1.85-1.567l.178-1.072c.02-.12.114-.26.297-.349.344-.165.673-.356.985-.57.167-.114.335-.125.45-.082l1.02.382a1.875 1.875 0 0 0 2.28-.819l.923-1.597a1.875 1.875 0 0 0-.432-2.385l-.84-.692c-.095-.078-.17-.229-.154-.43a7.614 7.614 0 0 0 0-1.139c-.016-.2.059-.352.153-.43l.84-.692c.708-.582.891-1.59.433-2.385l-.922-1.597a1.875 1.875 0 0 0-2.282-.818l-1.02.382c-.114.043-.282.031-.449-.083a7.49 7.49 0 0 0-.985-.57c-.183-.087-.277-.227-.297-.348l-.179-1.072a1.875 1.875 0 0 0-1.85-1.567h-1.843ZM12 15.75a3.75 3.75 0 1 0 0-7.5 3.75 3.75 0 0 0 0 7.5Z"
@@ -180,15 +181,15 @@ export default function ExamResult({
                 </svg>
               </div>
               <div>
-                <h2 className="font-bold text-slate-900 text-base leading-tight">
+                <h2 className="font-bold text-slate-900 text-sm sm:text-base leading-tight">
                   {examData.title.replace('\n', ' ')}
                 </h2>
-                <div className="flex items-center gap-2.5 text-xs text-slate-500 mt-1 font-medium flex-wrap">
+                <div className="flex items-center gap-1.5 sm:gap-2.5 text-xs text-slate-500 mt-1 font-medium flex-wrap">
                   <span className="text-blue-600 font-semibold">Module: {examData.module}</span>
                   <span className="text-slate-300">|</span>
-                  <span>Total Questions: {totalQuestionsCount}</span>
+                  <span>Questions: {totalQuestionsCount}</span>
                   <span className="text-slate-300">|</span>
-                  <span>Time: {examData.durationMinutes || 150} minutes</span>
+                  <span>Time: {examData.durationMinutes || 150}m</span>
                 </div>
               </div>
             </div>
@@ -206,10 +207,10 @@ export default function ExamResult({
           </div>
 
           {/* 4 Stat Cards Grid */}
-          <div className="grid grid-cols-2 sm:grid-cols-4 gap-3.5">
+          <div className="grid grid-cols-2 sm:grid-cols-4 gap-2.5 sm:gap-3.5">
             {/* Card 1: Score with Circular Gauge */}
-            <div className="bg-white rounded-2xl border border-slate-200 p-4 shadow-xs flex items-center gap-3.5">
-              <div className="relative w-14 h-14 flex items-center justify-center flex-shrink-0">
+            <div className="bg-white rounded-2xl border border-slate-200 p-3 sm:p-4 shadow-xs flex items-center gap-2.5 sm:gap-3.5">
+              <div className="relative w-12 h-12 sm:w-14 sm:h-14 flex items-center justify-center shrink-0">
                 <svg className="w-full h-full -rotate-90" viewBox="0 0 96 96">
                   <circle
                     cx="48"
@@ -231,61 +232,62 @@ export default function ExamResult({
                     strokeLinecap="round"
                   />
                 </svg>
-                <span className="absolute text-sm font-bold text-teal-800">
+                <span className="absolute text-xs sm:text-sm font-bold text-teal-800">
                   {scorePercent}%
                 </span>
               </div>
               <div>
-                <p className="text-base font-bold text-slate-900 leading-tight">{scorePercent}%</p>
-                <p className="text-xs text-slate-400 font-medium">Score</p>
+                <p className="text-sm sm:text-base font-bold text-slate-900 leading-tight">{scorePercent}%</p>
+                <p className="text-[11px] sm:text-xs text-slate-400 font-medium">Score</p>
               </div>
             </div>
 
             {/* Card 2: Correct Answers */}
-            <div className="bg-white rounded-2xl border border-slate-200 p-4 shadow-xs flex items-center gap-3.5">
-              <div className="w-11 h-11 rounded-full bg-emerald-50 text-emerald-600 flex items-center justify-center flex-shrink-0">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-6 h-6">
+            <div className="bg-white rounded-2xl border border-slate-200 p-3 sm:p-4 shadow-xs flex items-center gap-2.5 sm:gap-3.5">
+              <div className="w-10 h-10 sm:w-11 sm:h-11 rounded-full bg-emerald-50 text-emerald-600 flex items-center justify-center shrink-0">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-5 h-5 sm:w-6 sm:h-6">
                   <path fillRule="evenodd" d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z" clipRule="evenodd" />
                 </svg>
               </div>
               <div>
-                <p className="text-xl font-bold text-slate-900 leading-tight">{correctCount}</p>
-                <p className="text-xs text-slate-400 font-medium">Correct Answers</p>
+                <p className="text-base sm:text-xl font-bold text-slate-900 leading-tight">{correctCount}</p>
+                <p className="text-[11px] sm:text-xs text-slate-400 font-medium">Correct</p>
               </div>
             </div>
 
             {/* Card 3: Incorrect Answers */}
-            <div className="bg-white rounded-2xl border border-slate-200 p-4 shadow-xs flex items-center gap-3.5">
-              <div className="w-11 h-11 rounded-full bg-rose-50 text-rose-500 flex items-center justify-center flex-shrink-0">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-6 h-6">
+            <div className="bg-white rounded-2xl border border-slate-200 p-3 sm:p-4 shadow-xs flex items-center gap-2.5 sm:gap-3.5">
+              <div className="w-10 h-10 sm:w-11 sm:h-11 rounded-full bg-rose-50 text-rose-500 flex items-center justify-center shrink-0">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-5 h-5 sm:w-6 sm:h-6">
                   <path fillRule="evenodd" d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25Zm-1.72 6.97a.75.75 0 1 0-1.06 1.06L10.94 12l-1.72 1.72a.75.75 0 1 0 1.06 1.06L12 13.06l1.72 1.72a.75.75 0 1 0 1.06-1.06L13.06 12l1.72-1.72a.75.75 0 1 0-1.06-1.06L12 10.94l-1.72-1.72Z" clipRule="evenodd" />
                 </svg>
               </div>
               <div>
-                <p className="text-xl font-bold text-slate-900 leading-tight">{missedCount}</p>
-                <p className="text-xs text-slate-400 font-medium">Incorrect Answers</p>
+                <p className="text-base sm:text-xl font-bold text-slate-900 leading-tight">{missedCount}</p>
+                <p className="text-[11px] sm:text-xs text-slate-400 font-medium">Missed</p>
               </div>
             </div>
 
             {/* Card 4: Time Spent */}
-            <div className="bg-white rounded-2xl border border-slate-200 p-4 shadow-xs flex items-center gap-3.5">
-              <div className="w-11 h-11 rounded-full bg-blue-50 text-blue-600 flex items-center justify-center flex-shrink-0">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" className="w-6 h-6">
+            <div className="bg-white rounded-2xl border border-slate-200 p-3 sm:p-4 shadow-xs flex items-center gap-2.5 sm:gap-3.5">
+              <div className="w-10 h-10 sm:w-11 sm:h-11 rounded-full bg-blue-50 text-blue-600 flex items-center justify-center shrink-0">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" className="w-5 h-5 sm:w-6 sm:h-6">
                   <path strokeLinecap="round" strokeLinejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
                 </svg>
               </div>
               <div>
-                <p className="text-base font-bold text-slate-900 font-mono leading-tight">{timeSpent}</p>
-                <p className="text-xs text-slate-400 font-medium">Time Spent</p>
+                <p className="text-sm sm:text-base font-bold text-slate-900 font-mono leading-tight">{timeSpent}</p>
+                <p className="text-[11px] sm:text-xs text-slate-400 font-medium">Time</p>
               </div>
             </div>
           </div>
 
+
           {/* Navigation Tabs (Overview, Missed Questions, All Questions) */}
-          <div className="flex items-center gap-2 border-b border-slate-200 mt-2">
+          <div className="flex items-center gap-1 sm:gap-2 border-b border-slate-200 mt-2 overflow-x-auto">
             <button
               onClick={() => setActiveTab('overview')}
-              className={`flex items-center gap-2 px-4 py-3 text-xs font-semibold border-b-2 transition-all cursor-pointer ${
+              className={`flex items-center gap-1.5 sm:gap-2 px-3 sm:px-4 py-2.5 sm:py-3 text-xs font-semibold border-b-2 transition-all cursor-pointer whitespace-nowrap ${
                 activeTab === 'overview'
                   ? 'border-blue-600 text-blue-600'
                   : 'border-transparent text-slate-500 hover:text-slate-800'
@@ -299,7 +301,7 @@ export default function ExamResult({
 
             <button
               onClick={() => setActiveTab('missed')}
-              className={`flex items-center gap-2 px-4 py-3 text-xs font-semibold border-b-2 transition-all cursor-pointer ${
+              className={`flex items-center gap-1.5 sm:gap-2 px-3 sm:px-4 py-2.5 sm:py-3 text-xs font-semibold border-b-2 transition-all cursor-pointer whitespace-nowrap ${
                 activeTab === 'missed'
                   ? 'border-red-500 text-red-600'
                   : 'border-transparent text-slate-500 hover:text-slate-800'
@@ -316,7 +318,7 @@ export default function ExamResult({
 
             <button
               onClick={() => setActiveTab('all')}
-              className={`flex items-center gap-2 px-4 py-3 text-xs font-semibold border-b-2 transition-all cursor-pointer ${
+              className={`flex items-center gap-1.5 sm:gap-2 px-3 sm:px-4 py-2.5 sm:py-3 text-xs font-semibold border-b-2 transition-all cursor-pointer whitespace-nowrap ${
                 activeTab === 'all'
                   ? 'border-blue-600 text-blue-600'
                   : 'border-transparent text-slate-500 hover:text-slate-800'
@@ -331,7 +333,7 @@ export default function ExamResult({
 
           {/* Tab Content Header */}
           <div>
-            <h2 className="text-base font-bold text-slate-900">
+            <h2 className="text-sm sm:text-base font-bold text-slate-900">
               {activeTab === 'missed' ? 'Missed Questions' : activeTab === 'all' ? 'All Questions' : 'Performance Overview'}
             </h2>
             <p className="text-xs text-slate-500 mt-0.5">
@@ -345,25 +347,25 @@ export default function ExamResult({
 
           {/* Overview View */}
           {activeTab === 'overview' && (
-            <div className="bg-white rounded-2xl border border-slate-200 p-6 shadow-xs space-y-5">
-              <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
-                <div className="bg-emerald-50/60 border border-emerald-100 rounded-xl p-4">
+            <div className="bg-white rounded-2xl border border-slate-200 p-4 sm:p-6 shadow-xs space-y-4 sm:space-y-5">
+              <div className="grid grid-cols-1 sm:grid-cols-3 gap-3.5 sm:gap-4">
+                <div className="bg-emerald-50/60 border border-emerald-100 rounded-xl p-3.5 sm:p-4">
                   <p className="text-xs text-emerald-700 font-semibold uppercase tracking-wider">Pass Status</p>
-                  <p className="text-xl font-bold text-emerald-800 mt-1">
+                  <p className="text-lg sm:text-xl font-bold text-emerald-800 mt-1">
                     {scorePercent >= 75 ? 'PASSED (≥75%)' : 'NEEDS PRACTICE (<75%)'}
                   </p>
                   <p className="text-[11px] text-emerald-600 mt-1">
                     Score: {scorePercent}% ({correctCount} / {totalQuestionsCount} correct)
                   </p>
                 </div>
-                <div className="bg-blue-50/60 border border-blue-100 rounded-xl p-4">
+                <div className="bg-blue-50/60 border border-blue-100 rounded-xl p-3.5 sm:p-4">
                   <p className="text-xs text-blue-700 font-semibold uppercase tracking-wider">Accuracy</p>
-                  <p className="text-xl font-bold text-blue-800 mt-1">{scorePercent}%</p>
+                  <p className="text-lg sm:text-xl font-bold text-blue-800 mt-1">{scorePercent}%</p>
                   <p className="text-[11px] text-blue-600 mt-1">Based on {totalQuestionsCount} total questions.</p>
                 </div>
-                <div className="bg-purple-50/60 border border-purple-100 rounded-xl p-4">
+                <div className="bg-purple-50/60 border border-purple-100 rounded-xl p-3.5 sm:p-4">
                   <p className="text-xs text-purple-700 font-semibold uppercase tracking-wider">Total Questions</p>
-                  <p className="text-xl font-bold text-purple-800 mt-1">{totalQuestionsCount} Qs</p>
+                  <p className="text-lg sm:text-xl font-bold text-purple-800 mt-1">{totalQuestionsCount} Qs</p>
                   <p className="text-[11px] text-purple-600 mt-1">Time spent: {timeSpent}</p>
                 </div>
               </div>
@@ -381,9 +383,9 @@ export default function ExamResult({
 
           {/* Questions Accordion List (for Missed or All tabs) */}
           {(activeTab === 'missed' || activeTab === 'all') && (
-            <div className="space-y-4">
+            <div className="space-y-3 sm:space-y-4">
               {displayQuestionsList.length === 0 ? (
-                <div className="bg-white rounded-2xl border border-slate-200 p-8 text-center">
+                <div className="bg-white rounded-2xl border border-slate-200 p-6 sm:p-8 text-center">
                   <p className="text-sm font-semibold text-slate-700">
                     {activeTab === 'missed' ? '🎉 Fantastic! You got all questions correct!' : 'No questions found in this exam.'}
                   </p>
@@ -402,30 +404,30 @@ export default function ExamResult({
                       {/* Accordion Top Header */}
                       <div
                         onClick={() => toggleAccordion(qItem.id)}
-                        className="p-5 flex items-center justify-between cursor-pointer hover:bg-slate-50/60 transition-colors select-none"
+                        className="p-3.5 sm:p-5 flex items-center justify-between cursor-pointer hover:bg-slate-50/60 transition-colors select-none"
                       >
-                        <div className="flex items-center gap-3">
+                        <div className="flex items-center gap-2.5 sm:gap-3">
                           {isMissed ? (
-                            <div className="w-6 h-6 rounded-full bg-rose-50 text-rose-500 flex items-center justify-center flex-shrink-0">
-                              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="w-4 h-4">
+                            <div className="w-5 h-5 sm:w-6 sm:h-6 rounded-full bg-rose-50 text-rose-500 flex items-center justify-center shrink-0">
+                              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="w-3.5 h-3.5 sm:w-4 sm:h-4">
                                 <path d="M6.28 5.22a.75.75 0 0 0-1.06 1.06L8.94 10l-3.72 3.72a.75.75 0 1 0 1.06 1.06L10 11.06l3.72 3.72a.75.75 0 1 0 1.06-1.06L11.06 10l3.72-3.72a.75.75 0 0 0-1.06-1.06L10 8.94 6.28 5.22Z" />
                               </svg>
                             </div>
                           ) : (
-                            <div className="w-6 h-6 rounded-full bg-emerald-50 text-emerald-600 flex items-center justify-center flex-shrink-0">
-                              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="w-4 h-4">
+                            <div className="w-5 h-5 sm:w-6 sm:h-6 rounded-full bg-emerald-50 text-emerald-600 flex items-center justify-center shrink-0">
+                              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="w-3.5 h-3.5 sm:w-4 sm:h-4">
                                 <path fillRule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clipRule="evenodd" />
                               </svg>
                             </div>
                           )}
-                          <span className="font-bold text-slate-900 text-sm">
+                          <span className="font-bold text-slate-900 text-xs sm:text-sm">
                             Question {qItem.id} of {totalQuestionsCount}
                           </span>
                         </div>
 
-                        <div className="flex items-center gap-3">
+                        <div className="flex items-center gap-2 sm:gap-3">
                           <span
-                            className={`text-[11px] font-semibold px-2.5 py-0.5 rounded-full border ${
+                            className={`text-[10px] sm:text-[11px] font-semibold px-2 sm:px-2.5 py-0.5 rounded-full border ${
                               isMissed
                                 ? 'bg-rose-50 text-rose-600 border-rose-200'
                                 : 'bg-emerald-50 text-emerald-600 border-emerald-200'
@@ -439,7 +441,7 @@ export default function ExamResult({
                             viewBox="0 0 24 24"
                             strokeWidth={2}
                             stroke="currentColor"
-                            className={`w-4 h-4 text-slate-400 transition-transform duration-200 ${
+                            className={`w-3.5 h-3.5 sm:w-4 sm:h-4 text-slate-400 transition-transform duration-200 ${
                               isExpanded ? 'rotate-180' : ''
                             }`}
                           >
@@ -450,13 +452,13 @@ export default function ExamResult({
 
                       {/* Question Title & Options (shown when expanded) */}
                       {isExpanded && (
-                        <div className="px-6 pb-6 pt-1 border-t border-slate-100 animate-in fade-in duration-150">
-                          <p className="font-bold text-slate-900 text-sm mb-4 leading-snug">
+                        <div className="px-4 pb-4 sm:px-6 sm:pb-6 pt-1 border-t border-slate-100 animate-in fade-in duration-150">
+                          <p className="font-bold text-slate-900 text-xs sm:text-sm mb-3 sm:mb-4 leading-snug">
                             {qItem.question}
                           </p>
 
                           {/* Options List */}
-                          <div className="space-y-2.5">
+                          <div className="space-y-2 sm:space-y-2.5">
                             {qItem.options.map((optText, oIdx) => {
                               const isUserPick = qItem.userSelected === oIdx
                               const isCorrectAnswer = qItem.correctIndex === oIdx
@@ -475,11 +477,11 @@ export default function ExamResult({
                               return (
                                 <div
                                   key={oIdx}
-                                  className={`rounded-xl border p-3.5 flex items-center justify-between text-xs transition-colors ${containerStyle}`}
+                                  className={`rounded-xl border p-2.5 sm:p-3.5 flex items-center justify-between text-xs transition-colors ${containerStyle}`}
                                 >
-                                  <div className="flex items-center gap-3">
+                                  <div className="flex items-center gap-2.5 sm:gap-3">
                                     <div
-                                      className={`w-4 h-4 rounded-full border-2 flex items-center justify-center flex-shrink-0 ${radioStyle}`}
+                                      className={`w-4 h-4 rounded-full border-2 flex items-center justify-center shrink-0 ${radioStyle}`}
                                     >
                                       {isUserPick && isMissed && (
                                         <div className="w-1.5 h-1.5 rounded-full bg-white" />
@@ -504,7 +506,7 @@ export default function ExamResult({
                                       xmlns="http://www.w3.org/2000/svg"
                                       viewBox="0 0 20 20"
                                       fill="currentColor"
-                                      className="w-4 h-4 text-rose-500 flex-shrink-0 ml-2"
+                                      className="w-4 h-4 text-rose-500 shrink-0 ml-2"
                                     >
                                       <path
                                         fillRule="evenodd"
@@ -519,7 +521,7 @@ export default function ExamResult({
                           </div>
 
                           {/* Comparison Breakdown Box */}
-                          <div className="mt-4 bg-rose-50/30 border border-rose-100 rounded-xl p-4 space-y-3">
+                          <div className="mt-3 sm:mt-4 bg-rose-50/30 border border-rose-100 rounded-xl p-3 sm:p-4 space-y-3">
                             <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 text-xs">
                               <div>
                                 <p className="text-[11px] font-semibold text-slate-500 mb-1">Your Answer</p>
@@ -573,10 +575,10 @@ export default function ExamResult({
         </div>
 
         {/* RIGHT COLUMN (Question Navigation Grid & Study Tip) */}
-        <div className="lg:col-span-4 flex flex-col gap-5">
+        <div className="lg:col-span-4 flex flex-col gap-4 sm:gap-5">
           
           {/* Question Navigation Card */}
-          <div className="bg-white rounded-2xl border border-slate-200 p-5 shadow-xs">
+          <div className="bg-white rounded-2xl border border-slate-200 p-4 sm:p-5 shadow-xs">
             <h3 className="font-bold text-slate-900 text-sm mb-3">
               Question Navigation ({totalQuestionsCount})
             </h3>
@@ -584,17 +586,17 @@ export default function ExamResult({
             {/* Legend */}
             <div className="flex items-center gap-4 text-xs font-medium text-slate-600 pb-3.5 border-b border-slate-100 flex-wrap">
               <div className="flex items-center gap-1.5">
-                <span className="w-3 h-3 rounded-xs bg-emerald-600 flex-shrink-0"></span>
+                <span className="w-3 h-3 rounded-xs bg-emerald-600 shrink-0"></span>
                 <span>Correct</span>
               </div>
               <div className="flex items-center gap-1.5">
-                <span className="w-3 h-3 rounded-xs bg-rose-400 flex-shrink-0"></span>
+                <span className="w-3 h-3 rounded-xs bg-rose-400 shrink-0"></span>
                 <span>Missed</span>
               </div>
             </div>
 
             {/* Questions Grid matching exact count */}
-            <div className="grid grid-cols-5 sm:grid-cols-8 gap-1.5 my-4">
+            <div className="grid grid-cols-5 sm:grid-cols-8 gap-1.5 my-3 sm:my-4">
               {Array.from({ length: totalQuestionsCount }, (_, i) => i + 1).map((num) => {
                 const status = questionStatusMap[num]
                 const isActive = activeNavQuestion === num
@@ -626,7 +628,7 @@ export default function ExamResult({
             {/* Back to Results / Dashboard Button */}
             <button
               onClick={onBackToDashboard}
-              className="w-full bg-blue-600 hover:bg-blue-700 active:scale-[0.98] text-white text-xs font-semibold py-3 rounded-xl flex items-center justify-center gap-2 transition-all shadow-xs hover:shadow cursor-pointer mt-2"
+              className="w-full bg-blue-600 hover:bg-blue-700 active:scale-[0.98] text-white text-xs font-semibold py-2.5 sm:py-3 rounded-xl flex items-center justify-center gap-2 transition-all shadow-xs hover:shadow cursor-pointer mt-2"
             >
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" className="w-3.5 h-3.5">
                 <path strokeLinecap="round" strokeLinejoin="round" d="M10.5 19.5 3 12m0 0 7.5-7.5M3 12h18" />
@@ -636,8 +638,8 @@ export default function ExamResult({
           </div>
 
           {/* Study Tip Card */}
-          <div className="bg-blue-50/70 border border-blue-100 rounded-2xl p-4.5 flex items-start gap-3">
-            <div className="w-8 h-8 rounded-full bg-blue-100 text-blue-600 flex items-center justify-center flex-shrink-0 mt-0.5">
+          <div className="bg-blue-50/70 border border-blue-100 rounded-2xl p-4 sm:p-4.5 flex items-start gap-3">
+            <div className="w-8 h-8 rounded-full bg-blue-100 text-blue-600 flex items-center justify-center shrink-0 mt-0.5">
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" className="w-4 h-4">
                 <path strokeLinecap="round" strokeLinejoin="round" d="M12 18v-5.25m0 0a6.01 6.01 0 0 0 1.5-.189m-1.5.189a6.01 6.01 0 0 1-1.5-.189m3.75 7.478a12.06 12.06 0 0 1-4.5 0m3.75 2.383a14.406 14.406 0 0 1-3 0M14.25 18v-.192c0-.983.658-1.823 1.508-2.316a7.5 7.5 0 1 0-7.516 0c.85.493 1.508 1.333 1.508 2.316V18" />
               </svg>

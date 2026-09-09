@@ -1,8 +1,8 @@
 export default function GoalBanner() {
   return (
-    <div className="relative bg-white rounded-xl border border-gray-200 shadow-sm p-5 flex items-center gap-4 overflow-hidden">
+    <div className="relative bg-white rounded-xl border border-gray-200 shadow-sm p-4 sm:p-5 flex items-center gap-3.5 sm:gap-4 overflow-hidden">
       {/* Target icon */}
-      <div className="w-12 h-12 rounded-full bg-blue-100 flex items-center justify-center flex-shrink-0">
+      <div className="w-10 h-10 sm:w-12 sm:h-12 rounded-full bg-blue-100 flex items-center justify-center flex-shrink-0">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 24 24"
@@ -11,7 +11,7 @@ export default function GoalBanner() {
           strokeWidth="2"
           strokeLinecap="round"
           strokeLinejoin="round"
-          className="w-6 h-6"
+          className="w-5 h-5 sm:w-6 sm:h-6"
         >
           <circle cx="12" cy="12" r="10" />
           <circle cx="12" cy="12" r="6" />
@@ -20,14 +20,14 @@ export default function GoalBanner() {
       </div>
 
       {/* Text */}
-      <div>
-        <h3 className="font-bold text-gray-900 text-base">Your goal matters</h3>
-        <p className="text-gray-500 text-sm">Consistent practice leads to success.</p>
+      <div className="relative z-10">
+        <h3 className="font-bold text-gray-900 text-sm sm:text-base">Your goal matters</h3>
+        <p className="text-gray-500 text-xs sm:text-sm">Consistent practice leads to success.</p>
       </div>
 
       {/* Decorative airplane trail */}
-      <div className="absolute right-6 bottom-2 pointer-events-none select-none opacity-40">
-        <svg viewBox="0 0 200 60" xmlns="http://www.w3.org/2000/svg" className="w-40 h-14">
+      <div className="absolute right-2 sm:right-6 bottom-2 pointer-events-none select-none opacity-20 sm:opacity-40">
+        <svg viewBox="0 0 200 60" xmlns="http://www.w3.org/2000/svg" className="w-32 sm:w-40 h-12 sm:h-14">
           {/* Dashed trail */}
           <path
             d="M10,50 Q60,10 120,30 Q160,45 190,10"

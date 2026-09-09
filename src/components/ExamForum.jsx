@@ -133,11 +133,11 @@ export default function ExamForum({
   return (
     <div className="min-h-screen bg-[#f8fafc] text-slate-800 font-sans flex flex-col">
       {/* Top Navbar - Clean (No notification, no profile) */}
-      <header className="bg-white border-b border-slate-200 px-6 py-3 flex items-center justify-between sticky top-0 z-30 shadow-xs">
-        <div className="flex items-center gap-4">
+      <header className="bg-white border-b border-slate-200 px-3 sm:px-6 py-2.5 sm:py-3 flex items-center justify-between sticky top-0 z-30 shadow-xs">
+        <div className="flex items-center gap-2 sm:gap-4">
           {/* Logo */}
-          <div className="flex items-center gap-2.5">
-            <div className="w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center shadow-xs">
+          <div className="flex items-center gap-2 sm:gap-2.5">
+            <div className="w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center shadow-xs shrink-0">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
@@ -148,30 +148,30 @@ export default function ExamForum({
                 <path d="M13.06 15.473a48.45 48.45 0 0 1 7.666-3.282c.134 1.414.22 2.843.255 4.285a.75.75 0 0 1-.46.71 47.878 47.878 0 0 0-8.105 4.342.75.75 0 0 1-.832 0 47.877 47.877 0 0 0-8.104-4.342.75.75 0 0 1-.461-.71c.035-1.442.121-2.87.255-4.286A48.4 48.4 0 0 1 6 13.18v1.27a1.5 1.5 0 0 0-.14 2.508c-.09.38-.222.753-.397 1.11.452.213.901.434 1.346.661a6.729 6.729 0 0 0 .551-1.608 1.5 1.5 0 0 0 .14-2.67v-.645a48.549 48.549 0 0 1 3.44 1.668 2.25 2.25 0 0 0 2.12 0Z" />
               </svg>
             </div>
-            <span className="text-xl font-bold text-slate-900 tracking-tight">Gems-Mockup</span>
+            <span className="text-base sm:text-xl font-bold text-slate-900 tracking-tight hidden sm:inline">Gems-Mockup</span>
           </div>
 
           {/* Mode Switcher Pill in Navbar */}
           <div className="flex items-center bg-slate-100 p-0.5 rounded-lg border border-slate-200 text-xs">
             <button
               onClick={() => setCurrentMode('exam')}
-              className={`px-3 py-1 rounded-md font-semibold transition-all cursor-pointer ${
+              className={`px-2 sm:px-3 py-1 rounded-md font-semibold transition-all cursor-pointer ${
                 currentMode === 'exam'
                   ? 'bg-white text-blue-600 shadow-xs'
                   : 'text-slate-500 hover:text-slate-700'
               }`}
             >
-              ⏱️ Exam Mode
+              ⏱️ <span className="hidden sm:inline">Exam Mode</span><span className="sm:hidden">Exam</span>
             </button>
             <button
               onClick={() => setCurrentMode('practice')}
-              className={`px-3 py-1 rounded-md font-semibold transition-all cursor-pointer ${
+              className={`px-2 sm:px-3 py-1 rounded-md font-semibold transition-all cursor-pointer ${
                 currentMode === 'practice'
                   ? 'bg-white text-emerald-600 shadow-xs'
                   : 'text-slate-500 hover:text-slate-700'
               }`}
             >
-              💡 Practice Mode
+              💡 <span className="hidden sm:inline">Practice Mode</span><span className="sm:hidden">Practice</span>
             </button>
           </div>
         </div>
@@ -179,7 +179,7 @@ export default function ExamForum({
         {/* Back to Dashboard Link */}
         <button
           onClick={onBackToDashboard}
-          className="flex items-center gap-1.5 text-xs font-semibold text-slate-600 hover:text-blue-600 transition-colors py-1.5 px-3 rounded-lg hover:bg-slate-100 cursor-pointer"
+          className="flex items-center gap-1.5 text-xs font-semibold text-slate-600 hover:text-blue-600 transition-colors py-1.5 px-2.5 sm:px-3 rounded-lg hover:bg-slate-100 cursor-pointer shrink-0"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -191,15 +191,16 @@ export default function ExamForum({
           >
             <path strokeLinecap="round" strokeLinejoin="round" d="M10.5 19.5 3 12m0 0 7.5-7.5M3 12h18" />
           </svg>
-          Back to Dashboard
+          <span className="hidden sm:inline">Back to Dashboard</span>
+          <span className="sm:hidden">Exit</span>
         </button>
       </header>
 
-      {/* Main Forum Body (3 Column Layout) */}
-      <main className="flex-1 max-w-[1500px] w-full mx-auto p-5 grid grid-cols-1 lg:grid-cols-12 gap-5">
+      {/* Main Forum Body (3 Column Layout with mobile order) */}
+      <main className="flex-1 max-w-[1500px] w-full mx-auto p-3 sm:p-5 grid grid-cols-1 lg:grid-cols-12 gap-4 sm:gap-5">
         
-        {/* LEFT COLUMN: Questions Grid & Exam Quick Info */}
-        <aside className="lg:col-span-3 bg-white rounded-2xl border border-slate-200 shadow-xs p-5 flex flex-col justify-between">
+        {/* LEFT COLUMN: Questions Grid & Exam Quick Info (order-2 on mobile, order-1 on desktop) */}
+        <aside className="order-2 lg:order-1 lg:col-span-3 bg-white rounded-2xl border border-slate-200 shadow-xs p-4 sm:p-5 flex flex-col justify-between">
           <div>
             {/* Top Exam Badge Card */}
             <div className="flex items-start gap-3 pb-4 border-b border-slate-100">
@@ -255,7 +256,7 @@ export default function ExamForum({
             {totalQuestionsCount === 0 ? (
               <p className="text-xs text-slate-400 italic py-4">No questions found in this JSON file.</p>
             ) : (
-              <div className="grid grid-cols-5 gap-2 max-h-[380px] overflow-y-auto pr-1 py-1">
+              <div className="grid grid-cols-5 sm:grid-cols-5 gap-2 max-h-[380px] overflow-y-auto pr-1 py-1">
                 {questionsList.map((q, index) => {
                   const isCurrent = index === currentQuestionIndex
                   const isAns = userAnswers[index] !== undefined
@@ -325,36 +326,36 @@ export default function ExamForum({
           </div>
         </aside>
 
-        {/* CENTER COLUMN: Main Question & Answer Panel */}
-        <section className="lg:col-span-6 flex flex-col gap-0 bg-white rounded-2xl border border-slate-200 shadow-xs overflow-hidden">
+        {/* CENTER COLUMN: Main Question & Answer Panel (order-1 on mobile, order-2 on desktop) */}
+        <section className="order-1 lg:order-2 lg:col-span-6 flex flex-col gap-0 bg-white rounded-2xl border border-slate-200 shadow-xs overflow-hidden">
           {/* Header Bar */}
-          <div className="bg-[#f0f6ff] border-b border-blue-100/70 px-6 py-4 flex items-center justify-between flex-wrap gap-2">
-            <div className="flex items-center gap-3">
+          <div className="bg-[#f0f6ff] border-b border-blue-100/70 px-4 sm:px-6 py-3 sm:py-4 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-2.5">
+            <div className="flex items-center gap-2.5 flex-wrap">
               <div>
-                <span className="text-base font-bold text-slate-900">
+                <span className="text-sm sm:text-base font-bold text-slate-900">
                   Question {totalQuestionsCount > 0 ? currentQuestionIndex + 1 : 0}
                 </span>
-                <span className="text-sm font-normal text-slate-500 ml-1.5">
+                <span className="text-xs sm:text-sm font-normal text-slate-500 ml-1.5">
                   of {totalQuestionsCount}
                 </span>
               </div>
 
               {/* Mode Badge in Header */}
               {currentMode === 'practice' ? (
-                <span className="text-[11px] font-bold bg-emerald-100 text-emerald-800 border border-emerald-200 px-2.5 py-0.5 rounded-full flex items-center gap-1">
+                <span className="text-[10px] sm:text-[11px] font-bold bg-emerald-100 text-emerald-800 border border-emerald-200 px-2 sm:px-2.5 py-0.5 rounded-full flex items-center gap-1">
                   <span className="w-1.5 h-1.5 rounded-full bg-emerald-500"></span>
-                  Practice Mode (Instant Feedback)
+                  Practice Mode
                 </span>
               ) : (
-                <span className="text-[11px] font-bold bg-blue-100 text-blue-800 border border-blue-200 px-2.5 py-0.5 rounded-full flex items-center gap-1">
+                <span className="text-[10px] sm:text-[11px] font-bold bg-blue-100 text-blue-800 border border-blue-200 px-2 sm:px-2.5 py-0.5 rounded-full flex items-center gap-1">
                   <span className="w-1.5 h-1.5 rounded-full bg-blue-500"></span>
-                  Exam Mode (Timed)
+                  Exam Mode
                 </span>
               )}
             </div>
 
             {/* Time & Mini Progress */}
-            <div className="flex items-center gap-5">
+            <div className="flex items-center justify-between w-full sm:w-auto gap-4">
               {currentMode === 'exam' ? (
                 <div className="flex items-center gap-2">
                   <svg
@@ -363,13 +364,13 @@ export default function ExamForum({
                     viewBox="0 0 24 24"
                     strokeWidth={2}
                     stroke="#2563eb"
-                    className="w-5 h-5"
+                    className="w-4 h-4 sm:w-5 sm:h-5"
                   >
                     <path strokeLinecap="round" strokeLinejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
                   </svg>
-                  <div className="text-right">
-                    <p className="text-[10px] uppercase font-semibold text-slate-400 leading-none">Time Remaining</p>
-                    <p className="text-sm font-bold text-slate-800 tracking-tight font-mono mt-0.5">
+                  <div className="text-left sm:text-right">
+                    <p className="text-[9px] sm:text-[10px] uppercase font-semibold text-slate-400 leading-none">Time Remaining</p>
+                    <p className="text-xs sm:text-sm font-bold text-slate-800 tracking-tight font-mono mt-0.5">
                       {formatTime(secondsRemaining)}
                     </p>
                   </div>
@@ -384,8 +385,8 @@ export default function ExamForum({
               )}
 
               {/* Header Mini Progress Bar */}
-              <div className="flex items-center gap-2">
-                <div className="w-16 h-2 bg-blue-200/60 rounded-full overflow-hidden">
+              <div className="flex items-center gap-2 ml-auto sm:ml-0">
+                <div className="w-14 sm:w-16 h-2 bg-blue-200/60 rounded-full overflow-hidden">
                   <div
                     className="h-full bg-blue-600 rounded-full transition-all duration-300"
                     style={{ width: `${Math.max(progressPercent, totalQuestionsCount > 0 ? 2 : 0)}%` }}
@@ -397,15 +398,15 @@ export default function ExamForum({
           </div>
 
           {/* Question Text & Options Body */}
-          <div className="p-8 flex-1 flex flex-col">
+          <div className="p-4 sm:p-8 flex-1 flex flex-col">
             {activeQuestion ? (
               <>
-                <h1 className="text-lg font-bold text-slate-900 leading-snug mb-8">
+                <h1 className="text-base sm:text-lg font-bold text-slate-900 leading-snug mb-5 sm:mb-8">
                   {activeQuestion.question}
                 </h1>
 
                 {/* Options List */}
-                <div className="space-y-3.5 flex-0.5">
+                <div className="space-y-3 flex-0.5">
                   {(activeQuestion.options || []).map((optionText, optIdx) => {
                     const isSelected = currentSelectedOption === optIdx
                     const isCorrectAnswer = optIdx === activeQuestion.correctIndex
@@ -463,18 +464,18 @@ export default function ExamForum({
                       <div
                         key={optIdx}
                         onClick={() => handleSelectOption(optIdx)}
-                        className={`rounded-xl border p-4.5 flex items-center justify-between cursor-pointer transition-all duration-150 select-none ${containerStyle}`}
+                        className={`rounded-xl border p-3.5 sm:p-4.5 flex items-center justify-between cursor-pointer transition-all duration-150 select-none ${containerStyle}`}
                       >
-                        <div className="flex items-center gap-3.5">
+                        <div className="flex items-center gap-3 sm:gap-3.5">
                           {/* Radio Indicator */}
                           <div
-                            className={`w-5 h-5 rounded-full border-2 flex items-center justify-center flex-shrink-0 transition-colors ${radioCircle}`}
+                            className={`w-5 h-5 rounded-full border-2 flex items-center justify-center shrink-0 transition-colors ${radioCircle}`}
                           >
                             {radioDot}
                           </div>
 
                           {/* Option Text */}
-                          <span className="text-sm leading-relaxed">
+                          <span className="text-xs sm:text-sm leading-relaxed">
                             {optionText}
                           </span>
                         </div>
@@ -489,7 +490,7 @@ export default function ExamForum({
                 {/* PRACTICE MODE INSTANT EXPLANATION BOX */}
                 {currentMode === 'practice' && isQuestionAnswered && (
                   <div
-                    className={`mt-6 p-4 rounded-xl border animate-in fade-in duration-200 ${
+                    className={`mt-4 sm:mt-6 p-3.5 sm:p-4 rounded-xl border animate-in fade-in duration-200 ${
                       isCurrentAnswerCorrect
                         ? 'bg-emerald-50/70 border-emerald-200 text-emerald-950'
                         : 'bg-rose-50/60 border-rose-200 text-slate-900'
@@ -497,11 +498,11 @@ export default function ExamForum({
                   >
                     <div className="flex items-center gap-2 mb-2">
                       {isCurrentAnswerCorrect ? (
-                        <span className="inline-flex items-center gap-1 text-xs font-bold text-emerald-700 uppercase tracking-wider bg-emerald-100 px-2.5 py-0.5 rounded-full">
+                        <span className="inline-flex items-center gap-1 text-[11px] sm:text-xs font-bold text-emerald-700 uppercase tracking-wider bg-emerald-100 px-2.5 py-0.5 rounded-full">
                           ✓ Correct Answer!
                         </span>
                       ) : (
-                        <span className="inline-flex items-center gap-1 text-xs font-bold text-rose-700 uppercase tracking-wider bg-rose-100 px-2.5 py-0.5 rounded-full">
+                        <span className="inline-flex items-center gap-1 text-[11px] sm:text-xs font-bold text-rose-700 uppercase tracking-wider bg-rose-100 px-2.5 py-0.5 rounded-full">
                           ✕ Incorrect Choice
                         </span>
                       )}
@@ -522,7 +523,7 @@ export default function ExamForum({
                 )}
               </>
             ) : (
-              <div className="flex-1 flex flex-col items-center justify-center text-center p-12">
+              <div className="flex-1 flex flex-col items-center justify-center text-center p-8 sm:p-12">
                 <p className="text-slate-500 text-sm font-medium">
                   No questions available in this exam.
                 </p>
@@ -533,12 +534,12 @@ export default function ExamForum({
             )}
 
             {/* Footer Navigation Bar */}
-            <div className="pt-8 mt-6 border-t border-slate-100 flex items-center justify-between">
+            <div className="pt-5 sm:pt-8 mt-4 sm:mt-6 border-t border-slate-100 flex flex-col-reverse sm:flex-row items-stretch sm:items-center justify-between gap-3 sm:gap-0">
               {/* Previous Button */}
               <button
                 onClick={handlePrev}
                 disabled={currentQuestionIndex === 0}
-                className={`flex items-center gap-2 px-5 py-2.5 rounded-xl border border-blue-500 text-blue-600 text-xs font-semibold transition-all ${
+                className={`flex items-center justify-center gap-2 px-5 py-2.5 rounded-xl border border-blue-500 text-blue-600 text-xs font-semibold transition-all ${
                   currentQuestionIndex === 0
                     ? 'opacity-40 cursor-not-allowed border-slate-300 text-slate-400'
                     : 'hover:bg-blue-50 active:scale-95 cursor-pointer'
@@ -550,9 +551,9 @@ export default function ExamForum({
                 Previous
               </button>
 
-              <div className="flex items-center gap-5">
+              <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-3 sm:gap-5">
                 {/* Mark for Review Checkbox */}
-                <label className="flex items-center gap-2 text-xs font-medium text-slate-600 cursor-pointer select-none">
+                <label className="flex items-center justify-center sm:justify-start gap-2 text-xs font-medium text-slate-600 cursor-pointer select-none py-1">
                   <input
                     type="checkbox"
                     checked={isMarked}
@@ -565,7 +566,7 @@ export default function ExamForum({
                 {/* Next / Finish Button */}
                 <button
                   onClick={handleNext}
-                  className={`flex items-center gap-2 px-6 py-2.5 rounded-xl text-white text-xs font-semibold shadow-xs hover:shadow-sm active:scale-95 transition-all cursor-pointer ${
+                  className={`flex items-center justify-center gap-2 px-6 py-2.5 rounded-xl text-white text-xs font-semibold shadow-xs hover:shadow-sm active:scale-95 transition-all cursor-pointer ${
                     currentMode === 'practice'
                       ? 'bg-emerald-600 hover:bg-emerald-700'
                       : 'bg-blue-600 hover:bg-blue-700'
@@ -582,7 +583,7 @@ export default function ExamForum({
         </section>
 
         {/* RIGHT COLUMN: Exam Information, Progress, Quick Actions */}
-        <aside className="lg:col-span-3 flex flex-col gap-4">
+        <aside className="order-3 lg:order-3 lg:col-span-3 flex flex-col gap-4">
           
           {/* Card 1: Exam Information */}
           <div className="bg-white rounded-2xl border border-slate-200 shadow-xs p-5">
@@ -757,8 +758,8 @@ export default function ExamForum({
 
       {/* End Session Confirmation / Score Modal */}
       {showEndModal && (
-        <div className="fixed inset-0 z-50 bg-slate-900/40 backdrop-blur-xs flex items-center justify-center p-4">
-          <div className="bg-white rounded-2xl max-w-md w-full p-6 shadow-xl border border-slate-100 animate-in fade-in duration-200">
+        <div className="fixed inset-0 z-50 bg-slate-900/40 backdrop-blur-xs flex items-center justify-center p-3 sm:p-4">
+          <div className="bg-white rounded-2xl max-w-md w-full p-5 sm:p-6 shadow-xl border border-slate-100 animate-in fade-in duration-200 max-h-[92vh] overflow-y-auto">
             {!examSubmitted ? (
               <>
                 <div className="w-12 h-12 rounded-full bg-blue-100 text-blue-600 flex items-center justify-center mx-auto mb-4">
@@ -766,7 +767,7 @@ export default function ExamForum({
                     <path strokeLinecap="round" strokeLinejoin="round" d="M9.879 7.519c1.171-1.025 3.071-1.025 4.242 0 1.172 1.025 1.172 2.687 0 3.712-.203.179-.43.326-.67.442-.745.361-1.45.999-1.45 1.827v.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9 5.25h.008v.008H12v-.008Z" />
                   </svg>
                 </div>
-                <h3 className="text-lg font-bold text-center text-slate-900 mb-1">
+                <h3 className="text-base sm:text-lg font-bold text-center text-slate-900 mb-1">
                   Ready to Complete {currentMode === 'practice' ? 'Practice' : 'Exam'}?
                 </h3>
                 <p className="text-xs text-center text-slate-500 mb-5">
@@ -797,10 +798,10 @@ export default function ExamForum({
                   )}
                 </div>
 
-                <div className="flex gap-3">
+                <div className="flex flex-col sm:flex-row gap-2 sm:gap-3">
                   <button
                     onClick={() => setShowEndModal(false)}
-                    className="flex-1 py-2.5 rounded-xl border border-slate-200 text-xs font-semibold text-slate-700 hover:bg-slate-50 transition-colors cursor-pointer"
+                    className="w-full sm:flex-1 py-2.5 rounded-xl border border-slate-200 text-xs font-semibold text-slate-700 hover:bg-slate-50 transition-colors cursor-pointer text-center"
                   >
                     Continue
                   </button>
@@ -817,7 +818,7 @@ export default function ExamForum({
                         })
                       }
                     }}
-                    className="flex-1 py-2.5 rounded-xl bg-blue-600 hover:bg-blue-700 text-white text-xs font-semibold shadow-xs transition-colors cursor-pointer"
+                    className="w-full sm:flex-1 py-2.5 rounded-xl bg-blue-600 hover:bg-blue-700 text-white text-xs font-semibold shadow-xs transition-colors cursor-pointer text-center"
                   >
                     Submit & View Results
                   </button>
@@ -830,7 +831,7 @@ export default function ExamForum({
                     <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 12.75 6 6 9-13.5" />
                   </svg>
                 </div>
-                <h3 className="text-lg font-bold text-center text-slate-900 mb-1">
+                <h3 className="text-base sm:text-lg font-bold text-center text-slate-900 mb-1">
                   Session Completed!
                 </h3>
                 <p className="text-xs text-center text-slate-500 mb-5">
@@ -839,7 +840,7 @@ export default function ExamForum({
 
                 <div className="bg-blue-50 border border-blue-100 rounded-xl p-4 mb-5 text-center">
                   <p className="text-xs text-blue-600 font-semibold uppercase tracking-wider">Score on Questions</p>
-                  <p className="text-3xl font-extrabold text-blue-700 my-1">
+                  <p className="text-2xl sm:text-3xl font-extrabold text-blue-700 my-1">
                     {scoreSummary.correct} / {totalQuestionsCount}
                   </p>
                   <p className="text-xs text-blue-500 font-medium">
@@ -849,7 +850,7 @@ export default function ExamForum({
                   </p>
                 </div>
 
-                <div className="flex gap-2">
+                <div className="flex flex-col sm:flex-row gap-2">
                   <button
                     onClick={() => {
                       if (onShowResults) {
@@ -862,13 +863,13 @@ export default function ExamForum({
                         })
                       }
                     }}
-                    className="flex-1 py-2.5 rounded-xl bg-blue-600 hover:bg-blue-700 text-white text-xs font-semibold shadow-xs transition-colors cursor-pointer"
+                    className="w-full sm:flex-1 py-2.5 rounded-xl bg-blue-600 hover:bg-blue-700 text-white text-xs font-semibold shadow-xs transition-colors cursor-pointer text-center"
                   >
                     View Detailed Results →
                   </button>
                   <button
                     onClick={onBackToDashboard}
-                    className="px-4 py-2.5 rounded-xl border border-slate-200 hover:bg-slate-50 text-slate-700 text-xs font-semibold transition-colors cursor-pointer"
+                    className="w-full sm:w-auto px-4 py-2.5 rounded-xl border border-slate-200 hover:bg-slate-50 text-slate-700 text-xs font-semibold transition-colors cursor-pointer text-center"
                   >
                     Dashboard
                   </button>

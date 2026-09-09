@@ -9,16 +9,16 @@ export default function ModeSelectModal({
   if (!isOpen || !exam) return null
 
   return (
-    <div className="fixed inset-0 z-50 bg-slate-900/50 backdrop-blur-xs flex items-center justify-center p-4 animate-in fade-in duration-200">
-      <div className="bg-white rounded-2xl max-w-xl w-full shadow-2xl border border-slate-100 overflow-hidden">
+    <div className="fixed inset-0 z-50 bg-slate-900/50 backdrop-blur-xs flex items-center justify-center p-3 sm:p-4 animate-in fade-in duration-200">
+      <div className="bg-white rounded-2xl max-w-xl w-full shadow-2xl border border-slate-100 overflow-hidden max-h-[92vh] flex flex-col">
         
         {/* Modal Header */}
-        <div className="p-6 border-b border-slate-100 flex items-start justify-between bg-gradient-to-r from-blue-50/50 via-white to-indigo-50/50">
-          <div>
+        <div className="p-4 sm:p-6 border-b border-slate-100 flex items-start justify-between bg-gradient-to-r from-blue-50/50 via-white to-indigo-50/50 shrink-0">
+          <div className="pr-2">
             <span className="text-[11px] font-bold text-blue-600 uppercase tracking-wider">
               {exam.module || 'Exam Preparation'}
             </span>
-            <h2 className="text-xl font-bold text-slate-900 mt-0.5">
+            <h2 className="text-lg sm:text-xl font-bold text-slate-900 mt-0.5">
               Choose How to Take This Exam
             </h2>
             <p className="text-xs text-slate-500 mt-1">
@@ -28,7 +28,7 @@ export default function ModeSelectModal({
 
           <button
             onClick={onClose}
-            className="text-slate-400 hover:text-slate-600 p-1.5 rounded-lg hover:bg-slate-100 transition-colors cursor-pointer"
+            className="text-slate-400 hover:text-slate-600 p-1.5 rounded-lg hover:bg-slate-100 transition-colors cursor-pointer shrink-0"
             title="Close"
           >
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" className="w-5 h-5">
@@ -38,7 +38,7 @@ export default function ModeSelectModal({
         </div>
 
         {/* Two Mode Options */}
-        <div className="p-6 grid grid-cols-1 sm:grid-cols-2 gap-4">
+        <div className="p-4 sm:p-6 grid grid-cols-1 sm:grid-cols-2 gap-4 overflow-y-auto flex-1">
           
           {/* OPTION 1: Real Exam Mode */}
           <div
@@ -149,11 +149,11 @@ export default function ModeSelectModal({
         </div>
 
         {/* Footer */}
-        <div className="px-6 py-3.5 bg-slate-50 border-t border-slate-100 flex items-center justify-between text-xs text-slate-500">
+        <div className="px-4 sm:px-6 py-3.5 bg-slate-50 border-t border-slate-100 flex flex-col sm:flex-row items-center justify-between gap-2 text-center sm:text-left text-xs text-slate-500 shrink-0">
           <span>You can switch modes or finish at any time during the session.</span>
           <button
             onClick={onClose}
-            className="text-slate-600 hover:text-slate-800 font-semibold cursor-pointer"
+            className="text-slate-600 hover:text-slate-800 font-semibold cursor-pointer py-1 px-2 rounded-md hover:bg-slate-200/50 transition-colors"
           >
             Cancel
           </button>

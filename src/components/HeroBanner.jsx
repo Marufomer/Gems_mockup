@@ -8,19 +8,19 @@ export default function HeroBanner({ onStartLearning }) {
       }}
     >
       {/* Text content */}
-      <div className="relative z-10 p-8 max-w-sm">
-        <p className="text-blue-700 text-sm font-medium mb-1">Good Day,</p>
-        <h1 className="text-2xl font-bold text-gray-900 mb-3 leading-tight">
+      <div className="relative z-10 p-5 sm:p-8 max-w-md">
+        <p className="text-blue-700 text-xs sm:text-sm font-medium mb-1">Good Day,</p>
+        <h1 className="text-xl sm:text-2xl font-bold text-gray-900 mb-2 sm:mb-3 leading-tight">
           Welcome to, Gems-Mockups!
         </h1>
-        <p className="text-gray-600 text-sm mb-6 leading-relaxed">
+        <p className="text-gray-600 text-xs sm:text-sm mb-5 sm:mb-6 leading-relaxed">
           Continue your learning journey. Take your exams,
-          <br />
-          track your progress and achieve your goals.
+          <br className="hidden sm:inline" />
+          {' '}track your progress and achieve your goals.
         </p>
         <button
           onClick={onStartLearning}
-          className="inline-flex items-center gap-2 bg-blue-600 hover:bg-blue-700 active:scale-95 text-white text-sm font-semibold px-5 py-2.5 rounded-full transition-all duration-200 shadow-md cursor-pointer"
+          className="inline-flex items-center gap-2 bg-blue-600 hover:bg-blue-700 active:scale-95 text-white text-xs sm:text-sm font-semibold px-4 sm:px-5 py-2.5 rounded-full transition-all duration-200 shadow-md cursor-pointer"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -39,11 +39,11 @@ export default function HeroBanner({ onStartLearning }) {
       </div>
 
       {/* Decorative airplane illustration */}
-      <div className="absolute right-0 top-0 bottom-0 flex items-end justify-end pointer-events-none select-none">
+      <div className="absolute right-0 top-0 bottom-0 flex items-end justify-end pointer-events-none select-none overflow-hidden">
         <svg
           viewBox="0 0 420 200"
           xmlns="http://www.w3.org/2000/svg"
-          className="h-full w-auto opacity-90"
+          className="h-full w-auto opacity-35 sm:opacity-90 transition-opacity"
         >
           {/* Sky background gradient shapes */}
           <defs>

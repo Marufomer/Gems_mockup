@@ -81,7 +81,7 @@ export default function App() {
   return (
     <div className="min-h-screen bg-[#f8fafc] font-sans">
       <Navbar />
-      <main className="max-w-5xl mx-auto px-6 py-6">
+      <main className="max-w-5xl mx-auto px-4 sm:px-6 py-4 sm:py-6">
         
 
         <HeroBanner onStartLearning={() => handleOpenModeMenu(defaultExamId)} />
