@@ -1,0 +1,506 @@
+{
+  "id": "avo-2-module-1",
+  "title": "AVO-2 – Module 1",
+  "module": "AVO-2 – Module 1",
+  "description": "45-question AVO-2 Module 1 exam covering semiconductor devices, diodes, SCRs, transistors, FETs, biasing, and related electronic components.",
+  "durationMinutes": 150,
+  "totalQuestions": 45,
+  "color": "blue",
+  "questions": [
+    {
+      "id": 1,
+      "question": "An SCR is_",
+      "options": [
+        "A. 4-layer, 3 junction transistor",
+        "B. 3-layer, 2 junction transistor",
+        "C. 2-layer, 1 junction transistor"
+      ],
+      "correctIndex": 0,
+      "explanation": "The supplied answer is: 4-layer, 3 junction transistor."
+    },
+    {
+      "id": 2,
+      "question": "Diode is___",
+      "options": [
+        "A. 2 terminal devices",
+        "B. 3 terminal devices",
+        "C. 4 terminal devices"
+      ],
+      "correctIndex": 0,
+      "explanation": "The supplied answer is: 2 terminal devices."
+    },
+    {
+      "id": 3,
+      "question": "To check the forward resistance of a diode with a multimeter the lead connected to the +ve terminal is put to the........",
+      "options": [
+        "A. ANODE",
+        "B. CATHODE",
+        "C. GATE"
+      ],
+      "correctIndex": 0,
+      "explanation": "The supplied answer is: ANODE."
+    },
+    {
+      "id": 4,
+      "question": "For conduction of a transistor the base emitter junction is........",
+      "options": [
+        "A. Forward bias",
+        "B. Reverse bias",
+        "C. Zero bias"
+      ],
+      "correctIndex": 0,
+      "explanation": "The supplied answer is: Forward bias."
+    },
+    {
+      "id": 5,
+      "question": "Zener diode is type of",
+      "options": [
+        "A. constant voltage device",
+        "B. constant current device",
+        "C. variable resistance device"
+      ],
+      "correctIndex": 0,
+      "explanation": "The supplied answer is: constant voltage device."
+    },
+    {
+      "id": 6,
+      "question": "An atom having 5 electrons in its outer shell is",
+      "options": [
+        "A. N type material",
+        "B. P type material",
+        "C. Intrinsic material"
+      ],
+      "correctIndex": 0,
+      "explanation": "The supplied answer is: N type material."
+    },
+    {
+      "id": 7,
+      "question": "The depletion layer width junction",
+      "options": [
+        "A. increased under reverse biased",
+        "B. decreased under reverse biased",
+        "C. remains unchanged under reverse biased"
+      ],
+      "correctIndex": 0,
+      "explanation": "The supplied answer is: increased under reverse biased."
+    },
+    {
+      "id": 8,
+      "question": "In normal operation of SCR anode is",
+      "options": [
+        "A. Positive",
+        "B. Negative",
+        "C. Neutral"
+      ],
+      "correctIndex": 0,
+      "explanation": "The supplied answer is: Positive."
+    },
+    {
+      "id": 9,
+      "question": "a region where CB and BE junction are forward",
+      "options": [
+        "A. saturation",
+        "B. active",
+        "C. cutoff"
+      ],
+      "correctIndex": 0,
+      "explanation": "The supplied answer is: saturation."
+    },
+    {
+      "id": 10,
+      "question": "For a NPN transistor to conduct what must be junction BE",
+      "options": [
+        "A. forward biased",
+        "B. reverse biased",
+        "C. unbiased"
+      ],
+      "correctIndex": 0,
+      "explanation": "The supplied answer is: forward biased."
+    },
+    {
+      "id": 11,
+      "question": "PN junction of a semiconductor",
+      "options": [
+        "A. depleted of any charge carriers",
+        "B. filled with free charge carriers",
+        "C. unaffected by junction formation"
+      ],
+      "correctIndex": 0,
+      "explanation": "The supplied answer is: depleted of any charge carriers."
+    },
+    {
+      "id": 12,
+      "question": "Photodiode is designed to operate in",
+      "options": [
+        "A. reverse biased",
+        "B. forward biased",
+        "C. zero biased"
+      ],
+      "correctIndex": 0,
+      "explanation": "The supplied answer is: reverse biased."
+    },
+    {
+      "id": 13,
+      "question": "N terminal doped with",
+      "options": [
+        "A. pentavalent",
+        "B. trivalent",
+        "C. divalent"
+      ],
+      "correctIndex": 0,
+      "explanation": "The supplied answer is: pentavalent."
+    },
+    {
+      "id": 14,
+      "question": "NPN transistor turn on when Base-Emitter junction is",
+      "options": [
+        "A. Forward",
+        "B. Reverse",
+        "C. Open"
+      ],
+      "correctIndex": 0,
+      "explanation": "The supplied answer is: Forward."
+    },
+    {
+      "id": 15,
+      "question": "If PIV of a diode exceed the rated value.....",
+      "options": [
+        "A. diode destroyed",
+        "B. diode becomes an open circuit permanently without damage",
+        "C. diode voltage rating increases"
+      ],
+      "correctIndex": 0,
+      "explanation": "The supplied answer is: diode destroyed."
+    },
+    {
+      "id": 16,
+      "question": "Zener Diode is type of",
+      "options": [
+        "A. Constant Voltage Device",
+        "B. Constant Current Device",
+        "C. Constant Power Device"
+      ],
+      "correctIndex": 0,
+      "explanation": "The supplied answer is: Constant Voltage Device."
+    },
+    {
+      "id": 17,
+      "question": "The clossest valence band –",
+      "options": [
+        "A. Conductors",
+        "B. Insulators",
+        "C. Semiconductors"
+      ],
+      "correctIndex": 0,
+      "explanation": "The supplied answer is: Conductors."
+    },
+    {
+      "id": 18,
+      "question": "In PNP conventional current flow from",
+      "options": [
+        "A. Emitter to Base",
+        "B. Base to Emitter",
+        "C. Collector to Base"
+      ],
+      "correctIndex": 0,
+      "explanation": "The supplied answer is: Emitter to Base."
+    },
+    {
+      "id": 19,
+      "question": "In NPN transistor P is -",
+      "options": [
+        "A. Base",
+        "B. Emitter",
+        "C. Collector"
+      ],
+      "correctIndex": 0,
+      "explanation": "The supplied answer is: Base."
+    },
+    {
+      "id": 20,
+      "question": "Number of terminal of diodes",
+      "options": [
+        "A. 2",
+        "B. 3",
+        "C. 4"
+      ],
+      "correctIndex": 0,
+      "explanation": "The supplied answer is: 2."
+    },
+    {
+      "id": 21,
+      "question": "Which terminal belongs to the SCR",
+      "options": [
+        "A. Anode",
+        "B. Drain",
+        "C. Base"
+      ],
+      "correctIndex": 0,
+      "explanation": "The supplied answer is: Anode."
+    },
+    {
+      "id": 22,
+      "question": "Thyristor SCR is a",
+      "options": [
+        "A. P-N-P-N Device",
+        "B. N-P-N Device",
+        "C. P-N Device"
+      ],
+      "correctIndex": 0,
+      "explanation": "The supplied answer is: P-N-P-N Device."
+    },
+    {
+      "id": 23,
+      "question": "Thyristor has how many terminals",
+      "options": [
+        "A. 3",
+        "B. 2",
+        "C. 4"
+      ],
+      "correctIndex": 0,
+      "explanation": "The supplied answer is: 3."
+    },
+    {
+      "id": 24,
+      "question": "Doping of the semiconductor material means",
+      "options": [
+        "A. Decrease the resistance of the material",
+        "B. Increase the resistance of the material",
+        "C. Remove all charge carriers from the material"
+      ],
+      "correctIndex": 0,
+      "explanation": "The supplied answer is: Decrease the resistance of the material."
+    },
+    {
+      "id": 25,
+      "question": "Which SCR terminal fires the SCR",
+      "options": [
+        "A. Gate",
+        "B. Anode",
+        "C. Cathode"
+      ],
+      "correctIndex": 0,
+      "explanation": "The supplied answer is: Gate."
+    },
+    {
+      "id": 26,
+      "question": "Successful use of a thyristor as an Amplifier is at",
+      "options": [
+        "A. Active region",
+        "B. Saturation region",
+        "C. Cutoff region"
+      ],
+      "correctIndex": 0,
+      "explanation": "The supplied answer is: Active region."
+    },
+    {
+      "id": 27,
+      "question": "is a high speed switch used to replace electromagnetic relay",
+      "options": [
+        "A. Thyristor",
+        "B. Transformer",
+        "C. Resistor"
+      ],
+      "correctIndex": 0,
+      "explanation": "The supplied answer is: Thyristor."
+    },
+    {
+      "id": 28,
+      "question": "Forbidden gap is very wide in",
+      "options": [
+        "A. Insulator",
+        "B. Conductor",
+        "C. Semiconductor"
+      ],
+      "correctIndex": 0,
+      "explanation": "The supplied answer is: Insulator."
+    },
+    {
+      "id": 29,
+      "question": "PN junction diode is reverse biased when",
+      "options": [
+        "A. Anode and Cathode at a diode is connected to negative and positive terminals respectively",
+        "B. Anode is connected to positive and Cathode to negative terminals",
+        "C. Both terminals are connected to the positive terminal"
+      ],
+      "correctIndex": 0,
+      "explanation": "The supplied answer is: Anode and Cathode at a diode is connected to negative and positive terminals respectively."
+    },
+    {
+      "id": 30,
+      "question": "Which relation is true regarding BJT current",
+      "options": [
+        "A. IC = IE – IB",
+        "B. IE = IC – IB",
+        "C. IB = IC + IE"
+      ],
+      "correctIndex": 0,
+      "explanation": "The supplied answer is: IC = IE – IB."
+    },
+    {
+      "id": 31,
+      "question": "FET compared to junction transistor is",
+      "options": [
+        "A. Voltage operated",
+        "B. Current operated",
+        "C. Temperature operated"
+      ],
+      "correctIndex": 0,
+      "explanation": "The supplied answer is: Voltage operated."
+    },
+    {
+      "id": 32,
+      "question": "In transistor the arrow is always point the direction of –",
+      "options": [
+        "A. Conventional Current Flow",
+        "B. Electron Flow only",
+        "C. Magnetic Flux"
+      ],
+      "correctIndex": 0,
+      "explanation": "The supplied answer is: Conventional Current Flow."
+    },
+    {
+      "id": 33,
+      "question": "In which mode is a transistor, when both the Base-Emitter and Collector-Base all are at forward bias",
+      "options": [
+        "A. Saturation Mode",
+        "B. Active Mode",
+        "C. Cutoff Mode"
+      ],
+      "correctIndex": 0,
+      "explanation": "The supplied answer is: Saturation Mode."
+    },
+    {
+      "id": 34,
+      "question": "When battery positive terminal is connected to P-type and negative terminal is connected to N-type",
+      "options": [
+        "A. Forward bias",
+        "B. Reverse bias",
+        "C. No bias"
+      ],
+      "correctIndex": 0,
+      "explanation": "The supplied answer is: Forward bias."
+    },
+    {
+      "id": 35,
+      "question": "In order to operate BJT in active region, the Base-Emitter junction is Forward Bias and Collector-Base Junction",
+      "options": [
+        "A. Reverse Bias",
+        "B. Forward Bias",
+        "C. Zero Bias"
+      ],
+      "correctIndex": 0,
+      "explanation": "The supplied answer is: Reverse Bias."
+    },
+    {
+      "id": 36,
+      "question": "NPN transistor turn on when Base-Emitter junction is",
+      "options": [
+        "A. Forward bias",
+        "B. Reverse bias",
+        "C. Open circuit"
+      ],
+      "correctIndex": 0,
+      "explanation": "The supplied answer is: Forward bias."
+    },
+    {
+      "id": 37,
+      "question": "P-N junction of semiconductor",
+      "options": [
+        "A. depleted of any charge carrier",
+        "B. supplied with additional charge carriers",
+        "C. completely free of a junction"
+      ],
+      "correctIndex": 0,
+      "explanation": "The supplied answer is: depleted of any charge carrier."
+    },
+    {
+      "id": 38,
+      "question": "FET transistor junction connection are",
+      "options": [
+        "A. Drain, Source and Gate",
+        "B. Collector, Base and Emitter",
+        "C. Anode, Cathode and Gate"
+      ],
+      "correctIndex": 0,
+      "explanation": "The supplied answer is: Drain, Source and Gate."
+    },
+    {
+      "id": 39,
+      "question": "Transistor Base-Emitter junction",
+      "options": [
+        "A. Forward bias",
+        "B. Reverse bias",
+        "C. Open circuit"
+      ],
+      "correctIndex": 0,
+      "explanation": "The supplied answer is: Forward bias."
+    },
+    {
+      "id": 40,
+      "question": "Photoresistor is also",
+      "options": [
+        "A. LDR",
+        "B. LED",
+        "C. SCR"
+      ],
+      "correctIndex": 0,
+      "explanation": "The supplied answer is: LDR."
+    },
+    {
+      "id": 41,
+      "question": "Zener diode used as voltage stabilizer when",
+      "options": [
+        "A. Reverse biased region",
+        "B. Forward biased region",
+        "C. Zero biased region"
+      ],
+      "correctIndex": 0,
+      "explanation": "The supplied answer is: Reverse biased region."
+    },
+    {
+      "id": 42,
+      "question": "Is a temperature sensor with a thermal sensitive value",
+      "options": [
+        "A. Thermistor",
+        "B. Photodiode",
+        "C. Varactor"
+      ],
+      "correctIndex": 0,
+      "explanation": "The supplied answer is: Thermistor."
+    },
+    {
+      "id": 43,
+      "question": "Type of diode emitting photon when conducted",
+      "options": [
+        "A. LED",
+        "B. Zener diode",
+        "C. Photodiode"
+      ],
+      "correctIndex": 0,
+      "explanation": "The supplied answer is: LED."
+    },
+    {
+      "id": 44,
+      "question": "In PNP conventional current flow from",
+      "options": [
+        "A. Emitter to Base",
+        "B. Base to Emitter",
+        "C. Collector to Emitter"
+      ],
+      "correctIndex": 0,
+      "explanation": "The supplied answer is: Emitter to Base."
+    },
+    {
+      "id": 45,
+      "question": "Ideal diode acts as",
+      "options": [
+        "A. open when reverse bias and Short when forward bias",
+        "B. short when reverse bias and open when forward bias",
+        "C. open in both forward and reverse bias"
+      ],
+      "correctIndex": 0,
+      "explanation": "The supplied answer is: open when reverse bias and Short when forward bias."
+    }
+  ]
+}
