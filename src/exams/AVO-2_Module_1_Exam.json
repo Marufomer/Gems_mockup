@@ -5,6 +5,8 @@
   "description": "45-question AVO-2 Module 1 exam covering semiconductor devices, diodes, SCRs, transistors, FETs, biasing, and related electronic components.",
   "durationMinutes": 150,
   "totalQuestions": 45,
+  "course": "avionics",
+  "category": "part",
   "color": "blue",
   "questions": [
     {

@@ -5,6 +5,8 @@
   "description": "Exam covering AC circuits, transformers, filters, measuring instruments, resonance, three-phase systems, and electrical measurements.",
   "durationMinutes": 150,
   "totalQuestions": 106,
+  "course": "avionics",
+  "category": "part",
   "color": "blue",
   "questions": [
     {

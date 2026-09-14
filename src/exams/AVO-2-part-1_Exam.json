@@ -5,6 +5,8 @@
   "description": "68-question AVO-2 Part 1 exam covering semiconductor devices, diodes, transistors, thyristors, UJTs, FETs, LEDs, and related electronics.",
   "durationMinutes": 150,
   "totalQuestions": 68,
+  "course": "avionics",
+  "category": "part",
   "color": "blue",
   "questions": [
     {

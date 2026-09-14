@@ -5,6 +5,8 @@
   "description": "Final exam covering transformers, AC and DC circuits, filters, measuring instruments, oscilloscopes, three-phase systems, resonance, and basic electrical measurements.",
   "durationMinutes": 150,
   "totalQuestions": 53,
+  "course": "avionics",
+  "category": "part",
   "color": "blue",
   "questions": [
     {

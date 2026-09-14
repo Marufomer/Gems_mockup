@@ -5,6 +5,8 @@
   "description": "90-question AVO school final covering avionics, electrical, electronic, flight instrument, navigation, communication, and aircraft systems topics.",
   "durationMinutes": 150,
   "totalQuestions": 90,
+  "course": "avionics",
+  "category": "school_final",
   "color": "blue",
   "questions": [
     {

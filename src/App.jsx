@@ -10,7 +10,7 @@ import { getAllExams, getExamById } from './utils/examLoader'
 
 export default function App() {
   const allExams = getAllExams()
-  const defaultExamId = allExams[0]?.id || 'aircraft-instruments'
+  const defaultExamId = allExams[0]?.id || 'avo-1-module-1-2'
 
   const [currentView, setCurrentView] = useState('dashboard') // 'dashboard' | 'exam' | 'result'
   const [selectedExamId, setSelectedExamId] = useState(defaultExamId)
@@ -19,7 +19,7 @@ export default function App() {
   const [pendingExam, setPendingExam] = useState(null)
 
   const [resultSession, setResultSession] = useState({
-    examId: 'aircraft-powerplant',
+    examId: defaultExamId,
     userAnswers: {},
     timeSpent: '2:28:15',
   })
@@ -81,7 +81,7 @@ export default function App() {
   return (
     <div className="min-h-screen bg-[#f8fafc] font-sans">
       <Navbar />
-      <main className="max-w-5xl mx-auto px-4 sm:px-6 py-4 sm:py-6">
+      <main className="max-w-6xl mx-auto px-4 sm:px-6 py-4 sm:py-6">
         
 
         <HeroBanner onStartLearning={() => handleOpenModeMenu(defaultExamId)} />

@@ -1,6 +1,106 @@
 // Dynamically load all JSON files from src/exams/ using Vite's eager import glob
 const examModules = import.meta.glob('../exams/*.json', { eager: true })
 
+export const COURSES = [
+  {
+    id: 'avionics',
+    title: 'Avionics Exam',
+    shortName: 'Avionics',
+    icon: 'avionics',
+    color: 'blue',
+    badgeClass: 'bg-blue-50 text-blue-700 border-blue-200',
+    headerBg: 'from-blue-600 to-indigo-700',
+    description: 'Aircraft electrical theory, avionics systems, digital techniques, instruments & communication.',
+  },
+  {
+    id: 'airframe',
+    title: 'Airframe Exam',
+    shortName: 'Airframe',
+    icon: 'airframe',
+    color: 'emerald',
+    badgeClass: 'bg-emerald-50 text-emerald-700 border-emerald-200',
+    headerBg: 'from-emerald-600 to-teal-700',
+    description: 'Aircraft structures, aerodynamics, hydraulic & pneumatic systems, flight controls & landing gear.',
+  },
+  {
+    id: 'powerplant',
+    title: 'Powerplant Exam',
+    shortName: 'Powerplant',
+    icon: 'powerplant',
+    color: 'purple',
+    badgeClass: 'bg-purple-50 text-purple-700 border-purple-200',
+    headerBg: 'from-purple-600 to-violet-700',
+    description: 'Reciprocating & turbine engines, fuel metering, ignition systems, propellers & lubrication.',
+  },
+]
+
+export const SUB_SECTIONS = [
+  {
+    id: 'part',
+    title: 'Part Exam',
+    shortTitle: 'Part Exam',
+    subtitle: 'Module & chapter-specific practice exams',
+    badgeClass: 'bg-blue-100 text-blue-800 border-blue-200',
+  },
+  {
+    id: 'school_final',
+    title: 'Subfinal and School Exam',
+    shortTitle: 'Subfinal & School Exam',
+    subtitle: 'Comprehensive school finals & subfinal evaluation exams',
+    badgeClass: 'bg-amber-100 text-amber-800 border-amber-200',
+  },
+]
+
+/**
+ * Determines which course an exam belongs to: 'avionics' | 'airframe' | 'powerplant'
+ */
+function determineCourse(data, fileName) {
+  const explicit = String(data.course || data.subject || '').toLowerCase().trim()
+  if (explicit.includes('airframe') || explicit === 'af') return 'airframe'
+  if (explicit.includes('powerplant') || explicit.includes('engine') || explicit === 'pp') return 'powerplant'
+  if (explicit.includes('avionic') || explicit.includes('avo')) return 'avionics'
+
+  // Auto-detect from filename, title, id, or module text
+  const combined = `${data.id || ''} ${fileName} ${data.title || ''} ${data.module || ''}`.toLowerCase()
+  if (combined.includes('airframe') || combined.includes('air-frame')) return 'airframe'
+  if (combined.includes('powerplant') || combined.includes('power-plant') || combined.includes('engine')) return 'powerplant'
+  if (combined.includes('avo') || combined.includes('avionic') || combined.includes('et-av')) return 'avionics'
+
+  return 'avionics'
+}
+
+/**
+ * Determines which sub-section an exam belongs to: 'part' | 'school_final'
+ */
+function determineCategory(data, fileName) {
+  const explicit = String(data.category || data.subSection || data.section || data.type || '').toLowerCase().trim()
+  if (
+    explicit.includes('school') ||
+    explicit.includes('final') ||
+    explicit.includes('subfinal') ||
+    explicit === 'school_final' ||
+    explicit === 'subfinal_school'
+  ) {
+    return 'school_final'
+  }
+  if (explicit.includes('part')) {
+    return 'part'
+  }
+
+  // Auto-detect from filename, title, id, or module text
+  const combined = `${data.id || ''} ${fileName} ${data.title || ''} ${data.module || ''}`.toLowerCase()
+  if (
+    combined.includes('school') ||
+    combined.includes('subfinal') ||
+    combined.includes('school_final') ||
+    combined.includes('school-final')
+  ) {
+    return 'school_final'
+  }
+
+  return 'part'
+}
+
 /**
  * Normalizes an exam object from a JSON file.
  */
@@ -12,7 +112,11 @@ function normalizeExam(filePath, rawData) {
   const questions = Array.isArray(data.questions) ? data.questions : []
   const totalQuestions = questions.length
   const durationMinutes = Number(data.durationMinutes || 150)
-  const color = data.color || (id.includes('powerplant') ? 'purple' : id.includes('airframe') ? 'green' : 'blue')
+
+  const course = determineCourse(data, fileName)
+  const category = determineCategory(data, fileName)
+
+  const color = data.color || (course === 'powerplant' ? 'purple' : course === 'airframe' ? 'green' : 'blue')
 
   // Icon background class helper
   const colorMap = {
@@ -39,6 +143,10 @@ function normalizeExam(filePath, rawData) {
     description: data.description || 'Test your knowledge on this subject.',
     durationMinutes,
     totalQuestions,
+    course, // 'avionics' | 'airframe' | 'powerplant'
+    category, // 'part' | 'school_final'
+    categoryLabel: category === 'school_final' ? 'Subfinal & School Exam' : 'Part Exam',
+    courseLabel: course === 'airframe' ? 'Airframe Exam' : course === 'powerplant' ? 'Powerplant Exam' : 'Avionics Exam',
     color,
     iconBg,
     questions,
@@ -54,6 +162,26 @@ export function getAllExams() {
     list.push(normalizeExam(path, moduleContent))
   }
   return list
+}
+
+/**
+ * Returns grouped exams by Course and Sub-section
+ */
+export function getExamsGrouped() {
+  const allExams = getAllExams()
+
+  const grouped = {}
+  COURSES.forEach((course) => {
+    const courseExams = allExams.filter((ex) => ex.course === course.id)
+    grouped[course.id] = {
+      info: course,
+      part: courseExams.filter((ex) => ex.category === 'part'),
+      school_final: courseExams.filter((ex) => ex.category === 'school_final'),
+      total: courseExams.length,
+    }
+  })
+
+  return grouped
 }
 
 /**

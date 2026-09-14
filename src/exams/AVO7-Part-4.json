@@ -5,6 +5,8 @@
   "description": "70-question exam covering gyroscopes, gyro horizons, erection systems, RLGs, turn-and-bank/turn coordinators, and rate gyros.",
   "durationMinutes": 150,
   "totalQuestions": 70,
+  "course": "avionics",
+  "category": "part",
   "color": "blue",
   "questions": [
     {

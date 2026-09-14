@@ -5,6 +5,8 @@
   "description": "Final exam covering basic electrical theory, resistance, capacitance, inductance, magnetism, generators, and fundamental electrical principles.",
   "durationMinutes": 150,
   "totalQuestions": 55,
+  "course": "avionics",
+  "category": "part",
   "color": "blue",
   "questions": [
     {
