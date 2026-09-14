@@ -398,9 +398,9 @@
       "id": 36,
       "question": "Gyroscope of turn-and-bank indicator contains",
       "options": [
-        "A. two gimbal rings",
+        "A. one gimbal rings",
         "B. three gimbal rings",
-        "C. no gimbal ring"
+        "C. two gimbal ring"
       ],
       "correctIndex": 0,
       "explanation": "The supplied answer is retained exactly from the exam source."
@@ -464,11 +464,11 @@
       "id": 42,
       "question": "Incorrect statement",
       "options": [
-        "A. plane of rotation is vertical",
+        "A. plane of rotation is vertical for vertical gyro",
         "B. vertical gyro has a vertical spin axis",
         "C. plane of rotation of vertical gyro is horizontal"
       ],
-      "correctIndex": 2,
+      "correctIndex": 0,
       "explanation": "The supplied statement is the exam's marked incorrect statement; the module identifies the vertical gyro by its vertical spin axis."
     },
     {
