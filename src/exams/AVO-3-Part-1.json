@@ -1,0 +1,1080 @@
+{
+  "id": "avo-3-part-1",
+  "title": "Avo-3-part-1",
+  "module": "AVO-3",
+  "course": "avionics",
+  "category": "part",
+  "description": "Part 1 exam covering digital electronics, logic circuits, flip-flops, counters, registers, multiplexers, ADCs, DACs, parity circuits, and related avionics fundamentals.",
+  "durationMinutes": 150,
+  "totalQuestions": 97,
+  "color": "blue",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which of the following is true",
+      "options": [
+        "A. Sequential logic circuit has no memory",
+        "B. Sequential logic circuit = Combinational logic circuit + memory component",
+        "C. Sequential logic uses only analog signals"
+      ],
+      "correctIndex": 1,
+      "explanation": "A sequential logic circuit combines combinational logic with memory elements to store previous states."
+    },
+    {
+      "id": 2,
+      "question": "Flip flop is an",
+      "options": [
+        "A. Edge sensitive device",
+        "B. Analog device",
+        "C. Continuous device"
+      ],
+      "correctIndex": 0,
+      "explanation": "A flip-flop is an edge-sensitive device that changes state when triggered."
+    },
+    {
+      "id": 3,
+      "question": "Synchronous counter are better than asynchronous b/c",
+      "options": [
+        "A. Only one flip-flop receives the clock",
+        "B. The clock signal is applied simultaneously to all the flip-flop",
+        "C. They do not use flip-flops"
+      ],
+      "correctIndex": 1,
+      "explanation": "In a synchronous counter, all flip-flops receive the clock signal simultaneously, reducing propagation delay."
+    },
+    {
+      "id": 4,
+      "question": "Decimal to BCD has _ input",
+      "options": [
+        "A. 8",
+        "B. 2",
+        "C. 4"
+      ],
+      "correctIndex": 2,
+      "explanation": "BCD represents a decimal digit using 4 binary bits."
+    },
+    {
+      "id": 5,
+      "question": "Full subtractor subtracts",
+      "options": [
+        "A. 2",
+        "B. 3",
+        "C. 1"
+      ],
+      "correctIndex": 1,
+      "explanation": "A full subtractor uses three inputs: minuend, subtrahend, and borrow-in."
+    },
+    {
+      "id": 6,
+      "question": "D-flop flop how many input",
+      "options": [
+        "A. 2",
+        "B. 4",
+        "C. 1"
+      ],
+      "correctIndex": 2,
+      "explanation": "A D flip-flop has one main data input called D."
+    },
+    {
+      "id": 7,
+      "question": "Full adder is",
+      "options": [
+        "A. Addition without carry",
+        "B. Addition with carry",
+        "C. Subtraction with borrow"
+      ],
+      "correctIndex": 1,
+      "explanation": "A full adder performs binary addition and includes a carry input."
+    },
+    {
+      "id": 8,
+      "question": "Half adder carry expressed by",
+      "options": [
+        "A. A and B (AB)",
+        "B. A XOR B",
+        "C. A + B"
+      ],
+      "correctIndex": 0,
+      "explanation": "The carry output of a half adder is AB because a carry occurs only when both inputs are 1."
+    },
+    {
+      "id": 9,
+      "question": "The register is a type of",
+      "options": [
+        "A. Combinational circuit",
+        "B. Analog circuit",
+        "C. Sequential circuit"
+      ],
+      "correctIndex": 2,
+      "explanation": "A register stores binary data using flip-flops, so it is a sequential circuit."
+    },
+    {
+      "id": 10,
+      "question": "Has one input and eight output",
+      "options": [
+        "A. Multiplexer",
+        "B. Demultiplexer",
+        "C. Encoder"
+      ],
+      "correctIndex": 1,
+      "explanation": "A demultiplexer distributes one input signal to one of several outputs."
+    },
+    {
+      "id": 11,
+      "question": "First of register",
+      "options": [
+        "A. Stored many bits",
+        "B. Stores only analog signals",
+        "C. Generates a clock signal"
+      ],
+      "correctIndex": 0,
+      "explanation": "A register is used to store multiple bits of binary information."
+    },
+    {
+      "id": 12,
+      "question": "A synchronous counter that changes states",
+      "options": [
+        "A. Without a clock signal",
+        "B. A sync with common clock signal",
+        "C. Using analog input only"
+      ],
+      "correctIndex": 1,
+      "explanation": "A synchronous counter uses a common clock signal for all flip-flops."
+    },
+    {
+      "id": 13,
+      "question": "The resolution of ADC converter",
+      "options": [
+        "A. The conversion speed",
+        "B. The smallest measurable",
+        "C. The largest output voltage"
+      ],
+      "correctIndex": 1,
+      "explanation": "ADC resolution is the smallest change in analog input that can be detected."
+    },
+    {
+      "id": 14,
+      "question": "Which one of has one select line",
+      "options": [
+        "A. 1 to 8 demux",
+        "B. 1 to 4 demux",
+        "C. 1 to 2 demux"
+      ],
+      "correctIndex": 2,
+      "explanation": "A 1-to-2 demultiplexer requires one select line."
+    },
+    {
+      "id": 15,
+      "question": "Advantage of R-2R ladder over weighted DAC",
+      "options": [
+        "A. We only use two bit values of resistor",
+        "B. It uses no resistors",
+        "C. It requires more resistor values"
+      ],
+      "correctIndex": 0,
+      "explanation": "An R-2R ladder uses only two resistor values, making the circuit easier to design accurately."
+    },
+    {
+      "id": 16,
+      "question": "Which of the following type is odd",
+      "options": [
+        "A. Decoder",
+        "B. Flip-flop",
+        "C. Multiplexer"
+      ],
+      "correctIndex": 1,
+      "explanation": "A flip-flop is a bistable sequential logic device."
+    },
+    {
+      "id": 17,
+      "question": "In up-counter 4 bit circuit, if the input is 1010, what will be the output after 3 pulses",
+      "options": [
+        "A. 1101",
+        "B. 1100",
+        "C. 1011"
+      ],
+      "correctIndex": 0,
+      "explanation": "Starting from 1010, three pulses produce 1011, 1100, and then 1101."
+    },
+    {
+      "id": 18,
+      "question": "A, B and BIN are respectively the minuend, the subtrahend and borrow in of A=0, B=1 and Bin=1, what will be difference and borrow out of the fully abstracted A - B - Bin respectively",
+      "options": [
+        "A. 1 and 0",
+        "B. 0 and 1",
+        "C. 1 and 1"
+      ],
+      "correctIndex": 1,
+      "explanation": "For the given full subtractor inputs, the difference is 0 and the borrow output is 1."
+    },
+    {
+      "id": 19,
+      "question": "Which sequential logic circuit is used to store single binary bit at a time",
+      "options": [
+        "A. Multiplexer",
+        "B. Decoder",
+        "C. Flip-flop"
+      ],
+      "correctIndex": 2,
+      "explanation": "A flip-flop stores one binary bit."
+    },
+    {
+      "id": 20,
+      "question": "Is an example of sequential circuit example",
+      "options": [
+        "A. Flip-flop",
+        "B. Adder",
+        "C. Decoder"
+      ],
+      "correctIndex": 0,
+      "explanation": "A flip-flop is a sequential circuit because it stores a previous state."
+    },
+    {
+      "id": 21,
+      "question": "Latches will remain set/reset state until",
+      "options": [
+        "A. Triggering pulse change the state",
+        "B. The power supply increases",
+        "C. A resistor is removed"
+      ],
+      "correctIndex": 0,
+      "explanation": "A latch remains in its current state until a triggering signal changes it."
+    },
+    {
+      "id": 22,
+      "question": "8 bit input number positive combination",
+      "options": [
+        "A. 2^4",
+        "B. 2^8",
+        "C. 8"
+      ],
+      "correctIndex": 1,
+      "explanation": "An 8-bit binary number has 2^8 possible combinations."
+    },
+    {
+      "id": 23,
+      "question": "Which state of operation of RS flip flop is avoided by JK flip flop",
+      "options": [
+        "A. Set condition",
+        "B. Reset condition",
+        "C. Unstable condition"
+      ],
+      "correctIndex": 2,
+      "explanation": "The JK flip-flop eliminates the invalid or unstable condition of the RS flip-flop."
+    },
+    {
+      "id": 24,
+      "question": "Number of 1s in even parity code word",
+      "options": [
+        "A. Odd",
+        "B. Even",
+        "C. Zero only"
+      ],
+      "correctIndex": 1,
+      "explanation": "An even parity code word contains an even number of binary 1s."
+    },
+    {
+      "id": 25,
+      "question": "Number of flip-flops required for 2 bit asynchronous counter",
+      "options": [
+        "A. 3",
+        "B. 2",
+        "C. 1"
+      ],
+      "correctIndex": 1,
+      "explanation": "A 2-bit counter requires two flip-flops."
+    },
+    {
+      "id": 26,
+      "question": "R-S flip flop has _ outputs",
+      "options": [
+        "A. 1 output",
+        "B. 2 outputs, Q and Q'",
+        "C. 3 outputs"
+      ],
+      "correctIndex": 1,
+      "explanation": "An RS flip-flop has two complementary outputs, Q and Q'."
+    },
+    {
+      "id": 27,
+      "question": "R-S flip flop has _ state",
+      "options": [
+        "A. Unstable",
+        "B. Only set",
+        "C. Only reset"
+      ],
+      "correctIndex": 0,
+      "explanation": "The RS flip-flop has an invalid or unstable state for a particular input combination."
+    },
+    {
+      "id": 28,
+      "question": "Which of the following is DAC",
+      "options": [
+        "A. Flash & comparator",
+        "B. Weighted resistor & R-2R ladder",
+        "C. Encoder & decoder"
+      ],
+      "correctIndex": 1,
+      "explanation": "Weighted resistor and R-2R ladder circuits are common DAC implementations."
+    },
+    {
+      "id": 29,
+      "question": "An odd parity has _ no of 1s",
+      "options": [
+        "A. Even",
+        "B. Zero",
+        "C. Odd"
+      ],
+      "correctIndex": 2,
+      "explanation": "Odd parity means the total number of 1s is odd."
+    },
+    {
+      "id": 30,
+      "question": "If half subtractor has two input A, B the borrow to be",
+      "options": [
+        "A. AB",
+        "B. A'B",
+        "C. A XOR B"
+      ],
+      "correctIndex": 1,
+      "explanation": "The borrow output of a half subtractor is A'B."
+    },
+    {
+      "id": 31,
+      "question": "Monotonicity",
+      "options": [
+        "A. The analog output should increase by identical step size for every one LSB increment in digital input",
+        "B. The analog output always decreases",
+        "C. The converter stops changing"
+      ],
+      "correctIndex": 0,
+      "explanation": "Monotonicity means the analog output changes consistently as the digital input increases."
+    },
+    {
+      "id": 32,
+      "question": "Which one is data distributer",
+      "options": [
+        "A. Multiplexer",
+        "B. Demultiplexer",
+        "C. Encoder"
+      ],
+      "correctIndex": 1,
+      "explanation": "A demultiplexer distributes one input signal to multiple possible outputs."
+    },
+    {
+      "id": 33,
+      "question": "If we record any music in recorder which one is used in this process",
+      "options": [
+        "A. Encoder",
+        "B. Decoder",
+        "C. Counter"
+      ],
+      "correctIndex": 0,
+      "explanation": "An encoder converts information into a coded form."
+    },
+    {
+      "id": 34,
+      "question": "The minimum no of flipflop of MOD 16 of ripple counter",
+      "options": [
+        "A. 3",
+        "B. 4",
+        "C. 5"
+      ],
+      "correctIndex": 1,
+      "explanation": "A MOD-16 counter requires 4 flip-flops because 2^4 = 16."
+    },
+    {
+      "id": 35,
+      "question": "Monotonicity in DAC gives an increase in analog output when increase in digital input",
+      "options": [
+        "A. Decrease in digital input",
+        "B. Increase in digital input",
+        "C. No digital input"
+      ],
+      "correctIndex": 1,
+      "explanation": "A monotonic DAC produces an increasing analog output when the digital input increases."
+    },
+    {
+      "id": 36,
+      "question": "In 4 bit adder when carry input is connect to high carry out is always",
+      "options": [
+        "A. Low",
+        "B. High",
+        "C. Undefined"
+      ],
+      "correctIndex": 1,
+      "explanation": "Based on the provided condition, the carry output is high."
+    },
+    {
+      "id": 37,
+      "question": "Sum of half adder",
+      "options": [
+        "A. A xor B",
+        "B. A and B",
+        "C. A + B"
+      ],
+      "correctIndex": 0,
+      "explanation": "The sum output of a half adder is A XOR B."
+    },
+    {
+      "id": 38,
+      "question": "Binary coded to most useful output",
+      "options": [
+        "A. Encoder",
+        "B. Multiplexer",
+        "C. Decoder"
+      ],
+      "correctIndex": 2,
+      "explanation": "A decoder converts coded binary inputs into the corresponding output."
+    },
+    {
+      "id": 39,
+      "question": "Difference b/n multiplexer & demultiplexer",
+      "options": [
+        "A. Multiplexer select the input but demultiplexer direct the output",
+        "B. Both perform exactly the same function",
+        "C. Multiplexer stores data"
+      ],
+      "correctIndex": 0,
+      "explanation": "A multiplexer selects one input, while a demultiplexer directs one input to a selected output."
+    },
+    {
+      "id": 40,
+      "question": "Set & preset logic gate combination",
+      "options": [
+        "A. AND / OR",
+        "B. NOR / NAND",
+        "C. XOR / XNOR"
+      ],
+      "correctIndex": 1,
+      "explanation": "NOR and NAND gates are commonly used to construct set-reset latch circuits."
+    },
+    {
+      "id": 41,
+      "question": "In flash ADC converter the O/P each comparator is connected of",
+      "options": [
+        "A. Priority encoder",
+        "B. Multiplexer",
+        "C. Shift register"
+      ],
+      "correctIndex": 0,
+      "explanation": "A flash ADC uses comparator outputs connected to a priority encoder."
+    },
+    {
+      "id": 42,
+      "question": "Which one is correct about D latch",
+      "options": [
+        "A. Q never changes",
+        "B. Q O/P follows the input D when enable is high",
+        "C. Q follows D when enable is low only"
+      ],
+      "correctIndex": 1,
+      "explanation": "When enable is high, a D latch is transparent and Q follows input D."
+    },
+    {
+      "id": 43,
+      "question": "In analog-to-digital conversion system the difference b/n the measured value to the true value is referred to",
+      "options": [
+        "A. Resolution",
+        "B. Accuracy",
+        "C. Speed"
+      ],
+      "correctIndex": 1,
+      "explanation": "Accuracy describes how close a measured value is to the true value."
+    },
+    {
+      "id": 44,
+      "question": "What is the result of shifting one bit to the left in a shift register",
+      "options": [
+        "A. Division by 2",
+        "B. Multiplication by 2",
+        "C. No change"
+      ],
+      "correctIndex": 1,
+      "explanation": "For an unsigned binary number, shifting left by one bit multiplies the value by 2."
+    },
+    {
+      "id": 45,
+      "question": "For a 4 bit adder if carry is high",
+      "options": [
+        "A. Added to LSB, one will be added to final output",
+        "B. The output becomes zero",
+        "C. The MSB is removed"
+      ],
+      "correctIndex": 0,
+      "explanation": "A high carry input contributes an additional binary 1 to the addition operation."
+    },
+    {
+      "id": 46,
+      "question": "For monolithic ADC analog output increase",
+      "options": [
+        "A. Digital output decrease",
+        "B. Digital output increase",
+        "C. No output changes"
+      ],
+      "correctIndex": 1,
+      "explanation": "As the analog input increases, the corresponding digital output code increases."
+    },
+    {
+      "id": 47,
+      "question": "Which flip-flop doesn't have unstable or has no internment state",
+      "options": [
+        "A. R-S Flip-flop",
+        "B. J-K Flip-flop",
+        "C. S-R Latch"
+      ],
+      "correctIndex": 1,
+      "explanation": "The JK flip-flop eliminates the invalid state found in the RS flip-flop."
+    },
+    {
+      "id": 48,
+      "question": "Which one of the following sets of gates are best suited for parity checking and parity generator",
+      "options": [
+        "A. EX-NOR & EX-OR",
+        "B. AND & OR",
+        "C. NOR & NAND"
+      ],
+      "correctIndex": 0,
+      "explanation": "XOR and XNOR gates are widely used for parity generation and checking."
+    },
+    {
+      "id": 49,
+      "question": "Combinational logic which can decode that",
+      "options": [
+        "A. One flip-flop only",
+        "B. One 4 input AND gate, and inverter",
+        "C. One counter only"
+      ],
+      "correctIndex": 1,
+      "explanation": "Decoding logic can use AND gates and inverters to recognize specific binary input combinations."
+    },
+    {
+      "id": 50,
+      "question": "The ratio between the largest and smallest value in the DAC called",
+      "options": [
+        "A. Resolution",
+        "B. Accuracy",
+        "C. Dynamic range"
+      ],
+      "correctIndex": 2,
+      "explanation": "Dynamic range is the ratio between the largest and smallest signal values represented by a DAC."
+    },
+    {
+      "id": 51,
+      "question": "If A, B, C are the input of full adder, the sum is given by",
+      "options": [
+        "A. A AND B AND C",
+        "B. A XOR B XOR C ([A \\oplus B \\oplus C])",
+        "C. A + B"
+      ],
+      "correctIndex": 1,
+      "explanation": "The sum output of a full adder is A XOR B XOR C."
+    },
+    {
+      "id": 52,
+      "question": "For 1 input 2 outputs, it's a",
+      "options": [
+        "A. Multiplexer",
+        "B. Encoder",
+        "C. Demultiplexer"
+      ],
+      "correctIndex": 2,
+      "explanation": "A 1-to-2 demultiplexer routes one input to one of two outputs."
+    },
+    {
+      "id": 53,
+      "question": "A counter circuit is constructed of circuit constructed of",
+      "options": [
+        "A. Resistors only",
+        "B. Flip-flops in cascade",
+        "C. Capacitors only"
+      ],
+      "correctIndex": 1,
+      "explanation": "Counters are constructed using interconnected flip-flops."
+    },
+    {
+      "id": 54,
+      "question": "Synchronous counter eliminates the delay problem encountered in asynchronous ripple counters b/c the",
+      "options": [
+        "A. Input clock pulse are applied simultaneously to each stage",
+        "B. Clock pulse is applied to one stage only",
+        "C. It uses no clock signal"
+      ],
+      "correctIndex": 0,
+      "explanation": "All stages receive the clock pulse simultaneously in a synchronous counter."
+    },
+    {
+      "id": 55,
+      "question": "If A & B are the inputs of a half adder, the carry is given by",
+      "options": [
+        "A. A XOR B",
+        "B. A and B",
+        "C. A OR B"
+      ],
+      "correctIndex": 1,
+      "explanation": "The carry output of a half adder is A AND B."
+    },
+    {
+      "id": 56,
+      "question": "Which device change serial input data to parallel output data",
+      "options": [
+        "A. Multiplexer",
+        "B. De-multiplexer",
+        "C. Encoder"
+      ],
+      "correctIndex": 1,
+      "explanation": "A demultiplexer distributes an input signal to multiple output paths."
+    },
+    {
+      "id": 57,
+      "question": "Latches will remain set/reset state until",
+      "options": [
+        "A. Clock given",
+        "B. The output disappears",
+        "C. A resistor changes"
+      ],
+      "correctIndex": 0,
+      "explanation": "A clock or triggering signal can control when a latch changes its state."
+    },
+    {
+      "id": 58,
+      "question": "When flip flop output Q = 1 it's",
+      "options": [
+        "A. Reset",
+        "B. Set",
+        "C. Invalid"
+      ],
+      "correctIndex": 1,
+      "explanation": "When Q equals 1, the flip-flop is in the set state."
+    },
+    {
+      "id": 59,
+      "question": "Which one is used on ADC",
+      "options": [
+        "A. Modulation",
+        "B. Quantization",
+        "C. Multiplexing"
+      ],
+      "correctIndex": 1,
+      "explanation": "Quantization is an important process in analog-to-digital conversion."
+    },
+    {
+      "id": 60,
+      "question": "Which type of Analog to digital converter is fastest",
+      "options": [
+        "A. Counter type ADC",
+        "B. Dual slope ADC",
+        "C. Flash type ADC"
+      ],
+      "correctIndex": 2,
+      "explanation": "Flash ADCs are the fastest because they use many comparators simultaneously."
+    },
+    {
+      "id": 61,
+      "question": "Half adder has how many no of input",
+      "options": [
+        "A. 2",
+        "B. 3",
+        "C. 4"
+      ],
+      "correctIndex": 0,
+      "explanation": "A half adder has two binary inputs, A and B."
+    },
+    {
+      "id": 62,
+      "question": "Which is the major purchasing responsibility of multiplexing combinational circuit",
+      "options": [
+        "A. Generating of selected path between multiple sources & single destination",
+        "B. Storing binary information",
+        "C. Converting analog to digital"
+      ],
+      "correctIndex": 0,
+      "explanation": "A multiplexer selects one input path from multiple sources and connects it to a single destination."
+    },
+    {
+      "id": 63,
+      "question": "Limit of propagation delay of ripple's counter",
+      "options": [
+        "A. Number of outputs",
+        "B. No of flip-flop",
+        "C. Supply voltage only"
+      ],
+      "correctIndex": 1,
+      "explanation": "The propagation delay in a ripple counter increases with the number of cascaded flip-flops."
+    },
+    {
+      "id": 64,
+      "question": "Which logic / circuit gate suitable for parity generator and checker",
+      "options": [
+        "A. AND & OR",
+        "B. XOR & XNOR",
+        "C. NAND & NOR"
+      ],
+      "correctIndex": 1,
+      "explanation": "XOR and XNOR gates are commonly used for parity generation and checking."
+    },
+    {
+      "id": 65,
+      "question": "Common type of adder",
+      "options": [
+        "A. Half & full adder",
+        "B. Encoder & decoder",
+        "C. Multiplexer & demultiplexer"
+      ],
+      "correctIndex": 0,
+      "explanation": "The common binary adder circuits are half adders and full adders."
+    },
+    {
+      "id": 66,
+      "question": "7 modulus counter required",
+      "options": [
+        "A. 2 flip flops",
+        "B. 3 flip flops",
+        "C. 4 flip flops"
+      ],
+      "correctIndex": 1,
+      "explanation": "Three flip-flops provide up to 8 states, which is sufficient for a MOD-7 counter."
+    },
+    {
+      "id": 67,
+      "question": "7 bit register required",
+      "options": [
+        "A. 4 flip flops",
+        "B. 7 flip flops",
+        "C. 14 flip flops"
+      ],
+      "correctIndex": 1,
+      "explanation": "A register requires one flip-flop for each bit stored."
+    },
+    {
+      "id": 68,
+      "question": "The ambiguous result in NAND S-T latch is when",
+      "options": [
+        "A. S=1 & R=0",
+        "B. S=0 & R=0",
+        "C. S=0 & R=1"
+      ],
+      "correctIndex": 1,
+      "explanation": "For a NAND-based SR latch, S=0 and R=0 produces the invalid or ambiguous condition."
+    },
+    {
+      "id": 69,
+      "question": "Which device change parallel data to serial data",
+      "options": [
+        "A. Multiplexer",
+        "B. Demultiplexer",
+        "C. Decoder"
+      ],
+      "correctIndex": 0,
+      "explanation": "A multiplexer can select parallel inputs sequentially to produce serial data."
+    },
+    {
+      "id": 70,
+      "question": "Latches will remain set/reset state until",
+      "options": [
+        "A. The output becomes high automatically",
+        "B. Input trigger pulse or signal is applied",
+        "C. A decoder is connected"
+      ],
+      "correctIndex": 1,
+      "explanation": "A latch maintains its state until an appropriate input trigger or signal changes it."
+    },
+    {
+      "id": 71,
+      "question": "Disadvantage of binary weighted resistor",
+      "options": [
+        "A. Wide range of resistor",
+        "B. Uses only two resistor values",
+        "C. Has no digital input"
+      ],
+      "correctIndex": 0,
+      "explanation": "Binary weighted resistor DACs require a wide range of accurately matched resistor values."
+    },
+    {
+      "id": 72,
+      "question": "How can the active condition decoder output be determined the logic symbols",
+      "options": [
+        "A. Triangle indicates active low",
+        "B. Bubble indicate at active low",
+        "C. Arrow indicates memory"
+      ],
+      "correctIndex": 1,
+      "explanation": "A bubble on a logic symbol normally indicates an active-low signal."
+    },
+    {
+      "id": 73,
+      "question": "Which type of counter use binary sequence",
+      "options": [
+        "A. Binary counter",
+        "B. Analog counter",
+        "C. Parity counter"
+      ],
+      "correctIndex": 0,
+      "explanation": "A binary counter progresses through states according to a binary sequence."
+    },
+    {
+      "id": 74,
+      "question": "When enable is zero input S0, S1 and output Y0, Y1, Y2, Y3 = 0",
+      "options": [
+        "A. 1",
+        "B. 0",
+        "C. Undefined"
+      ],
+      "correctIndex": 1,
+      "explanation": "When the specified enable condition is zero, the outputs are 0."
+    },
+    {
+      "id": 75,
+      "question": "The output of multiplexer dependent on",
+      "options": [
+        "A. Select input",
+        "B. Output resistance",
+        "C. Supply frequency only"
+      ],
+      "correctIndex": 0,
+      "explanation": "The select inputs determine which multiplexer input is connected to the output."
+    },
+    {
+      "id": 76,
+      "question": "The invalid state in J-R flip flop",
+      "options": [
+        "A. S = 1, R = 1",
+        "B. S = 0, R = 0",
+        "C. S = 1, R = 0"
+      ],
+      "correctIndex": 0,
+      "explanation": "The simultaneous active input condition specified represents the invalid state."
+    },
+    {
+      "id": 77,
+      "question": "When the preset value is enable the Q output for set",
+      "options": [
+        "A. 0",
+        "B. Undefined",
+        "C. 1"
+      ],
+      "correctIndex": 2,
+      "explanation": "The preset input sets the flip-flop, making Q equal to 1."
+    },
+    {
+      "id": 78,
+      "question": "We use clock signal",
+      "options": [
+        "A. To create analog signals",
+        "B. To synchronize the state change",
+        "C. To remove memory"
+      ],
+      "correctIndex": 1,
+      "explanation": "Clock signals synchronize state changes in sequential digital circuits."
+    },
+    {
+      "id": 79,
+      "question": "Disadvantage of R-S flip flop",
+      "options": [
+        "A. It has invalid state",
+        "B. It has no outputs",
+        "C. It cannot store data"
+      ],
+      "correctIndex": 0,
+      "explanation": "The RS flip-flop has an invalid input condition."
+    },
+    {
+      "id": 80,
+      "question": "Flip flop is",
+      "options": [
+        "A. An analog converter",
+        "B. An edge sensitive device",
+        "C. A power amplifier"
+      ],
+      "correctIndex": 1,
+      "explanation": "A flip-flop is generally triggered by a clock edge and stores one bit of information."
+    },
+    {
+      "id": 81,
+      "question": "What is the resolution of an 8-bit converter",
+      "options": [
+        "A. 128",
+        "B. 16",
+        "C. 255"
+      ],
+      "correctIndex": 2,
+      "explanation": "An 8-bit converter has 256 levels, with a maximum binary value of 255."
+    },
+    {
+      "id": 82,
+      "question": "Parity generator is located in the",
+      "options": [
+        "A. Receiver",
+        "B. Transmitter",
+        "C. DAC"
+      ],
+      "correctIndex": 1,
+      "explanation": "A parity generator is normally located in the transmitter to add the parity bit before transmission."
+    },
+    {
+      "id": 83,
+      "question": "Which circuit checks parity in the receiver",
+      "options": [
+        "A. Parity detector",
+        "B. Parity generator",
+        "C. Multiplexer"
+      ],
+      "correctIndex": 0,
+      "explanation": "A parity detector checks the received data for the correct parity condition."
+    },
+    {
+      "id": 84,
+      "question": "If both set and reset are deactivated the output of SR will be",
+      "options": [
+        "A. Always set",
+        "B. No change",
+        "C. Always reset"
+      ],
+      "correctIndex": 1,
+      "explanation": "When both inputs are inactive, an SR latch maintains its previous state."
+    },
+    {
+      "id": 85,
+      "question": "How many outputs does set reset flip flop has",
+      "options": [
+        "A. 2",
+        "B. 1",
+        "C. 3"
+      ],
+      "correctIndex": 0,
+      "explanation": "A set-reset flip-flop has two complementary outputs, Q and Q'."
+    },
+    {
+      "id": 86,
+      "question": "Which of the following can act as parallel to serial converter",
+      "options": [
+        "A. Demultiplexer",
+        "B. Decoder",
+        "C. Multiplexer"
+      ],
+      "correctIndex": 2,
+      "explanation": "A multiplexer can convert parallel data into serial form by selecting each input sequentially."
+    },
+    {
+      "id": 87,
+      "question": "Logic circuit in which clock is signal given to change the output",
+      "options": [
+        "A. Synchronous",
+        "B. Combinational",
+        "C. Analog"
+      ],
+      "correctIndex": 0,
+      "explanation": "A synchronous logic circuit uses a clock signal to control state changes."
+    },
+    {
+      "id": 88,
+      "question": "How many states are there in 3 bit",
+      "options": [
+        "A. 3",
+        "B. 8",
+        "C. 16"
+      ],
+      "correctIndex": 1,
+      "explanation": "A 3-bit binary system has 2^3 = 8 possible states."
+    },
+    {
+      "id": 89,
+      "question": "In a 4 bit max",
+      "options": [
+        "A. The output is always zero",
+        "B. One will be added to final output",
+        "C. The circuit stops"
+      ],
+      "correctIndex": 1,
+      "explanation": "Based on the provided condition, one will be added to the final output."
+    },
+    {
+      "id": 90,
+      "question": "Decimal to binary encoding have _ input",
+      "options": [
+        "A. 4",
+        "B. 10",
+        "C. 8"
+      ],
+      "correctIndex": 1,
+      "explanation": "A decimal-to-binary encoder has 10 input lines representing decimal digits 0 through 9."
+    },
+    {
+      "id": 91,
+      "question": "How many select lines are for 1 to 8 demux",
+      "options": [
+        "A. 2",
+        "B. 8",
+        "C. 3"
+      ],
+      "correctIndex": 2,
+      "explanation": "A 1-to-8 demultiplexer requires 3 select lines because 2^3 = 8."
+    },
+    {
+      "id": 92,
+      "question": "Synchronous counter eliminates the delay problem encountered with asynchronous",
+      "options": [
+        "A. Ripple",
+        "B. Decoder",
+        "C. Register"
+      ],
+      "correctIndex": 0,
+      "explanation": "Synchronous counters eliminate the cumulative delay problem of asynchronous ripple counters."
+    },
+    {
+      "id": 93,
+      "question": "Type of logic circuit which output depends only on present state of inputs but also of past outputs",
+      "options": [
+        "A. Combinational",
+        "B. Sequential",
+        "C. Analog"
+      ],
+      "correctIndex": 1,
+      "explanation": "Sequential logic depends on present inputs and previous outputs or stored states."
+    },
+    {
+      "id": 94,
+      "question": "An example of combinational circuit example",
+      "options": [
+        "A. Flip-flop",
+        "B. Register",
+        "C. Adder"
+      ],
+      "correctIndex": 2,
+      "explanation": "An adder is a combinational circuit because its output depends only on the present inputs."
+    },
+    {
+      "id": 95,
+      "question": "The output of each flip flop in counter with n flip-flop having a modulus of",
+      "options": [
+        "A. 2^n",
+        "B. n",
+        "C. n^2"
+      ],
+      "correctIndex": 0,
+      "explanation": "A counter with n flip-flops can have a maximum modulus of 2^n."
+    },
+    {
+      "id": 96,
+      "question": "Parity bit in even parity of code 1100100 is",
+      "options": [
+        "A. 11001000",
+        "B. 11001001",
+        "C. 11001010"
+      ],
+      "correctIndex": 1,
+      "explanation": "The parity bit is added to make the total number of binary 1s even."
+    },
+    {
+      "id": 97,
+      "question": "Encoder of 4 to 2 require how many output line",
+      "options": [
+        "A. 4",
+        "B. 1",
+        "C. 2"
+      ],
+      "correctIndex": 2,
+      "explanation": "A 4-to-2 encoder converts one of four input lines into a 2-bit binary output."
+    }
+  ]
+}
