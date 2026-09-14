@@ -11,77 +11,77 @@
       "id": 1,
       "question": "In gyro horizon pitch up",
       "options": [
-        "A. aircraft symbol above horizontal bar",
-        "B. aircraft symbol below horizontal bar",
-        "C. aircraft symbol aligned with horizon bar"
+        "A. aircraft symbol below horizontal bar",
+        "B. aircraft symbol aligned with horizon bar",
+        "C. aircraft symbol above horizontal bar"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "explanation": "The gyro horizon shows pitch using the aircraft symbol relative to the stabilized horizon bar."
     },
     {
       "id": 2,
       "question": "Purpose of air blows on the bucket",
       "options": [
-        "A. to spin the gyro",
-        "B. to stop the gyro",
-        "C. to cool the gyro"
+        "A. to stop the gyro",
+        "B. to cool the gyro",
+        "C. to spin the gyro"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "explanation": "Air is directed into the gyro rotor buckets to spin the pneumatic gyro."
     },
     {
       "id": 3,
       "question": "Pneumatic gyro spin",
       "options": [
-        "A. air blows on the bucket",
-        "B. electrical current through the gimbal",
-        "C. gravity acting on the rotor"
+        "A. electrical current through the gimbal",
+        "B. gravity acting on the rotor",
+        "C. air blows on the bucket"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "explanation": "Pneumatic gyro rotation is produced by air blown through nozzles onto the rotor buckets."
     },
     {
       "id": 4,
       "question": "Torque leveling switch connection",
       "options": [
-        "A. Control phase",
+        "A. Power phase",
         "B. Reference phase",
-        "C. Power phase"
+        "C. Control phase"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "explanation": "The supplied answer is retained from the exam source; the module describes the electrical leveling-switch and torque-motor control connections."
     },
     {
       "id": 5,
       "question": "What spins a gyro",
       "options": [
-        "A. pneumatic & electrical",
-        "B. hydraulic & mechanical",
-        "C. magnetic & gravity"
+        "A. hydraulic & mechanical",
+        "B. magnetic & gravity",
+        "C. pneumatic & electrical"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "explanation": "Gyroscopic flight-instrument rotors are driven by pneumatic or electrical methods."
     },
     {
       "id": 6,
       "question": "Latitude effect on free gyro drift",
       "options": [
-        "A. drift increases at higher latitude",
-        "B. drift decreases at higher latitude",
-        "C. drift is always zero"
+        "A. drift decreases at higher latitude",
+        "B. drift is always zero",
+        "C. drift increases at higher latitude"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "explanation": "Apparent drift is related to Earth's rotation and latitude; the supplied exam answer is preserved."
     },
     {
       "id": 7,
       "question": "Device preventing false indication due to acceleration",
       "options": [
-        "A. Erection cut out",
+        "A. Suction relief valve",
         "B. Damping cylinder",
-        "C. Suction relief valve"
+        "C. Erection cut out"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "explanation": "Erection cutout prevents gravity-controlled erection systems from responding incorrectly to acceleration/turning forces."
     },
     {
@@ -99,22 +99,22 @@
       "id": 9,
       "question": "Component driving horizon bar",
       "options": [
-        "A. separate pitch and roll servomotor",
-        "B. single hydraulic actuator",
-        "C. magnetic compass"
+        "A. single hydraulic actuator",
+        "B. magnetic compass",
+        "C. separate pitch and roll servomotor"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "explanation": "The supplied answer is retained from the exam source for the horizon-bar drive arrangement."
     },
     {
       "id": 10,
       "question": "Removing gyro while spinning",
       "options": [
-        "A. may suffer internal damage",
-        "B. will increase rotor speed",
-        "C. will improve gyro accuracy"
+        "A. will improve gyro accuracy",
+        "B. may suffer internal damage",
+        "C. will increase rotor speed"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "explanation": "Gyroscopic instruments can suffer internal damage if removed while still spinning."
     },
     {
@@ -122,8 +122,8 @@
       "question": "Gyroscope with vertical spin axis",
       "options": [
         "A. vertical gyroscope",
-        "B. horizontal gyroscope",
-        "C. rate gyroscope"
+        "B. rate gyroscope",
+        "C. horizontal gyroscope"
       ],
       "correctIndex": 0,
       "explanation": "A vertical gyroscope has its spin axis arranged vertically to establish an attitude reference."
@@ -132,44 +132,44 @@
       "id": 12,
       "question": "Gyro flag not disappearing",
       "options": [
-        "A. sticking flag",
+        "A. normal indication",
         "B. fast erection",
-        "C. normal indication"
+        "C. sticking flag"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "explanation": "The supplied answer identifies a sticking flag condition."
     },
     {
       "id": 13,
       "question": "RLG rotation measured when frequency",
       "options": [
-        "A. differs",
-        "B. is zero",
+        "A. is zero",
+        "B. differs",
         "C. remains identical"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "explanation": "RLG rotation is detected from the frequency difference between counter-rotating laser beams."
     },
     {
       "id": 14,
       "question": "Remotely vertical gyros send to",
       "options": [
-        "A. flight director indicator & AFCS",
-        "B. fuel quantity indicator",
+        "A. fuel quantity indicator",
+        "B. flight director indicator & AFCS",
         "C. engine control unit"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "explanation": "Remote vertical gyros provide reference information to flight director/automatic flight-control and instrument systems."
     },
     {
       "id": 15,
       "question": "Roll reference rigid",
       "options": [
-        "A. rotor, outer gimbal, inner gimbal",
-        "B. rotor only",
-        "C. outer gimbal only"
+        "A. outer gimbal only",
+        "B. rotor, outer gimbal, inner gimbal",
+        "C. rotor only"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "explanation": "The supplied answer identifies the rigid roll-reference arrangement."
     },
     {
@@ -177,8 +177,8 @@
       "question": "Pitch reference rigid",
       "options": [
         "A. rotor & inner gimbal only",
-        "B. outer gimbal only",
-        "C. instrument case only"
+        "B. instrument case only",
+        "C. outer gimbal only"
       ],
       "correctIndex": 0,
       "explanation": "The supplied answer identifies the rigid pitch-reference arrangement."
@@ -209,44 +209,44 @@
       "id": 19,
       "question": "Acceleration error",
       "options": [
-        "A. false pitch indication",
-        "B. true pitch indication",
-        "C. no indication change"
+        "A. no indication change",
+        "B. false pitch indication",
+        "C. true pitch indication"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "explanation": "Acceleration can displace gravity-controlled erection devices and produce a false pitch indication."
     },
     {
       "id": 20,
       "question": "Vertical gyro spins about",
       "options": [
-        "A. vertical axis",
-        "B. horizontal axis",
-        "C. longitudinal axis"
+        "A. longitudinal axis",
+        "B. vertical axis",
+        "C. horizontal axis"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "explanation": "The vertical gyro uses a vertical spin axis for its reference."
     },
     {
       "id": 21,
       "question": "Angular change 90 degree away",
       "options": [
-        "A. precession",
-        "B. rigidity",
-        "C. drift"
+        "A. drift",
+        "B. precession",
+        "C. rigidity"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "explanation": "Precession is the angular change in the plane of rotation produced by an applied force, occurring 90° away in the direction of rotation."
     },
     {
       "id": 22,
       "question": "Freedom about axis perpendicular through center",
       "options": [
-        "A. spinning freedom",
-        "B. tilting freedom",
-        "C. veering freedom"
+        "A. tilting freedom",
+        "B. veering freedom",
+        "C. spinning freedom"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "explanation": "Spinning freedom is freedom about the spin axis through the rotor center."
     },
     {
@@ -254,8 +254,8 @@
       "question": "Rotor canted upward 30 degree",
       "options": [
         "A. turn coordinator",
-        "B. gyro horizon",
-        "C. heading indicator"
+        "B. heading indicator",
+        "C. gyro horizon"
       ],
       "correctIndex": 0,
       "explanation": "The supplied answer is retained from the exam source."
@@ -264,22 +264,22 @@
       "id": 24,
       "question": "Turn & bank indicator shows",
       "options": [
-        "A. rate of turn and slip indication",
-        "B. altitude and airspeed",
+        "A. altitude and airspeed",
+        "B. rate of turn and slip indication",
         "C. heading and vertical speed"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "explanation": "A turn-and-bank indicator provides rate-of-turn and slip/bank information."
     },
     {
       "id": 25,
       "question": "Number of rate gyros for 3 axes",
       "options": [
-        "A. 3",
-        "B. 1",
+        "A. 1",
+        "B. 3",
         "C. 2"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "explanation": "The supplied answer is three rate gyros for the three aircraft axes."
     },
     {
@@ -297,22 +297,22 @@
       "id": 27,
       "question": "Incorrect statement",
       "options": [
-        "A. Ring laser gyros are rugged and have short service life",
-        "B. RLGs have long service life",
+        "A. RLGs have long service life",
+        "B. Ring laser gyros are rugged and have short service life",
         "C. RLGs have moving mechanical vanes"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "explanation": "The exam marks this as the incorrect statement. The module says RLGs are rugged and have a long service life."
     },
     {
       "id": 28,
       "question": "Fast erection switch effect",
       "options": [
-        "A. increases supply voltage",
+        "A. disconnects all gyro power",
         "B. decreases supply voltage",
-        "C. disconnects all gyro power"
+        "C. increases supply voltage"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "explanation": "Fast erection switches the torque-motor supply to full line voltage, increasing current and erection torque."
     },
     {
@@ -320,8 +320,8 @@
       "question": "Correct statement",
       "options": [
         "A. Ring laser gyro uses a beam of light",
-        "B. RLG uses mechanical weights",
-        "C. RLG uses hydraulic pressure"
+        "B. RLG uses hydraulic pressure",
+        "C. RLG uses mechanical weights"
       ],
       "correctIndex": 0,
       "explanation": "An RLG uses laser light beams traveling around a closed cavity."
@@ -341,55 +341,55 @@
       "id": 31,
       "question": "Correct about rate gyro",
       "options": [
-        "A. requires no erecting device",
+        "A. requires a pendulous vane erection system",
         "B. requires a ball erection system",
-        "C. requires a pendulous vane erection system"
+        "C. requires no erecting device"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "explanation": "A rate gyro uses spring restraint and does not require an erection system like a vertical attitude gyro."
     },
     {
       "id": 32,
       "question": "Purpose of erection system in vertical gyro",
       "options": [
-        "A. erect to longitudinal & vertical position",
-        "B. remove all electrical power",
+        "A. remove all electrical power",
+        "B. erect to longitudinal & vertical position",
         "C. increase aircraft airspeed"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "explanation": "The erection system brings the gyro toward its required reference position and maintains it."
     },
     {
       "id": 33,
       "question": "Remotely vertical gyro supplies reference",
       "options": [
-        "A. automatic flight control & instruments",
-        "B. fuel pumps & landing gear",
+        "A. fuel pumps & landing gear",
+        "B. automatic flight control & instruments",
         "C. engine oil & hydraulic systems"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "explanation": "Remote vertical gyro outputs are used by automatic flight-control and instrument systems."
     },
     {
       "id": 34,
       "question": "Instrument controlled by gyroscope",
       "options": [
-        "A. Attitude indicator",
-        "B. Fuel flow indicator",
-        "C. Oil pressure gauge"
+        "A. Fuel flow indicator",
+        "B. Oil pressure gauge",
+        "C. Attitude indicator"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "explanation": "The attitude indicator is a gyroscopic flight instrument."
     },
     {
       "id": 35,
       "question": "Freedom of gyro rotor about vertical axis",
       "options": [
-        "A. Veering freedom",
+        "A. Spinning freedom",
         "B. Tilting freedom",
-        "C. Spinning freedom"
+        "C. Veering freedom"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "explanation": "Veering freedom is freedom about the vertical axis."
     },
     {
@@ -407,66 +407,66 @@
       "id": 37,
       "question": "Device for attitude displacement pickup",
       "options": [
-        "A. synchro system",
-        "B. thermocouple",
-        "C. pitot tube"
+        "A. pitot tube",
+        "B. synchro system",
+        "C. thermocouple"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "explanation": "Synchro systems can pick up and transmit attitude displacement information."
     },
     {
       "id": 38,
       "question": "Maximum suction/pressure for directional & vertical gyro",
       "options": [
-        "A. 4 in Hg",
-        "B. 2 in Hg",
-        "C. 8 in Hg"
+        "A. 8 in Hg",
+        "B. 4 in Hg",
+        "C. 2 in Hg"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "explanation": "The pneumatic gyro horizon and directional gyro require 4 inches of mercury suction according to the module."
     },
     {
       "id": 39,
       "question": "RLG installation",
       "options": [
-        "A. each axis of flight",
-        "B. one unit for the entire aircraft only",
+        "A. one unit for the entire aircraft only",
+        "B. each axis of flight",
         "C. only on the vertical axis"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "explanation": "An RLG is installed for each aircraft axis of flight."
     },
     {
       "id": 40,
       "question": "Incorrect about RLG",
       "options": [
-        "A. beams travel same direction around cavity",
-        "B. beams travel in opposite directions",
+        "A. beams travel in opposite directions",
+        "B. beams travel same direction around cavity",
         "C. frequency difference is used to measure rotation"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "explanation": "The exam marks this as incorrect because the two RLG laser beams travel in opposite directions."
     },
     {
       "id": 41,
       "question": "Rotor speed >4000 rpm unnecessary",
       "options": [
-        "A. because it will precess after force applied",
-        "B. because rigidity increases with speed",
+        "A. because rigidity increases with speed",
+        "B. because it will precess after force applied",
         "C. because the rotor would stop immediately"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "explanation": "The supplied answer is retained exactly from the exam source."
     },
     {
       "id": 42,
       "question": "Incorrect statement",
       "options": [
-        "A. plane of rotation of vertical gyro is horizontal",
-        "B. plane of rotation is vertical",
-        "C. vertical gyro has a vertical spin axis"
+        "A. plane of rotation is vertical",
+        "B. vertical gyro has a vertical spin axis",
+        "C. plane of rotation of vertical gyro is horizontal"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "explanation": "The supplied statement is the exam's marked incorrect statement; the module identifies the vertical gyro by its vertical spin axis."
     },
     {
@@ -485,8 +485,8 @@
       "question": "Factor affecting ball erection",
       "options": [
         "A. unbalance in rotor weight distribution",
-        "B. fuel temperature",
-        "C. aircraft cabin lighting"
+        "B. aircraft cabin lighting",
+        "C. fuel temperature"
       ],
       "correctIndex": 0,
       "explanation": "Ball erection depends on the displacement of ball mass and the resulting unbalance/precessional force."
@@ -495,11 +495,11 @@
       "id": 45,
       "question": "Freedom of gyro rotor about horizontal axis",
       "options": [
-        "A. Tilting freedom",
-        "B. Veering freedom",
-        "C. Spinning freedom"
+        "A. Veering freedom",
+        "B. Spinning freedom",
+        "C. Tilting freedom"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "explanation": "Tilting freedom is freedom about a horizontal axis at right angles to the spin axis."
     },
     {
@@ -529,8 +529,8 @@
       "question": "Pitch level switches send signal to",
       "options": [
         "A. pitch torque motor",
-        "B. roll torque motor only",
-        "C. vacuum pump"
+        "B. vacuum pump",
+        "C. roll torque motor only"
       ],
       "correctIndex": 0,
       "explanation": "The supplied answer is retained from the exam source for the pitch leveling-switch circuit."
@@ -539,110 +539,110 @@
       "id": 49,
       "question": "Signals generated in synchros transmitted to",
       "options": [
-        "A. flight control & instrument system",
-        "B. fuel tank only",
+        "A. fuel tank only",
+        "B. flight control & instrument system",
         "C. engine lubrication system"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "explanation": "Synchro signals are transmitted to flight-control and instrument systems."
     },
     {
       "id": 50,
       "question": "Leveling switch sends signal to",
       "options": [
-        "A. Control phase",
+        "A. vacuum line",
         "B. Reference phase",
-        "C. vacuum line"
+        "C. Control phase"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "explanation": "The supplied answer is retained from the exam source."
     },
     {
       "id": 51,
       "question": "Rate gyro doesn’t require erection",
       "options": [
-        "A. uses spring to return",
-        "B. uses a pendulous vane",
-        "C. uses a ball erection system"
+        "A. uses a pendulous vane",
+        "B. uses a ball erection system",
+        "C. uses spring to return"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "explanation": "A rate gyro is spring restrained and therefore does not need a separate erection system."
     },
     {
       "id": 52,
       "question": "Coordinated turn indication",
       "options": [
-        "A. ball remains centered in inclinometer",
+        "A. ball moves fully right",
         "B. ball moves fully left",
-        "C. ball moves fully right"
+        "C. ball remains centered in inclinometer"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "explanation": "In a coordinated turn, the inclinometer ball remains centered."
     },
     {
       "id": 53,
       "question": "Rotor canted upward 30 degree",
       "options": [
-        "A. Turn coordinator",
+        "A. Heading indicator",
         "B. Gyro horizon",
-        "C. Heading indicator"
+        "C. Turn coordinator"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "explanation": "The supplied answer is retained exactly from the exam source."
     },
     {
       "id": 54,
       "question": "Purpose of erection system in vertical gyro",
       "options": [
-        "A. erect to vertical position",
-        "B. erect to horizontal position",
+        "A. erect to horizontal position",
+        "B. erect to vertical position",
         "C. increase rotor temperature"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "explanation": "The erection system restores the vertical gyro to its vertical position."
     },
     {
       "id": 55,
       "question": "Number of gimbals in turn & bank",
       "options": [
-        "A. single gimbal",
+        "A. three gimbals",
         "B. two gimbals",
-        "C. three gimbals"
+        "C. single gimbal"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "explanation": "The turn-and-bank rate gyro described in the module has a single gimbal."
     },
     {
       "id": 56,
       "question": "Error when gyro loses spin axis",
       "options": [
-        "A. gimbal lock",
+        "A. precession only",
         "B. gimbal balance",
-        "C. precession only"
+        "C. gimbal lock"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "explanation": "Gimbal lock occurs when the gyro loses its useful attitude reference because of gimbal orientation."
     },
     {
       "id": 57,
       "question": "RLG operation based on",
       "options": [
-        "A. gyro movement (Sagnac effect)",
+        "A. hydraulic pressure effect",
         "B. gravity effect only",
-        "C. hydraulic pressure effect"
+        "C. gyro movement (Sagnac effect)"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "explanation": "RLG operation uses the Sagnac effect, in which rotation produces a measurable difference between counter-rotating light beams."
     },
     {
       "id": 58,
       "question": "Rate gyro principle",
       "options": [
-        "A. gyroscopic precession",
-        "B. electromagnetic induction",
-        "C. barometric pressure"
+        "A. electromagnetic induction",
+        "B. barometric pressure",
+        "C. gyroscopic precession"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "explanation": "Rate gyros operate using gyroscopic precession."
     },
     {
@@ -671,11 +671,11 @@
       "id": 61,
       "question": "Erection cut-out occurs when bank angle >",
       "options": [
-        "A. 10 degree",
+        "A. 30 degree",
         "B. 5 degree",
-        "C. 30 degree"
+        "C. 10 degree"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "explanation": "Erection cutout operates automatically when the aircraft banks more than 10 degrees."
     },
     {
@@ -683,8 +683,8 @@
       "question": "Erection of vertical gyro brings back to",
       "options": [
         "A. vertical axis",
-        "B. horizontal axis",
-        "C. longitudinal axis"
+        "B. longitudinal axis",
+        "C. horizontal axis"
       ],
       "correctIndex": 0,
       "explanation": "Erection restores the vertical gyro to its vertical reference axis."
@@ -693,11 +693,11 @@
       "id": 63,
       "question": "Gyro rotates out of plane",
       "options": [
-        "A. air ports unevenly",
-        "B. air ports remain exactly equal",
+        "A. air ports remain exactly equal",
+        "B. air ports unevenly",
         "C. electrical current stops the rotor"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "explanation": "When the pneumatic gyro rotates out of plane, unequal airflow through the ports produces the corrective erection force."
     },
     {
@@ -716,8 +716,8 @@
       "question": "Erection mechanism uses",
       "options": [
         "A. mechanical & electrical methods",
-        "B. hydraulic & pneumatic methods only",
-        "C. fuel & oil methods"
+        "B. fuel & oil methods",
+        "C. hydraulic & pneumatic methods only"
       ],
       "correctIndex": 0,
       "explanation": "The module states that erection systems generally use mechanical and electrical methods."
@@ -726,11 +726,11 @@
       "id": 66,
       "question": "Ways of producing airflow over gyro wheel",
       "options": [
-        "A. suction & pressure",
-        "B. heat & cooling",
+        "A. heat & cooling",
+        "B. suction & pressure",
         "C. gravity & magnetism"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "explanation": "Airflow over pneumatic gyro wheels can be produced by suction or pressure."
     },
     {
@@ -738,8 +738,8 @@
       "question": "Vertical gyro driven by",
       "options": [
         "A. 115 VAC, 400 Hz, single-phase source",
-        "B. 28 V DC only",
-        "C. 400 Hz hydraulic pressure"
+        "B. 400 Hz hydraulic pressure",
+        "C. 28 V DC only"
       ],
       "correctIndex": 0,
       "explanation": "The supplied answer is retained exactly from the exam source for the stated vertical-gyro drive."
@@ -748,33 +748,33 @@
       "id": 68,
       "question": "Incorrect statement",
       "options": [
-        "A. Rotor of gyro horizon oriented in vertical plane",
-        "B. Rotor is oriented in the horizontal plane",
+        "A. Rotor is oriented in the horizontal plane",
+        "B. Rotor of gyro horizon oriented in vertical plane",
         "C. The rotor is driven by an electric motor in an electric gyro"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "explanation": "The exam marks this as incorrect; the module states that the electric attitude-indicator rotor remains oriented in the horizontal plane."
     },
     {
       "id": 69,
       "question": "In pitch-bank compensation",
       "options": [
-        "A. roll switch disconnected during turn",
-        "B. roll switch is always connected during turn",
+        "A. roll switch is always connected during turn",
+        "B. roll switch disconnected during turn",
         "C. pitch switch is removed during turn"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "explanation": "In pitch-bank erection, the roll/bank switch is disconnected during a turn and the pitch leveling switch controls the erection system."
     },
     {
       "id": 70,
       "question": "Vertical gyro system attitude change",
       "options": [
-        "A. signals flow from pitch & roll synchros",
+        "A. signals flow only from the magnetic compass",
         "B. signals flow only from fuel quantity sensors",
-        "C. signals flow only from the magnetic compass"
+        "C. signals flow from pitch & roll synchros"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "explanation": "The supplied answer describes the pitch/roll synchro signal flow for vertical gyro attitude changes."
     }
   ]
