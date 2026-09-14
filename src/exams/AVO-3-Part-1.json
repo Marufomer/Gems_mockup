@@ -47,8 +47,8 @@
       "question": "Decimal to BCD has _ input",
       "options": [
         "A. 8",
-        "B. 2",
-        "C. 4"
+        "B. 4",
+        "C. 10"
       ],
       "correctIndex": 2,
       "explanation": "BCD represents a decimal digit using 4 binary bits."
