@@ -1,0 +1,926 @@
+{
+  "id": "avo-7-part-5",
+  "title": "AVO-7 – Part 5",
+  "module": "AVO-7",
+  "course": "avionics",
+  "category": "part",
+  "description": "Compass systems, directional gyros, flux valves, magnetic heading systems, and inertial reference systems.",
+  "durationMinutes": 120,
+  "totalQuestions": 83,
+  "color": "blue",
+  "questions": [
+    {
+      "id": 1,
+      "question": "How to correct the heading when the flux detector malfunctions or is manually disconnected?",
+      "options": [
+        "Pilot manually sets the north reference on the ground by DG (Directional Gyro) by reading from the magnetic compass.",
+        "Pilot resets the heading automatically using GPS only.",
+        "Pilot uses the pitot-static system to establish magnetic heading."
+      ],
+      "correctIndex": 0,
+      "explanation": "The heading can be manually referenced to magnetic north using the magnetic compass and directional gyro."
+    },
+    {
+      "id": 2,
+      "question": "What is the drift due to Earth rate on the north gyro stabilized INS when the aircraft is flying at 90° latitude?",
+      "options": [
+        "15°/hr",
+        "0°/hr",
+        "7.5°/hr"
+      ],
+      "correctIndex": 1,
+      "explanation": "Earth-rate drift for a north gyro is 15° × cos(latitude). At 90°, cos(90°) = 0, giving 0°/hr."
+    },
+    {
+      "id": 3,
+      "question": "What is the drift due to Earth rate on north gyro stabilized INS when the A/C is flying at 0° latitude?",
+      "options": [
+        "0°/hr",
+        "7.5°/hr",
+        "15°/hr"
+      ],
+      "correctIndex": 2,
+      "explanation": "At 0° latitude, 15° × cos(0°) = 15°/hr."
+    },
+    {
+      "id": 4,
+      "question": "Which one of the following excitation current is used with flux valves?",
+      "options": [
+        "DC Current",
+        "AC Current",
+        "Pulsed current only"
+      ],
+      "correctIndex": 1,
+      "explanation": "The flux valve uses AC excitation in its primary coil."
+    },
+    {
+      "id": 5,
+      "question": "On the pneumatic driven directional gyro, how is a heading presented with the whole gimbal assembly being fixed and the case moving along with the aircraft's heading?",
+      "options": [
+        "Heading is indicated relative to the fixed gimbal system as the case rotates around it.",
+        "Heading is indicated only by the magnetic compass.",
+        "Heading is calculated from pitot pressure."
+      ],
+      "correctIndex": 0,
+      "explanation": "The fixed gimbal provides the reference while the case rotates with aircraft heading."
+    },
+    {
+      "id": 6,
+      "question": "What is magnetic declination?",
+      "options": [
+        "The vertical angle between the aircraft and Earth.",
+        "The horizontal angle contained between the true and magnetic meridian at any place.",
+        "The difference between aircraft pitch and roll."
+      ],
+      "correctIndex": 1,
+      "explanation": "Magnetic declination is the horizontal angle between the true and magnetic meridians."
+    },
+    {
+      "id": 7,
+      "question": "The slave torque motor on a remote electrical directional gyro is used to...",
+      "options": [
+        "Precess the gyro using heading data from the flux valve.",
+        "Measure pitot pressure.",
+        "Control compass lighting."
+      ],
+      "correctIndex": 0,
+      "explanation": "The slaving system uses heading information from the flux valve to drive the slaving torque motor and precess the gyro."
+    },
+    {
+      "id": 8,
+      "question": "Drift due to Earth rate on the vertical gyro at zero-degree latitude?",
+      "options": [
+        "15°/hr",
+        "7.5°/hr",
+        "0°/hr"
+      ],
+      "correctIndex": 2,
+      "explanation": "Vertical gyro Earth-rate drift is 15° × sin(latitude). At 0°, the result is 0°/hr."
+    },
+    {
+      "id": 9,
+      "question": "One reason for swinging a compass:",
+      "options": [
+        "After cockpit modification or major replacement involving ferrous metal.",
+        "After every aircraft refueling.",
+        "After changing engine oil."
+      ],
+      "correctIndex": 0,
+      "explanation": "Compass swinging is performed when aircraft magnetic characteristics may have changed, such as after modifications involving ferrous material."
+    },
+    {
+      "id": 10,
+      "question": "System that uses a strapdown platform attached to the airframe:",
+      "options": [
+        "Magnetic compass only",
+        "Both INS and IRS",
+        "Pneumatic directional gyro"
+      ],
+      "correctIndex": 1,
+      "explanation": "Modern inertial systems can use strapdown configurations attached directly to the aircraft structure."
+    },
+    {
+      "id": 11,
+      "question": "Erection mechanism utilizes gyro property",
+      "options": [
+        "Rigidity",
+        "Precession",
+        "Magnetism"
+      ],
+      "correctIndex": 1,
+      "explanation": "Gyro erection systems use the principle of precession to return the gyro to its reference position."
+    },
+    {
+      "id": 12,
+      "question": "DG provides",
+      "options": [
+        "Long-term magnetic calibration",
+        "Short term heading reference",
+        "Fuel quantity indication"
+      ],
+      "correctIndex": 1,
+      "explanation": "A directional gyro provides a stable short-term heading reference but requires correction for drift."
+    },
+    {
+      "id": 13,
+      "question": "Lighting bulb wire",
+      "options": [
+        "Pitot pressure tubing",
+        "Twisting and grounding the wires from the compass case",
+        "Flux detector excitation wire"
+      ],
+      "correctIndex": 1,
+      "explanation": "The compass lighting wiring is arranged by twisting and grounding the wires from the compass case."
+    },
+    {
+      "id": 14,
+      "question": "Magnetic compass bowls are fitted with liquid to",
+      "options": [
+        "Increase compass deviation",
+        "Dampen oscillation of the float",
+        "Increase temperature"
+      ],
+      "correctIndex": 1,
+      "explanation": "The liquid dampens movement and oscillation of the compass float and magnets."
+    },
+    {
+      "id": 15,
+      "question": "While working on and around flux valve",
+      "options": [
+        "Use non-magnetic tools when working within 3 feet",
+        "Use steel tools within 3 feet",
+        "Place a strong magnetic field near the valve"
+      ],
+      "correctIndex": 0,
+      "explanation": "Non-magnetic tools are required near the flux valve to prevent magnetic interference."
+    },
+    {
+      "id": 16,
+      "question": "At what time after power is removed gyro rotor stops",
+      "options": [
+        "30 sec",
+        "After 3 min",
+        "Immediately"
+      ],
+      "correctIndex": 1,
+      "explanation": "The gyro rotor may continue spinning after power removal; maintenance procedures specify waiting about 3 minutes."
+    },
+    {
+      "id": 17,
+      "question": "Which one uses the laser gyro",
+      "options": [
+        "Magnetic compass",
+        "Pneumatic DG",
+        "IRS (Inertial Reference System)"
+      ],
+      "correctIndex": 2,
+      "explanation": "Laser gyros are used as inertial sensors in modern inertial reference systems."
+    },
+    {
+      "id": 18,
+      "question": "What is main function of electrical connector at the back of magnetic compass",
+      "options": [
+        "To illumination",
+        "To supply pitot pressure",
+        "To supply hydraulic pressure"
+      ],
+      "correctIndex": 0,
+      "explanation": "The electrical connector supplies the compass illumination circuit."
+    },
+    {
+      "id": 19,
+      "question": "When A/C descent and bank, the indicator gives false reading because of",
+      "options": [
+        "Engine vibration",
+        "Gimbal error pitch and roll",
+        "Fuel temperature"
+      ],
+      "correctIndex": 1,
+      "explanation": "Pitch and roll can produce gimbal errors that cause false indications."
+    },
+    {
+      "id": 20,
+      "question": "Purpose of magnetic compass",
+      "options": [
+        "To indicate heading with respect to magnetic north",
+        "To indicate altitude",
+        "To indicate engine RPM"
+      ],
+      "correctIndex": 0,
+      "explanation": "The magnetic compass provides aircraft heading referenced to magnetic north."
+    },
+    {
+      "id": 21,
+      "question": "Vertical component of magnetic field around equator",
+      "options": [
+        "90°",
+        "0",
+        "15°"
+      ],
+      "correctIndex": 1,
+      "explanation": "Near the magnetic equator, the vertical component of Earth's magnetic field is approximately zero."
+    },
+    {
+      "id": 22,
+      "question": "Purpose of degaussing",
+      "options": [
+        "To increase residual magnetism",
+        "To remove residual magnetism",
+        "To increase compass liquid volume"
+      ],
+      "correctIndex": 1,
+      "explanation": "Degaussing removes residual magnetism from aircraft structures and components."
+    },
+    {
+      "id": 23,
+      "question": "Action should be taken before degaussing standby compass area",
+      "options": [
+        "Open the compass lighting circuit breaker",
+        "Close all hydraulic valves",
+        "Increase compass lighting voltage"
+      ],
+      "correctIndex": 0,
+      "explanation": "The compass lighting circuit breaker should be opened before degaussing the standby compass area."
+    },
+    {
+      "id": 24,
+      "question": "What is magnetic declination?",
+      "options": [
+        "The vertical change between aircraft pitch and roll.",
+        "The horizontal change contained between the true and magnetic meridian at any place",
+        "The difference between indicated and true airspeed."
+      ],
+      "correctIndex": 1,
+      "explanation": "Magnetic declination is the horizontal angular relationship between true and magnetic meridians."
+    },
+    {
+      "id": 25,
+      "question": "Components of flux detector",
+      "options": [
+        "Spokes, collector horns, primary and secondary coil",
+        "Pitot tube, static port, drain valve",
+        "Rotor, stator, brushes and commutator"
+      ],
+      "correctIndex": 0,
+      "explanation": "The flux detector contains spokes, collector horns, and primary and secondary coils."
+    },
+    {
+      "id": 26,
+      "question": "When Inertial Reference System (IRS) is on battery, the indication is",
+      "options": [
+        "Only a fuel warning light",
+        "ON BATTERY light indication and horn sound",
+        "Only an oil pressure warning"
+      ],
+      "correctIndex": 1,
+      "explanation": "Battery operation is indicated by the ON BATTERY indication and an audible horn."
+    },
+    {
+      "id": 27,
+      "question": "What data is displayed on Radio Magnetic Indicator?",
+      "options": [
+        "Only true airspeed and altitude",
+        "Magnetic heading and magnetic bearing of an aircraft with reference to ground-based transmitting stations of radio navigation systems",
+        "Only aircraft pitch and roll"
+      ],
+      "correctIndex": 1,
+      "explanation": "The RMI combines magnetic heading information with bearing information from radio navigation sources."
+    },
+    {
+      "id": 28,
+      "question": "On radio magnetic indicator, magnetic heading data is displayed by",
+      "options": [
+        "Heading card (magnetic card)",
+        "Vertical speed pointer",
+        "Pitot pressure indicator"
+      ],
+      "correctIndex": 0,
+      "explanation": "The rotating heading card provides the magnetic heading reference."
+    },
+    {
+      "id": 29,
+      "question": "Which of the following is the error of directional gyro?",
+      "options": [
+        "Variation",
+        "Drift",
+        "Dip"
+      ],
+      "correctIndex": 1,
+      "explanation": "Directional gyroscopes experience drift, which must be corrected by an erection or slaving system."
+    },
+    {
+      "id": 30,
+      "question": "Operating an aircraft near the magnetic poles causes what is known as",
+      "options": [
+        "Dip error",
+        "Compass-card error",
+        "Pitot error"
+      ],
+      "correctIndex": 0,
+      "explanation": "The steep angle of Earth's magnetic field near the poles produces dip-related compass errors."
+    },
+    {
+      "id": 31,
+      "question": "What is the cause of gyro nutation?",
+      "options": [
+        "High fuel pressure",
+        "Low rotational speed and gyro gimbal ring axes are not mutually perpendicular",
+        "High cabin pressure"
+      ],
+      "correctIndex": 1,
+      "explanation": "Gyro nutation can occur due to low rotational speed and improper perpendicularity of the gimbal axes."
+    },
+    {
+      "id": 32,
+      "question": "The magnetic flux passing through flux detector coil is maximum when it is ___ degree with the direction of the earth's magnetic field degree with the...",
+      "options": [
+        "90°",
+        "45°",
+        "0° (Parallel alignment)"
+      ],
+      "correctIndex": 2,
+      "explanation": "Flux is maximum when the coil/spoke is parallel to the magnetic field, corresponding to 0°."
+    },
+    {
+      "id": 33,
+      "question": "When a warning flag of a related directional gyro on an indicator is view, what is the possible correction action?",
+      "options": [
+        "Set the related C.B. (Circuit Breaker)",
+        "Increase pitot pressure",
+        "Drain the compass liquid"
+      ],
+      "correctIndex": 0,
+      "explanation": "Checking or resetting the related circuit breaker is a possible corrective action for the indicated DG warning."
+    },
+    {
+      "id": 34,
+      "question": "The effects of deviation due to longitudinal and lateral components of aircraft magnetism are compensated by",
+      "options": [
+        "Compensating magnets",
+        "Pitot-static valves",
+        "Fuel quantity probes"
+      ],
+      "correctIndex": 0,
+      "explanation": "Compensating magnets are used to counteract aircraft magnetic effects that produce compass deviation."
+    },
+    {
+      "id": 35,
+      "question": "A better solution to deviation error is to remotely locate the magnetic compass in",
+      "options": [
+        "The engine nacelle",
+        "A wing tip or vertical stabilizer",
+        "The landing gear bay"
+      ],
+      "correctIndex": 1,
+      "explanation": "Locating the magnetic sensing element away from magnetic interference, such as at a wing tip or vertical stabilizer, reduces deviation."
+    },
+    {
+      "id": 36,
+      "question": "What is the info provided by inertial reference system?",
+      "options": [
+        "Heading, position, and velocity",
+        "Only fuel quantity",
+        "Only engine temperature"
+      ],
+      "correctIndex": 0,
+      "explanation": "The IRS provides navigation information such as aircraft heading, position, and velocity."
+    },
+    {
+      "id": 37,
+      "question": "What will be the output data when the acceleration data is supplied to a primary stage integrator?",
+      "options": [
+        "Ground speed",
+        "Distance",
+        "Temperature"
+      ],
+      "correctIndex": 0,
+      "explanation": "Integrating acceleration with respect to time gives velocity or ground speed."
+    },
+    {
+      "id": 38,
+      "question": "Which one of the following reference indicates the heading reference?",
+      "options": [
+        "Compass card",
+        "Altimeter",
+        "Vertical speed indicator"
+      ],
+      "correctIndex": 0,
+      "explanation": "The compass card provides the heading reference."
+    },
+    {
+      "id": 39,
+      "question": "Which one of the following torque motor used in mercury leveling switch?",
+      "options": [
+        "Slaving torque motor",
+        "Leveling torque motor",
+        "Starter torque motor"
+      ],
+      "correctIndex": 1,
+      "explanation": "The leveling torque motor is associated with the mercury leveling switch system."
+    },
+    {
+      "id": 40,
+      "question": "INS stabilized in horizontal position in attitude change b/c",
+      "options": [
+        "It doesn't have a third accelerometer to correct vertical movement",
+        "It has four fuel gauges",
+        "It uses the pitot system to control attitude"
+      ],
+      "correctIndex": 0,
+      "explanation": "The supplied material states that the horizontal stabilization is related to the absence of a third accelerometer for vertical movement correction."
+    },
+    {
+      "id": 41,
+      "question": "To eliminate reverse reading of compass card",
+      "options": [
+        "Vertical presentation",
+        "Horizontal presentation",
+        "Reverse illumination"
+      ],
+      "correctIndex": 1,
+      "explanation": "Horizontal presentation is used to eliminate reverse reading of the compass card."
+    },
+    {
+      "id": 42,
+      "question": "Compass bowl is made up of",
+      "options": [
+        "Magnetic steel",
+        "Non-magnetic material",
+        "Ferrous iron"
+      ],
+      "correctIndex": 1,
+      "explanation": "The compass bowl is made from non-magnetic material to avoid interference with the magnetic sensing system."
+    },
+    {
+      "id": 43,
+      "question": "On which one of the following types of magnetic heading references do the compass card rotate opposite to the direction of the intended turn?",
+      "options": [
+        "The vertical magnetic compass",
+        "The horizontal magnetic compass",
+        "The flux valve only"
+      ],
+      "correctIndex": 0,
+      "explanation": "The supplied material identifies the vertical magnetic compass as having this compass-card movement characteristic."
+    },
+    {
+      "id": 44,
+      "question": "What is the drift due to earth rate on the vertical gyro stabilized INS when the aircraft is flying on 90° latitude?",
+      "options": [
+        "0°/hr",
+        "7.5°/hr",
+        "15°/hr"
+      ],
+      "correctIndex": 2,
+      "explanation": "Vertical gyro Earth-rate drift is 15° × sin(latitude). At 90°, sin(90°) = 1, giving 15°/hr."
+    },
+    {
+      "id": 45,
+      "question": "Through which one of the following components is the excitation current supplied to the flux valve?",
+      "options": [
+        "The secondary coil",
+        "The primary coil",
+        "The collector horn"
+      ],
+      "correctIndex": 1,
+      "explanation": "AC excitation is supplied through the primary coil of the flux valve."
+    },
+    {
+      "id": 46,
+      "question": "When initializing inertial reference system (IRS)",
+      "options": [
+        "Aircraft must be stationary",
+        "Aircraft must be climbing",
+        "Aircraft must be banking"
+      ],
+      "correctIndex": 0,
+      "explanation": "The aircraft must remain stationary during IRS initialization so the system can establish its reference accurately."
+    },
+    {
+      "id": 47,
+      "question": "Which one is means of controlling drift on directional gyroscopes?",
+      "options": [
+        "Erection devices",
+        "Pitot probes",
+        "Fuel pumps"
+      ],
+      "correctIndex": 0,
+      "explanation": "Erection devices correct gyro drift and maintain the required reference."
+    },
+    {
+      "id": 48,
+      "question": "What does pulling of the caging knob do to the directional gyroscope?",
+      "options": [
+        "Disconnecting the outer gimbal from the rigid inner gimbal and rotor",
+        "Increasing gyro rotor speed",
+        "Opening the pitot drain"
+      ],
+      "correctIndex": 0,
+      "explanation": "Pulling the caging knob releases or disconnects the outer gimbal arrangement as specified in the source."
+    },
+    {
+      "id": 49,
+      "question": "Which one of the following is correct when degaussing the windshield area of the cockpit on B-737 aircraft?",
+      "options": [
+        "Move the AC demagnetizing coil slowly towards windshield areas, bring the AC demagnetizing coil as close as possible to the structure without touching the structure.",
+        "Place the coil directly against the windshield and hold it stationary.",
+        "Use a permanent magnet directly on the windshield."
+      ],
+      "correctIndex": 0,
+      "explanation": "The AC demagnetizing coil is moved slowly toward the area and kept as close as possible without touching the structure."
+    },
+    {
+      "id": 50,
+      "question": "A card on a directional gyro is installed on",
+      "options": [
+        "Inner rotor",
+        "Outer ring",
+        "Housing only"
+      ],
+      "correctIndex": 1,
+      "explanation": "The directional gyro card is mounted on the outer ring."
+    },
+    {
+      "id": 51,
+      "question": "The position data for IRS initialization can be obtained",
+      "options": [
+        "Automatically from GPS or entered manually",
+        "Only from the pitot system",
+        "Only from the magnetic compass"
+      ],
+      "correctIndex": 0,
+      "explanation": "Initial position may be supplied automatically by GPS or entered manually."
+    },
+    {
+      "id": 52,
+      "question": "Which one of the following is a line drawn on an aeronautical chart that connects the location on the planet where a compass pointing to magnetic north is also pointing to geographic True North?",
+      "options": [
+        "Isogonic",
+        "Agonic",
+        "Isobaric"
+      ],
+      "correctIndex": 1,
+      "explanation": "An agonic line connects points where magnetic variation is zero."
+    },
+    {
+      "id": 53,
+      "question": "Which one of the following lines on aeronautical charts indicates points of equal variation?",
+      "options": [
+        "Agonic",
+        "Isogonic",
+        "Isobaric"
+      ],
+      "correctIndex": 1,
+      "explanation": "Isogonic lines connect points having equal magnetic variation."
+    },
+    {
+      "id": 54,
+      "question": "The variation of compass liquid volume is compensated by",
+      "options": [
+        "Bellows expansion unit",
+        "Slaving amplifier",
+        "Flux detector"
+      ],
+      "correctIndex": 0,
+      "explanation": "A bellows expansion unit accommodates changes in compass liquid volume caused by temperature."
+    },
+    {
+      "id": 55,
+      "question": "The property of magnetic compass liquid is",
+      "options": [
+        "High freezing point",
+        "Low freezing point",
+        "High magnetic permeability"
+      ],
+      "correctIndex": 1,
+      "explanation": "Compass liquid must have a low freezing point so it remains usable at low temperatures."
+    },
+    {
+      "id": 56,
+      "question": "ILS info is displayed on",
+      "options": [
+        "Course deviation indicator (CDI)",
+        "Fuel quantity indicator",
+        "Engine pressure ratio indicator"
+      ],
+      "correctIndex": 0,
+      "explanation": "ILS course and glide-slope information can be displayed on the CDI."
+    },
+    {
+      "id": 57,
+      "question": "Where is flux detector element located on an aircraft?",
+      "options": [
+        "Wing tips and vertical stabilizers",
+        "Engine exhaust",
+        "Landing gear wheels"
+      ],
+      "correctIndex": 0,
+      "explanation": "Flux detector elements are remotely located at areas such as wing tips or vertical stabilizers to reduce magnetic interference."
+    },
+    {
+      "id": 58,
+      "question": "A knob on a directional gyro used to set it to indicate the same heading as the magnetic compass is",
+      "options": [
+        "Caging knob",
+        "Trim knob",
+        "Altitude knob"
+      ],
+      "correctIndex": 0,
+      "explanation": "The caging/heading-setting knob is used to set the DG indication to the required heading reference."
+    },
+    {
+      "id": 59,
+      "question": "Directional gyro employs",
+      "options": [
+        "Vertical-axis gyroscope",
+        "Horizontal-axis gyroscope",
+        "Three-axis accelerometer only"
+      ],
+      "correctIndex": 1,
+      "explanation": "The directional gyro uses a horizontal-axis gyroscope to maintain directional reference."
+    },
+    {
+      "id": 60,
+      "question": "Where is flux valve located on an aircraft?",
+      "options": [
+        "Wing tips",
+        "Engine inlet",
+        "Cockpit instrument panel"
+      ],
+      "correctIndex": 0,
+      "explanation": "The flux valve is normally located at a remote wing-tip position to minimize magnetic interference."
+    },
+    {
+      "id": 61,
+      "question": "The erection system used for pneumatic directional gyro is",
+      "options": [
+        "Air reaction off the wedge plate",
+        "Electrical torque motor only",
+        "Hydraulic pressure reaction"
+      ],
+      "correctIndex": 0,
+      "explanation": "The pneumatic directional gyro uses air reaction from the wedge plate as its erection mechanism."
+    },
+    {
+      "id": 62,
+      "question": "Which of the following is true about remote-indicating compasses system?",
+      "options": [
+        "A magnetic detecting element monitors a gyroscopic indicating element",
+        "A pitot probe directly drives the compass card",
+        "A fuel probe controls the gyro"
+      ],
+      "correctIndex": 0,
+      "explanation": "The remote compass system uses a magnetic detecting element to provide magnetic reference information to the gyroscopic indicating system."
+    },
+    {
+      "id": 63,
+      "question": "Which of the following is the remote indication system of gyro output from flux valve?",
+      "options": [
+        "Slaving servo amplifier to slaving torque motor",
+        "Pitot tube to static port",
+        "Fuel pump to fuel valve"
+      ],
+      "correctIndex": 0,
+      "explanation": "The slaving servo amplifier processes the error and drives the slaving torque motor."
+    },
+    {
+      "id": 64,
+      "question": "Caging and heading setting knob",
+      "options": [
+        "Hold inner ring gimbal and rotor while rotating outer gimbal",
+        "Stops all aircraft electrical power",
+        "Controls compass liquid expansion"
+      ],
+      "correctIndex": 0,
+      "explanation": "The caging and heading-setting mechanism holds the inner gimbal and rotor while the outer gimbal is positioned."
+    },
+    {
+      "id": 65,
+      "question": "Pneumatic operated DG, magnetic bearing indication provided using",
+      "options": [
+        "Concentrically mounted pointers (double-bar, single bar)",
+        "Only an altimeter pointer",
+        "A vertical speed pointer"
+      ],
+      "correctIndex": 0,
+      "explanation": "The pneumatic DG uses concentrically mounted pointers to provide magnetic bearing indication."
+    },
+    {
+      "id": 66,
+      "question": "The procedure of correcting the indication of deviation error is minimized by two small permanent magnets inside the compensating mechanism in the compass",
+      "options": [
+        "Compass swinging",
+        "Degaussing only",
+        "IRS initialization"
+      ],
+      "correctIndex": 0,
+      "explanation": "Compass swinging is the procedure used to determine and minimize deviation using the compass compensating mechanism."
+    },
+    {
+      "id": 67,
+      "question": "Magnetic compass error",
+      "options": [
+        "Magnetic variation, magnetic deviation, dip error",
+        "Pitot error, static error, fuel error",
+        "Engine error, hydraulic error, electrical error"
+      ],
+      "correctIndex": 0,
+      "explanation": "The supplied material identifies variation, deviation, and dip as magnetic compass errors."
+    },
+    {
+      "id": 68,
+      "question": "The effects of deviation due to longitudinal and lateral components of aircraft magnetism are compensated by",
+      "options": [
+        "Compensating devices",
+        "Pitot tubes",
+        "Cabin pressure valves"
+      ],
+      "correctIndex": 0,
+      "explanation": "Compass compensating devices reduce deviation caused by aircraft magnetism."
+    },
+    {
+      "id": 69,
+      "question": "Output data from the 2nd integrator gives",
+      "options": [
+        "Acceleration",
+        "Distance",
+        "Magnetic variation"
+      ],
+      "correctIndex": 1,
+      "explanation": "Integrating acceleration once gives velocity/ground speed; integrating again gives distance or position."
+    },
+    {
+      "id": 70,
+      "question": "What does an IRS require to give the aircraft's current position?",
+      "options": [
+        "Initial position",
+        "Only aircraft fuel quantity",
+        "Only cabin pressure"
+      ],
+      "correctIndex": 0,
+      "explanation": "The IRS requires an initial position reference before it can calculate the aircraft's subsequent position."
+    },
+    {
+      "id": 71,
+      "question": "What should be the possible correction action for leaking magnetic compass?",
+      "options": [
+        "Replace the magnetic compass",
+        "Increase compass liquid leakage",
+        "Reset the pitot system"
+      ],
+      "correctIndex": 0,
+      "explanation": "A leaking magnetic compass should be replaced according to the supplied maintenance information."
+    },
+    {
+      "id": 72,
+      "question": "Which of the following is NOT correct about compass bowl?",
+      "options": [
+        "It is made from non-magnetic material.",
+        "It can be made from magnetic material",
+        "It contains compass liquid."
+      ],
+      "correctIndex": 1,
+      "explanation": "The compass bowl should not be made from magnetic material because it could interfere with compass operation."
+    },
+    {
+      "id": 73,
+      "question": "The floating magnets in a compass are not affected by",
+      "options": [
+        "Steel materials",
+        "Plastic materials (instrument cases",
+        "Ferrous materials"
+      ],
+      "correctIndex": 1,
+      "explanation": "The supplied answer identifies plastic materials as not affecting the floating magnets magnetically."
+    },
+    {
+      "id": 74,
+      "question": "One of the oldest and simplest instruments for indicating direction is",
+      "options": [
+        "Magnetic compass",
+        "IRS",
+        "Laser gyro"
+      ],
+      "correctIndex": 0,
+      "explanation": "The magnetic compass is one of the oldest and simplest instruments used for indicating direction."
+    },
+    {
+      "id": 75,
+      "question": "Which component of the directional gyro is stationary?",
+      "options": [
+        "Rotor",
+        "Housing (synchro stator / outer case)",
+        "Inner gimbal"
+      ],
+      "correctIndex": 1,
+      "explanation": "The housing or outer case is the stationary part of the directional gyro."
+    },
+    {
+      "id": 76,
+      "question": "Which one of the inertial position determining systems uses gimbaled gyroscope for their operation?",
+      "options": [
+        "Inertial navigation system",
+        "Magnetic compass",
+        "Flux valve"
+      ],
+      "correctIndex": 0,
+      "explanation": "A conventional INS can use gimbaled gyroscopes to maintain the inertial reference platform."
+    },
+    {
+      "id": 77,
+      "question": "At which one of the following latitudes does an operational inertial navigation unit or an inertial reference unit take a longer time to align?",
+      "options": [
+        "At the equator",
+        "At higher latitudes",
+        "Only at 0° latitude"
+      ],
+      "correctIndex": 1,
+      "explanation": "Alignment takes longer at higher latitudes because of the characteristics of Earth-rate sensing and inertial alignment."
+    },
+    {
+      "id": 78,
+      "question": "For one detector spoke, how many headings correspond to zero flux?",
+      "options": [
+        "1",
+        "2",
+        "3"
+      ],
+      "correctIndex": 1,
+      "explanation": "For one detector spoke, two headings correspond to zero flux because the magnetic-field relationship repeats in opposite directions."
+    },
+    {
+      "id": 79,
+      "question": "How many accelerometers are used in IRS strapdowns?",
+      "options": [
+        "2",
+        "3",
+        "6"
+      ],
+      "correctIndex": 1,
+      "explanation": "A strapdown IRS uses three accelerometers to measure acceleration along the three aircraft axes."
+    },
+    {
+      "id": 80,
+      "question": "The brake is also applied approximately __ seconds after the power supply has been switched off to prevent spinning of the gyroscope about its vertical axis during rundown",
+      "options": [
+        "10",
+        "30",
+        "60"
+      ],
+      "correctIndex": 1,
+      "explanation": "The supplied maintenance information specifies approximately 30 seconds after power removal for brake application."
+    },
+    {
+      "id": 81,
+      "question": "Accelerometer used for the longitudinal axis",
+      "options": [
+        "East-West",
+        "North-South",
+        "Vertical"
+      ],
+      "correctIndex": 1,
+      "explanation": "The supplied answer identifies the North-South accelerometer for the longitudinal axis."
+    },
+    {
+      "id": 82,
+      "question": "All A/C heading detected using",
+      "options": [
+        "2 spokes",
+        "3 spokes",
+        "4 spokes"
+      ],
+      "correctIndex": 1,
+      "explanation": "The flux detector uses three spokes arranged to sense the Earth's magnetic field and determine aircraft heading."
+    },
+    {
+      "id": 83,
+      "question": "Spoke detector made of",
+      "options": [
+        "Aluminum",
+        "Steel",
+        "Permalloy"
+      ],
+      "correctIndex": 2,
+      "explanation": "The flux detector spokes are made of Permalloy, a material suitable for sensing magnetic flux."
+    }
+  ]
+}
