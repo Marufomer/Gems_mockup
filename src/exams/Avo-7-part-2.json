@@ -1,0 +1,1245 @@
+{
+  "id": "avo-7-part-2",
+  "title": "Avo-7-part-2",
+  "module": "AVO-7",
+  "course": "avionics",
+  "category": "part",
+  "description": "Avionics examination covering electronic flight displays, engine and fuel indication systems, temperature measurement, vibration sensing, EICAS, ECAM, FDR, and aircraft display systems.",
+  "durationMinutes": 150,
+  "totalQuestions": 112,
+  "color": "purple",
+  "questions": [
+    {
+      "id": 1,
+      "question": "EADI commonly displayed:",
+      "options": [
+        "A. Engine performance parameters",
+        "B. Attitude and situation flight parameter",
+        "C. Fuel quantity information"
+      ],
+      "correctIndex": 1,
+      "explanation": "The EADI provides attitude and other flight situation information to the pilot."
+    },
+    {
+      "id": 2,
+      "question": "In mass flow turbine relation with indicator:",
+      "options": [
+        "A. Turbine rotation ↑ flow rate ↑",
+        "B. Turbine rotation ↓ flow rate ↑",
+        "C. Turbine rotation has no relation to flow rate"
+      ],
+      "correctIndex": 0,
+      "explanation": "In the mass-flow system, increased fuel flow produces increased turbine rotation."
+    },
+    {
+      "id": 3,
+      "question": "EADI & EHSI locate:",
+      "options": [
+        "A. Only below the engine display",
+        "B. Only on the center pedestal",
+        "C. Side by side or top to bottom"
+      ],
+      "correctIndex": 2,
+      "explanation": "EADI and EHSI displays may be arranged side by side or one above the other depending on the aircraft design."
+    },
+    {
+      "id": 4,
+      "question": "FDR is commonly called:",
+      "options": [
+        "A. Flight computer",
+        "B. Black box",
+        "C. Display recorder"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Flight Data Recorder (FDR) is commonly referred to as a black box."
+    },
+    {
+      "id": 5,
+      "question": "Which EICAS alert level requires immediate crew action?",
+      "options": [
+        "A. Level A",
+        "B. Level C",
+        "C. Level D"
+      ],
+      "correctIndex": 0,
+      "explanation": "Level A EICAS alerts require immediate crew action because they indicate serious conditions."
+    },
+    {
+      "id": 6,
+      "question": "In fuel quantity tank unit float connect to:",
+      "options": [
+        "A. Fixed capacitor plate",
+        "B. Wiper on variable resistor",
+        "C. Thermocouple junction"
+      ],
+      "correctIndex": 1,
+      "explanation": "The float moves the wiper on a variable resistor as the fuel level changes."
+    },
+    {
+      "id": 7,
+      "question": "ECAM display mode:",
+      "options": [
+        "A. Three automatically",
+        "B. One manually",
+        "C. Two mechanically"
+      ],
+      "correctIndex": 0,
+      "explanation": "The provided answer is three automatically, referring to automatic ECAM display modes."
+    },
+    {
+      "id": 8,
+      "question": "Water level indicate on:",
+      "options": [
+        "A. Flight control panel only",
+        "B. Attendant panel and water service panel",
+        "C. Engine display only"
+      ],
+      "correctIndex": 1,
+      "explanation": "Aircraft water quantity information is indicated on the attendant panel and water service panel."
+    },
+    {
+      "id": 9,
+      "question": "DU overheat b/s:",
+      "options": [
+        "A. Excessive fuel pressure",
+        "B. Low engine oil temperature",
+        "C. Vents blocked, insufficient cooling air, or DU malfunction"
+      ],
+      "correctIndex": 2,
+      "explanation": "Display unit overheating can result from blocked vents, insufficient cooling air, or a malfunctioning display unit."
+    },
+    {
+      "id": 10,
+      "question": "Ratiometer needle moved by:",
+      "options": [
+        "A. Large permanent magnet",
+        "B. Hairspring only",
+        "C. Thermocouple junction"
+      ],
+      "correctIndex": 0,
+      "explanation": "The ratiometer uses magnetic interaction involving a large permanent magnet to move the indication mechanism."
+    },
+    {
+      "id": 11,
+      "question": "In ratiometer operation:",
+      "options": [
+        "A. Hydraulic pressure moves the pointer",
+        "B. Electromagnetic interaction with permanent magnet",
+        "C. Mechanical friction moves the pointer"
+      ],
+      "correctIndex": 1,
+      "explanation": "Ratiometer operation depends on electromagnetic interaction with a permanent magnet."
+    },
+    {
+      "id": 12,
+      "question": "An electrical fuel indicator equipment indicates fuel remaining and total range:",
+      "options": [
+        "A. Fuel totalizer",
+        "B. Fuel pressure indicator",
+        "C. Fuel temperature indicator"
+      ],
+      "correctIndex": 0,
+      "explanation": "A fuel totalizer provides information about fuel remaining and range based on fuel consumption."
+    },
+    {
+      "id": 13,
+      "question": "The indication on a thermocouple-type EGT indicator is produced by:",
+      "options": [
+        "A. External battery voltage",
+        "B. Current generated by T° difference between hot & cold junction",
+        "C. Hydraulic pressure difference"
+      ],
+      "correctIndex": 1,
+      "explanation": "A thermocouple generates an electrical output due to the temperature difference between its hot and cold junctions."
+    },
+    {
+      "id": 14,
+      "question": "In the ratiometer T° measuring indicator T° sensor is:",
+      "options": [
+        "A. Resistor",
+        "B. Capacitor",
+        "C. Thermocouple only"
+      ],
+      "correctIndex": 0,
+      "explanation": "The temperature sensor in a ratiometer system is a resistance element whose resistance changes with temperature."
+    },
+    {
+      "id": 15,
+      "question": "The voltage produced by thermocouple is:",
+      "options": [
+        "A. Inversely proportional to applied T°",
+        "B. Directly proportional to applied T°",
+        "C. Independent of temperature"
+      ],
+      "correctIndex": 1,
+      "explanation": "Within its operating range, thermocouple output voltage increases with the temperature difference applied to its junctions."
+    },
+    {
+      "id": 16,
+      "question": "Where are the hot and cold junctions located in an engine cylinder T° indicating system?",
+      "options": [
+        "A. Both at the instrument",
+        "B. Hot junction at cylinder, cold junction at instrument",
+        "C. Hot junction at cockpit, cold junction at cylinder"
+      ],
+      "correctIndex": 1,
+      "explanation": "The hot junction senses cylinder temperature while the cold junction is located at the instrument."
+    },
+    {
+      "id": 17,
+      "question": "Which of the following is not electrical type temperature measuring device:",
+      "options": [
+        "A. Wheatstone bridge",
+        "B. Ratiometer",
+        "C. Bimetallic thermometer"
+      ],
+      "correctIndex": 2,
+      "explanation": "A bimetallic thermometer operates mechanically through differential thermal expansion rather than an electrical measuring principle."
+    },
+    {
+      "id": 18,
+      "question": "The fuel T° indicator on B737-NG is:",
+      "options": [
+        "A. Resistance ratiometer instrument",
+        "B. Thermocouple instrument",
+        "C. Bimetallic instrument"
+      ],
+      "correctIndex": 0,
+      "explanation": "The B737-NG fuel temperature indicator uses a resistance ratiometer instrument."
+    },
+    {
+      "id": 19,
+      "question": "Fluid quantity can be measured in:",
+      "options": [
+        "A. Temperature only",
+        "B. Volume, mass",
+        "C. Pressure only"
+      ],
+      "correctIndex": 1,
+      "explanation": "Fluid quantity can be expressed as either volume or mass."
+    },
+    {
+      "id": 20,
+      "question": "In a capacitance fuel quantity system, what parameter of the capacitors is changed as the level of the fuel in the fuel tank changes?",
+      "options": [
+        "A. Plate size",
+        "B. Dielectric material",
+        "C. Wire resistance"
+      ],
+      "correctIndex": 1,
+      "explanation": "As fuel level changes, the dielectric material between the capacitor plates changes from air to fuel or vice versa, changing capacitance."
+    },
+    {
+      "id": 21,
+      "question": "Which thermocouple is used to measure the exhaust gas T° for turbine engine?",
+      "options": [
+        "A. Chromel-alumel",
+        "B. Copper-iron",
+        "C. Brass-steel"
+      ],
+      "correctIndex": 0,
+      "explanation": "Chromel-alumel thermocouples are commonly used for high-temperature turbine engine measurements."
+    },
+    {
+      "id": 22,
+      "question": "What are the vibration pickups used on Boeing aircraft?",
+      "options": [
+        "A. Thermistors and RTDs",
+        "B. Electromechanical velocity pickups, piezoelectric accelerometer",
+        "C. Bourdon tubes and capsules"
+      ],
+      "correctIndex": 1,
+      "explanation": "Boeing aircraft can use electromechanical velocity pickups and piezoelectric accelerometers for engine vibration measurement."
+    },
+    {
+      "id": 23,
+      "question": "DEU forward of data shown on display unit are:",
+      "options": [
+        "A. PFD, ND, and engine display",
+        "B. Fuel tank and water panel",
+        "C. Cabin temperature panel only"
+      ],
+      "correctIndex": 0,
+      "explanation": "The DEU provides display data for units such as the PFD, ND, and engine display."
+    },
+    {
+      "id": 24,
+      "question": "Collect data from many avionic and airframe system:",
+      "options": [
+        "A. EHSI",
+        "B. DEU",
+        "C. FDR only"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Display Electronics Unit (DEU) collects and processes data from multiple avionics and airframe systems for display."
+    },
+    {
+      "id": 25,
+      "question": "Primary engine display shows:",
+      "options": [
+        "A. N1",
+        "B. Cabin altitude",
+        "C. Fuel quantity only"
+      ],
+      "correctIndex": 0,
+      "explanation": "N1 is a primary engine parameter and is shown on the primary engine display."
+    },
+    {
+      "id": 26,
+      "question": "Thermocouple connection:",
+      "options": [
+        "A. Series",
+        "B. Parallel",
+        "C. Hydraulic"
+      ],
+      "correctIndex": 1,
+      "explanation": "The provided answer is parallel, referring to the stated thermocouple connection arrangement."
+    },
+    {
+      "id": 27,
+      "question": "Thermocouple used on spark plug:",
+      "options": [
+        "A. Gasket",
+        "B. Bourdon tube",
+        "C. Float"
+      ],
+      "correctIndex": 0,
+      "explanation": "A gasket-type thermocouple can be installed with a spark plug to sense cylinder temperature."
+    },
+    {
+      "id": 28,
+      "question": "Thermocouple output voltage is generated by:",
+      "options": [
+        "A. Single junction resistance",
+        "B. Differential potential between hot and cold junction",
+        "C. External AC supply"
+      ],
+      "correctIndex": 1,
+      "explanation": "Thermocouple voltage results from the differential potential created by the temperature difference between the hot and cold junctions."
+    },
+    {
+      "id": 29,
+      "question": "Vane-type fuel flow is a:",
+      "options": [
+        "A. Direct indication",
+        "B. Remote indication",
+        "C. Pressure-only system"
+      ],
+      "correctIndex": 1,
+      "explanation": "A vane-type fuel-flow system provides remote indication of fuel flow."
+    },
+    {
+      "id": 30,
+      "question": "Which of the following is not true:",
+      "options": [
+        "A. Bourdon tube is used to measure EGT",
+        "B. Thermocouple can measure EGT",
+        "C. EGT measurement uses temperature sensing"
+      ],
+      "correctIndex": 0,
+      "explanation": "The provided incorrect statement is that a Bourdon tube is used to measure EGT; EGT is normally measured electrically using thermocouples."
+    },
+    {
+      "id": 31,
+      "question": "Which of the following is true:",
+      "options": [
+        "A. Oil temperature measuring system never uses mechanical sensing",
+        "B. Oil temperature measuring system usually used Bourdon tube for old aircraft",
+        "C. Oil temperature cannot be measured electrically"
+      ],
+      "correctIndex": 1,
+      "explanation": "Older aircraft may use Bourdon-tube arrangements for oil temperature indication."
+    },
+    {
+      "id": 32,
+      "question": "AOA sensor types are:",
+      "options": [
+        "A. 2",
+        "B. 4",
+        "C. 6"
+      ],
+      "correctIndex": 0,
+      "explanation": "The provided answer states that there are two types of AOA sensors."
+    },
+    {
+      "id": 33,
+      "question": "Remote fuel quantity indication:",
+      "options": [
+        "A. AC fuel quantity indicator",
+        "B. DC fuel quantity indicator",
+        "C. Mechanical float only"
+      ],
+      "correctIndex": 1,
+      "explanation": "The provided answer identifies the DC fuel quantity indicator as the remote fuel quantity indication system."
+    },
+    {
+      "id": 34,
+      "question": "ULB operate under water at least:",
+      "options": [
+        "A. 30 days",
+        "B. 60 days",
+        "C. 90 days"
+      ],
+      "correctIndex": 2,
+      "explanation": "The underwater locator beacon (ULB) is designed to operate underwater for at least 90 days."
+    },
+    {
+      "id": 35,
+      "question": "Fuel flow sensing device injector clogged:",
+      "options": [
+        "A. True reading due to low pressure",
+        "B. False reading due to high pressure",
+        "C. No reading due to temperature"
+      ],
+      "correctIndex": 1,
+      "explanation": "A clogged injector can create abnormal pressure conditions and result in a false fuel-flow indication."
+    },
+    {
+      "id": 36,
+      "question": "ECAM display failure:",
+      "options": [
+        "A. Undertaken procedure",
+        "B. Automatic engine shutdown",
+        "C. Fuel tank depressurization"
+      ],
+      "correctIndex": 0,
+      "explanation": "The provided answer is Undertaken procedure, referring to the procedure followed after an ECAM display failure."
+    },
+    {
+      "id": 37,
+      "question": "Status page display in Airbus aircraft is in:",
+      "options": [
+        "A. Central lower display",
+        "B. Central upper display",
+        "C. Primary flight display"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Airbus ECAM status page is displayed on the central upper display."
+    },
+    {
+      "id": 38,
+      "question": "Engine vibration is:",
+      "options": [
+        "A. Primary display",
+        "B. Secondary display",
+        "C. Navigation display"
+      ],
+      "correctIndex": 1,
+      "explanation": "Engine vibration is treated as a secondary engine parameter and is shown on the secondary display."
+    },
+    {
+      "id": 39,
+      "question": "____ is used in modern aircraft fuel quantity:",
+      "options": [
+        "A. Mass parameter",
+        "B. Mechanical pressure only",
+        "C. Temperature parameter only"
+      ],
+      "correctIndex": 0,
+      "explanation": "Modern aircraft fuel quantity systems can use mass as the fuel quantity parameter."
+    },
+    {
+      "id": 40,
+      "question": "How many vibration pickups per engine:",
+      "options": [
+        "A. 1",
+        "B. 2",
+        "C. 4"
+      ],
+      "correctIndex": 1,
+      "explanation": "The provided answer specifies two vibration pickups per engine."
+    },
+    {
+      "id": 41,
+      "question": "Velocity pickups used:",
+      "options": [
+        "A. Permanent magnet, coil of wire, spring supports",
+        "B. Capacitor, resistor, thermistor",
+        "C. Bourdon tube, bellows, capsule"
+      ],
+      "correctIndex": 0,
+      "explanation": "An electromechanical velocity pickup consists of a permanent magnet, coil of wire, and spring supports."
+    },
+    {
+      "id": 42,
+      "question": "A350/380 generated its own:",
+      "options": [
+        "A. Engine vibration",
+        "B. Symbols and choices",
+        "C. Fuel pressure"
+      ],
+      "correctIndex": 1,
+      "explanation": "The provided answer states that the A350/A380 system generates its own symbols and choices for display."
+    },
+    {
+      "id": 43,
+      "question": "TAT probe used for velocity is above:",
+      "options": [
+        "A. Mach 0.2",
+        "B. Mach 0.8",
+        "C. Mach 1.2"
+      ],
+      "correctIndex": 0,
+      "explanation": "The provided answer identifies Mach 0.2 as the point above which the TAT probe is used for velocity-related measurement."
+    },
+    {
+      "id": 44,
+      "question": "First electronics displays to be employed:",
+      "options": [
+        "A. EICAS and ECAM",
+        "B. EADI and EHSI",
+        "C. CRT and LCD"
+      ],
+      "correctIndex": 1,
+      "explanation": "EADI and EHSI were among the first electronic flight displays employed in aircraft."
+    },
+    {
+      "id": 45,
+      "question": "Brightness inputs to the DEU:",
+      "options": [
+        "A. Fuel sensors and pressure switches",
+        "B. Brightness control panel, RLS and BLS sensors",
+        "C. Engine vibration pickups only"
+      ],
+      "correctIndex": 1,
+      "explanation": "Brightness information supplied to the DEU comes from the brightness control panel and the RLS and BLS sensors."
+    },
+    {
+      "id": 46,
+      "question": "Attitude indication is a:",
+      "options": [
+        "A. Full time PFD indication",
+        "B. Secondary engine indication",
+        "C. Maintenance-only indication"
+      ],
+      "correctIndex": 0,
+      "explanation": "Attitude is continuously presented on the Primary Flight Display (PFD)."
+    },
+    {
+      "id": 47,
+      "question": "Which of the following components make the image data for all the display units (DU)?",
+      "options": [
+        "A. DEU",
+        "B. Graphic Generator (GG)",
+        "C. EHSI"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Graphic Generator produces the image and graphic data required for the display units."
+    },
+    {
+      "id": 48,
+      "question": "Which of the following is engine secondary parameter:",
+      "options": [
+        "A. N² speed",
+        "B. N1 speed",
+        "C. Engine thrust"
+      ],
+      "correctIndex": 0,
+      "explanation": "N² speed is classified as a secondary engine parameter in the provided material."
+    },
+    {
+      "id": 49,
+      "question": "Which of the following EICAS message requires immediate corrective action and is displayed in red:",
+      "options": [
+        "A. Advisory",
+        "B. Caution",
+        "C. Warning"
+      ],
+      "correctIndex": 2,
+      "explanation": "A Warning message is displayed in red and requires immediate corrective action."
+    },
+    {
+      "id": 50,
+      "question": "In the Wheatstone temperature measuring indicator the T° sensor is:",
+      "options": [
+        "A. Resistor",
+        "B. Capacitor",
+        "C. Thermocouple"
+      ],
+      "correctIndex": 0,
+      "explanation": "A resistance element is used as the temperature sensor in a Wheatstone bridge temperature measuring system."
+    },
+    {
+      "id": 51,
+      "question": "Which is not true about proximity sensor:",
+      "options": [
+        "A. It can detect an object without contact",
+        "B. Physical contact",
+        "C. It can be used for position sensing"
+      ],
+      "correctIndex": 1,
+      "explanation": "A proximity sensor normally detects the presence or position of an object without physical contact."
+    },
+    {
+      "id": 52,
+      "question": "Which one of the following parameter is considered a status/system parameter:",
+      "options": [
+        "A. N1 speed",
+        "B. Door, hydraulic",
+        "C. EGT"
+      ],
+      "correctIndex": 1,
+      "explanation": "Door and hydraulic indications are examples of status or system parameters."
+    },
+    {
+      "id": 53,
+      "question": "Which statement is correct concerning a thermocouple type T° indicating instrument system:",
+      "options": [
+        "A. It requires an external power source",
+        "B. It requires no external power source",
+        "C. It can only operate with hydraulic pressure"
+      ],
+      "correctIndex": 1,
+      "explanation": "A thermocouple generates its own electrical voltage from the temperature difference between its junctions, so no external power source is required for basic operation."
+    },
+    {
+      "id": 54,
+      "question": "____ is the true T° the one you would measure if the airplane was not moving through space:",
+      "options": [
+        "A. Total air T°",
+        "B. Static air T°",
+        "C. Ram air T°"
+      ],
+      "correctIndex": 1,
+      "explanation": "Static air temperature is the temperature of the air without the temperature rise caused by aircraft motion."
+    },
+    {
+      "id": 55,
+      "question": "Data used to switch on during icing condition:",
+      "options": [
+        "A. Oil pressure",
+        "B. TAT",
+        "C. Fuel quantity"
+      ],
+      "correctIndex": 1,
+      "explanation": "Total Air Temperature (TAT) information can be used by aircraft systems to identify icing-related conditions."
+    },
+    {
+      "id": 56,
+      "question": "Which one of the following sensor is used on large commercial aircraft to warn the pilot when aircraft is approaching stall:",
+      "options": [
+        "A. Fuel level sensor",
+        "B. AOA sensor installed around the nose area",
+        "C. Oil temperature sensor"
+      ],
+      "correctIndex": 1,
+      "explanation": "Angle of Attack (AOA) sensors located around the nose area provide information used for stall warning."
+    },
+    {
+      "id": 57,
+      "question": "In a magnetic drag cup tachometer, the purpose of the permanent magnet is:",
+      "options": [
+        "A. To create eddy current in the drag cup",
+        "B. To measure temperature",
+        "C. To provide hydraulic pressure"
+      ],
+      "correctIndex": 0,
+      "explanation": "The rotating permanent magnet creates eddy currents in the drag cup, producing torque that moves the pointer."
+    },
+    {
+      "id": 58,
+      "question": "What is the T° sensor that is used for cabin air T° indication:",
+      "options": [
+        "A. Bourdon tube",
+        "B. Thermistor element in sealed housing",
+        "C. Bimetallic strip only"
+      ],
+      "correctIndex": 1,
+      "explanation": "A thermistor element in a sealed housing is used to sense cabin air temperature."
+    },
+    {
+      "id": 59,
+      "question": "For fuel flow measurement, a reciprocating engine uses:",
+      "options": [
+        "A. Vane-type fuel flow meter",
+        "B. EPR indicator",
+        "C. Thermocouple"
+      ],
+      "correctIndex": 0,
+      "explanation": "A vane-type fuel flow meter can be used to measure fuel flow in a reciprocating engine."
+    },
+    {
+      "id": 60,
+      "question": "____ with move up/down together with oil level:",
+      "options": [
+        "A. Fixed resistors",
+        "B. Floating magnets",
+        "C. Thermocouples"
+      ],
+      "correctIndex": 1,
+      "explanation": "Floating magnets move upward or downward with the oil level and operate the associated sensing switches."
+    },
+    {
+      "id": 61,
+      "question": "T° of Exhaust gas can be measured at the:",
+      "options": [
+        "A. Exit or inlet of turbine unit",
+        "B. Fuel tank only",
+        "C. Cabin air outlet only"
+      ],
+      "correctIndex": 0,
+      "explanation": "Exhaust gas temperature can be measured at suitable locations such as the turbine inlet or exit."
+    },
+    {
+      "id": 62,
+      "question": "Water quantity sensor in a Copper mesh:",
+      "options": [
+        "A. Resistance type",
+        "B. Capacitance type",
+        "C. Thermocouple type"
+      ],
+      "correctIndex": 1,
+      "explanation": "A copper mesh can form part of a capacitance-type water quantity sensing system."
+    },
+    {
+      "id": 63,
+      "question": "What makes a needle (on drag cup) steady:",
+      "options": [
+        "A. Permanent magnet",
+        "B. Hairspring",
+        "C. Capacitor"
+      ],
+      "correctIndex": 1,
+      "explanation": "The hairspring provides the controlling force that stabilizes the pointer at the appropriate indication."
+    },
+    {
+      "id": 64,
+      "question": "In magnetic drag cup tachometer, the pointer of the indicator is kept at specific reading point by:",
+      "options": [
+        "A. Hairspring",
+        "B. Drag cup",
+        "C. Permanent magnet"
+      ],
+      "correctIndex": 0,
+      "explanation": "The hairspring provides the restoring torque that balances the magnetic torque and positions the pointer."
+    },
+    {
+      "id": 65,
+      "question": "In capacitor fuel:",
+      "options": [
+        "A. Dielectric",
+        "B. Magnet",
+        "C. Hairspring"
+      ],
+      "correctIndex": 0,
+      "explanation": "Fuel acts as the dielectric material in a capacitance-type fuel quantity probe."
+    },
+    {
+      "id": 66,
+      "question": "Direct fuel quantity indication is possible in:",
+      "options": [
+        "A. Large transport aircraft only",
+        "B. Light aircraft",
+        "C. Turbine engines only"
+      ],
+      "correctIndex": 1,
+      "explanation": "Direct fuel quantity indication is practical in light aircraft because the tank and indicator can be relatively close together."
+    },
+    {
+      "id": 67,
+      "question": "Engine oil temperature uses:",
+      "options": [
+        "A. Temperature bulb",
+        "B. EHSI",
+        "C. Fuel flow vane"
+      ],
+      "correctIndex": 0,
+      "explanation": "A temperature bulb can be used to sense engine oil temperature."
+    },
+    {
+      "id": 68,
+      "question": "Ratiometer temperature sensor type is:",
+      "options": [
+        "A. Capacitance",
+        "B. Resistance",
+        "C. Pressure"
+      ],
+      "correctIndex": 1,
+      "explanation": "A resistance-type sensor changes resistance with temperature and is used with the ratiometer system."
+    },
+    {
+      "id": 69,
+      "question": "Attitude display on:",
+      "options": [
+        "A. ADI / EADI",
+        "B. EICAS only",
+        "C. Fuel quantity indicator"
+      ],
+      "correctIndex": 0,
+      "explanation": "Aircraft attitude is displayed on the Attitude Director Indicator (ADI) or Electronic Attitude Director Indicator (EADI)."
+    },
+    {
+      "id": 70,
+      "question": "Flight director commands display on:",
+      "options": [
+        "A. ND",
+        "B. PFD",
+        "C. Engine display"
+      ],
+      "correctIndex": 1,
+      "explanation": "Flight director commands are displayed on the Primary Flight Display (PFD)."
+    },
+    {
+      "id": 71,
+      "question": "____ used electrical power ratiometer for T° measurement:",
+      "options": [
+        "A. Alternating current",
+        "B. Direct current",
+        "C. Static electricity"
+      ],
+      "correctIndex": 1,
+      "explanation": "The provided answer identifies direct current as the electrical power used by the ratiometer temperature system."
+    },
+    {
+      "id": 72,
+      "question": "In mass flow fuel indicating system the purpose of impeller is:",
+      "options": [
+        "A. To cool the fuel",
+        "B. To make fuel hit turbine blade at angle",
+        "C. To measure fuel temperature"
+      ],
+      "correctIndex": 1,
+      "explanation": "The impeller directs the fuel onto the turbine blades at an angle, causing turbine rotation proportional to fuel flow."
+    },
+    {
+      "id": 73,
+      "question": "In mechanical tachometer when speed of engine increase:",
+      "options": [
+        "A. Flyweight move outward",
+        "B. Flyweight moves inward",
+        "C. Pointer moves directly to zero"
+      ],
+      "correctIndex": 0,
+      "explanation": "As rotational speed increases, centrifugal force causes the flyweights to move outward."
+    },
+    {
+      "id": 74,
+      "question": "Capacitor fuel quantity tank probe installed:",
+      "options": [
+        "A. Horizontally",
+        "B. Vertically",
+        "C. Diagonally"
+      ],
+      "correctIndex": 1,
+      "explanation": "Capacitance fuel quantity probes are installed vertically so that the changing fuel level changes the portion of the probe immersed in fuel."
+    },
+    {
+      "id": 75,
+      "question": "Which of the following is not true:",
+      "options": [
+        "A. Bimetallic thermometer can be used for EGT",
+        "B. Thermocouple can be used for EGT",
+        "C. EGT is a temperature measurement"
+      ],
+      "correctIndex": 0,
+      "explanation": "The provided answer identifies the bimetallic thermometer statement as not true for EGT measurement."
+    },
+    {
+      "id": 76,
+      "question": "Which of the following is correct about thermocouple:",
+      "options": [
+        "A. It uses identical metals",
+        "B. It uses dissimilar metals",
+        "C. It uses only a resistor"
+      ],
+      "correctIndex": 1,
+      "explanation": "A thermocouple is made from two dissimilar metals that produce a voltage when their junctions have different temperatures."
+    },
+    {
+      "id": 77,
+      "question": "Tachometer indicator is responsive to change in:",
+      "options": [
+        "A. Frequency",
+        "B. Pressure",
+        "C. Temperature only"
+      ],
+      "correctIndex": 0,
+      "explanation": "Electronic tachometer systems can determine rotational speed from the frequency of the generated electrical signal."
+    },
+    {
+      "id": 78,
+      "question": "CRT displays are still employed in:",
+      "options": [
+        "A. Airbus A350",
+        "B. Bombardier Dash 8 cockpit",
+        "C. Modern smartphones"
+      ],
+      "correctIndex": 1,
+      "explanation": "CRT displays have remained in service on some older aircraft such as the Bombardier Dash 8."
+    },
+    {
+      "id": 79,
+      "question": "Which one is incorrect:",
+      "options": [
+        "A. Thermocouple is used to measure fluid temperature",
+        "B. Thermocouple produces voltage from temperature difference",
+        "C. Thermocouple uses dissimilar metals"
+      ],
+      "correctIndex": 0,
+      "explanation": "The provided answer identifies this statement as incorrect according to the source material."
+    },
+    {
+      "id": 80,
+      "question": "If the thermocouple leads are inadvertently crossed at installation cylinder T° gauge pointer indicated:",
+      "options": [
+        "A. Full scale",
+        "B. Scale pointer moves to zero",
+        "C. Remains at normal indication"
+      ],
+      "correctIndex": 1,
+      "explanation": "Crossing the thermocouple leads reverses the polarity of the generated voltage, causing the cylinder temperature gauge pointer to move to zero."
+    },
+    {
+      "id": 81,
+      "question": "Which one of the following annunciation of failure that triggers another failure:",
+      "options": [
+        "A. Repetitive chime sounds, master warning lights",
+        "B. Fuel quantity display only",
+        "C. Cabin light only"
+      ],
+      "correctIndex": 0,
+      "explanation": "Repetitive chimes and master warning lights provide prominent crew annunciation of serious failures."
+    },
+    {
+      "id": 82,
+      "question": "Ram rise occurs to small degree at all airspeed but not starts becoming factor above:",
+      "options": [
+        "A. 100 knots",
+        "B. 200 knots",
+        "C. 400 knots"
+      ],
+      "correctIndex": 1,
+      "explanation": "Ram rise is present to a small degree at all airspeeds but becomes a significant factor above approximately 200 knots."
+    },
+    {
+      "id": 83,
+      "question": "ULB is activated:",
+      "options": [
+        "A. During takeoff",
+        "B. Underwater",
+        "C. During engine start"
+      ],
+      "correctIndex": 1,
+      "explanation": "An underwater locator beacon (ULB) is activated when submerged underwater."
+    },
+    {
+      "id": 84,
+      "question": "How many mandatory parameters are recorded in modern jet aircraft FDR:",
+      "options": [
+        "A. More than 88",
+        "B. Exactly 20",
+        "C. Less than 50"
+      ],
+      "correctIndex": 0,
+      "explanation": "The provided answer states that modern jet aircraft FDRs record more than 88 mandatory parameters."
+    },
+    {
+      "id": 85,
+      "question": "The purpose of the compensator capacitance in fuel quantity systems is to compensate for:",
+      "options": [
+        "A. Fuel dielectric changes due to temperature",
+        "B. Engine RPM changes",
+        "C. Cabin pressure changes"
+      ],
+      "correctIndex": 0,
+      "explanation": "The compensator capacitance accounts for changes in fuel dielectric properties caused by temperature variation."
+    },
+    {
+      "id": 86,
+      "question": "Purpose of Bourdon tube:",
+      "options": [
+        "A. Navigation and attitude sensing",
+        "B. Pressure and T° sensor",
+        "C. Fuel quantity computation"
+      ],
+      "correctIndex": 1,
+      "explanation": "Bourdon tubes can be used for pressure sensing and, in certain older instrument systems, temperature indication."
+    },
+    {
+      "id": 87,
+      "question": "EADI full time displayed:",
+      "options": [
+        "A. Attitude",
+        "B. Fuel quantity",
+        "C. Hydraulic pressure"
+      ],
+      "correctIndex": 0,
+      "explanation": "Attitude is continuously displayed on the EADI."
+    },
+    {
+      "id": 88,
+      "question": "Ratiometer compared to Wheatstone bridge is:",
+      "options": [
+        "A. Less stable and accurate",
+        "B. More stable and accurate",
+        "C. Completely mechanical"
+      ],
+      "correctIndex": 1,
+      "explanation": "The provided answer states that the ratiometer is more stable and accurate compared with the Wheatstone bridge arrangement."
+    },
+    {
+      "id": 89,
+      "question": "Cabin air T° sensor is:",
+      "options": [
+        "A. Thermistor element",
+        "B. Bourdon tube",
+        "C. Float switch"
+      ],
+      "correctIndex": 0,
+      "explanation": "A thermistor element is used to sense cabin air temperature."
+    },
+    {
+      "id": 90,
+      "question": "Power supply of ratiometer is:",
+      "options": [
+        "A. AC",
+        "B. DC",
+        "C. Hydraulic"
+      ],
+      "correctIndex": 1,
+      "explanation": "The provided answer identifies direct current as the power supply for the ratiometer."
+    },
+    {
+      "id": 91,
+      "question": "Engine speed measurement is required to measure the rotational speed of:",
+      "options": [
+        "A. Crankshaft or a compressor",
+        "B. Fuel tank",
+        "C. Cabin fan only"
+      ],
+      "correctIndex": 0,
+      "explanation": "Engine speed measurement determines the rotational speed of components such as a reciprocating-engine crankshaft or a turbine-engine compressor."
+    },
+    {
+      "id": 92,
+      "question": "Free air temperature:",
+      "options": [
+        "A. Total air temperature",
+        "B. Static air temperature",
+        "C. Ram temperature"
+      ],
+      "correctIndex": 1,
+      "explanation": "Free air temperature is the static temperature of the undisturbed surrounding air."
+    },
+    {
+      "id": 93,
+      "question": "Oil in velocity pickup is used for:",
+      "options": [
+        "A. Increase spring vibration",
+        "B. Dampen spring action",
+        "C. Generate electrical power"
+      ],
+      "correctIndex": 1,
+      "explanation": "Oil is used to damp the spring action and reduce unwanted oscillation in the velocity pickup."
+    },
+    {
+      "id": 94,
+      "question": "Drive shaft in magnetic drag cup tacho is:",
+      "options": [
+        "A. Rigid",
+        "B. Flexible",
+        "C. Hydraulic"
+      ],
+      "correctIndex": 1,
+      "explanation": "A flexible drive shaft transmits engine rotation to the magnetic drag cup tachometer."
+    },
+    {
+      "id": 95,
+      "question": "Pointer in indicating instrument is kept at a specific point by:",
+      "options": [
+        "A. Hairspring",
+        "B. Permanent magnet only",
+        "C. Thermocouple"
+      ],
+      "correctIndex": 0,
+      "explanation": "The hairspring provides the controlling torque that keeps the pointer at a specific position."
+    },
+    {
+      "id": 96,
+      "question": "Automatic brightness control inputs to DEU are:",
+      "options": [
+        "A. RLS and Bezel light sensor",
+        "B. Fuel flow sensor and thermistor",
+        "C. Oil pressure sensor and AOA sensor"
+      ],
+      "correctIndex": 0,
+      "explanation": "Automatic display brightness information is supplied by the RLS and bezel light sensor."
+    },
+    {
+      "id": 97,
+      "question": "The computer for common display unit is:",
+      "options": [
+        "A. EADI",
+        "B. DEU",
+        "C. EHSI"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Display Electronics Unit (DEU) is the computer associated with processing information for common display units."
+    },
+    {
+      "id": 98,
+      "question": "Drive shaft in magnetic drag cup tacho is used to:",
+      "options": [
+        "A. Connect permanent magnet with the engine",
+        "B. Measure fuel temperature",
+        "C. Control cabin pressure"
+      ],
+      "correctIndex": 0,
+      "explanation": "The drive shaft transmits engine rotation to the permanent magnet inside the magnetic drag cup tachometer."
+    },
+    {
+      "id": 99,
+      "question": "Info provided by EICAS to flight crew includes:",
+      "options": [
+        "A. Primary and secondary engine parameter and alert message and advisory/caution",
+        "B. Cabin entertainment information only",
+        "C. Fuel quantity only"
+      ],
+      "correctIndex": 0,
+      "explanation": "EICAS provides primary and secondary engine parameters together with alerts, advisories, and cautions."
+    },
+    {
+      "id": 100,
+      "question": "The oil quantity indicating system shows the engine oil quantity data on:",
+      "options": [
+        "A. Primary flight display",
+        "B. Secondary engine display",
+        "C. Navigation display"
+      ],
+      "correctIndex": 1,
+      "explanation": "Engine oil quantity is displayed as a secondary engine parameter on the secondary engine display."
+    },
+    {
+      "id": 101,
+      "question": "The engine pressure ratio (EPR) indicator is a direct indication of:",
+      "options": [
+        "A. Engine thrust being produced",
+        "B. Fuel temperature",
+        "C. Cabin pressure"
+      ],
+      "correctIndex": 0,
+      "explanation": "EPR provides a direct indication related to the thrust being produced by a turbine engine."
+    },
+    {
+      "id": 102,
+      "question": "What are the components of an engine oil quantity indication system:",
+      "options": [
+        "A. Thermocouple, Bourdon tube and capsule",
+        "B. Electrical resistance sensor, floating magnet and reed switches",
+        "C. EADI, EHSI and DEU"
+      ],
+      "correctIndex": 1,
+      "explanation": "The system uses an electrical resistance sensor together with a floating magnet and reed switches to sense oil quantity."
+    },
+    {
+      "id": 103,
+      "question": "Which of the following is electrical type T° measuring device:",
+      "options": [
+        "A. Bourdon tube",
+        "B. Wheatstone bridge",
+        "C. Bimetallic thermometer"
+      ],
+      "correctIndex": 1,
+      "explanation": "A Wheatstone bridge is an electrical temperature measuring arrangement using changes in resistance."
+    },
+    {
+      "id": 104,
+      "question": "The engine indication are shown on:",
+      "options": [
+        "A. CDU",
+        "B. EHSI only",
+        "C. ADF indicator"
+      ],
+      "correctIndex": 0,
+      "explanation": "The provided answer identifies the CDU as the display for the engine indications."
+    },
+    {
+      "id": 105,
+      "question": "Which one of the following is NOT the function of an EFIS Control panel:",
+      "options": [
+        "A. Select display modes",
+        "B. Adjust display information",
+        "C. Gives maintenance control for the attitude and heading references"
+      ],
+      "correctIndex": 2,
+      "explanation": "The EFIS control panel controls display presentation and selection; maintenance control of attitude and heading references is not its normal function."
+    },
+    {
+      "id": 106,
+      "question": "Which of the following display units have the aircraft's directional reference:",
+      "options": [
+        "A. EADI",
+        "B. EHSI",
+        "C. EICAS"
+      ],
+      "correctIndex": 1,
+      "explanation": "The EHSI provides aircraft directional and navigation reference information."
+    },
+    {
+      "id": 107,
+      "question": "Which one of the following computer is commonly used for symbol/graphic generation for display units employed on BOEING aircrafts:",
+      "options": [
+        "A. DEU",
+        "B. FDR",
+        "C. EHSI"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Display Electronics Unit (DEU) is commonly used for symbol and graphic generation for Boeing display units."
+    },
+    {
+      "id": 108,
+      "question": "How many display units are installed commonly on large commercially operated aircraft with exception of some turboprop aircraft:",
+      "options": [
+        "A. 4",
+        "B. 6",
+        "C. 8"
+      ],
+      "correctIndex": 1,
+      "explanation": "Large commercial aircraft commonly have six display units, although some turboprop aircraft differ."
+    },
+    {
+      "id": 109,
+      "question": "What does the RED color indicate on the weather radar indication of the ND:",
+      "options": [
+        "A. Light precipitation",
+        "B. Moderate turbulence",
+        "C. Severe storm"
+      ],
+      "correctIndex": 2,
+      "explanation": "Red on the weather radar display indicates severe precipitation or storm activity."
+    },
+    {
+      "id": 110,
+      "question": "Which of the following indicates pitch & roll info:",
+      "options": [
+        "A. EADI",
+        "B. EHSI",
+        "C. EICAS"
+      ],
+      "correctIndex": 0,
+      "explanation": "The EADI provides aircraft attitude information including pitch and roll."
+    },
+    {
+      "id": 111,
+      "question": "Additional System Monitoring / Status Parameter:",
+      "options": [
+        "A. N1 and N2",
+        "B. Door, hydraulic",
+        "C. EGT and oil temperature"
+      ],
+      "correctIndex": 1,
+      "explanation": "Door and hydraulic indications are examples of additional system monitoring and status parameters."
+    },
+    {
+      "id": 112,
+      "question": "System Function Check Parameter:",
+      "options": [
+        "A. Primary and secondary engine parameter",
+        "B. Door status only",
+        "C. Cabin lighting only"
+      ],
+      "correctIndex": 0,
+      "explanation": "Primary and secondary engine parameters can be used to check system function and monitor engine operation."
+    }
+  ]
+}

@@ -1,0 +1,1168 @@
+{
+  "id": "avo-7-part-1",
+  "title": "Avo-7-part-1",
+  "module": "AVO-7",
+  "course": "avionics",
+  "category": "part",
+  "description": "Avionics instrument systems, synchro systems, pressure sensing, aircraft instrument indications, displays, mounting, illumination, and airworthiness requirements.",
+  "durationMinutes": 150,
+  "totalQuestions": 105,
+  "color": "purple",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which of the following is used to move the indicator pointer of a synchro system?",
+      "options": [
+        "A. Stator of the transmitter",
+        "B. Rotor of the receiver",
+        "C. Exciter winding"
+      ],
+      "correctIndex": 1,
+      "explanation": "The receiver rotor converts the received electrical signals into mechanical movement to move the indicator pointer."
+    },
+    {
+      "id": 2,
+      "question": "Is a type of AC synchro system:",
+      "options": [
+        "A. Torque",
+        "B. Desynn",
+        "C. Basic DC"
+      ],
+      "correctIndex": 0,
+      "explanation": "Torque synchro systems are a type of AC synchro system used to transmit angular position."
+    },
+    {
+      "id": 3,
+      "question": "Desynn synchro system is a:",
+      "options": [
+        "A. AC",
+        "B. Hydraulic",
+        "C. DC"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Desynn synchro system is a DC type of remote indication system."
+    },
+    {
+      "id": 4,
+      "question": "The most important instrument used by the pilot to perceive the health of an engine:",
+      "options": [
+        "A. Oil pressure indication",
+        "B. Fuel quantity indication",
+        "C. Cabin pressure indication"
+      ],
+      "correctIndex": 0,
+      "explanation": "Oil pressure indication provides an important indication of engine lubrication and operating condition."
+    },
+    {
+      "id": 5,
+      "question": "Which of the elastic pressure sensing elements is used for air data system:",
+      "options": [
+        "A. Bourdon tube",
+        "B. Capsule",
+        "C. Bellows"
+      ],
+      "correctIndex": 1,
+      "explanation": "A capsule is an elastic pressure-sensing element commonly used in air data instruments."
+    },
+    {
+      "id": 6,
+      "question": "Two wires used in a simple single-phase synchro system are for:",
+      "options": [
+        "A. Receiver rotor",
+        "B. Control winding",
+        "C. Exciter winding"
+      ],
+      "correctIndex": 2,
+      "explanation": "The two wires in a simple single-phase synchro system supply the exciter winding."
+    },
+    {
+      "id": 7,
+      "question": "Direct indication system is used on:",
+      "options": [
+        "A. Light aircraft",
+        "B. Large transport aircraft",
+        "C. High-speed military aircraft"
+      ],
+      "correctIndex": 0,
+      "explanation": "Direct indication systems are commonly used on light aircraft because the sensing unit can be connected directly to the instrument."
+    },
+    {
+      "id": 8,
+      "question": "Bourdon tube's movable end straightens when:",
+      "options": [
+        "A. Temperature decreases",
+        "B. Increase in pressure",
+        "C. Pressure becomes zero"
+      ],
+      "correctIndex": 1,
+      "explanation": "As pressure increases inside a Bourdon tube, its curved shape tends to straighten, producing movement for indication."
+    },
+    {
+      "id": 9,
+      "question": "Bourdon tube's open end that received the source of pressure is:",
+      "options": [
+        "A. Movable end",
+        "B. Free end",
+        "C. Fixed end"
+      ],
+      "correctIndex": 2,
+      "explanation": "The pressure is introduced through the fixed end of the Bourdon tube, while the other end is free to move."
+    },
+    {
+      "id": 10,
+      "question": "Indication system that involves data being transmitted electrically to the indication element:",
+      "options": [
+        "A. Direct sensing",
+        "B. Remote sensing and indication",
+        "C. Mechanical sensing"
+      ],
+      "correctIndex": 1,
+      "explanation": "Remote sensing and indication transmits information electrically from the sensing location to the indicator."
+    },
+    {
+      "id": 11,
+      "question": "Which one is true about the first aircraft:",
+      "options": [
+        "A. Had a pressurized cabin",
+        "B. Had a glass cockpit",
+        "C. Has no cockpit--"
+      ],
+      "correctIndex": 2,
+      "explanation": "The earliest aircraft designs did not have the conventional enclosed cockpit found in modern aircraft."
+    },
+    {
+      "id": 12,
+      "question": "1st procedure in maintenance:",
+      "options": [
+        "A. Depressurization",
+        "B. Calibration",
+        "C. Lubrication"
+      ],
+      "correctIndex": 0,
+      "explanation": "Depressurization is performed first where applicable to remove stored pressure and make maintenance safer."
+    },
+    {
+      "id": 13,
+      "question": "Horizontal situation indicator:",
+      "options": [
+        "A. Engine performance information",
+        "B. Directional info for navigation",
+        "C. Cabin environmental information"
+      ],
+      "correctIndex": 1,
+      "explanation": "The horizontal situation indicator provides directional and navigation information to the pilot."
+    },
+    {
+      "id": 14,
+      "question": "Direct pressure reading for light single engine aircraft measuring:",
+      "options": [
+        "A. Coupling--",
+        "B. Electrical resistance",
+        "C. Gyroscopic movement"
+      ],
+      "correctIndex": 0,
+      "explanation": "The provided answer is Coupling--, referring to the stated coupling element associated with the indication system."
+    },
+    {
+      "id": 15,
+      "question": "Serves as a controlling device against which deflecting forces are balanced:",
+      "options": [
+        "A. Rotor",
+        "B. Hairspring",
+        "C. Diaphragm"
+      ],
+      "correctIndex": 1,
+      "explanation": "A hairspring provides controlling force that balances the deflecting force and helps return the indicating mechanism."
+    },
+    {
+      "id": 16,
+      "question": "Which of the following instruments is found on the Wright Flyer:",
+      "options": [
+        "A. Engine tachometer, anemometer, stopwatch",
+        "B. Altimeter, VSI, gyro horizon",
+        "C. HSI, GPS, VOR"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Wright Flyer used basic instruments including an engine tachometer, anemometer, and stopwatch."
+    },
+    {
+      "id": 17,
+      "question": "Why were development and subsequent operation established with requirements and standards:",
+      "options": [
+        "A. To eliminate all aircraft instruments",
+        "B. To increase cabin size",
+        "C. Environmental conditions require conformity of designs"
+      ],
+      "correctIndex": 2,
+      "explanation": "Aircraft instruments must operate reliably under demanding environmental conditions, requiring designs to conform to established requirements and standards."
+    },
+    {
+      "id": 18,
+      "question": "Which type of instruments are used to control the aircraft's flight attitude:",
+      "options": [
+        "A. Powerplant instruments",
+        "B. Flight instruments",
+        "C. Fuel instruments"
+      ],
+      "correctIndex": 1,
+      "explanation": "Flight instruments provide the information needed to control and monitor aircraft attitude and flight."
+    },
+    {
+      "id": 19,
+      "question": "The basis of synchro systems operation is:",
+      "options": [
+        "A. Electricity can be used to create magnetic fields",
+        "B. Hydraulic pressure creates electrical current",
+        "C. Heat creates mechanical torque"
+      ],
+      "correctIndex": 0,
+      "explanation": "Synchro operation is based on the relationship between electrical currents and magnetic fields."
+    },
+    {
+      "id": 20,
+      "question": "Which of the following is a DC synchro system:",
+      "options": [
+        "A. Torque",
+        "B. Differential",
+        "C. Basic"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Basic synchro system is identified as a DC synchro system in the provided material."
+    },
+    {
+      "id": 21,
+      "question": "Which type of displays follow the square-law or logarithmic law:",
+      "options": [
+        "A. Linear",
+        "B. Non linear",
+        "C. Digital"
+      ],
+      "correctIndex": 1,
+      "explanation": "Non-linear displays do not have a constant relationship between input and displayed value and may follow square-law or logarithmic characteristics."
+    },
+    {
+      "id": 22,
+      "question": "The Bourdon tube pointer is attached to:",
+      "options": [
+        "A. The movable part",
+        "B. The fixed pressure port",
+        "C. The exciter coil"
+      ],
+      "correctIndex": 0,
+      "explanation": "The pointer mechanism is connected to the movable portion of the Bourdon tube so its movement can be indicated."
+    },
+    {
+      "id": 23,
+      "question": "Where should power plant instrument be located:",
+      "options": [
+        "A. On the rear fuselage",
+        "B. Center of forward instrument panel visible to both pilots",
+        "C. Inside the engine compartment"
+      ],
+      "correctIndex": 1,
+      "explanation": "Powerplant instruments should be positioned where both pilots can readily see important engine indications."
+    },
+    {
+      "id": 24,
+      "question": "Why is remote indication system preferred for fuel pressure indication system:",
+      "options": [
+        "A. It makes the fuel pressure higher",
+        "B. It removes the need for a sensor",
+        "C. Not safe to run a fuel line into cockpit--"
+      ],
+      "correctIndex": 2,
+      "explanation": "Remote indication avoids routing a pressurized fuel line into the cockpit, reducing the risk of fuel leakage and fire."
+    },
+    {
+      "id": 25,
+      "question": "How many flight instruments:",
+      "options": [
+        "A. 06",
+        "B. 04",
+        "C. 08"
+      ],
+      "correctIndex": 0,
+      "explanation": "The basic flight instrument grouping consists of six instruments."
+    },
+    {
+      "id": 26,
+      "question": "Commonly pneumatic pressure sensing system:",
+      "options": [
+        "A. Directly reading",
+        "B. Remotely reading",
+        "C. Electronically isolated"
+      ],
+      "correctIndex": 1,
+      "explanation": "Pneumatic pressure sensing systems commonly use remotely reading arrangements to transmit pressure information to the indicator."
+    },
+    {
+      "id": 27,
+      "question": "Part of T-shape indicator:",
+      "options": [
+        "A. Oil pressure and temperature",
+        "B. Fuel quantity and pressure",
+        "C. Airspeed and Altimeter indicator"
+      ],
+      "correctIndex": 2,
+      "explanation": "The T-shaped basic flight instrument arrangement includes the airspeed indicator and altimeter among its main elements."
+    },
+    {
+      "id": 28,
+      "question": "Risk of direct reading of fuel:",
+      "options": [
+        "A. Leakage in cockpit or cabin",
+        "B. Excessive electrical resistance",
+        "C. Loss of gyroscopic rigidity"
+      ],
+      "correctIndex": 0,
+      "explanation": "Direct fuel pressure or fuel-system indications can require fuel lines in the occupied area, creating a leakage hazard."
+    },
+    {
+      "id": 29,
+      "question": "Synchro described:",
+      "options": [
+        "A. Pressure regulating system",
+        "B. Position measuring & transformation",
+        "C. Temperature compensation system"
+      ],
+      "correctIndex": 1,
+      "explanation": "A synchro is an electromechanical system used to measure, transmit, and transform angular position information."
+    },
+    {
+      "id": 30,
+      "question": "Powered by turbine engine:",
+      "options": [
+        "A. Manifold pressure",
+        "B. Torque",
+        "C. EPR"
+      ],
+      "correctIndex": 2,
+      "explanation": "Engine Pressure Ratio (EPR) is a parameter used as an indication of power or thrust in turbine engines."
+    },
+    {
+      "id": 31,
+      "question": "Coefficient of expansion of brass when exposed to ΔT:",
+      "options": [
+        "A. High linear expansion",
+        "B. Low thermal expansion",
+        "C. Zero expansion"
+      ],
+      "correctIndex": 0,
+      "explanation": "Brass has a relatively high coefficient of linear thermal expansion, so its dimensions change noticeably with temperature."
+    },
+    {
+      "id": 32,
+      "question": "Describe instrument mechanism:",
+      "options": [
+        "A. A single instrument always has one element",
+        "B. Dual instrument can refer to 2 or 3 elements in one unit",
+        "C. Instrument mechanisms contain only electrical elements"
+      ],
+      "correctIndex": 1,
+      "explanation": "A dual instrument can combine two or sometimes three instrument elements into one physical unit."
+    },
+    {
+      "id": 33,
+      "question": "Can possibly affect if cabin pressure enter the case:",
+      "options": [
+        "A. Instruments using only hydraulic pressure",
+        "B. Instruments using electrical zero",
+        "C. Instrument using external atmospheric pressure as datum"
+      ],
+      "correctIndex": 2,
+      "explanation": "An instrument that uses external atmospheric pressure as a reference can be affected if cabin pressure enters its case."
+    },
+    {
+      "id": 34,
+      "question": "Belongs to hair spring:",
+      "options": [
+        "A. Indicating element",
+        "B. Detecting element",
+        "C. Exciter element"
+      ],
+      "correctIndex": 0,
+      "explanation": "The hairspring belongs to the indicating mechanism and provides controlling force."
+    },
+    {
+      "id": 35,
+      "question": "Correct about torque synchro:",
+      "options": [
+        "A. Receiver rotor is fixed",
+        "B. Receiver rotor free to rotate",
+        "C. Transmitter rotor cannot move"
+      ],
+      "correctIndex": 1,
+      "explanation": "In a torque synchro system, the receiver rotor is free to rotate and follows the angular position transmitted by the transmitter."
+    },
+    {
+      "id": 36,
+      "question": "Made of two diaphragms:",
+      "options": [
+        "A. Bourdon tube",
+        "B. Bellows",
+        "C. Capsule"
+      ],
+      "correctIndex": 2,
+      "explanation": "A capsule is formed by joining two diaphragms together around their edges."
+    },
+    {
+      "id": 37,
+      "question": "Pressure minus absolute zero pressure:",
+      "options": [
+        "A. Absolute pressure--",
+        "B. Differential pressure",
+        "C. Gauge pressure"
+      ],
+      "correctIndex": 0,
+      "explanation": "Absolute pressure is referenced to absolute zero pressure, or a perfect vacuum."
+    },
+    {
+      "id": 38,
+      "question": "Instrument mechanism system that combines all four elements in one case:",
+      "options": [
+        "A. Remote sensing instrument system",
+        "B. Direct sensing instrument system",
+        "C. Electrical transmission system"
+      ],
+      "correctIndex": 1,
+      "explanation": "A direct sensing instrument system combines the detecting, measuring, coupling, and indicating elements in one case."
+    },
+    {
+      "id": 39,
+      "question": "Correct about Bourdon tube:",
+      "options": [
+        "A. For low pressures, tube is always rigid",
+        "B. It cannot measure pressure",
+        "C. For high pressures, tube designed stiff"
+      ],
+      "correctIndex": 2,
+      "explanation": "Bourdon tubes used for high-pressure measurement are designed with sufficient stiffness to withstand the pressure."
+    },
+    {
+      "id": 40,
+      "question": "At what cabin altitude will a cabin altitude warning switch close:",
+      "options": [
+        "A. 10,000 ft MSL",
+        "B. 5,000 ft MSL",
+        "C. 14,000 ft MSL"
+      ],
+      "correctIndex": 0,
+      "explanation": "The provided answer is 10,000 ft MSL, the specified altitude at which the cabin altitude warning switch closes."
+    },
+    {
+      "id": 41,
+      "question": "Sensor most suited for differential pressure measurement:",
+      "options": [
+        "A. Bourdon tube",
+        "B. Capsule",
+        "C. Be lows"
+      ],
+      "correctIndex": 2,
+      "explanation": "The provided answer is Be lows, referring to the bellows-type pressure-sensing element used for differential pressure measurement."
+    },
+    {
+      "id": 42,
+      "question": "Correct statement:",
+      "options": [
+        "A. Higher fuel-air mixture pressure → less power",
+        "B. Higher fuel-air mixture pressure → more power",
+        "C. Fuel-air mixture pressure has no effect on power"
+      ],
+      "correctIndex": 1,
+      "explanation": "In a reciprocating engine, increased mixture pressure entering the cylinders can increase the amount of charge and therefore engine power."
+    },
+    {
+      "id": 43,
+      "question": "Pressure sensor for hydraulic pressure indication system:",
+      "options": [
+        "A. Capsule",
+        "B. Bellows",
+        "C. Bourdon tube"
+      ],
+      "correctIndex": 2,
+      "explanation": "Bourdon tubes are commonly used to sense and indicate hydraulic pressure."
+    },
+    {
+      "id": 44,
+      "question": "Instrument with flange mounting type:",
+      "options": [
+        "A. Flange mounting",
+        "B. Clamp mounting",
+        "C. Rail mounting"
+      ],
+      "correctIndex": 0,
+      "explanation": "Flange mounting is a method in which the instrument is secured to the panel using its flange."
+    },
+    {
+      "id": 45,
+      "question": "Instruments included in basic six grouping:",
+      "options": [
+        "A. Fuel pressure indicator, oil temperature",
+        "B. Vertical speed indicator, gyro horizon",
+        "C. EPR indicator, torque indicator"
+      ],
+      "correctIndex": 1,
+      "explanation": "The vertical speed indicator and gyro horizon are among the six basic flight instruments."
+    },
+    {
+      "id": 46,
+      "question": "How does stator of TX synchro receive voltage:",
+      "options": [
+        "A. Direct hydraulic pressure",
+        "B. Mechanical gears",
+        "C. Magnetic coupling with rotor"
+      ],
+      "correctIndex": 2,
+      "explanation": "The transmitter stator receives induced voltage through magnetic coupling between the rotor magnetic field and stator windings."
+    },
+    {
+      "id": 47,
+      "question": "Methods of instrument mounting on panel:",
+      "options": [
+        "A. Flange and clamp mounting",
+        "B. Rivet and weld mounting",
+        "C. Adhesive and magnetic mounting"
+      ],
+      "correctIndex": 0,
+      "explanation": "The two common methods of mounting instruments on a panel are flange mounting and clamp mounting."
+    },
+    {
+      "id": 48,
+      "question": "Instruments contributing info to guide aircraft along course:",
+      "options": [
+        "A. Fuel pressure indicator",
+        "B. Horizontal situation display--",
+        "C. Oil temperature indicator"
+      ],
+      "correctIndex": 1,
+      "explanation": "The horizontal situation display provides navigation information used to guide the aircraft along its intended course."
+    },
+    {
+      "id": 49,
+      "question": "Manifold pressure is:",
+      "options": [
+        "A. Gauge pressure",
+        "B. Differential pressure",
+        "C. Absolute pressure"
+      ],
+      "correctIndex": 2,
+      "explanation": "Manifold pressure is measured as absolute pressure, referenced to a perfect vacuum."
+    },
+    {
+      "id": 50,
+      "question": "Standard for requirements of instruments:",
+      "options": [
+        "A. Environmental conformity and design",
+        "B. Fuel quantity only",
+        "C. Cabin temperature only"
+      ],
+      "correctIndex": 0,
+      "explanation": "Instrument requirements and standards include environmental conformity and appropriate design to ensure reliable operation."
+    },
+    {
+      "id": 51,
+      "question": "High-range, long-scale displays example:",
+      "options": [
+        "A. Oil pressure indicator",
+        "B. Altimeter",
+        "C. Fuel pressure gauge"
+      ],
+      "correctIndex": 1,
+      "explanation": "An altimeter is an example of a high-range, long-scale display because it covers a large range of altitude values."
+    },
+    {
+      "id": 52,
+      "question": "Bourdon tube connected to hose acts as:",
+      "options": [
+        "A. Electrical transmitter",
+        "B. Gyroscopic element",
+        "C. Detecting and measuring"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Bourdon tube detects pressure and its resulting movement provides the measuring function."
+    },
+    {
+      "id": 53,
+      "question": "Take-off & precaution arc:",
+      "options": [
+        "A. Yellow arc",
+        "B. White arc",
+        "C. Green arc"
+      ],
+      "correctIndex": 0,
+      "explanation": "The yellow arc is the caution or precaution range on an aircraft instrument."
+    },
+    {
+      "id": 54,
+      "question": "Parameter instrument grouping specific powerplant:",
+      "options": [
+        "A. Only aircraft color",
+        "B. Both (Type/Powerplant & Size of aircraft)",
+        "C. Only aircraft registration"
+      ],
+      "correctIndex": 1,
+      "explanation": "Powerplant instrument grouping depends on the type of powerplant and the size/type of aircraft."
+    },
+    {
+      "id": 55,
+      "question": "Paralax error occurrence depends on:",
+      "options": [
+        "A. Temperature",
+        "B. Viewing angle",
+        "C. Engine RPM"
+      ],
+      "correctIndex": 1,
+      "explanation": "Parallax error occurs when the instrument is viewed from an angle rather than directly in line with the indication."
+    },
+    {
+      "id": 56,
+      "question": "In synchro, all transmitters located at:",
+      "options": [
+        "A. Source of measurement",
+        "B. Cockpit display",
+        "C. Aircraft tail"
+      ],
+      "correctIndex": 0,
+      "explanation": "The synchro transmitter is located at the source of the measurement so it can sense and transmit the position."
+    },
+    {
+      "id": 57,
+      "question": "Oxygen pressure system transducer:",
+      "options": [
+        "A. Bourdon tube",
+        "B. Capsule",
+        "C. Solid state device"
+      ],
+      "correctIndex": 2,
+      "explanation": "A solid state device can be used as a transducer to convert oxygen pressure into an electrical signal."
+    },
+    {
+      "id": 58,
+      "question": "In reciprocating engine pressure interpreted as power:",
+      "options": [
+        "A. Cabin pressure",
+        "B. Torque pressure",
+        "C. Static pressure"
+      ],
+      "correctIndex": 1,
+      "explanation": "Torque pressure is the provided parameter associated with interpreting engine power in the reciprocating engine context."
+    },
+    {
+      "id": 59,
+      "question": "Engine oil pressure detected by:",
+      "options": [
+        "A. Bourdon tube",
+        "B. Capsule",
+        "C. Bimetal strip"
+      ],
+      "correctIndex": 0,
+      "explanation": "A Bourdon tube is commonly used to sense engine oil pressure and convert pressure into mechanical movement."
+    },
+    {
+      "id": 60,
+      "question": "Gyrohorizon:",
+      "options": [
+        "A. Yaw and altitude",
+        "B. Speed and temperature",
+        "C. Pitch and roll--"
+      ],
+      "correctIndex": 2,
+      "explanation": "The gyrohorizon provides an indication of aircraft pitch and roll attitude."
+    },
+    {
+      "id": 61,
+      "question": "Remote indicating system using AC:",
+      "options": [
+        "A. Autosyn, Magnesyn",
+        "B. Desynn, DC synchro",
+        "C. Thermocouple, RTD"
+      ],
+      "correctIndex": 0,
+      "explanation": "Autosyn and Magnesyn are AC remote indicating systems used to transmit indications electrically."
+    },
+    {
+      "id": 62,
+      "question": "Flight heading & altitude instruments located on panels:",
+      "options": [
+        "A. P2 and P4",
+        "B. P1 and P3",
+        "C. P5 and P6"
+      ],
+      "correctIndex": 1,
+      "explanation": "The provided answer identifies panels P1 and P3 as the locations for flight heading and altitude instruments."
+    },
+    {
+      "id": 63,
+      "question": "Glare shield panel:",
+      "options": [
+        "A. P1",
+        "B. P3",
+        "C. P5"
+      ],
+      "correctIndex": 2,
+      "explanation": "The glare shield panel is identified as P5 in the provided aircraft panel arrangement."
+    },
+    {
+      "id": 64,
+      "question": "Sloping main instrument panel forward angle:",
+      "options": [
+        "A. 15°",
+        "B. 30°",
+        "C. 45°"
+      ],
+      "correctIndex": 0,
+      "explanation": "The main instrument panel slopes forward by 15 degrees as specified in the provided material."
+    },
+    {
+      "id": 65,
+      "question": "Elastic pressure measuring unit for low pressure:",
+      "options": [
+        "A. Bourdon tube",
+        "B. Capsule",
+        "C. Solid state sensor"
+      ],
+      "correctIndex": 1,
+      "explanation": "A capsule is suitable for measuring relatively low pressures because its flexible diaphragms can respond to small pressure changes."
+    },
+    {
+      "id": 66,
+      "question": "Sector gear activated by:",
+      "options": [
+        "A. Exciter winding",
+        "B. Hairspring",
+        "C. Measuring and coupling elements"
+      ],
+      "correctIndex": 2,
+      "explanation": "The sector gear receives movement from the measuring and coupling elements to operate the indication mechanism."
+    },
+    {
+      "id": 67,
+      "question": "Arrow on synchro schematic:",
+      "options": [
+        "A. Direction of current flow",
+        "B. Direction of pressure flow",
+        "C. Direction of rotor rotation only"
+      ],
+      "correctIndex": 0,
+      "explanation": "The arrow shown on the synchro schematic indicates the direction of current flow."
+    },
+    {
+      "id": 68,
+      "question": "Movement of indicating element proportional to:",
+      "options": [
+        "A. Pressure temperature",
+        "B. Lever length",
+        "C. Rotor resistance"
+      ],
+      "correctIndex": 1,
+      "explanation": "The movement of the indicating element depends on the mechanical leverage, including the lever length."
+    },
+    {
+      "id": 69,
+      "question": "Gyro-horizon display:",
+      "options": [
+        "A. Direct display of pitch, bank, roll",
+        "B. Display of fuel pressure only",
+        "C. Display of engine RPM only"
+      ],
+      "correctIndex": 0,
+      "explanation": "The gyro-horizon directly displays aircraft attitude, particularly pitch and bank/roll."
+    },
+    {
+      "id": 70,
+      "question": "Engine instruments located at center of:",
+      "options": [
+        "A. Glare shield",
+        "B. Main panel",
+        "C. Rear fuselage"
+      ],
+      "correctIndex": 1,
+      "explanation": "Engine instruments are positioned at the center of the main instrument panel for easy visibility."
+    },
+    {
+      "id": 71,
+      "question": "Receiver of synchro is:",
+      "options": [
+        "A. Transformer",
+        "B. Generator",
+        "C. Motor"
+      ],
+      "correctIndex": 2,
+      "explanation": "The synchro receiver operates like a motor, converting electrical signals into mechanical angular movement."
+    },
+    {
+      "id": 72,
+      "question": "Engine no.1 RPM indicator located at left of:",
+      "options": [
+        "A. Engine no.2 RPM indicator--",
+        "B. Oil pressure indicator",
+        "C. Fuel quantity indicator"
+      ],
+      "correctIndex": 0,
+      "explanation": "The engine No. 1 RPM indicator is positioned to the left of the engine No. 2 RPM indicator."
+    },
+    {
+      "id": 73,
+      "question": "Illumination using two cover glasses:",
+      "options": [
+        "A. Edge lighting",
+        "B. Wedge type",
+        "C. Flood lighting"
+      ],
+      "correctIndex": 1,
+      "explanation": "The wedge type illumination arrangement uses two cover glasses to distribute light."
+    },
+    {
+      "id": 74,
+      "question": "Requirement of instrument illumination system:",
+      "options": [
+        "A. Maximum brightness at all times",
+        "B. No adjustment required",
+        "C. Sufficient but not glaring"
+      ],
+      "correctIndex": 2,
+      "explanation": "Instrument illumination must provide sufficient visibility without producing glare that could interfere with the pilot's vision."
+    },
+    {
+      "id": 75,
+      "question": "First successful airplanes flown by pioneers:",
+      "options": [
+        "A. Stick and string",
+        "B. Hydraulic control",
+        "C. Fly-by-wire"
+      ],
+      "correctIndex": 0,
+      "explanation": "Early successful aircraft used simple control arrangements such as sticks and strings."
+    },
+    {
+      "id": 76,
+      "question": "Airworthiness requirements and standards established by:",
+      "options": [
+        "A. Aircraft owner",
+        "B. Country of design origin",
+        "C. Engine manufacturer only"
+      ],
+      "correctIndex": 1,
+      "explanation": "Airworthiness requirements and standards are established by the appropriate authority of the country of design origin."
+    },
+    {
+      "id": 77,
+      "question": "Turbo prop engine power indicator:",
+      "options": [
+        "A. EPR indicator",
+        "B. Manifold pressure",
+        "C. Torque indicator"
+      ],
+      "correctIndex": 2,
+      "explanation": "Torque is a primary indication of power produced by a turboprop engine."
+    },
+    {
+      "id": 78,
+      "question": "Measurement of one unknown pressure vs another:",
+      "options": [
+        "A. Differential pressure",
+        "B. Absolute pressure",
+        "C. Static pressure"
+      ],
+      "correctIndex": 0,
+      "explanation": "Differential pressure is the difference between two pressures and is used when one pressure is compared with another."
+    },
+    {
+      "id": 79,
+      "question": "Bourdon tube connected to hose acts as:",
+      "options": [
+        "A. Remote sensing",
+        "B. Direct sensing",
+        "C. Electrical amplification"
+      ],
+      "correctIndex": 1,
+      "explanation": "When the Bourdon tube is directly connected to the pressure source through a hose, it forms a direct sensing arrangement."
+    },
+    {
+      "id": 80,
+      "question": "Elastic pressure sensing element for oxygen pressure indication:",
+      "options": [
+        "A. Capsule",
+        "B. Bellows",
+        "C. Bourdon tube"
+      ],
+      "correctIndex": 2,
+      "explanation": "A Bourdon tube is an elastic pressure-sensing element suitable for oxygen pressure indication."
+    },
+    {
+      "id": 81,
+      "question": "Electrical zero of torque synchro system:",
+      "options": [
+        "A. 0°",
+        "B. 45°",
+        "C. 90°"
+      ],
+      "correctIndex": 0,
+      "explanation": "The electrical zero position of the torque synchro system is 0 degrees."
+    },
+    {
+      "id": 82,
+      "question": "Electrical zero of control synchro system:",
+      "options": [
+        "A. 0°",
+        "B. 90°",
+        "C. 180°"
+      ],
+      "correctIndex": 1,
+      "explanation": "The electrical zero position of a control synchro system is 90 degrees."
+    },
+    {
+      "id": 83,
+      "question": "T° compensation welding two metals strip:",
+      "options": [
+        "A. Bourdon tube method",
+        "B. Capsule method",
+        "C. Bimetal strip method--"
+      ],
+      "correctIndex": 2,
+      "explanation": "A bimetal strip consists of two different metals joined together and uses their different thermal expansion rates for temperature compensation."
+    },
+    {
+      "id": 84,
+      "question": "Screws used to mount instruments:",
+      "options": [
+        "A. Ferrous",
+        "B. Non ferrous",
+        "C. Plastic only"
+      ],
+      "correctIndex": 1,
+      "explanation": "Non-ferrous screws are used for instrument mounting to reduce magnetic effects and corrosion concerns."
+    },
+    {
+      "id": 85,
+      "question": "Engine type with thrust indicator:",
+      "options": [
+        "A. Turbojet",
+        "B. Reciprocating",
+        "C. Turboprop only"
+      ],
+      "correctIndex": 0,
+      "explanation": "Turbojet engines commonly use thrust-related indications such as engine pressure ratio to monitor engine performance."
+    },
+    {
+      "id": 86,
+      "question": "Drives transmitter synchro rotor shaft:",
+      "options": [
+        "A. Receiver motor",
+        "B. Mechanism sending info",
+        "C. Indicator pointer"
+      ],
+      "correctIndex": 1,
+      "explanation": "The mechanism sending information drives the transmitter synchro rotor shaft according to the measured position."
+    },
+    {
+      "id": 87,
+      "question": "Bevels, pinions gear in synchro represent:",
+      "options": [
+        "A. Detecting element",
+        "B. Indicating element",
+        "C. Coupling element"
+      ],
+      "correctIndex": 2,
+      "explanation": "Gears such as bevel gears and pinions form part of the coupling element that transmits and modifies mechanical movement."
+    },
+    {
+      "id": 88,
+      "question": "Calibration of square law instruments based on:",
+      "options": [
+        "A. Airspeed",
+        "B. Altitude",
+        "C. Engine temperature"
+      ],
+      "correctIndex": 0,
+      "explanation": "Airspeed-related instruments use the square-law relationship between dynamic pressure and airspeed for calibration."
+    },
+    {
+      "id": 89,
+      "question": "Purpose of sloping main instrument panel forward:",
+      "options": [
+        "A. Increase engine power",
+        "B. Reduce para lax error",
+        "C. Increase fuel pressure"
+      ],
+      "correctIndex": 1,
+      "explanation": "Sloping the main instrument panel helps reduce parallax error by improving the pilot's viewing angle."
+    },
+    {
+      "id": 90,
+      "question": "Bourdon tube connected with hose acts as:",
+      "options": [
+        "A. Electrical sensing",
+        "B. Remote indication only",
+        "C. Detecting and measuring"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Bourdon tube detects pressure and its mechanical movement provides the measuring function."
+    },
+    {
+      "id": 91,
+      "question": "Carburetor intake air temperature indicator:",
+      "options": [
+        "A. Powerplant instrument",
+        "B. Flight instrument",
+        "C. Navigation instrument"
+      ],
+      "correctIndex": 0,
+      "explanation": "Carburetor intake air temperature is an engine operating parameter, so its indicator is a powerplant instrument."
+    },
+    {
+      "id": 92,
+      "question": "Display governed by calibration logarithmic law:",
+      "options": [
+        "A. Fuel pressure",
+        "B. Rate of altitude change",
+        "C. Oil temperature"
+      ],
+      "correctIndex": 1,
+      "explanation": "The rate of altitude change indication is identified as following a logarithmic calibration law in the provided material."
+    },
+    {
+      "id": 93,
+      "question": "International airworthiness laid down by:",
+      "options": [
+        "A. FAA",
+        "B. EASA",
+        "C. ICAO"
+      ],
+      "correctIndex": 2,
+      "explanation": "ICAO establishes international standards and recommended practices related to aviation and airworthiness."
+    },
+    {
+      "id": 94,
+      "question": "Where displacements are magnified and transmitted:",
+      "options": [
+        "A. Coupling element",
+        "B. Detecting element",
+        "C. Exciter winding"
+      ],
+      "correctIndex": 0,
+      "explanation": "The coupling element transmits mechanical displacement and can magnify the movement before it reaches the indicating element."
+    },
+    {
+      "id": 95,
+      "question": "Mechanism producing anti-backlash:",
+      "options": [
+        "A. Capsule",
+        "B. Hairspring--",
+        "C. Bourdon tube"
+      ],
+      "correctIndex": 1,
+      "explanation": "The hairspring arrangement can provide an anti-backlash effect by maintaining tension in the mechanism."
+    },
+    {
+      "id": 96,
+      "question": "Airspeed range for flap extension indicated by:",
+      "options": [
+        "A. White arc",
+        "B. Green arc",
+        "C. Yellow arc"
+      ],
+      "correctIndex": 0,
+      "explanation": "The white arc on an airspeed indicator represents the flap operating range."
+    },
+    {
+      "id": 97,
+      "question": "Two major components of a synchro:",
+      "options": [
+        "A. Rotor and gearbox",
+        "B. Transmitter & receiver",
+        "C. Stator and hairspring"
+      ],
+      "correctIndex": 1,
+      "explanation": "A basic synchro system consists primarily of a transmitter and receiver."
+    },
+    {
+      "id": 98,
+      "question": "Instrument mechanism system with elements in separate location:",
+      "options": [
+        "A. Direct sensing instrument system",
+        "B. Mechanical instrument system",
+        "C. Remote sensing instrument system"
+      ],
+      "correctIndex": 2,
+      "explanation": "In a remote sensing instrument system, the sensing and indicating elements are located separately and information is transmitted between them."
+    },
+    {
+      "id": 99,
+      "question": "AC synchro system example:",
+      "options": [
+        "A. Differential synchro",
+        "B. Desynn",
+        "C. Basic DC system"
+      ],
+      "correctIndex": 0,
+      "explanation": "A differential synchro is an example of an AC synchro system."
+    },
+    {
+      "id": 100,
+      "question": "Instrument element sensing changes in physical quantity:",
+      "options": [
+        "A. Coupling element",
+        "B. Detecting element",
+        "C. Indicating element"
+      ],
+      "correctIndex": 1,
+      "explanation": "The detecting element senses changes in the physical quantity being measured."
+    },
+    {
+      "id": 101,
+      "question": "Instruments included in basic six grouping:",
+      "options": [
+        "A. Altimeter, Course Indicator",
+        "B. Oil pressure, fuel pressure",
+        "C. EPR, torque"
+      ],
+      "correctIndex": 0,
+      "explanation": "The altimeter and course indicator are included among the basic flight instrument grouping."
+    },
+    {
+      "id": 102,
+      "question": "Flange type instrument mounting has:",
+      "options": [
+        "A. Only side mounting",
+        "B. Front or rear end design",
+        "C. Only rear mounting"
+      ],
+      "correctIndex": 1,
+      "explanation": "Flange mounting instruments can have either a front-end or rear-end mounting design."
+    },
+    {
+      "id": 103,
+      "question": "Pressure type not requiring reference:",
+      "options": [
+        "A. Differential",
+        "B. Gauge",
+        "C. Absolute"
+      ],
+      "correctIndex": 0,
+      "explanation": "Differential pressure measurement compares two pressures, rather than requiring a fixed absolute reference."
+    },
+    {
+      "id": 104,
+      "question": "Application of synchro system:",
+      "options": [
+        "A. Cabin temperature control only",
+        "B. Remote position indication for autopilot",
+        "C. Fuel filtration"
+      ],
+      "correctIndex": 1,
+      "explanation": "Synchro systems can remotely transmit position information for systems such as autopilot controls."
+    },
+    {
+      "id": 105,
+      "question": "Panel visible straight to both pilot eyes:",
+      "options": [
+        "A. Glare shield panel",
+        "B. Side panel",
+        "C. Main instrument panel"
+      ],
+      "correctIndex": 2,
+      "explanation": "The main instrument panel is positioned so that its instruments are directly visible to both pilots."
+    }
+  ]
+}
