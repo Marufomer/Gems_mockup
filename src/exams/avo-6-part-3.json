@@ -1,0 +1,1113 @@
+{
+  "id": "avo-6-part-3",
+  "title": "Avo-6-Part-3",
+  "module": "AVO-6",
+  "course": "avionics",
+  "category": "part",
+  "description": "Avionics Part 3 exam covering aircraft data buses, OSI and TCP/IP models, fiber optics, ACARS, digital modulation, network topologies, and data communication.",
+  "durationMinutes": 150,
+  "totalQuestions": 100,
+  "color": "purple",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which of the following is correct",
+      "options": [
+        "A. most avionics buses are serial",
+        "B. Differential phase shift keying (DPSK)",
+        "C. core diameter"
+      ],
+      "correctIndex": 0,
+      "explanation": "most avionics buses are serial is the correct answer."
+    },
+    {
+      "id": 2,
+      "question": "At a wavelength of 850 nm, what is the equivalent frequency of the source?",
+      "options": [
+        "A. Data routing",
+        "B. 357 THz",
+        "C. FSK"
+      ],
+      "correctIndex": 1,
+      "explanation": "357 THz is the correct answer."
+    },
+    {
+      "id": 3,
+      "question": "Who developed a model for the connection of open systems known as the Open Systems Interconnection Reference Model?",
+      "options": [
+        "A. Demand mode",
+        "B. ISO",
+        "C. core diameter"
+      ],
+      "correctIndex": 1,
+      "explanation": "ISO is the correct answer."
+    },
+    {
+      "id": 4,
+      "question": "An optic transmitter consists of:",
+      "options": [
+        "A. Interface circuit, source driver and optical source",
+        "B. 120",
+        "C. Coaxial cable"
+      ],
+      "correctIndex": 0,
+      "explanation": "Interface circuit, source driver and optical source is the correct answer."
+    },
+    {
+      "id": 5,
+      "question": "Which one is not true about Source Identifier (SDI)?",
+      "options": [
+        "A. PCM (pulse code modulation)",
+        "B. It can be predefined rate at which is received",
+        "C. Simplex"
+      ],
+      "correctIndex": 1,
+      "explanation": "It can be predefined rate at which is received is the correct answer."
+    },
+    {
+      "id": 6,
+      "question": "In aircraft, serial data transfer is achieved by:",
+      "options": [
+        "A. Modulation",
+        "B. Time division multiplexing",
+        "C. Network"
+      ],
+      "correctIndex": 1,
+      "explanation": "Time division multiplexing is the correct answer."
+    },
+    {
+      "id": 7,
+      "question": "Digital modulation using phase shifting without reference is:",
+      "options": [
+        "A. Modulation",
+        "B. Differential phase shift keying (DPSK)",
+        "C. Multi transmitter data bus"
+      ],
+      "correctIndex": 1,
+      "explanation": "Differential phase shift keying (DPSK) is the correct answer."
+    },
+    {
+      "id": 8,
+      "question": "What is the ability of numerical aperture?",
+      "options": [
+        "A. Frames",
+        "B. Interface circuit, source driver and optical source",
+        "C. light collection"
+      ],
+      "correctIndex": 2,
+      "explanation": "light collection is the correct answer."
+    },
+    {
+      "id": 9,
+      "question": "Data communication improves safety features by:",
+      "options": [
+        "A. reducing human error due to voice communication",
+        "B. AFDX (664)",
+        "C. optical signal to output electrical signal conversion"
+      ],
+      "correctIndex": 0,
+      "explanation": "reducing human error due to voice communication is the correct answer."
+    },
+    {
+      "id": 10,
+      "question": "The 4th layer in the OSI model is:",
+      "options": [
+        "A. Modulation",
+        "B. Transport",
+        "C. Line encoding"
+      ],
+      "correctIndex": 1,
+      "explanation": "Transport is the correct answer."
+    },
+    {
+      "id": 11,
+      "question": "Laser diode undergoes light amplification by:",
+      "options": [
+        "A. Time division multiplexing",
+        "B. absorption loss",
+        "C. Stimulated emission"
+      ],
+      "correctIndex": 2,
+      "explanation": "Stimulated emission is the correct answer."
+    },
+    {
+      "id": 12,
+      "question": "ARINC 429 is a:",
+      "options": [
+        "A. Nodes",
+        "B. single source multiple sink system",
+        "C. optical coupler"
+      ],
+      "correctIndex": 1,
+      "explanation": "single source multiple sink system is the correct answer."
+    },
+    {
+      "id": 13,
+      "question": "Which transmission medium is unguided?",
+      "options": [
+        "A. Label",
+        "B. most avionics buses are serial",
+        "C. wireless"
+      ],
+      "correctIndex": 2,
+      "explanation": "wireless is the correct answer."
+    },
+    {
+      "id": 14,
+      "question": "In which topology is a circle enclosed loop formed?",
+      "options": [
+        "A. 3",
+        "B. Ring topology",
+        "C. IP"
+      ],
+      "correctIndex": 1,
+      "explanation": "Ring topology is the correct answer."
+    },
+    {
+      "id": 15,
+      "question": "A system in which computers are interconnected and geographically spread within a building is:",
+      "options": [
+        "A. LAN",
+        "B. 100 to 300 µm",
+        "C. most avionics buses are serial"
+      ],
+      "correctIndex": 0,
+      "explanation": "LAN is the correct answer."
+    },
+    {
+      "id": 16,
+      "question": "Which aircraft data bus specification is used on general aviation aircraft?",
+      "options": [
+        "A. Demand mode",
+        "B. It has a word length of 32 bits",
+        "C. ASCB"
+      ],
+      "correctIndex": 2,
+      "explanation": "ASCB is the correct answer."
+    },
+    {
+      "id": 17,
+      "question": "In ISO architecture, dialogue control is the responsibility of the:",
+      "options": [
+        "A. wireless",
+        "B. session layer",
+        "C. optical to electrical conversion"
+      ],
+      "correctIndex": 1,
+      "explanation": "session layer is the correct answer."
+    },
+    {
+      "id": 18,
+      "question": "Selection of one wavelength and leaving the other is:",
+      "options": [
+        "A. fiber optics filters",
+        "B. Data routing",
+        "C. Communication"
+      ],
+      "correctIndex": 0,
+      "explanation": "fiber optics filters is the correct answer."
+    },
+    {
+      "id": 19,
+      "question": "Sending 1 bit of data simultaneously to different channels within the same cable is:",
+      "options": [
+        "A. parallel",
+        "B. single source multiple sink system",
+        "C. Modulation"
+      ],
+      "correctIndex": 0,
+      "explanation": "parallel is the correct answer."
+    },
+    {
+      "id": 20,
+      "question": "What is the maximum bit rate supported by ARINC 629?",
+      "options": [
+        "A. 2 Mbps",
+        "B. session layer",
+        "C. Network topology"
+      ],
+      "correctIndex": 0,
+      "explanation": "2 Mbps is the correct answer."
+    },
+    {
+      "id": 21,
+      "question": "What is the word length of ARINC 629?",
+      "options": [
+        "A. 16 bits",
+        "B. Ring topology",
+        "C. The CDU"
+      ],
+      "correctIndex": 0,
+      "explanation": "16 bits is the correct answer."
+    },
+    {
+      "id": 22,
+      "question": "ARINC 629 is a:",
+      "options": [
+        "A. Multi transmitter data bus",
+        "B. Nodes",
+        "C. Simplex"
+      ],
+      "correctIndex": 0,
+      "explanation": "Multi transmitter data bus is the correct answer."
+    },
+    {
+      "id": 23,
+      "question": "What are the operating wavelengths of fiber optics?",
+      "options": [
+        "A. It can be predefined rate at which is received",
+        "B. 850, 1300, 1550 nm",
+        "C. ISO"
+      ],
+      "correctIndex": 1,
+      "explanation": "850, 1300, 1550 nm is the correct answer."
+    },
+    {
+      "id": 24,
+      "question": "CSDB is a unidirectional bus that permits connection to terminals at:",
+      "options": [
+        "A. Star network",
+        "B. 12.5 kbps / 50 kbps",
+        "C. polled"
+      ],
+      "correctIndex": 1,
+      "explanation": "12.5 kbps / 50 kbps is the correct answer."
+    },
+    {
+      "id": 25,
+      "question": "Which network is widely used in aircraft?",
+      "options": [
+        "A. Interface circuit, source driver and optical source",
+        "B. LAN",
+        "C. 20"
+      ],
+      "correctIndex": 1,
+      "explanation": "LAN is the correct answer."
+    },
+    {
+      "id": 26,
+      "question": "Which device is used to detect by the photoelectric effect?",
+      "options": [
+        "A. Transport layer",
+        "B. Connector",
+        "C. photodiode"
+      ],
+      "correctIndex": 2,
+      "explanation": "photodiode is the correct answer."
+    },
+    {
+      "id": 27,
+      "question": "A multimode step-index fiber has a large core diameter range of:",
+      "options": [
+        "A. Transport layer",
+        "B. 100 to 300 µm",
+        "C. optical signal to output electrical signal conversion"
+      ],
+      "correctIndex": 1,
+      "explanation": "100 to 300 µm is the correct answer."
+    },
+    {
+      "id": 28,
+      "question": "The 2nd layer on TCP/IP is:",
+      "options": [
+        "A. 3",
+        "B. Data link",
+        "C. Total internal reflection"
+      ],
+      "correctIndex": 1,
+      "explanation": "Data link is the correct answer."
+    },
+    {
+      "id": 29,
+      "question": "How many layers does TCP/IP have?",
+      "options": [
+        "A. 5",
+        "B. Modulation",
+        "C. Its unidirectional"
+      ],
+      "correctIndex": 0,
+      "explanation": "5 is the correct answer."
+    },
+    {
+      "id": 30,
+      "question": "Which device is used to combine and split optical signals between fibers?",
+      "options": [
+        "A. It has a word length of 32 bits",
+        "B. optical coupler",
+        "C. wireless"
+      ],
+      "correctIndex": 1,
+      "explanation": "optical coupler is the correct answer."
+    },
+    {
+      "id": 31,
+      "question": "CSMA/CA is used as media access in which ARINC standard?",
+      "options": [
+        "A. Optical splices",
+        "B. ARINC 629",
+        "C. Multi transmitter data bus"
+      ],
+      "correctIndex": 1,
+      "explanation": "ARINC 629 is the correct answer."
+    },
+    {
+      "id": 32,
+      "question": "What is the process of converting digital data into digital signals called?",
+      "options": [
+        "A. LAN",
+        "B. Line encoding",
+        "C. Demand"
+      ],
+      "correctIndex": 1,
+      "explanation": "Line encoding is the correct answer."
+    },
+    {
+      "id": 33,
+      "question": "What is the number of receivers/sinks in ARINC 629?",
+      "options": [
+        "A. ACARS",
+        "B. 120",
+        "C. 357 THz"
+      ],
+      "correctIndex": 1,
+      "explanation": "120 is the correct answer."
+    },
+    {
+      "id": 34,
+      "question": "How many fields does a typical ACARS data format contain?",
+      "options": [
+        "A. Interface circuit, source driver and optical source",
+        "B. 3",
+        "C. optical coupler"
+      ],
+      "correctIndex": 1,
+      "explanation": "3 is the correct answer."
+    },
+    {
+      "id": 35,
+      "question": "Which of the following is commonly used as an optical detector?",
+      "options": [
+        "A. PCM (pulse code modulation)",
+        "B. APD",
+        "C. 12.5 kbps / 50 kbps"
+      ],
+      "correctIndex": 1,
+      "explanation": "APD is the correct answer."
+    },
+    {
+      "id": 36,
+      "question": "What do we call a distributed network configuration in which all data/information pass through a central computer/hub?",
+      "options": [
+        "A. bus network",
+        "B. 20",
+        "C. Multi transmitter data bus"
+      ],
+      "correctIndex": 0,
+      "explanation": "bus network is the correct answer."
+    },
+    {
+      "id": 37,
+      "question": "The validity of an ARINC 429 data word is checked by using:",
+      "options": [
+        "A. Management unit",
+        "B. Total internal reflection",
+        "C. parity bit"
+      ],
+      "correctIndex": 2,
+      "explanation": "parity bit is the correct answer."
+    },
+    {
+      "id": 38,
+      "question": "Which system is used for air-ground digital data link communication and also between air carrier and aircraft?",
+      "options": [
+        "A. ACARS",
+        "B. parity bit",
+        "C. Total internal reflection"
+      ],
+      "correctIndex": 0,
+      "explanation": "ACARS is the correct answer."
+    },
+    {
+      "id": 39,
+      "question": "In which standard is ACARS currently defined?",
+      "options": [
+        "A. It can be predefined rate at which is received",
+        "B. Network topology",
+        "C. ARINC 724B"
+      ],
+      "correctIndex": 2,
+      "explanation": "ARINC 724B is the correct answer."
+    },
+    {
+      "id": 40,
+      "question": "The two types of ACARS communication method are:",
+      "options": [
+        "A. most avionics buses are serial",
+        "B. IP",
+        "C. Demand and polled"
+      ],
+      "correctIndex": 2,
+      "explanation": "Demand and polled is the correct answer."
+    },
+    {
+      "id": 41,
+      "question": "Communication started in the cockpit is:",
+      "options": [
+        "A. Mesh topology",
+        "B. 100 to 300 µm",
+        "C. Demand"
+      ],
+      "correctIndex": 2,
+      "explanation": "Demand is the correct answer."
+    },
+    {
+      "id": 42,
+      "question": "Which OSI layer handles data formatting, compression, and acts as a translator for the network?",
+      "options": [
+        "A. presentation layer",
+        "B. Data link",
+        "C. Connector"
+      ],
+      "correctIndex": 0,
+      "explanation": "presentation layer is the correct answer."
+    },
+    {
+      "id": 43,
+      "question": "What section represents the type of information contained within the 32-bit word of ARINC 429?",
+      "options": [
+        "A. Communication protocol",
+        "B. reducing human error due to voice communication",
+        "C. Label"
+      ],
+      "correctIndex": 2,
+      "explanation": "Label is the correct answer."
+    },
+    {
+      "id": 44,
+      "question": "One of the major differences between single-mode and multimode fiber optic is:",
+      "options": [
+        "A. core diameter",
+        "B. The CDU",
+        "C. parallel"
+      ],
+      "correctIndex": 0,
+      "explanation": "core diameter is the correct answer."
+    },
+    {
+      "id": 45,
+      "question": "The process of superimposing a low-frequency signal with a high-frequency carrier is called:",
+      "options": [
+        "A. Modulation",
+        "B. 20",
+        "C. Multi transmitter data bus"
+      ],
+      "correctIndex": 0,
+      "explanation": "Modulation is the correct answer."
+    },
+    {
+      "id": 46,
+      "question": "Which of the following is used for joining optical fibers?",
+      "options": [
+        "A. Optical splices",
+        "B. APD",
+        "C. Reduction in the size and weight of cabling"
+      ],
+      "correctIndex": 0,
+      "explanation": "Optical splices is the correct answer."
+    },
+    {
+      "id": 47,
+      "question": "Which is used to allow reconfiguration, typically at a termination point?",
+      "options": [
+        "A. IP",
+        "B. Asynchronous",
+        "C. Connector"
+      ],
+      "correctIndex": 2,
+      "explanation": "Connector is the correct answer."
+    },
+    {
+      "id": 48,
+      "question": "A topology connection in a loop where each node has 2 neighbors is:",
+      "options": [
+        "A. ring topology",
+        "B. ISO",
+        "C. Ring topology"
+      ],
+      "correctIndex": 0,
+      "explanation": "ring topology is the correct answer."
+    },
+    {
+      "id": 49,
+      "question": "The most common protocol in the network layer is:",
+      "options": [
+        "A. Demand mode",
+        "B. IP",
+        "C. 357 THz"
+      ],
+      "correctIndex": 1,
+      "explanation": "IP is the correct answer."
+    },
+    {
+      "id": 50,
+      "question": "Loss occurs due to diffraction of light when it strikes irregularities of cable during manufacturing. This is called:",
+      "options": [
+        "A. absorption loss",
+        "B. Coaxial cable",
+        "C. optical signal to output electrical signal conversion"
+      ],
+      "correctIndex": 0,
+      "explanation": "absorption loss is the correct answer."
+    },
+    {
+      "id": 51,
+      "question": "Which OSI layer determines the interface of the system with the user?",
+      "options": [
+        "A. application layer",
+        "B. 3",
+        "C. 100 Mbps"
+      ],
+      "correctIndex": 0,
+      "explanation": "application layer is the correct answer."
+    },
+    {
+      "id": 52,
+      "question": "What is the loss in signal power called as light travels down the fiber?",
+      "options": [
+        "A. absorption loss",
+        "B. 16 bits",
+        "C. Attenuation"
+      ],
+      "correctIndex": 2,
+      "explanation": "Attenuation is the correct answer."
+    },
+    {
+      "id": 53,
+      "question": "What is the primary visual instrument that the flight crew uses to access the ACARS system?",
+      "options": [
+        "A. The CDU",
+        "B. Sampling, Quantization, encoding",
+        "C. Demand and polled"
+      ],
+      "correctIndex": 0,
+      "explanation": "The CDU is the correct answer."
+    },
+    {
+      "id": 54,
+      "question": "In what type of transmission mode is communication unidirectional?",
+      "options": [
+        "A. 100 Kbps",
+        "B. Simplex",
+        "C. Step index single mode fiber"
+      ],
+      "correctIndex": 1,
+      "explanation": "Simplex is the correct answer."
+    },
+    {
+      "id": 55,
+      "question": "What is the dielectric material surrounding the core called?",
+      "options": [
+        "A. Cladding",
+        "B. 5",
+        "C. WAN"
+      ],
+      "correctIndex": 0,
+      "explanation": "Cladding is the correct answer."
+    },
+    {
+      "id": 56,
+      "question": "In the airborne ACARS system, which component manages incoming and outgoing messages?",
+      "options": [
+        "A. Connector",
+        "B. 100 Mbps",
+        "C. Management unit"
+      ],
+      "correctIndex": 2,
+      "explanation": "Management unit is the correct answer."
+    },
+    {
+      "id": 57,
+      "question": "The way devices are interconnected in a network is called:",
+      "options": [
+        "A. session layer",
+        "B. IP",
+        "C. Network topology"
+      ],
+      "correctIndex": 2,
+      "explanation": "Network topology is the correct answer."
+    },
+    {
+      "id": 58,
+      "question": "Which of the following is true about ARINC 429?",
+      "options": [
+        "A. Its unidirectional",
+        "B. Label",
+        "C. It has a word length of 32 bits"
+      ],
+      "correctIndex": 2,
+      "explanation": "It has a word length of 32 bits is the correct answer."
+    },
+    {
+      "id": 59,
+      "question": "Which layer supports user applications like HTTP, SMTP, OSAM and email?",
+      "options": [
+        "A. application layer",
+        "B. Modulation",
+        "C. bus network"
+      ],
+      "correctIndex": 0,
+      "explanation": "application layer is the correct answer."
+    },
+    {
+      "id": 60,
+      "question": "Which data bus uses optical fiber?",
+      "options": [
+        "A. AFDX (664)",
+        "B. Communication",
+        "C. 16 bits"
+      ],
+      "correctIndex": 0,
+      "explanation": "AFDX (664) is the correct answer."
+    },
+    {
+      "id": 61,
+      "question": "What is the sequence of operations in which pulse code modulation is done?",
+      "options": [
+        "A. ASCB",
+        "B. AFDX (664)",
+        "C. Sampling, Quantization, encoding"
+      ],
+      "correctIndex": 2,
+      "explanation": "Sampling, Quantization, encoding is the correct answer."
+    },
+    {
+      "id": 62,
+      "question": "Which communication medium does ACARS use?",
+      "options": [
+        "A. 100 Mbps",
+        "B. Demand mode",
+        "C. VHF (118 MHz - 137 MHz)"
+      ],
+      "correctIndex": 2,
+      "explanation": "VHF (118 MHz - 137 MHz) is the correct answer."
+    },
+    {
+      "id": 63,
+      "question": "In which topology are the nodes connected to a single cable?",
+      "options": [
+        "A. Demand mode",
+        "B. WAN",
+        "C. Bus"
+      ],
+      "correctIndex": 2,
+      "explanation": "Bus is the correct answer."
+    },
+    {
+      "id": 64,
+      "question": "Which fiber is preferable for long-distance communication?",
+      "options": [
+        "A. IP",
+        "B. 5",
+        "C. Step index single mode fiber"
+      ],
+      "correctIndex": 2,
+      "explanation": "Step index single mode fiber is the correct answer."
+    },
+    {
+      "id": 65,
+      "question": "Which transmission line has an inner copper conductor and outer conductor separated by an insulator?",
+      "options": [
+        "A. FSK",
+        "B. Coaxial cable",
+        "C. The CDU"
+      ],
+      "correctIndex": 1,
+      "explanation": "Coaxial cable is the correct answer."
+    },
+    {
+      "id": 66,
+      "question": "Which OSI model layer implements hardware equipment?",
+      "options": [
+        "A. presentation layer",
+        "B. physical layer",
+        "C. parity bit"
+      ],
+      "correctIndex": 1,
+      "explanation": "physical layer is the correct answer."
+    },
+    {
+      "id": 67,
+      "question": "Which of the following is a typical receiver function for an optical fiber communication system?",
+      "options": [
+        "A. VHF (118 MHz - 137 MHz)",
+        "B. 2 Mbps",
+        "C. optical to electrical conversion"
+      ],
+      "correctIndex": 2,
+      "explanation": "optical to electrical conversion is the correct answer."
+    },
+    {
+      "id": 68,
+      "question": "What is the maximum bit rate supported by the ARINC 664/AFDX data bus?",
+      "options": [
+        "A. optical signal to output electrical signal conversion",
+        "B. 100 Mbps",
+        "C. wireless"
+      ],
+      "correctIndex": 1,
+      "explanation": "100 Mbps is the correct answer."
+    },
+    {
+      "id": 69,
+      "question": "What do we call a distributed network configuration in which all data/information pass through a central computer/hub?",
+      "options": [
+        "A. ISO",
+        "B. Star network",
+        "C. Transport layer"
+      ],
+      "correctIndex": 1,
+      "explanation": "Star network is the correct answer."
+    },
+    {
+      "id": 70,
+      "question": "Which type of digital modulation technique is a combination of ASK and PSK?",
+      "options": [
+        "A. Star network",
+        "B. QAM",
+        "C. session layer"
+      ],
+      "correctIndex": 1,
+      "explanation": "QAM is the correct answer."
+    },
+    {
+      "id": 71,
+      "question": "What does the data link layer divide the data units received from the network layer into?",
+      "options": [
+        "A. 120",
+        "B. 100 Mbps",
+        "C. Frames"
+      ],
+      "correctIndex": 2,
+      "explanation": "Frames is the correct answer."
+    },
+    {
+      "id": 72,
+      "question": "What do protocols (sets of rules) govern?",
+      "options": [
+        "A. Communication",
+        "B. wireless",
+        "C. Demand"
+      ],
+      "correctIndex": 0,
+      "explanation": "Communication is the correct answer."
+    },
+    {
+      "id": 73,
+      "question": "In which type of serial transmission are frames sent independently with start/stop flags?",
+      "options": [
+        "A. application layer",
+        "B. Asynchronous",
+        "C. optical signal to output electrical signal conversion"
+      ],
+      "correctIndex": 1,
+      "explanation": "Asynchronous is the correct answer."
+    },
+    {
+      "id": 74,
+      "question": "In a network, participating computers are referred to as:",
+      "options": [
+        "A. Nodes",
+        "B. By adding redundancy bits",
+        "C. Interface circuit, source driver and optical source"
+      ],
+      "correctIndex": 0,
+      "explanation": "Nodes is the correct answer."
+    },
+    {
+      "id": 75,
+      "question": "Which OSI layer performs data sequencing, where a long message is broken into smaller packets or fixed-size units for error-free transmission?",
+      "options": [
+        "A. physical layer",
+        "B. Reduction in the size and weight of cabling",
+        "C. Transport layer"
+      ],
+      "correctIndex": 2,
+      "explanation": "Transport layer is the correct answer."
+    },
+    {
+      "id": 76,
+      "question": "Data routing is under which OSI model layer?",
+      "options": [
+        "A. Mesh topology",
+        "B. Network",
+        "C. Data routing"
+      ],
+      "correctIndex": 1,
+      "explanation": "Network is the correct answer."
+    },
+    {
+      "id": 77,
+      "question": "What is the maximum data bit rate supported by the ARINC 429 data bus?",
+      "options": [
+        "A. ARINC 629",
+        "B. 100 Kbps",
+        "C. Its unidirectional"
+      ],
+      "correctIndex": 1,
+      "explanation": "100 Kbps is the correct answer."
+    },
+    {
+      "id": 78,
+      "question": "Which topology has the highest reliability?",
+      "options": [
+        "A. parallel",
+        "B. The CDU",
+        "C. Mesh topology"
+      ],
+      "correctIndex": 2,
+      "explanation": "Mesh topology is the correct answer."
+    },
+    {
+      "id": 79,
+      "question": "A multimode step-index fiber has a large core diameter range of:",
+      "options": [
+        "A. 100 to 300 µm",
+        "B. Total internal reflection",
+        "C. Sampling, Quantization, encoding"
+      ],
+      "correctIndex": 0,
+      "explanation": "100 to 300 µm is the correct answer."
+    },
+    {
+      "id": 80,
+      "question": "How is error detection and correction done?",
+      "options": [
+        "A. By adding redundancy bits",
+        "B. Communication",
+        "C. Total internal reflection"
+      ],
+      "correctIndex": 0,
+      "explanation": "By adding redundancy bits is the correct answer."
+    },
+    {
+      "id": 81,
+      "question": "A system that governs message formats and rules for exchanging messages between communicating devices in a data communication network is called:",
+      "options": [
+        "A. Communication protocol",
+        "B. optical signal to output electrical signal conversion",
+        "C. 850, 1300, 1550 nm"
+      ],
+      "correctIndex": 0,
+      "explanation": "Communication protocol is the correct answer."
+    },
+    {
+      "id": 82,
+      "question": "A bus that is self-clocking is referred to as:",
+      "options": [
+        "A. Network topology",
+        "B. ARINC 629",
+        "C. Asynchronous"
+      ],
+      "correctIndex": 2,
+      "explanation": "Asynchronous is the correct answer."
+    },
+    {
+      "id": 83,
+      "question": "Which of the following can be considered a major problem in fiber optic communication?",
+      "options": [
+        "A. parity bit",
+        "B. Nodes",
+        "C. Its unidirectional"
+      ],
+      "correctIndex": 2,
+      "explanation": "Its unidirectional is the correct answer."
+    },
+    {
+      "id": 84,
+      "question": "What property does data transmission in fiber optic cable exploit?",
+      "options": [
+        "A. Differential phase shift keying (DPSK)",
+        "B. Total internal reflection",
+        "C. APD"
+      ],
+      "correctIndex": 1,
+      "explanation": "Total internal reflection is the correct answer."
+    },
+    {
+      "id": 85,
+      "question": "Why is serial transmission preferred for most data transmission?",
+      "options": [
+        "A. Management unit",
+        "B. Reduction in the size and weight of cabling",
+        "C. By adding redundancy bits"
+      ],
+      "correctIndex": 1,
+      "explanation": "Reduction in the size and weight of cabling is the correct answer."
+    },
+    {
+      "id": 86,
+      "question": "In which mode does the ACARS system operate only when interrogated from the ground station?",
+      "options": [
+        "A. polled",
+        "B. AFDX (664)",
+        "C. Asynchronous"
+      ],
+      "correctIndex": 0,
+      "explanation": "polled is the correct answer."
+    },
+    {
+      "id": 87,
+      "question": "How many maximum receivers/sinks can be connected on a single ARINC 429 data bus?",
+      "options": [
+        "A. IP",
+        "B. 20",
+        "C. ring topology"
+      ],
+      "correctIndex": 1,
+      "explanation": "20 is the correct answer."
+    },
+    {
+      "id": 88,
+      "question": "Which process is adopted for laser beam formation as it undergoes light amplification?",
+      "options": [
+        "A. Stimulated emission",
+        "B. APD",
+        "C. Reduction in the size and weight of cabling"
+      ],
+      "correctIndex": 0,
+      "explanation": "Stimulated emission is the correct answer."
+    },
+    {
+      "id": 89,
+      "question": "A data communication network that covers a relatively large geographic area and often uses transmission facilities provided by common carriers is a:",
+      "options": [
+        "A. PCM (pulse code modulation)",
+        "B. By adding redundancy bits",
+        "C. WAN"
+      ],
+      "correctIndex": 2,
+      "explanation": "WAN is the correct answer."
+    },
+    {
+      "id": 90,
+      "question": "Which layer oversees delivery of a data unit between two systems on different networks?",
+      "options": [
+        "A. Network",
+        "B. Interface circuit, source driver and optical source",
+        "C. photodiode"
+      ],
+      "correctIndex": 0,
+      "explanation": "Network is the correct answer."
+    },
+    {
+      "id": 91,
+      "question": "What process converts analog information into a binary sequence of 1s and 0s?",
+      "options": [
+        "A. reducing human error due to voice communication",
+        "B. PCM (pulse code modulation)",
+        "C. Step index single mode fiber"
+      ],
+      "correctIndex": 1,
+      "explanation": "PCM (pulse code modulation) is the correct answer."
+    },
+    {
+      "id": 92,
+      "question": "Which of the following is a typical receiver function in an optical fiber communication system?",
+      "options": [
+        "A. ASCB",
+        "B. optical signal to output electrical signal conversion",
+        "C. APD"
+      ],
+      "correctIndex": 1,
+      "explanation": "optical signal to output electrical signal conversion is the correct answer."
+    },
+    {
+      "id": 93,
+      "question": "In which digital modulation technique does the frequency of the carrier vary according to discrete digital signals?",
+      "options": [
+        "A. 100 Kbps",
+        "B. 100 to 300 µm",
+        "C. FSK"
+      ],
+      "correctIndex": 2,
+      "explanation": "FSK is the correct answer."
+    },
+    {
+      "id": 94,
+      "question": "Which protocol function finds the most efficient route between source and destination before sending the data?",
+      "options": [
+        "A. Data routing",
+        "B. parity bit",
+        "C. Total internal reflection"
+      ],
+      "correctIndex": 0,
+      "explanation": "Data routing is the correct answer."
+    },
+    {
+      "id": 95,
+      "question": "In which mode does the ACARS system operate only when interrogated from the ground station?",
+      "options": [
+        "A. presentation layer",
+        "B. polled mode",
+        "C. 100 Kbps"
+      ],
+      "correctIndex": 1,
+      "explanation": "polled mode is the correct answer."
+    },
+    {
+      "id": 96,
+      "question": "In which mode does the ACARS system operate when the flight crew can initialize communication?",
+      "options": [
+        "A. polled mode",
+        "B. optical to electrical conversion",
+        "C. Demand mode"
+      ],
+      "correctIndex": 2,
+      "explanation": "Demand mode is the correct answer."
+    },
+    {
+      "id": 97,
+      "question": "What network technology connects machines and people within a site in a small area?",
+      "options": [
+        "A. Total internal reflection",
+        "B. LAN",
+        "C. wireless"
+      ],
+      "correctIndex": 1,
+      "explanation": "LAN is the correct answer."
+    },
+    {
+      "id": 98,
+      "question": "Which aircraft data bus standard is primarily designed for use in military aircraft?",
+      "options": [
+        "A. Frames",
+        "B. session layer",
+        "C. MIL-STD-1553B"
+      ],
+      "correctIndex": 2,
+      "explanation": "MIL-STD-1553B is the correct answer."
+    },
+    {
+      "id": 99,
+      "question": "What do we call a distributed network configuration in which all data/information pass through a central computer/hub?",
+      "options": [
+        "A. The CDU",
+        "B. Total internal reflection",
+        "C. Star network"
+      ],
+      "correctIndex": 2,
+      "explanation": "Star network is the correct answer."
+    },
+    {
+      "id": 100,
+      "question": "How is error detection and correction done?",
+      "options": [
+        "A. 100 Kbps",
+        "B. single source multiple sink system",
+        "C. By adding redundancy bits"
+      ],
+      "correctIndex": 2,
+      "explanation": "By adding redundancy bits is the correct answer."
+    }
+  ]
+}

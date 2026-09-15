@@ -1,0 +1,1355 @@
+{
+  "id": "avo-6-part-4",
+  "title": "Avo-6-Part-4",
+  "module": "AVO-6",
+  "course": "avionics",
+  "category": "part",
+  "description": "Exam covering weather radar, ADF, VOR, DME, ILS, ATC, TCAS, GPS, radio altimeter, and aircraft navigation systems.",
+  "durationMinutes": 150,
+  "totalQuestions": 122,
+  "color": "purple",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Weather radar colour for severe turbulence with much droplets",
+      "options": [
+        "A. Magenta",
+        "B. VHF",
+        "C. Thunderstorms"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is Magenta."
+    },
+    {
+      "id": 2,
+      "question": "The differing properties of land and water with regard to electromagnetic ground wave",
+      "options": [
+        "A. absorption leads to refraction of the NDB transmission Coastal effect",
+        "B. Top and bottom fuselage",
+        "C. Mode S"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is absorption leads to refraction of the NDB transmission Coastal effect."
+    },
+    {
+      "id": 3,
+      "question": "--- is any product of the condensation of atmospheric water",
+      "options": [
+        "A. Precipitation",
+        "B. ADF",
+        "C. Blue"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is Precipitation."
+    },
+    {
+      "id": 4,
+      "question": "The operating principle of weather radar system",
+      "options": [
+        "A. Heading",
+        "B. Tall buildings and mountains",
+        "C. Primary radar"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is Primary radar."
+    },
+    {
+      "id": 5,
+      "question": "Quadrantal error in ADF is caused by",
+      "options": [
+        "A. 2.5°–3.5°",
+        "B. Coaxial cable",
+        "C. The specific aspect of aircraft structure"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is The specific aspect of aircraft structure."
+    },
+    {
+      "id": 6,
+      "question": "The inner marker transmitter --- light",
+      "options": [
+        "A. ATC / DME",
+        "B. White",
+        "C. Green color"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is White."
+    },
+    {
+      "id": 7,
+      "question": "The middle marker beacon --- light",
+      "options": [
+        "A. 150 Hz",
+        "B. Amber",
+        "C. Hawaii"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is Amber."
+    },
+    {
+      "id": 8,
+      "question": "The right-hand lobe in the localizer has --- modulation",
+      "options": [
+        "A. 150 Hz",
+        "B. VHF",
+        "C. Mountain effect"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 150 Hz."
+    },
+    {
+      "id": 9,
+      "question": "ADF error bending and reflecting signal",
+      "options": [
+        "A. To detect turbulence",
+        "B. Mountain effect",
+        "C. Russian"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is Mountain effect."
+    },
+    {
+      "id": 10,
+      "question": "Sunrise and sunset",
+      "options": [
+        "A. Variation of ionosphere",
+        "B. Bottom of fuselage",
+        "C. ADF position"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is Variation of ionosphere."
+    },
+    {
+      "id": 11,
+      "question": "In ADF, --- provide directional info but not provide TO/From indication",
+      "options": [
+        "A. Mountain effect",
+        "B. Loop antenna",
+        "C. Mode 1"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is Loop antenna."
+    },
+    {
+      "id": 12,
+      "question": "VOR is identified by",
+      "options": [
+        "A. Main equipment center",
+        "B. Three-letter Morse code identifier",
+        "C. TO/From beacon"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is Three-letter Morse code identifier."
+    },
+    {
+      "id": 13,
+      "question": "Frequency range of RA",
+      "options": [
+        "A. To detect turbulence",
+        "B. RDMI display",
+        "C. 4200–4400 MHz"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is 4200–4400 MHz."
+    },
+    {
+      "id": 14,
+      "question": "VOR uses",
+      "options": [
+        "A. Short range",
+        "B. Space wave",
+        "C. DME interrogator"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is Space wave."
+    },
+    {
+      "id": 15,
+      "question": "ADF control panel is located",
+      "options": [
+        "A. puts the mode select knob in the --- position ADF",
+        "B. VORTAC",
+        "C. Flight deck"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is Flight deck."
+    },
+    {
+      "id": 16,
+      "question": "Weather display shows",
+      "options": [
+        "A. Short range",
+        "B. Mode D",
+        "C. Both (intensity of weather range and bearing of weather)"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is Both (intensity of weather range and bearing of weather)."
+    },
+    {
+      "id": 17,
+      "question": "Purpose of ADF",
+      "options": [
+        "A. RDMI display",
+        "B. Relative bearing of selected ground station with respect to the aircraft centerline",
+        "C. ADF position"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is Relative bearing of selected ground station with respect to the aircraft centerline."
+    },
+    {
+      "id": 18,
+      "question": "Advantage of flat antenna over parabolic antenna",
+      "options": [
+        "A. puts the mode select knob in the --- position ADF",
+        "B. Narrow beam and low side lobe",
+        "C. 1300"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is Narrow beam and low side lobe."
+    },
+    {
+      "id": 19,
+      "question": "The slope angle of glide slope in ILS is bin",
+      "options": [
+        "A. Narrow beam and low side lobe",
+        "B. 2.5°–3.5°",
+        "C. Localizer"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is 2.5°–3.5°."
+    },
+    {
+      "id": 20,
+      "question": "In an ADF system the antenna that shows TO/From indication",
+      "options": [
+        "A. Avionics Bay",
+        "B. NM",
+        "C. Sense"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is Sense."
+    },
+    {
+      "id": 21,
+      "question": "Quadrantal error in ADF is caused by",
+      "options": [
+        "A. Aircraft structure",
+        "B. Primary surveillance radar",
+        "C. DME interrogator"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is Aircraft structure."
+    },
+    {
+      "id": 22,
+      "question": "Localizer frequency type",
+      "options": [
+        "A. Both transmitter and receiver are found on aircraft",
+        "B. Space segment",
+        "C. VHF"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is VHF."
+    },
+    {
+      "id": 23,
+      "question": "How does TCAS indicate a Traffic Advisory (TA) on the navigation display",
+      "options": [
+        "A. Solid amber circle",
+        "B. 1300",
+        "C. UHF"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is Solid amber circle."
+    },
+    {
+      "id": 24,
+      "question": "Which mode of GPWS has the highest priority over the other",
+      "options": [
+        "A. DME interrogator",
+        "B. 1300 Hz (3500 ft)",
+        "C. Mode 1"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is Mode 1."
+    },
+    {
+      "id": 25,
+      "question": "Antenna interchangeable",
+      "options": [
+        "A. ATC / DME",
+        "B. Coaxial cable",
+        "C. RDMI display"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is ATC / DME."
+    },
+    {
+      "id": 26,
+      "question": "Weather radar operate on principle of",
+      "options": [
+        "A. 1300",
+        "B. Loop & Sense antenna are omnidirectional",
+        "C. Primary radar"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is Primary radar."
+    },
+    {
+      "id": 27,
+      "question": "Middle marker beacon",
+      "options": [
+        "A. time GPS sensor unit (GPSSU)",
+        "B. 1300",
+        "C. Thunderstorms"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is 1300."
+    },
+    {
+      "id": 28,
+      "question": "Which of the following is not correct",
+      "options": [
+        "A. Tall buildings and mountains",
+        "B. Loop & Sense antenna are omnidirectional",
+        "C. NM"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is Loop & Sense antenna are omnidirectional."
+    },
+    {
+      "id": 29,
+      "question": "Δ indicates",
+      "options": [
+        "A. Bearing",
+        "B. TO/From beacon",
+        "C. Primary surveillance radar"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is TO/From beacon."
+    },
+    {
+      "id": 30,
+      "question": "Not used for ground-based navigation aid in ADF",
+      "options": [
+        "A. ADF receiver",
+        "B. time GPS sensor unit (GPSSU)",
+        "C. Coaxial cable"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is ADF receiver."
+    },
+    {
+      "id": 31,
+      "question": "ADF frequency range",
+      "options": [
+        "A. Mode 1",
+        "B. Loop & Sense antenna are omnidirectional",
+        "C. 190–1750 kHz"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is 190–1750 kHz."
+    },
+    {
+      "id": 32,
+      "question": "Location of DME antenna",
+      "options": [
+        "A. Both primary and secondary surveillance",
+        "B. Both (intensity of weather range and bearing of weather)",
+        "C. Bottom of fuselage"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is Bottom of fuselage."
+    },
+    {
+      "id": 33,
+      "question": "Compass locator or marker beacon NDB",
+      "options": [
+        "A. Primary radar",
+        "B. 1300",
+        "C. Green color"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is Green color."
+    },
+    {
+      "id": 34,
+      "question": "Pilots instrument needle pointing to station",
+      "options": [
+        "A. ADF position",
+        "B. Tall buildings and mountains",
+        "C. It suppresses side lobe echo of secondary surveillance"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is ADF position."
+    },
+    {
+      "id": 35,
+      "question": "What is the use of side lobe ATC ground facility",
+      "options": [
+        "A. 75s",
+        "B. Primary surveillance radar",
+        "C. It suppresses side lobe echo of secondary surveillance"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is It suppresses side lobe echo of secondary surveillance."
+    },
+    {
+      "id": 36,
+      "question": "Which ATC part is used to conform four-bit squawk code identifications in ATC controller",
+      "options": [
+        "A. absorption lead to refraction of the NDB transmission Coastal effect",
+        "B. ATC display unit",
+        "C. Sense"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is ATC display unit."
+    },
+    {
+      "id": 37,
+      "question": "Which one of the following is not upload station",
+      "options": [
+        "A. Aided mode",
+        "B. 2500 ft",
+        "C. Hawaii"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is Hawaii."
+    },
+    {
+      "id": 38,
+      "question": "Where does DME interrogator located",
+      "options": [
+        "A. Main equipment center",
+        "B. ATC display unit",
+        "C. 9–12 GHz"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is Main equipment center."
+    },
+    {
+      "id": 39,
+      "question": "VOR/ADF flags shown",
+      "options": [
+        "A. For all above condition",
+        "B. such transmissions from the ground beacon are known collectively as Squitter",
+        "C. Coaxial cable"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is For all above condition."
+    },
+    {
+      "id": 40,
+      "question": "Multi path effect for GPS is created by",
+      "options": [
+        "A. Tall buildings and mountains",
+        "B. ATC / DME",
+        "C. Flight deck"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is Tall buildings and mountains."
+    },
+    {
+      "id": 41,
+      "question": "ATC works on",
+      "options": [
+        "A. Both primary and secondary surveillance",
+        "B. Slant",
+        "C. In the radome"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is Both primary and secondary surveillance."
+    },
+    {
+      "id": 42,
+      "question": "When pitch angle become more than 20°",
+      "options": [
+        "A. Altitude indication become excessive",
+        "B. Bearing",
+        "C. absorption leads to refraction of the NDB transmission Coastal effect"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is Altitude indication become excessive."
+    },
+    {
+      "id": 43,
+      "question": "When an aircraft flies directly over an NDB ground station, the directional property of the ADF system",
+      "options": [
+        "A. VOR control panel",
+        "B. Determining the location and height of aircraft from sea level",
+        "C. Decreases"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is Decreases."
+    },
+    {
+      "id": 44,
+      "question": "Which mode uses ATC transmits on altitude reporting signal in addition to providing a fourdigit coded reply when interrogated by ground-based ATC radar",
+      "options": [
+        "A. Removed",
+        "B. ADF systems",
+        "C. Mode C"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is Mode C."
+    },
+    {
+      "id": 45,
+      "question": "Weather radar antenna is located",
+      "options": [
+        "A. Navigation mode",
+        "B. In the radome",
+        "C. Both (intensity of weather range and bearing of weather)"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is In the radome."
+    },
+    {
+      "id": 46,
+      "question": "The right-hand lobe in the localizer has --- modulation",
+      "options": [
+        "A. NM",
+        "B. 150 Hz",
+        "C. absorption lead to refraction of the NDB transmission Coastal effect"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is 150 Hz."
+    },
+    {
+      "id": 47,
+      "question": "--- is from an airplane to a VOR station",
+      "options": [
+        "A. Top and bottom of the fuselage",
+        "B. Bearing",
+        "C. absorption lead to refraction of the NDB transmission Coastal effect"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is Bearing."
+    },
+    {
+      "id": 48,
+      "question": "How many satellites are required for three-dimensional position",
+      "options": [
+        "A. Four",
+        "B. Mode D",
+        "C. Coaxial cable"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is Four."
+    },
+    {
+      "id": 49,
+      "question": "The system measures the --- distance from the airplane to a ground station",
+      "options": [
+        "A. Slant",
+        "B. such transmissions from the ground beacon are known collectively as Squitter",
+        "C. Dash"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is Slant."
+    },
+    {
+      "id": 50,
+      "question": "Loop and sense antennas are one of the main components of",
+      "options": [
+        "A. ADF systems",
+        "B. Identification",
+        "C. Three-letter Morse code identifier"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is ADF systems."
+    },
+    {
+      "id": 51,
+      "question": "The ground beacon is made to transmit pulse pairs even in the absence of interrogations,",
+      "options": [
+        "A. such transmissions from the ground beacon are known collectively as Squitter",
+        "B. ADF systems",
+        "C. USA"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is such transmissions from the ground beacon are known collectively as Squitter."
+    },
+    {
+      "id": 52,
+      "question": "GPS is developed by",
+      "options": [
+        "A. Amber",
+        "B. Identification",
+        "C. USA"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is USA."
+    },
+    {
+      "id": 53,
+      "question": "In the ADF control panel, in which position is only the signal from the sense antenna used",
+      "options": [
+        "A. Green color",
+        "B. ANT",
+        "C. 150 Hz"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is ANT."
+    },
+    {
+      "id": 54,
+      "question": "Primary function of weather radar",
+      "options": [
+        "A. Mountain effect",
+        "B. The specific aspect of aircraft structure",
+        "C. To detect turbulence"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is To detect turbulence."
+    },
+    {
+      "id": 55,
+      "question": "ADF receiver connected to antenna by using",
+      "options": [
+        "A. Coaxial cable",
+        "B. Loop antenna",
+        "C. system Mode S"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is Coaxial cable."
+    },
+    {
+      "id": 56,
+      "question": "The ATC Mode S operates in the same frequency band with",
+      "options": [
+        "A. TCAS and DME",
+        "B. X-band",
+        "C. Flight deck"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is TCAS and DME."
+    },
+    {
+      "id": 57,
+      "question": "--- includes a data linking capability to provide a cooperative surveillance & communication",
+      "options": [
+        "A. Altitude indication become excessive",
+        "B. system Mode S",
+        "C. Mode A"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is system Mode S."
+    },
+    {
+      "id": 58,
+      "question": "DME display measured distance in",
+      "options": [
+        "A. UHF",
+        "B. Solid amber circle",
+        "C. NM"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is NM."
+    },
+    {
+      "id": 59,
+      "question": "Is the polarization error, the effect is most noticeable at sunrise or sunset when the ionosphere is changing most rapidly",
+      "options": [
+        "A. Relative bearing of selected ground station with respect to the aircraft centerline",
+        "B. Night effect",
+        "C. Blue"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is Night effect."
+    },
+    {
+      "id": 60,
+      "question": "Radio altimeter display remains true if bank angle doesn't exceed",
+      "options": [
+        "A. 30° (pitch attitude not more than 20°)",
+        "B. Mode S transponders",
+        "C. Amber"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 30° (pitch attitude not more than 20°)."
+    },
+    {
+      "id": 61,
+      "question": "The relative bearing of a selected ground station with respect to the aircraft's center line",
+      "options": [
+        "A. ADF system",
+        "B. RDMI display",
+        "C. DME interrogator"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is ADF system."
+    },
+    {
+      "id": 62,
+      "question": "The GPS enters the --- during short periods (less than 30 seconds) of bad satellite coverage",
+      "options": [
+        "A. Four",
+        "B. Navigation mode",
+        "C. Aided mode"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is Aided mode."
+    },
+    {
+      "id": 63,
+      "question": "How much time the GPS take to acquire the satellite signals when ERU data is available",
+      "options": [
+        "A. 30° (pitch attitude not more than 20°)",
+        "B. ADF systems",
+        "C. 75s"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is 75s."
+    },
+    {
+      "id": 64,
+      "question": "Function on weather radar panel to control antenna variation in elevation",
+      "options": [
+        "A. Thunderstorms",
+        "B. Tilt control",
+        "C. UHF"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is Tilt control."
+    },
+    {
+      "id": 65,
+      "question": "Which of the following is not among the 4 VOR displays on which it is displayed on",
+      "options": [
+        "A. Primary radar",
+        "B. ATC / DME",
+        "C. VOR control panel"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is VOR control panel."
+    },
+    {
+      "id": 66,
+      "question": "ATC antenna location",
+      "options": [
+        "A. Top and bottom fuselage",
+        "B. Space segment",
+        "C. 30° (pitch attitude not more than 20°)"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is Top and bottom fuselage."
+    },
+    {
+      "id": 67,
+      "question": "The user segment can include",
+      "options": [
+        "A. Bearing",
+        "B. Airplanes",
+        "C. Primary surveillance radar"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is Airplanes."
+    },
+    {
+      "id": 68,
+      "question": "VOR is a --- range radio navigation method",
+      "options": [
+        "A. Short range",
+        "B. Mode S transponders",
+        "C. Mode 1"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is Short range."
+    },
+    {
+      "id": 69,
+      "question": "In a VOR system, at which radial will the directional signal be in phase",
+      "options": [
+        "A. Short range",
+        "B. Tall buildings and mountains",
+        "C. 000 degrees"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is 000 degrees."
+    },
+    {
+      "id": 70,
+      "question": "A BFO switch on the ADF control panel can be used to establish",
+      "options": [
+        "A. Both primary and secondary surveillance",
+        "B. Russian",
+        "C. An audio tone for NDB"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is An audio tone for NDB."
+    },
+    {
+      "id": 71,
+      "question": "The outer marker transmitter",
+      "options": [
+        "A. Blue",
+        "B. Both (intensity of weather range and bearing of weather)",
+        "C. Variation of ionosphere"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is Blue."
+    },
+    {
+      "id": 72,
+      "question": "VOR receivers are located in the",
+      "options": [
+        "A. Altitude indication become excessive",
+        "B. Night effect",
+        "C. Avionics Bay"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is Avionics Bay."
+    },
+    {
+      "id": 73,
+      "question": "On the ADF control panel, when the pilot wants the needle to auto-display bearing, he",
+      "options": [
+        "A. Bearing",
+        "B. puts the mode select knob in the --- position ADF",
+        "C. Top and bottom fuselage"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is puts the mode select knob in the --- position ADF."
+    },
+    {
+      "id": 74,
+      "question": "Which control on the weather radar control panel varies the amount amplified by the",
+      "options": [
+        "A. video processing unit Manual gain",
+        "B. Precipitation",
+        "C. Variation of ionosphere"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is video processing unit Manual gain."
+    },
+    {
+      "id": 75,
+      "question": "The transponder also gives replies to the TCAS computer",
+      "options": [
+        "A. NM",
+        "B. Mode S",
+        "C. Mode A"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is Mode S."
+    },
+    {
+      "id": 76,
+      "question": "Which of the following is correct about weather radar",
+      "options": [
+        "A. Both transmitter and receiver are found on aircraft",
+        "B. To detect turbulence",
+        "C. Russian"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is Both transmitter and receiver are found on aircraft."
+    },
+    {
+      "id": 77,
+      "question": "Which one of the following are not true",
+      "options": [
+        "A. Slant",
+        "B. 1300",
+        "C. VOR bearing flags are not shown if magnetic heading has a failure"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is VOR bearing flags are not shown if magnetic heading has a failure."
+    },
+    {
+      "id": 78,
+      "question": "Middle marker beacon is modulated",
+      "options": [
+        "A. For all above condition",
+        "B. 1300 Hz (3500 ft)",
+        "C. Mode S transponders"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is 1300 Hz (3500 ft)."
+    },
+    {
+      "id": 79,
+      "question": "For 737 classic aircraft, which one is calculating the airplane position & receive accurate",
+      "options": [
+        "A. time GPS sensor unit (GPSSU)",
+        "B. absorption lead to refraction of the NDB transmission Coastal effect",
+        "C. Slant"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is time GPS sensor unit (GPSSU)."
+    },
+    {
+      "id": 80,
+      "question": "The differing properties of land and water with regard to electromagnetic groundwave",
+      "options": [
+        "A. Airplanes",
+        "B. Mode A",
+        "C. absorption lead to refraction of the NDB transmission Coastal effect"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is absorption lead to refraction of the NDB transmission Coastal effect."
+    },
+    {
+      "id": 81,
+      "question": "Yellow color in weather radar display indicates",
+      "options": [
+        "A. Area forward of nose landing gear wheel well",
+        "B. Tip of the vertical stabilizer",
+        "C. Moderate concentration, light turbulence"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is Moderate concentration, light turbulence."
+    },
+    {
+      "id": 82,
+      "question": "VOR antenna locations",
+      "options": [
+        "A. Tip of the vertical stabilizer",
+        "B. Localizer",
+        "C. Radio altimeter"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is Tip of the vertical stabilizer."
+    },
+    {
+      "id": 83,
+      "question": "The satellite is part of the",
+      "options": [
+        "A. Top and bottom of the fuselage",
+        "B. Space segment",
+        "C. Loop & Sense antenna are omnidirectional"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is Space segment."
+    },
+    {
+      "id": 84,
+      "question": "GPS calculates data in",
+      "options": [
+        "A. Navigation mode",
+        "B. Radial",
+        "C. Loop & Sense antenna are omnidirectional"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is Navigation mode."
+    },
+    {
+      "id": 85,
+      "question": "Which of the following is not the system component of the ADF system",
+      "options": [
+        "A. Navigation control panel",
+        "B. Aircraft structure",
+        "C. Bearing"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is Navigation control panel."
+    },
+    {
+      "id": 86,
+      "question": "Which mode of ATC transponder system transmits an airplane identification signal in addition to provide a 4-digit coded reply when interrogated by ground-based ATC radar",
+      "options": [
+        "A. Mode A",
+        "B. Glide slope",
+        "C. Mode S"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is Mode A."
+    },
+    {
+      "id": 87,
+      "question": "The weather radar whole fault message display, the radar display is",
+      "options": [
+        "A. Removed",
+        "B. Narrow beam and low side lobe",
+        "C. Magenta"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is Removed."
+    },
+    {
+      "id": 88,
+      "question": "The operating frequency of the radio altimeter system is in the --- range",
+      "options": [
+        "A. Primary radar",
+        "B. Tip of the vertical stabilizer",
+        "C. 4200–4400 MHz"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is 4200–4400 MHz."
+    },
+    {
+      "id": 89,
+      "question": "An aircraft is equipped with ---, the transponders allow specific aircraft to be interrogated, this increase the efficiency of the ATC resource",
+      "options": [
+        "A. 150 Hz",
+        "B. Mode S",
+        "C. VOR bearing flags are not shown if magnetic heading has a failure"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is Mode S."
+    },
+    {
+      "id": 90,
+      "question": "--- are also a source of static interference which may give rise to large bearing errors",
+      "options": [
+        "A. Thunderstorms",
+        "B. Green color",
+        "C. ADF position"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is Thunderstorms."
+    },
+    {
+      "id": 91,
+      "question": "DME frequency type",
+      "options": [
+        "A. Blue",
+        "B. Hawaii",
+        "C. UHF"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is UHF."
+    },
+    {
+      "id": 92,
+      "question": "GLONASS is developed by the",
+      "options": [
+        "A. Avionics Bay",
+        "B. Decreases",
+        "C. Russian"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is Russian."
+    },
+    {
+      "id": 93,
+      "question": "GPS antenna located on",
+      "options": [
+        "A. VOR bearing flags are not shown if magnetic heading has a failure",
+        "B. Top of the fuselage",
+        "C. TCAS and DME"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is Top of the fuselage."
+    },
+    {
+      "id": 94,
+      "question": "DME distance measured is displayed on",
+      "options": [
+        "A. Localizer",
+        "B. Mode S",
+        "C. RDMI display"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is RDMI display."
+    },
+    {
+      "id": 95,
+      "question": "Measures the time between the transmit signal and the reply signal and calculates the distance to the station",
+      "options": [
+        "A. To detect turbulence",
+        "B. DME interrogator",
+        "C. Removed"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is DME interrogator."
+    },
+    {
+      "id": 96,
+      "question": "--- is used to transmit interrogator signal and to receive reply signal from ground",
+      "options": [
+        "A. absorption lead to refraction of the NDB transmission Coastal effect",
+        "B. Avionics Bay",
+        "C. DME antenna"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is DME antenna."
+    },
+    {
+      "id": 97,
+      "question": "ADF antenna location",
+      "options": [
+        "A. Top or bottom fuselage",
+        "B. system Mode S",
+        "C. DME interrogator"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is Top or bottom fuselage."
+    },
+    {
+      "id": 98,
+      "question": "Deliberate random variation of the time interval between successive interrogation",
+      "options": [
+        "A. Jitter",
+        "B. Mode 1",
+        "C. Blue"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is Jitter."
+    },
+    {
+      "id": 99,
+      "question": "The operating frequency range of the weather radar is",
+      "options": [
+        "A. Space segment",
+        "B. 9–12 GHz",
+        "C. Slant"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is 9–12 GHz."
+    },
+    {
+      "id": 100,
+      "question": "Which of the following is different",
+      "options": [
+        "A. ADF",
+        "B. Tilt control",
+        "C. TO/From beacon"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is ADF."
+    },
+    {
+      "id": 101,
+      "question": "The RDMI shows --- for no computed data",
+      "options": [
+        "A. Dash",
+        "B. Precipitation",
+        "C. Bearing"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is Dash."
+    },
+    {
+      "id": 102,
+      "question": "What is the maximum altitude that can be measured using RA",
+      "options": [
+        "A. VHF",
+        "B. Aided mode",
+        "C. 2500 ft"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is 2500 ft."
+    },
+    {
+      "id": 103,
+      "question": "Which of the following is not the function of weather radar",
+      "options": [
+        "A. ADF",
+        "B. Determining the location and height of aircraft from sea level",
+        "C. For all above condition"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is Determining the location and height of aircraft from sea level."
+    },
+    {
+      "id": 104,
+      "question": "What is the typical location of the ATC antenna",
+      "options": [
+        "A. Top and bottom of the fuselage",
+        "B. Relative bearing of selected ground station with respect to the aircraft centerline",
+        "C. ADF receiver"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is Top and bottom of the fuselage."
+    },
+    {
+      "id": 105,
+      "question": "Which of following is not true about the warning of the WXR system",
+      "options": [
+        "A. Narrow beam and low side lobe",
+        "B. Magenta",
+        "C. Do Not Transmit RF Energy while fuel is added or removed in an area 300 feet or less from the Antenna"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is Do Not Transmit RF Energy while fuel is added or removed in an area 300 feet or less from the Antenna."
+    },
+    {
+      "id": 106,
+      "question": "--- is a magnetic bearing from a VOR beacon",
+      "options": [
+        "A. ADF systems",
+        "B. The specific aspect of aircraft structure",
+        "C. Radial"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is Radial."
+    },
+    {
+      "id": 107,
+      "question": "--- is any product of the condensation of atmospheric water",
+      "options": [
+        "A. Both primary and secondary surveillance",
+        "B. Variation of ionosphere",
+        "C. Precipitation"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is Precipitation."
+    },
+    {
+      "id": 108,
+      "question": "Most commercial airlines weather system operate based on",
+      "options": [
+        "A. ATC / DME",
+        "B. X-band",
+        "C. Both transmitter and receiver are found on aircraft"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is X-band."
+    },
+    {
+      "id": 109,
+      "question": "Where is the location of the weather radar transceiver",
+      "options": [
+        "A. Area forward of nose landing gear wheel well",
+        "B. Airplanes",
+        "C. Low frequency (190 - 1850 kHz)"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is Area forward of nose landing gear wheel well."
+    },
+    {
+      "id": 110,
+      "question": "Morse code tones are used to specify the VOR ground station",
+      "options": [
+        "A. Altitude indication become excessive",
+        "B. Identification",
+        "C. Slant"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is Identification."
+    },
+    {
+      "id": 111,
+      "question": "The frequency range of the ADF system is in the",
+      "options": [
+        "A. Both primary and secondary surveillance",
+        "B. White",
+        "C. Low frequency (190 - 1850 kHz)"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is Low frequency (190 - 1850 kHz)."
+    },
+    {
+      "id": 112,
+      "question": "Aircraft equipped with --- allow specific aircraft to be interrogated",
+      "options": [
+        "A. VHF",
+        "B. Mode A",
+        "C. Mode S transponders"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is Mode S transponders."
+    },
+    {
+      "id": 113,
+      "question": "What system supplies the primary altitude information",
+      "options": [
+        "A. Radio altimeter",
+        "B. USA",
+        "C. 4200–4400 MHz"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is Radio altimeter."
+    },
+    {
+      "id": 114,
+      "question": "Radio altimeter operates based on",
+      "options": [
+        "A. Top or bottom fuselage",
+        "B. VOR bearing flags are not shown if magnetic heading has a failure",
+        "C. Primary surveillance radar"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is Primary surveillance radar."
+    },
+    {
+      "id": 115,
+      "question": "ADF antenna location",
+      "options": [
+        "A. 4200–4400 MHz",
+        "B. Determining the location and height of aircraft from sea level",
+        "C. Top and bottom fuselage"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is Top and bottom fuselage."
+    },
+    {
+      "id": 116,
+      "question": "ILS part that provides horizontal guidance",
+      "options": [
+        "A. Localizer",
+        "B. Airplanes",
+        "C. TO/From beacon"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is Localizer."
+    },
+    {
+      "id": 117,
+      "question": "--- refers only to the direction in which the airplane is pointed",
+      "options": [
+        "A. Heading",
+        "B. White",
+        "C. DME antenna"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is Heading."
+    },
+    {
+      "id": 118,
+      "question": "VOR frequency type",
+      "options": [
+        "A. puts the mode select knob in the --- position ADF",
+        "B. VHF",
+        "C. ANT"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is VHF."
+    },
+    {
+      "id": 119,
+      "question": "When a VOR shares a TACAN, the facility is known as",
+      "options": [
+        "A. VHF",
+        "B. The specific aspect of aircraft structure",
+        "C. VORTAC"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is VORTAC."
+    },
+    {
+      "id": 120,
+      "question": "ATC mode not used for commercial aircraft",
+      "options": [
+        "A. Russian",
+        "B. Space wave",
+        "C. Mode D"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is Mode D."
+    },
+    {
+      "id": 121,
+      "question": "ILS part that provides vertical guidance",
+      "options": [
+        "A. Navigation control panel",
+        "B. Glide slope",
+        "C. Airplanes"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is Glide slope."
+    },
+    {
+      "id": 122,
+      "question": "Middle marker beacon modulation frequency display color",
+      "options": [
+        "A. puts the mode select knob in the --- position ADF",
+        "B. It suppresses side lobe echo of secondary surveillance",
+        "C. Amber"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is Amber."
+    }
+  ]
+}

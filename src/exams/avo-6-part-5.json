@@ -1,0 +1,1113 @@
+{
+  "id": "avo-6-part-5",
+  "title": "Avo-6-Part-5",
+  "module": "AVO-6",
+  "course": "avionics",
+  "category": "part",
+  "description": "Exam covering TCAS, GPWS, EGPWS, FMS, FMC, CDU, IMA, OIS, maintenance systems, warning systems, and aircraft avionics architecture.",
+  "durationMinutes": 150,
+  "totalQuestions": 100,
+  "color": "purple",
+  "questions": [
+    {
+      "id": 1,
+      "question": "ICAO Annex 6 states",
+      "options": [
+        "A. all turbine engine airplane of max take off mass 15000 kg or more than 30 passenger",
+        "B. Do not have aural warning",
+        "C. Level 2"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is all turbine engine airplane of max take off mass 15000 kg or more than 30 passenger."
+    },
+    {
+      "id": 2,
+      "question": "ICAO Annex 10",
+      "options": [
+        "A. TCAS antenna",
+        "B. Detection of collision threat and generation of resolution advisory to avoid them",
+        "C. Navigation Display (ND)"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is Detection of collision threat and generation of resolution advisory to avoid them."
+    },
+    {
+      "id": 3,
+      "question": "Aural warning for steep descent",
+      "options": [
+        "A. Two",
+        "B. ND",
+        "C. Pull up"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is Pull up."
+    },
+    {
+      "id": 4,
+      "question": "What is the shape of resolution advisory shown on a TCAS display",
+      "options": [
+        "A. conditions Red",
+        "B. Red squares",
+        "C. The detection of failures after any real damage has occurred"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is Red squares."
+    },
+    {
+      "id": 5,
+      "question": "TCAS I stands for",
+      "options": [
+        "A. Proximity warning only to assist the pilot in the visual acquisition",
+        "B. Level 2",
+        "C. By sharing common resource for different applications"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is Proximity warning only to assist the pilot in the visual acquisition."
+    },
+    {
+      "id": 6,
+      "question": "Used for Cabin 380 by cabin crew",
+      "options": [
+        "A. aircraft is Navigation database",
+        "B. RAP (Remote access panel)",
+        "C. VHF transceiver"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is RAP (Remote access panel)."
+    },
+    {
+      "id": 7,
+      "question": "TCAS operate",
+      "options": [
+        "A. To assist the pilot in the visual acquisition of intruder",
+        "B. Secondary surveillance radar",
+        "C. The detection of failures after any real damage has occurred"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is Secondary surveillance radar."
+    },
+    {
+      "id": 8,
+      "question": "Not input of TCAS II",
+      "options": [
+        "A. depending on Time, A/C weight, fuel weight",
+        "B. Terrain database",
+        "C. Own GPS data"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is Own GPS data."
+    },
+    {
+      "id": 9,
+      "question": "Not directly related to aural warning",
+      "options": [
+        "A. Cabin T° alert",
+        "B. Threat traffic",
+        "C. Enhances performance"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is Cabin T° alert."
+    },
+    {
+      "id": 10,
+      "question": "Level 0",
+      "options": [
+        "A. Do not have aural warning",
+        "B. Automatically switch between different types of comms",
+        "C. VHF transceiver"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is Do not have aural warning."
+    },
+    {
+      "id": 11,
+      "question": "Stall warning test panel",
+      "options": [
+        "A. Cockpit",
+        "B. Detect presence of nearby intruder aircraft",
+        "C. Mode 5"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is Cockpit."
+    },
+    {
+      "id": 12,
+      "question": "Not function of TCAS",
+      "options": [
+        "A. CMC",
+        "B. Ground communication",
+        "C. Periodic test"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is Ground communication."
+    },
+    {
+      "id": 13,
+      "question": "How IMA scalable than traditional one",
+      "options": [
+        "A. By sharing common resource for different applications",
+        "B. Secondary surveillance radar",
+        "C. 2"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is By sharing common resource for different applications."
+    },
+    {
+      "id": 14,
+      "question": "Cause of GPWS",
+      "options": [
+        "A. High descent rate at low altitude",
+        "B. Vertical and horizontal profile",
+        "C. Directly between the onboard ATC transponders"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is High descent rate at low altitude."
+    },
+    {
+      "id": 15,
+      "question": "Which traffic causes issue one resolution advisory",
+      "options": [
+        "A. Own GPS data",
+        "B. Threat traffic",
+        "C. Vertical and horizontal profile"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is Threat traffic."
+    },
+    {
+      "id": 16,
+      "question": "Which domain is used by passenger",
+      "options": [
+        "A. 28",
+        "B. Communication (Cabin domain)",
+        "C. Mode 1"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is Communication (Cabin domain)."
+    },
+    {
+      "id": 17,
+      "question": "Which initiates TCAS II issue RA",
+      "options": [
+        "A. Predicted violation of safe separation boundary",
+        "B. 1030 MHz & 1090 MHz",
+        "C. illuminating lights, the code of the failure recorded Bite Advisory Display"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is Predicted violation of safe separation boundary."
+    },
+    {
+      "id": 18,
+      "question": "Performance management reduces fuel consumption",
+      "options": [
+        "A. By sharing common resource for different applications",
+        "B. 2 to 12% energy can be saved",
+        "C. immediate action of the crew is necessary Level 3"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is 2 to 12% energy can be saved."
+    },
+    {
+      "id": 19,
+      "question": "EGPWS is better than GPWS because",
+      "options": [
+        "A. profile FMC",
+        "B. It contains worldwide terrain database and airport data base",
+        "C. The detection of failures after any real damage has occurred"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is It contains worldwide terrain database and airport data base."
+    },
+    {
+      "id": 20,
+      "question": "FMCS --- by checking vertical and horizontal profile",
+      "options": [
+        "A. Enhances performance",
+        "B. It contains worldwide terrain database and airport data base",
+        "C. Illuminating lights, the cause of the failure recorded"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is Enhances performance."
+    },
+    {
+      "id": 21,
+      "question": "IMA advantage",
+      "options": [
+        "A. Communication (Cabin domain)",
+        "B. TCAS computer",
+        "C. Less LRUs"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is Less LRUs."
+    },
+    {
+      "id": 22,
+      "question": "Indicates when a fault has been recorded by maintenance system",
+      "options": [
+        "A. Excessive descent rate",
+        "B. BITE loaded indicator",
+        "C. Mode 5"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is BITE loaded indicator."
+    },
+    {
+      "id": 23,
+      "question": "What TCAS equipment is required on the host aircraft & other traffic that are intruder to",
+      "options": [
+        "A. make maneuver TCAS II",
+        "B. BITE loaded indicator",
+        "C. limits Clacker"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is make maneuver TCAS II."
+    },
+    {
+      "id": 24,
+      "question": "Advantage of IMA",
+      "options": [
+        "A. The detection of failures after any real damage has occurred",
+        "B. detection in advance of possible failure appearance Prognostic AVM",
+        "C. Both (weight reduction & cost)"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is Both (weight reduction & cost)."
+    },
+    {
+      "id": 25,
+      "question": "Crew interface with FMS",
+      "options": [
+        "A. CDU",
+        "B. Primary Flight Display (PFD)",
+        "C. Red squares"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is CDU."
+    },
+    {
+      "id": 26,
+      "question": "Not function of FMC",
+      "options": [
+        "A. To flight operation",
+        "B. Detect presence of nearby intruder aircraft",
+        "C. Red squares"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is Detect presence of nearby intruder aircraft."
+    },
+    {
+      "id": 27,
+      "question": "Solid red color on GPWS",
+      "options": [
+        "A. Terrain/obstacle threat warning",
+        "B. Navigation Display (ND)",
+        "C. Red & amber lights"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is Terrain/obstacle threat warning."
+    },
+    {
+      "id": 28,
+      "question": "--- is a set of electronic documentation and applications for flight maintenance & cabin",
+      "options": [
+        "A. operations OIS",
+        "B. Assist the crew visually searching and identifying an intruder aircraft",
+        "C. 2"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is operations OIS."
+    },
+    {
+      "id": 29,
+      "question": "--- are used by cabin crew for cabin operations",
+      "options": [
+        "A. Excessive descent rate",
+        "B. Cockpit",
+        "C. Flight attendant panel (CFAP)"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is Flight attendant panel (CFAP)."
+    },
+    {
+      "id": 30,
+      "question": "--- is used to load data by pilot",
+      "options": [
+        "A. CDU",
+        "B. conflicting traffic TCAS 2",
+        "C. aircraft's flight capabilities Amber"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is CDU."
+    },
+    {
+      "id": 31,
+      "question": "Is the heart of the system, performing all the navigational & performance calculations and",
+      "options": [
+        "A. Cockpit",
+        "B. Threat traffic",
+        "C. providing control and guidance commands FMCS"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is providing control and guidance commands FMCS."
+    },
+    {
+      "id": 32,
+      "question": "Excessive descent rate is detected in which mode",
+      "options": [
+        "A. as well as the vertical direction to avoid conflicting traffic TCAS III",
+        "B. Mode 1",
+        "C. conditions Red"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is Mode 1."
+    },
+    {
+      "id": 33,
+      "question": "TCAS airborne equipment consists of an interrogator transmitter and receiver respectively",
+      "options": [
+        "A. Resolution advisory",
+        "B. Detection of collision threat and generation of resolution advisory to avoid them",
+        "C. 1030 MHz & 1090 MHz"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is 1030 MHz & 1090 MHz."
+    },
+    {
+      "id": 34,
+      "question": "Which component of the FMS system allows the crew to input the flight details and",
+      "options": [
+        "A. computer uses Time",
+        "B. Level 2",
+        "C. performance parameters in to the FMC Control and Display Unit"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is performance parameters in to the FMC Control and Display Unit."
+    },
+    {
+      "id": 35,
+      "question": "What is not the advantage of IMA",
+      "options": [
+        "A. More wiring and boxes",
+        "B. Main equipment center",
+        "C. make coordinated maneuver TCAS III"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is More wiring and boxes."
+    },
+    {
+      "id": 36,
+      "question": "CDU is found in",
+      "options": [
+        "A. To assist the pilot in the visual acquisition of intruder",
+        "B. Cockpit",
+        "C. Mode 6"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is Cockpit."
+    },
+    {
+      "id": 37,
+      "question": "Provides traffic advisories and resolution advisories in a vertical direction to avoid",
+      "options": [
+        "A. Immediate crew action",
+        "B. conflicting traffic TCAS 2",
+        "C. providing control and guidance commands FMCS"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is conflicting traffic TCAS 2."
+    },
+    {
+      "id": 38,
+      "question": "Which type of warning signal will sound in the cockpit when airspeed or mach no exceeds",
+      "options": [
+        "A. To assist the pilot in the visual acquisition of intruder",
+        "B. as well as the vertical direction to avoid conflicting traffic TCAS III",
+        "C. limits Clacker"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is limits Clacker."
+    },
+    {
+      "id": 39,
+      "question": "Warning and caution light",
+      "options": [
+        "A. Proximity warning only to assist the pilot in the visual acquisition",
+        "B. Red & amber lights",
+        "C. 1030 MHz & 1090 MHz"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is Red & amber lights."
+    },
+    {
+      "id": 40,
+      "question": "White and blue color indications in the cockpit are for",
+      "options": [
+        "A. CMC",
+        "B. Immediate crew action",
+        "C. Advisory info"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is Advisory info."
+    },
+    {
+      "id": 41,
+      "question": "System that supplies trend and servicing monitoring and monitoring reports for the",
+      "options": [
+        "A. Communication (Cabin domain)",
+        "B. detection in advance of possible failure appearance Prognostic AVM",
+        "C. Cabin T° alert"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is detection in advance of possible failure appearance Prognostic AVM."
+    },
+    {
+      "id": 42,
+      "question": "Which of the following TCAS components controls surveillance, tracking, advisory & airtoair maneuver coordination",
+      "options": [
+        "A. ND",
+        "B. The detection of failures after any real damage has occurred",
+        "C. TCAS computer"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is TCAS computer."
+    },
+    {
+      "id": 43,
+      "question": "FMC computes and displays the flight plan on the",
+      "options": [
+        "A. Automatically switch between different types of comms",
+        "B. ND",
+        "C. Immediate crew action"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is ND."
+    },
+    {
+      "id": 44,
+      "question": "Replaces numerous separate processors and LRUs with fewer, more centralized processing",
+      "options": [
+        "A. conflicting traffic TCAS 2",
+        "B. Pull up",
+        "C. units IMA"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is units IMA."
+    },
+    {
+      "id": 45,
+      "question": "On-board maintenance computer",
+      "options": [
+        "A. CMC",
+        "B. Secondary surveillance radar",
+        "C. Aircraft's present position"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is CMC."
+    },
+    {
+      "id": 46,
+      "question": "Objective is to ensure action is taken during alert & warning",
+      "options": [
+        "A. Flight attendant panel (CFAP)",
+        "B. Integrated Modular Avionics (IMA)",
+        "C. GPWS"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is GPWS."
+    },
+    {
+      "id": 47,
+      "question": "Ground proximity warning system works below",
+      "options": [
+        "A. make maneuver TCAS II",
+        "B. profile FMC",
+        "C. 2500 feet (above ground level)"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is 2500 feet (above ground level)."
+    },
+    {
+      "id": 48,
+      "question": "Which type of warning signal will sound in the cockpit when there is engine fire",
+      "options": [
+        "A. Bell",
+        "B. providing control and guidance commands FMCS",
+        "C. Configuration Deviation List (CDL) electronically Onboard Info System (OIS)"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is Bell."
+    },
+    {
+      "id": 49,
+      "question": "Which symbol of TCAS on the navigation display indicates the intruder is above your",
+      "options": [
+        "A. limits Clacker",
+        "B. By sharing common resource for different applications",
+        "C. altitude A plus sign"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is altitude A plus sign."
+    },
+    {
+      "id": 50,
+      "question": "The number of independent FMS in a typical commercial aircraft is",
+      "options": [
+        "A. Detection of collision threat and generation of resolution advisory to avoid them",
+        "B. providing control and guidance commands FMCS",
+        "C. 2"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is 2."
+    },
+    {
+      "id": 51,
+      "question": "--- TCAS alert comes on where there is more than 6 nautical miles or more than 1200 feet",
+      "options": [
+        "A. Red squares",
+        "B. 2",
+        "C. vertically from your airplane Other traffic"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is vertically from your airplane Other traffic."
+    },
+    {
+      "id": 52,
+      "question": "Which one of the following is not an input for the ground proximity warning computer",
+      "options": [
+        "A. Red & amber lights",
+        "B. Communication (Cabin domain)",
+        "C. VHF transceiver"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is VHF transceiver."
+    },
+    {
+      "id": 53,
+      "question": "On the typical ATR 72 aircraft maintenance panel, BITE Advisory display indicates",
+      "options": [
+        "A. Illuminating lights, the cause of the failure recorded",
+        "B. immediate action of the crew is necessary Level 3",
+        "C. performance parameters in to the FMC Control and Display Unit"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is Illuminating lights, the cause of the failure recorded."
+    },
+    {
+      "id": 54,
+      "question": "GPWS BITE test performs",
+      "options": [
+        "A. Primary Flight Display (PFD)",
+        "B. Periodic test",
+        "C. aircraft is Navigation database"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is Periodic test."
+    },
+    {
+      "id": 55,
+      "question": "--- occurs about 25 sec before the aircraft nearest point of approach",
+      "options": [
+        "A. Resolution Advisory",
+        "B. The detection of failures after any real damage has occurred",
+        "C. Two"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is Resolution Advisory."
+    },
+    {
+      "id": 56,
+      "question": "--- suggests vertical maneuver for safe separation (avoid collision)",
+      "options": [
+        "A. Resolution advisory",
+        "B. Red & amber lights",
+        "C. BITE loaded indicator"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is Resolution advisory."
+    },
+    {
+      "id": 57,
+      "question": "Abnormal situation of A/C for which crew awareness & corrective action are necessary",
+      "options": [
+        "A. Do not have aural warning",
+        "B. conditions Red",
+        "C. Level 2"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is Level 2."
+    },
+    {
+      "id": 58,
+      "question": "In which category is the function of uploading/downloading in OMS",
+      "options": [
+        "A. Maintenance support",
+        "B. More wiring and boxes",
+        "C. Pull up"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is Maintenance support."
+    },
+    {
+      "id": 59,
+      "question": "What TCAS equipment is required on the host aircraft and other traffic that are intruder to",
+      "options": [
+        "A. make coordinated maneuver TCAS III",
+        "B. Configuration Deviation List (CDL) electronically Onboard Info System (OIS)",
+        "C. conditions Red"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is make coordinated maneuver TCAS III."
+    },
+    {
+      "id": 60,
+      "question": "Performs all the calculation & prediction required to determine the most economical flight",
+      "options": [
+        "A. To assist the pilot in the visual acquisition of intruder",
+        "B. 2 to 12% energy can be saved",
+        "C. profile FMC"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is profile FMC."
+    },
+    {
+      "id": 61,
+      "question": "The aircraft navigation database is generally updated every --- days",
+      "options": [
+        "A. Communication (Cabin domain)",
+        "B. providing control and guidance commands FMCS",
+        "C. 28"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is 28."
+    },
+    {
+      "id": 62,
+      "question": "Which of the following avionics systems uses federated architecture",
+      "options": [
+        "A. Conventional",
+        "B. To flight operation",
+        "C. Own GPS data"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is Conventional."
+    },
+    {
+      "id": 63,
+      "question": "To calculate the closest point of approach (CPA) and the relative altitude, the TCAS",
+      "options": [
+        "A. computer uses Time",
+        "B. profile FMC",
+        "C. Cockpit"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is computer uses Time."
+    },
+    {
+      "id": 64,
+      "question": "Calculation of the flight profile (vertical flight plan) and optimization of speed and altitude",
+      "options": [
+        "A. depending on Time, A/C weight, fuel weight",
+        "B. Cockpit",
+        "C. 2500 feet (above ground level)"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is depending on Time, A/C weight, fuel weight."
+    },
+    {
+      "id": 65,
+      "question": "Which computers that can monitor and control several systems via several apps",
+      "options": [
+        "A. To supply a centralized computing and data communication capability",
+        "B. Integrated Modular Avionics (IMA)",
+        "C. vertically from your airplane Other traffic"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is Integrated Modular Avionics (IMA)."
+    },
+    {
+      "id": 66,
+      "question": "There will be maneuver indication on the PFDs to guide the flight crew to avoid a possible",
+      "options": [
+        "A. Do not have aural warning",
+        "B. collision during Resolution Advisory (RA)",
+        "C. Configuration Deviation List (CDL) electronically Onboard Info System (OIS)"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is collision during Resolution Advisory (RA)."
+    },
+    {
+      "id": 67,
+      "question": "Bank angle call-outs occur at",
+      "options": [
+        "A. Advisory info",
+        "B. Illuminating lights, the cause of the failure recorded",
+        "C. Mode 6"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is Mode 6."
+    },
+    {
+      "id": 68,
+      "question": "Which TCAS type will provide traffic advisories and resolution advisories in the horizontal",
+      "options": [
+        "A. Less LRUs",
+        "B. all turbine engine airplane of max take off mass 15000 kg or more than 30 passenger",
+        "C. as well as the vertical direction to avoid conflicting traffic TCAS III"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is as well as the vertical direction to avoid conflicting traffic TCAS III."
+    },
+    {
+      "id": 69,
+      "question": "The FMS also gives information to the EFIS to show the flight plan on",
+      "options": [
+        "A. conditions Red",
+        "B. Navigation Display (ND)",
+        "C. BITE loaded indicator"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is Navigation Display (ND)."
+    },
+    {
+      "id": 70,
+      "question": "Warning alerts are given for a terrain threat that requires",
+      "options": [
+        "A. Own aircraft's GPS coordinate",
+        "B. Communication (Cabin domain)",
+        "C. Immediate crew action"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is Immediate crew action."
+    },
+    {
+      "id": 71,
+      "question": "Which mode shows too much deviation below the glide slope",
+      "options": [
+        "A. ND",
+        "B. Mode 5",
+        "C. Red & amber lights"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is Mode 5."
+    },
+    {
+      "id": 72,
+      "question": "EGPWS eliminates blind spots of the original GPWS by using GPS and",
+      "options": [
+        "A. Terrain database",
+        "B. Mode 5",
+        "C. computer uses Time"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is Terrain database."
+    },
+    {
+      "id": 73,
+      "question": "One is not a system component of the GPWS",
+      "options": [
+        "A. Excessive descent rate",
+        "B. TCAS antenna",
+        "C. Resolution advisory"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is TCAS antenna."
+    },
+    {
+      "id": 74,
+      "question": "TCAS interrogations and replies are sent",
+      "options": [
+        "A. Directly between the onboard ATC transponders",
+        "B. Flight attendant panel (CFAP)",
+        "C. 2"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is Directly between the onboard ATC transponders."
+    },
+    {
+      "id": 75,
+      "question": "Navigation facilities including location, altitude, frequency, identification and the FMS are",
+      "options": [
+        "A. Detect presence of nearby intruder aircraft",
+        "B. examples of Navigation Database",
+        "C. vertically from your airplane Other traffic"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is examples of Navigation Database."
+    },
+    {
+      "id": 76,
+      "question": "Flight path guidance is shown on the",
+      "options": [
+        "A. Primary Flight Display (PFD)",
+        "B. TCAS I",
+        "C. GPWS"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is Primary Flight Display (PFD)."
+    },
+    {
+      "id": 77,
+      "question": "Which of the following is not a function of the FMS",
+      "options": [
+        "A. Resolution Advisory",
+        "B. Terrain database",
+        "C. Automatically switch between different types of comms"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is Automatically switch between different types of comms."
+    },
+    {
+      "id": 78,
+      "question": "Which of the following is a function of integrated modular avionics",
+      "options": [
+        "A. The detection of failures after any real damage has occurred",
+        "B. To supply a centralized computing and data communication capability",
+        "C. depending on Time, A/C weight, fuel weight"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is To supply a centralized computing and data communication capability."
+    },
+    {
+      "id": 79,
+      "question": "Which of the following system enables us to access the Minimum Equipment List (MEL) &",
+      "options": [
+        "A. Immediate crew action",
+        "B. examples of Navigation Database",
+        "C. Configuration Deviation List (CDL) electronically Onboard Info System (OIS)"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is Configuration Deviation List (CDL) electronically Onboard Info System (OIS)."
+    },
+    {
+      "id": 80,
+      "question": "The --- caution light show system malfunction or conditions that do not immediately affect the",
+      "options": [
+        "A. computer uses Time",
+        "B. aircraft's flight capabilities Amber",
+        "C. Resolution Advisory"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is aircraft's flight capabilities Amber."
+    },
+    {
+      "id": 81,
+      "question": "Where is the location of FMC",
+      "options": [
+        "A. Resolution advisory",
+        "B. Main equipment center",
+        "C. 2"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is Main equipment center."
+    },
+    {
+      "id": 82,
+      "question": "How many channels does the aural warning unit on ATR 72 have",
+      "options": [
+        "A. Two",
+        "B. Own GPS data",
+        "C. Increased life style"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is Two."
+    },
+    {
+      "id": 83,
+      "question": "Mode 1 terrain awareness cautions are given for",
+      "options": [
+        "A. Excessive descent rate",
+        "B. Resolution Advisory",
+        "C. 2 to 12% energy can be saved"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is Excessive descent rate."
+    },
+    {
+      "id": 84,
+      "question": "In pre-flight phases, the FMS calculates the --- of the aircraft",
+      "options": [
+        "A. Vertical and horizontal profile",
+        "B. To flight operation",
+        "C. illuminating lights, the code of the failure recorded Bite Advisory Display"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is Vertical and horizontal profile."
+    },
+    {
+      "id": 85,
+      "question": "Which level of the fire warning system refers to an emergency situation for which",
+      "options": [
+        "A. immediate action of the crew is necessary Level 3",
+        "B. providing control and guidance commands FMCS",
+        "C. limits Clacker"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is immediate action of the crew is necessary Level 3."
+    },
+    {
+      "id": 86,
+      "question": "Traffic Advisories",
+      "options": [
+        "A. Assist the crew visually searching and identifying an intruder aircraft",
+        "B. TCAS computer",
+        "C. 2"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is Assist the crew visually searching and identifying an intruder aircraft."
+    },
+    {
+      "id": 87,
+      "question": "The --- warning lights show system malfunctions or conditions that cause dangerous",
+      "options": [
+        "A. profile FMC",
+        "B. Automatically switch between different types of comms",
+        "C. conditions Red"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is conditions Red."
+    },
+    {
+      "id": 88,
+      "question": "One is not the use of structural monitoring applied to aircraft engines",
+      "options": [
+        "A. The detection of failures after any real damage has occurred",
+        "B. To assist the pilot in the visual acquisition of intruder",
+        "C. BITE loaded indicator"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is The detection of failures after any real damage has occurred."
+    },
+    {
+      "id": 89,
+      "question": "On the typical ATR 72 aircraft maintenance panel, which of the following indicates through",
+      "options": [
+        "A. Two",
+        "B. Detect presence of nearby intruder aircraft",
+        "C. illuminating lights, the code of the failure recorded Bite Advisory Display"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is illuminating lights, the code of the failure recorded Bite Advisory Display."
+    },
+    {
+      "id": 90,
+      "question": "Which one of the FF is not true with respect to integrated modular avionics architecture",
+      "options": [
+        "A. detection in advance of possible failure appearance Prognostic AVM",
+        "B. Increased life style",
+        "C. as well as the vertical direction to avoid conflicting traffic TCAS III"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is Increased life style."
+    },
+    {
+      "id": 91,
+      "question": "It is intended for use by smaller commuter and general aviation aircraft",
+      "options": [
+        "A. Pull up",
+        "B. TCAS I",
+        "C. TCAS antenna"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is TCAS I."
+    },
+    {
+      "id": 92,
+      "question": "Which one is the general function of Integrated Modular Avionics (IMA)",
+      "options": [
+        "A. To supply a centralized computing and data communication capability",
+        "B. Terrain/obstacle threat warning",
+        "C. Secondary surveillance radar"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is To supply a centralized computing and data communication capability."
+    },
+    {
+      "id": 93,
+      "question": "TCAS alert comes on where there is more than 6 nautical miles or more than 1200 feet",
+      "options": [
+        "A. vertically from your airplane Other traffic",
+        "B. examples of Navigation Database",
+        "C. Enhances performance"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is vertically from your airplane Other traffic."
+    },
+    {
+      "id": 94,
+      "question": "Is the heart of the system, performing all the navigational and performance calculations",
+      "options": [
+        "A. Terrain/obstacle threat warning",
+        "B. and providing control and guidance commands Flight Management Computer System (FMCS)",
+        "C. Do not have aural warning"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is and providing control and guidance commands Flight Management Computer System (FMCS)."
+    },
+    {
+      "id": 95,
+      "question": "Traffic Advisory",
+      "options": [
+        "A. aircraft's flight capabilities Amber",
+        "B. To assist the pilot in the visual acquisition of intruder",
+        "C. Own aircraft's GPS coordinate"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is To assist the pilot in the visual acquisition of intruder."
+    },
+    {
+      "id": 96,
+      "question": "The number of independent FMS in a typical commercial aircraft is",
+      "options": [
+        "A. Assist the crew visually searching and identifying an intruder aircraft",
+        "B. 2",
+        "C. Maintenance support"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is 2."
+    },
+    {
+      "id": 97,
+      "question": "The database contains aeronautical information for the planned area of operations of the",
+      "options": [
+        "A. Own GPS data",
+        "B. aircraft is Navigation database",
+        "C. Two"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is aircraft is Navigation database."
+    },
+    {
+      "id": 98,
+      "question": "CMC does not provide information",
+      "options": [
+        "A. TCAS computer",
+        "B. To flight operation",
+        "C. and providing control and guidance commands Flight Management Computer System (FMCS)"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is To flight operation."
+    },
+    {
+      "id": 99,
+      "question": "What crew must confirm all is navigable",
+      "options": [
+        "A. Communication (Cabin domain)",
+        "B. Aircraft's present position",
+        "C. depending on Time, A/C weight, fuel weight"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is Aircraft's present position."
+    },
+    {
+      "id": 100,
+      "question": "Is not an input of TCAS II",
+      "options": [
+        "A. limits Clacker",
+        "B. Own aircraft's GPS coordinate",
+        "C. 2500 feet (above ground level)"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is Own aircraft's GPS coordinate."
+    }
+  ]
+}

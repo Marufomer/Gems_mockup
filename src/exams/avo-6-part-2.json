@@ -1,0 +1,1124 @@
+{
+  "id": "avo-6-part-2",
+  "title": "Avo-6-Part-2",
+  "module": "AVO-6",
+  "course": "avionics",
+  "category": "part",
+  "description": "Comprehensive avionics Part 2 exam covering satellite communication, HF/VHF communication, SELCAL, microphones, interphone systems, ELT, CVR, PA systems, bonding, and aircraft communication systems.",
+  "durationMinutes": 150,
+  "totalQuestions": 101,
+  "color": "purple",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which satellite is synchronous with Earth's orbit?",
+      "options": [
+        "A. 121.5 MHz",
+        "B. Radio Communication panel",
+        "C. GEO static satellite"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is GEO static satellite."
+    },
+    {
+      "id": 2,
+      "question": "Which is a programmable switch module?",
+      "options": [
+        "A. electrostatic microphone",
+        "B. Automatic Fixed ELT (AF ELT)",
+        "C. SELCAL"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is SELCAL."
+    },
+    {
+      "id": 3,
+      "question": "For MIC, which is a radio communication system?",
+      "options": [
+        "A. APU Compartment",
+        "B. 4",
+        "C. First flight interphone system"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is First flight interphone system."
+    },
+    {
+      "id": 4,
+      "question": "Which of the following devices acts differently in working principle?",
+      "options": [
+        "A. 121.5 MHz",
+        "B. Observer's microphone",
+        "C. Hand microphone"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is Hand microphone."
+    },
+    {
+      "id": 5,
+      "question": "In the microphone, which parameter moves the diaphragm?",
+      "options": [
+        "A. 30 min",
+        "B. Three",
+        "C. sound wave"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is sound wave."
+    },
+    {
+      "id": 6,
+      "question": "Which system provides the flight crew and cabin crew with a means of making announcements and distributing music to passengers through cabin speakers?",
+      "options": [
+        "A. passenger address",
+        "B. orange",
+        "C. sound wave"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is passenger address."
+    },
+    {
+      "id": 7,
+      "question": "Which of the following is not a service interphone?",
+      "options": [
+        "A. Control panel",
+        "B. Antenna",
+        "C. 406 MHz"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is Antenna."
+    },
+    {
+      "id": 8,
+      "question": "In the call system, the call light on the passenger signs panel comes on and the warning module gives HI chime. Which call is indicated?",
+      "options": [
+        "A. 121.5 MHz",
+        "B. Continuous monitor",
+        "C. Attendant to flight compartment"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is Attendant to flight compartment."
+    },
+    {
+      "id": 9,
+      "question": "What is the location of service interphone jacks?",
+      "options": [
+        "A. APU Compartment",
+        "B. crystal microphone",
+        "C. Cabin interphone system"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is APU Compartment."
+    },
+    {
+      "id": 10,
+      "question": "Which units provide microphone selector push buttons and listen switches for VHF communication systems?",
+      "options": [
+        "A. Audio Control panels",
+        "B. MIC",
+        "C. I, N, O"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is Audio Control panels."
+    },
+    {
+      "id": 11,
+      "question": "SELCAL ID for the aircraft is set in the:",
+      "options": [
+        "A. Cabin Interface",
+        "B. The external service interphone call button was pressed by ground crew",
+        "C. program switch"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is program switch."
+    },
+    {
+      "id": 12,
+      "question": "The frequency range of VHF is:",
+      "options": [
+        "A. RFU (Radio frequency unit)",
+        "B. 118 MHz - 137 MHz",
+        "C. Automatic deployable ELT (ADELT)"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is 118 MHz - 137 MHz."
+    },
+    {
+      "id": 13,
+      "question": "An automatically activated ELT that is permanently attached to an aircraft is called:",
+      "options": [
+        "A. Automatic Fixed ELT (AF ELT)",
+        "B. K-band",
+        "C. First flight interphone system"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is Automatic Fixed ELT (AF ELT)."
+    },
+    {
+      "id": 14,
+      "question": "What is the color of the CVR box?",
+      "options": [
+        "A. reduces the burden of the flight crew",
+        "B. K-band",
+        "C. orange"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is orange."
+    },
+    {
+      "id": 15,
+      "question": "The basic purpose of a distress radio beacon is to help rescuers find survivors within the golden day. The golden day represents:",
+      "options": [
+        "A. The first 24 hours following traumatic event",
+        "B. RFU (Radio frequency unit)",
+        "C. Observer's microphone"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is The first 24 hours following traumatic event."
+    },
+    {
+      "id": 16,
+      "question": "Which is not a use of static dischargers?",
+      "options": [
+        "A. INT",
+        "B. It radiates radio frequencies that interfere with radio and navigation equipment",
+        "C. 118 MHz - 137 MHz"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is It radiates radio frequencies that interfere with radio and navigation equipment."
+    },
+    {
+      "id": 17,
+      "question": "Static discharge is not located on the:",
+      "options": [
+        "A. 4",
+        "B. fuselage",
+        "C. K-band"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is fuselage."
+    },
+    {
+      "id": 18,
+      "question": "A passive satellite:",
+      "options": [
+        "A. Aero H",
+        "B. transfer the signal without any amplification",
+        "C. Clear voice transmission"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is transfer the signal without any amplification."
+    },
+    {
+      "id": 19,
+      "question": "What is the common frequency range of HF communication?",
+      "options": [
+        "A. 4",
+        "B. program switch",
+        "C. 2 - 29.9 MHz"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is 2 - 29.9 MHz."
+    },
+    {
+      "id": 20,
+      "question": "SELCAL uses:",
+      "options": [
+        "A. sound wave",
+        "B. VHF and HF system",
+        "C. Pilot Call"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is VHF and HF system."
+    },
+    {
+      "id": 21,
+      "question": "HF communication using ionospheric and earth-surface reflections over long distances is also called:",
+      "options": [
+        "A. It only uses line of sight propagation",
+        "B. missing or bad bonding, Install repair bonding strap",
+        "C. sky wave"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is sky wave."
+    },
+    {
+      "id": 22,
+      "question": "Which ELT is rigidly attached to an aircraft and automatically deployed and activated by impact and, in some cases, by hydrostatic sensors?",
+      "options": [
+        "A. Automatic deployable ELT (ADELT)",
+        "B. To put the system in a transmit mode",
+        "C. Space wave communication"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is Automatic deployable ELT (ADELT)."
+    },
+    {
+      "id": 23,
+      "question": "A microphone (MIC) is a:",
+      "options": [
+        "A. VHF and HF system",
+        "B. transducer",
+        "C. MIC"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is transducer."
+    },
+    {
+      "id": 24,
+      "question": "Which principle varies the capacitor value?",
+      "options": [
+        "A. To match the antenna impedance to the HF transceiver output circuit",
+        "B. distance between plates",
+        "C. passenger address"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is distance between plates."
+    },
+    {
+      "id": 25,
+      "question": "What is the function of PTT?",
+      "options": [
+        "A. to change transceiver from the reception mode to transmission mode",
+        "B. 4",
+        "C. Clear voice transmission"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is to change transceiver from the reception mode to transmission mode."
+    },
+    {
+      "id": 26,
+      "question": "Which gain antenna is used for medium quality voice / fax / data?",
+      "options": [
+        "A. Aero H",
+        "B. It radiates radio frequencies that interfere with radio and navigation equipment",
+        "C. To put the system in a transmit mode"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is Aero H."
+    },
+    {
+      "id": 27,
+      "question": "What is the purpose of muting local speaker transmission or interphone system?",
+      "options": [
+        "A. To prevent acoustic feedback whistling noise",
+        "B. crystal microphone",
+        "C. Capacitive microphone"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is To prevent acoustic feedback whistling noise."
+    },
+    {
+      "id": 28,
+      "question": "Cabin call and flight deck are unable but PA and ground call work. Which system should be checked?",
+      "options": [
+        "A. Hand microphone",
+        "B. Bottom of the vertical stabilizer",
+        "C. Cabin Interface"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is Cabin Interface."
+    },
+    {
+      "id": 29,
+      "question": "Which device is used to measure the sound pressure levels?",
+      "options": [
+        "A. attendant call",
+        "B. Capacitive microphone",
+        "C. MIC"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is Capacitive microphone."
+    },
+    {
+      "id": 30,
+      "question": "Minor arcing between a hinge of flight control surface and the wing: what is the most probable corrective action?",
+      "options": [
+        "A. Bottom of the vertical stabilizer",
+        "B. ground crew call system",
+        "C. missing or bad bonding, Install repair bonding strap"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is missing or bad bonding, Install repair bonding strap."
+    },
+    {
+      "id": 31,
+      "question": "During pre-flight checks, the flight crew hears a horn sounding in the nose wheel well area. No chimes are heard in the cockpit and no cockpit switches were activated. What is the most probable cause?",
+      "options": [
+        "A. Attendant to flight compartment",
+        "B. To prevent acoustic feedback whistling noise",
+        "C. The external service interphone call button was pressed by ground crew"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is The external service interphone call button was pressed by ground crew."
+    },
+    {
+      "id": 32,
+      "question": "The ELT battery is replaceable every ___ years.",
+      "options": [
+        "A. I, N, O",
+        "B. crystal microphone",
+        "C. 2"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is 2."
+    },
+    {
+      "id": 33,
+      "question": "What is the Cospas-Sarsat satellite frequency?",
+      "options": [
+        "A. Three",
+        "B. 406 MHz",
+        "C. I, N, O"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is 406 MHz."
+    },
+    {
+      "id": 34,
+      "question": "Which panel is used to select the frequency of any VHF common radio?",
+      "options": [
+        "A. Radio communication panel",
+        "B. 30 days",
+        "C. Clear voice transmission"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is Radio communication panel."
+    },
+    {
+      "id": 35,
+      "question": "Which is not a function/advantage of HF?",
+      "options": [
+        "A. Clear voice transmission",
+        "B. I, N, O",
+        "C. Bottom of the vertical stabilizer"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is Clear voice transmission."
+    },
+    {
+      "id": 36,
+      "question": "Flight crew initialize communication using ___ and ground station uses ___.",
+      "options": [
+        "A. to change transceiver from the reception mode to transmission mode",
+        "B. Demand zone and polled mode",
+        "C. 4"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is Demand zone and polled mode."
+    },
+    {
+      "id": 37,
+      "question": "VHF Communication is:",
+      "options": [
+        "A. crystal microphone",
+        "B. MIC",
+        "C. Space wave communication"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is Space wave communication."
+    },
+    {
+      "id": 38,
+      "question": "Which one does not pass through REU?",
+      "options": [
+        "A. RFU (Radio frequency unit)",
+        "B. area microphone",
+        "C. 10 to 100mV"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is area microphone."
+    },
+    {
+      "id": 39,
+      "question": "Which is not true about SELCAL?",
+      "options": [
+        "A. Continuous monitor",
+        "B. To equalize potential differences b/n A/C parts",
+        "C. Space wave communication"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is Continuous monitor."
+    },
+    {
+      "id": 40,
+      "question": "When can the CVR be erased?",
+      "options": [
+        "A. The A/C is on Ground and parking brake is set",
+        "B. to change transceiver from the reception mode to transmission mode",
+        "C. To equalize potential differences b/n A/C parts"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is The A/C is on Ground and parking brake is set."
+    },
+    {
+      "id": 41,
+      "question": "Which is not a purpose of HF Control panel?",
+      "options": [
+        "A. Capacitive microphone",
+        "B. Control transmitter volume",
+        "C. sky wave"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is Control transmitter volume."
+    },
+    {
+      "id": 42,
+      "question": "The universally recognized emergency frequency used for VHF communication is:",
+      "options": [
+        "A. Control transmitter volume",
+        "B. 121.5 MHz",
+        "C. 5 minutes after every hour"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is 121.5 MHz."
+    },
+    {
+      "id": 43,
+      "question": "Which letters are not used?",
+      "options": [
+        "A. I, N, O",
+        "B. Area MIC",
+        "C. Capacitive microphone"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is I, N, O."
+    },
+    {
+      "id": 44,
+      "question": "Aircraft satellite communication uses ___ band during transmitting between aircraft and ___ band for ground station.",
+      "options": [
+        "A. Antenna",
+        "B. L and C",
+        "C. Attendant to flight compartment"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is L and C."
+    },
+    {
+      "id": 45,
+      "question": "Which is not true about HF radio communication?",
+      "options": [
+        "A. orange",
+        "B. Clear voice transmission",
+        "C. It only uses line of sight propagation"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is It only uses line of sight propagation."
+    },
+    {
+      "id": 46,
+      "question": "The flight interphone system is used for:",
+      "options": [
+        "A. missing or bad bonding, Install repair bonding strap",
+        "B. Cabin crews to communicate with each other and to ground crew",
+        "C. Space wave communication"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is Cabin crews to communicate with each other and to ground crew."
+    },
+    {
+      "id": 47,
+      "question": "Which device is used to delete recorded data?",
+      "options": [
+        "A. MIC",
+        "B. Cabin Interface",
+        "C. Erase switch"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is Erase switch."
+    },
+    {
+      "id": 48,
+      "question": "A microphone that controls resistance by varying current is a:",
+      "options": [
+        "A. Aero H",
+        "B. Carbon mic",
+        "C. 10 to 100mV"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is Carbon mic."
+    },
+    {
+      "id": 49,
+      "question": "What is the use of bonding aircraft parts?",
+      "options": [
+        "A. Control panel",
+        "B. To equalize potential differences b/n A/C parts",
+        "C. service interphone system"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is To equalize potential differences b/n A/C parts."
+    },
+    {
+      "id": 50,
+      "question": "The basic function of PTT switches is:",
+      "options": [
+        "A. SELCAL decoder",
+        "B. orange",
+        "C. To put the system in a transmit mode"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is To put the system in a transmit mode."
+    },
+    {
+      "id": 51,
+      "question": "The function of an antenna coupler is to:",
+      "options": [
+        "A. Demand zone and polled mode",
+        "B. To match the antenna impedance to the HF transceiver output circuit",
+        "C. HF Transceiver"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is To match the antenna impedance to the HF transceiver output circuit."
+    },
+    {
+      "id": 52,
+      "question": "Which system actuates when landing gear compress signal is generated?",
+      "options": [
+        "A. Duplexer",
+        "B. Erase switch",
+        "C. service interphone system"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is service interphone system."
+    },
+    {
+      "id": 53,
+      "question": "A microphone that works with the principle of electromagnetic induction is a:",
+      "options": [
+        "A. The first 24 hours following traumatic event",
+        "B. Dynamic microphone",
+        "C. Cabin Interface"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is Dynamic microphone."
+    },
+    {
+      "id": 54,
+      "question": "Only input from the captain, first officer and observer go to the REU but not the:",
+      "options": [
+        "A. Aero H",
+        "B. distance between plates",
+        "C. Area MIC"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is Area MIC."
+    },
+    {
+      "id": 55,
+      "question": "Which device provides separation of the RX and TX signals?",
+      "options": [
+        "A. 10 to 100mV",
+        "B. Duplexer",
+        "C. Hand microphone"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is Duplexer."
+    },
+    {
+      "id": 56,
+      "question": "Which unit converts IF inputs from SDU to L-band RF signals, sent to HPA for transmission and vice versa?",
+      "options": [
+        "A. Erase switch",
+        "B. RFU (Radio frequency unit)",
+        "C. Demand zone and polled mode"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is RFU (Radio frequency unit)."
+    },
+    {
+      "id": 57,
+      "question": "Which is not used for satellite transmission as these frequencies are absorbed completely by water vapor?",
+      "options": [
+        "A. SELCAL Decoder",
+        "B. VHF and HF system",
+        "C. K-band"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is K-band."
+    },
+    {
+      "id": 58,
+      "question": "Which system is an air-ground communication data link network enabling an aircraft to function as a mobile terminal associated with airline command, control and management systems?",
+      "options": [
+        "A. 121.5 MHz",
+        "B. Cabin Interface",
+        "C. ACARS"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is ACARS."
+    },
+    {
+      "id": 59,
+      "question": "After being immersed, underwater locator beacons operate continuously for at least:",
+      "options": [
+        "A. 30 days",
+        "B. Carbon mic",
+        "C. GEO static satellite"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 30 days."
+    },
+    {
+      "id": 60,
+      "question": "In which position is MIC audio connected directly to the flight interphone system?",
+      "options": [
+        "A. INT",
+        "B. 121.5 MHz",
+        "C. Cockpit acoustic devices"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is INT."
+    },
+    {
+      "id": 61,
+      "question": "Which input from the voice recorder doesn't go through the remote area microphone?",
+      "options": [
+        "A. Observer's microphone",
+        "B. area microphone",
+        "C. Announcement from cabin attendant / cabin handset"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is Observer's microphone."
+    },
+    {
+      "id": 62,
+      "question": "The minimum power transmitted through cockpit microphone is:",
+      "options": [
+        "A. 10 to 100mV",
+        "B. Control panel",
+        "C. transducer"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 10 to 100mV."
+    },
+    {
+      "id": 63,
+      "question": "Which statement is true about INMARSAT existing and evolving services?",
+      "options": [
+        "A. distance between plates",
+        "B. offered through land earth stations, which are not owned nor operated by INMARSAT, but through companies which have a commercial agreement with INMARSAT",
+        "C. Aero H"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is offered through land earth stations, which are not owned nor operated by INMARSAT, but through companies which have a commercial agreement with INMARSAT."
+    },
+    {
+      "id": 64,
+      "question": "Which one is not present on the ground crew call panel?",
+      "options": [
+        "A. To equalize potential differences b/n A/C parts",
+        "B. attendant call",
+        "C. Hand microphone"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is attendant call."
+    },
+    {
+      "id": 65,
+      "question": "Which one is true when the attendant switch on the passenger sign panel is pressed?",
+      "options": [
+        "A. service interphone system",
+        "B. pink light comes on forward & aft cabin station",
+        "C. Automatic Fixed ELT (AF ELT)"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is pink light comes on forward & aft cabin station."
+    },
+    {
+      "id": 66,
+      "question": "ELTs were developed to work specifically with the Cospas-Sarsat system at:",
+      "options": [
+        "A. Space wave communication",
+        "B. 406 MHz",
+        "C. Telemetry, tracking and command (TT&C)"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is 406 MHz."
+    },
+    {
+      "id": 67,
+      "question": "The ground crew call system doesn't tell:",
+      "options": [
+        "A. To match the antenna impedance to the HF transceiver output circuit",
+        "B. call from cabin attendant to ground crew",
+        "C. IFE & Boarding music"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is call from cabin attendant to ground crew."
+    },
+    {
+      "id": 68,
+      "question": "Which system provides a signaling capability between the flight compartment and the nose landing gear area?",
+      "options": [
+        "A. attendant call",
+        "B. ground crew call system",
+        "C. 2"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is ground crew call system."
+    },
+    {
+      "id": 69,
+      "question": "Which one is true regarding bonding?",
+      "options": [
+        "A. Antenna",
+        "B. Avoid potential difference b/n aircraft structural parts",
+        "C. MIC"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is Avoid potential difference b/n aircraft structural parts."
+    },
+    {
+      "id": 70,
+      "question": "Which one is not the advantage of HF?",
+      "options": [
+        "A. to change transceiver from the reception mode to transmission mode",
+        "B. Signal from HF communication cannot easily be distorted",
+        "C. 30 days"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is Signal from HF communication cannot easily be distorted."
+    },
+    {
+      "id": 71,
+      "question": "The Satellite Data Unit:",
+      "options": [
+        "A. Interface with other on-board avionics",
+        "B. service interphone system",
+        "C. Pink"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is Interface with other on-board avionics."
+    },
+    {
+      "id": 72,
+      "question": "Which system provides facilities for communication among cabin attendants and between flight compartment crew members and attendants?",
+      "options": [
+        "A. Attendant to flight compartment",
+        "B. Observer's microphone",
+        "C. Cabin interphone system"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is Cabin interphone system."
+    },
+    {
+      "id": 73,
+      "question": "Which unit generates the carrier frequency and does modulation and demodulation for communication over HF system?",
+      "options": [
+        "A. Cockpit acoustic devices",
+        "B. To match the antenna impedance to the HF transceiver output circuit",
+        "C. HF Transceiver"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is HF Transceiver."
+    },
+    {
+      "id": 74,
+      "question": "Which panel is used to select the frequency of any VHF Communication radio?",
+      "options": [
+        "A. Radio Communication panel",
+        "B. Antenna",
+        "C. offered through land earth stations, which are not owned nor operated by INMARSAT, but through companies which have a commercial agreement with INMARSAT"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is Radio Communication panel."
+    },
+    {
+      "id": 75,
+      "question": "Which is primary for packet data including ACARS?",
+      "options": [
+        "A. Aero-L (low gain antenna)",
+        "B. Cabin crews to communicate with each other and to ground crew",
+        "C. HF Transceiver"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is Aero-L (low gain antenna)."
+    },
+    {
+      "id": 76,
+      "question": "An underwater locator beacon transmits a usable signal for:",
+      "options": [
+        "A. 30 days",
+        "B. fuselage",
+        "C. Bottom of the vertical stabilizer"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 30 days."
+    },
+    {
+      "id": 77,
+      "question": "How many input channels does the CVR have?",
+      "options": [
+        "A. HF Transceiver",
+        "B. Observer's microphone",
+        "C. 4"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is 4."
+    },
+    {
+      "id": 78,
+      "question": "The fourth channel of CVR is used for:",
+      "options": [
+        "A. VHF and HF system",
+        "B. area microphone",
+        "C. Control transmitter volume"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is area microphone."
+    },
+    {
+      "id": 79,
+      "question": "In SELCAL system, each aircraft has:",
+      "options": [
+        "A. Interface with other on-board avionics",
+        "B. 4 letter code",
+        "C. service interphone system"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is 4 letter code."
+    },
+    {
+      "id": 80,
+      "question": "Which unit receives the signal emitted on the ground and initiates visual and aural indication?",
+      "options": [
+        "A. SELCAL decoder",
+        "B. attendant call",
+        "C. program switch"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is SELCAL decoder."
+    },
+    {
+      "id": 81,
+      "question": "In the cabin microphone system, which has the highest priority level?",
+      "options": [
+        "A. missing or bad bonding, Install repair bonding strap",
+        "B. service interphone system",
+        "C. Cockpit acoustic devices"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is Cockpit acoustic devices."
+    },
+    {
+      "id": 82,
+      "question": "Which type of microphone works on variation of capacitance?",
+      "options": [
+        "A. To prevent acoustic feedback whistling noise",
+        "B. electrostatic microphone",
+        "C. Control transmitter volume"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is electrostatic microphone."
+    },
+    {
+      "id": 83,
+      "question": "For an aircraft with a maximum takeoff weight less than 5,700 kg, continuous CVR recording is required for:",
+      "options": [
+        "A. Radio communication panel",
+        "B. sound wave",
+        "C. 30 min"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is 30 min."
+    },
+    {
+      "id": 84,
+      "question": "What is the source of power for ELT operation?",
+      "options": [
+        "A. Its own battery",
+        "B. 2 - 29.9 MHz",
+        "C. INT"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is Its own battery."
+    },
+    {
+      "id": 85,
+      "question": "Testing of the ELT can be done:",
+      "options": [
+        "A. 5 minutes after every hour",
+        "B. Control panel",
+        "C. area microphone"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 5 minutes after every hour."
+    },
+    {
+      "id": 86,
+      "question": "Which unit determines if the aircraft's four-letter code has been received and produces indicators on the SELCAL control panel and audio tones to the audio system?",
+      "options": [
+        "A. area microphone",
+        "B. SELCAL Decoder",
+        "C. It only uses line of sight propagation"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is SELCAL Decoder."
+    },
+    {
+      "id": 87,
+      "question": "Which unit amplifies the transmitted RF signal from the RFU to the appropriate power level?",
+      "options": [
+        "A. High power amplifier",
+        "B. Cabin Interface",
+        "C. INT"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is High power amplifier."
+    },
+    {
+      "id": 88,
+      "question": "The SELCAL ___ consists of SELCAL warning lamps annotated to the associated radio decoder.",
+      "options": [
+        "A. Dynamic microphone",
+        "B. IFE & Boarding music",
+        "C. Control panel"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is Control panel."
+    },
+    {
+      "id": 89,
+      "question": "In the passenger address system, the PA Amplifier gives last priority for:",
+      "options": [
+        "A. IFE & Boarding music",
+        "B. 10 to 100mV",
+        "C. Carbon mic"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is IFE & Boarding music."
+    },
+    {
+      "id": 90,
+      "question": "The control wheel mic switch on the outboard horn of the captain's and first officer's control wheel has ___ position switch.",
+      "options": [
+        "A. Three",
+        "B. Automatic deployable ELT (ADELT)",
+        "C. The first 24 hours following traumatic event"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is Three."
+    },
+    {
+      "id": 91,
+      "question": "For a call made from attendant to attendant station, which light on the forward or aft area comes on?",
+      "options": [
+        "A. Antenna",
+        "B. Pink",
+        "C. Interface with other on-board avionics"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is Pink."
+    },
+    {
+      "id": 92,
+      "question": "In passenger address system, the second priority is given for:",
+      "options": [
+        "A. Announcement from cabin attendant / cabin handset",
+        "B. The external service interphone call button was pressed by ground crew",
+        "C. SELCAL"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is Announcement from cabin attendant / cabin handset."
+    },
+    {
+      "id": 93,
+      "question": "Which one is not found on the ground crew's interphone panel?",
+      "options": [
+        "A. Interface with other on-board avionics",
+        "B. Announcement from cabin attendant / cabin handset",
+        "C. Pilot Call"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is Pilot Call."
+    },
+    {
+      "id": 94,
+      "question": "When you connect all the metal parts of an aircraft with low-resistance electrical path, this is called:",
+      "options": [
+        "A. crystal microphone",
+        "B. It radiates radio frequencies that interfere with radio and navigation equipment",
+        "C. Bonding"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is Bonding."
+    },
+    {
+      "id": 95,
+      "question": "Where is the antenna coupler located?",
+      "options": [
+        "A. Bottom of the vertical stabilizer",
+        "B. 10 to 100mV",
+        "C. 4"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is Bottom of the vertical stabilizer."
+    },
+    {
+      "id": 96,
+      "question": "Which one is part of the space segment in satellite communication?",
+      "options": [
+        "A. Area MIC",
+        "B. Telemetry, tracking and command (TT&C)",
+        "C. Antenna"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is Telemetry, tracking and command (TT&C)."
+    },
+    {
+      "id": 97,
+      "question": "Which one is not true regarding precautions during HF communication operation?",
+      "options": [
+        "A. Its own battery",
+        "B. GEO static satellite",
+        "C. one cannot work on the antennas under the fuselage"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is one cannot work on the antennas under the fuselage."
+    },
+    {
+      "id": 98,
+      "question": "Which type of microphone utilizes piezoelectric properties?",
+      "options": [
+        "A. to change transceiver from the reception mode to transmission mode",
+        "B. IFE & Boarding music",
+        "C. crystal microphone"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is crystal microphone."
+    },
+    {
+      "id": 99,
+      "question": "Which communication system is used by all cockpit crew, cabin crew & maintenance crew?",
+      "options": [
+        "A. Announcement from cabin attendant / cabin handset",
+        "B. Cabin crews to communicate with each other and to ground crew",
+        "C. service interphone system"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is service interphone system."
+    },
+    {
+      "id": 100,
+      "question": "SELCAL system:",
+      "options": [
+        "A. to change transceiver from the reception mode to transmission mode",
+        "B. Its own battery",
+        "C. reduces the burden of the flight crew"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is reduces the burden of the flight crew."
+    },
+    {
+      "id": 101,
+      "question": "In what position of the control wheel mic switch is audio directed to the selected radio communication system?",
+      "options": [
+        "A. Avoid potential difference b/n aircraft structural parts",
+        "B. Aero-L (low gain antenna)",
+        "C. MIC"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is MIC."
+    }
+  ]
+}
