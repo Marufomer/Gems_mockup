@@ -13,1299 +13,1299 @@
       "id": 1,
       "question": "Battery source is",
       "options": [
-        "A. Not Direct current",
-        "B. Other condition",
-        "C. Direct current"
+        "A. Alternating current",
+        "B. Direct current",
+        "C. Pulsating current"
       ],
-      "correctIndex": 2,
-      "explanation": "The correct answer is Direct current."
+      "correctIndex": 1,
+      "explanation": "A battery supplies direct current because its chemical reaction establishes a fixed polarity between its positive and negative terminals."
     },
     {
       "id": 2,
       "question": "Battery voltage decrease to 10.5V with 6 cells",
       "options": [
         "A. Fully discharged",
-        "B. No change",
-        "C. Other condition"
+        "B. Fully charged",
+        "C. Overcharged"
       ],
       "correctIndex": 0,
-      "explanation": "The correct answer is Fully discharged."
+      "explanation": "For a six-cell lead-acid battery, a terminal voltage around 10.5 V indicates that the battery has reached a fully discharged condition."
     },
     {
       "id": 3,
       "question": "Not an advantage of Ni-cad over lead acid",
       "options": [
-        "A. None of these alternatives",
+        "A. Longer service life",
         "B. Less weight",
-        "C. No change"
+        "C. Better performance at high discharge rates"
       ],
       "correctIndex": 1,
-      "explanation": "The correct answer is Less weight."
+      "explanation": "Less weight is not normally considered an advantage of Ni-Cd over lead-acid batteries in aircraft battery comparisons."
     },
     {
       "id": 4,
       "question": "Which method takes longer to charge",
       "options": [
-        "A. No change",
-        "B. Not Constant current charging (CCC)",
-        "C. Constant current charging (CCC)"
+        "A. Constant voltage charging",
+        "B. Constant current charging (CCC)",
+        "C. Rapid charging"
       ],
-      "correctIndex": 2,
-      "explanation": "The correct answer is Constant current charging (CCC)."
+      "correctIndex": 1,
+      "explanation": "Constant current charging supplies a controlled current throughout the charging process and generally requires more time than rapid charging methods."
     },
     {
       "id": 5,
       "question": "Voltage regulator on modern light aircraft",
       "options": [
-        "A. Solid state",
-        "B. Other condition",
-        "C. No change"
+        "A. Carbon pile",
+        "B. Vibrating contact",
+        "C. Solid state"
       ],
-      "correctIndex": 0,
-      "explanation": "The correct answer is Solid state."
+      "correctIndex": 2,
+      "explanation": "Modern light aircraft commonly use solid-state voltage regulators because they have no mechanical contacts and provide reliable voltage control."
     },
     {
       "id": 6,
       "question": "Separately excited DC generator requires current from",
       "options": [
         "A. External DC power source",
-        "B. None of these alternatives",
-        "C. No change"
+        "B. Generator output only",
+        "C. Armature reaction"
       ],
       "correctIndex": 0,
-      "explanation": "The correct answer is External DC power source."
+      "explanation": "A separately excited generator receives its field current from an external DC power source rather than from its own generated output."
     },
     {
       "id": 7,
       "question": "Active material in Ni-cad battery",
       "options": [
-        "A. Cadmium",
-        "B. No change",
-        "C. Not Cadmium"
+        "A. Lead peroxide",
+        "B. Cadmium",
+        "C. Sulfuric acid"
       ],
-      "correctIndex": 0,
-      "explanation": "The correct answer is Cadmium."
+      "correctIndex": 1,
+      "explanation": "Cadmium is one of the active electrode materials used in a nickel-cadmium battery."
     },
     {
       "id": 8,
       "question": "NiCad battery with combination of high battery Tº and overcharging",
       "options": [
         "A. Thermal runaway",
-        "B. Other condition",
-        "C. No change"
+        "B. Memory effect",
+        "C. Sulfation"
       ],
       "correctIndex": 0,
-      "explanation": "The correct answer is Thermal runaway."
+      "explanation": "High battery temperature combined with overcharging can increase charging current and temperature further, producing thermal runaway."
     },
     {
       "id": 9,
       "question": "When a circuit is connected to lead acid, electron flow is from",
       "options": [
-        "A. Other condition",
-        "B. None of these alternatives",
-        "C. Negative to positive"
+        "A. Positive to negative",
+        "B. Negative to positive",
+        "C. Both directions simultaneously"
       ],
-      "correctIndex": 2,
-      "explanation": "The correct answer is Negative to positive."
+      "correctIndex": 1,
+      "explanation": "In the external circuit, conventional electron flow is from the negative terminal toward the positive terminal."
     },
     {
       "id": 10,
       "question": "Positive plate of anode in Ni-cad",
       "options": [
-        "A. Ni(OH)4",
-        "B. Not Ni(OH)4",
-        "C. Other condition"
+        "A. Metallic cadmium",
+        "B. Nickel hydroxide",
+        "C. Lead peroxide"
       ],
-      "correctIndex": 0,
-      "explanation": "The correct answer is Ni(OH)4."
+      "correctIndex": 1,
+      "explanation": "The positive electrode of a nickel-cadmium cell contains nickel compounds that participate in the electrochemical reaction."
     },
     {
       "id": 11,
       "question": "Freezed battery subjected to high charge rate may",
       "options": [
         "A. Explode",
-        "B. None of these alternatives",
-        "C. Other condition"
+        "B. Increase capacity permanently",
+        "C. Produce zero resistance"
       ],
       "correctIndex": 0,
-      "explanation": "The correct answer is Explode."
+      "explanation": "Charging a frozen battery at a high rate can cause dangerous internal pressure and damage, creating a risk of explosion."
     },
     {
       "id": 12,
       "question": "Which battery is known for high energy desity",
       "options": [
-        "A. None of these alternatives",
-        "B. No change",
+        "A. Lead-acid",
+        "B. Nickel-cadmium",
         "C. Lithium"
       ],
       "correctIndex": 2,
-      "explanation": "The correct answer is Lithium."
+      "explanation": "Lithium batteries are known for high energy density, allowing substantial stored energy for relatively low weight."
     },
     {
       "id": 13,
       "question": "Ni-cad batteries electrolyte is",
       "options": [
-        "A. Not KOH and distilled water",
-        "B. Other condition",
-        "C. KOH and distilled water"
+        "A. KOH and distilled water",
+        "B. H2SO4 and distilled water",
+        "C. Sodium chloride and water"
       ],
-      "correctIndex": 2,
-      "explanation": "The correct answer is KOH and distilled water."
+      "correctIndex": 0,
+      "explanation": "Nickel-cadmium batteries use an alkaline electrolyte consisting primarily of potassium hydroxide and distilled water."
     },
     {
       "id": 14,
       "question": "Amount of electrical energy that a cell can provide from new to the end of its useful voltage on load",
       "options": [
-        "A. None of these alternatives",
-        "B. Not Cell capacity",
-        "C. Cell capacity"
+        "A. Cell voltage",
+        "B. Cell capacity",
+        "C. Internal resistance"
       ],
-      "correctIndex": 2,
-      "explanation": "The correct answer is Cell capacity."
+      "correctIndex": 1,
+      "explanation": "Cell capacity represents the amount of electrical charge or energy that a cell can deliver during its useful discharge period."
     },
     {
       "id": 15,
       "question": "Which voltage regulator has moving parts",
       "options": [
-        "A. Carbon pile voltage regulators",
-        "B. Not Carbon pile voltage regulators",
-        "C. None of these alternatives"
+        "A. Solid-state voltage regulator",
+        "B. Transistorized voltage regulator",
+        "C. Carbon pile voltage regulators"
       ],
-      "correctIndex": 0,
-      "explanation": "The correct answer is Carbon pile voltage regulators."
+      "correctIndex": 2,
+      "explanation": "Carbon-pile voltage regulators use mechanical movement to vary the resistance of a carbon pile and therefore contain moving parts."
     },
     {
       "id": 16,
       "question": "Is used in field excited type Dc generator",
       "options": [
         "A. Electromagnetic",
-        "B. None of these alternatives",
-        "C. Other condition"
+        "B. Permanent magnet only",
+        "C. Piezoelectric"
       ],
       "correctIndex": 0,
-      "explanation": "The correct answer is Electromagnetic."
+      "explanation": "Field-excited DC generators use electromagnetic field windings to establish the magnetic field required for generation."
     },
     {
       "id": 17,
       "question": "What connection used to have equal voltage bin field winding and armature winding",
       "options": [
-        "A. No change",
-        "B. Not Shunt",
-        "C. Shunt"
+        "A. Series",
+        "B. Shunt",
+        "C. Compound"
       ],
-      "correctIndex": 2,
-      "explanation": "The correct answer is Shunt."
+      "correctIndex": 1,
+      "explanation": "In a shunt connection, the field winding is connected across the armature output, so the field winding and armature terminals have the same voltage."
     },
     {
       "id": 18,
       "question": "Which of the following doesn't directly affect the output of the generator",
       "options": [
-        "A. None of these alternatives",
-        "B. Armature types",
-        "C. No change"
+        "A. Armature types",
+        "B. Field strength",
+        "C. Rotational speed"
       ],
-      "correctIndex": 1,
-      "explanation": "The correct answer is Armature types."
+      "correctIndex": 0,
+      "explanation": "Field strength and rotational speed directly influence generated EMF. The armature type itself does not directly determine the generator output in the same manner."
     },
     {
       "id": 19,
       "question": "A battery used for high capacity and high discharge rate",
       "options": [
-        "A. None of these alternatives",
-        "B. Vented Ni-cad battery",
-        "C. Other condition"
+        "A. Vented Ni-cad battery",
+        "B. Small dry-cell battery",
+        "C. Sealed lead-acid battery only"
       ],
-      "correctIndex": 1,
-      "explanation": "The correct answer is Vented Ni-cad battery."
+      "correctIndex": 0,
+      "explanation": "Vented nickel-cadmium batteries are suitable for aircraft applications requiring high capacity and high discharge capability."
     },
     {
       "id": 20,
       "question": "Negative plate after discharge in Ni-cad becomes",
       "options": [
-        "A. Other condition",
-        "B. None of these alternatives",
-        "C. Metallic Cadmium"
+        "A. Nickel oxide",
+        "B. Metallic Cadmium",
+        "C. Lead sulfate"
       ],
-      "correctIndex": 2,
-      "explanation": "The correct answer is Metallic Cadmium."
+      "correctIndex": 1,
+      "explanation": "During discharge, the negative electrode reaction in a Ni-Cd cell involves cadmium compounds, with the discharged negative material becoming cadmium hydroxide and associated reaction products."
     },
     {
       "id": 21,
       "question": "Which terminal should we disconnect first",
       "options": [
-        "A. Negative",
-        "B. None of these alternatives",
-        "C. No change"
+        "A. Positive",
+        "B. Negative",
+        "C. Both at the same time"
       ],
-      "correctIndex": 0,
-      "explanation": "The correct answer is Negative."
+      "correctIndex": 1,
+      "explanation": "The negative terminal is normally disconnected first to reduce the risk of an accidental short circuit between the positive terminal and the aircraft structure."
     },
     {
       "id": 22,
       "question": "Types of DC generator used in laboratory",
       "options": [
-        "A. No change",
-        "B. None of these alternatives",
-        "C. Separately excited"
+        "A. Separately excited",
+        "B. Permanent magnet",
+        "C. Induction generator"
       ],
-      "correctIndex": 2,
-      "explanation": "The correct answer is Separately excited."
+      "correctIndex": 0,
+      "explanation": "A separately excited DC generator is commonly used for laboratory study because its field excitation can be independently controlled."
     },
     {
       "id": 23,
       "question": "Commutator segments of a DC generator are part of (Rotating part in DC)",
       "options": [
-        "A. Armature assembly",
-        "B. No change",
-        "C. None of these alternatives"
+        "A. Field assembly",
+        "B. Armature assembly",
+        "C. Yoke assembly"
       ],
-      "correctIndex": 0,
-      "explanation": "The correct answer is Armature assembly."
+      "correctIndex": 1,
+      "explanation": "The commutator rotates with the armature and is electrically connected to the armature windings."
     },
     {
       "id": 24,
       "question": "Voltage generated by a basic generator",
       "options": [
-        "A. No change",
+        "A. DC",
         "B. AC",
-        "C. None of these alternatives"
+        "C. Static voltage"
       ],
       "correctIndex": 1,
-      "explanation": "The correct answer is AC."
+      "explanation": "A basic generator produces alternating voltage because the induced EMF reverses direction as the conductors rotate through opposite magnetic poles."
     },
     {
       "id": 25,
       "question": "Current in armature conductors of a DC generator",
       "options": [
         "A. AC",
-        "B. None of these alternatives",
-        "C. Other condition"
+        "B. Pure DC before the commutator",
+        "C. No current"
       ],
       "correctIndex": 0,
-      "explanation": "The correct answer is AC."
+      "explanation": "The current induced in the rotating armature conductors alternates in direction. The commutator mechanically rectifies it to provide DC at the output."
     },
     {
       "id": 26,
       "question": "DC generators are",
       "options": [
-        "A. Not Self-excited type",
-        "B. No change",
-        "C. Self-excited type"
+        "A. Self-excited type",
+        "B. Always permanent-magnet type",
+        "C. Always separately excited"
       ],
-      "correctIndex": 2,
-      "explanation": "The correct answer is Self-excited type."
+      "correctIndex": 0,
+      "explanation": "DC generators used in aircraft and electrical systems can be self-excited, where the generator supplies its own field excitation after voltage builds up."
     },
     {
       "id": 27,
       "question": "Method of restoring generator field residual magnetism",
       "options": [
         "A. Flash the fields",
-        "B. Not Flash the fields",
-        "C. None of these alternatives"
+        "B. Reverse the armature permanently",
+        "C. Remove the commutator"
       ],
       "correctIndex": 0,
-      "explanation": "The correct answer is Flash the fields."
+      "explanation": "Flashing the field applies an external DC source to restore the residual magnetism needed for voltage build-up."
     },
     {
       "id": 28,
       "question": "Ni-cad cells installed in",
       "options": [
-        "A. Other condition",
-        "B. Not Vented cell",
-        "C. Vented cell"
+        "A. Vented cell",
+        "B. Open electrolyte tank",
+        "C. Carbon pile housing"
       ],
-      "correctIndex": 2,
-      "explanation": "The correct answer is Vented cell."
+      "correctIndex": 0,
+      "explanation": "Aircraft nickel-cadmium batteries may use vented cells that allow gases produced during charging to be managed through the venting system."
     },
     {
       "id": 29,
       "question": "What will happen to output voltage as electric load increase self exited DC",
       "options": [
-        "A. Increase",
-        "B. Other condition",
-        "C. Not Increase"
+        "A. Remains exactly constant without regulation",
+        "B. Increase",
+        "C. Becomes zero immediately"
       ],
-      "correctIndex": 0,
-      "explanation": "The correct answer is Increase."
+      "correctIndex": 1,
+      "explanation": "The supplied answer is Increase. Generator output voltage is influenced by load, field excitation, speed, and the voltage regulation system."
     },
     {
       "id": 30,
       "question": "Capacity of battery is free of",
       "options": [
         "A. Internal resistance",
-        "B. No change",
-        "C. None of these alternatives"
+        "B. Plate area",
+        "C. Temperature"
       ],
       "correctIndex": 0,
-      "explanation": "The correct answer is Internal resistance."
+      "explanation": "The supplied answer is Internal resistance. Battery capacity is normally expressed as the amount of charge a battery can deliver under specified conditions."
     },
     {
       "id": 31,
       "question": "Capacity of Ni-Cd battery not affected",
       "options": [
-        "A. No change",
-        "B. None of these alternatives",
-        "C. Under/over filling"
+        "A. Ambient temperature",
+        "B. Under/over filling",
+        "C. Discharge rate"
       ],
-      "correctIndex": 2,
-      "explanation": "The correct answer is Under/over filling."
+      "correctIndex": 1,
+      "explanation": "The supplied answer is Under/over filling. Battery capacity depends on operating and charging conditions, while electrolyte level must also be maintained correctly."
     },
     {
       "id": 32,
       "question": "Increasing the no of armature coil",
       "options": [
         "A. Reduce the variation bin maximum/minimum voltage",
-        "B. Not Reduce the variation bin maximum/minimum voltage",
-        "C. No change"
+        "B. Eliminate the magnetic field",
+        "C. Stop armature rotation"
       ],
       "correctIndex": 0,
-      "explanation": "The correct answer is Reduce the variation bin maximum/minimum voltage."
+      "explanation": "Increasing the number of armature coils provides more overlapping generated voltage contributions and helps reduce the variation between maximum and minimum output voltage."
     },
     {
       "id": 33,
       "question": "The armature reaction doesn't",
       "options": [
-        "A. Other condition",
+        "A. Distort the main magnetic field",
         "B. Eliminate the main flux",
-        "C. None of these alternatives"
+        "C. Shift the magnetic neutral plane"
       ],
       "correctIndex": 1,
-      "explanation": "The correct answer is Eliminate the main flux."
+      "explanation": "Armature reaction distorts and can weaken the main magnetic field, but it does not completely eliminate the main flux."
     },
     {
       "id": 34,
       "question": "Using auxiliary poles bin the main poles used to",
       "options": [
-        "A. Canceling the Armature rxn",
-        "B. No change",
-        "C. Not Canceling the Armature rxn"
+        "A. Increase bearing friction",
+        "B. Canceling the Armature rxn",
+        "C. Reduce rotor speed"
       ],
-      "correctIndex": 0,
-      "explanation": "The correct answer is Canceling the Armature rxn."
+      "correctIndex": 1,
+      "explanation": "Auxiliary or interpoles provide a magnetic field that counteracts the effects of armature reaction in the commutation zone."
     },
     {
       "id": 35,
       "question": "Seriesly connect with Armature winding & produce opposite armature current",
       "options": [
-        "A. None of these alternatives",
-        "B. Compensating winding",
-        "C. Other condition"
+        "A. Compensating winding",
+        "B. Field shunt",
+        "C. Equalizer ring"
       ],
-      "correctIndex": 1,
-      "explanation": "The correct answer is Compensating winding."
+      "correctIndex": 0,
+      "explanation": "Compensating windings are connected in series with the armature circuit and produce a magnetic effect opposing armature reaction."
     },
     {
       "id": 36,
       "question": "The armature connected on hallow iron core",
       "options": [
-        "A. No change",
-        "B. None of these alternatives",
-        "C. Ring winding"
+        "A. Ring winding",
+        "B. Wave winding",
+        "C. Drum winding"
       ],
-      "correctIndex": 2,
-      "explanation": "The correct answer is Ring winding."
+      "correctIndex": 0,
+      "explanation": "Ring winding is associated with conductors wound around a ring-shaped or hollow iron armature core."
     },
     {
       "id": 37,
       "question": "If battery is fully discharging and not changed immediately",
       "options": [
         "A. The lead sulfate crystalize",
-        "B. Not The lead sulfate crystalize",
-        "C. No change"
+        "B. The electrolyte becomes pure water",
+        "C. The plates become permanently magnetized"
       ],
       "correctIndex": 0,
-      "explanation": "The correct answer is The lead sulfate crystalize."
+      "explanation": "If a lead-acid battery remains deeply discharged, lead sulfate can form larger crystals, producing sulfation and reducing battery performance."
     },
     {
       "id": 38,
       "question": "Not disadvantage of ni-cd battery over lead acid",
       "options": [
-        "A. No change",
-        "B. Other condition",
-        "C. Less long life"
+        "A. Higher initial cost",
+        "B. Less long life",
+        "C. More tolerant of repeated cycling"
       ],
-      "correctIndex": 2,
-      "explanation": "The correct answer is Less long life."
+      "correctIndex": 1,
+      "explanation": "The supplied answer is Less long life. Nickel-cadmium batteries are generally recognized for good cycle life, particularly under repeated discharge and recharge conditions."
     },
     {
       "id": 39,
       "question": "Rotary electrical component that periodically reverse the current discharge bin rotor & electric circuit",
       "options": [
-        "A. None of these alternatives",
+        "A. Slip ring",
         "B. Commutator",
-        "C. Other condition"
+        "C. Rotor shaft"
       ],
       "correctIndex": 1,
-      "explanation": "The correct answer is Commutator."
+      "explanation": "The commutator periodically reverses the electrical connection of the armature coils so that the external output remains unidirectional."
     },
     {
       "id": 40,
       "question": "Basic generative output",
       "options": [
-        "A. Pulsating DC",
-        "B. No change",
-        "C. Not Pulsating DC"
+        "A. Pure AC",
+        "B. Pulsating DC",
+        "C. Static charge"
       ],
-      "correctIndex": 0,
-      "explanation": "The correct answer is Pulsating DC."
+      "correctIndex": 1,
+      "explanation": "A basic DC generator produces pulsating DC at its output because the commutator mechanically rectifies the alternating armature EMF."
     },
     {
       "id": 41,
       "question": "Dc alternator control unit",
       "options": [
         "A. Current limiter and voltage regulator",
-        "B. Not Current limiter and voltage regulator",
-        "C. Other condition"
+        "B. Transformer and inverter",
+        "C. Rectifier and frequency converter"
       ],
       "correctIndex": 0,
-      "explanation": "The correct answer is Current limiter and voltage regulator."
+      "explanation": "The DC alternator control system includes voltage regulation and current-limiting functions to control generator output and protect the system."
     },
     {
       "id": 42,
       "question": "False about NiCd",
       "options": [
-        "A. None of these alternatives",
-        "B. Not release K from the electrolyte",
-        "C. release K from the electrolyte"
+        "A. It uses an alkaline electrolyte",
+        "B. release K from the electrolyte",
+        "C. It uses cadmium as an electrode material"
       ],
-      "correctIndex": 2,
-      "explanation": "The correct answer is release K from the electrolyte."
+      "correctIndex": 1,
+      "explanation": "The supplied answer is release K from the electrolyte. Nickel-cadmium battery chemistry uses potassium hydroxide electrolyte and does not normally describe potassium as an active electrode product."
     },
     {
       "id": 43,
       "question": "Series generator",
       "options": [
-        "A. less no of winding",
-        "B. No change",
-        "C. Other condition"
+        "A. Has no field winding",
+        "B. has less no of winding",
+        "C. Uses only permanent magnets"
       ],
-      "correctIndex": 0,
-      "explanation": "The correct answer is less no of winding."
+      "correctIndex": 1,
+      "explanation": "The supplied answer is less no of winding. A series generator has its field winding connected in series with the armature and load."
     },
     {
       "id": 44,
       "question": "As to Electromagnetic field is proportional to",
       "options": [
-        "A. current",
-        "B. Other condition",
-        "C. Not current"
+        "A. Current",
+        "B. Resistance only",
+        "C. Temperature only"
       ],
       "correctIndex": 0,
-      "explanation": "The correct answer is current."
+      "explanation": "The strength of an electromagnetic field produced by a coil is related to the current through the coil and the number of turns."
     },
     {
       "id": 45,
       "question": "Chemical rxn takes place and current and enters in to the call is",
       "options": [
-        "A. None of these alternatives",
-        "B. No change",
-        "C. electrode"
+        "A. Electrode",
+        "B. Electrolyte",
+        "C. Separator"
       ],
-      "correctIndex": 2,
-      "explanation": "The correct answer is electrode."
+      "correctIndex": 0,
+      "explanation": "The supplied answer is electrode. Electrodes are the conductive elements where electrochemical reactions take place and current enters or leaves the cell."
     },
     {
       "id": 46,
       "question": "__ use specific gravity to determine state of change",
       "options": [
-        "A. lead acid",
-        "B. No change",
-        "C. None of these alternatives"
+        "A. Ni-Cd battery",
+        "B. Lead acid",
+        "C. Lithium-ion battery"
       ],
-      "correctIndex": 0,
-      "explanation": "The correct answer is lead acid."
+      "correctIndex": 1,
+      "explanation": "The specific gravity of the electrolyte in a lead-acid battery changes with its state of charge and can therefore be used as an indication of charge condition."
     },
     {
       "id": 47,
       "question": "__ to measure specific gravity of liquid",
       "options": [
-        "A. Other condition",
-        "B. hydrometer",
-        "C. No change"
+        "A. Hydrometer",
+        "B. Voltmeter",
+        "C. Ammeter"
       ],
-      "correctIndex": 1,
-      "explanation": "The correct answer is hydrometer."
+      "correctIndex": 0,
+      "explanation": "A hydrometer measures the specific gravity of a liquid by determining the density of the liquid relative to water."
     },
     {
       "id": 48,
       "question": "What does it mean high resistance field coil in self-excite dc generator",
       "options": [
-        "A. Not tm coil (and more turn)",
-        "B. tm coil (and more turn)",
-        "C. No change"
+        "A. tm coil (and more turn)",
+        "B. Low resistance with fewer turns",
+        "C. Short-circuited armature"
       ],
-      "correctIndex": 1,
-      "explanation": "The correct answer is tm coil (and more turn)."
+      "correctIndex": 0,
+      "explanation": "The supplied answer is tm coil (and more turn). A high-resistance field winding is associated with a larger number of turns of relatively fine wire."
     },
     {
       "id": 49,
       "question": "When gassing occurs some of water absorbed by plate, to protect this action",
       "options": [
-        "A. Not water adjustment",
-        "B. No change",
-        "C. water adjustment"
+        "A. Increase the charging voltage",
+        "B. water adjustment",
+        "C. Remove the electrolyte"
       ],
-      "correctIndex": 2,
-      "explanation": "The correct answer is water adjustment."
+      "correctIndex": 1,
+      "explanation": "The supplied answer is water adjustment. In serviceable battery systems, electrolyte or water level is maintained according to the manufacturer's maintenance procedure."
     },
     {
       "id": 50,
       "question": "Specific gravity of Ni-cd is less than",
       "options": [
-        "A. No change",
-        "B. Not 1300",
-        "C. 1300"
+        "A. 1300",
+        "B. 1500",
+        "C. 1800"
       ],
-      "correctIndex": 2,
-      "explanation": "The correct answer is 1300."
+      "correctIndex": 0,
+      "explanation": "The supplied answer is 1300. Nickel-cadmium electrolyte has a specific gravity lower than the values associated with concentrated sulfuric acid electrolyte."
     },
     {
       "id": 51,
       "question": "Li-ion unique from others by",
       "options": [
-        "A. No change",
-        "B. Other condition",
-        "C. Galvanic rxn"
+        "A. Galvanic rxn",
+        "B. Mechanical compression",
+        "C. Magnetic induction"
       ],
-      "correctIndex": 2,
-      "explanation": "The correct answer is Galvanic rxn."
+      "correctIndex": 0,
+      "explanation": "The supplied answer is Galvanic rxn. Lithium-ion cells operate through electrochemical reactions involving movement of lithium ions between the electrodes."
     },
     {
       "id": 52,
       "question": "For long duration to storage battery, connecting -ve & +ve by shortening is called",
       "options": [
-        "A. No change",
-        "B. Not Dip cycle",
-        "C. Dip cycle"
+        "A. Dip cycle",
+        "B. Float charging",
+        "C. Equalizing charge"
       ],
-      "correctIndex": 2,
-      "explanation": "The correct answer is Dip cycle."
+      "correctIndex": 0,
+      "explanation": "The supplied answer is Dip cycle. The term is retained exactly as provided in the question source."
     },
     {
       "id": 53,
       "question": "Mechanical supper for armature bearing and feed magnetic flux for the pole",
       "options": [
         "A. End frame",
-        "B. Not End frame",
-        "C. No change"
+        "B. Commutator",
+        "C. Brush holder"
       ],
       "correctIndex": 0,
-      "explanation": "The correct answer is End frame."
+      "explanation": "The end frame provides mechanical support for the armature bearings and forms part of the magnetic circuit around the generator."
     },
     {
       "id": 54,
       "question": "Modern generator control",
       "options": [
-        "A. Not Solid state control",
-        "B. No change",
-        "C. Solid state control"
+        "A. Carbon pile control",
+        "B. Solid state control",
+        "C. Mechanical contact control"
       ],
-      "correctIndex": 2,
-      "explanation": "The correct answer is Solid state control."
+      "correctIndex": 1,
+      "explanation": "Modern generator control systems commonly use solid-state electronics because they provide accurate and reliable regulation without mechanical contacts."
     },
     {
       "id": 55,
       "question": "End of first coil connected to the next coil under Main pole",
       "options": [
-        "A. Not Wave winding",
-        "B. Other condition",
-        "C. Wave winding"
+        "A. Wave winding",
+        "B. Series winding",
+        "C. Shunt winding"
       ],
-      "correctIndex": 2,
-      "explanation": "The correct answer is Wave winding."
+      "correctIndex": 0,
+      "explanation": "The supplied answer is Wave winding. In wave winding, successive coils are connected so the winding progresses around the armature in a wave-like pattern."
     },
     {
       "id": 56,
       "question": "Induced EMF in DC generator requires",
       "options": [
-        "A. Other condition",
-        "B. Magnetic field, conductive material & relative motion",
-        "C. None of these alternatives"
+        "A. Magnetic field, conductive material & relative motion",
+        "B. Resistance, capacitance & insulation",
+        "C. Battery, transformer & inverter"
       ],
-      "correctIndex": 1,
-      "explanation": "The correct answer is Magnetic field, conductive material & relative motion."
+      "correctIndex": 0,
+      "explanation": "Electromagnetic induction requires a magnetic field, a conductor, and relative motion between the conductor and magnetic field."
     },
     {
       "id": 57,
       "question": "The voltage measurement without connected load to the battery is called",
       "options": [
-        "A. Not open-circuit voltage",
-        "B. None of these alternatives",
-        "C. open-circuit voltage"
+        "A. Load voltage",
+        "B. Open-circuit voltage",
+        "C. Short-circuit voltage"
       ],
-      "correctIndex": 2,
-      "explanation": "The correct answer is open-circuit voltage."
+      "correctIndex": 1,
+      "explanation": "Open-circuit voltage is the voltage measured across a battery when no external load is connected and essentially no load current is flowing."
     },
     {
       "id": 58,
       "question": "The first to do when removing a generator",
       "options": [
-        "A. Not disconnect any external power",
-        "B. No change",
-        "C. disconnect any external power"
+        "A. Disconnect any external power",
+        "B. Remove the brushes first",
+        "C. Increase generator output"
       ],
-      "correctIndex": 2,
-      "explanation": "The correct answer is disconnect any external power."
+      "correctIndex": 0,
+      "explanation": "Disconnecting external electrical power first prevents accidental energization and reduces the risk of electrical injury or equipment damage."
     },
     {
       "id": 59,
       "question": "The first thing to do when removing a battery",
       "options": [
-        "A. Not master charger off",
-        "B. None of these alternatives",
-        "C. master charger off"
+        "A. Master charger off",
+        "B. Increase the battery voltage",
+        "C. Connect the positive terminal to ground"
       ],
-      "correctIndex": 2,
-      "explanation": "The correct answer is master charger off."
+      "correctIndex": 0,
+      "explanation": "The supplied answer is master charger off. Removing the charging source first prevents the battery from remaining connected to an active charging circuit."
     },
     {
       "id": 60,
       "question": "The electrolyte in the lead acid battery is",
       "options": [
-        "A. Not H2SO4 diluted with pure distilled water",
+        "A. KOH diluted with water",
         "B. H2SO4 diluted with pure distilled water",
-        "C. None of these alternatives"
+        "C. Sodium chloride solution"
       ],
       "correctIndex": 1,
-      "explanation": "The correct answer is H2SO4 diluted with pure distilled water."
+      "explanation": "A lead-acid battery uses sulfuric acid diluted with distilled water as its electrolyte."
     },
     {
       "id": 61,
       "question": "Positive electrode of lithium ion battery",
       "options": [
-        "A. Not Carbon / graphite",
-        "B. No change",
-        "C. Carbon / graphite"
+        "A. Lithium cobalt oxide",
+        "B. Carbon / graphite",
+        "C. Metallic cadmium"
       ],
-      "correctIndex": 2,
-      "explanation": "The correct answer is Carbon / graphite."
+      "correctIndex": 1,
+      "explanation": "The supplied answer is Carbon / graphite. This answer is preserved exactly as provided in the source."
     },
     {
       "id": 62,
       "question": "The prod of lead acid battery",
       "options": [
-        "A. None of these alternatives",
-        "B. Not lead oxide",
-        "C. lead oxide"
+        "A. Lead oxide",
+        "B. Potassium hydroxide",
+        "C. Lithium cobalt oxide"
       ],
-      "correctIndex": 2,
-      "explanation": "The correct answer is lead oxide."
+      "correctIndex": 0,
+      "explanation": "The supplied answer is lead oxide. Lead compounds form the active materials of the positive and negative plates in lead-acid battery chemistry."
     },
     {
       "id": 63,
       "question": "In shunt connection as loud increase",
       "options": [
-        "A. field current decrease",
-        "B. No change",
-        "C. Not field current decrease"
+        "A. Field current decrease",
+        "B. Field current becomes zero immediately",
+        "C. Armature resistance disappears"
       ],
       "correctIndex": 0,
-      "explanation": "The correct answer is field current decrease."
+      "explanation": "The supplied answer is field current decrease. The field circuit in a shunt generator is connected across the generator output and is therefore affected by changes in terminal voltage."
     },
     {
       "id": 64,
       "question": "Doesn't affect the strength of magnetic field",
       "options": [
-        "A. Other condition",
-        "B. amount of voltage",
-        "C. Not amount of voltage"
+        "A. Number of turns",
+        "B. Current through the coil",
+        "C. Amount of voltage"
       ],
-      "correctIndex": 1,
-      "explanation": "The correct answer is amount of voltage."
+      "correctIndex": 2,
+      "explanation": "The supplied answer is amount of voltage. Magnetic field strength is directly related to ampere-turns, while voltage affects field strength indirectly by influencing current."
     },
     {
       "id": 65,
       "question": "When lithium ion charge, the ion lithium goes from",
       "options": [
-        "A. None of these alternatives",
-        "B. negative to positive",
-        "C. No change"
+        "A. Positive to negative",
+        "B. Negative to positive",
+        "C. Electrolyte to the casing"
       ],
       "correctIndex": 1,
-      "explanation": "The correct answer is negative to positive."
+      "explanation": "During charging, lithium ions move through the electrolyte from the positive electrode toward the negative electrode."
     },
     {
       "id": 66,
       "question": "__ houses Armature conductor in dc generator",
       "options": [
-        "A. Other condition",
-        "B. None of these alternatives",
-        "C. Armature core"
+        "A. Armature core",
+        "B. Yoke",
+        "C. Pole shoe"
       ],
-      "correctIndex": 2,
-      "explanation": "The correct answer is Armature core."
+      "correctIndex": 0,
+      "explanation": "The armature core contains slots in which the armature conductors are placed and also provides a magnetic path for the generated flux."
     },
     {
       "id": 67,
       "question": "Lap winding definition",
       "options": [
-        "A. None of these alternatives",
-        "B. is rotating conductor load DC to DC",
-        "C. Other condition"
+        "A. is rotating conductor load DC to DC",
+        "B. Connects armature coils so each coil overlaps or 'laps' the preceding coil",
+        "C. Uses only stationary field coils"
       ],
-      "correctIndex": 1,
-      "explanation": "The correct answer is is rotating conductor load DC to DC."
+      "correctIndex": 0,
+      "explanation": "The supplied answer is is rotating conductor load DC to DC. The answer is preserved exactly as provided in the source."
     },
     {
       "id": 68,
       "question": "Fully charged nicd cells, the voltage is",
       "options": [
-        "A. Not 1.2 volts (CCV)",
-        "B. No change",
-        "C. 1.2 volts (CCV)"
+        "A. 1.2 volts (CCV)",
+        "B. 2.0 volts",
+        "C. 12 volts"
       ],
-      "correctIndex": 2,
-      "explanation": "The correct answer is 1.2 volts (CCV)."
+      "correctIndex": 0,
+      "explanation": "The supplied answer is 1.2 volts (CCV). A nickel-cadmium cell has a nominal voltage of approximately 1.2 V."
     },
     {
       "id": 69,
       "question": "What happens if lead acid cells voltage are below 10.5V",
       "options": [
         "A. Damage severly",
-        "B. Other condition",
-        "C. None of these alternatives"
+        "B. Capacity doubles",
+        "C. The battery becomes fully charged"
       ],
       "correctIndex": 0,
-      "explanation": "The correct answer is Damage severly."
+      "explanation": "A lead-acid battery discharged to a very low voltage can suffer severe damage, including sulfation and loss of usable capacity."
     },
     {
       "id": 70,
       "question": "Not correct about Armature rxn",
       "options": [
-        "A. None of these alternatives",
-        "B. Eliminate main field",
-        "C. No change"
+        "A. It distorts the main field",
+        "B. It shifts the neutral plane",
+        "C. Eliminate main field"
       ],
-      "correctIndex": 1,
-      "explanation": "The correct answer is Eliminate main field."
+      "correctIndex": 2,
+      "explanation": "Armature reaction can distort and weaken the main field, but it does not completely eliminate the main field."
     },
     {
       "id": 71,
       "question": "What term is given by the Armature flux on mam field",
       "options": [
-        "A. Not Armature reaction",
-        "B. No change",
-        "C. Armature reaction"
+        "A. Armature reaction",
+        "B. Residual magnetism",
+        "C. Magnetic saturation"
       ],
-      "correctIndex": 2,
-      "explanation": "The correct answer is Armature reaction."
+      "correctIndex": 0,
+      "explanation": "The effect of armature flux on the main field flux is called armature reaction."
     },
     {
       "id": 72,
       "question": "Is disadvantage of lithium ion",
       "options": [
-        "A. high cost",
-        "B. None of these alternatives",
-        "C. Not high cost"
+        "A. High cost",
+        "B. Very low energy density",
+        "C. No stored energy"
       ],
       "correctIndex": 0,
-      "explanation": "The correct answer is high cost."
+      "explanation": "High cost is a commonly recognized disadvantage of lithium-ion battery technology compared with some conventional battery types."
     },
     {
       "id": 73,
       "question": "Is disadvantage of Nicad battery over lead acid",
       "options": [
-        "A. less weight",
-        "B. Not less weight",
-        "C. No change"
+        "A. Less weight",
+        "B. Higher maintenance requirements in some applications",
+        "C. Better resistance to repeated cycling"
       ],
       "correctIndex": 0,
-      "explanation": "The correct answer is less weight."
+      "explanation": "The supplied answer is less weight. The answer is preserved exactly as provided in the source."
     },
     {
       "id": 74,
       "question": "Lead acid ___ 1300",
       "options": [
-        "A. Not lower than",
-        "B. lower than",
-        "C. No change"
+        "A. higher than",
+        "B. equal to",
+        "C. lower than"
       ],
-      "correctIndex": 1,
-      "explanation": "The correct answer is lower than."
+      "correctIndex": 2,
+      "explanation": "The supplied answer is lower than. The specific gravity value depends on the electrolyte condition and battery state."
     },
     {
       "id": 75,
       "question": "Charging method of NiCad battery",
       "options": [
-        "A. No change",
-        "B. None of these alternatives",
-        "C. Constant current charging"
+        "A. Constant current charging",
+        "B. Constant resistance charging",
+        "C. Alternating current charging"
       ],
-      "correctIndex": 2,
-      "explanation": "The correct answer is Constant current charging."
+      "correctIndex": 0,
+      "explanation": "Nickel-cadmium batteries are commonly charged using controlled constant-current charging methods."
     },
     {
       "id": 76,
       "question": "State of charge of nicad battery is determined by",
       "options": [
-        "A. Other condition",
-        "B. measuring voltage value",
-        "C. Not measuring voltage value"
+        "A. Measuring electrolyte specific gravity only",
+        "B. Measuring voltage value",
+        "C. Measuring plate thickness"
       ],
       "correctIndex": 1,
-      "explanation": "The correct answer is measuring voltage value."
+      "explanation": "The supplied answer is measuring voltage value. Ni-Cd state of charge can be assessed using voltage measurements under appropriate test conditions."
     },
     {
       "id": 77,
       "question": "Probable cause of burn mourns or signs of overheating on coil links",
       "options": [
         "A. Links not properly tightened",
-        "B. No change",
-        "C. Not Links not properly tightened"
+        "B. Excessive insulation thickness",
+        "C. Low ambient humidity"
       ],
       "correctIndex": 0,
-      "explanation": "The correct answer is Links not properly tightened."
+      "explanation": "Loose electrical links can create increased contact resistance, producing localized heating and possible burning or overheating marks."
     },
     {
       "id": 78,
       "question": "Reaction not occur in lead acid during discharging",
       "options": [
-        "A. Other condition",
-        "B. Electrolyte gams sot",
-        "C. Not Electrolyte gams sot"
+        "A. Electrolyte gams sot",
+        "B. Lead sulfate formation",
+        "C. Conversion of active plate materials"
       ],
-      "correctIndex": 1,
-      "explanation": "The correct answer is Electrolyte gams sot."
+      "correctIndex": 0,
+      "explanation": "The supplied answer is Electrolyte gams sot. The answer is preserved exactly as provided in the source."
     },
     {
       "id": 79,
       "question": "Disadvantage of li-ion battery",
       "options": [
-        "A. Other condition",
-        "B. No change",
-        "C. high cost and sensitive of flammable high Tº"
+        "A. High cost and sensitive of flammable high Tº",
+        "B. Very low energy density",
+        "C. Cannot store electrical energy"
       ],
-      "correctIndex": 2,
-      "explanation": "The correct answer is high cost and sensitive of flammable high Tº."
+      "correctIndex": 0,
+      "explanation": "The supplied answer identifies high cost and sensitivity to high temperature and flammability as disadvantages of lithium-ion batteries."
     },
     {
       "id": 80,
       "question": "The negative plate in lead acid battery is",
       "options": [
-        "A. No change",
-        "B. Not spongy lead",
-        "C. spongy lead"
+        "A. Lead peroxide",
+        "B. Spongy lead",
+        "C. Nickel hydroxide"
       ],
-      "correctIndex": 2,
-      "explanation": "The correct answer is spongy lead."
+      "correctIndex": 1,
+      "explanation": "The negative plate of a charged lead-acid battery consists primarily of spongy lead."
     },
     {
       "id": 81,
       "question": "Pole pieces of shoes in DC are part of the",
       "options": [
-        "A. Not field assembly",
-        "B. field assembly",
-        "C. Other condition"
+        "A. Armature assembly",
+        "B. Commutator assembly",
+        "C. Field assembly"
       ],
-      "correctIndex": 1,
-      "explanation": "The correct answer is field assembly."
+      "correctIndex": 2,
+      "explanation": "The pole pieces and pole shoes form part of the field assembly and provide the magnetic path for the field flux."
     },
     {
       "id": 82,
       "question": "Generator control with no moving parts and with reliable and better system regulation",
       "options": [
-        "A. None of these alternatives",
-        "B. solid state",
-        "C. Not solid state"
+        "A. Solid state",
+        "B. Carbon pile",
+        "C. Vibrating contact"
       ],
-      "correctIndex": 1,
-      "explanation": "The correct answer is solid state."
+      "correctIndex": 0,
+      "explanation": "Solid-state generator controls have no mechanical moving parts and provide reliable and accurate electrical regulation."
     },
     {
       "id": 83,
       "question": "Proper removal of generator",
       "options": [
-        "A. Other condition",
-        "B. Disconnect External power before removal",
-        "C. Not Disconnect External power before removal"
+        "A. Disconnect External power before removal",
+        "B. Remove the armature while energized",
+        "C. Increase generator output before disconnecting"
       ],
-      "correctIndex": 1,
-      "explanation": "The correct answer is Disconnect External power before removal."
+      "correctIndex": 0,
+      "explanation": "External electrical power should be disconnected before generator removal to prevent accidental energization and electrical hazards."
     },
     {
       "id": 84,
       "question": "Type of DC generator assembly used in light aircraft",
       "options": [
-        "A. Not shunt wound",
-        "B. shunt wound",
-        "C. No change"
+        "A. Series wound",
+        "B. Shunt wound",
+        "C. Compound-only"
       ],
       "correctIndex": 1,
-      "explanation": "The correct answer is shunt wound."
+      "explanation": "The supplied answer is shunt wound. In a shunt generator, the field winding is connected in parallel with the armature output."
     },
     {
       "id": 85,
       "question": "Over Tº switch used to keep the battery from overheating in Li-ion battery",
       "options": [
-        "A. positive Temperature coefficient switch",
-        "B. None of these alternatives",
-        "C. No change"
+        "A. Negative temperature coefficient resistor",
+        "B. Positive Temperature coefficient switch",
+        "C. Thermal fuse only"
       ],
-      "correctIndex": 0,
-      "explanation": "The correct answer is positive Temperature coefficient switch."
+      "correctIndex": 1,
+      "explanation": "The supplied answer is positive Temperature coefficient switch. Temperature-sensing and protection devices are used to protect lithium-ion batteries from excessive temperature."
     },
     {
       "id": 86,
       "question": "Pole shoes provide",
       "options": [
-        "A. No change",
-        "B. None of these alternatives",
-        "C. spread out flux uniformly"
+        "A. Spread out flux uniformly",
+        "B. Increase electrical resistance",
+        "C. Store chemical energy"
       ],
-      "correctIndex": 2,
-      "explanation": "The correct answer is spread out flux uniformly."
+      "correctIndex": 0,
+      "explanation": "Pole shoes spread the magnetic flux over the required area of the air gap and provide a suitable magnetic path."
     },
     {
       "id": 87,
       "question": "Battery capacity AH depends on",
       "options": [
-        "A. Not the sea of the plates",
-        "B. the sea of the plates",
-        "C. None of these alternatives"
+        "A. The sea of the plates",
+        "B. The color of the casing",
+        "C. The number of terminals only"
       ],
-      "correctIndex": 1,
-      "explanation": "The correct answer is the sea of the plates."
+      "correctIndex": 0,
+      "explanation": "The supplied answer is the sea of the plates. The answer is preserved as supplied in the source."
     },
     {
       "id": 88,
       "question": "Bar-Bar to opens or",
       "options": [
-        "A. No change",
-        "B. Glower to shorts",
-        "C. Not Glower to shorts"
+        "A. Glower to shorts",
+        "B. Resistor to opens",
+        "C. Capacitor to grounds"
       ],
-      "correctIndex": 1,
-      "explanation": "The correct answer is Glower to shorts."
+      "correctIndex": 0,
+      "explanation": "The supplied answer is Glower to shorts. The answer is preserved exactly as provided in the source."
     },
     {
       "id": 89,
       "question": "Part of PC generator consist pole core and pole field",
       "options": [
-        "A. field core",
-        "B. Other condition",
-        "C. No change"
+        "A. Armature assembly",
+        "B. Field core",
+        "C. Commutator"
       ],
-      "correctIndex": 0,
-      "explanation": "The correct answer is field core."
+      "correctIndex": 1,
+      "explanation": "The field structure contains the pole cores and associated field components that establish the magnetic field of the generator."
     },
     {
       "id": 90,
       "question": "Area of plate increase",
       "options": [
         "A. Capacity increase",
-        "B. No change",
-        "C. None of these alternatives"
+        "B. Capacity becomes zero",
+        "C. Voltage becomes zero"
       ],
       "correctIndex": 0,
-      "explanation": "The correct answer is Capacity increase."
+      "explanation": "Increasing the active plate area increases the amount of active material available for electrochemical reaction and therefore increases battery capacity."
     },
     {
       "id": 91,
       "question": "Cathode plate of (li-ion",
       "options": [
-        "A. Other condition",
-        "B. Not Lithium Cobalt",
-        "C. Lithium Cobalt"
+        "A. Carbon / graphite",
+        "B. Lithium Cobalt",
+        "C. Metallic cadmium"
       ],
-      "correctIndex": 2,
-      "explanation": "The correct answer is Lithium Cobalt."
+      "correctIndex": 1,
+      "explanation": "The supplied answer is Lithium Cobalt. Lithium cobalt oxide is a commonly used cathode material in lithium-ion cells."
     },
     {
       "id": 92,
       "question": "Short & open to check not used (which method of testing is not practically to tas ground, short and open circuit)",
       "options": [
-        "A. Not insulation",
-        "B. insulation",
-        "C. None of these alternatives"
+        "A. Insulation",
+        "B. Continuity",
+        "C. Resistance"
       ],
-      "correctIndex": 1,
-      "explanation": "The correct answer is insulation."
+      "correctIndex": 0,
+      "explanation": "The supplied answer is insulation. Insulation testing is used to assess unwanted leakage or electrical connection between conductors and ground."
     },
     {
       "id": 93,
       "question": "For vibrating type voltage regulator when overheating when opens",
       "options": [
-        "A. Other condition",
+        "A. Closes",
         "B. Opens",
-        "C. Not Opens"
+        "C. Locks permanently"
       ],
       "correctIndex": 1,
-      "explanation": "The correct answer is Opens."
+      "explanation": "The supplied answer is Opens. Opening the regulating contacts interrupts or changes the field circuit to control excessive generator voltage."
     },
     {
       "id": 94,
       "question": "Which of the following is most reactive element",
       "options": [
-        "A. Other condition",
-        "B. lithium ion",
-        "C. None of these alternatives"
+        "A. Copper",
+        "B. Lithium ion",
+        "C. Aluminum"
       ],
       "correctIndex": 1,
-      "explanation": "The correct answer is lithium ion."
+      "explanation": "The supplied answer is lithium ion. The answer is preserved as provided in the source."
     },
     {
       "id": 95,
       "question": "Outer frame of generator is",
       "options": [
-        "A. None of these alternatives",
-        "B. Not Yoke",
-        "C. Yoke"
+        "A. Armature",
+        "B. Yoke",
+        "C. Commutator"
       ],
-      "correctIndex": 2,
-      "explanation": "The correct answer is Yoke."
+      "correctIndex": 1,
+      "explanation": "The yoke forms the outer frame of a DC generator, provides mechanical support, and provides part of the magnetic return path."
     },
     {
       "id": 96,
       "question": "What is the drawback of DC generator",
       "options": [
         "A. Dc pulsating which cause hamming",
-        "B. Not Dc pulsating which cause hamming",
-        "C. No change"
+        "B. It produces no electrical output",
+        "C. It cannot contain a magnetic field"
       ],
       "correctIndex": 0,
-      "explanation": "The correct answer is Dc pulsating which cause hamming."
+      "explanation": "The supplied answer identifies pulsating DC as a drawback. The commutated output of a DC generator contains ripple rather than being perfectly constant."
     },
     {
       "id": 97,
       "question": "What would be done of contact point of vibrating type voltage regulator when the generator voltage rise above a certain critical value",
       "options": [
-        "A. Other condition",
-        "B. Not Opens",
-        "C. Opens"
+        "A. Opens",
+        "B. Permanently closes",
+        "C. Melts immediately"
       ],
-      "correctIndex": 2,
-      "explanation": "The correct answer is Opens."
+      "correctIndex": 0,
+      "explanation": "When generator voltage rises above the regulating value, the vibrating contacts operate to reduce field excitation and control the generator voltage."
     },
     {
       "id": 98,
       "question": "Which of the following is arrent construction method",
       "options": [
-        "A. No change",
+        "A. Ring winding",
         "B. Drum winding",
-        "C. None of these alternatives"
+        "C. Open-circuit winding"
       ],
       "correctIndex": 1,
-      "explanation": "The correct answer is Drum winding."
+      "explanation": "Drum winding is the commonly used armature construction method in modern DC machines because the conductors are arranged effectively around the armature core."
     },
     {
       "id": 99,
       "question": "What type of change is used when the battery is on storage",
       "options": [
-        "A. trickle change",
-        "B. Other condition",
-        "C. Not trickle change"
+        "A. Rapid charge",
+        "B. Trickle change",
+        "C. Reverse charge"
       ],
-      "correctIndex": 0,
-      "explanation": "The correct answer is trickle change."
+      "correctIndex": 1,
+      "explanation": "The supplied answer is trickle change. A low-rate maintenance charge can be used during storage when permitted by the battery manufacturer's procedure."
     },
     {
       "id": 100,
       "question": "How many voltage value must be used in order to change a lead acid battery wells after discharged for some time (12V ->12.6V)",
       "options": [
-        "A. Not > 13.6",
-        "B. No change",
-        "C. > 13.6"
+        "A. > 13.6",
+        "B. 10.5 V",
+        "C. 11.0 V"
       ],
-      "correctIndex": 2,
-      "explanation": "The correct answer is > 13.6."
+      "correctIndex": 0,
+      "explanation": "The supplied answer is > 13.6. The answer is preserved as provided in the source."
     },
     {
       "id": 101,
       "question": "In dc generator self-excited depending on the connection of fixed winding w armature is classified in to",
       "options": [
-        "A. None of these alternatives",
+        "A. 2",
         "B. 3",
-        "C. No change"
+        "C. 4"
       ],
       "correctIndex": 1,
-      "explanation": "The correct answer is 3."
+      "explanation": "The supplied answer is 3. Self-excited DC generators are classified according to the field connection with the armature."
     },
     {
       "id": 102,
       "question": "Which control unit is used to convert motor to generative operation",
       "options": [
         "A. Generator control units",
-        "B. Other condition",
-        "C. None of these alternatives"
+        "B. Battery monitoring unit",
+        "C. Transformer control unit"
       ],
       "correctIndex": 0,
-      "explanation": "The correct answer is Generator control units."
+      "explanation": "Generator control units manage generator operation and regulate electrical output when a machine operates as a generator."
     },
     {
       "id": 103,
       "question": "Ac to Dc conversion in Dc Alternator is done by",
       "options": [
-        "A. Not solid state rectification",
-        "B. Other condition",
-        "C. solid state rectification"
+        "A. Transformer",
+        "B. Solid state rectification",
+        "C. Voltage regulator only"
       ],
-      "correctIndex": 2,
-      "explanation": "The correct answer is solid state rectification."
+      "correctIndex": 1,
+      "explanation": "AC is converted to DC by rectification. Modern aircraft DC alternators commonly use solid-state rectifiers for this function."
     },
     {
       "id": 104,
       "question": "When Nicad is not allowable and lead acid is fully changed, can be used with some correction",
       "options": [
-        "A. Other condition",
-        "B. can be used with some correction",
-        "C. No change"
+        "A. can be used with some correction",
+        "B. Must always be discarded",
+        "C. Must be replaced with a lithium battery"
       ],
-      "correctIndex": 1,
-      "explanation": "The correct answer is can be used with some correction."
+      "correctIndex": 0,
+      "explanation": "The supplied answer is can be used with some correction. The answer is preserved exactly as provided in the source."
     },
     {
       "id": 105,
       "question": "DC generator used on modern light aircraft",
       "options": [
-        "A. None of these alternatives",
-        "B. DC Alternator",
-        "C. No change"
+        "A. DC Alternator",
+        "B. Series motor",
+        "C. Induction motor"
       ],
-      "correctIndex": 1,
-      "explanation": "The correct answer is DC Alternator."
+      "correctIndex": 0,
+      "explanation": "The supplied answer is DC Alternator. Alternator-based generating systems with rectification are widely used in modern light aircraft."
     },
     {
       "id": 106,
       "question": "Prevent over heating Li-ion battery",
       "options": [
-        "A. Other condition",
-        "B. None of these alternatives",
-        "C. over Tº switch"
+        "A. Over Tº switch",
+        "B. Carbon pile regulator",
+        "C. Mechanical commutator"
       ],
-      "correctIndex": 2,
-      "explanation": "The correct answer is over Tº switch."
+      "correctIndex": 0,
+      "explanation": "The supplied answer is over Tº switch. Temperature protection is used to disconnect or control charging when lithium-ion battery temperature becomes excessive."
     },
     {
       "id": 107,
       "question": "DC alternator & their related control are found on",
       "options": [
-        "A. Not modern light piston engine aircraft",
-        "B. None of these alternatives",
-        "C. modern light piston engine aircraft"
+        "A. Modern light piston engine aircraft",
+        "B. Only large turbine aircraft",
+        "C. Unpowered gliders"
       ],
-      "correctIndex": 2,
-      "explanation": "The correct answer is modern light piston engine aircraft."
+      "correctIndex": 0,
+      "explanation": "The supplied answer is modern light piston engine aircraft. Alternator systems are commonly used on light aircraft to supply electrical power."
     },
     {
       "id": 108,
       "question": "Which voltage regulator has no moving parts",
       "options": [
-        "A. Transistorized voltage regulator",
-        "B. No change",
-        "C. None of these alternatives"
+        "A. Carbon pile voltage regulator",
+        "B. Transistorized voltage regulator",
+        "C. Vibrating contact regulator"
       ],
-      "correctIndex": 0,
-      "explanation": "The correct answer is Transistorized voltage regulator."
+      "correctIndex": 1,
+      "explanation": "A transistorized voltage regulator uses electronic components rather than mechanical contacts, so it has no moving regulating parts."
     },
     {
       "id": 109,
       "question": "How does armature reaction cause brush arcing",
       "options": [
-        "A. No change",
-        "B. By moving the natural axis away from the brush",
-        "C. Other condition"
+        "A. By moving the natural axis away from the brush",
+        "B. By stopping all armature current",
+        "C. By removing residual magnetism"
       ],
-      "correctIndex": 1,
-      "explanation": "The correct answer is By moving the natural axis away from the brush."
+      "correctIndex": 0,
+      "explanation": "Armature reaction shifts the magnetic neutral plane away from its normal position, causing improper commutation and potentially producing brush arcing."
     },
     {
       "id": 110,
       "question": "Generator control voltage is more accurate & reliable",
       "options": [
-        "A. Not solid state type",
-        "B. solid state type",
-        "C. None of these alternatives"
+        "A. Carbon pile type",
+        "B. Solid state type",
+        "C. Vibrating contact type"
       ],
       "correctIndex": 1,
-      "explanation": "The correct answer is solid state type."
+      "explanation": "Solid-state regulators provide more precise and reliable voltage control because they avoid mechanical contact wear."
     },
     {
       "id": 111,
       "question": "The use of pole shoe is for spreading out of the flux in the air gap uniform and support the field",
       "options": [
-        "A. Not spreading out of the flux in the air gap uniform",
-        "B. spreading out of the flux in the air gap uniform",
-        "C. Other condition"
+        "A. Increasing armature resistance",
+        "B. Spreading out of the flux in the air gap uniform",
+        "C. Converting AC to DC"
       ],
       "correctIndex": 1,
-      "explanation": "The correct answer is spreading out of the flux in the air gap uniform."
+      "explanation": "Pole shoes distribute the magnetic flux over the air gap more uniformly and provide mechanical support for the field structure."
     },
     {
       "id": 112,
       "question": "Which chemical is not used in NiCd battery electrolyte as a neutralizing agent",
       "options": [
-        "A. sodium carbonate",
-        "B. Not sodium carbonate",
-        "C. No change"
+        "A. Boric acid",
+        "B. Sodium carbonate",
+        "C. Nitric acid"
       ],
-      "correctIndex": 0,
-      "explanation": "The correct answer is sodium carbonate."
+      "correctIndex": 1,
+      "explanation": "The supplied answer is sodium carbonate. The answer is preserved exactly as provided in the source."
     },
     {
       "id": 113,
       "question": "Probable cause of output Voltage being too low",
       "options": [
-        "A. Not prime mover speed is too low.",
-        "B. prime mover speed is too low.",
-        "C. Other condition"
+        "A. Prime mover speed is too low.",
+        "B. Excessive battery capacity",
+        "C. Excessive insulation resistance"
       ],
-      "correctIndex": 1,
-      "explanation": "The correct answer is prime mover speed is too low.."
+      "correctIndex": 0,
+      "explanation": "Generator output voltage depends on rotational speed and field excitation. If prime mover speed is too low, the generated EMF can fall below the required value."
     },
     {
       "id": 114,
       "question": "Change that occurs when conductor's pass out of the influence of N-pole and enter S-pole",
       "options": [
-        "A. Not Current is then reversed",
-        "B. Current is then reversed",
-        "C. No change"
+        "A. Current is then reversed",
+        "B. Current becomes permanently zero",
+        "C. Voltage becomes mechanically stored"
       ],
-      "correctIndex": 1,
-      "explanation": "The correct answer is Current is then reversed."
+      "correctIndex": 0,
+      "explanation": "As an armature conductor moves from the influence of one magnetic pole to the opposite pole, the direction of induced EMF reverses."
     },
     {
       "id": 115,
       "question": "Test carried on armature winding of DC generator for short circuit. Glower test",
       "options": [
-        "A. Glower test",
-        "B. No change",
-        "C. Not Glower test"
+        "A. Hydrometer test",
+        "B. Glower test",
+        "C. Specific gravity test"
       ],
-      "correctIndex": 0,
-      "explanation": "The correct answer is Glower test."
+      "correctIndex": 1,
+      "explanation": "The supplied answer is Glower test. The answer is preserved exactly as provided in the source."
     },
     {
       "id": 116,
       "question": "DC generation with constant output power type",
       "options": [
-        "A. Not shunt wound DC",
-        "B. shunt wound DC",
-        "C. Other condition"
+        "A. Series wound DC",
+        "B. Shunt wound DC",
+        "C. Permanent magnet AC"
       ],
       "correctIndex": 1,
-      "explanation": "The correct answer is shunt wound DC."
+      "explanation": "The supplied answer is shunt wound DC. The answer is preserved exactly as provided in the source."
     },
     {
       "id": 117,
       "question": "Fun of Zener diode in transistorized voltage regulator",
       "options": [
-        "A. None of these alternatives",
-        "B. Voltage reference",
-        "C. Not Voltage reference"
+        "A. Voltage reference",
+        "B. Mechanical switching",
+        "C. Current storage"
       ],
-      "correctIndex": 1,
-      "explanation": "The correct answer is Voltage reference."
+      "correctIndex": 0,
+      "explanation": "A Zener diode provides a relatively stable reference voltage that the regulator circuit uses to control and stabilize the output voltage."
     },
     {
       "id": 118,
       "question": "General type inspection of rechargeable battery is considered",
       "options": [
-        "A. Not preventive maintenance",
-        "B. preventive maintenance",
-        "C. No change"
+        "A. Corrective maintenance",
+        "B. Preventive maintenance",
+        "C. Emergency maintenance"
       ],
       "correctIndex": 1,
-      "explanation": "The correct answer is preventive maintenance."
+      "explanation": "Routine inspection of a rechargeable battery is preventive maintenance because it is performed to detect problems before they cause failure."
     }
   ]
 }
