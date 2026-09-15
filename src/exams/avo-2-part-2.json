@@ -1,0 +1,1278 @@
+{
+  "id": "avo-2-part-2",
+  "title": "Avo-2-part-2",
+  "module": "AVO-2",
+  "course": "avionics",
+  "category": "part",
+  "description": "Comprehensive avionics exam covering ICs, amplifiers, oscillators, rectifiers, op-amps, power supplies, and PCB technology.",
+  "durationMinutes": 150,
+  "totalQuestions": 115,
+  "color": "blue",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Not a disadvantage of IC",
+      "options": [
+        "Diode",
+        "Transformer",
+        "weight saving and small size"
+      ],
+      "correctIndex": 2,
+      "explanation": "The provided correct answer is weight saving and small size."
+    },
+    {
+      "id": 2,
+      "question": "Active components in IC",
+      "options": [
+        "ALU",
+        "Diode & Transistor",
+        "Control unit"
+      ],
+      "correctIndex": 1,
+      "explanation": "The provided correct answer is Diode & Transistor."
+    },
+    {
+      "id": 3,
+      "question": "Class A amplifier",
+      "options": [
+        "Class B",
+        "Class A",
+        "highest linearity and lowest distortion, but least efficiency"
+      ],
+      "correctIndex": 2,
+      "explanation": "The provided correct answer is highest linearity and lowest distortion, but least efficiency."
+    },
+    {
+      "id": 4,
+      "question": "Convert DC to AC signals",
+      "options": [
+        "Oscillator Amplifier",
+        "Gain",
+        "loss"
+      ],
+      "correctIndex": 0,
+      "explanation": "The provided correct answer is Oscillator Amplifier."
+    },
+    {
+      "id": 5,
+      "question": "Class of amplifier conducting slightly above cut-off",
+      "options": [
+        "Class AB",
+        "Class A",
+        "Class B"
+      ],
+      "correctIndex": 0,
+      "explanation": "The provided correct answer is Class AB."
+    },
+    {
+      "id": 6,
+      "question": "Used to mechanically support and electrically connect electronic components using conductive pathways, or traces, etched from copper sheets laminated onto a non-conductive substrate",
+      "options": [
+        "ALU",
+        "Control unit",
+        "PCB"
+      ],
+      "correctIndex": 2,
+      "explanation": "The provided correct answer is PCB."
+    },
+    {
+      "id": 7,
+      "question": "Types of full wave rectifier",
+      "options": [
+        "half wave rectifier",
+        "center tapped and bridge rectifier",
+        "center tapped full wave rectifier"
+      ],
+      "correctIndex": 1,
+      "explanation": "The provided correct answer is center tapped and bridge rectifier."
+    },
+    {
+      "id": 8,
+      "question": "IC is manufactured from",
+      "options": [
+        "Control unit",
+        "ALU",
+        "Silicon"
+      ],
+      "correctIndex": 2,
+      "explanation": "The provided correct answer is Silicon."
+    },
+    {
+      "id": 9,
+      "question": "Bridge circuit positive alternation",
+      "options": [
+        "Diode",
+        "Transformer",
+        "two diodes are forward blued"
+      ],
+      "correctIndex": 2,
+      "explanation": "The provided correct answer is two diodes are forward blued."
+    },
+    {
+      "id": 10,
+      "question": "The difference b/n the upper & lower cut off frequency",
+      "options": [
+        "loss",
+        "Gain",
+        "Bandwidth"
+      ],
+      "correctIndex": 2,
+      "explanation": "The provided correct answer is Bandwidth."
+    },
+    {
+      "id": 11,
+      "question": "Frequency determining circuit of oscillator",
+      "options": [
+        "LC tank circuit",
+        "LC oscillator",
+        "RC oscillator"
+      ],
+      "correctIndex": 0,
+      "explanation": "The provided correct answer is LC tank circuit."
+    },
+    {
+      "id": 12,
+      "question": "LC low pass advantage over RC",
+      "options": [
+        "Diode",
+        "Transformer",
+        "has high resistance than R of source"
+      ],
+      "correctIndex": 2,
+      "explanation": "The provided correct answer is has high resistance than R of source."
+    },
+    {
+      "id": 13,
+      "question": "Sinusoidal oscillator also called",
+      "options": [
+        "Harmonic oscillator",
+        "RC oscillator",
+        "LC oscillator"
+      ],
+      "correctIndex": 0,
+      "explanation": "The provided correct answer is Harmonic oscillator."
+    },
+    {
+      "id": 14,
+      "question": "How many transformers are there in center tapped full wave rectifier",
+      "options": [
+        "1",
+        "center tapped full wave rectifier",
+        "half wave rectifier"
+      ],
+      "correctIndex": 0,
+      "explanation": "The provided correct answer is 1."
+    },
+    {
+      "id": 15,
+      "question": "If two stages of a cascaded amplifier have decibel gains of 10db and 130db, the overall gain is",
+      "options": [
+        "Voltage amplifier",
+        "2910 dB",
+        "Power amplifier"
+      ],
+      "correctIndex": 1,
+      "explanation": "The provided correct answer is 2910 dB."
+    },
+    {
+      "id": 16,
+      "question": "Which one is used two center tapped capacitor in series as a parallel indicator",
+      "options": [
+        "Colpitts oscillator",
+        "Transformer",
+        "Diode"
+      ],
+      "correctIndex": 0,
+      "explanation": "The provided correct answer is Colpitts oscillator."
+    },
+    {
+      "id": 17,
+      "question": "Positive and Negative wave of db respectively represent",
+      "options": [
+        "loss",
+        "Gain",
+        "Gain and loss"
+      ],
+      "correctIndex": 2,
+      "explanation": "The provided correct answer is Gain and loss."
+    },
+    {
+      "id": 18,
+      "question": "An amplifier suffers distortion when output is",
+      "options": [
+        "Different from input",
+        "Power amplifier",
+        "Voltage amplifier"
+      ],
+      "correctIndex": 0,
+      "explanation": "The provided correct answer is Different from input."
+    },
+    {
+      "id": 19,
+      "question": "In a 4 input summing op-amp +all input resistor are 2.2 kilo-ohm + the feedback resistor is 22 kilo-ohm. If all voltages are 2V the output voltage is",
+      "options": [
+        "Zero",
+        "Gain",
+        "2V"
+      ],
+      "correctIndex": 2,
+      "explanation": "The provided correct answer is 2V."
+    },
+    {
+      "id": 20,
+      "question": "Electronic circuit for generating any or range of frequencies from single fixed time base of reference oscillator",
+      "options": [
+        "RC oscillator",
+        "LC oscillator",
+        "Frequency synthesizer"
+      ],
+      "correctIndex": 2,
+      "explanation": "The provided correct answer is Frequency synthesizer."
+    },
+    {
+      "id": 21,
+      "question": "Part of the oscillator determines the oscillation frequency",
+      "options": [
+        "Tank circuit",
+        "RC oscillator",
+        "LC oscillator"
+      ],
+      "correctIndex": 0,
+      "explanation": "The provided correct answer is Tank circuit."
+    },
+    {
+      "id": 22,
+      "question": "Not exhibited by an ideal op-amp",
+      "options": [
+        "Zero",
+        "infinite output resistance and impedance",
+        "Gain"
+      ],
+      "correctIndex": 1,
+      "explanation": "The provided correct answer is infinite output resistance and impedance."
+    },
+    {
+      "id": 23,
+      "question": "Feed back path in an op-amp consists of",
+      "options": [
+        "resistor",
+        "Zero",
+        "Gain"
+      ],
+      "correctIndex": 0,
+      "explanation": "The provided correct answer is resistor."
+    },
+    {
+      "id": 24,
+      "question": "PCBs are constructed",
+      "options": [
+        "surface-mount technology",
+        "PCB",
+        "Evenly"
+      ],
+      "correctIndex": 2,
+      "explanation": "The provided correct answer is Evenly."
+    },
+    {
+      "id": 25,
+      "question": "Radio oscillator used as",
+      "options": [
+        "radio transmitter",
+        "LC oscillator",
+        "RC oscillator"
+      ],
+      "correctIndex": 0,
+      "explanation": "The provided correct answer is radio transmitter."
+    },
+    {
+      "id": 26,
+      "question": "Which low pass filter is more efficient and gives better power supplies",
+      "options": [
+        "LC low-pass filters",
+        "regulator",
+        "Transformer"
+      ],
+      "correctIndex": 0,
+      "explanation": "The provided correct answer is LC low-pass filters."
+    },
+    {
+      "id": 27,
+      "question": "True about voltage multiplier",
+      "options": [
+        "different combination of diode and capacitors",
+        "Diode",
+        "Transformer"
+      ],
+      "correctIndex": 0,
+      "explanation": "The provided correct answer is different combination of diode and capacitors."
+    },
+    {
+      "id": 28,
+      "question": "from the frequency response of amplifier what is the gain at the cut off frequency points",
+      "options": [
+        "Voltage amplifier",
+        "-3 dB",
+        "Power amplifier"
+      ],
+      "correctIndex": 1,
+      "explanation": "The provided correct answer is -3 dB."
+    },
+    {
+      "id": 29,
+      "question": "Which BJT amplifier of power driver used for impedance matching",
+      "options": [
+        "Voltage amplifier",
+        "Common collector",
+        "Power amplifier"
+      ],
+      "correctIndex": 1,
+      "explanation": "The provided correct answer is Common collector."
+    },
+    {
+      "id": 30,
+      "question": "Which is correct when single input is unbalanced",
+      "options": [
+        "Transformer",
+        "Diode",
+        "output is taken from any one of the two collectors with respect to ground"
+      ],
+      "correctIndex": 2,
+      "explanation": "The provided correct answer is output is taken from any one of the two collectors with respect to ground."
+    },
+    {
+      "id": 31,
+      "question": "is used as ramp generator",
+      "options": [
+        "Transformer",
+        "Integrator amplifier",
+        "Diode"
+      ],
+      "correctIndex": 1,
+      "explanation": "The provided correct answer is Integrator amplifier."
+    },
+    {
+      "id": 32,
+      "question": "Consists of parallel LC resonant tank circuit where feedback is derived by way of capacitive divider",
+      "options": [
+        "Colpitts oscillator",
+        "Transformer",
+        "Diode"
+      ],
+      "correctIndex": 0,
+      "explanation": "The provided correct answer is Colpitts oscillator."
+    },
+    {
+      "id": 33,
+      "question": "Multivibrator generate wave form",
+      "options": [
+        "RC oscillator",
+        "square",
+        "LC oscillator"
+      ],
+      "correctIndex": 1,
+      "explanation": "The provided correct answer is square."
+    },
+    {
+      "id": 34,
+      "question": "Voltage amplifiers are signal amplifiers",
+      "options": [
+        "Power amplifier",
+        "small",
+        "Voltage amplifier"
+      ],
+      "correctIndex": 1,
+      "explanation": "The provided correct answer is small."
+    },
+    {
+      "id": 35,
+      "question": "How many transistors must be used in a class AB power amplifier to obtain the output of the full cycle of signal",
+      "options": [
+        "Class B",
+        "Class A",
+        "2"
+      ],
+      "correctIndex": 2,
+      "explanation": "The provided correct answer is 2."
+    },
+    {
+      "id": 36,
+      "question": "In bridge full wave rectifier, how many diodes conduct at the same time",
+      "options": [
+        "2",
+        "half wave rectifier",
+        "center tapped full wave rectifier"
+      ],
+      "correctIndex": 0,
+      "explanation": "The provided correct answer is 2."
+    },
+    {
+      "id": 37,
+      "question": "Which type of oscillator suffer from cross over distortion",
+      "options": [
+        "Class B",
+        "LC oscillator",
+        "RC oscillator"
+      ],
+      "correctIndex": 0,
+      "explanation": "The provided correct answer is Class B."
+    },
+    {
+      "id": 38,
+      "question": "60Hz input to circuit, produce 360 ripple is produced by",
+      "options": [
+        "3 phase full wave rectifier",
+        "Transformer",
+        "regulator"
+      ],
+      "correctIndex": 0,
+      "explanation": "The provided correct answer is 3 phase full wave rectifier."
+    },
+    {
+      "id": 39,
+      "question": "Bistable multivibrator has stable state",
+      "options": [
+        "No",
+        "LC oscillator",
+        "RC oscillator"
+      ],
+      "correctIndex": 0,
+      "explanation": "The provided correct answer is No."
+    },
+    {
+      "id": 40,
+      "question": "Ratio of output current to input current",
+      "options": [
+        "current gain",
+        "Transformer",
+        "Diode"
+      ],
+      "correctIndex": 0,
+      "explanation": "The provided correct answer is current gain."
+    },
+    {
+      "id": 41,
+      "question": "Which type of multivibrators has 2 stable states, low and least",
+      "options": [
+        "Bistable multivibrator",
+        "RC oscillator",
+        "LC oscillator"
+      ],
+      "correctIndex": 0,
+      "explanation": "The provided correct answer is Bistable multivibrator."
+    },
+    {
+      "id": 42,
+      "question": "Which of the following electrical characteristics is not exhibited by an ideal OPAMP?",
+      "options": [
+        "Diode",
+        "Transformer",
+        "Infinite output resistance"
+      ],
+      "correctIndex": 2,
+      "explanation": "The provided correct answer is Infinite output resistance."
+    },
+    {
+      "id": 43,
+      "question": "Oscillator type is we want tunable frequency",
+      "options": [
+        "Crystal oscillator",
+        "LC oscillator",
+        "RC oscillator"
+      ],
+      "correctIndex": 1,
+      "explanation": "The provided correct answer is LC oscillator."
+    },
+    {
+      "id": 44,
+      "question": "Differential amplifier with only single input and the output taken from both side of collector",
+      "options": [
+        "Voltage amplifier",
+        "Power amplifier",
+        "single input, balanced output"
+      ],
+      "correctIndex": 2,
+      "explanation": "The provided correct answer is single input, balanced output."
+    },
+    {
+      "id": 45,
+      "question": "Basic parameter of op amp",
+      "options": [
+        "Gain",
+        "Zero",
+        "Comparator amplifier"
+      ],
+      "correctIndex": 0,
+      "explanation": "The provided correct answer is Gain."
+    },
+    {
+      "id": 46,
+      "question": "Free running",
+      "options": [
+        "Astable",
+        "LC oscillator",
+        "RC oscillator"
+      ],
+      "correctIndex": 0,
+      "explanation": "The provided correct answer is Astable."
+    },
+    {
+      "id": 47,
+      "question": "Used in flip-flop",
+      "options": [
+        "Diode",
+        "Bistable",
+        "Transformer"
+      ],
+      "correctIndex": 1,
+      "explanation": "The provided correct answer is Bistable."
+    },
+    {
+      "id": 48,
+      "question": "Which one of the following is the ratio of large and small output",
+      "options": [
+        "output voltage dynamic",
+        "Diode",
+        "Transformer"
+      ],
+      "correctIndex": 0,
+      "explanation": "The provided correct answer is output voltage dynamic."
+    },
+    {
+      "id": 49,
+      "question": "Not Barkhausen criterion",
+      "options": [
+        "a feedback of oscillator degenerative",
+        "RC oscillator",
+        "LC oscillator"
+      ],
+      "correctIndex": 0,
+      "explanation": "The provided correct answer is a feedback of oscillator degenerative."
+    },
+    {
+      "id": 50,
+      "question": "Common emitter",
+      "options": [
+        "Power amplifier",
+        "phase reversal by 180 degree",
+        "Voltage amplifier"
+      ],
+      "correctIndex": 1,
+      "explanation": "The provided correct answer is phase reversal by 180 degree."
+    },
+    {
+      "id": 51,
+      "question": "Full wave",
+      "options": [
+        "Dc avg = 0.637 Vp and fout = 2fin",
+        "loss",
+        "Gain"
+      ],
+      "correctIndex": 0,
+      "explanation": "The provided correct answer is Dc avg = 0.637 Vp and fout = 2fin."
+    },
+    {
+      "id": 52,
+      "question": "If AC frequency is 50 Hz, what about full wave rectifier frequency",
+      "options": [
+        "center tapped full wave rectifier",
+        "100 Hz",
+        "half wave rectifier"
+      ],
+      "correctIndex": 1,
+      "explanation": "The provided correct answer is 100 Hz."
+    },
+    {
+      "id": 53,
+      "question": "When we gate voltage gain 10V how much is in decibel",
+      "options": [
+        "20 dB",
+        "loss",
+        "Gain"
+      ],
+      "correctIndex": 0,
+      "explanation": "The provided correct answer is 20 dB."
+    },
+    {
+      "id": 54,
+      "question": "Class C Amplifier operate",
+      "options": [
+        "Class B",
+        "less than one half of full cycle",
+        "Class A"
+      ],
+      "correctIndex": 1,
+      "explanation": "The provided correct answer is less than one half of full cycle."
+    },
+    {
+      "id": 55,
+      "question": "Degree of proportionality b/n input and output of signal amplifier",
+      "options": [
+        "Linearity",
+        "Power amplifier",
+        "Voltage amplifier"
+      ],
+      "correctIndex": 0,
+      "explanation": "The provided correct answer is Linearity."
+    },
+    {
+      "id": 56,
+      "question": "First stage of power supply unit",
+      "options": [
+        "Filter",
+        "regulator",
+        "Transformer"
+      ],
+      "correctIndex": 2,
+      "explanation": "The provided correct answer is Transformer."
+    },
+    {
+      "id": 57,
+      "question": "Best stage of power supply unit",
+      "options": [
+        "regulator",
+        "Filter",
+        "Transformer"
+      ],
+      "correctIndex": 0,
+      "explanation": "The provided correct answer is regulator."
+    },
+    {
+      "id": 58,
+      "question": "Regulator used to",
+      "options": [
+        "Transformer",
+        "regulator",
+        "give constant DC voltage"
+      ],
+      "correctIndex": 2,
+      "explanation": "The provided correct answer is give constant DC voltage."
+    },
+    {
+      "id": 59,
+      "question": "Not a function of transformer",
+      "options": [
+        "Electrical isolation of load from power line",
+        "Transformer",
+        "Diode"
+      ],
+      "correctIndex": 0,
+      "explanation": "The provided correct answer is Electrical isolation of load from power line."
+    },
+    {
+      "id": 60,
+      "question": "__ of an amplifier implies when the input is not equal to the output",
+      "options": [
+        "Power amplifier",
+        "Voltage amplifier",
+        "distortion"
+      ],
+      "correctIndex": 2,
+      "explanation": "The provided correct answer is distortion."
+    },
+    {
+      "id": 61,
+      "question": "Center-tapped transformers rectifier - diodes",
+      "options": [
+        "half wave rectifier",
+        "center tapped full wave rectifier",
+        "2"
+      ],
+      "correctIndex": 2,
+      "explanation": "The provided correct answer is 2."
+    },
+    {
+      "id": 62,
+      "question": "Which electronic component is not used in voltage regulator circuits",
+      "options": [
+        "regulator",
+        "Transformer",
+        "Capacitor"
+      ],
+      "correctIndex": 2,
+      "explanation": "The provided correct answer is Capacitor."
+    },
+    {
+      "id": 63,
+      "question": "What type of amplifier circuit exhibit a high input impedance and low output impedance",
+      "options": [
+        "Power amplifier",
+        "Voltage amplifier",
+        "Common emitter"
+      ],
+      "correctIndex": 1,
+      "explanation": "The provided correct answer is Voltage amplifier."
+    },
+    {
+      "id": 64,
+      "question": "Which amplifier is considered as a type of large signal amplifier, depending on their power voltage gain",
+      "options": [
+        "Voltage amplifier",
+        "Audio power amplifier",
+        "Power amplifier"
+      ],
+      "correctIndex": 1,
+      "explanation": "The provided correct answer is Audio power amplifier."
+    },
+    {
+      "id": 65,
+      "question": "What is the function of a buffer amplifier in electronics circuits",
+      "options": [
+        "Voltage amplifier",
+        "Power amplifier",
+        "Impedance amplification"
+      ],
+      "correctIndex": 2,
+      "explanation": "The provided correct answer is Impedance amplification."
+    },
+    {
+      "id": 66,
+      "question": "Where is the apps of a low-noise amplifier in aircraft systems",
+      "options": [
+        "Voltage amplifier",
+        "In SATCOM antenna diplexer",
+        "Power amplifier"
+      ],
+      "correctIndex": 1,
+      "explanation": "The provided correct answer is In SATCOM antenna diplexer."
+    },
+    {
+      "id": 67,
+      "question": "Which type of PCB construction technique is mostly used in avionic systems",
+      "options": [
+        "surface-mount technology",
+        "PCB",
+        "Flatpack"
+      ],
+      "correctIndex": 0,
+      "explanation": "The provided correct answer is surface-mount technology."
+    },
+    {
+      "id": 68,
+      "question": "Which rectifier is more economical and efficient",
+      "options": [
+        "bridge full wave rectifier",
+        "half wave rectifier",
+        "center tapped full wave rectifier"
+      ],
+      "correctIndex": 0,
+      "explanation": "The provided correct answer is bridge full wave rectifier."
+    },
+    {
+      "id": 69,
+      "question": "Differential amplifier uses to amplify",
+      "options": [
+        "Voltage amplifier",
+        "Power amplifier",
+        "Ac and Dc"
+      ],
+      "correctIndex": 2,
+      "explanation": "The provided correct answer is Ac and Dc."
+    },
+    {
+      "id": 70,
+      "question": "Compared to linear power supply which one is not disadvantage of switching mode power supply",
+      "options": [
+        "complex circuitry",
+        "regulator",
+        "Transformer"
+      ],
+      "correctIndex": 0,
+      "explanation": "The provided correct answer is complex circuitry."
+    },
+    {
+      "id": 71,
+      "question": "Which one of the following is not offset voltage dish to zero",
+      "options": [
+        "Transformer",
+        "Efficiency of op-amps",
+        "Diode"
+      ],
+      "correctIndex": 1,
+      "explanation": "The provided correct answer is Efficiency of op-amps."
+    },
+    {
+      "id": 72,
+      "question": "In IC SiO2 used for",
+      "options": [
+        "ALU",
+        "Prevent contamination",
+        "Control unit"
+      ],
+      "correctIndex": 1,
+      "explanation": "The provided correct answer is Prevent contamination."
+    },
+    {
+      "id": 73,
+      "question": "Tunning CKT",
+      "options": [
+        "RC oscillator",
+        "defective frequency",
+        "LC oscillator"
+      ],
+      "correctIndex": 1,
+      "explanation": "The provided correct answer is defective frequency."
+    },
+    {
+      "id": 74,
+      "question": "High linearity and low distortion",
+      "options": [
+        "Class A",
+        "Gain",
+        "loss"
+      ],
+      "correctIndex": 0,
+      "explanation": "The provided correct answer is Class A."
+    },
+    {
+      "id": 75,
+      "question": "Which type of variable oscillating has no stable position",
+      "options": [
+        "Diode",
+        "Transformer",
+        "astable"
+      ],
+      "correctIndex": 2,
+      "explanation": "The provided correct answer is astable."
+    },
+    {
+      "id": 76,
+      "question": "A stage in power supply that used to smooth DC voltage output",
+      "options": [
+        "Transformer",
+        "Regulator",
+        "regulator"
+      ],
+      "correctIndex": 1,
+      "explanation": "The provided correct answer is Regulator."
+    },
+    {
+      "id": 77,
+      "question": "How many transistors are in class B amplifier",
+      "options": [
+        "Class B",
+        "Class A",
+        "2"
+      ],
+      "correctIndex": 2,
+      "explanation": "The provided correct answer is 2."
+    },
+    {
+      "id": 78,
+      "question": "Which component used to ripple at ac shape signals",
+      "options": [
+        "Filter",
+        "Transformer",
+        "regulator"
+      ],
+      "correctIndex": 0,
+      "explanation": "The provided correct answer is Filter."
+    },
+    {
+      "id": 79,
+      "question": "IC packages for identification and numbering, in what direction we must count for IC's",
+      "options": [
+        "Control unit",
+        "package bottom view from separator mark or tap clockwise",
+        "ALU"
+      ],
+      "correctIndex": 1,
+      "explanation": "The provided correct answer is package bottom view from separator mark or tap clockwise."
+    },
+    {
+      "id": 80,
+      "question": "IC amplifier type with high voltage gain + negative feedback signal",
+      "options": [
+        "Voltage amplifier",
+        "power amplifier",
+        "Power amplifier"
+      ],
+      "correctIndex": 1,
+      "explanation": "The provided correct answer is power amplifier."
+    },
+    {
+      "id": 81,
+      "question": "Not essential in Oscillator circuit",
+      "options": [
+        "RC oscillator",
+        "rectifier",
+        "LC oscillator"
+      ],
+      "correctIndex": 1,
+      "explanation": "The provided correct answer is rectifier."
+    },
+    {
+      "id": 82,
+      "question": "First stage in manufacturing PCB",
+      "options": [
+        "surface-mount technology",
+        "PCB",
+        "transfer the layout of the design to the board"
+      ],
+      "correctIndex": 2,
+      "explanation": "The provided correct answer is transfer the layout of the design to the board."
+    },
+    {
+      "id": 83,
+      "question": "If we have cascaded amplifier the sizeable gain is",
+      "options": [
+        "Voltage amplifier",
+        "Power amplifier",
+        "The summation of the cascade"
+      ],
+      "correctIndex": 2,
+      "explanation": "The provided correct answer is The summation of the cascade."
+    },
+    {
+      "id": 84,
+      "question": "In series regulator circuit, the resistance of which element is varied",
+      "options": [
+        "Active element",
+        "regulator",
+        "Transformer"
+      ],
+      "correctIndex": 0,
+      "explanation": "The provided correct answer is Active element."
+    },
+    {
+      "id": 85,
+      "question": "In op amp if we get same input into terminal the output is",
+      "options": [
+        "Gain",
+        "Comparator amplifier",
+        "Zero"
+      ],
+      "correctIndex": 2,
+      "explanation": "The provided correct answer is Zero."
+    },
+    {
+      "id": 86,
+      "question": "Electronic circuit generating any range of frequency from single reference",
+      "options": [
+        "PLL",
+        "ALU",
+        "Control unit"
+      ],
+      "correctIndex": 0,
+      "explanation": "The provided correct answer is PLL."
+    },
+    {
+      "id": 87,
+      "question": "Where does class C amplifier used",
+      "options": [
+        "on Photo amplifier",
+        "Class B",
+        "Class A"
+      ],
+      "correctIndex": 0,
+      "explanation": "The provided correct answer is on Photo amplifier."
+    },
+    {
+      "id": 88,
+      "question": "North and dot are used for",
+      "options": [
+        "to identify first pin",
+        "Diode",
+        "Transformer"
+      ],
+      "correctIndex": 0,
+      "explanation": "The provided correct answer is to identify first pin."
+    },
+    {
+      "id": 89,
+      "question": "Where we put input signal on common emitter amplifiers terminal",
+      "options": [
+        "Power amplifier",
+        "Voltage amplifier",
+        "on Base terminal"
+      ],
+      "correctIndex": 2,
+      "explanation": "The provided correct answer is on Base terminal."
+    },
+    {
+      "id": 90,
+      "question": "Rectifier has how many diodes are there in half wave rectifier",
+      "options": [
+        "center tapped full wave rectifier",
+        "1",
+        "half wave rectifier"
+      ],
+      "correctIndex": 1,
+      "explanation": "The provided correct answer is 1."
+    },
+    {
+      "id": 91,
+      "question": "LC filter efficiency than RC for power supply is",
+      "options": [
+        "Transformer",
+        "regulator",
+        "LC resistance less than Re"
+      ],
+      "correctIndex": 2,
+      "explanation": "The provided correct answer is LC resistance less than Re."
+    },
+    {
+      "id": 92,
+      "question": "Phase shift oscillator is also known as",
+      "options": [
+        "RC oscillator",
+        "Crystal oscillator",
+        "LC oscillator"
+      ],
+      "correctIndex": 0,
+      "explanation": "The provided correct answer is RC oscillator."
+    },
+    {
+      "id": 93,
+      "question": "Relaxation oscillation is also known as",
+      "options": [
+        "Diode",
+        "Multivibrator",
+        "Transformer"
+      ],
+      "correctIndex": 1,
+      "explanation": "The provided correct answer is Multivibrator."
+    },
+    {
+      "id": 94,
+      "question": "Electronic power supply",
+      "options": [
+        "Transformer",
+        "Dc power rectifier than Ac power",
+        "regulator"
+      ],
+      "correctIndex": 1,
+      "explanation": "The provided correct answer is Dc power rectifier than Ac power."
+    },
+    {
+      "id": 95,
+      "question": "Feedback type for oscillator circuit is",
+      "options": [
+        "positive or regenerative",
+        "LC oscillator",
+        "RC oscillator"
+      ],
+      "correctIndex": 0,
+      "explanation": "The provided correct answer is positive or regenerative."
+    },
+    {
+      "id": 96,
+      "question": "Type of oscillator using the tickler coil",
+      "options": [
+        "LC oscillator",
+        "RC oscillator",
+        "Armstrong"
+      ],
+      "correctIndex": 2,
+      "explanation": "The provided correct answer is Armstrong."
+    },
+    {
+      "id": 97,
+      "question": "Common emitter amplifier are",
+      "options": [
+        "Voltage amplifier",
+        "Single phase reversal amplifiers",
+        "Power amplifier"
+      ],
+      "correctIndex": 1,
+      "explanation": "The provided correct answer is Single phase reversal amplifiers."
+    },
+    {
+      "id": 98,
+      "question": "Efficiency of class A amplifier can be increased by",
+      "options": [
+        "Class A",
+        "Class B",
+        "transformer coupled load"
+      ],
+      "correctIndex": 2,
+      "explanation": "The provided correct answer is transformer coupled load."
+    },
+    {
+      "id": 99,
+      "question": "Pulse fixed frequency in radio signals",
+      "options": [
+        "loss",
+        "crystal oscillators",
+        "Gain"
+      ],
+      "correctIndex": 1,
+      "explanation": "The provided correct answer is crystal oscillators."
+    },
+    {
+      "id": 100,
+      "question": "Bridge circuit positive alternation",
+      "options": [
+        "Diode",
+        "two diodes are forward biased",
+        "Transformer"
+      ],
+      "correctIndex": 1,
+      "explanation": "The provided correct answer is two diodes are forward biased."
+    },
+    {
+      "id": 101,
+      "question": "Op amp is normally",
+      "options": [
+        "Gain",
+        "Zero",
+        "Voltage amplifier"
+      ],
+      "correctIndex": 2,
+      "explanation": "The provided correct answer is Voltage amplifier."
+    },
+    {
+      "id": 102,
+      "question": "Type of amplifier biased for operation at less than 180° of input cycle",
+      "options": [
+        "Voltage amplifier",
+        "Class C",
+        "Power amplifier"
+      ],
+      "correctIndex": 1,
+      "explanation": "The provided correct answer is Class C."
+    },
+    {
+      "id": 103,
+      "question": "Voltage gain around the closed feedback loop of oscillator must be greater than",
+      "options": [
+        "LC oscillator",
+        "RC oscillator",
+        "1"
+      ],
+      "correctIndex": 2,
+      "explanation": "The provided correct answer is 1."
+    },
+    {
+      "id": 104,
+      "question": "Low frequency oscillator has a frequency range of",
+      "options": [
+        "20 - 500kHz",
+        "RC oscillator",
+        "LC oscillator"
+      ],
+      "correctIndex": 0,
+      "explanation": "The provided correct answer is 20 - 500kHz."
+    },
+    {
+      "id": 105,
+      "question": "What type of amplifier are used to produce binary output + leakage blocking of ac",
+      "options": [
+        "Comparator amplifier",
+        "Power amplifier",
+        "Voltage amplifier"
+      ],
+      "correctIndex": 0,
+      "explanation": "The provided correct answer is Comparator amplifier."
+    },
+    {
+      "id": 106,
+      "question": "In bridge full wave rectifier if one diode what will happen to the output rectifier",
+      "options": [
+        "center tapped full wave rectifier",
+        "half wave rectifier",
+        "Open"
+      ],
+      "correctIndex": 2,
+      "explanation": "The provided correct answer is Open."
+    },
+    {
+      "id": 107,
+      "question": "Class AB oscillators are used to",
+      "options": [
+        "Class B",
+        "Overcome cross over distortion",
+        "Class A"
+      ],
+      "correctIndex": 1,
+      "explanation": "The provided correct answer is Overcome cross over distortion."
+    },
+    {
+      "id": 108,
+      "question": "In series regulator circuit, the resistance of which element is varied to change output voltage",
+      "options": [
+        "regulator",
+        "active element",
+        "Transformer"
+      ],
+      "correctIndex": 1,
+      "explanation": "The provided correct answer is active element."
+    },
+    {
+      "id": 109,
+      "question": "Oscillator type which has constant frequency and used for radio receiver",
+      "options": [
+        "crystal oscillator",
+        "RC oscillator",
+        "LC oscillator"
+      ],
+      "correctIndex": 0,
+      "explanation": "The provided correct answer is crystal oscillator."
+    },
+    {
+      "id": 110,
+      "question": "Class A OP AMP conduction over 360 degree & point is at the",
+      "options": [
+        "center of the load line",
+        "Class B",
+        "Class A"
+      ],
+      "correctIndex": 0,
+      "explanation": "The provided correct answer is center of the load line."
+    },
+    {
+      "id": 111,
+      "question": "Most common type of IC packaging",
+      "options": [
+        "Flatpack",
+        "surface-mount technology",
+        "PCB"
+      ],
+      "correctIndex": 0,
+      "explanation": "The provided correct answer is Flatpack."
+    },
+    {
+      "id": 112,
+      "question": "In power supply the reservoir capacitor used to",
+      "options": [
+        "regulator",
+        "Transformer",
+        "Rectify AC to Dc output signal"
+      ],
+      "correctIndex": 2,
+      "explanation": "The provided correct answer is Rectify AC to Dc output signal."
+    },
+    {
+      "id": 113,
+      "question": "Part of filter in power supply",
+      "options": [
+        "Large capacitor",
+        "Transformer",
+        "regulator"
+      ],
+      "correctIndex": 0,
+      "explanation": "The provided correct answer is Large capacitor."
+    },
+    {
+      "id": 114,
+      "question": "Capacitive type filter",
+      "options": [
+        "regulator",
+        "fast charge and slow discharge",
+        "Transformer"
+      ],
+      "correctIndex": 1,
+      "explanation": "The provided correct answer is fast charge and slow discharge."
+    },
+    {
+      "id": 115,
+      "question": "Feedback path in an op-amp consists of",
+      "options": [
+        "capacitor",
+        "Gain",
+        "Zero"
+      ],
+      "correctIndex": 0,
+      "explanation": "The provided correct answer is capacitor."
+    }
+  ]
+}
