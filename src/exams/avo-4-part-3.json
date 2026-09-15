@@ -1,0 +1,1036 @@
+{
+  "id": "avo-4-part-3",
+  "title": "Avo-4-part-3",
+  "module": "AVO-4",
+  "course": "avionics",
+  "category": "part",
+  "description": "Comprehensive exam covering EWIS, aircraft wiring, electrical buses, inverters, connectors, splicing, grounding, and electrical protection.",
+  "durationMinutes": 150,
+  "totalQuestions": 93,
+  "color": "blue",
+  "questions": [
+    {
+      "id": 1,
+      "question": "What does EWIS represent",
+      "options": [
+        "LRU",
+        "115V and 400Hz",
+        "Electrical wiring interconnection system"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is Electrical wiring interconnection system."
+    },
+    {
+      "id": 2,
+      "question": "___ are caused by friction between two surfaces of different materials, at least one of which is conductive",
+      "options": [
+        "Electrostatic charges",
+        "DC",
+        "Ammeter should never exceed redline in intermittent duty"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is Electrostatic charges."
+    },
+    {
+      "id": 3,
+      "question": "Which of the following operates in conductive liquid",
+      "options": [
+        "Tilt switch",
+        "Splicing",
+        "Engineering approval"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is Tilt switch."
+    },
+    {
+      "id": 4,
+      "question": "___ are devices attached to the ends of cables and wires to make them easier to connect and disconnect",
+      "options": [
+        "Stripping",
+        "Connectors",
+        "Electrostatic sensitive device"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is Connectors."
+    },
+    {
+      "id": 5,
+      "question": "Purpose of wire splicing in A/C",
+      "options": [
+        "Connect two or more wires securely",
+        "Current path",
+        "Switch"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is Connect two or more wires securely."
+    },
+    {
+      "id": 6,
+      "question": "Proper check of wire",
+      "options": [
+        "Split bus",
+        "Digital multimeter",
+        "Electrostatic charges"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is Digital multimeter."
+    },
+    {
+      "id": 7,
+      "question": "Which of the f/f is not the adv. of slack installation",
+      "options": [
+        "Split bus",
+        "Vital DC bus",
+        "Prevent mechanical twisting"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is Prevent mechanical twisting."
+    },
+    {
+      "id": 8,
+      "question": "___ is used to connect two A/C metallic component to form an integrate unit",
+      "options": [
+        "Replaced",
+        "Bonding",
+        "Circuit breaker"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is Bonding."
+    },
+    {
+      "id": 9,
+      "question": "Type of transformer used in TRU",
+      "options": [
+        "DC",
+        "Clamps",
+        "Step down"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is Step down."
+    },
+    {
+      "id": 10,
+      "question": "Split-parallel bus system during normal flight, all four engine driven generators operating in",
+      "options": [
+        "Parallel",
+        "Non-insulated is appropriate",
+        "Conduits"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is Parallel."
+    },
+    {
+      "id": 11,
+      "question": "Which of the following power services is used to ensure safe flight during an emergency situation",
+      "options": [
+        "Essential services",
+        "Current capacity that the wire or cables can safely carry continuously",
+        "Current path"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is Essential services."
+    },
+    {
+      "id": 12,
+      "question": "What would designate a wire printed with the number M22719/34-22-948 the number 22",
+      "options": [
+        "Wire size",
+        "Stripping",
+        "Electrostatic charges"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is Wire size."
+    },
+    {
+      "id": 13,
+      "question": "Bus commonly used to denote",
+      "options": [
+        "Megger test",
+        "Essential AC bus, left DC, battery",
+        "Current path"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is Essential AC bus, left DC, battery."
+    },
+    {
+      "id": 14,
+      "question": "___ allows current to flow from AC to DC power only",
+      "options": [
+        "Non-essential services",
+        "For connecting broken wires",
+        "Rectifier"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is Rectifier."
+    },
+    {
+      "id": 15,
+      "question": "Not true about intermittent load",
+      "options": [
+        "Current path",
+        "ESD susceptible",
+        "Ammeter should never exceed redline in intermittent duty"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is Ammeter should never exceed redline in intermittent duty."
+    },
+    {
+      "id": 16,
+      "question": "Use to make or break electrical contact",
+      "options": [
+        "Non-insulated is appropriate",
+        "Switch",
+        "10 times"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is Switch."
+    },
+    {
+      "id": 17,
+      "question": "Automatic switch used for protection from overload or short circuit",
+      "options": [
+        "Operated for two minutes or less and are the",
+        "Connectors",
+        "Circuit breaker"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is Circuit breaker."
+    },
+    {
+      "id": 18,
+      "question": "Attaching one metal to another by melting",
+      "options": [
+        "Landing gear, flaps, trim motor, landing light",
+        "Soldering",
+        "To facilitate easy removal & replacement of components"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is Soldering."
+    },
+    {
+      "id": 19,
+      "question": "___ gives mechanical strength",
+      "options": [
+        "Connectors",
+        "Conduits",
+        "Switch"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is Conduits."
+    },
+    {
+      "id": 20,
+      "question": "DC motor drive 3 phase AC generator",
+      "options": [
+        "Rotary inverter",
+        "Split-parallel bus (Tie-bus)",
+        "Crimping connections"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is Rotary inverter."
+    },
+    {
+      "id": 21,
+      "question": "Throw indicate in SPST",
+      "options": [
+        "Vital DC bus",
+        "Static inverter",
+        "Current path"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is Current path."
+    },
+    {
+      "id": 22,
+      "question": "Before crimping stripping",
+      "options": [
+        "Load shedding",
+        "Inverter",
+        "Stripping"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is Stripping."
+    },
+    {
+      "id": 23,
+      "question": "On device symbol identification for the item damaged by ESD",
+      "options": [
+        "Switch",
+        "ESD susceptible",
+        "Split bus"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is ESD susceptible."
+    },
+    {
+      "id": 24,
+      "question": "For large aircraft for emergency AC power",
+      "options": [
+        "Circuit breaker",
+        "To facilitate easy removal & replacement of components",
+        "Static inverter"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is Static inverter."
+    },
+    {
+      "id": 25,
+      "question": "Fuses are connected in",
+      "options": [
+        "Dissipate electric charges",
+        "Switch",
+        "Series"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is Series."
+    },
+    {
+      "id": 26,
+      "question": "In parallel electrical system, all A.C generator are connected to one distribution bus is",
+      "options": [
+        "Essential bus system",
+        "Current path",
+        "Prevent mechanical twisting"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is Essential bus system."
+    },
+    {
+      "id": 27,
+      "question": "In a parallel electrical system, all A.C generator are connected to one distribution bus is called",
+      "options": [
+        "Soldering",
+        "Split-parallel bus (Tie-bus)",
+        "115V and 400Hz"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is Split-parallel bus (Tie-bus)."
+    },
+    {
+      "id": 28,
+      "question": "On both rotary and static inverters the input power is",
+      "options": [
+        "Terminal strips",
+        "DC",
+        "Current path"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is DC."
+    },
+    {
+      "id": 29,
+      "question": "If the wiring size is 24 AWG what will be the sleeving size",
+      "options": [
+        "12",
+        "Megger test",
+        "Current rating"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 12."
+    },
+    {
+      "id": 30,
+      "question": "Which of the following is not the main purpose of the separation routing rules of wire cable",
+      "options": [
+        "Electrical wiring interconnection system",
+        "To increase the strength of the cable",
+        "Non-insulated is appropriate"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is To increase the strength of the cable."
+    },
+    {
+      "id": 31,
+      "question": "Wires are usually joined at",
+      "options": [
+        "Navigation and communication",
+        "Non-insulated is appropriate",
+        "Terminal strips"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is Terminal strips."
+    },
+    {
+      "id": 32,
+      "question": "Single pole single throw, throw indicates",
+      "options": [
+        "Engineering approval",
+        "Current path",
+        "Electrostatic charges"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is Current path."
+    },
+    {
+      "id": 33,
+      "question": "___ is source, which convert unregulated DC to regulated DC",
+      "options": [
+        "Converter",
+        "115V and 400Hz",
+        "Current rating"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is Converter."
+    },
+    {
+      "id": 34,
+      "question": "How can cable & wire is identified",
+      "options": [
+        "Clamps",
+        "Magnesium and silicon",
+        "Direct & indirect marking"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is Direct & indirect marking."
+    },
+    {
+      "id": 35,
+      "question": "Identification marking sleeve should be placed at each end of wire and at",
+      "options": [
+        "Synchronization of frequency, voltage and phase is required",
+        "Vital DC consumers",
+        "15-inch maximum intervals along the wire"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is 15-inch maximum intervals along the wire."
+    },
+    {
+      "id": 36,
+      "question": "Which one of the following is an intermittent load",
+      "options": [
+        "Landing gear, flaps, trim motor, landing light",
+        "Electrical wiring interconnection system",
+        "Megger test"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is Landing gear, flaps, trim motor, landing light."
+    },
+    {
+      "id": 37,
+      "question": "What is intermittent load",
+      "options": [
+        "Operated for two minutes or less and are the",
+        "Essential bus system",
+        "All consumer devices"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is Operated for two minutes or less and are the."
+    },
+    {
+      "id": 38,
+      "question": "What is the difficulty in connecting AC power generators in parallel",
+      "options": [
+        "Synchronization of frequency, voltage and phase is required",
+        "Vital DC consumers",
+        "Essential AC bus, left DC, battery"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is Synchronization of frequency, voltage and phase is required."
+    },
+    {
+      "id": 39,
+      "question": "Not EFIS troubleshooting used",
+      "options": [
+        "Non-essential services",
+        "Splicing",
+        "Landing gear, flaps, trim motor, landing light"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is Splicing."
+    },
+    {
+      "id": 40,
+      "question": "Not true about splicing",
+      "options": [
+        "Essential bus system",
+        "Synchronization of frequency, voltage and phase is required",
+        "Non-insulated is appropriate"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is Non-insulated is appropriate."
+    },
+    {
+      "id": 41,
+      "question": "ESD mat is used to",
+      "options": [
+        "Dissipate electric charges",
+        "To facilitate easy removal & replacement of components",
+        "Current path"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is Dissipate electric charges."
+    },
+    {
+      "id": 42,
+      "question": "Not used to bundle wires",
+      "options": [
+        "Essential bus system",
+        "Clamps",
+        "Brazing"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is Clamps."
+    },
+    {
+      "id": 43,
+      "question": "___ are connected directly to the battery bus",
+      "options": [
+        "Color coded",
+        "Vital services",
+        "Circuit breaker"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is Vital services."
+    },
+    {
+      "id": 44,
+      "question": "___ used for checking insulation leakage",
+      "options": [
+        "Load shedding",
+        "Megger test",
+        "To increase the strength of the cable"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is Megger test."
+    },
+    {
+      "id": 45,
+      "question": "Load shedding in the event of overload ___ reduce electricity to acceptable level",
+      "options": [
+        "BPCU",
+        "For connecting broken wires",
+        "Magnesium and silicon"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is BPCU."
+    },
+    {
+      "id": 46,
+      "question": "Parallel electrical system all AC generator connected to one distribution",
+      "options": [
+        "15-inch maximum intervals along the wire",
+        "Tie bus",
+        "Crimping connections are stronger, actually as strong as the conductor itself"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is Tie bus."
+    },
+    {
+      "id": 47,
+      "question": "Prior to soldering used to prepare the surface of the conductor",
+      "options": [
+        "Switch",
+        "Flux",
+        "Non-essential services"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is Flux."
+    },
+    {
+      "id": 48,
+      "question": "Current carrying capacity parameter",
+      "options": [
+        "Step-down",
+        "Length, area, heat dissipation",
+        "Landing gear, flaps, trim motor, landing light"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is Length, area, heat dissipation."
+    },
+    {
+      "id": 49,
+      "question": "Solderability affected by two alloys",
+      "options": [
+        "Magnesium and silicon",
+        "Inverter",
+        "Length, area, heat dissipation"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is Magnesium and silicon."
+    },
+    {
+      "id": 50,
+      "question": "To protect aircraft & person from damage by lighting discharge",
+      "options": [
+        "Grounding A/C",
+        "Wire size",
+        "Crimping connections are stronger, actually as strong as the conductor itself"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is Grounding A/C."
+    },
+    {
+      "id": 51,
+      "question": "True about rotary inverter",
+      "options": [
+        "Wire",
+        "Static inverter",
+        "DC motor drive 3-phase AC generator"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is DC motor drive 3-phase AC generator."
+    },
+    {
+      "id": 52,
+      "question": "What is the primary purpose of a wire connector in aircraft EWIS",
+      "options": [
+        "Emergency situation",
+        "Splicing",
+        "To facilitate easy removal & replacement of components"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is To facilitate easy removal & replacement of components."
+    },
+    {
+      "id": 53,
+      "question": "___ is approved for splicing individual wires in a group of bundle",
+      "options": [
+        "Engineering approval",
+        "Series",
+        "Relay"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is Engineering approval."
+    },
+    {
+      "id": 54,
+      "question": "Crimping handle is",
+      "options": [
+        "Color coded",
+        "Electrical wiring interconnection system",
+        "Stripping"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is Color coded."
+    },
+    {
+      "id": 55,
+      "question": "Which of the following is true",
+      "options": [
+        "Digital multimeter",
+        "Ammeter should never exceed redline in intermittent duty",
+        "Crimping connections are stronger, actually as strong as the conductor itself"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is Crimping connections are stronger, actually as strong as the conductor itself."
+    },
+    {
+      "id": 56,
+      "question": "___ is a process of joining two pieces of base metals by creating metallic joint",
+      "options": [
+        "Grounding A/C",
+        "Wire",
+        "Brazing"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is Brazing."
+    },
+    {
+      "id": 57,
+      "question": "The main bus galley bus receive their power from the",
+      "options": [
+        "Parallel",
+        "AC transfer bus",
+        "To increase the strength of the cable"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is AC transfer bus."
+    },
+    {
+      "id": 58,
+      "question": "Buses are commonly used to denote essential",
+      "options": [
+        "Wire size",
+        "AC bus, left DC bus, battery",
+        "Insulation strength"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is AC bus, left DC bus, battery."
+    },
+    {
+      "id": 59,
+      "question": "In TRU the transformer is",
+      "options": [
+        "Essential bus system",
+        "Ammeter should never exceed redline in intermittent duty",
+        "Step-down"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is Step-down."
+    },
+    {
+      "id": 60,
+      "question": "For emergency DC power, it is supplied by the",
+      "options": [
+        "All consumer devices",
+        "Vital DC bus",
+        "AC transfer bus"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is Vital DC bus."
+    },
+    {
+      "id": 61,
+      "question": "The current rating of a cable of wire indicates the",
+      "options": [
+        "Essential services",
+        "Oscilloscope",
+        "Current capacity that the wire or cables can safely carry continuously"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is Current capacity that the wire or cables can safely carry continuously."
+    },
+    {
+      "id": 62,
+      "question": "Power-consuming devices are always supplied from bus",
+      "options": [
+        "To increase the strength of the cable",
+        "Landing gear, flaps, trim motor, landing light",
+        "Vital DC consumers"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is Vital DC consumers."
+    },
+    {
+      "id": 63,
+      "question": "Which of the following wire has the largest wire size",
+      "options": [
+        "Navigation and communication",
+        "Length, area, heat dissipation",
+        "0000 AWG"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is 0000 AWG."
+    },
+    {
+      "id": 64,
+      "question": "Wire conduit kinked should be",
+      "options": [
+        "Stripping",
+        "All consumer devices",
+        "Replaced"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is Replaced."
+    },
+    {
+      "id": 65,
+      "question": "Minimum bending radius of bends in wire group is",
+      "options": [
+        "10 times",
+        "Converter",
+        "Dissipate electric charges"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 10 times."
+    },
+    {
+      "id": 66,
+      "question": "___ are devices attached to the ends of cables and sets of wires to make them easier to connect and disconnect",
+      "options": [
+        "Connector",
+        "Current capacity that the wire or cables can safely carry continuously",
+        "Bonding"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is Connector."
+    },
+    {
+      "id": 67,
+      "question": "What is primary purpose of conduit",
+      "options": [
+        "Vital DC bus",
+        "Mechanical protection for cables and wires",
+        "Oscilloscope"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is Mechanical protection for cables and wires."
+    },
+    {
+      "id": 68,
+      "question": "Electro-mechanical switch",
+      "options": [
+        "Relay",
+        "Normal cables",
+        "Essential bus system"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is Relay."
+    },
+    {
+      "id": 69,
+      "question": "Which of the following consumer device are supplied w/ power when twin engine operated aircraft both generators are operating",
+      "options": [
+        "Vital DC bus",
+        "All consumer devices",
+        "Circuit breaker"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is All consumer devices."
+    },
+    {
+      "id": 70,
+      "question": "What is purpose of wire splicing in EWIS",
+      "options": [
+        "Landing gear, flaps, trim motor, landing light",
+        "For connecting broken wires",
+        "Essential services"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is For connecting broken wires."
+    },
+    {
+      "id": 71,
+      "question": "Aircraft critical component is operated by",
+      "options": [
+        "Aircraft battery",
+        "All consumer devices",
+        "Brazing"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is Aircraft battery."
+    },
+    {
+      "id": 72,
+      "question": "Which device is denoted",
+      "options": [
+        "Inverter",
+        "Switch",
+        "Stripping"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is Switch."
+    },
+    {
+      "id": 73,
+      "question": "Aluminum wire size should be selected on basis of",
+      "options": [
+        "Stripping",
+        "Current rating",
+        "Splicing"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is Current rating."
+    },
+    {
+      "id": 74,
+      "question": "Which one of the following is not used to test wire",
+      "options": [
+        "Direct & indirect marking",
+        "Oscilloscope",
+        "Insulation strength"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is Oscilloscope."
+    },
+    {
+      "id": 75,
+      "question": "One of the following is not component of EWIS",
+      "options": [
+        "Current rating",
+        "LRU",
+        "ESD susceptible"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is LRU."
+    },
+    {
+      "id": 76,
+      "question": "Service used for safe flight during emergency",
+      "options": [
+        "Prevent mechanical twisting",
+        "Navigation and communication",
+        "Essential services"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is Essential services."
+    },
+    {
+      "id": 77,
+      "question": "Not factor for determining wire size",
+      "options": [
+        "Insulation strength",
+        "Aircraft battery",
+        "Vital DC bus"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is Insulation strength."
+    },
+    {
+      "id": 78,
+      "question": "Input for inverter",
+      "options": [
+        "Essential services",
+        "Crimping connections are stronger, actually as strong as the conductor itself",
+        "Aircraft DC battery"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is Aircraft DC battery."
+    },
+    {
+      "id": 79,
+      "question": "Which type of cable does antenna's use",
+      "options": [
+        "10 times",
+        "Coaxial cable",
+        "Battery"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is Coaxial cable."
+    },
+    {
+      "id": 80,
+      "question": "___ services are those which can be isolated in flight emergency",
+      "options": [
+        "Switch",
+        "Crimping connections are stronger, actually as strong as the conductor itself",
+        "Non-essential services"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is Non-essential services."
+    },
+    {
+      "id": 81,
+      "question": "During the failure of both engines, the power source which feeds essential load is",
+      "options": [
+        "Inverter",
+        "Connectors",
+        "Circuit breaker"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is Inverter."
+    },
+    {
+      "id": 82,
+      "question": "Most critical systems required for safe landing in the case of emergency",
+      "options": [
+        "Splicing",
+        "Crimping connections are stronger, actually as strong as the conductor itself",
+        "Navigation and communication"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is Navigation and communication."
+    },
+    {
+      "id": 83,
+      "question": "Inverter is used for",
+      "options": [
+        "Emergency situation",
+        "Series",
+        "Vital DC consumers"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is Emergency situation."
+    },
+    {
+      "id": 84,
+      "question": "The output of inverter is",
+      "options": [
+        "115V and 400Hz",
+        "Soldering",
+        "Split-parallel bus (Tie-bus)"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 115V and 400Hz."
+    },
+    {
+      "id": 85,
+      "question": "A/C battery power distribution method of modern aircraft with twin generator",
+      "options": [
+        "Split bus",
+        "Busbar/busses",
+        "Wire size"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is Split bus."
+    },
+    {
+      "id": 86,
+      "question": "Which one of the following is an intermittent load",
+      "options": [
+        "Landing gear, flaps, trim motor, landing light",
+        "Emergency situation",
+        "BPCU"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is Landing gear, flaps, trim motor, landing light."
+    },
+    {
+      "id": 87,
+      "question": "In the event of system overload, the control unit must reduce the electrical load to an acceptable level. This is known as",
+      "options": [
+        "Load shedding",
+        "Vital DC bus",
+        "Electrostatic sensitive device"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is Load shedding."
+    },
+    {
+      "id": 88,
+      "question": "___ are used in almost all electrical systems with the exception of firefighting and firewarning systems",
+      "options": [
+        "Normal cables",
+        "Landing gear, flaps, trim motor, landing light",
+        "Electrical wiring interconnection system"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is Normal cables."
+    },
+    {
+      "id": 89,
+      "question": "___ are stronger, actually as strong as the conductor itself",
+      "options": [
+        "Digital multimeter",
+        "Splicing",
+        "Crimping connections"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is Crimping connections."
+    },
+    {
+      "id": 90,
+      "question": "Electrical power is applied to various electrically energized components in an aircraft via a common point called",
+      "options": [
+        "Electrical wiring interconnection system",
+        "AC transfer bus",
+        "Busbar/busses"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is Busbar/busses."
+    },
+    {
+      "id": 91,
+      "question": "Critical component gets power from",
+      "options": [
+        "Battery",
+        "0000 AWG",
+        "Navigation and communication"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is Battery."
+    },
+    {
+      "id": 92,
+      "question": "In a single solid rod of filament drawn metals enclosed in suitable insulating material and outer protective material",
+      "options": [
+        "Wire",
+        "Connect two or more wires securely",
+        "Engineering approval"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is Wire."
+    },
+    {
+      "id": 93,
+      "question": "___ are electronic components and other parts that are prone to damage from stray electric charge",
+      "options": [
+        "Electrostatic charges",
+        "Wire size",
+        "Electrostatic sensitive device"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is Electrostatic sensitive device."
+    }
+  ]
+}

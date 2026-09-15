@@ -1,0 +1,970 @@
+{
+  "id": "avo-4-part-2",
+  "title": "Avo-4-part-2",
+  "module": "AVO-4",
+  "course": "avionics",
+  "category": "part",
+  "description": "Comprehensive exam covering AC generators, alternators, variable frequency generators, IDG, excitation, synchronization, and generator control.",
+  "durationMinutes": 150,
+  "totalQuestions": 87,
+  "color": "blue",
+  "questions": [
+    {
+      "id": 1,
+      "question": "In variable frequency alternator, what unit is used to change frequency",
+      "options": [
+        "to maintain constant frequency",
+        "Apparent power",
+        "solid state rectifier unit"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is solid state rectifier unit."
+    },
+    {
+      "id": 2,
+      "question": "What causes under voltage in a generator",
+      "options": [
+        "Excessive load",
+        "increase/decrease fuel",
+        "proportional division of KVA and KVAR total load bin multiple generator sets in parallel"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is Excessive load."
+    },
+    {
+      "id": 3,
+      "question": "What causes overload in a generator",
+      "options": [
+        "The generator is highly loaded or the conductors have short circuited",
+        "doesn't have high speed & have large centrifugal force",
+        "output voltage supplied to voltage regulator"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is The generator is highly loaded or the conductors have short circuited."
+    },
+    {
+      "id": 4,
+      "question": "What should be done in event of a malfunction in electrical power",
+      "options": [
+        "same as IDG",
+        "It should not be assumed an alternator fault before employing proper troubleshooting procedures",
+        "Airstream due to A/C speed"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is It should not be assumed an alternator fault before employing proper troubleshooting procedures."
+    },
+    {
+      "id": 5,
+      "question": "Alternators are single and three phase depending on",
+      "options": [
+        "Number of separate set windings on the stator",
+        "emergency",
+        "forming a single circuit series"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is Number of separate set windings on the stator."
+    },
+    {
+      "id": 6,
+      "question": "Correct about 2-phase alternators",
+      "options": [
+        "one winding cuts maximum flux, another cuts zero",
+        "it is pulsating",
+        "to increase power capacity"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is one winding cuts maximum flux, another cuts zero."
+    },
+    {
+      "id": 7,
+      "question": "VFG excitation",
+      "options": [
+        "PMG, Exciter generator & main generator",
+        "same as IDG",
+        "for direct contact avoid slide contact"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is same as IDG."
+    },
+    {
+      "id": 8,
+      "question": "A pilot exciter output is mounted on the main generator field",
+      "options": [
+        "increase/decrease fuel",
+        "and field is rotating permanent magnet",
+        "Main generator rotor shaft"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is Main generator rotor shaft."
+    },
+    {
+      "id": 9,
+      "question": "Exciter generator in brushless alternator consists of",
+      "options": [
+        "Armature & field coil",
+        "it disconnect from the AC Bus",
+        "Thyristor"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is Armature & field coil."
+    },
+    {
+      "id": 10,
+      "question": "If no voltage builds up on the generator",
+      "options": [
+        "flash the generator fields",
+        "as frequency increase speed(rpm) increase",
+        "emergency"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is flash the generator fields."
+    },
+    {
+      "id": 11,
+      "question": "Removing armature type of generator is similar to",
+      "options": [
+        "DC generator",
+        "Airstream due to A/C speed",
+        "Excessive load"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is DC generator."
+    },
+    {
+      "id": 12,
+      "question": "Low speed generators",
+      "options": [
+        "under/over frequency, shorted diode",
+        "salient pole",
+        "emergency"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is salient pole."
+    },
+    {
+      "id": 13,
+      "question": "What provides electrical power for a variety of aircraft loads from VFG",
+      "options": [
+        "AC Generator",
+        "Improper voltage regulator adjustment",
+        "power electronics and conversion equipment"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is power electronics and conversion equipment."
+    },
+    {
+      "id": 14,
+      "question": "Facility supplied with test circuit of AC generator",
+      "options": [
+        "emergency",
+        "furnishes load similar to that on A/C",
+        "Load Bank"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is Load Bank."
+    },
+    {
+      "id": 15,
+      "question": "load sharing in parallel-connected AC generators is",
+      "options": [
+        "it disconnect from the AC Bus",
+        "proportional division of KVA and KVAR total load bin multiple generator sets in parallel",
+        "to increase power capacity"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is proportional division of KVA and KVAR total load bin multiple generator sets in parallel."
+    },
+    {
+      "id": 16,
+      "question": "Role of CSP",
+      "options": [
+        "it is pulsating",
+        "It should not be assumed an alternator fault before employing proper troubleshooting procedures",
+        "change variable speed rotation to constant speed to generator"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is change variable speed rotation to constant speed to generator."
+    },
+    {
+      "id": 17,
+      "question": "What is the main advantage of having a stationary armature winding in an alternator",
+      "options": [
+        "120V",
+        "for direct contact avoid slide contact",
+        "it is in the method in which the connection the external circuit is made"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is for direct contact avoid slide contact."
+    },
+    {
+      "id": 18,
+      "question": "The main purpose of CSD in AC generator is",
+      "options": [
+        "It should not be assumed an alternator fault before employing proper troubleshooting procedures",
+        "to provide constant frequency",
+        "Air or oil cooling system"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is to provide constant frequency."
+    },
+    {
+      "id": 19,
+      "question": "other name for SCR",
+      "options": [
+        "Voltage, frequency & phase sequence",
+        "Thyristor",
+        "A/C battery"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is Thyristor."
+    },
+    {
+      "id": 20,
+      "question": "If the synchronizing light indicates the wrong phase sequence",
+      "options": [
+        "reverse the 2 leads to the incoming alternator",
+        "hold the magnetic poles and use as cover",
+        "monitor and control the general performance"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is reverse the 2 leads to the incoming alternator."
+    },
+    {
+      "id": 21,
+      "question": "Inverters are used on large A/C for",
+      "options": [
+        "Air or oil cooling system",
+        "emergency",
+        "Brushless (does not utilize brushes or slip rings)"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is emergency."
+    },
+    {
+      "id": 22,
+      "question": "Input for RAT",
+      "options": [
+        "for direct contact avoid slide contact",
+        "it is in the method in which the connection the external circuit is made",
+        "Airstream due to A/C speed"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is Airstream due to A/C speed."
+    },
+    {
+      "id": 23,
+      "question": "purpose of load bank in alternator test stand",
+      "options": [
+        "slipring and Brush",
+        "change variable speed rotation to constant speed to generator",
+        "furnishes load similar to that on A/C"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is furnishes load similar to that on A/C."
+    },
+    {
+      "id": 24,
+      "question": "permanent magnet generator consists of PMG → main generator",
+      "options": [
+        "Exciter generator",
+        "electromagnetic induction",
+        "same as IDG"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is Exciter generator."
+    },
+    {
+      "id": 25,
+      "question": "How is the pilot exciter field mounted on the rotor shaft of main generator",
+      "options": [
+        "to provide constant frequency",
+        "In series w main generator field",
+        "Apparent power"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is In series w main generator field."
+    },
+    {
+      "id": 26,
+      "question": "A single phase alternator has a stator made up of number of windings",
+      "options": [
+        "speed of the rotor and no of poles (RPM)",
+        "forming a single circuit series",
+        "electromagnetic induction"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is forming a single circuit series."
+    },
+    {
+      "id": 27,
+      "question": "Alternator used for A/C weighing less than 12,500 pounds use form of excitation",
+      "options": [
+        "A/C battery",
+        "under/over frequency, shorted diode",
+        "main generator, exciter generator and pilot exciter"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is A/C battery."
+    },
+    {
+      "id": 28,
+      "question": "How can we control KVA power in parallel multi generators",
+      "options": [
+        "solid state rectifier unit",
+        "increase/decrease fuel",
+        "it disconnect from the AC Bus"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is increase/decrease fuel."
+    },
+    {
+      "id": 29,
+      "question": "large aircraft AC alternator four connected used",
+      "options": [
+        "Air and oil cooling Mathes",
+        "it disconnect from the AC Bus",
+        "400HZ, 4 wires"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is 400HZ, 4 wires."
+    },
+    {
+      "id": 30,
+      "question": "If alternator fails to builds up voltage as designed",
+      "options": [
+        "it is in the method in which the connection the external circuit is made",
+        "test the voltmeter first by checking w other alternator or change the voltmeter",
+        "Excessive load"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is test the voltmeter first by checking w other alternator or change the voltmeter."
+    },
+    {
+      "id": 31,
+      "question": "The frequency of alternator depends on",
+      "options": [
+        "speed of the rotor and no of poles (RPM)",
+        "Apparent power",
+        "main generator, exciter generator and pilot exciter"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is speed of the rotor and no of poles (RPM)."
+    },
+    {
+      "id": 32,
+      "question": "Generation of AC is based on",
+      "options": [
+        "and field is rotating permanent magnet",
+        "PMG generator & exciter generator",
+        "electromagnetic induction"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is electromagnetic induction."
+    },
+    {
+      "id": 33,
+      "question": "Correct about exciter generator in brushless aircraft AC",
+      "options": [
+        "CSD",
+        "maintain constant frequency",
+        "it has stationary field & rotating armature"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is it has stationary field & rotating armature."
+    },
+    {
+      "id": 34,
+      "question": "PMG in lane FC generator is rotating field circuit and stationary armature",
+      "options": [
+        "small AC generator",
+        "solid state rectifier unit",
+        "under/over frequency, shorted diode"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is small AC generator."
+    },
+    {
+      "id": 35,
+      "question": "which of the following describe multi generator distributer",
+      "options": [
+        "using multiple generator to increase power capacity",
+        "forming a single circuit series",
+        "Rotor (field winding), Stator (Armature)."
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is using multiple generator to increase power capacity."
+    },
+    {
+      "id": 36,
+      "question": "How many pole in single phase alternator w 4 pole group",
+      "options": [
+        "4-pole",
+        "maintain constant frequency",
+        "power electronics and conversion equipment"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 4-pole."
+    },
+    {
+      "id": 37,
+      "question": "why is power delivered by single phase circuit often considered objectional",
+      "options": [
+        "AC Generator",
+        "it is pulsating",
+        "120V"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is it is pulsating."
+    },
+    {
+      "id": 38,
+      "question": "what is the name of the device that found bin A/C engine → A/C generator",
+      "options": [
+        "forming a single circuit series",
+        "doesn't have high speed & have large centrifugal force",
+        "CSD"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is CSD."
+    },
+    {
+      "id": 39,
+      "question": "What is salient pole exciter not used in flight generator",
+      "options": [
+        "doesn't have high speed & have large centrifugal force",
+        "it is in the method in which the connection the external circuit is made",
+        "emergency"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is doesn't have high speed & have large centrifugal force."
+    },
+    {
+      "id": 40,
+      "question": "What does the GCU do when generator fall between required parameter",
+      "options": [
+        "forming a single circuit series",
+        "it disconnect from the AC Bus",
+        "small AC"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is it disconnect from the AC Bus."
+    },
+    {
+      "id": 41,
+      "question": "What components are required if Armature is rotating in alternating",
+      "options": [
+        "DC generator",
+        "slipring and Brush",
+        "for direct contact avoid slide contact"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is slipring and Brush."
+    },
+    {
+      "id": 42,
+      "question": "In 3 stage brushless AC alternator when induces voltage on the stationary stator of PM generator",
+      "options": [
+        "increase voltage carrying capacity of a rectifier",
+        "and field is rotating permanent magnet",
+        "test the voltmeter first by checking w other alternator or change the voltmeter"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is and field is rotating permanent magnet."
+    },
+    {
+      "id": 43,
+      "question": "What will be use to maintain lagging of power factor load",
+      "options": [
+        "increase dc field current",
+        "Improper voltage regulator adjustment",
+        "PMG generator & exciter generator"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is increase dc field current."
+    },
+    {
+      "id": 44,
+      "question": "IDG fault light comes on",
+      "options": [
+        "using multiple generator to increase power capacity",
+        "under/over frequency, shorted diode",
+        "Increase"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is under/over frequency, shorted diode."
+    },
+    {
+      "id": 45,
+      "question": "Voltage falls off after operation",
+      "options": [
+        "Air or oil cooling system",
+        "Voltage regulator not warmed up",
+        "AC Generator"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is Voltage regulator not warmed up."
+    },
+    {
+      "id": 46,
+      "question": "If the excitation of the alternator is not matched, what will happen",
+      "options": [
+        "monitor and control the general performance",
+        "undesirable circulating reactive current will flow in the system",
+        "120V"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is undesirable circulating reactive current will flow in the system."
+    },
+    {
+      "id": 47,
+      "question": "Brushless AC generator output of pilot exciter supplied to",
+      "options": [
+        "GCU",
+        "IDG",
+        "PMG generator & exciter generator"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is GCU."
+    },
+    {
+      "id": 48,
+      "question": "parameters controlled during paralleling of AC generator",
+      "options": [
+        "Voltage, frequency & phase sequence",
+        "salient pole",
+        "Increase"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is Voltage, frequency & phase sequence."
+    },
+    {
+      "id": 49,
+      "question": "Excitation stage of VFG depends on",
+      "options": [
+        "PMG generator & exciter generator",
+        "hold the magnetic poles and use as cover",
+        "Exciter generator"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is PMG generator & exciter generator."
+    },
+    {
+      "id": 50,
+      "question": "Failure of differential current relay is backed up by",
+      "options": [
+        "test the voltmeter first by checking w other alternator or change the voltmeter",
+        "Direct Connect direct current",
+        "Exciter protection relay"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is Exciter protection relay."
+    },
+    {
+      "id": 51,
+      "question": "Total output of power in delta star connection 3 phase AC generator",
+      "options": [
+        "forming a single circuit series",
+        "hold the magnetic poles and use as cover",
+        "output power doesn't change in both connections"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is output power doesn't change in both connections."
+    },
+    {
+      "id": 52,
+      "question": "Major difference bin alternator and Dc generator",
+      "options": [
+        "it is in the method in which the connection the external circuit is made",
+        "solid state rectifier unit",
+        "Airstream due to A/C speed"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is it is in the method in which the connection the external circuit is made."
+    },
+    {
+      "id": 53,
+      "question": "correct about pilot exciter armature in high output",
+      "options": [
+        "one winding cuts maximum flux, another cuts zero",
+        "proportional division of KVA and KVAR total load bin multiple generator sets in parallel",
+        "output voltage supplied to voltage regulator"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is output voltage supplied to voltage regulator."
+    },
+    {
+      "id": 54,
+      "question": "Type of AC generator not used on large transport category aircraft",
+      "options": [
+        "increase voltage carrying capacity of a rectifier",
+        "output power doesn't change in both connections",
+        "DC generator"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is DC generator."
+    },
+    {
+      "id": 55,
+      "question": "selenium rectifying element connected in series → voltage carrying capacity of rectifier",
+      "options": [
+        "flash the generator fields",
+        "Increase",
+        "test the voltmeter first by checking w other alternator or change the voltmeter"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is Increase."
+    },
+    {
+      "id": 56,
+      "question": "If the exciter is a generator with a stationary field made of a permanent magnet & two electromagnets",
+      "options": [
+        "salient pole",
+        "small AC",
+        "hold the magnetic poles and use as cover"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is small AC."
+    },
+    {
+      "id": 57,
+      "question": "AC generator w greater diameter of rotor",
+      "options": [
+        "forming a single circuit series",
+        "proportional division of KVA and KVAR total load bin multiple generator sets in parallel",
+        "salient"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is salient."
+    },
+    {
+      "id": 58,
+      "question": "Consist of separately wound poles prices bolted to frame or rotor",
+      "options": [
+        "Improper voltage regulator adjustment",
+        "salient",
+        "monitor and control the general performance"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is salient."
+    },
+    {
+      "id": 59,
+      "question": "Role of GCU",
+      "options": [
+        "IDG",
+        "Exciter generator",
+        "monitor and control the general performance"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is monitor and control the general performance."
+    },
+    {
+      "id": 60,
+      "question": "full load 230V and no load 250. what is voltage regulation",
+      "options": [
+        "test the voltmeter first by checking w other alternator or change the voltmeter",
+        "120V",
+        "8.6%"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is 8.6%."
+    },
+    {
+      "id": 61,
+      "question": "Relation bin frequency and speed of AC generation",
+      "options": [
+        "Air and oil cooling Mathes",
+        "Voltage, frequency & phase sequence",
+        "as frequency increase speed(rpm) increase"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is as frequency increase speed(rpm) increase."
+    },
+    {
+      "id": 62,
+      "question": "Automatic drive of control speed drive used to",
+      "options": [
+        "Airstream due to A/C speed",
+        "Rotor (field winding), Stator (Armature).",
+        "maintain constant frequency"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is maintain constant frequency."
+    },
+    {
+      "id": 63,
+      "question": "revolving field",
+      "options": [
+        "Rotor is field winding and armature is stator",
+        "it has stationary field & rotating armature",
+        "slipring and Brush"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is Rotor is field winding and armature is stator."
+    },
+    {
+      "id": 64,
+      "question": "VFG consists of",
+      "options": [
+        "PMG, Exciter generator & main generator",
+        "as frequency increase speed(rpm) increase",
+        "Main generator rotor shaft"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is PMG, Exciter generator & main generator."
+    },
+    {
+      "id": 65,
+      "question": "Multi generator distribution described by",
+      "options": [
+        "8.6%",
+        "to increase power capacity",
+        "Exciter generator"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is to increase power capacity."
+    },
+    {
+      "id": 66,
+      "question": "permanent magnet interpole in exciter field is used for",
+      "options": [
+        "build up voltage",
+        "maintain constant frequency",
+        "forming a single circuit series"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is build up voltage."
+    },
+    {
+      "id": 67,
+      "question": "method depend on residual magnetism for initial AC voltage build up",
+      "options": [
+        "transformation & rectification from the Aircraft system",
+        "for direct contact avoid slide contact",
+        "8.6%"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is transformation & rectification from the Aircraft system."
+    },
+    {
+      "id": 68,
+      "question": "AC generator categorized in different phase based on",
+      "options": [
+        "monitor and control the general performance",
+        "the connection of wire on stator",
+        "Load Bank"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is the connection of wire on stator."
+    },
+    {
+      "id": 69,
+      "question": "revolving field generator",
+      "options": [
+        "Rotor (field winding), Stator (Armature).",
+        "Improper voltage regulator adjustment",
+        "400HZ, 4 wires"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is Rotor (field winding), Stator (Armature).."
+    },
+    {
+      "id": 70,
+      "question": "What is the probable cause if the output of the generator voltage becomes lower during the operation of AC generator",
+      "options": [
+        "Improper voltage regulator adjustment",
+        "speed of the rotor and no of poles (RPM)",
+        "AC Generator"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is Improper voltage regulator adjustment."
+    },
+    {
+      "id": 71,
+      "question": "For testing of an alternator to test circuit are supplied by",
+      "options": [
+        "Load Bank",
+        "It should not be assumed an alternator fault before employing proper troubleshooting procedures",
+        "furnishes load similar to that on A/C"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is Load Bank."
+    },
+    {
+      "id": 72,
+      "question": "cooling system of variable frequency generator",
+      "options": [
+        "Air or oil cooling system",
+        "hold the magnetic poles and use as cover",
+        "DC generator"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is Air or oil cooling system."
+    },
+    {
+      "id": 73,
+      "question": "Brushless large aircraft AC generator consists of",
+      "options": [
+        "GCU",
+        "as frequency increase speed(rpm) increase",
+        "main generator, exciter generator and pilot exciter"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is main generator, exciter generator and pilot exciter."
+    },
+    {
+      "id": 74,
+      "question": "Main generator rotating field is excited by the output of",
+      "options": [
+        "Exciter generator",
+        "AC Generator",
+        "Load Bank"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is Exciter generator."
+    },
+    {
+      "id": 75,
+      "question": "The role of CSP in IDG",
+      "options": [
+        "it is pulsating",
+        "for direct contact avoid slide contact",
+        "to maintain constant frequency"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is to maintain constant frequency."
+    },
+    {
+      "id": 76,
+      "question": "The excitation principle of VFG is same as",
+      "options": [
+        "the connection of wire on stator",
+        "Increase",
+        "IDG"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is IDG."
+    },
+    {
+      "id": 77,
+      "question": "What is one purpose of the yoke in generator",
+      "options": [
+        "under/over frequency, shorted diode",
+        "hold the magnetic poles and use as cover",
+        "change variable speed rotation to constant speed to generator"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is hold the magnetic poles and use as cover."
+    },
+    {
+      "id": 78,
+      "question": "IDG consists of",
+      "options": [
+        "Constant speed drive and generator",
+        "It should not be assumed an alternator fault before employing proper troubleshooting procedures",
+        "for direct contact avoid slide contact"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is Constant speed drive and generator."
+    },
+    {
+      "id": 79,
+      "question": "The use of VFG eliminates",
+      "options": [
+        "it disconnect from the AC Bus",
+        "small AC",
+        "CSD"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is CSD."
+    },
+    {
+      "id": 80,
+      "question": "Another name for AC alternator",
+      "options": [
+        "AC Generator",
+        "In series w main generator field",
+        "maintain constant frequency"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is AC Generator."
+    },
+    {
+      "id": 81,
+      "question": "Which AC generator uses CSD",
+      "options": [
+        "IDG",
+        "to provide constant frequency",
+        "A/C battery"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is IDG."
+    },
+    {
+      "id": 82,
+      "question": "What is the cooling method for VFG",
+      "options": [
+        "DC generator",
+        "salient pole",
+        "Air and oil cooling Mathes"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is Air and oil cooling Mathes."
+    },
+    {
+      "id": 83,
+      "question": "Dc and AC generators Combined",
+      "options": [
+        "Direct Connect direct current",
+        "Air and oil cooling Mathes",
+        "under/over frequency, shorted diode"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is Direct Connect direct current."
+    },
+    {
+      "id": 84,
+      "question": "KVA power rating",
+      "options": [
+        "it is pulsating",
+        "8.6%",
+        "Apparent power"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is Apparent power."
+    },
+    {
+      "id": 85,
+      "question": "In modern AC alternators, does not utilize",
+      "options": [
+        "Brushless (does not utilize brushes or slip rings)",
+        "increase voltage carrying capacity of a rectifier",
+        "solid state rectifier unit"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is Brushless (does not utilize brushes or slip rings)."
+    },
+    {
+      "id": 86,
+      "question": "In a star connected 3 phase generator, the line voltage is 208 V. what is the approximate value of phase voltage",
+      "options": [
+        "one winding cuts maximum flux, another cuts zero",
+        "doesn't have high speed & have large centrifugal force",
+        "120V"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is 120V."
+    },
+    {
+      "id": 87,
+      "question": "selenium rectifying elements connected in series increase voltage carrying capacity of a rectifier",
+      "options": [
+        "solid state rectifier unit",
+        "salient",
+        "increase voltage carrying capacity of a rectifier"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is increase voltage carrying capacity of a rectifier."
+    }
+  ]
+}

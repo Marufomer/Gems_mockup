@@ -1,0 +1,1311 @@
+{
+  "id": "avo-5-part-2",
+  "title": "Avo-5-part-2",
+  "module": "AVO-5",
+  "course": "avionics",
+  "category": "part",
+  "description": "Avionics exam preparation questions for Avo-5 Part 2.",
+  "durationMinutes": 150,
+  "totalQuestions": 118,
+  "color": "blue",
+  "questions": [
+    {
+      "id": 1,
+      "question": "The engine feed fuel from the center tank",
+      "options": [
+        "A. Located outboard of each control wheel",
+        "B. Proper BONDING",
+        "C. until the fuel in the center tank decrease near to zero"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is until the fuel in the center tank decrease near to zero."
+    },
+    {
+      "id": 2,
+      "question": "Which control the engine fuel spar valve",
+      "options": [
+        "A. FWD attendant panel",
+        "B. Fuel spar valve",
+        "C. Start engine lever"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is Start engine lever."
+    },
+    {
+      "id": 3,
+      "question": "In booster pump ___ is used to prevent reverse fuel flow from the tank to the engine",
+      "options": [
+        "A. Changing color alarm",
+        "B. Floor proximity lighting",
+        "C. Vapor discharge check valve"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is Vapor discharge check valve."
+    },
+    {
+      "id": 4,
+      "question": "Brew cup and coffee maker spot locker by",
+      "options": [
+        "A. Pressure relief",
+        "B. Lever handle",
+        "C. RVDT"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is Lever handle."
+    },
+    {
+      "id": 5,
+      "question": "Aerodynamic control surface is operated by",
+      "options": [
+        "A. Respective warning lights illuminate",
+        "B. Computer",
+        "C. CO detectors"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is Computer."
+    },
+    {
+      "id": 6,
+      "question": "Not visual smoke inspection",
+      "options": [
+        "A. Changing color alarm",
+        "B. FCC",
+        "C. Respective warning lights illuminate"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is Changing color alarm."
+    },
+    {
+      "id": 7,
+      "question": "Not light of flight compartment",
+      "options": [
+        "A. Squib",
+        "B. Flood light",
+        "C. 4"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is Flood light."
+    },
+    {
+      "id": 8,
+      "question": "Purpose of fuel valve",
+      "options": [
+        "A. Lower overhead panel",
+        "B. Transformer",
+        "C. Distribution of fuel from tank to engine"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is Distribution of fuel from tank to engine."
+    },
+    {
+      "id": 9,
+      "question": "Best for class 'C'",
+      "options": [
+        "A. False warnings under any flight context",
+        "B. CO2",
+        "C. Flood light"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is CO2."
+    },
+    {
+      "id": 10,
+      "question": "Master caution used to",
+      "options": [
+        "A. Safe operation indication",
+        "B. Changing color alarm",
+        "C. Master guard"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is Safe operation indication."
+    },
+    {
+      "id": 11,
+      "question": "Antiskid control valve",
+      "options": [
+        "A. Located outboard of each control wheel",
+        "B. In FBW wheels antiskid control speed",
+        "C. Elevator tab"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is In FBW wheels antiskid control speed."
+    },
+    {
+      "id": 12,
+      "question": "Interpret pilot input to control surface",
+      "options": [
+        "A. All bottles and squibs",
+        "B. FCC",
+        "C. Continuity"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is FCC."
+    },
+    {
+      "id": 13,
+      "question": "Hydraulic pump controlled by",
+      "options": [
+        "A. Continuous loop",
+        "B. Manual, electric, pneumatic, RAT, EDP",
+        "C. Fuel"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is Manual, electric, pneumatic, RAT, EDP."
+    },
+    {
+      "id": 14,
+      "question": "For current working A/C which one is not consider as a primary detection",
+      "options": [
+        "A. Electrical indicator",
+        "B. Guard (Lock)",
+        "C. Crack visual detection"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is Crack visual detection."
+    },
+    {
+      "id": 15,
+      "question": "3 positions for emergency lighting",
+      "options": [
+        "A. Crack visual detection",
+        "B. ON/OFF/ARMED",
+        "C. Protect by portable fire protection system"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is ON/OFF/ARMED."
+    },
+    {
+      "id": 16,
+      "question": "Not accidentally activated",
+      "options": [
+        "A. RVDT",
+        "B. Bottom of the heater tank",
+        "C. Master guard"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is Master guard."
+    },
+    {
+      "id": 17,
+      "question": "Which of the following is not true about the potential fire zone of modern multiengine aircraft",
+      "options": [
+        "A. Cockpit on transport aircraft",
+        "B. FCC",
+        "C. Protect by portable fire protection system"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is Protect by portable fire protection system."
+    },
+    {
+      "id": 18,
+      "question": "___ are designed to heat or reconstitute pre-cooked meals aboard aircraft with recirculating hot air",
+      "options": [
+        "A. Convection ovens",
+        "B. Automatically",
+        "C. On the base of coffee maker"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is Convection ovens."
+    },
+    {
+      "id": 19,
+      "question": "No water can flow during the brew cycle, unless the lever handle is MAX position",
+      "options": [
+        "A. Squib",
+        "B. Respective light illuminates",
+        "C. Down"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is Down."
+    },
+    {
+      "id": 20,
+      "question": "For which part of the wing does the wing thermal anti-ice (WTAI) system prevent an ice",
+      "options": [
+        "A. Moisture",
+        "B. The leading edges of the wing",
+        "C. FWD attendant panel"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is The leading edges of the wing."
+    },
+    {
+      "id": 21,
+      "question": "What heats the gray water drain lines",
+      "options": [
+        "A. Lower overhead panel",
+        "B. Electrical heaters (Tape heater)",
+        "C. Center tank"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is Electrical heaters (Tape heater)."
+    },
+    {
+      "id": 22,
+      "question": "Where are the location of all boost pumps",
+      "options": [
+        "A. Galley power control",
+        "B. Center tank",
+        "C. Airbus A320"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is Center tank."
+    },
+    {
+      "id": 23,
+      "question": "The temporary diversion of aircraft engine's exhaust so that it is directed forward, rather than backwards is called",
+      "options": [
+        "A. 10 minutes",
+        "B. Protect by portable fire protection system",
+        "C. Thrust reversal"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is Thrust reversal."
+    },
+    {
+      "id": 24,
+      "question": "When will the power supply to the galley will be open",
+      "options": [
+        "A. Light shield",
+        "B. Moisture",
+        "C. When generator power is lost"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is When generator power is lost."
+    },
+    {
+      "id": 25,
+      "question": "Which of the following detector is better suited to monitor areas where material burn slowly/smolder",
+      "options": [
+        "A. Oxygen",
+        "B. Smoke detector",
+        "C. Changing color alarm"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is Smoke detector."
+    },
+    {
+      "id": 26,
+      "question": "Forward and aft boost pump of the main tanks are controlled by",
+      "options": [
+        "A. Switch on fuel panel",
+        "B. Nitrogen",
+        "C. Wheel well"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is Switch on fuel panel."
+    },
+    {
+      "id": 27,
+      "question": "___ is to protect the water heater/prevents the water tank from damage",
+      "options": [
+        "A. Pressure relief",
+        "B. Computer",
+        "C. Fuel supply is stopped & engine is isolated"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is Pressure relief."
+    },
+    {
+      "id": 28,
+      "question": "Pressure switch has",
+      "options": [
+        "A. Electrical indicator",
+        "B. Oxygen",
+        "C. Resolver"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is Electrical indicator."
+    },
+    {
+      "id": 29,
+      "question": "Trim switch",
+      "options": [
+        "A. Located outboard of each control wheel",
+        "B. Use as redundancy",
+        "C. Spot detectors"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is Located outboard of each control wheel."
+    },
+    {
+      "id": 30,
+      "question": "Immersion of heater",
+      "options": [
+        "A. Bottom of the heater tank",
+        "B. Electrical load shedding",
+        "C. The leading edges of the wing"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is Bottom of the heater tank."
+    },
+    {
+      "id": 31,
+      "question": "When the waste disposal T° reaches 170°",
+      "options": [
+        "A. Master guard",
+        "B. Down",
+        "C. The solder melts"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is The solder melts."
+    },
+    {
+      "id": 32,
+      "question": "Thermal switch mounted on the water heater tank",
+      "options": [
+        "A. Use as redundancy",
+        "B. Square containing the letter B, Red",
+        "C. Safe operation indication"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is Use as redundancy."
+    },
+    {
+      "id": 33,
+      "question": "When fire switch is pulled",
+      "options": [
+        "A. CAB/UTIL power switch",
+        "B. Open circuit breaker & install safety tag",
+        "C. Fuel supply is stopped & engine is isolated"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is Fuel supply is stopped & engine is isolated."
+    },
+    {
+      "id": 34,
+      "question": "Switch location for servicing lights",
+      "options": [
+        "A. Start engine lever",
+        "B. In each compartment",
+        "C. Oven control module"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is In each compartment."
+    },
+    {
+      "id": 35,
+      "question": "Conventional oven",
+      "options": [
+        "A. Dry hot air recirculating",
+        "B. Squib",
+        "C. Cockpit and cabin"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is Dry hot air recirculating."
+    },
+    {
+      "id": 36,
+      "question": "The light in each cargo compartment are operated",
+      "options": [
+        "A. Independently",
+        "B. Cockpit",
+        "C. Respective light illuminates"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is Independently."
+    },
+    {
+      "id": 37,
+      "question": "What will be the result if the test switch for each system is pressed & no failure is detected",
+      "options": [
+        "A. Respective warning lights illuminate",
+        "B. Independently",
+        "C. False warnings under any flight context"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is Respective warning lights illuminate."
+    },
+    {
+      "id": 38,
+      "question": "Pressure-type detection system uses a ___ for detection",
+      "options": [
+        "A. False warnings under any flight context",
+        "B. Continuous loop",
+        "C. Safe operation indication"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is Continuous loop."
+    },
+    {
+      "id": 39,
+      "question": "How many minutes should you wait before removing the light? If you touch the light when it is hot, injury to a person can occur",
+      "options": [
+        "A. 10 minutes",
+        "B. 4",
+        "C. Uses a lever mechanism"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 10 minutes."
+    },
+    {
+      "id": 40,
+      "question": "Galley electrical power supply gets power from the No 1 & 2 generator buses. It energizes the galleys with",
+      "options": [
+        "A. Oven control module",
+        "B. Cockpit and cabin",
+        "C. 3-phase, 115VAC from the No 1 & 2 transfer buses"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is 3-phase, 115VAC from the No 1 & 2 transfer buses."
+    },
+    {
+      "id": 41,
+      "question": "Where does the switch that control window light located",
+      "options": [
+        "A. All bottles and squibs",
+        "B. Cockpit",
+        "C. FWD attendant panel"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is FWD attendant panel."
+    },
+    {
+      "id": 42,
+      "question": "Not a path for signal route of control surface to FCC",
+      "options": [
+        "A. Forward path",
+        "B. Reverse thrust",
+        "C. Elevator tab"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is Forward path."
+    },
+    {
+      "id": 43,
+      "question": "To avoid EMI and HIRF",
+      "options": [
+        "A. Use optical fiber cables/optical sensors",
+        "B. Lower overhead panel",
+        "C. False warnings under any flight context"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is Use optical fiber cables/optical sensors."
+    },
+    {
+      "id": 44,
+      "question": "Trimming most commonly refers to",
+      "options": [
+        "A. Elevator tab",
+        "B. Oxygen",
+        "C. Located outboard of each control wheel"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is Elevator tab."
+    },
+    {
+      "id": 45,
+      "question": "What will happen if the APU has high EGT or overcurrent",
+      "options": [
+        "A. Pilot overhead panel",
+        "B. The solder melts",
+        "C. Electrical load shedding"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is Electrical load shedding."
+    },
+    {
+      "id": 46,
+      "question": "A device that indicates the condition of extinguisher bottle",
+      "options": [
+        "A. Pressure gauge",
+        "B. Fuel spar valve",
+        "C. Its own battery pack"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is Pressure gauge."
+    },
+    {
+      "id": 47,
+      "question": "A valve that control fuel flow from the engine fuel feeder",
+      "options": [
+        "A. Fuel spar valve",
+        "B. 1 primary coil & 2 secondary coil",
+        "C. Resolver"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is Fuel spar valve."
+    },
+    {
+      "id": 48,
+      "question": "Which of the not provided by galley inset",
+      "options": [
+        "A. Galley power control",
+        "B. The leading edges of the wing",
+        "C. Open circuit breaker & install safety tag"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is Galley power control."
+    },
+    {
+      "id": 49,
+      "question": "We do not find fixed type of fire extinguisher",
+      "options": [
+        "A. When generator power is lost",
+        "B. Cockpit",
+        "C. Hydraulic systems"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is Cockpit."
+    },
+    {
+      "id": 50,
+      "question": "Where we find heating pad and coffee maker",
+      "options": [
+        "A. On the base of coffee maker",
+        "B. Forward path",
+        "C. Halon 1301"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is On the base of coffee maker."
+    },
+    {
+      "id": 51,
+      "question": "Which component of fire extinguisher have lifetime regardless of the system after which they removed & go for maintenance",
+      "options": [
+        "A. Forward and aft",
+        "B. All bottles and squibs",
+        "C. Controlled only using the switch"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is All bottles and squibs."
+    },
+    {
+      "id": 52,
+      "question": "Warn of position and presence of aircraft",
+      "options": [
+        "A. Light on & chime alerts",
+        "B. Anti-collision light",
+        "C. Flood light"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is Anti-collision light."
+    },
+    {
+      "id": 53,
+      "question": "Wheel well lights are operated by",
+      "options": [
+        "A. Pilot overhead panel",
+        "B. Forward and aft",
+        "C. Switch on fuel panel"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is Pilot overhead panel."
+    },
+    {
+      "id": 54,
+      "question": "Resistance from jumper assembly to ground point is measured on wing TIP anti-collision light installation to check",
+      "options": [
+        "A. Proper BONDING",
+        "B. Located outboard of each control wheel",
+        "C. The leading edges of the wing"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is Proper BONDING."
+    },
+    {
+      "id": 55,
+      "question": "___ provides background light for the pilot",
+      "options": [
+        "A. Galley power control",
+        "B. Light shield",
+        "C. Master guard"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is Light shield."
+    },
+    {
+      "id": 56,
+      "question": "What will be measured as the test switch on the cockpit fire panel is selected to test each sensing element loop",
+      "options": [
+        "A. Continuity",
+        "B. Proper BONDING",
+        "C. Master guard"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is Continuity."
+    },
+    {
+      "id": 57,
+      "question": "The component of fire which is always readily available is",
+      "options": [
+        "A. Anti-collision light",
+        "B. Cockpit",
+        "C. Oxygen"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is Oxygen."
+    },
+    {
+      "id": 58,
+      "question": "Rate of T° rise detection system",
+      "options": [
+        "A. Flood light",
+        "B. Continuous loop",
+        "C. Thrust reversal"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is Continuous loop."
+    },
+    {
+      "id": 59,
+      "question": "Cockpit and cabin smoke detectors",
+      "options": [
+        "A. Anti-collision light",
+        "B. Bottom of the heater tank",
+        "C. CO detectors"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is CO detectors."
+    },
+    {
+      "id": 60,
+      "question": "High rate of discharge bottle filled w/ pressurized ___",
+      "options": [
+        "A. N2 gas",
+        "B. ON/OFF/ARMED",
+        "C. Square containing the letter B, Red"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is N2 gas."
+    },
+    {
+      "id": 61,
+      "question": "Pressure gauge for relief of squib",
+      "options": [
+        "A. Cockpit and cabin",
+        "B. False warnings under any flight context",
+        "C. Explodes"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is Explodes."
+    },
+    {
+      "id": 62,
+      "question": "Not provided by galley",
+      "options": [
+        "A. ON/OFF/ARMED",
+        "B. Galley to galley works",
+        "C. Thermal"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is Galley to galley works."
+    },
+    {
+      "id": 63,
+      "question": "Horizontal stabilizer",
+      "options": [
+        "A. Controlled only using the switch",
+        "B. Electrical and manual stabilizer trimming modes available",
+        "C. Center tank"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is Electrical and manual stabilizer trimming modes available."
+    },
+    {
+      "id": 64,
+      "question": "Mechanism which locks brew cup and coffee pots",
+      "options": [
+        "A. Pilot overhead panel",
+        "B. Smoke detector",
+        "C. Uses a lever mechanism"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is Uses a lever mechanism."
+    },
+    {
+      "id": 65,
+      "question": "Center pumps pump more than the main tank pumps",
+      "options": [
+        "A. Transformer",
+        "B. Computer",
+        "C. True"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is True."
+    },
+    {
+      "id": 66,
+      "question": "___ provides extra force to move large control surfaces in aerodynamic loads",
+      "options": [
+        "A. 4",
+        "B. Hydraulic systems",
+        "C. Preheat cooked meals"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is Hydraulic systems."
+    },
+    {
+      "id": 67,
+      "question": "The type of light used as a warning that the engines are running or are about to started",
+      "options": [
+        "A. Forward and aft",
+        "B. Convection ovens",
+        "C. Anti-collision light"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is Anti-collision light."
+    },
+    {
+      "id": 68,
+      "question": "The A/C emergency egress lighting is powered by",
+      "options": [
+        "A. Automatically",
+        "B. Thrust reversal",
+        "C. Its own battery pack"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is Its own battery pack."
+    },
+    {
+      "id": 69,
+      "question": "On what principle operates linear variable differential transformer (LVDT)",
+      "options": [
+        "A. 1 primary coil & 2 secondary coil",
+        "B. All bottles and squibs",
+        "C. Transformer"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is Transformer."
+    },
+    {
+      "id": 70,
+      "question": "Component of steam/convection oven governing the operation",
+      "options": [
+        "A. Cockpit and cabin",
+        "B. Forward and aft",
+        "C. Oven control module"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is Oven control module."
+    },
+    {
+      "id": 71,
+      "question": "What cools and lubricates internal sections of the fuel pumps",
+      "options": [
+        "A. Use optical fiber cables/optical sensors",
+        "B. Fuel",
+        "C. Respective light illuminates"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is Fuel."
+    },
+    {
+      "id": 72,
+      "question": "First commercial airliner to use FBW controls",
+      "options": [
+        "A. Lever handle",
+        "B. Airbus A320",
+        "C. Nose wheel"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is Airbus A320."
+    },
+    {
+      "id": 73,
+      "question": "No of pneumatic power sources in aircraft",
+      "options": [
+        "A. 4",
+        "B. Located outboard of each control wheel",
+        "C. Start engine lever"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 4."
+    },
+    {
+      "id": 74,
+      "question": "Switch controlling galley power on the P5 forward panel",
+      "options": [
+        "A. 10 minutes",
+        "B. CAB/UTIL power switch",
+        "C. Halon 1301"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is CAB/UTIL power switch."
+    },
+    {
+      "id": 75,
+      "question": "First step to remove the lamp subassembly in wing/wing tip anti-collision lights",
+      "options": [
+        "A. Cockpit",
+        "B. Open circuit breaker & install safety tag",
+        "C. When generator power is lost"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is Open circuit breaker & install safety tag."
+    },
+    {
+      "id": 76,
+      "question": "Lights providing illumination in servicing compartments",
+      "options": [
+        "A. Dome lights & flood lights",
+        "B. Fuel supply is stopped & engine is isolated",
+        "C. Forward path"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is Dome lights & flood lights."
+    },
+    {
+      "id": 77,
+      "question": "Not true about cargo compartment light control",
+      "options": [
+        "A. until the fuel in the center tank decrease near to zero",
+        "B. Manual, electric, pneumatic, RAT, EDP",
+        "C. Controlled only using the switch"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is Controlled only using the switch."
+    },
+    {
+      "id": 78,
+      "question": "Lights providing guidance for cabin evacuation when above four-foot sources are obscured by smoke",
+      "options": [
+        "A. Airbus A320",
+        "B. Floor proximity lighting",
+        "C. Class K"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is Floor proximity lighting."
+    },
+    {
+      "id": 79,
+      "question": "___ is a rotating transformer used for conversion of the angular position of the shaft into Cartesian coordinates",
+      "options": [
+        "A. Nitrogen",
+        "B. Floor proximity lighting",
+        "C. Resolver"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is Resolver."
+    },
+    {
+      "id": 80,
+      "question": "When does the horn sound & warning lights stop alerting the crew",
+      "options": [
+        "A. Preheat cooked meals",
+        "B. As soon as the fire is extinguished",
+        "C. Electrical indicator"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is As soon as the fire is extinguished."
+    },
+    {
+      "id": 81,
+      "question": "Fire extinguisher containers (HDR bottles) store liquid halogenated extinguishing agent and pressurized gas, typically",
+      "options": [
+        "A. Its own battery pack",
+        "B. Nitrogen",
+        "C. RVDT"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is Nitrogen."
+    },
+    {
+      "id": 82,
+      "question": "Excessive use of CO2 or agents w/ cooling effect can cause",
+      "options": [
+        "A. Forward and aft",
+        "B. Turbine housing shrinkage, leading to engine disintegration",
+        "C. Square containing the letter B, Red"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is Turbine housing shrinkage, leading to engine disintegration."
+    },
+    {
+      "id": 83,
+      "question": "Cargo compartment extinguishing system is activated by",
+      "options": [
+        "A. Cockpit and cabin",
+        "B. FCC",
+        "C. Flight crew"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is Flight crew."
+    },
+    {
+      "id": 84,
+      "question": "Carbon monoxide detector location in aircraft",
+      "options": [
+        "A. Oxygen",
+        "B. Cockpit and cabin",
+        "C. When generator power is lost"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is Cockpit and cabin."
+    },
+    {
+      "id": 85,
+      "question": "Class B fire extinguishers are identified by",
+      "options": [
+        "A. Square containing the letter B, Red",
+        "B. The leading edges of the wing",
+        "C. ON/OFF/ARMED"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is Square containing the letter B, Red."
+    },
+    {
+      "id": 86,
+      "question": "Not included in IRED fire detector system",
+      "options": [
+        "A. False warnings under any flight context",
+        "B. Electrical indicator",
+        "C. Distribution of fuel from tank to engine"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is False warnings under any flight context."
+    },
+    {
+      "id": 87,
+      "question": "Detector used to detect high-T° leaks from bleed air ducts, positioned at pipe-to-pipe connectors",
+      "options": [
+        "A. Independently",
+        "B. Vapor discharge check valve",
+        "C. Spot detectors"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is Spot detectors."
+    },
+    {
+      "id": 88,
+      "question": "What happens when the water level in the tank is low in a water heater",
+      "options": [
+        "A. Halon 1301",
+        "B. Tank heaters do not operate & low water indicator light comes on",
+        "C. Lever handle"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is Tank heaters do not operate & low water indicator light comes on."
+    },
+    {
+      "id": 89,
+      "question": "Aircraft wheel without a brake",
+      "options": [
+        "A. Use as redundancy",
+        "B. Crack visual detection",
+        "C. Nose wheel"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is Nose wheel."
+    },
+    {
+      "id": 90,
+      "question": "Mounting and pushing the coffee maker in the rail assembly connects water supply, drain and electricity supply",
+      "options": [
+        "A. 1 primary coil & 2 secondary coil",
+        "B. Oven control module",
+        "C. Automatically"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is Automatically."
+    },
+    {
+      "id": 91,
+      "question": "Next step after mounting water heater on the galley rail to start brew cycle",
+      "options": [
+        "A. Press the power button",
+        "B. Down",
+        "C. Located outboard of each control wheel"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is Press the power button."
+    },
+    {
+      "id": 92,
+      "question": "Test switch of each system is activated when there is no fault",
+      "options": [
+        "A. Forward path",
+        "B. Continuous loop",
+        "C. Respective light illuminates"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is Respective light illuminates."
+    },
+    {
+      "id": 93,
+      "question": "CB panel illuminated by",
+      "options": [
+        "A. Oxygen",
+        "B. Flood light",
+        "C. All bottles and squibs"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is Flood light."
+    },
+    {
+      "id": 94,
+      "question": "Passenger reading light location",
+      "options": [
+        "A. Respective light illuminates",
+        "B. Lower overhead panel",
+        "C. PSU"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is PSU."
+    },
+    {
+      "id": 95,
+      "question": "Electro mechanical transducer providing variable AC output proportional to angular displacement of input shaft",
+      "options": [
+        "A. Electrical heaters (Tape heater)",
+        "B. RVDT",
+        "C. Thermal"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is RVDT."
+    },
+    {
+      "id": 96,
+      "question": "Not a position sensor",
+      "options": [
+        "A. Reverse thrust",
+        "B. Independently",
+        "C. 4"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is Reverse thrust."
+    },
+    {
+      "id": 97,
+      "question": "Position RVDT has",
+      "options": [
+        "A. 1 primary coil & 2 secondary coil",
+        "B. Flood light",
+        "C. Protect by portable fire protection system"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 1 primary coil & 2 secondary coil."
+    },
+    {
+      "id": 98,
+      "question": "How attendants identify if 'ATT CALL' button from passenger station is pushed",
+      "options": [
+        "A. Light on & chime alerts",
+        "B. Changing color alarm",
+        "C. Independently"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is Light on & chime alerts."
+    },
+    {
+      "id": 99,
+      "question": "General lighting of FWD/AFT cargo lights",
+      "options": [
+        "A. Smoke detector",
+        "B. 4",
+        "C. Dome light"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is Dome light."
+    },
+    {
+      "id": 100,
+      "question": "Most commonly used extinguishing agent today due to firefighting capability and low toxicity",
+      "options": [
+        "A. Halon 1301",
+        "B. The leading edges of the wing",
+        "C. Independently"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is Halon 1301."
+    },
+    {
+      "id": 101,
+      "question": "When the fire switch is activated, one of the following doesn't happen",
+      "options": [
+        "A. The engine stops but not isolated",
+        "B. Continuous loop",
+        "C. Electrical indicator"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is The engine stops but not isolated."
+    },
+    {
+      "id": 102,
+      "question": "Not a typical zone on aircraft w/ fixed fire detection & extinguishing system",
+      "options": [
+        "A. Automatically",
+        "B. Cockpit on transport aircraft",
+        "C. Explodes"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is Cockpit on transport aircraft."
+    },
+    {
+      "id": 103,
+      "question": "Complete fire protection system includes",
+      "options": [
+        "A. Galley to galley works",
+        "B. Fire detection/warning & fire extinguishing system",
+        "C. Master caution light and fire warning chime"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is Fire detection/warning & fire extinguishing system."
+    },
+    {
+      "id": 104,
+      "question": "Which type of seat is comfortable to sit in for shorter-hour flights, according to customers, but not comfortable to sleep in",
+      "options": [
+        "A. Recliner/cradle seat",
+        "B. Press the power button",
+        "C. Master caution light and fire warning chime"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is Recliner/cradle seat."
+    },
+    {
+      "id": 105,
+      "question": "Steam oven or convection oven we use for",
+      "options": [
+        "A. False warnings under any flight context",
+        "B. Press the power button",
+        "C. Preheat cooked meals"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is Preheat cooked meals."
+    },
+    {
+      "id": 106,
+      "question": "External light switches located",
+      "options": [
+        "A. Lower overhead panel",
+        "B. Master guard",
+        "C. Use optical fiber cables/optical sensors"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is Lower overhead panel."
+    },
+    {
+      "id": 107,
+      "question": "Wheel well light can operate same time with",
+      "options": [
+        "A. Electrical heaters (Tape heater)",
+        "B. Continuity",
+        "C. Pilot switch"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is Pilot switch."
+    },
+    {
+      "id": 108,
+      "question": "Not used as a smoke detector",
+      "options": [
+        "A. Press the power button",
+        "B. Independently",
+        "C. Thermal"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is Thermal."
+    },
+    {
+      "id": 109,
+      "question": "Following indication is prevented from operating during part of take-off",
+      "options": [
+        "A. Master caution light and fire warning chime",
+        "B. Resolver",
+        "C. N2 gas"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is Master caution light and fire warning chime."
+    },
+    {
+      "id": 110,
+      "question": "Tank N1 & N2 fuel pump located",
+      "options": [
+        "A. Forward and aft",
+        "B. Protect by portable fire protection system",
+        "C. Use optical fiber cables/optical sensors"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is Forward and aft."
+    },
+    {
+      "id": 111,
+      "question": "Center fuel tank pump accessed through",
+      "options": [
+        "A. Wheel well",
+        "B. Oxygen",
+        "C. Uses a lever mechanism"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is Wheel well."
+    },
+    {
+      "id": 112,
+      "question": "Explosive device that breaks the diaphragm and discharges the fire extinguishing bottle",
+      "options": [
+        "A. Squib",
+        "B. Pilot overhead panel",
+        "C. 4"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is Squib."
+    },
+    {
+      "id": 113,
+      "question": "Aircraft zone classification based on",
+      "options": [
+        "A. Turbine housing shrinkage, leading to engine disintegration",
+        "B. Down",
+        "C. Amount of airflow through them"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is Amount of airflow through them."
+    },
+    {
+      "id": 114,
+      "question": "Used to prevent accidental activation of switch when no fire condition",
+      "options": [
+        "A. Cockpit",
+        "B. The solder melts",
+        "C. Guard (Lock)"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is Guard (Lock)."
+    },
+    {
+      "id": 115,
+      "question": "Causes a serious false fire alarm in the detection system",
+      "options": [
+        "A. Crack visual detection",
+        "B. Elevator tab",
+        "C. Moisture"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is Moisture."
+    },
+    {
+      "id": 116,
+      "question": "Which of the following is used for bleed air temperature detector",
+      "options": [
+        "A. Spot type",
+        "B. Vapor discharge check valve",
+        "C. Oxygen"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is Spot type."
+    },
+    {
+      "id": 117,
+      "question": "Purpose of the resolver",
+      "options": [
+        "A. Cockpit on transport aircraft",
+        "B. Automatically",
+        "C. Conversion of the angular position of the shaft into Cartesian coordinates"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is Conversion of the angular position of the shaft into Cartesian coordinates."
+    },
+    {
+      "id": 118,
+      "question": "Which of the following is said to be cooking fire fuel by a wide range of liquid cooking material, gases cooking oil",
+      "options": [
+        "A. Class K",
+        "B. When generator power is lost",
+        "C. RVDT"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is Class K."
+    }
+  ]
+}

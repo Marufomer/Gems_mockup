@@ -1,0 +1,1190 @@
+{
+  "id": "avo-5-part-1",
+  "title": "Avo-5-part-1",
+  "module": "AVO-5",
+  "course": "avionics",
+  "category": "part",
+  "description": "Comprehensive exam covering aircraft motors, actuators, DC motors, AC motors, synchronous motors, induction motors, servomotors, and motor control.",
+  "durationMinutes": 150,
+  "totalQuestions": 107,
+  "color": "blue",
+  "questions": [
+    {
+      "id": 1,
+      "question": "A mechanism to stop an operation at a precise unit",
+      "options": [
+        "not self-starting",
+        "Centrifugal switch",
+        "Brake"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is Brake."
+    },
+    {
+      "id": 2,
+      "question": "As the speed decrease",
+      "options": [
+        "the torque for a series wound motor increase sharply",
+        "AC motor",
+        "flux & armature current"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is the torque for a series wound motor increase sharply."
+    },
+    {
+      "id": 3,
+      "question": "The ___ class describes a motor's ability to withstand temperature over time",
+      "options": [
+        "impedance of 2 windings are made unequal",
+        "Insulation",
+        "Three phase induction"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is Insulation."
+    },
+    {
+      "id": 4,
+      "question": "___ motors are used where large amounts of power are required",
+      "options": [
+        "Three phase induction",
+        "series DC",
+        "current flowing through the conductor"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is Three phase induction."
+    },
+    {
+      "id": 5,
+      "question": "Another name of slip ring",
+      "options": [
+        "split phase induction",
+        "collector ring",
+        "resistance of rheostat in armature must decrease"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is collector ring."
+    },
+    {
+      "id": 6,
+      "question": "Which one is the most preferable switch",
+      "options": [
+        "split phase motor",
+        "Torque",
+        "single pole double throw"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is single pole double throw."
+    },
+    {
+      "id": 7,
+      "question": "To increase the speed of DC shunt motor",
+      "options": [
+        "Closed loop control system",
+        "resistance of rheostat in armature must decrease",
+        "flux & armature current"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is resistance of rheostat in armature must decrease."
+    },
+    {
+      "id": 8,
+      "question": "2 phases electrically less than 90 degree apart from each other",
+      "options": [
+        "split phase motor",
+        "flux & armature current",
+        "rotate in same direction"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is split phase motor."
+    },
+    {
+      "id": 9,
+      "question": "What type of AC motor uses a combination of inductance and capacitance to apply out of phase current to start windings",
+      "options": [
+        "split phase induction",
+        "armature",
+        "when flux constant"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is split phase induction."
+    },
+    {
+      "id": 10,
+      "question": "Majority of actuators fitted with ___ to prevent over travel when motor is switched off",
+      "options": [
+        "limit switch",
+        "shading coils",
+        "current flowing through the conductor"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is limit switch."
+    },
+    {
+      "id": 11,
+      "question": "Torque depends on",
+      "options": [
+        "is the same",
+        "the strength of rotor & stator field phase relationship",
+        "linear actuator"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is the strength of rotor & stator field phase relationship."
+    },
+    {
+      "id": 12,
+      "question": "Which of the following is not true about synchronous motor",
+      "options": [
+        "is the same",
+        "It runs either at synchronous speed or at low speed",
+        "Torque"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is It runs either at synchronous speed or at low speed."
+    },
+    {
+      "id": 13,
+      "question": "Relationship bin slip and load",
+      "options": [
+        "directly",
+        "the torque for a series wound motor increase sharply",
+        "full load Amp Rating"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is directly."
+    },
+    {
+      "id": 14,
+      "question": "Single phase induction machine starting winding is connected to",
+      "options": [
+        "armature must decrease",
+        "Stator",
+        "Torque"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is Stator."
+    },
+    {
+      "id": 15,
+      "question": "Actuators mechanical elements of which are required to be rotated at low speed or through limited angular travel",
+      "options": [
+        "slip",
+        "inversely proportional to flux per pole",
+        "rotary actuators"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is rotary actuators."
+    },
+    {
+      "id": 16,
+      "question": "___ consists of the motor which is coupled through reduction gearing to a lead screw which on being rotated extends or retracts a ram or plunger",
+      "options": [
+        "Torque",
+        "Variable speed appn",
+        "linear actuator"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is linear actuator."
+    },
+    {
+      "id": 17,
+      "question": "Which one is rotating DC motor part",
+      "options": [
+        "is the same",
+        "armature",
+        "intermittent duty"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is armature."
+    },
+    {
+      "id": 18,
+      "question": "Universal motor is much like with",
+      "options": [
+        "Closed loop control system",
+        "Three phase induction",
+        "series DC"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is series DC."
+    },
+    {
+      "id": 19,
+      "question": "What is not true about synchronous motor",
+      "options": [
+        "rotate in same direction",
+        "It runs at synchronous speed or small",
+        "low back emf"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is It runs at synchronous speed or small."
+    },
+    {
+      "id": 20,
+      "question": "The starting current in series-wound DC motor through the field and armature windings produces a",
+      "options": [
+        "Three phase induction",
+        "high starting torque",
+        "landing gear"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is high starting torque."
+    },
+    {
+      "id": 21,
+      "question": "In a motor ___ is the term used to express turning or twisting force about an axis",
+      "options": [
+        "Torque",
+        "AC motor",
+        "disintegrate"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is Torque."
+    },
+    {
+      "id": 22,
+      "question": "In split phase motor the 2 phases are electrically",
+      "options": [
+        "rotary actuator",
+        "eddy current loss",
+        "less than 90 degrees apart from each other"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is less than 90 degrees apart from each other."
+    },
+    {
+      "id": 23,
+      "question": "As a technician for what app do you prefer DC motor over AC motor",
+      "options": [
+        "decrease",
+        "apply DC to rotor winding",
+        "Variable speed appn"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is Variable speed appn."
+    },
+    {
+      "id": 24,
+      "question": "The stator is built up high grade steel alloy lamination to prevent",
+      "options": [
+        "landing gear",
+        "eddy current loss",
+        "sparkless commutation"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is eddy current loss."
+    },
+    {
+      "id": 25,
+      "question": "Encoder purpose in servomotor",
+      "options": [
+        "armature",
+        "low back emf",
+        "measure position"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is measure position."
+    },
+    {
+      "id": 26,
+      "question": "___ of an AC induction motor is dependent upon the strength of the interacting rotor and stator fields and the phase relationship bin them",
+      "options": [
+        "shading coils",
+        "linear actuator",
+        "Torque"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is Torque."
+    },
+    {
+      "id": 27,
+      "question": "Actuators motors are subjected to heavy load and sudden load are equipped w",
+      "options": [
+        "overload release clutch",
+        "By reversing either the main field terminal polarity or starting (auxiliary) winding polarity",
+        "resistance of rheostat in armature must decrease"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is overload release clutch."
+    },
+    {
+      "id": 28,
+      "question": "Which type of motor are used most in aircrafts which they do not need to be rectified",
+      "options": [
+        "series DC",
+        "AC motor",
+        "Centrifugal switch"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is AC motor."
+    },
+    {
+      "id": 29,
+      "question": "Which one is true about synchronous motor",
+      "options": [
+        "series DC motor",
+        "requires both AC and DC current for its operation",
+        "By reversing either the main field terminal polarity or starting (auxiliary) winding polarity"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is requires both AC and DC current for its operation."
+    },
+    {
+      "id": 30,
+      "question": "A motor that can rotate in both directions is called",
+      "options": [
+        "reversible motor",
+        "armature must decrease",
+        "current flowing through the conductor"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is reversible motor."
+    },
+    {
+      "id": 31,
+      "question": "DC motor the field is wound with a few turns a large wire",
+      "options": [
+        "Brake",
+        "series DC motor",
+        "is the same"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is series DC motor."
+    },
+    {
+      "id": 32,
+      "question": "How to reverse capacitor containing split phase motor",
+      "options": [
+        "less resistance and high inductance",
+        "By reversing either the main field terminal polarity or starting (auxiliary) winding polarity",
+        "starting winding connected through centrifugal switch"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is By reversing either the main field terminal polarity or starting (auxiliary) winding polarity."
+    },
+    {
+      "id": 33,
+      "question": "What if back E.M.F vanish during motor operation",
+      "options": [
+        "low back emf",
+        "the motor may burn (armature may burn)",
+        "the torque for a series wound motor increase sharply"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is the motor may burn (armature may burn)."
+    },
+    {
+      "id": 34,
+      "question": "___ are designed to use inductance, capacitance or resistance to develop a starting torque",
+      "options": [
+        "less resistance and high inductance",
+        "sparkless commutation",
+        "split phase motor"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is split phase motor."
+    },
+    {
+      "id": 35,
+      "question": "___ describes a motor's ability to withstand temperature over time",
+      "options": [
+        "Three phase induction",
+        "The insulation class",
+        "shading coils"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is The insulation class."
+    },
+    {
+      "id": 36,
+      "question": "___ system is controlled directly and only by an input signal, without the benefit of feedback",
+      "options": [
+        "Armature reaction",
+        "open-loop control",
+        "series DC motor"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is open-loop control."
+    },
+    {
+      "id": 37,
+      "question": "___ are the type that most commonly used",
+      "options": [
+        "Closed loop control system",
+        "Brake",
+        "armature must decrease"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is Closed loop control system."
+    },
+    {
+      "id": 38,
+      "question": "Term representing effect of armature flux on flux",
+      "options": [
+        "Armature reaction",
+        "Torque",
+        "DC motor"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is Armature reaction."
+    },
+    {
+      "id": 39,
+      "question": "The deciding factor in the selection of a DC motor for a particular appn is its",
+      "options": [
+        "speed-torque characteristics",
+        "motor can be operated in either direction",
+        "directly"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is speed-torque characteristics."
+    },
+    {
+      "id": 40,
+      "question": "Basic principle of magnetism & electromagnetism for AC & DC motor",
+      "options": [
+        "decreases",
+        "is the same",
+        "rotate in same direction"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is is the same."
+    },
+    {
+      "id": 41,
+      "question": "___ can be used if the direction of current flow is electron flow from the negative to positive or during normal current flow",
+      "options": [
+        "Torque",
+        "Armature reaction",
+        "Left hand rule"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is Left hand rule."
+    },
+    {
+      "id": 42,
+      "question": "In a shaded pole single-phase motor, the revolving field is produced by the use of",
+      "options": [
+        "shading coils",
+        "Torque",
+        "synchronous motor"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is shading coils."
+    },
+    {
+      "id": 43,
+      "question": "Which one is the most preferable switch",
+      "options": [
+        "when flux constant",
+        "SPDT",
+        "series motor"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is SPDT."
+    },
+    {
+      "id": 44,
+      "question": "To increase the speed of DC shunt motor resistance of rheostat in",
+      "options": [
+        "armature must decrease",
+        "limit switch",
+        "inversely proportional to flux per pole"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is armature must decrease."
+    },
+    {
+      "id": 45,
+      "question": "No load starting DC motor",
+      "options": [
+        "current flowing through the conductor",
+        "Shunt",
+        "series DC motor"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is Shunt."
+    },
+    {
+      "id": 46,
+      "question": "Which of the following is not a factor affecting amount of torque in a coil",
+      "options": [
+        "less than 90 degrees apart from each other",
+        "decrease",
+        "ambient temperature"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is ambient temperature."
+    },
+    {
+      "id": 47,
+      "question": "Which one is true about induction motor",
+      "options": [
+        "rotor less than synchronous speed",
+        "slip",
+        "They AC motor"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is rotor less than synchronous speed."
+    },
+    {
+      "id": 48,
+      "question": "Actuators in aviation used to",
+      "options": [
+        "The insulation class",
+        "speed, flow and control",
+        "protect internal component"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is speed, flow and control."
+    },
+    {
+      "id": 49,
+      "question": "Split phase",
+      "options": [
+        "landing gear",
+        "They AC motor",
+        "decreases"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is They AC motor."
+    },
+    {
+      "id": 50,
+      "question": "Starting compare with normal operation",
+      "options": [
+        "rotary actuator",
+        "synchronous motor",
+        "is different"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is is different."
+    },
+    {
+      "id": 51,
+      "question": "Not factor of DC shunt motor speed control",
+      "options": [
+        "speed, flow and control",
+        "rotary actuator",
+        "field voltage"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is field voltage."
+    },
+    {
+      "id": 52,
+      "question": "In DC series motor draw high current at starting",
+      "options": [
+        "when flux constant",
+        "It runs either at synchronous speed or at low speed",
+        "low back emf"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is low back emf."
+    },
+    {
+      "id": 53,
+      "question": "speed inversely proportional to",
+      "options": [
+        "disintegrate",
+        "flux per pole",
+        "Armature reaction"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is flux per pole."
+    },
+    {
+      "id": 54,
+      "question": "Armature rxn increase w",
+      "options": [
+        "Armature current",
+        "to connect/disconnect auxiliary winding w power line",
+        "pulsating field"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is Armature current."
+    },
+    {
+      "id": 55,
+      "question": "Out frame",
+      "options": [
+        "disintegrate",
+        "protect internal component",
+        "limit switches"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is protect internal component."
+    },
+    {
+      "id": 56,
+      "question": "speed and voltage direct proportional",
+      "options": [
+        "Torque",
+        "to connect/disconnect auxiliary winding w power line",
+        "when flux constant"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is when flux constant."
+    },
+    {
+      "id": 57,
+      "question": "DC shunt speed constant due to",
+      "options": [
+        "flux constant",
+        "Brake",
+        "less than 90 degrees apart from each other"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is flux constant."
+    },
+    {
+      "id": 58,
+      "question": "To increase DC shunt speed",
+      "options": [
+        "single pole double throw",
+        "rotary actuators",
+        "decrease rheostat in field winding"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is decrease rheostat in field winding."
+    },
+    {
+      "id": 59,
+      "question": "Not appn series DC motor",
+      "options": [
+        "rotary actuator",
+        "pulsating field",
+        "series DC motor"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is rotary actuator."
+    },
+    {
+      "id": 60,
+      "question": "Which of the following motor has the poorest speed regulation",
+      "options": [
+        "reversible motor",
+        "series motor",
+        "flux & armature current"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is series motor."
+    },
+    {
+      "id": 61,
+      "question": "In series DC motor",
+      "options": [
+        "Thick wire for field winding",
+        "armature",
+        "impedance of 2 windings are made unequal"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is Thick wire for field winding."
+    },
+    {
+      "id": 62,
+      "question": "Some electric motors have two sets of field winding wound in opposite direction so that the",
+      "options": [
+        "motor can be operated in either direction",
+        "Torque",
+        "split phase motor"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is motor can be operated in either direction."
+    },
+    {
+      "id": 63,
+      "question": "The motor not used on an A/C",
+      "options": [
+        "flux constant",
+        "variable speed motor",
+        "universal motor"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is universal motor."
+    },
+    {
+      "id": 64,
+      "question": "Where does a three-phase motor typically used on aircraft",
+      "options": [
+        "Stator",
+        "rotating actuator",
+        "landing gear"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is landing gear."
+    },
+    {
+      "id": 65,
+      "question": "Motors built to operate for short periods only and then must be allowed to cool before being operated again is called",
+      "options": [
+        "reversible motor",
+        "rotate in same direction",
+        "intermittent duty"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is intermittent duty."
+    },
+    {
+      "id": 66,
+      "question": "The working principle of any DC motor",
+      "options": [
+        "starting winding connected through centrifugal switch",
+        "speed, flow and control",
+        "attraction and repulsion of magnets"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is attraction and repulsion of magnets."
+    },
+    {
+      "id": 67,
+      "question": "The armature rxn of DC motor is corrected by",
+      "options": [
+        "full load Amp Rating",
+        "compensating winding and interpoles",
+        "DC motor"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is compensating winding and interpoles."
+    },
+    {
+      "id": 68,
+      "question": "The moving contacts in a simple DC motor",
+      "options": [
+        "slip rings",
+        "the motor may burn (armature may burn)",
+        "Left hand rule"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is slip rings."
+    },
+    {
+      "id": 69,
+      "question": "Which of the following motor types is most commonly used in actuator & servo system for producing continuous motion",
+      "options": [
+        "DC motor",
+        "Thick wire for field winding",
+        "split phase motor"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is DC motor."
+    },
+    {
+      "id": 70,
+      "question": "What term applies to the diff bin the speed of the rotating stator field and the rotor speed",
+      "options": [
+        "slip",
+        "3-phase induction motor",
+        "shunt motor"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is slip."
+    },
+    {
+      "id": 71,
+      "question": "Which should we do to reverse the direction of DC motor rotation",
+      "options": [
+        "reverse the direction current flow through the field or armature coil",
+        "DC is supplied to synchronous motor",
+        "less than 90 degrees apart from each other"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is reverse the direction current flow through the field or armature coil."
+    },
+    {
+      "id": 72,
+      "question": "Which one is not a continuous duty operation",
+      "options": [
+        "landing gear",
+        "series motor",
+        "By reversing either the main field terminal polarity or starting (auxiliary) winding polarity"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is landing gear."
+    },
+    {
+      "id": 73,
+      "question": "Torque of DC motor depends on",
+      "options": [
+        "current flowing through the conductor",
+        "series DC motor",
+        "full load Amp Rating"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is current flowing through the conductor."
+    },
+    {
+      "id": 74,
+      "question": "Which AC motor is self-starting",
+      "options": [
+        "rotary actuator",
+        "high torque",
+        "3-phase induction motor"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is 3-phase induction motor."
+    },
+    {
+      "id": 75,
+      "question": "True about synchronous motor",
+      "options": [
+        "not self-starting",
+        "DC motor",
+        "when flux constant"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is not self-starting."
+    },
+    {
+      "id": 76,
+      "question": "Current drawn by DC motor at starting is",
+      "options": [
+        "decreases",
+        "Very high",
+        "Torque"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is Very high."
+    },
+    {
+      "id": 77,
+      "question": "What is purpose of centrifugal switch in one phase motor",
+      "options": [
+        "less than 90 degrees apart from each other",
+        "to connect/disconnect auxiliary winding w power line",
+        "speed-torque characteristics"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is to connect/disconnect auxiliary winding w power line."
+    },
+    {
+      "id": 78,
+      "question": "Field winding in series DC motor is",
+      "options": [
+        "split phase motor",
+        "wound w few turns of large wires",
+        "Very high"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is wound w few turns of large wires."
+    },
+    {
+      "id": 79,
+      "question": "Purpose of tacho generator in servomotor",
+      "options": [
+        "current flowing through the conductor",
+        "measure speed",
+        "Variable speed appn"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is measure speed."
+    },
+    {
+      "id": 80,
+      "question": "Load on motor increases & motor tends slow down, back EMF in armature",
+      "options": [
+        "apply DC to rotor winding",
+        "decreases",
+        "Clutches"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is decreases."
+    },
+    {
+      "id": 81,
+      "question": "Synchronous motor rotor magnetic field developed by",
+      "options": [
+        "To supply DC source to armature",
+        "apply DC to rotor winding",
+        "reverse the direction current flow through the field or armature coil"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is apply DC to rotor winding."
+    },
+    {
+      "id": 82,
+      "question": "In split phase motor",
+      "options": [
+        "DC is supplied to synchronous motor",
+        "armature",
+        "starting winding connected through centrifugal switch"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is starting winding connected through centrifugal switch."
+    },
+    {
+      "id": 83,
+      "question": "Majority of actuators fitted with ___ to prevent over travel when motor is switched off",
+      "options": [
+        "slip rings",
+        "limit switches",
+        "MNA"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is limit switches."
+    },
+    {
+      "id": 84,
+      "question": "___ disconnects starting winding when motor has picked up 20% of its nominal speed",
+      "options": [
+        "Centrifugal switch",
+        "Clutches",
+        "armature must decrease"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is Centrifugal switch."
+    },
+    {
+      "id": 85,
+      "question": "Brushes on DC machine are always placed MNA to achieve",
+      "options": [
+        "split phase motor",
+        "sparkless commutation",
+        "MNA"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is sparkless commutation."
+    },
+    {
+      "id": 86,
+      "question": "What is direction of DC rotation if both direction of field & direction of armature current are reversed",
+      "options": [
+        "collector ring",
+        "rotate in same direction",
+        "Airplane engine starting"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is rotate in same direction."
+    },
+    {
+      "id": 87,
+      "question": "When speed of DC motor increased if armature current",
+      "options": [
+        "protect internal component",
+        "starting winding connected through centrifugal switch",
+        "decrease"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is decrease."
+    },
+    {
+      "id": 88,
+      "question": "The main diff bin induction & synchronous motor is",
+      "options": [
+        "DC is supplied to synchronous motor",
+        "measure position",
+        "motor can be operated in either direction"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is DC is supplied to synchronous motor."
+    },
+    {
+      "id": 89,
+      "question": "In 3-phase induction motor frequency of 50Hz & motor speed 1440, % slip is",
+      "options": [
+        "4%",
+        "series DC",
+        "overload release clutch"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 4%."
+    },
+    {
+      "id": 90,
+      "question": "When series motor is running without load it will",
+      "options": [
+        "disintegrate",
+        "4%",
+        "It runs either at synchronous speed or at low speed"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is disintegrate."
+    },
+    {
+      "id": 91,
+      "question": "AC series motor is best suited for which of the following appn",
+      "options": [
+        "high torque",
+        "starting winding connected through centrifugal switch",
+        "armature must decrease"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is high torque."
+    },
+    {
+      "id": 92,
+      "question": "The magnetic field developed by a single phase induction motor is",
+      "options": [
+        "rotating actuator",
+        "series motor",
+        "pulsating field"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is pulsating field."
+    },
+    {
+      "id": 93,
+      "question": "As technician shunt DC is preferred over series DC for",
+      "options": [
+        "synchronous motor",
+        "constant speed operation",
+        "decreases"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is constant speed operation."
+    },
+    {
+      "id": 94,
+      "question": "Resistance type split phase motor",
+      "options": [
+        "impedance of 2 windings are made unequal",
+        "open-loop control",
+        "directly"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is impedance of 2 windings are made unequal."
+    },
+    {
+      "id": 95,
+      "question": "Torque developed by DC motor is directly proportional to",
+      "options": [
+        "flux & armature current",
+        "requires both AC and DC current for its operation",
+        "landing gear"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is flux & armature current."
+    },
+    {
+      "id": 96,
+      "question": "A motor whose speed can be controlled is called",
+      "options": [
+        "current flowing through the conductor",
+        "variable speed motor",
+        "wound w few turns of large wires"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is variable speed motor."
+    },
+    {
+      "id": 97,
+      "question": "Brushes on DC machine are always placed on ___ to achieve sparkless commutator",
+      "options": [
+        "low back emf",
+        "starting winding connected through centrifugal switch",
+        "MNA"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is MNA."
+    },
+    {
+      "id": 98,
+      "question": "In a DC motor the speed is",
+      "options": [
+        "inversely proportional to flux per pole",
+        "collector ring",
+        "flux per pole"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is inversely proportional to flux per pole."
+    },
+    {
+      "id": 99,
+      "question": "Which of following is doubly excited motor",
+      "options": [
+        "synchronous motor",
+        "the torque for a series wound motor increase sharply",
+        "series DC motor"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is synchronous motor."
+    },
+    {
+      "id": 100,
+      "question": "Which of following is not the appn of DC series motor",
+      "options": [
+        "rotating actuator",
+        "Clutches",
+        "linear actuator"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is rotating actuator."
+    },
+    {
+      "id": 101,
+      "question": "In split phase single phase AC induction, the main winding has",
+      "options": [
+        "Very high",
+        "limit switch",
+        "less resistance and high inductance"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is less resistance and high inductance."
+    },
+    {
+      "id": 102,
+      "question": "Which of the following DC motor have wire higher thickness",
+      "options": [
+        "series DC motor",
+        "DC motor",
+        "variable speed motor"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is series DC motor."
+    },
+    {
+      "id": 103,
+      "question": "What's the purpose of commutator in DC motor",
+      "options": [
+        "motor can be operated in either direction",
+        "To supply DC source to armature",
+        "intermittent duty"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is To supply DC source to armature."
+    },
+    {
+      "id": 104,
+      "question": "___ is used to disengage the motor from its load",
+      "options": [
+        "protect internal component",
+        "Clutches",
+        "inversely proportional to flux per pole"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is Clutches."
+    },
+    {
+      "id": 105,
+      "question": "The rate at which a motor will consume power at 100% of rated load",
+      "options": [
+        "full load Amp Rating",
+        "To supply DC source to armature",
+        "They AC motor"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is full load Amp Rating."
+    },
+    {
+      "id": 106,
+      "question": "Series wound motor is more suitable for",
+      "options": [
+        "Airplane engine starting",
+        "measure speed",
+        "single pole double throw"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is Airplane engine starting."
+    },
+    {
+      "id": 107,
+      "question": "Which DC motor is mostly used for constant speed application",
+      "options": [
+        "series DC",
+        "split phase motor",
+        "shunt motor"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is shunt motor."
+    }
+  ]
+}
