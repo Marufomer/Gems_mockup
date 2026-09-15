@@ -1,0 +1,948 @@
+{
+  "id": "AVO-7-Part-6",
+  "title": "Avionics – AVO-7 Module 8 & 9: Flight Director, FDR & AFCS",
+  "module": "ET-AV07.8 / ET-AV07.9",
+  "course": "avionics",
+  "category": "part",
+  "description": "Part exam covering the flight director system, ADI/HSI indications, mode control panel, steering command circuits, flight data recorder system, and the automatic flight control system (autopilot, autothrottle, yaw damper, trim systems).",
+  "durationMinutes": 150,
+  "totalQuestions": 85,
+  "color": "blue",
+  "questions": [
+    {
+      "id": 1,
+      "question": "The autopilot can be disengaged by:",
+      "options": [
+        "A. Control wheel and map display",
+        "B. Only by pulling the autopilot circuit breaker",
+        "C. Only by moving the mode selector to OFF"
+      ],
+      "correctIndex": 0,
+      "explanation": "Disengagement is available from the disengage switch on each control wheel as well as from the flight deck display/panel controls. Pulling circuit breakers is a maintenance action, not a normal means of disengagement."
+    },
+    {
+      "id": 2,
+      "question": "During which mode does the autopilot receive lateral commands from the navigation computer?",
+      "options": [
+        "A. VNAV",
+        "B. LNAV",
+        "C. ALT HOLD"
+      ],
+      "correctIndex": 1,
+      "explanation": "LNAV (Lateral Navigation) supplies the roll/lateral steering commands from the FMC. VNAV handles the vertical path and ALT HOLD only maintains a fixed altitude."
+    },
+    {
+      "id": 3,
+      "question": "Which flight control computer (FCC) becomes the master FCC?",
+      "options": [
+        "A. The one selected first",
+        "B. Always the left (No. 1) FCC",
+        "C. The one with the lowest serial number"
+      ],
+      "correctIndex": 0,
+      "explanation": "In a dual-channel installation the first channel engaged takes control as the master; the second channel then operates in the subordinate role until a mode requiring both channels is selected."
+    },
+    {
+      "id": 4,
+      "question": "Where is the mode control panel (MCP) located on the B737 NG?",
+      "options": [
+        "A. P5 overhead panel",
+        "B. P7",
+        "C. P8 aft electronic panel"
+      ],
+      "correctIndex": 1,
+      "explanation": "The MCP is installed on the P7 glareshield panel so both pilots can reach it without looking away from the primary flight displays."
+    },
+    {
+      "id": 5,
+      "question": "The two thrust levers of an autothrottle system are driven:",
+      "options": [
+        "A. Independently",
+        "B. Always together by a single servo",
+        "C. Only by the left servo, with the right slaved mechanically"
+      ],
+      "correctIndex": 0,
+      "explanation": "Each thrust lever has its own servo drive so the autothrottle can set different thrust on each engine, which is required for thrust trimming and for continued operation if one channel fails."
+    },
+    {
+      "id": 6,
+      "question": "The first automated aircraft had how many autopilot channels/axes controlled?",
+      "options": [
+        "A. One",
+        "B. Two",
+        "C. Three"
+      ],
+      "correctIndex": 0,
+      "explanation": "Early automatic flight systems were single-axis (single-channel) devices, controlling only one axis. Multi-axis and multi-channel systems came later as computing and servo technology developed."
+    },
+    {
+      "id": 7,
+      "question": "The yaw damper operates in which channel?",
+      "options": [
+        "A. Pitch channel",
+        "B. Roll channel",
+        "C. Yaw channel"
+      ],
+      "correctIndex": 2,
+      "explanation": "The yaw damper is part of the yaw channel, which drives the rudder to suppress Dutch roll. Pitch and roll channels drive the elevator and ailerons respectively."
+    },
+    {
+      "id": 8,
+      "question": "AFCS mode annunciation is displayed on:",
+      "options": [
+        "A. EADI on PFD",
+        "B. The navigation display (ND) only",
+        "C. The engine display (EICAS/DU)"
+      ],
+      "correctIndex": 0,
+      "explanation": "Flight mode annunciations appear on the EADI portion of the PFD, directly above the attitude display, where the pilot is already looking for attitude and command-bar information."
+    },
+    {
+      "id": 9,
+      "question": "In automatic flight, the command from the computer is sent to the:",
+      "options": [
+        "A. Servomotor",
+        "B. Air data computer",
+        "C. Mode control panel"
+      ],
+      "correctIndex": 0,
+      "explanation": "The computer output is an electrical command signal that drives a servomotor (servo actuator), which is the unit that physically moves the flight control surface."
+    },
+    {
+      "id": 10,
+      "question": "Which of the following is NOT used for take-off and landing?",
+      "options": [
+        "A. Flight director",
+        "B. Autopilot",
+        "C. Autothrottle"
+      ],
+      "correctIndex": 1,
+      "explanation": "The autopilot is not engaged for take-off (and on most types it is not used for landing unless an autoland-capable system is fitted and armed). The flight director and autothrottle are used from take-off onwards."
+    },
+    {
+      "id": 11,
+      "question": "Does the mach trim system work automatically or manually?",
+      "options": [
+        "A. Manually, using the trim wheel",
+        "B. Automatically",
+        "C. Only when the autopilot is engaged"
+      ],
+      "correctIndex": 1,
+      "explanation": "Mach trim operates automatically as a function of Mach number, applying elevator correction to counter mach tuck without any pilot action and independently of autopilot engagement."
+    },
+    {
+      "id": 12,
+      "question": "AFCS computer offset errors will affect:",
+      "options": [
+        "A. FD / AP",
+        "B. Engine indications only",
+        "C. The FDR recording only"
+      ],
+      "correctIndex": 0,
+      "explanation": "The same computer channels generate both the flight director command-bar signals and the autopilot servo commands, so an offset (bias) error in the computer shows up in both the FD display and the AP steering."
+    },
+    {
+      "id": 13,
+      "question": "The command bars used for the flight director function are found on the:",
+      "options": [
+        "A. HSI / ND",
+        "B. EADI / PFD",
+        "C. Mode control panel"
+      ],
+      "correctIndex": 1,
+      "explanation": "The command bars are part of the attitude director indicator, which on a modern aircraft is the EADI area of the PFD. They move up/down for pitch commands and tilt left/right for roll commands."
+    },
+    {
+      "id": 14,
+      "question": "On a fly-by-wire aircraft, can automatic trimming occur separately without the autopilot engaged?",
+      "options": [
+        "A. Yes",
+        "B. No, autopilot engagement is required",
+        "C. Only on the ground"
+      ],
+      "correctIndex": 0,
+      "explanation": "FBW flight control computers provide auto-trim as part of normal manual (fly-by-wire) control laws, so the stabilizer is trimmed automatically even with the autopilot off."
+    },
+    {
+      "id": 15,
+      "question": "Pitch trim is controlled by which unit?",
+      "options": [
+        "A. Elevator servo motor",
+        "B. Rudder servo",
+        "C. Aileron servo"
+      ],
+      "correctIndex": 0,
+      "explanation": "Pitch commands are applied through the elevator servo in the pitch channel; the rudder and aileron servos belong to the yaw and roll channels."
+    },
+    {
+      "id": 16,
+      "question": "A typical input for the roll channel mode is:",
+      "options": [
+        "A. VOR / ILS",
+        "B. Total air temperature",
+        "C. Engine N1"
+      ],
+      "correctIndex": 0,
+      "explanation": "The roll channel is fed lateral deviation signals from the VHF navigation receiver (VOR radial or localizer beam), along with course error and roll attitude, to generate lateral steering commands."
+    },
+    {
+      "id": 17,
+      "question": "In the AFCS, which unit actually controls the control surfaces?",
+      "options": [
+        "A. Mode control panel",
+        "B. Servomotor",
+        "C. Vertical gyro"
+      ],
+      "correctIndex": 1,
+      "explanation": "The servomotor (servo actuator) converts the computer's electrical command into mechanical movement of the control surface. The MCP only selects modes and the vertical gyro is a sensing element."
+    },
+    {
+      "id": 18,
+      "question": "Which pitch mode is active during take-off before 400 ft?",
+      "options": [
+        "A. TO/GA",
+        "B. VNAV SPD",
+        "C. ALT ACQ"
+      ],
+      "correctIndex": 0,
+      "explanation": "TO/GA is the take-off/go-around pitch mode and remains engaged through the initial climb until another pitch mode can be selected above the mode-change height."
+    },
+    {
+      "id": 19,
+      "question": "Which statement is correct about stall warning?",
+      "options": [
+        "A. The flaps retract automatically at stall warning",
+        "B. Auto slat extend occurs near stall warning",
+        "C. Stall warning is inhibited in flight"
+      ],
+      "correctIndex": 1,
+      "explanation": "As the aircraft approaches the stall, the auto slat function drives the slats to the fully extended position to increase the stall margin, working together with the stall warning (stick shaker)."
+    },
+    {
+      "id": 20,
+      "question": "Which system gives steering guidance to the pilot without moving the controls?",
+      "options": [
+        "A. Flight director system",
+        "B. Autothrottle system",
+        "C. Yaw damper system"
+      ],
+      "correctIndex": 0,
+      "explanation": "The FDS integrates attitude, heading and radio navigation data and presents a directive command on the ADI. The pilot (or autopilot) then flies the commanded attitude; the FDS itself moves nothing."
+    },
+    {
+      "id": 21,
+      "question": "When AUTO APP mode is engaged, the desired flight path is supplied by:",
+      "options": [
+        "A. The signal of the ILS",
+        "B. The magnetic heading reference system",
+        "C. The radio altimeter"
+      ],
+      "correctIndex": 0,
+      "explanation": "In AUTO/APPR the localizer and glide slope beams of the ILS provide lateral and vertical guidance; the radio altimeter only programs the gain and the MHRS supplies heading reference."
+    },
+    {
+      "id": 22,
+      "question": "Even though the autopilot is not engaged, the autopilot computer is always supplied with aircraft attitude and parameters. This is called:",
+      "options": [
+        "A. Interlocking",
+        "B. Synchronization",
+        "C. Gain programming"
+      ],
+      "correctIndex": 1,
+      "explanation": "Synchronization keeps the computer's reference continuously aligned with the aircraft's actual condition so that there is no command step at the moment of engagement."
+    },
+    {
+      "id": 23,
+      "question": "When control wheel steering (CWS) is engaged, then:",
+      "options": [
+        "A. The autopilot ignores all pilot inputs",
+        "B. The pilot can manually fly without disengaging the autopilot",
+        "C. The autopilot trips off automatically"
+      ],
+      "correctIndex": 1,
+      "explanation": "In CWS the pilot's control wheel forces are sensed and passed to the computer, which then drives the servos. The pilot manoeuvres the aircraft while the autopilot stays engaged."
+    },
+    {
+      "id": 24,
+      "question": "Which unit corrects and formats data for recording?",
+      "options": [
+        "A. FDAU",
+        "B. CVR",
+        "C. ULB"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Flight Data Acquisition Unit centralizes, samples, encodes and formats data from sensors and onboard computers (into Harvard bi-phase format) and sends it to the FDR over a dedicated digital link."
+    },
+    {
+      "id": 25,
+      "question": "A component of the flight director system computer is the:",
+      "options": [
+        "A. Amplifier",
+        "B. Pitot tube",
+        "C. Underwater locator beacon"
+      ],
+      "correctIndex": 0,
+      "explanation": "The steering computer contains solid-state circuit boards including amplifier and logic stages that process attitude reference and command signals and set the scaling and gain values."
+    },
+    {
+      "id": 26,
+      "question": "Which of the following can be selected on the MCP?",
+      "options": [
+        "A. Mode selection and heading setting, but not limited to",
+        "B. Only engine thrust rating",
+        "C. Only cabin pressure schedule"
+      ],
+      "correctIndex": 0,
+      "explanation": "The mode control panel provides mode selection, heading and course setting, altitude and speed selection, vertical speed, and autopilot/flight director engagement — a broad set of functions, not only heading."
+    },
+    {
+      "id": 27,
+      "question": "Which of the following is a component of the FDS?",
+      "options": [
+        "A. Command bar only",
+        "B. AFCS computer only",
+        "C. Both (command bar and AFCS computer)"
+      ],
+      "correctIndex": 2,
+      "explanation": "In present-day installations the FDS and AFCS share the same computer and mode control panel, so both the command bar (display element) and the computer belong to the flight director system."
+    },
+    {
+      "id": 28,
+      "question": "The mode control panel is located on the:",
+      "options": [
+        "A. Glare shield",
+        "B. Centre pedestal",
+        "C. Overhead panel"
+      ],
+      "correctIndex": 0,
+      "explanation": "The MCP is mounted on the glareshield, immediately in front of and above the primary flight displays, so mode selections can be made without the pilot's scan leaving the instruments."
+    },
+    {
+      "id": 29,
+      "question": "Where is the autopilot disengagement control switch located?",
+      "options": [
+        "A. Control wheel only",
+        "B. MCP only",
+        "C. Both (control wheel and MCP)"
+      ],
+      "correctIndex": 2,
+      "explanation": "A quick-release disengage switch is provided on each control wheel for immediate use, and the engage/disengage levers or switches on the MCP give a second means of disconnection."
+    },
+    {
+      "id": 30,
+      "question": "Which of the following is correct?",
+      "options": [
+        "A. When the autopilot is disengaged there is an aural warning",
+        "B. Autopilot disengagement gives no indication at all",
+        "C. Disengagement is annunciated only on the FDR"
+      ],
+      "correctIndex": 0,
+      "explanation": "Autopilot disconnect — whether commanded or automatic — produces an aural warning together with a visual warning light, because an unnoticed disconnect is a hazardous condition."
+    },
+    {
+      "id": 31,
+      "question": "The flight data recorder is located in the:",
+      "options": [
+        "A. Nose section",
+        "B. Rear of fuselage",
+        "C. Forward electronics bay"
+      ],
+      "correctIndex": 1,
+      "explanation": "Accident evidence shows the rear fuselage and tail unit structure is the section most likely to survive or be least severely damaged, so the protected FDR is installed in the rear of the aircraft."
+    },
+    {
+      "id": 32,
+      "question": "Autothrottle activation is indicated on the:",
+      "options": [
+        "A. FMA on PFD / EADI",
+        "B. Fuel quantity indicator",
+        "C. Standby attitude indicator"
+      ],
+      "correctIndex": 0,
+      "explanation": "Autothrottle mode status appears in the flight mode annunciator strip on the PFD/EADI, alongside the pitch and roll mode annunciations."
+    },
+    {
+      "id": 33,
+      "question": "The two displays that indicate flight director activation are:",
+      "options": [
+        "A. FMA on PFD and command bar on EADI",
+        "B. DME readout and RMI pointer",
+        "C. Slip indicator and bank scale"
+      ],
+      "correctIndex": 0,
+      "explanation": "Switching on the flight director produces a mode annunciation in the FMA and brings the command bars into view on the EADI; the bars are deflected out of view when the FD is off."
+    },
+    {
+      "id": 34,
+      "question": "The autopilot is engaged by means of the:",
+      "options": [
+        "A. FMC CDU",
+        "B. MCP",
+        "C. Control column trim switch"
+      ],
+      "correctIndex": 1,
+      "explanation": "Engagement is commanded by the autopilot engage switches/levers on the mode control panel, subject to the engage interlocks being satisfied."
+    },
+    {
+      "id": 35,
+      "question": "The 'brain' of the autopilot is the:",
+      "options": [
+        "A. AFCS computer",
+        "B. Servo actuator",
+        "C. Vertical gyro"
+      ],
+      "correctIndex": 0,
+      "explanation": "The AFCS computer receives all sensor and mode inputs, computes the error and the required correction, and issues the command signals; the gyro only senses and the servo only actuates."
+    },
+    {
+      "id": 36,
+      "question": "The yaw damper command is calculated by the:",
+      "options": [
+        "A. Air data computer",
+        "B. AFCS computer",
+        "C. Rudder trim actuator"
+      ],
+      "correctIndex": 1,
+      "explanation": "The AFCS computer processes the yaw rate signal and computes the rudder command needed to oppose Dutch roll, which it then sends to the yaw damper servo."
+    },
+    {
+      "id": 37,
+      "question": "A single axis autopilot controls:",
+      "options": [
+        "A. Lateral axis and aileron (roll)",
+        "B. Longitudinal axis and elevator",
+        "C. Vertical axis and rudder"
+      ],
+      "correctIndex": 0,
+      "explanation": "The simplest autopilot is a wing leveller: it controls roll about the lateral/longitudinal reference using the ailerons only, with no pitch or yaw control."
+    },
+    {
+      "id": 38,
+      "question": "A two channel autopilot controls the aircraft by means of the:",
+      "options": [
+        "A. Aileron and elevator",
+        "B. Rudder and elevator",
+        "C. Rudder and aileron"
+      ],
+      "correctIndex": 0,
+      "explanation": "A two-axis system adds pitch control to the basic roll channel, so the ailerons and elevator are driven; the rudder channel (yaw damper) is added in a three-axis system."
+    },
+    {
+      "id": 39,
+      "question": "In which autopilot mode does the FCC get commands from the pilot using force transducers?",
+      "options": [
+        "A. VNAV",
+        "B. CWS",
+        "C. LNAV"
+      ],
+      "correctIndex": 1,
+      "explanation": "In control wheel steering, force transducers on the control column and wheel sense the pilot's applied force and convert it into a command input to the computer."
+    },
+    {
+      "id": 40,
+      "question": "The position feedback of an autopilot servo is provided by a:",
+      "options": [
+        "A. Linear variable differential transmitter (LVDT)",
+        "B. Thermocouple",
+        "C. Pitot-static capsule"
+      ],
+      "correctIndex": 0,
+      "explanation": "The LVDT produces an electrical signal proportional to actuator displacement, which is fed back to the computer so it knows the servo has moved the required amount and can null the command."
+    },
+    {
+      "id": 41,
+      "question": "Which indication uses a meter movement?",
+      "options": [
+        "A. Compass card",
+        "B. Deviation bar",
+        "C. Command bar"
+      ],
+      "correctIndex": 1,
+      "explanation": "The VOR/LOC deviation bar is deflected by a dc meter movement supplied from the radio navigation receiver, each dot corresponding to one degree of deflection. The compass card and command bars are servo-driven."
+    },
+    {
+      "id": 42,
+      "question": "VHF navigation (VOR/ILS) provides the FDS with:",
+      "options": [
+        "A. Deviation",
+        "B. True heading",
+        "C. Barometric altitude"
+      ],
+      "correctIndex": 0,
+      "explanation": "The VHF navigation receiver supplies VOR/localizer and glide slope beam deviation signals. True heading comes from the INS and altitude from the air data computer."
+    },
+    {
+      "id": 43,
+      "question": "Which indicator shows attitude commands?",
+      "options": [
+        "A. PFD",
+        "B. ND",
+        "C. RMI"
+      ],
+      "correctIndex": 0,
+      "explanation": "Attitude commands are shown by the command bars in the attitude display area of the PFD. The ND and RMI present horizontal/navigation information only."
+    },
+    {
+      "id": 44,
+      "question": "Which control input will automatically activate the flight director?",
+      "options": [
+        "A. Extending the landing gear",
+        "B. GA selection on the TO/GA switch",
+        "C. Moving the speed brake lever"
+      ],
+      "correctIndex": 1,
+      "explanation": "Pressing the go-around switch forces the mode selector to the GA position, which commands a pitch-up and wings-level attitude on the command bars — bringing the flight director into operation automatically."
+    },
+    {
+      "id": 45,
+      "question": "Which of the following is the LNAV function of the autopilot?",
+      "options": [
+        "A. HDG HOLD",
+        "B. ALT HOLD",
+        "C. Speed trim"
+      ],
+      "correctIndex": 0,
+      "explanation": "LNAV is a lateral (roll channel) function, so it belongs with heading modes such as HDG HOLD/HDG SEL. ALT HOLD and speed trim are pitch-related functions."
+    },
+    {
+      "id": 46,
+      "question": "Which indicator shows attitude command?",
+      "options": [
+        "A. ADI",
+        "B. HSI",
+        "C. DME indicator"
+      ],
+      "correctIndex": 0,
+      "explanation": "The attitude director indicator provides pitch and roll attitude plus the attitude commands via the command bars, together with GS and LOC beam position. The HSI gives the horizontal plan view."
+    },
+    {
+      "id": 47,
+      "question": "Which of the following interfaces the pilot and the autopilot computer?",
+      "options": [
+        "A. Command",
+        "B. Servo actuator",
+        "C. Underwater locator beacon"
+      ],
+      "correctIndex": 0,
+      "explanation": "The pilot's interface with the computer is through command selection — the mode and target selections made on the control panel are converted into the command inputs the computer works to."
+    },
+    {
+      "id": 48,
+      "question": "A vertical gyro is a ___ element.",
+      "options": [
+        "A. Sensing",
+        "B. Actuating",
+        "C. Recording"
+      ],
+      "correctIndex": 0,
+      "explanation": "The vertical gyro unit senses pitch and roll attitude and passes the CX synchro signals to the computer and ADI. Actuation is done by servos and recording by the FDR."
+    },
+    {
+      "id": 49,
+      "question": "The yaw damping system:",
+      "options": [
+        "A. Sends a command signal to the servo actuator so that rudder movement reduces the effect of Dutch roll",
+        "B. Locks the rudder in the neutral position in flight",
+        "C. Trims the horizontal stabilizer with airspeed"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sensed yaw rate is processed into a rudder command, and the yaw damper servo moves the rudder in opposition to the oscillation, damping out Dutch roll."
+    },
+    {
+      "id": 50,
+      "question": "What is the purpose of autopilot synchronization?",
+      "options": [
+        "A. To avoid jerks when the autopilot engages",
+        "B. To synchronize the FDR with the CVR",
+        "C. To align the compass card with the lubber line"
+      ],
+      "correctIndex": 0,
+      "explanation": "By keeping the computer's reference continuously matched to the aircraft's existing attitude, the command at the moment of engagement is zero, so there is no sudden control input or transient."
+    },
+    {
+      "id": 51,
+      "question": "What is the advantage of the autopilot?",
+      "options": [
+        "A. It reduces crew fatigue only",
+        "B. It provides a greater degree of precision only",
+        "C. Both (reduces crew fatigue and provides a greater degree of precision)"
+      ],
+      "correctIndex": 2,
+      "explanation": "Automatic flight relieves the crew of the continuous workload of manual control on long flights and holds the flight path far more accurately and consistently than a pilot can by hand."
+    },
+    {
+      "id": 52,
+      "question": "The nose-down tendency of an aircraft at high mach number is called:",
+      "options": [
+        "A. Mach tuck",
+        "B. Dutch roll",
+        "C. Adverse yaw"
+      ],
+      "correctIndex": 0,
+      "explanation": "As Mach number increases the centre of pressure moves aft, producing a nose-down pitching moment known as mach tuck. This is what the mach trim system automatically compensates for."
+    },
+    {
+      "id": 53,
+      "question": "Which axis is controlled in a single axis autopilot system?",
+      "options": [
+        "A. Lateral axis",
+        "B. Vertical axis",
+        "C. Longitudinal axis"
+      ],
+      "correctIndex": 0,
+      "explanation": "A single-axis system is a roll-control (wing-levelling) autopilot operating through the ailerons; pitch and yaw control require additional axes."
+    },
+    {
+      "id": 54,
+      "question": "The stick shaker vibrates which unit?",
+      "options": [
+        "A. Control column",
+        "B. Rudder pedals",
+        "C. Thrust levers"
+      ],
+      "correctIndex": 0,
+      "explanation": "The stick shaker motor is clamped to the control column and vibrates it to give an unmistakable tactile stall warning to the pilot."
+    },
+    {
+      "id": 55,
+      "question": "Modern large aircraft use which type of autopilot servo?",
+      "options": [
+        "A. Pneumatic",
+        "B. Electro-hydraulic",
+        "C. Purely mechanical cable drive"
+      ],
+      "correctIndex": 1,
+      "explanation": "Large aircraft need high actuating forces, so the electrical command from the computer is used to meter hydraulic power through an electro-hydraulic servo (electrical signal in, hydraulic force out)."
+    },
+    {
+      "id": 56,
+      "question": "What is the primary purpose of the yaw damper?",
+      "options": [
+        "A. Reduce Dutch roll",
+        "B. Reduce mach tuck",
+        "C. Reduce landing roll"
+      ],
+      "correctIndex": 0,
+      "explanation": "Swept-wing aircraft are prone to the coupled yaw-roll oscillation called Dutch roll; the yaw damper applies opposing rudder to damp it out. Mach tuck is handled by mach trim."
+    },
+    {
+      "id": 57,
+      "question": "Typical inputs to the flight director system include:",
+      "options": [
+        "A. Vertical gyro unit only",
+        "B. Air data computer only",
+        "C. Both (vertical gyro unit and air data computer)"
+      ],
+      "correctIndex": 2,
+      "explanation": "The VGU supplies pitch and roll attitude and the ADC supplies altitude for the altitude hold function; both are listed as typical FDS inputs along with VHF nav, marker beacon, radio altimeter, compass, INS and the mode selector."
+    },
+    {
+      "id": 58,
+      "question": "Which control surface is used by the yaw damper?",
+      "options": [
+        "A. Rudder",
+        "B. Aileron",
+        "C. Elevator"
+      ],
+      "correctIndex": 0,
+      "explanation": "Yaw is controlled about the vertical axis by the rudder, so the yaw damper servo drives the rudder to oppose the oscillation."
+    },
+    {
+      "id": 59,
+      "question": "To engage go-around mode, you press the ___ button.",
+      "options": [
+        "A. TO/GA",
+        "B. ALT HOLD",
+        "C. APP"
+      ],
+      "correctIndex": 0,
+      "explanation": "The TO/GA switch commands go-around: the mode selector is spring-returned to the GA position and the command bars indicate pitch-up with a wings-level attitude."
+    },
+    {
+      "id": 60,
+      "question": "Where do you see the pitch limit indicator (PLI)?",
+      "options": [
+        "A. EADI",
+        "B. HSI",
+        "C. Mode control panel"
+      ],
+      "correctIndex": 0,
+      "explanation": "The PLI is drawn against the pitch scale of the attitude display (EADI), showing the pitch attitude at which stall warning would occur so the pitch margin can be read directly."
+    },
+    {
+      "id": 61,
+      "question": "After the aircraft reaches the MCP selected altitude, the autopilot changes to ___ mode.",
+      "options": [
+        "A. ALT HOLD",
+        "B. TO/GA",
+        "C. VOR/LOC"
+      ],
+      "correctIndex": 0,
+      "explanation": "On capturing the selected altitude the pitch channel transitions to altitude hold, where pitch commands are referenced to the altitude sensed by the air data computer."
+    },
+    {
+      "id": 62,
+      "question": "Which system controls engine thrust?",
+      "options": [
+        "A. Auto throttle",
+        "B. Yaw damper",
+        "C. Mach trim"
+      ],
+      "correctIndex": 0,
+      "explanation": "The autothrottle drives the thrust levers to maintain the commanded thrust or speed; the yaw damper and mach trim act only on flight control surfaces."
+    },
+    {
+      "id": 63,
+      "question": "Which system commands the stabilizer in a direction opposite to the speed change?",
+      "options": [
+        "A. Mach trim",
+        "B. Speed trim",
+        "C. Yaw damper"
+      ],
+      "correctIndex": 1,
+      "explanation": "Speed trim improves speed stability at low speed and light weight: as speed decreases it trims nose-down and as speed increases it trims nose-up, opposing the speed change."
+    },
+    {
+      "id": 64,
+      "question": "The stabilizer trim system moves the:",
+      "options": [
+        "A. Horizontal stabilizer",
+        "B. Elevator",
+        "C. Rudder"
+      ],
+      "correctIndex": 0,
+      "explanation": "Stab trim repositions the whole horizontal stabilizer to remove steady elevator loads, which is a far more powerful and drag-efficient means of trimming than holding elevator deflection."
+    },
+    {
+      "id": 65,
+      "question": "The mach trim system moves the:",
+      "options": [
+        "A. Horizontal stabilizer",
+        "B. Elevator",
+        "C. Aileron"
+      ],
+      "correctIndex": 1,
+      "explanation": "Mach trim applies its correction through the elevator, adjusting the elevator neutral position as Mach number rises to counter mach tuck. This is the classic exam distinction from stab trim, which moves the stabilizer."
+    },
+    {
+      "id": 66,
+      "question": "Which unit is used to control the yaw damper?",
+      "options": [
+        "A. Stall management yaw damper (SMYD)",
+        "B. Flight data acquisition unit (FDAU)",
+        "C. Air data computer (ADC)"
+      ],
+      "correctIndex": 0,
+      "explanation": "On the B737 NG the SMYD combines the stall warning/management and yaw damper functions in one computer, computing the rudder command for Dutch roll damping."
+    },
+    {
+      "id": 67,
+      "question": "Glide slope beam capture gives which light on the annunciator panel?",
+      "options": [
+        "A. Amber",
+        "B. Green",
+        "C. Red"
+      ],
+      "correctIndex": 1,
+      "explanation": "The glide slope light illuminates amber when the approach mode is selected (armed) and changes to green when the GS beam has been captured. The same amber-to-green logic applies to VOR/LOC."
+    },
+    {
+      "id": 68,
+      "question": "If the vertical gyro is tilted up while in ALT HOLD mode, the command bar moves:",
+      "options": [
+        "A. Downward",
+        "B. Upward",
+        "C. To the right"
+      ],
+      "correctIndex": 0,
+      "explanation": "A nose-up displacement signal makes the computer command a correction back to the reference altitude, so the bars deflect to a 'fly down' position. This matches the test procedure where tilting the gyro nose-up deflects the V-bar downward."
+    },
+    {
+      "id": 69,
+      "question": "Setting a heading 10° greater than the actual heading will deflect the command bar to the:",
+      "options": [
+        "A. Left",
+        "B. Right",
+        "C. Centre"
+      ],
+      "correctIndex": 1,
+      "explanation": "The heading error synchro commands a turn in the shorter direction towards the selected heading. The HDG mode test confirms this: setting the cursor 10 degrees greater than airplane heading makes the V-bar rotate to the right."
+    },
+    {
+      "id": 70,
+      "question": "You interchange a faulty FD computer with a working one and the problem still exists. You should then inspect the:",
+      "options": [
+        "A. Wiring",
+        "B. Vertical gyro bearings",
+        "C. Hydraulic system"
+      ],
+      "correctIndex": 0,
+      "explanation": "The troubleshooting sequence is: confirm power, then substitute units from the operating system. If interchanging units does not clear the trouble, the system wiring must be checked for continuity and the connectors for security."
+    },
+    {
+      "id": 71,
+      "question": "When VNAV mode is activated, the autopilot gets its data from the:",
+      "options": [
+        "A. FMC",
+        "B. Radio altimeter",
+        "C. Marker beacon receiver"
+      ],
+      "correctIndex": 0,
+      "explanation": "VNAV flies the vertical profile computed and stored in the flight management computer, which supplies the pitch/speed targets to the flight control computer."
+    },
+    {
+      "id": 72,
+      "question": "In which autopilot mode is the pilot's control input sent to the computer?",
+      "options": [
+        "A. LNAV",
+        "B. Control wheel steering (CWS)",
+        "C. ALT HOLD"
+      ],
+      "correctIndex": 1,
+      "explanation": "CWS routes the pilot's control wheel and column forces through force transducers into the computer, which then drives the servos — the pilot flies through the autopilot rather than around it."
+    },
+    {
+      "id": 73,
+      "question": "What are the two types of stall warning?",
+      "options": [
+        "A. Normal and speed floor",
+        "B. Primary and secondary",
+        "C. Static and dynamic"
+      ],
+      "correctIndex": 0,
+      "explanation": "Normal stall warning is based on the angle of attack approaching the stall, while the speed floor (minimum speed) warning is based on the aircraft decelerating below a computed minimum manoeuvring speed."
+    },
+    {
+      "id": 74,
+      "question": "The basis for autopilot system operation is:",
+      "options": [
+        "A. Error correction",
+        "B. Pressure comparison",
+        "C. Frequency modulation"
+      ],
+      "correctIndex": 0,
+      "explanation": "The autopilot is a closed-loop system: it compares the actual condition with the commanded condition, produces an error signal, drives a servo to reduce that error, and uses feedback to null it."
+    },
+    {
+      "id": 75,
+      "question": "The two types of error correction used in an autopilot are:",
+      "options": [
+        "A. Position and rate-based",
+        "B. Thermal and mechanical",
+        "C. Analog and discrete"
+      ],
+      "correctIndex": 0,
+      "explanation": "Position (displacement) correction responds to how far the aircraft has departed from the reference, while rate correction responds to how fast it is departing, which provides the damping needed to avoid overshoot."
+    },
+    {
+      "id": 76,
+      "question": "Which one is NOT a component of the autopilot?",
+      "options": [
+        "A. FDAU",
+        "B. Servo actuator",
+        "C. Flight control computer"
+      ],
+      "correctIndex": 0,
+      "explanation": "The FDAU belongs to the flight data recording system: it collects and formats data for the FDR. It records autopilot engagement status but plays no part in controlling the aircraft."
+    },
+    {
+      "id": 77,
+      "question": "The servomotor that moves the flight control surfaces without moving the pilot's controls is the ___ type.",
+      "options": [
+        "A. Parallel",
+        "B. Series",
+        "C. Differential"
+      ],
+      "correctIndex": 1,
+      "explanation": "A series servo is inserted into the control run downstream of the pilot's controls, so surface movement occurs with no corresponding movement at the control column. A parallel servo back-drives the pilot's controls."
+    },
+    {
+      "id": 78,
+      "question": "Control surface position sensors provide:",
+      "options": [
+        "A. Feedback",
+        "B. Excitation",
+        "C. Mode selection"
+      ],
+      "correctIndex": 0,
+      "explanation": "Surface position sensors close the loop by telling the computer how far the surface has actually moved, allowing the command signal to be nulled when the demanded position is reached."
+    },
+    {
+      "id": 79,
+      "question": "A series of switches and relays that operate in a specific sequence to ensure proper autopilot engagement are called:",
+      "options": [
+        "A. Interlocks",
+        "B. Transducers",
+        "C. Annunciators"
+      ],
+      "correctIndex": 0,
+      "explanation": "Engage interlocks verify that all required conditions (power, valid signals, synchronization, no faults) are satisfied before the autopilot can be engaged, and they trip it out if a condition is lost."
+    },
+    {
+      "id": 80,
+      "question": "The TO/GA switch is located on the:",
+      "options": [
+        "A. Thrust lever",
+        "B. Control wheel",
+        "C. Overhead panel"
+      ],
+      "correctIndex": 0,
+      "explanation": "The go-around switches are mounted on the thrust levers, since the pilot's hand is already there when thrust is advanced for take-off or go-around. The test procedure refers to the thrust lever GO-AROUND switch."
+    },
+    {
+      "id": 81,
+      "question": "The electrical stabilizer trim switches are located on the:",
+      "options": [
+        "A. Control wheel",
+        "B. Thrust lever",
+        "C. Mode control panel"
+      ],
+      "correctIndex": 0,
+      "explanation": "The pairs of stab trim switches are on the outboard horn of each control wheel, so the pilot can trim without releasing the controls. Both switches must be operated together as a safety against runaway."
+    },
+    {
+      "id": 82,
+      "question": "Which of the following is NOT a purpose of the FDS?",
+      "options": [
+        "A. Automatic pitch and roll control",
+        "B. Displaying attitude commands",
+        "C. Integrating radio navigation data into a directive command"
+      ],
+      "correctIndex": 0,
+      "explanation": "The FDS is purely a display and command-computing system: it tells the pilot what to do. Automatic movement of the controls is the function of the AFCS/autopilot, not the flight director."
+    },
+    {
+      "id": 83,
+      "question": "Which of the following is moved by a DC meter movement?",
+      "options": [
+        "A. Deviation bar",
+        "B. Compass card",
+        "C. Attitude tape"
+      ],
+      "correctIndex": 0,
+      "explanation": "The VOR/LOC deviation bar is deflected by a dc meter movement supplied with signals from the radio navigation receiver, each dot representing one degree. The compass card and attitude tape are driven by servomotors."
+    },
+    {
+      "id": 84,
+      "question": "Which unit converts signals from the computer for driving the indication elements?",
+      "options": [
+        "A. Instrument amplifier",
+        "B. Program switch module",
+        "C. Marker beacon receiver"
+      ],
+      "correctIndex": 0,
+      "explanation": "The primary function of the instrument amplifier is to convert the attitude reference and command signals from the computer into servo-actuating power signals that drive the display elements of the FDS indicators."
+    },
+    {
+      "id": 85,
+      "question": "Which one is a component of the FDS?",
+      "options": [
+        "A. Steering computer only",
+        "B. Instrument amplifier only",
+        "C. Both (steering computer and instrument amplifier)"
+      ],
+      "correctIndex": 2,
+      "explanation": "The FDS components listed are the steering computer, the instrument amplifiers, the indicators (ADI and HSI) and the mode control panel, so both units named are part of the system."
+    }
+  ]
+}
