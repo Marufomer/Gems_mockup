@@ -1,0 +1,684 @@
+{
+  "id": "avo-2-part-3",
+  "title": "Avo-2-part-3",
+  "module": "AVO-2",
+  "course": "avionics",
+  "category": "part",
+  "description": "Avionics exam covering digital logic gates, TTL and CMOS logic families, Boolean algebra, number systems, ICs, buffers, ECL, and digital circuits.",
+  "durationMinutes": 150,
+  "totalQuestions": 61,
+  "color": "blue",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Propagation delay is operational speed with switch from",
+      "options": [
+        "A. All outputs are high",
+        "B. 74LS or 54LS",
+        "C. Both off to on and on to off"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is Both off to on and on to off."
+    },
+    {
+      "id": 2,
+      "question": "What is the designation for low power TTL ICs",
+      "options": [
+        "A. Provide extra current",
+        "B. 74LS or 54LS",
+        "C. Both off to on and on to off"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is 74LS or 54LS."
+    },
+    {
+      "id": 3,
+      "question": "What are the primary function of the buffer",
+      "options": [
+        "A. 74LS or 54LS",
+        "B. 3",
+        "C. Provide extra current"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is Provide extra current."
+    },
+    {
+      "id": 4,
+      "question": "Buffer has _ state in tri-state devices",
+      "options": [
+        "A. 3",
+        "B. CMOS",
+        "C. Provide extra current"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 3."
+    },
+    {
+      "id": 5,
+      "question": "Which technology is not commonly used for digital logic gates",
+      "options": [
+        "A. CMOS",
+        "B. Boolean Expression",
+        "C. 3"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is CMOS."
+    },
+    {
+      "id": 6,
+      "question": "Truth table used for",
+      "options": [
+        "A. Both DTL/RTL",
+        "B. CMOS",
+        "C. Boolean Expression"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is Boolean Expression."
+    },
+    {
+      "id": 7,
+      "question": "Which of the following is digital logic IC",
+      "options": [
+        "A. EX-OR or EX-NOR",
+        "B. Both DTL/RTL",
+        "C. Boolean Expression"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is Both DTL/RTL."
+    },
+    {
+      "id": 8,
+      "question": "__ is gate found by combining basic & derived gate",
+      "options": [
+        "A. Both DTL/RTL",
+        "B. TTL",
+        "C. EX-OR or EX-NOR"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is EX-OR or EX-NOR."
+    },
+    {
+      "id": 9,
+      "question": "Multi-emitter transistor",
+      "options": [
+        "A. EX-OR or EX-NOR",
+        "B. Very high speed",
+        "C. TTL"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is TTL."
+    },
+    {
+      "id": 10,
+      "question": "Major advantage of ECL",
+      "options": [
+        "A. Binary numbers",
+        "B. TTL",
+        "C. Very high speed"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is Very high speed."
+    },
+    {
+      "id": 11,
+      "question": "Type of digital circuit that uses BJT is",
+      "options": [
+        "A. TTL",
+        "B. Binary numbers",
+        "C. Very high speed"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is TTL."
+    },
+    {
+      "id": 12,
+      "question": "In digital system operation of circuitry, data, instructions expressed",
+      "options": [
+        "A. TTL",
+        "B. 32",
+        "C. Binary numbers"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is Binary numbers."
+    },
+    {
+      "id": 13,
+      "question": "Input combination for truth table 5-input AND gate",
+      "options": [
+        "A. 32",
+        "B. Binary numbers",
+        "C. DSP"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 32."
+    },
+    {
+      "id": 14,
+      "question": "__ not commonly used for digital logic gate",
+      "options": [
+        "A. DSP",
+        "B. 32",
+        "C. XNOR"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is DSP."
+    },
+    {
+      "id": 15,
+      "question": "(A' + B)(A + B)",
+      "options": [
+        "A. TTL & CMOS",
+        "B. XNOR",
+        "C. DSP"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is XNOR."
+    },
+    {
+      "id": 16,
+      "question": "Commercially widely used",
+      "options": [
+        "A. TTL & CMOS",
+        "B. Ceramic",
+        "C. XNOR"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is TTL & CMOS."
+    },
+    {
+      "id": 17,
+      "question": "Pin array constructed from",
+      "options": [
+        "A. TTL & CMOS",
+        "B. (A' + B')C",
+        "C. Ceramic"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is Ceramic."
+    },
+    {
+      "id": 18,
+      "question": "Complement of AB + C' =",
+      "options": [
+        "A. (A' + B')C",
+        "B. Ceramic",
+        "C. Low"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is (A' + B')C."
+    },
+    {
+      "id": 19,
+      "question": "NAND gate inputs high what will be the output",
+      "options": [
+        "A. (A' + B')C",
+        "B. 1000",
+        "C. Low"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is Low."
+    },
+    {
+      "id": 20,
+      "question": "5 excess 3 in binary",
+      "options": [
+        "A. Low",
+        "B. Boolean expression",
+        "C. 1000"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is 1000."
+    },
+    {
+      "id": 21,
+      "question": "Truth table used for",
+      "options": [
+        "A. Boolean expression",
+        "B. 1000",
+        "C. A"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is Boolean expression."
+    },
+    {
+      "id": 22,
+      "question": "The output of not gate with A' input is",
+      "options": [
+        "A. Boolean expression",
+        "B. A",
+        "C. (A • B)'"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is A."
+    },
+    {
+      "id": 23,
+      "question": "NAND Expression",
+      "options": [
+        "A. (A • B)'",
+        "B. A",
+        "C. AB + A'B"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is (A • B)'."
+    },
+    {
+      "id": 24,
+      "question": "Which one of following expression is the simplest form",
+      "options": [
+        "A. (A • B)'",
+        "B. Speed up of operation",
+        "C. AB + A'B"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is AB + A'B."
+    },
+    {
+      "id": 25,
+      "question": "Schottky TTL used for",
+      "options": [
+        "A. Speed up of operation",
+        "B. Fan out",
+        "C. AB + A'B"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is Speed up of operation."
+    },
+    {
+      "id": 26,
+      "question": "__ is how many of a load can be connected to output of a digital circuit",
+      "options": [
+        "A. Fan out",
+        "B. Speed up of operation",
+        "C. AND gate followed by NOT gate"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is Fan out."
+    },
+    {
+      "id": 27,
+      "question": "How NAND are constructed",
+      "options": [
+        "A. AND gate followed by NOT gate",
+        "B. Fan out",
+        "C. 2"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is AND gate followed by NOT gate."
+    },
+    {
+      "id": 28,
+      "question": "In boolean algebra there are _ different states/values",
+      "options": [
+        "A. Number of gates that the output can drive",
+        "B. 2",
+        "C. AND gate followed by NOT gate"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is 2."
+    },
+    {
+      "id": 29,
+      "question": "Fan out refers to",
+      "options": [
+        "A. NAND",
+        "B. Number of gates that the output can drive",
+        "C. 2"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is Number of gates that the output can drive."
+    },
+    {
+      "id": 30,
+      "question": "Which of the following gates can be used to build all other logic gates",
+      "options": [
+        "A. B/c it avoid saturation mode",
+        "B. Number of gates that the output can drive",
+        "C. NAND"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is NAND."
+    },
+    {
+      "id": 31,
+      "question": "Why ECL become high speed",
+      "options": [
+        "A. C'",
+        "B. B/c it avoid saturation mode",
+        "C. NAND"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is B/c it avoid saturation mode."
+    },
+    {
+      "id": 32,
+      "question": "F(ABC) = \\sum m(0, 2, 4, 6)",
+      "options": [
+        "A. C'",
+        "B. 1",
+        "C. B/c it avoid saturation mode"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is C'."
+    },
+    {
+      "id": 33,
+      "question": "The equivalent representation of A • A'' is",
+      "options": [
+        "A. B/c it avoid saturation mode",
+        "B. 1",
+        "C. C'"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is 1."
+    },
+    {
+      "id": 34,
+      "question": "The equivalent representation for A'' + 1 is",
+      "options": [
+        "A. C'",
+        "B. 1",
+        "C. CMOS"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is 1."
+    },
+    {
+      "id": 35,
+      "question": "The equivalent representation of A + A' is",
+      "options": [
+        "A. Only all inputs are high",
+        "B. CMOS",
+        "C. 1"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is 1."
+    },
+    {
+      "id": 36,
+      "question": "Logic family that provides minimum power dissipation",
+      "options": [
+        "A. CMOS",
+        "B. Only all inputs are high",
+        "C. 1"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is CMOS."
+    },
+    {
+      "id": 37,
+      "question": "The output of an AND gate is high if",
+      "options": [
+        "A. Only all inputs are high",
+        "B. ASCII",
+        "C. CMOS"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is Only all inputs are high."
+    },
+    {
+      "id": 38,
+      "question": "Is a 7 bits alphanumeric code, 128 characters use",
+      "options": [
+        "A. ASCII",
+        "B. 2",
+        "C. Only all inputs are high"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is ASCII."
+    },
+    {
+      "id": 39,
+      "question": "Binary number system is to the base",
+      "options": [
+        "A. 2",
+        "B. 32",
+        "C. ASCII"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 2."
+    },
+    {
+      "id": 40,
+      "question": "Input combination for truth table 5-input AND gate",
+      "options": [
+        "A. 32",
+        "B. 4",
+        "C. 2"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 32."
+    },
+    {
+      "id": 41,
+      "question": "What is the minimum no. required 2 input NAND to implement XOR gate is",
+      "options": [
+        "A. 4",
+        "B. 32",
+        "C. Complementary metal oxide semiconductor"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 4."
+    },
+    {
+      "id": 42,
+      "question": "CMOS stand for",
+      "options": [
+        "A. 4",
+        "B. CMOS",
+        "C. Complementary metal oxide semiconductor"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is Complementary metal oxide semiconductor."
+    },
+    {
+      "id": 43,
+      "question": "Which one of the following susceptible for static electricity",
+      "options": [
+        "A. Complementary metal oxide semiconductor",
+        "B. CMOS",
+        "C. To drive excess current"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is CMOS."
+    },
+    {
+      "id": 44,
+      "question": "What is the usage of buffer",
+      "options": [
+        "A. C'",
+        "B. CMOS",
+        "C. To drive excess current"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is To drive excess current."
+    },
+    {
+      "id": 45,
+      "question": "What is the simplified form of \\sum m(0, 2, 4, 6)",
+      "options": [
+        "A. C'",
+        "B. MSI",
+        "C. To drive excess current"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is C'."
+    },
+    {
+      "id": 46,
+      "question": "Classification of ICs with complexities b/n 10-100 or tens of gates is",
+      "options": [
+        "A. MSI",
+        "B. x = A",
+        "C. C'"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is MSI."
+    },
+    {
+      "id": 47,
+      "question": "If the input is A' in NOT gate the output x = __",
+      "options": [
+        "A. MSI",
+        "B. x = A",
+        "C. Low"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is x = A."
+    },
+    {
+      "id": 48,
+      "question": "What is the output of AND gate when the inputs are low",
+      "options": [
+        "A. Low",
+        "B. x = A",
+        "C. A + B + C"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is Low."
+    },
+    {
+      "id": 49,
+      "question": "ORing of A, B, C represented by",
+      "options": [
+        "A. A + B + C",
+        "B. Low",
+        "C. Both off to on and on to off"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is A + B + C."
+    },
+    {
+      "id": 50,
+      "question": "Propagation delay",
+      "options": [
+        "A. A + B + C",
+        "B. Both off to on and on to off",
+        "C. BCDIC"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is Both off to on and on to off."
+    },
+    {
+      "id": 51,
+      "question": "6 bit alphanumeric code, 64 characters",
+      "options": [
+        "A. BCDIC",
+        "B. Both off to on and on to off",
+        "C. Base 10"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is BCDIC."
+    },
+    {
+      "id": 52,
+      "question": "Decimal system of number is based on",
+      "options": [
+        "A. BCDIC",
+        "B. Base 10",
+        "C. All inputs are same"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is Base 10."
+    },
+    {
+      "id": 53,
+      "question": "Outputs of Exclusive NOR (EX-OR) gate is low",
+      "options": [
+        "A. All inputs are same",
+        "B. Base 10",
+        "C. High = 1 & Low = 0"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is All inputs are same."
+    },
+    {
+      "id": 54,
+      "question": "In positive logic",
+      "options": [
+        "A. All inputs are same",
+        "B. High = 1 & Low = 0",
+        "C. Excess-3 code"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is High = 1 & Low = 0."
+    },
+    {
+      "id": 55,
+      "question": "Un-weighted code include",
+      "options": [
+        "A. Excess-3 code",
+        "B. High = 1 & Low = 0",
+        "C. A + A = A"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is Excess-3 code."
+    },
+    {
+      "id": 56,
+      "question": "AND gate law",
+      "options": [
+        "A. Excess-3 code",
+        "B. OR and NOR",
+        "C. A + A = A"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is A + A = A."
+    },
+    {
+      "id": 57,
+      "question": "Complement of NOR and OR is respectively",
+      "options": [
+        "A. OR and NOR",
+        "B. A + A = A",
+        "C. Extended Binary Coded Decimal"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is OR and NOR."
+    },
+    {
+      "id": 58,
+      "question": "EBCDIC is abbreviated form of",
+      "options": [
+        "A. XOR and XNOR",
+        "B. OR and NOR",
+        "C. Extended Binary Coded Decimal"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is Extended Binary Coded Decimal."
+    },
+    {
+      "id": 59,
+      "question": "Not universal gate",
+      "options": [
+        "A. XOR and XNOR",
+        "B. EBCDIC",
+        "C. Extended Binary Coded Decimal"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is XOR and XNOR."
+    },
+    {
+      "id": 60,
+      "question": "Which one of the following alphanumerical code can have 8 Bit & 256 characters",
+      "options": [
+        "A. XOR and XNOR",
+        "B. All outputs are high",
+        "C. EBCDIC"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is EBCDIC."
+    },
+    {
+      "id": 61,
+      "question": "The output of an AND gate is high if",
+      "options": [
+        "A. Both off to on and on to off",
+        "B. EBCDIC",
+        "C. All outputs are high"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is All outputs are high."
+    }
+  ]
+}

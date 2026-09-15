@@ -1,0 +1,1311 @@
+{
+  "id": "avo-4-part-1",
+  "title": "Avo-4-part-1",
+  "module": "AVO-4",
+  "course": "avionics",
+  "category": "part",
+  "description": "Comprehensive exam covering aircraft batteries, DC generators, voltage regulation, DC alternators, and related electrical systems.",
+  "durationMinutes": 150,
+  "totalQuestions": 118,
+  "color": "blue",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Battery source is",
+      "options": [
+        "A. Not Direct current",
+        "B. Other condition",
+        "C. Direct current"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is Direct current."
+    },
+    {
+      "id": 2,
+      "question": "Battery voltage decrease to 10.5V with 6 cells",
+      "options": [
+        "A. Fully discharged",
+        "B. No change",
+        "C. Other condition"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is Fully discharged."
+    },
+    {
+      "id": 3,
+      "question": "Not an advantage of Ni-cad over lead acid",
+      "options": [
+        "A. None of these alternatives",
+        "B. Less weight",
+        "C. No change"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is Less weight."
+    },
+    {
+      "id": 4,
+      "question": "Which method takes longer to charge",
+      "options": [
+        "A. No change",
+        "B. Not Constant current charging (CCC)",
+        "C. Constant current charging (CCC)"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is Constant current charging (CCC)."
+    },
+    {
+      "id": 5,
+      "question": "Voltage regulator on modern light aircraft",
+      "options": [
+        "A. Solid state",
+        "B. Other condition",
+        "C. No change"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is Solid state."
+    },
+    {
+      "id": 6,
+      "question": "Separately excited DC generator requires current from",
+      "options": [
+        "A. External DC power source",
+        "B. None of these alternatives",
+        "C. No change"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is External DC power source."
+    },
+    {
+      "id": 7,
+      "question": "Active material in Ni-cad battery",
+      "options": [
+        "A. Cadmium",
+        "B. No change",
+        "C. Not Cadmium"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is Cadmium."
+    },
+    {
+      "id": 8,
+      "question": "NiCad battery with combination of high battery Tº and overcharging",
+      "options": [
+        "A. Thermal runaway",
+        "B. Other condition",
+        "C. No change"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is Thermal runaway."
+    },
+    {
+      "id": 9,
+      "question": "When a circuit is connected to lead acid, electron flow is from",
+      "options": [
+        "A. Other condition",
+        "B. None of these alternatives",
+        "C. Negative to positive"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is Negative to positive."
+    },
+    {
+      "id": 10,
+      "question": "Positive plate of anode in Ni-cad",
+      "options": [
+        "A. Ni(OH)4",
+        "B. Not Ni(OH)4",
+        "C. Other condition"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is Ni(OH)4."
+    },
+    {
+      "id": 11,
+      "question": "Freezed battery subjected to high charge rate may",
+      "options": [
+        "A. Explode",
+        "B. None of these alternatives",
+        "C. Other condition"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is Explode."
+    },
+    {
+      "id": 12,
+      "question": "Which battery is known for high energy desity",
+      "options": [
+        "A. None of these alternatives",
+        "B. No change",
+        "C. Lithium"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is Lithium."
+    },
+    {
+      "id": 13,
+      "question": "Ni-cad batteries electrolyte is",
+      "options": [
+        "A. Not KOH and distilled water",
+        "B. Other condition",
+        "C. KOH and distilled water"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is KOH and distilled water."
+    },
+    {
+      "id": 14,
+      "question": "Amount of electrical energy that a cell can provide from new to the end of its useful voltage on load",
+      "options": [
+        "A. None of these alternatives",
+        "B. Not Cell capacity",
+        "C. Cell capacity"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is Cell capacity."
+    },
+    {
+      "id": 15,
+      "question": "Which voltage regulator has moving parts",
+      "options": [
+        "A. Carbon pile voltage regulators",
+        "B. Not Carbon pile voltage regulators",
+        "C. None of these alternatives"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is Carbon pile voltage regulators."
+    },
+    {
+      "id": 16,
+      "question": "Is used in field excited type Dc generator",
+      "options": [
+        "A. Electromagnetic",
+        "B. None of these alternatives",
+        "C. Other condition"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is Electromagnetic."
+    },
+    {
+      "id": 17,
+      "question": "What connection used to have equal voltage bin field winding and armature winding",
+      "options": [
+        "A. No change",
+        "B. Not Shunt",
+        "C. Shunt"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is Shunt."
+    },
+    {
+      "id": 18,
+      "question": "Which of the following doesn't directly affect the output of the generator",
+      "options": [
+        "A. None of these alternatives",
+        "B. Armature types",
+        "C. No change"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is Armature types."
+    },
+    {
+      "id": 19,
+      "question": "A battery used for high capacity and high discharge rate",
+      "options": [
+        "A. None of these alternatives",
+        "B. Vented Ni-cad battery",
+        "C. Other condition"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is Vented Ni-cad battery."
+    },
+    {
+      "id": 20,
+      "question": "Negative plate after discharge in Ni-cad becomes",
+      "options": [
+        "A. Other condition",
+        "B. None of these alternatives",
+        "C. Metallic Cadmium"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is Metallic Cadmium."
+    },
+    {
+      "id": 21,
+      "question": "Which terminal should we disconnect first",
+      "options": [
+        "A. Negative",
+        "B. None of these alternatives",
+        "C. No change"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is Negative."
+    },
+    {
+      "id": 22,
+      "question": "Types of DC generator used in laboratory",
+      "options": [
+        "A. No change",
+        "B. None of these alternatives",
+        "C. Separately excited"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is Separately excited."
+    },
+    {
+      "id": 23,
+      "question": "Commutator segments of a DC generator are part of (Rotating part in DC)",
+      "options": [
+        "A. Armature assembly",
+        "B. No change",
+        "C. None of these alternatives"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is Armature assembly."
+    },
+    {
+      "id": 24,
+      "question": "Voltage generated by a basic generator",
+      "options": [
+        "A. No change",
+        "B. AC",
+        "C. None of these alternatives"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is AC."
+    },
+    {
+      "id": 25,
+      "question": "Current in armature conductors of a DC generator",
+      "options": [
+        "A. AC",
+        "B. None of these alternatives",
+        "C. Other condition"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is AC."
+    },
+    {
+      "id": 26,
+      "question": "DC generators are",
+      "options": [
+        "A. Not Self-excited type",
+        "B. No change",
+        "C. Self-excited type"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is Self-excited type."
+    },
+    {
+      "id": 27,
+      "question": "Method of restoring generator field residual magnetism",
+      "options": [
+        "A. Flash the fields",
+        "B. Not Flash the fields",
+        "C. None of these alternatives"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is Flash the fields."
+    },
+    {
+      "id": 28,
+      "question": "Ni-cad cells installed in",
+      "options": [
+        "A. Other condition",
+        "B. Not Vented cell",
+        "C. Vented cell"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is Vented cell."
+    },
+    {
+      "id": 29,
+      "question": "What will happen to output voltage as electric load increase self exited DC",
+      "options": [
+        "A. Increase",
+        "B. Other condition",
+        "C. Not Increase"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is Increase."
+    },
+    {
+      "id": 30,
+      "question": "Capacity of battery is free of",
+      "options": [
+        "A. Internal resistance",
+        "B. No change",
+        "C. None of these alternatives"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is Internal resistance."
+    },
+    {
+      "id": 31,
+      "question": "Capacity of Ni-Cd battery not affected",
+      "options": [
+        "A. No change",
+        "B. None of these alternatives",
+        "C. Under/over filling"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is Under/over filling."
+    },
+    {
+      "id": 32,
+      "question": "Increasing the no of armature coil",
+      "options": [
+        "A. Reduce the variation bin maximum/minimum voltage",
+        "B. Not Reduce the variation bin maximum/minimum voltage",
+        "C. No change"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is Reduce the variation bin maximum/minimum voltage."
+    },
+    {
+      "id": 33,
+      "question": "The armature reaction doesn't",
+      "options": [
+        "A. Other condition",
+        "B. Eliminate the main flux",
+        "C. None of these alternatives"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is Eliminate the main flux."
+    },
+    {
+      "id": 34,
+      "question": "Using auxiliary poles bin the main poles used to",
+      "options": [
+        "A. Canceling the Armature rxn",
+        "B. No change",
+        "C. Not Canceling the Armature rxn"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is Canceling the Armature rxn."
+    },
+    {
+      "id": 35,
+      "question": "Seriesly connect with Armature winding & produce opposite armature current",
+      "options": [
+        "A. None of these alternatives",
+        "B. Compensating winding",
+        "C. Other condition"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is Compensating winding."
+    },
+    {
+      "id": 36,
+      "question": "The armature connected on hallow iron core",
+      "options": [
+        "A. No change",
+        "B. None of these alternatives",
+        "C. Ring winding"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is Ring winding."
+    },
+    {
+      "id": 37,
+      "question": "If battery is fully discharging and not changed immediately",
+      "options": [
+        "A. The lead sulfate crystalize",
+        "B. Not The lead sulfate crystalize",
+        "C. No change"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is The lead sulfate crystalize."
+    },
+    {
+      "id": 38,
+      "question": "Not disadvantage of ni-cd battery over lead acid",
+      "options": [
+        "A. No change",
+        "B. Other condition",
+        "C. Less long life"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is Less long life."
+    },
+    {
+      "id": 39,
+      "question": "Rotary electrical component that periodically reverse the current discharge bin rotor & electric circuit",
+      "options": [
+        "A. None of these alternatives",
+        "B. Commutator",
+        "C. Other condition"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is Commutator."
+    },
+    {
+      "id": 40,
+      "question": "Basic generative output",
+      "options": [
+        "A. Pulsating DC",
+        "B. No change",
+        "C. Not Pulsating DC"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is Pulsating DC."
+    },
+    {
+      "id": 41,
+      "question": "Dc alternator control unit",
+      "options": [
+        "A. Current limiter and voltage regulator",
+        "B. Not Current limiter and voltage regulator",
+        "C. Other condition"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is Current limiter and voltage regulator."
+    },
+    {
+      "id": 42,
+      "question": "False about NiCd",
+      "options": [
+        "A. None of these alternatives",
+        "B. Not release K from the electrolyte",
+        "C. release K from the electrolyte"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is release K from the electrolyte."
+    },
+    {
+      "id": 43,
+      "question": "Series generator",
+      "options": [
+        "A. less no of winding",
+        "B. No change",
+        "C. Other condition"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is less no of winding."
+    },
+    {
+      "id": 44,
+      "question": "As to Electromagnetic field is proportional to",
+      "options": [
+        "A. current",
+        "B. Other condition",
+        "C. Not current"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is current."
+    },
+    {
+      "id": 45,
+      "question": "Chemical rxn takes place and current and enters in to the call is",
+      "options": [
+        "A. None of these alternatives",
+        "B. No change",
+        "C. electrode"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is electrode."
+    },
+    {
+      "id": 46,
+      "question": "__ use specific gravity to determine state of change",
+      "options": [
+        "A. lead acid",
+        "B. No change",
+        "C. None of these alternatives"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is lead acid."
+    },
+    {
+      "id": 47,
+      "question": "__ to measure specific gravity of liquid",
+      "options": [
+        "A. Other condition",
+        "B. hydrometer",
+        "C. No change"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is hydrometer."
+    },
+    {
+      "id": 48,
+      "question": "What does it mean high resistance field coil in self-excite dc generator",
+      "options": [
+        "A. Not tm coil (and more turn)",
+        "B. tm coil (and more turn)",
+        "C. No change"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is tm coil (and more turn)."
+    },
+    {
+      "id": 49,
+      "question": "When gassing occurs some of water absorbed by plate, to protect this action",
+      "options": [
+        "A. Not water adjustment",
+        "B. No change",
+        "C. water adjustment"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is water adjustment."
+    },
+    {
+      "id": 50,
+      "question": "Specific gravity of Ni-cd is less than",
+      "options": [
+        "A. No change",
+        "B. Not 1300",
+        "C. 1300"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is 1300."
+    },
+    {
+      "id": 51,
+      "question": "Li-ion unique from others by",
+      "options": [
+        "A. No change",
+        "B. Other condition",
+        "C. Galvanic rxn"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is Galvanic rxn."
+    },
+    {
+      "id": 52,
+      "question": "For long duration to storage battery, connecting -ve & +ve by shortening is called",
+      "options": [
+        "A. No change",
+        "B. Not Dip cycle",
+        "C. Dip cycle"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is Dip cycle."
+    },
+    {
+      "id": 53,
+      "question": "Mechanical supper for armature bearing and feed magnetic flux for the pole",
+      "options": [
+        "A. End frame",
+        "B. Not End frame",
+        "C. No change"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is End frame."
+    },
+    {
+      "id": 54,
+      "question": "Modern generator control",
+      "options": [
+        "A. Not Solid state control",
+        "B. No change",
+        "C. Solid state control"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is Solid state control."
+    },
+    {
+      "id": 55,
+      "question": "End of first coil connected to the next coil under Main pole",
+      "options": [
+        "A. Not Wave winding",
+        "B. Other condition",
+        "C. Wave winding"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is Wave winding."
+    },
+    {
+      "id": 56,
+      "question": "Induced EMF in DC generator requires",
+      "options": [
+        "A. Other condition",
+        "B. Magnetic field, conductive material & relative motion",
+        "C. None of these alternatives"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is Magnetic field, conductive material & relative motion."
+    },
+    {
+      "id": 57,
+      "question": "The voltage measurement without connected load to the battery is called",
+      "options": [
+        "A. Not open-circuit voltage",
+        "B. None of these alternatives",
+        "C. open-circuit voltage"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is open-circuit voltage."
+    },
+    {
+      "id": 58,
+      "question": "The first to do when removing a generator",
+      "options": [
+        "A. Not disconnect any external power",
+        "B. No change",
+        "C. disconnect any external power"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is disconnect any external power."
+    },
+    {
+      "id": 59,
+      "question": "The first thing to do when removing a battery",
+      "options": [
+        "A. Not master charger off",
+        "B. None of these alternatives",
+        "C. master charger off"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is master charger off."
+    },
+    {
+      "id": 60,
+      "question": "The electrolyte in the lead acid battery is",
+      "options": [
+        "A. Not H2SO4 diluted with pure distilled water",
+        "B. H2SO4 diluted with pure distilled water",
+        "C. None of these alternatives"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is H2SO4 diluted with pure distilled water."
+    },
+    {
+      "id": 61,
+      "question": "Positive electrode of lithium ion battery",
+      "options": [
+        "A. Not Carbon / graphite",
+        "B. No change",
+        "C. Carbon / graphite"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is Carbon / graphite."
+    },
+    {
+      "id": 62,
+      "question": "The prod of lead acid battery",
+      "options": [
+        "A. None of these alternatives",
+        "B. Not lead oxide",
+        "C. lead oxide"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is lead oxide."
+    },
+    {
+      "id": 63,
+      "question": "In shunt connection as loud increase",
+      "options": [
+        "A. field current decrease",
+        "B. No change",
+        "C. Not field current decrease"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is field current decrease."
+    },
+    {
+      "id": 64,
+      "question": "Doesn't affect the strength of magnetic field",
+      "options": [
+        "A. Other condition",
+        "B. amount of voltage",
+        "C. Not amount of voltage"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is amount of voltage."
+    },
+    {
+      "id": 65,
+      "question": "When lithium ion charge, the ion lithium goes from",
+      "options": [
+        "A. None of these alternatives",
+        "B. negative to positive",
+        "C. No change"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is negative to positive."
+    },
+    {
+      "id": 66,
+      "question": "__ houses Armature conductor in dc generator",
+      "options": [
+        "A. Other condition",
+        "B. None of these alternatives",
+        "C. Armature core"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is Armature core."
+    },
+    {
+      "id": 67,
+      "question": "Lap winding definition",
+      "options": [
+        "A. None of these alternatives",
+        "B. is rotating conductor load DC to DC",
+        "C. Other condition"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is is rotating conductor load DC to DC."
+    },
+    {
+      "id": 68,
+      "question": "Fully charged nicd cells, the voltage is",
+      "options": [
+        "A. Not 1.2 volts (CCV)",
+        "B. No change",
+        "C. 1.2 volts (CCV)"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is 1.2 volts (CCV)."
+    },
+    {
+      "id": 69,
+      "question": "What happens if lead acid cells voltage are below 10.5V",
+      "options": [
+        "A. Damage severly",
+        "B. Other condition",
+        "C. None of these alternatives"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is Damage severly."
+    },
+    {
+      "id": 70,
+      "question": "Not correct about Armature rxn",
+      "options": [
+        "A. None of these alternatives",
+        "B. Eliminate main field",
+        "C. No change"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is Eliminate main field."
+    },
+    {
+      "id": 71,
+      "question": "What term is given by the Armature flux on mam field",
+      "options": [
+        "A. Not Armature reaction",
+        "B. No change",
+        "C. Armature reaction"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is Armature reaction."
+    },
+    {
+      "id": 72,
+      "question": "Is disadvantage of lithium ion",
+      "options": [
+        "A. high cost",
+        "B. None of these alternatives",
+        "C. Not high cost"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is high cost."
+    },
+    {
+      "id": 73,
+      "question": "Is disadvantage of Nicad battery over lead acid",
+      "options": [
+        "A. less weight",
+        "B. Not less weight",
+        "C. No change"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is less weight."
+    },
+    {
+      "id": 74,
+      "question": "Lead acid ___ 1300",
+      "options": [
+        "A. Not lower than",
+        "B. lower than",
+        "C. No change"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is lower than."
+    },
+    {
+      "id": 75,
+      "question": "Charging method of NiCad battery",
+      "options": [
+        "A. No change",
+        "B. None of these alternatives",
+        "C. Constant current charging"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is Constant current charging."
+    },
+    {
+      "id": 76,
+      "question": "State of charge of nicad battery is determined by",
+      "options": [
+        "A. Other condition",
+        "B. measuring voltage value",
+        "C. Not measuring voltage value"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is measuring voltage value."
+    },
+    {
+      "id": 77,
+      "question": "Probable cause of burn mourns or signs of overheating on coil links",
+      "options": [
+        "A. Links not properly tightened",
+        "B. No change",
+        "C. Not Links not properly tightened"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is Links not properly tightened."
+    },
+    {
+      "id": 78,
+      "question": "Reaction not occur in lead acid during discharging",
+      "options": [
+        "A. Other condition",
+        "B. Electrolyte gams sot",
+        "C. Not Electrolyte gams sot"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is Electrolyte gams sot."
+    },
+    {
+      "id": 79,
+      "question": "Disadvantage of li-ion battery",
+      "options": [
+        "A. Other condition",
+        "B. No change",
+        "C. high cost and sensitive of flammable high Tº"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is high cost and sensitive of flammable high Tº."
+    },
+    {
+      "id": 80,
+      "question": "The negative plate in lead acid battery is",
+      "options": [
+        "A. No change",
+        "B. Not spongy lead",
+        "C. spongy lead"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is spongy lead."
+    },
+    {
+      "id": 81,
+      "question": "Pole pieces of shoes in DC are part of the",
+      "options": [
+        "A. Not field assembly",
+        "B. field assembly",
+        "C. Other condition"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is field assembly."
+    },
+    {
+      "id": 82,
+      "question": "Generator control with no moving parts and with reliable and better system regulation",
+      "options": [
+        "A. None of these alternatives",
+        "B. solid state",
+        "C. Not solid state"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is solid state."
+    },
+    {
+      "id": 83,
+      "question": "Proper removal of generator",
+      "options": [
+        "A. Other condition",
+        "B. Disconnect External power before removal",
+        "C. Not Disconnect External power before removal"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is Disconnect External power before removal."
+    },
+    {
+      "id": 84,
+      "question": "Type of DC generator assembly used in light aircraft",
+      "options": [
+        "A. Not shunt wound",
+        "B. shunt wound",
+        "C. No change"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is shunt wound."
+    },
+    {
+      "id": 85,
+      "question": "Over Tº switch used to keep the battery from overheating in Li-ion battery",
+      "options": [
+        "A. positive Temperature coefficient switch",
+        "B. None of these alternatives",
+        "C. No change"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is positive Temperature coefficient switch."
+    },
+    {
+      "id": 86,
+      "question": "Pole shoes provide",
+      "options": [
+        "A. No change",
+        "B. None of these alternatives",
+        "C. spread out flux uniformly"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is spread out flux uniformly."
+    },
+    {
+      "id": 87,
+      "question": "Battery capacity AH depends on",
+      "options": [
+        "A. Not the sea of the plates",
+        "B. the sea of the plates",
+        "C. None of these alternatives"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is the sea of the plates."
+    },
+    {
+      "id": 88,
+      "question": "Bar-Bar to opens or",
+      "options": [
+        "A. No change",
+        "B. Glower to shorts",
+        "C. Not Glower to shorts"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is Glower to shorts."
+    },
+    {
+      "id": 89,
+      "question": "Part of PC generator consist pole core and pole field",
+      "options": [
+        "A. field core",
+        "B. Other condition",
+        "C. No change"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is field core."
+    },
+    {
+      "id": 90,
+      "question": "Area of plate increase",
+      "options": [
+        "A. Capacity increase",
+        "B. No change",
+        "C. None of these alternatives"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is Capacity increase."
+    },
+    {
+      "id": 91,
+      "question": "Cathode plate of (li-ion",
+      "options": [
+        "A. Other condition",
+        "B. Not Lithium Cobalt",
+        "C. Lithium Cobalt"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is Lithium Cobalt."
+    },
+    {
+      "id": 92,
+      "question": "Short & open to check not used (which method of testing is not practically to tas ground, short and open circuit)",
+      "options": [
+        "A. Not insulation",
+        "B. insulation",
+        "C. None of these alternatives"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is insulation."
+    },
+    {
+      "id": 93,
+      "question": "For vibrating type voltage regulator when overheating when opens",
+      "options": [
+        "A. Other condition",
+        "B. Opens",
+        "C. Not Opens"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is Opens."
+    },
+    {
+      "id": 94,
+      "question": "Which of the following is most reactive element",
+      "options": [
+        "A. Other condition",
+        "B. lithium ion",
+        "C. None of these alternatives"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is lithium ion."
+    },
+    {
+      "id": 95,
+      "question": "Outer frame of generator is",
+      "options": [
+        "A. None of these alternatives",
+        "B. Not Yoke",
+        "C. Yoke"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is Yoke."
+    },
+    {
+      "id": 96,
+      "question": "What is the drawback of DC generator",
+      "options": [
+        "A. Dc pulsating which cause hamming",
+        "B. Not Dc pulsating which cause hamming",
+        "C. No change"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is Dc pulsating which cause hamming."
+    },
+    {
+      "id": 97,
+      "question": "What would be done of contact point of vibrating type voltage regulator when the generator voltage rise above a certain critical value",
+      "options": [
+        "A. Other condition",
+        "B. Not Opens",
+        "C. Opens"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is Opens."
+    },
+    {
+      "id": 98,
+      "question": "Which of the following is arrent construction method",
+      "options": [
+        "A. No change",
+        "B. Drum winding",
+        "C. None of these alternatives"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is Drum winding."
+    },
+    {
+      "id": 99,
+      "question": "What type of change is used when the battery is on storage",
+      "options": [
+        "A. trickle change",
+        "B. Other condition",
+        "C. Not trickle change"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is trickle change."
+    },
+    {
+      "id": 100,
+      "question": "How many voltage value must be used in order to change a lead acid battery wells after discharged for some time (12V ->12.6V)",
+      "options": [
+        "A. Not > 13.6",
+        "B. No change",
+        "C. > 13.6"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is > 13.6."
+    },
+    {
+      "id": 101,
+      "question": "In dc generator self-excited depending on the connection of fixed winding w armature is classified in to",
+      "options": [
+        "A. None of these alternatives",
+        "B. 3",
+        "C. No change"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is 3."
+    },
+    {
+      "id": 102,
+      "question": "Which control unit is used to convert motor to generative operation",
+      "options": [
+        "A. Generator control units",
+        "B. Other condition",
+        "C. None of these alternatives"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is Generator control units."
+    },
+    {
+      "id": 103,
+      "question": "Ac to Dc conversion in Dc Alternator is done by",
+      "options": [
+        "A. Not solid state rectification",
+        "B. Other condition",
+        "C. solid state rectification"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is solid state rectification."
+    },
+    {
+      "id": 104,
+      "question": "When Nicad is not allowable and lead acid is fully changed, can be used with some correction",
+      "options": [
+        "A. Other condition",
+        "B. can be used with some correction",
+        "C. No change"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is can be used with some correction."
+    },
+    {
+      "id": 105,
+      "question": "DC generator used on modern light aircraft",
+      "options": [
+        "A. None of these alternatives",
+        "B. DC Alternator",
+        "C. No change"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is DC Alternator."
+    },
+    {
+      "id": 106,
+      "question": "Prevent over heating Li-ion battery",
+      "options": [
+        "A. Other condition",
+        "B. None of these alternatives",
+        "C. over Tº switch"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is over Tº switch."
+    },
+    {
+      "id": 107,
+      "question": "DC alternator & their related control are found on",
+      "options": [
+        "A. Not modern light piston engine aircraft",
+        "B. None of these alternatives",
+        "C. modern light piston engine aircraft"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is modern light piston engine aircraft."
+    },
+    {
+      "id": 108,
+      "question": "Which voltage regulator has no moving parts",
+      "options": [
+        "A. Transistorized voltage regulator",
+        "B. No change",
+        "C. None of these alternatives"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is Transistorized voltage regulator."
+    },
+    {
+      "id": 109,
+      "question": "How does armature reaction cause brush arcing",
+      "options": [
+        "A. No change",
+        "B. By moving the natural axis away from the brush",
+        "C. Other condition"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is By moving the natural axis away from the brush."
+    },
+    {
+      "id": 110,
+      "question": "Generator control voltage is more accurate & reliable",
+      "options": [
+        "A. Not solid state type",
+        "B. solid state type",
+        "C. None of these alternatives"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is solid state type."
+    },
+    {
+      "id": 111,
+      "question": "The use of pole shoe is for spreading out of the flux in the air gap uniform and support the field",
+      "options": [
+        "A. Not spreading out of the flux in the air gap uniform",
+        "B. spreading out of the flux in the air gap uniform",
+        "C. Other condition"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is spreading out of the flux in the air gap uniform."
+    },
+    {
+      "id": 112,
+      "question": "Which chemical is not used in NiCd battery electrolyte as a neutralizing agent",
+      "options": [
+        "A. sodium carbonate",
+        "B. Not sodium carbonate",
+        "C. No change"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is sodium carbonate."
+    },
+    {
+      "id": 113,
+      "question": "Probable cause of output Voltage being too low",
+      "options": [
+        "A. Not prime mover speed is too low.",
+        "B. prime mover speed is too low.",
+        "C. Other condition"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is prime mover speed is too low.."
+    },
+    {
+      "id": 114,
+      "question": "Change that occurs when conductor's pass out of the influence of N-pole and enter S-pole",
+      "options": [
+        "A. Not Current is then reversed",
+        "B. Current is then reversed",
+        "C. No change"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is Current is then reversed."
+    },
+    {
+      "id": 115,
+      "question": "Test carried on armature winding of DC generator for short circuit. Glower test",
+      "options": [
+        "A. Glower test",
+        "B. No change",
+        "C. Not Glower test"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is Glower test."
+    },
+    {
+      "id": 116,
+      "question": "DC generation with constant output power type",
+      "options": [
+        "A. Not shunt wound DC",
+        "B. shunt wound DC",
+        "C. Other condition"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is shunt wound DC."
+    },
+    {
+      "id": 117,
+      "question": "Fun of Zener diode in transistorized voltage regulator",
+      "options": [
+        "A. None of these alternatives",
+        "B. Voltage reference",
+        "C. Not Voltage reference"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is Voltage reference."
+    },
+    {
+      "id": 118,
+      "question": "General type inspection of rechargeable battery is considered",
+      "options": [
+        "A. Not preventive maintenance",
+        "B. preventive maintenance",
+        "C. No change"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is preventive maintenance."
+    }
+  ]
+}
