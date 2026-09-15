@@ -1,0 +1,1454 @@
+{
+  "id": "avo-3-part-2",
+  "title": "Avo-3-part-2",
+  "module": "AVO-3",
+  "course": "avionics",
+  "category": "part",
+  "description": "Part 2 exam covering microprocessors, microcontrollers, digital systems, avionics software, computer architecture, memory, displays, CRT, LCD, ADC, interrupts, and 8085 microprocessor fundamentals.",
+  "durationMinutes": 150,
+  "totalQuestions": 131,
+  "color": "purple",
+  "questions": [
+    {
+      "id": 1,
+      "question": "What is the role of RTCA Objective",
+      "options": [
+        "A. Reduce aircraft weight",
+        "B. Ensure safety and reliability",
+        "C. Increase engine power"
+      ],
+      "correctIndex": 1,
+      "explanation": "The RTCA objective is to support standards that promote safety and reliability in aviation systems."
+    },
+    {
+      "id": 2,
+      "question": "Example of Direct addressing mode",
+      "options": [
+        "A. 8500H LDA 2040H",
+        "B. MOV A,B",
+        "C. MVI A,05H"
+      ],
+      "correctIndex": 0,
+      "explanation": "In direct addressing, the instruction contains the memory address of the data. LDA 2040H directly specifies the memory address."
+    },
+    {
+      "id": 3,
+      "question": "Memory Location of 2500H",
+      "options": [
+        "A. 2M 2500H",
+        "B. 4M 2500H",
+        "C. 8M 2500H"
+      ],
+      "correctIndex": 2,
+      "explanation": "The provided answer identifies the memory location as 8M 2500H."
+    },
+    {
+      "id": 4,
+      "question": "Software critical for operation (LSAP)",
+      "options": [
+        "A. DFDAU",
+        "B. FMC",
+        "C. EICAS"
+      ],
+      "correctIndex": 0,
+      "explanation": "DFDAU is the software/system identified in the provided material as critical for operation."
+    },
+    {
+      "id": 5,
+      "question": "In 8085 MOV D,A",
+      "options": [
+        "A. Addition of D and A",
+        "B. Transfer data any register to register",
+        "C. Transfer data from memory only"
+      ],
+      "correctIndex": 1,
+      "explanation": "The MOV instruction transfers data from one register to another register."
+    },
+    {
+      "id": 6,
+      "question": "Serial Data CSIO",
+      "options": [
+        "A. Load Data 7th bit on RSM",
+        "B. Load data into memory",
+        "C. Transfer parallel data"
+      ],
+      "correctIndex": 0,
+      "explanation": "The provided answer identifies loading the 7th bit on RSM as the serial-data operation."
+    },
+    {
+      "id": 7,
+      "question": "In 8085 address bus",
+      "options": [
+        "A. 8 bit",
+        "B. 16 bit",
+        "C. 32 bit"
+      ],
+      "correctIndex": 1,
+      "explanation": "The 8085 has a 16-bit address bus, allowing it to address 64 KB of memory."
+    },
+    {
+      "id": 8,
+      "question": "True  about Microcontroller",
+      "options": [
+        "A. It has two CPU in one chip",
+        "B. It has no CPU",
+        "C. It contains only memory"
+      ],
+      "correctIndex": 0,
+      "explanation": "The provided answer states that a microcontroller has two CPUs in one chip."
+    },
+    {
+      "id": 9,
+      "question": "Heart of microprocessor",
+      "options": [
+        "A. RAM",
+        "B. ALU",
+        "C. ROM"
+      ],
+      "correctIndex": 1,
+      "explanation": "The ALU performs arithmetic and logical operations and is considered a key processing part of a microprocessor."
+    },
+    {
+      "id": 10,
+      "question": "RESET IN",
+      "options": [
+        "A. Set PC to zero and reset flipflop",
+        "B. Increase the clock frequency",
+        "C. Clear only the accumulator"
+      ],
+      "correctIndex": 0,
+      "explanation": "RESET IN resets the processor by setting the program counter to zero and resetting internal flip-flops."
+    },
+    {
+      "id": 11,
+      "question": "INTA (interrupt acknowledge)",
+      "options": [
+        "A. Deactivate RAM",
+        "B. Activate 8259",
+        "C. Reset the ALU"
+      ],
+      "correctIndex": 1,
+      "explanation": "INTA is an interrupt acknowledge signal used to acknowledge an interrupt request, including operation with the 8259 interrupt controller."
+    },
+    {
+      "id": 12,
+      "question": "Assembler",
+      "options": [
+        "A. Machine language to English",
+        "B. Mnemonic to machine language",
+        "C. Binary to analog"
+      ],
+      "correctIndex": 1,
+      "explanation": "An assembler translates assembly-language mnemonics into machine language."
+    },
+    {
+      "id": 13,
+      "question": "Pin 27 (RD)",
+      "options": [
+        "A. Active high to write",
+        "B. Active low to read",
+        "C. Active high to reset"
+      ],
+      "correctIndex": 1,
+      "explanation": "RD is an active-low read control signal."
+    },
+    {
+      "id": 14,
+      "question": "Pin 29(WR)",
+      "options": [
+        "A. Active low to write",
+        "B. Active high to read",
+        "C. Active low to reset"
+      ],
+      "correctIndex": 0,
+      "explanation": "WR is an active-low write control signal."
+    },
+    {
+      "id": 15,
+      "question": "Interrupt acknowledge request",
+      "options": [
+        "A. To RESET",
+        "B. To INTA",
+        "C. To ALE"
+      ],
+      "correctIndex": 1,
+      "explanation": "An interrupt acknowledge request is associated with the INTA signal."
+    },
+    {
+      "id": 16,
+      "question": "RST priority order",
+      "options": [
+        "A. RST 5.5 > RST 6.5 > RST 7.5",
+        "B. RST 6.5 > RST 7.5 > RST 5.5",
+        "C. RST 7.5 > RST 6.5 > RST 5.5"
+      ],
+      "correctIndex": 2,
+      "explanation": "The interrupt priority order given is RST 7.5, followed by RST 6.5, then RST 5.5."
+    },
+    {
+      "id": 17,
+      "question": "CRT type",
+      "options": [
+        "A. Red, Green, Blue",
+        "B. Black, White, Yellow",
+        "C. Red, Yellow, Blue"
+      ],
+      "correctIndex": 0,
+      "explanation": "A color CRT uses red, green, and blue electron guns."
+    },
+    {
+      "id": 18,
+      "question": "Which one is output",
+      "options": [
+        "A. Keyboard",
+        "B. Speaker",
+        "C. Scanner"
+      ],
+      "correctIndex": 1,
+      "explanation": "A speaker is an output device because it produces sound from computer-generated signals."
+    },
+    {
+      "id": 19,
+      "question": "Which type of display doesn’t emit its own light",
+      "options": [
+        "A. LED",
+        "B. OLED",
+        "C. LCD"
+      ],
+      "correctIndex": 1,
+      "explanation": "The provided answer identifies OLED as the display type that does not emit its own light."
+    },
+    {
+      "id": 20,
+      "question": "Not special purpose register",
+      "options": [
+        "A. SP and PC",
+        "B. Accumulator and B",
+        "C. Temporary register and accumulator"
+      ],
+      "correctIndex": 0,
+      "explanation": "The provided answer identifies SP and PC as the registers in this question."
+    },
+    {
+      "id": 21,
+      "question": "Microcontroller consist of",
+      "options": [
+        "A. CPU, RAM, ROM, I/O, serial and parallel",
+        "B. CPU only",
+        "C. RAM and ROM only"
+      ],
+      "correctIndex": 0,
+      "explanation": "A microcontroller integrates a CPU, memory, and input/output functions on a single chip."
+    },
+    {
+      "id": 22,
+      "question": "Which one is interactive Computer",
+      "options": [
+        "A. DFDAU",
+        "B. FMC",
+        "C. CRT"
+      ],
+      "correctIndex": 1,
+      "explanation": "FMC, or Flight Management Computer, provides interactive computer functions for aircraft operation."
+    },
+    {
+      "id": 23,
+      "question": "Microcontroller type of Architecture",
+      "options": [
+        "A. 1",
+        "B. 2",
+        "C. 4"
+      ],
+      "correctIndex": 1,
+      "explanation": "The provided answer identifies two types of microcontroller architecture."
+    },
+    {
+      "id": 24,
+      "question": "Which flag is affected by Decimal Adjust Accumulator",
+      "options": [
+        "A. Auxiliary Carry",
+        "B. Sign flag only",
+        "C. Zero flag only"
+      ],
+      "correctIndex": 0,
+      "explanation": "The DAA instruction affects the Auxiliary Carry flag as part of decimal adjustment."
+    },
+    {
+      "id": 25,
+      "question": "Which level software failure doesn’t have significant effect",
+      "options": [
+        "A. Level A",
+        "B. Level B",
+        "C. Level 6"
+      ],
+      "correctIndex": 2,
+      "explanation": "The provided answer identifies Level 6 as the level whose software failure does not have a significant effect."
+    },
+    {
+      "id": 26,
+      "question": "What happens to Accumulator after executing ANA instruction",
+      "options": [
+        "A. Accumulator becomes zero always",
+        "B. Accumulator holds result",
+        "C. Accumulator is cleared"
+      ],
+      "correctIndex": 1,
+      "explanation": "ANA performs a bitwise AND operation and stores the result in the accumulator."
+    },
+    {
+      "id": 27,
+      "question": "RAM is volatile",
+      "options": [
+        "A. Only power is on",
+        "B. Only when ROM is active",
+        "C. Even without power"
+      ],
+      "correctIndex": 0,
+      "explanation": "RAM is volatile memory and retains its data only while power is available."
+    },
+    {
+      "id": 28,
+      "question": "Direct Addressing Mode",
+      "options": [
+        "A. Specify address",
+        "B. Specify only register",
+        "C. Specify only immediate data"
+      ],
+      "correctIndex": 0,
+      "explanation": "Direct addressing mode specifies the address of the operand directly in the instruction."
+    },
+    {
+      "id": 29,
+      "question": "Used to generate Clock Signal",
+      "options": [
+        "A. Crystal",
+        "B. Resistor",
+        "C. Capacitor"
+      ],
+      "correctIndex": 0,
+      "explanation": "A crystal oscillator is commonly used to generate a stable clock signal."
+    },
+    {
+      "id": 30,
+      "question": "8085",
+      "options": [
+        "A. Indicates only memory operation",
+        "B. Indicate whether I/O operation to memory or I/O",
+        "C. Indicates only arithmetic operation"
+      ],
+      "correctIndex": 1,
+      "explanation": "The 8085 uses control/status signals to indicate whether an operation involves memory or I/O."
+    },
+    {
+      "id": 31,
+      "question": "RAM is volatile",
+      "options": [
+        "A. Only power is on",
+        "B. When ROM is used",
+        "C. When power is off"
+      ],
+      "correctIndex": 0,
+      "explanation": "RAM retains stored information only while power is supplied."
+    },
+    {
+      "id": 32,
+      "question": "Stack pointer",
+      "options": [
+        "A. Reserved for memory stack",
+        "B. Stores ALU results",
+        "C. Controls the display"
+      ],
+      "correctIndex": 0,
+      "explanation": "The stack pointer holds the address of the current top of the memory stack."
+    },
+    {
+      "id": 33,
+      "question": "Space timing and control Signal",
+      "options": [
+        "A. Data bus",
+        "B. Control bus",
+        "C. Address bus"
+      ],
+      "correctIndex": 1,
+      "explanation": "Timing and control signals are carried through the control bus."
+    },
+    {
+      "id": 34,
+      "question": "RTCA",
+      "options": [
+        "A. Ensure safety and reliability and to the same approval procedure",
+        "B. Increase display brightness",
+        "C. Control engine temperature"
+      ],
+      "correctIndex": 0,
+      "explanation": "The provided answer associates RTCA with ensuring safety and reliability and following the same approval procedure."
+    },
+    {
+      "id": 35,
+      "question": "Which one is not applied to hardware",
+      "options": [
+        "A. Software",
+        "B. Metal",
+        "C. Wiring"
+      ],
+      "correctIndex": 0,
+      "explanation": "Software is not physically applied to hardware in the same way as hardware components or modifications."
+    },
+    {
+      "id": 36,
+      "question": "8085",
+      "options": [
+        "A. 16 bit microprocessor",
+        "B. 8 bit microprocessor",
+        "C. 32 bit microprocessor"
+      ],
+      "correctIndex": 1,
+      "explanation": "The 8085 is an 8-bit microprocessor."
+    },
+    {
+      "id": 37,
+      "question": "Element used to coating lower the screen",
+      "options": [
+        "A. Copper",
+        "B. Phosphorus",
+        "C. Aluminum"
+      ],
+      "correctIndex": 1,
+      "explanation": "Phosphor is used on the inside of CRT screens to produce visible light when struck by electrons."
+    },
+    {
+      "id": 38,
+      "question": "Which part of CRT deflects electron beam",
+      "options": [
+        "A. Deflection Coil and plate",
+        "B. Cathode only",
+        "C. Grid only"
+      ],
+      "correctIndex": 0,
+      "explanation": "Deflection coils and plates control the direction of the electron beam in a CRT."
+    },
+    {
+      "id": 39,
+      "question": "What means DMA",
+      "options": [
+        "A. Direct memory address",
+        "B. Digital memory amplifier",
+        "C. Data mode access"
+      ],
+      "correctIndex": 0,
+      "explanation": "The provided answer defines DMA as Direct memory address."
+    },
+    {
+      "id": 40,
+      "question": "What is the purpose of the memory address register (MAR)",
+      "options": [
+        "A. To store the result of ALU",
+        "B. To hold address received from the program counter",
+        "C. To generate the clock"
+      ],
+      "correctIndex": 1,
+      "explanation": "The MAR holds the memory address that is to be accessed."
+    },
+    {
+      "id": 41,
+      "question": "What is the role of the chip select control line",
+      "options": [
+        "A. To enable the particular RAM chip or chips containing the word to select",
+        "B. To increase processor speed",
+        "C. To reset the ALU"
+      ],
+      "correctIndex": 0,
+      "explanation": "The chip-select line enables the particular memory chip that is being accessed."
+    },
+    {
+      "id": 42,
+      "question": "What is the purpose of the address bus in a computer system",
+      "options": [
+        "A. To transmit audio",
+        "B. To specify memory location",
+        "C. To store instructions"
+      ],
+      "correctIndex": 1,
+      "explanation": "The address bus carries the address used to identify a memory or I/O location."
+    },
+    {
+      "id": 43,
+      "question": "Use of control and time signal",
+      "options": [
+        "A. To generate signal",
+        "B. To store data",
+        "C. To convert analog data"
+      ],
+      "correctIndex": 0,
+      "explanation": "Control and timing signals are used to generate and coordinate the required control signals."
+    },
+    {
+      "id": 44,
+      "question": "ANA, ORA, CMP instruction in 8085 microprocessor",
+      "options": [
+        "A. Immediate addressing mode",
+        "B. Register addressing mode",
+        "C. Direct addressing mode"
+      ],
+      "correctIndex": 1,
+      "explanation": "ANA, ORA, and CMP can use register operands, corresponding to register addressing mode."
+    },
+    {
+      "id": 45,
+      "question": "The passage of the light in LCD twisted depends on",
+      "options": [
+        "A. Voltage applied",
+        "B. Temperature only",
+        "C. Clock frequency only"
+      ],
+      "correctIndex": 0,
+      "explanation": "The orientation of liquid crystals and therefore the passage of polarized light depends on the applied voltage."
+    },
+    {
+      "id": 46,
+      "question": "Name of register in 8085 microprocessor with 16 bits register",
+      "options": [
+        "A. Accumulator",
+        "B. Program counter",
+        "C. Flag register"
+      ],
+      "correctIndex": 1,
+      "explanation": "The program counter is a 16-bit register in the 8085."
+    },
+    {
+      "id": 47,
+      "question": "Which one is true regarding microcomputer architecture",
+      "options": [
+        "A. Von Neumann architecture use single data bus",
+        "B. Von Neumann architecture uses no memory",
+        "C. Von Neumann architecture has separate CPUs"
+      ],
+      "correctIndex": 0,
+      "explanation": "Von Neumann architecture uses a common bus structure for transferring instructions and data."
+    },
+    {
+      "id": 48,
+      "question": "Computer main memory type",
+      "options": [
+        "A. Primary and secondary memory",
+        "B. Analog and digital memory",
+        "C. Static and mechanical memory only"
+      ],
+      "correctIndex": 0,
+      "explanation": "Computer memory is commonly classified into primary and secondary memory."
+    },
+    {
+      "id": 49,
+      "question": "Which of the following is wrong",
+      "options": [
+        "A. Modifications to software must not be subject to the same approval procedures as are applied to hardware modification",
+        "B. Software can be modified during development",
+        "C. Software is part of an avionics system"
+      ],
+      "correctIndex": 0,
+      "explanation": "The provided statement is identified as the wrong statement regarding approval procedures."
+    },
+    {
+      "id": 50,
+      "question": "Timing and control signal",
+      "options": [
+        "A. Synchronize sequence of instructions",
+        "B. Store all instructions",
+        "C. Convert binary to analog"
+      ],
+      "correctIndex": 0,
+      "explanation": "Timing and control signals synchronize the sequence of operations and instructions."
+    },
+    {
+      "id": 51,
+      "question": "Which one of the following level A",
+      "options": [
+        "A. GPS, ILS",
+        "B. Speaker, keyboard",
+        "C. RAM, ROM"
+      ],
+      "correctIndex": 0,
+      "explanation": "The provided answer identifies GPS and ILS as Level A systems."
+    },
+    {
+      "id": 52,
+      "question": "Microprocessor contain",
+      "options": [
+        "A. ALU, primary memory, control unit",
+        "B. Only RAM and ROM",
+        "C. Only input/output ports"
+      ],
+      "correctIndex": 0,
+      "explanation": "The provided answer identifies the ALU, primary memory, and control unit as components contained in the microprocessor system."
+    },
+    {
+      "id": 53,
+      "question": "Address line k, k=3 it can access memory location",
+      "options": [
+        "A. 2^2 = 4",
+        "B. 2^3 = 8",
+        "C. 2^4 = 16"
+      ],
+      "correctIndex": 1,
+      "explanation": "With k address lines, 2^k locations can be addressed. For 3 lines, there are 8 locations."
+    },
+    {
+      "id": 54,
+      "question": "The purpose of cathode in CRT",
+      "options": [
+        "A. To emit electron",
+        "B. To deflect electrons",
+        "C. To increase screen size"
+      ],
+      "correctIndex": 0,
+      "explanation": "The cathode in a CRT emits electrons that form the electron beam."
+    },
+    {
+      "id": 55,
+      "question": "In MVI, I indicate",
+      "options": [
+        "A. Input",
+        "B. Immediate",
+        "C. Interrupt"
+      ],
+      "correctIndex": 1,
+      "explanation": "In the 8085 instruction MVI, the I indicates immediate data."
+    },
+    {
+      "id": 56,
+      "question": "___ increase intensity of electron beam",
+      "options": [
+        "A. Cathode",
+        "B. Grid",
+        "C. Deflection plate"
+      ],
+      "correctIndex": 1,
+      "explanation": "The control grid regulates the intensity of the electron beam in a CRT."
+    },
+    {
+      "id": 57,
+      "question": "__ is used to allow multiple circuits to share the same output on bus line",
+      "options": [
+        "A. Tri-state",
+        "B. Flip-flop",
+        "C. Counter"
+      ],
+      "correctIndex": 0,
+      "explanation": "Tri-state logic allows multiple circuits to share a common bus by placing outputs in a high-impedance state when inactive."
+    },
+    {
+      "id": 58,
+      "question": "Which language is used to interface LCD with microcontroller",
+      "options": [
+        "A. Machine language",
+        "B. High level language",
+        "C. Binary only"
+      ],
+      "correctIndex": 1,
+      "explanation": "High-level programming languages are commonly used to program microcontrollers that interface with LCDs."
+    },
+    {
+      "id": 59,
+      "question": "The three-bit bi-directional port",
+      "options": [
+        "A. Port A",
+        "B. Port E",
+        "C. Port C"
+      ],
+      "correctIndex": 1,
+      "explanation": "The provided answer identifies Port E as the three-bit bidirectional port."
+    },
+    {
+      "id": 60,
+      "question": "Which flag is affected by decimal adjustment accumulator",
+      "options": [
+        "A. Auxiliary carry",
+        "B. Carry only",
+        "C. Sign only"
+      ],
+      "correctIndex": 0,
+      "explanation": "The DAA instruction affects the Auxiliary Carry flag."
+    },
+    {
+      "id": 61,
+      "question": "Which instruction would we use to load hexadecimal data in register A",
+      "options": [
+        "A. MOV A,B",
+        "B. LDA 1AH",
+        "C. MVI A, 1AH"
+      ],
+      "correctIndex": 2,
+      "explanation": "MVI A,1AH loads the immediate hexadecimal value 1AH directly into accumulator A."
+    },
+    {
+      "id": 62,
+      "question": "Which part of CRT deflect electron beam",
+      "options": [
+        "A. Deflection coil / plate",
+        "B. Cathode",
+        "C. Grid"
+      ],
+      "correctIndex": 0,
+      "explanation": "Deflection coils or plates change the direction of the electron beam."
+    },
+    {
+      "id": 63,
+      "question": "Which one is priority order of RIS",
+      "options": [
+        "A. RIS 5.5 > RIS 6.5 > RIS 7.5",
+        "B. RIS 7.5 > RIS 6.5 > RIS 5.5",
+        "C. RIS 6.5 > RIS 5.5 > RIS 7.5"
+      ],
+      "correctIndex": 1,
+      "explanation": "The provided interrupt priority order is RIS 7.5, then RIS 6.5, then RIS 5.5."
+    },
+    {
+      "id": 64,
+      "question": "What happen to accumulator after executing ANA instruction",
+      "options": [
+        "A. Accumulator hold result of bitwise AND operation",
+        "B. Accumulator becomes zero",
+        "C. Accumulator holds the OR result"
+      ],
+      "correctIndex": 0,
+      "explanation": "ANA performs a bitwise AND operation and stores the result in the accumulator."
+    },
+    {
+      "id": 65,
+      "question": "Semiconductor memory key benefit",
+      "options": [
+        "A. High mechanical wear",
+        "B. Low power consumption",
+        "C. Requires moving parts"
+      ],
+      "correctIndex": 1,
+      "explanation": "Low power consumption is an important benefit of semiconductor memory."
+    },
+    {
+      "id": 66,
+      "question": "Ready pin",
+      "options": [
+        "A. To synchronize microprocessor with external source",
+        "B. To reset the processor",
+        "C. To select the accumulator"
+      ],
+      "correctIndex": 0,
+      "explanation": "The READY pin synchronizes the microprocessor with slower external devices."
+    },
+    {
+      "id": 67,
+      "question": "Which of the following instruct the ALU to perform operation to be executed & store",
+      "options": [
+        "A. Memory",
+        "B. Control unit",
+        "C. Address bus"
+      ],
+      "correctIndex": 1,
+      "explanation": "The control unit directs the ALU regarding which operation should be performed."
+    },
+    {
+      "id": 68,
+      "question": "The reset out are for",
+      "options": [
+        "A. The whole microprocessor to being reset",
+        "B. Increasing the clock speed",
+        "C. Reading memory only"
+      ],
+      "correctIndex": 0,
+      "explanation": "RESET OUT provides a reset signal to external devices when the microprocessor is reset."
+    },
+    {
+      "id": 69,
+      "question": "Direct addressing mode",
+      "options": [
+        "A. Specific address",
+        "B. General register",
+        "C. Immediate data"
+      ],
+      "correctIndex": 0,
+      "explanation": "Direct addressing specifies the specific memory address of the operand."
+    },
+    {
+      "id": 70,
+      "question": "On the address bus while reading memory",
+      "options": [
+        "A. Random data",
+        "B. Valid address",
+        "C. Clock signal"
+      ],
+      "correctIndex": 1,
+      "explanation": "A valid address is placed on the address bus during a memory read operation."
+    },
+    {
+      "id": 71,
+      "question": "LDA instruction used to",
+      "options": [
+        "A. Load data from register location into accumulator",
+        "B. Store accumulator into a register",
+        "C. Clear the accumulator"
+      ],
+      "correctIndex": 0,
+      "explanation": "The provided answer identifies LDA as loading data into the accumulator from a specified memory location."
+    },
+    {
+      "id": 72,
+      "question": "Primary purpose of accumulator",
+      "options": [
+        "A. Store result",
+        "B. Generate clock",
+        "C. Store program address"
+      ],
+      "correctIndex": 0,
+      "explanation": "The accumulator is primarily used to hold operands and results of arithmetic and logical operations."
+    },
+    {
+      "id": 73,
+      "question": "Control unit",
+      "options": [
+        "A. Stores all data",
+        "B. Directs the flow of data & instruction",
+        "C. Generates analog output"
+      ],
+      "correctIndex": 1,
+      "explanation": "The control unit directs and coordinates the flow of instructions and data within the processor."
+    },
+    {
+      "id": 74,
+      "question": "Parallel port",
+      "options": [
+        "A. Requires timing signals",
+        "B. Requires no signals",
+        "C. Uses only analog signals"
+      ],
+      "correctIndex": 0,
+      "explanation": "Parallel communication requires appropriate timing and control signals for data transfer."
+    },
+    {
+      "id": 75,
+      "question": "Microcontroller classified on the basis of the internal bus width",
+      "options": [
+        "A. 4, 8, 16 & 32 bit",
+        "B. 2, 4, 6 & 8 bit",
+        "C. 10, 20, 30 & 40 bit"
+      ],
+      "correctIndex": 0,
+      "explanation": "Microcontrollers can be classified according to internal bus width, such as 4, 8, 16, and 32 bits."
+    },
+    {
+      "id": 76,
+      "question": "MVI A, 05H belongs to",
+      "options": [
+        "A. Immediately",
+        "B. Directly",
+        "C. Register"
+      ],
+      "correctIndex": 0,
+      "explanation": "MVI A,05H uses immediate addressing because the data 05H is included directly in the instruction."
+    },
+    {
+      "id": 77,
+      "question": "Rated to level A catastrophic",
+      "options": [
+        "A. GPS / ILS",
+        "B. Speaker / keyboard",
+        "C. RAM / ROM"
+      ],
+      "correctIndex": 0,
+      "explanation": "The provided answer identifies GPS and ILS as systems rated to Level A catastrophic."
+    },
+    {
+      "id": 78,
+      "question": "ALE signal is made high to",
+      "options": [
+        "A. Disable the processor",
+        "B. Enable the data bus to used as low order address bus",
+        "C. Reset the memory"
+      ],
+      "correctIndex": 1,
+      "explanation": "ALE allows the multiplexed lower-order address/data bus to be used as the low-order address bus."
+    },
+    {
+      "id": 79,
+      "question": "READY pin",
+      "options": [
+        "A. Signal indicated that the device is ready to send or receive data",
+        "B. Signal that resets the processor",
+        "C. Signal that stores the program"
+      ],
+      "correctIndex": 0,
+      "explanation": "The READY signal indicates that an external device is ready for data transfer."
+    },
+    {
+      "id": 80,
+      "question": "In Q flag the ACC of 8085 set is",
+      "options": [
+        "A. 1",
+        "B. 0",
+        "C. 8"
+      ],
+      "correctIndex": 1,
+      "explanation": "The provided answer identifies the ACC set value for the Q flag as 0."
+    },
+    {
+      "id": 81,
+      "question": "In INR D, D belong to",
+      "options": [
+        "A. Increment D",
+        "B. Decrement D",
+        "C. Clear D"
+      ],
+      "correctIndex": 0,
+      "explanation": "INR D increments the contents of register D by one."
+    },
+    {
+      "id": 82,
+      "question": "Where do we find instruction to upgrade aircraft software",
+      "options": [
+        "A. EUROCAE / RTCA DO-178B",
+        "B. LCD manual",
+        "C. RAM specification"
+      ],
+      "correctIndex": 0,
+      "explanation": "The provided answer identifies EUROCAE and RTCA DO-178B as references for aircraft software development and modification."
+    },
+    {
+      "id": 83,
+      "question": "Which one is solid informational display in aircraft",
+      "options": [
+        "A. CRT",
+        "B. EICAS",
+        "C. RAM"
+      ],
+      "correctIndex": 1,
+      "explanation": "EICAS provides integrated engine and aircraft information to the flight crew."
+    },
+    {
+      "id": 84,
+      "question": "Computer which is used as a primary source of info or data is called",
+      "options": [
+        "A. Reference computer",
+        "B. Output computer",
+        "C. Peripheral computer"
+      ],
+      "correctIndex": 0,
+      "explanation": "The provided answer calls a computer used as a primary source of information or data a reference computer."
+    },
+    {
+      "id": 85,
+      "question": "The programming language which use English-like mnemonics for programming",
+      "options": [
+        "A. Assembly language / low-level language",
+        "B. Machine code only",
+        "C. Binary hardware language"
+      ],
+      "correctIndex": 0,
+      "explanation": "Assembly language uses English-like mnemonics such as MOV, ADD, and JMP."
+    },
+    {
+      "id": 86,
+      "question": "Register inside the microprocessor which holds address of the next instruction to be fetched by the memory is called",
+      "options": [
+        "A. Stack pointer",
+        "B. Program counter",
+        "C. Accumulator"
+      ],
+      "correctIndex": 1,
+      "explanation": "The program counter stores the address of the next instruction to be fetched."
+    },
+    {
+      "id": 87,
+      "question": "Which one of the following is reference computer that provides data for other computer",
+      "options": [
+        "A. IRS",
+        "B. Speaker",
+        "C. LCD"
+      ],
+      "correctIndex": 0,
+      "explanation": "The provided answer identifies IRS as a reference computer that provides data to other computers."
+    },
+    {
+      "id": 88,
+      "question": "Accumulator contains data AC. What will be its content after the instruction CMA",
+      "options": [
+        "A. CMA 53h",
+        "B. CMA 00h",
+        "C. CMA FFh"
+      ],
+      "correctIndex": 0,
+      "explanation": "The provided answer identifies CMA 53H as the resulting accumulator content."
+    },
+    {
+      "id": 89,
+      "question": "Which of the pins are used to request an interruption and acknowledge for DMA transfer",
+      "options": [
+        "A. SID & SOD",
+        "B. HOLD & HLDA",
+        "C. RD & WR"
+      ],
+      "correctIndex": 1,
+      "explanation": "HOLD requests the processor to release the buses for DMA, and HLDA acknowledges the request."
+    },
+    {
+      "id": 90,
+      "question": "Which one of the following is true regarding architecture of computer",
+      "options": [
+        "A. Only interaction between CPU and ILS internal registers",
+        "B. CPU never interacts with memory",
+        "C. Computer has no internal registers"
+      ],
+      "correctIndex": 0,
+      "explanation": "The provided answer identifies interaction between the CPU and ILS internal registers."
+    },
+    {
+      "id": 91,
+      "question": "Unmaskable interruption means",
+      "options": [
+        "A. An interruption that can never be turned off",
+        "B. An interruption that is always disabled",
+        "C. An interruption that occurs only after reset"
+      ],
+      "correctIndex": 0,
+      "explanation": "An unmaskable interrupt cannot be disabled or ignored by the normal interrupt masking mechanism."
+    },
+    {
+      "id": 92,
+      "question": "Type of software failure that flight crew cannot perform their tasks is serious or fatal injuries to some occupants",
+      "options": [
+        "A. Hazardous (Level B)",
+        "B. Minor (Level E)",
+        "C. No effect (Level E)"
+      ],
+      "correctIndex": 0,
+      "explanation": "The provided answer identifies this condition as Hazardous, Level B."
+    },
+    {
+      "id": 93,
+      "question": "Register inside CPU holding address of the next instruction to be fetched from memory is called",
+      "options": [
+        "A. Accumulator",
+        "B. Program counter",
+        "C. Stack pointer"
+      ],
+      "correctIndex": 1,
+      "explanation": "The program counter holds the address of the next instruction to be fetched."
+    },
+    {
+      "id": 94,
+      "question": "Which of the following having highest priority interrupt signal",
+      "options": [
+        "A. RST 7.5",
+        "B. TRAP",
+        "C. INTR"
+      ],
+      "correctIndex": 1,
+      "explanation": "TRAP has the highest priority among the 8085 interrupt signals."
+    },
+    {
+      "id": 95,
+      "question": "8085 microprocessor pin uses for serial data transfer input and output is",
+      "options": [
+        "A. RD / WR",
+        "B. SID / SOD",
+        "C. HOLD / HLDA"
+      ],
+      "correctIndex": 1,
+      "explanation": "SID is used for serial input data and SOD is used for serial output data in the 8085."
+    },
+    {
+      "id": 96,
+      "question": "Which one is correct about pair registers",
+      "options": [
+        "A. BC, DE and HL",
+        "B. A, F and PC",
+        "C. SP, A and F"
+      ],
+      "correctIndex": 0,
+      "explanation": "BC, DE, and HL can be used as register pairs in the 8085."
+    },
+    {
+      "id": 97,
+      "question": "Who is responsible for the software modification",
+      "options": [
+        "A. User",
+        "B. Manufacturer",
+        "C. Passenger"
+      ],
+      "correctIndex": 1,
+      "explanation": "The provided answer identifies the manufacturer as responsible for software modification."
+    },
+    {
+      "id": 98,
+      "question": "Converting the data received from the user into the computer",
+      "options": [
+        "A. ALU",
+        "B. RAM",
+        "C. ROM"
+      ],
+      "correctIndex": 0,
+      "explanation": "The provided answer identifies the ALU for converting the received data into a form used by the computer."
+    },
+    {
+      "id": 99,
+      "question": "MOV A, B grouped to",
+      "options": [
+        "A. Arithmetic",
+        "B. Data-transfer",
+        "C. Branching"
+      ],
+      "correctIndex": 1,
+      "explanation": "MOV A,B transfers the contents of register B to register A, so it is a data-transfer instruction."
+    },
+    {
+      "id": 100,
+      "question": "Which one is true",
+      "options": [
+        "A. Assembly language is more human readable view",
+        "B. Assembly language contains no mnemonics",
+        "C. Assembly language is only analog"
+      ],
+      "correctIndex": 0,
+      "explanation": "Assembly language uses human-readable mnemonics, making it easier to understand than machine code."
+    },
+    {
+      "id": 101,
+      "question": "What does control unit generate to monitor other units",
+      "options": [
+        "A. Analog voltage",
+        "B. Timing signal",
+        "C. Memory address only"
+      ],
+      "correctIndex": 1,
+      "explanation": "The control unit generates timing and control signals to coordinate other units."
+    },
+    {
+      "id": 102,
+      "question": "Which of the following register is not available for user",
+      "options": [
+        "A. B register",
+        "B. Temporary register",
+        "C. C register"
+      ],
+      "correctIndex": 1,
+      "explanation": "The temporary register is an internal processor register and is not normally available for direct user programming."
+    },
+    {
+      "id": 103,
+      "question": "Rotate the content of accumulator one-bit right analog wormy",
+      "options": [
+        "A. RAL",
+        "B. RAR",
+        "C. RLC"
+      ],
+      "correctIndex": 1,
+      "explanation": "RAR rotates the contents of the accumulator one bit to the right."
+    },
+    {
+      "id": 104,
+      "question": "Working mechanism of LCD",
+      "options": [
+        "A. By moving light through polarized crystal",
+        "B. By heating a cathode",
+        "C. By generating electrons in vacuum"
+      ],
+      "correctIndex": 0,
+      "explanation": "LCDs control polarized light by changing the orientation of liquid crystals."
+    },
+    {
+      "id": 105,
+      "question": "In analog input never converts to digital forms",
+      "options": [
+        "A. Input never converts to digital form",
+        "B. Input always becomes binary",
+        "C. Input becomes a clock signal"
+      ],
+      "correctIndex": 0,
+      "explanation": "The provided answer states that the analog input never converts to digital form."
+    },
+    {
+      "id": 106,
+      "question": "How much is DO-178B no of criticalities deals with",
+      "options": [
+        "A. 3 Criticality",
+        "B. 5 Criticality",
+        "C. 8 Criticality"
+      ],
+      "correctIndex": 1,
+      "explanation": "DO-178B defines five software levels of criticality, Level A through Level E."
+    },
+    {
+      "id": 107,
+      "question": "In microprocessor if the bit size is 32 the 32 denote",
+      "options": [
+        "A. It shows ALU is 32",
+        "B. It shows memory is 32 KB",
+        "C. It shows the clock is 32 Hz"
+      ],
+      "correctIndex": 0,
+      "explanation": "The provided answer identifies the 32-bit size as indicating a 32-bit ALU."
+    },
+    {
+      "id": 108,
+      "question": "How does microcontroller communicate with peripherals / memory",
+      "options": [
+        "A. Via I/O ports",
+        "B. Via speaker",
+        "C. Via display only"
+      ],
+      "correctIndex": 0,
+      "explanation": "Microcontrollers communicate with external peripherals through their I/O ports and communication interfaces."
+    },
+    {
+      "id": 109,
+      "question": "Special type of register which registers are not special purpose register",
+      "options": [
+        "A. PC / SP",
+        "B. A / B",
+        "C. C / D"
+      ],
+      "correctIndex": 0,
+      "explanation": "The provided answer identifies PC and SP as special-purpose registers."
+    },
+    {
+      "id": 110,
+      "question": "8-bit means",
+      "options": [
+        "A. It can do 8 bit of tasks",
+        "B. It has exactly 8 memory locations",
+        "C. It has an 8 Hz clock"
+      ],
+      "correctIndex": 0,
+      "explanation": "An 8-bit processor handles 8-bit data operations at a time."
+    },
+    {
+      "id": 111,
+      "question": "Which software document is used modify in avionics system",
+      "options": [
+        "A. DO-178B",
+        "B. LCD datasheet",
+        "C. RAM manual"
+      ],
+      "correctIndex": 0,
+      "explanation": "DO-178B provides guidance for airborne software development and modification."
+    },
+    {
+      "id": 112,
+      "question": "In raster scan system the electron beam",
+      "options": [
+        "A. Is swept randomly",
+        "B. Is swept across the screen, one row at a time from top to bottom",
+        "C. Remains fixed"
+      ],
+      "correctIndex": 1,
+      "explanation": "In a raster scan display, the electron beam scans the screen row by row from top to bottom."
+    },
+    {
+      "id": 113,
+      "question": "Which one of the following electronic display uses polarizing glass",
+      "options": [
+        "A. CRT",
+        "B. LCD",
+        "C. LED"
+      ],
+      "correctIndex": 1,
+      "explanation": "LCD displays use polarizing filters and liquid crystals to control the passage of light."
+    },
+    {
+      "id": 114,
+      "question": "Which one of the following is different from other electric display",
+      "options": [
+        "A. Polarizing glass",
+        "B. Electron gun",
+        "C. Phosphor coating"
+      ],
+      "correctIndex": 0,
+      "explanation": "The provided answer identifies polarizing glass as the different element among the listed display features."
+    },
+    {
+      "id": 115,
+      "question": "Type of memory used to hold running program instruction",
+      "options": [
+        "A. Secondary memory",
+        "B. Primary memory",
+        "C. External storage only"
+      ],
+      "correctIndex": 1,
+      "explanation": "Primary memory is used by the processor to hold programs and data that are currently being used."
+    },
+    {
+      "id": 116,
+      "question": "Which register is a port direction control register configures the port pins as either input of or output",
+      "options": [
+        "A. TRISTATE",
+        "B. Program counter",
+        "C. Accumulator"
+      ],
+      "correctIndex": 0,
+      "explanation": "The provided answer identifies TRISTATE as the register controlling port pin direction."
+    },
+    {
+      "id": 117,
+      "question": "Which type of computer display not seen in recent alc",
+      "options": [
+        "A. LCD",
+        "B. OLED",
+        "C. CRT"
+      ],
+      "correctIndex": 2,
+      "explanation": "CRT displays are older display technology and are not commonly found in recent aircraft display systems."
+    },
+    {
+      "id": 118,
+      "question": "How many guns in CRT",
+      "options": [
+        "A. 1",
+        "B. 3",
+        "C. 4"
+      ],
+      "correctIndex": 1,
+      "explanation": "A color CRT uses three electron guns, one each for red, green, and blue."
+    },
+    {
+      "id": 119,
+      "question": "Color of CRT",
+      "options": [
+        "A. Green, blue, red",
+        "B. Yellow, black, white",
+        "C. Red, yellow, green"
+      ],
+      "correctIndex": 0,
+      "explanation": "The three primary display colors in a color CRT are red, green, and blue."
+    },
+    {
+      "id": 120,
+      "question": "The abbreviation CISC and RISC stand for",
+      "options": [
+        "A. Central Instruction System Computer and Reduced Input System Computer",
+        "B. Complex instruction set computing and reduced instruction set computing",
+        "C. Computer Integrated System Control and Reduced Integrated System Control"
+      ],
+      "correctIndex": 1,
+      "explanation": "CISC means Complex Instruction Set Computing, while RISC means Reduced Instruction Set Computing."
+    },
+    {
+      "id": 121,
+      "question": "Microcontroller at least has",
+      "options": [
+        "A. CPU, ROM, RAM, I/O ports, controls and timers",
+        "B. CPU only",
+        "C. ROM only"
+      ],
+      "correctIndex": 0,
+      "explanation": "A microcontroller integrates a CPU, memory, I/O ports, and control/timing functions."
+    },
+    {
+      "id": 122,
+      "question": "Passive image in LCD is when supply voltage is off it gives transparent appearance",
+      "options": [
+        "A. When supply voltage is on it appears opaque",
+        "B. When supply voltage is off it becomes black",
+        "C. When supply voltage is off it emits light"
+      ],
+      "correctIndex": 0,
+      "explanation": "The provided answer states that when the supply voltage is on, the LCD appears opaque."
+    },
+    {
+      "id": 123,
+      "question": "What is the length of instruction of PIC 16F877A",
+      "options": [
+        "A. 8 bits",
+        "B. 14 bits",
+        "C. 16 bits"
+      ],
+      "correctIndex": 1,
+      "explanation": "The PIC16F877A uses 14-bit instruction words."
+    },
+    {
+      "id": 124,
+      "question": "In common anode LED 7 segment display, all the cathodes are connected to",
+      "options": [
+        "A. Common ground",
+        "B. Individual inputs",
+        "C. The clock line"
+      ],
+      "correctIndex": 0,
+      "explanation": "The provided answer states that all cathodes are connected to common ground."
+    },
+    {
+      "id": 125,
+      "question": "Which type of display doesn't emitting its own light",
+      "options": [
+        "A. OLED",
+        "B. LCD",
+        "C. CRT"
+      ],
+      "correctIndex": 1,
+      "explanation": "LCDs do not generate their own light and normally require a backlight."
+    },
+    {
+      "id": 126,
+      "question": "Takes data from computer microprocessor",
+      "options": [
+        "A. Input devices",
+        "B. Output devices",
+        "C. Memory devices only"
+      ],
+      "correctIndex": 1,
+      "explanation": "Output devices receive data from the computer and present or produce the resulting information."
+    },
+    {
+      "id": 127,
+      "question": "8085 microprocessor is 8 bits means",
+      "options": [
+        "A. Its ALU is 8 bits at same time",
+        "B. Its address bus is 8 bits",
+        "C. Its memory is only 8 bits"
+      ],
+      "correctIndex": 0,
+      "explanation": "The 8085 is an 8-bit processor because its ALU processes 8-bit data at a time."
+    },
+    {
+      "id": 128,
+      "question": "Which of the following is not a peripheral device of computer",
+      "options": [
+        "A. Keyboard",
+        "B. CPU",
+        "C. Printer"
+      ],
+      "correctIndex": 1,
+      "explanation": "The CPU is the main processing unit rather than a peripheral device."
+    },
+    {
+      "id": 129,
+      "question": "Which one of the following is an interactive computer",
+      "options": [
+        "A. FMC",
+        "B. DFDAU",
+        "C. RAM"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Flight Management Computer (FMC) provides interactive functions for flight crew."
+    },
+    {
+      "id": 130,
+      "question": "Nibble is equivalent to",
+      "options": [
+        "A. 2 bits",
+        "B. 4 bits",
+        "C. 8 bits"
+      ],
+      "correctIndex": 1,
+      "explanation": "One nibble is equal to 4 bits."
+    },
+    {
+      "id": 131,
+      "question": "8085 microprocessor is",
+      "options": [
+        "A. 32 pins",
+        "B. 40 pins",
+        "C. 16 pins"
+      ],
+      "correctIndex": 1,
+      "explanation": "The 8085 microprocessor is packaged with 40 pins."
+    }
+  ]
+}
