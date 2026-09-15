@@ -1,0 +1,1597 @@
+{
+  "id": "avo-6-part-1",
+  "title": "Avo-6-part-1",
+  "module": "AVO-6",
+  "course": "avionics",
+  "category": "part",
+  "description": "Avionics exam preparation questions for Avo-6 Part 1.",
+  "durationMinutes": 150,
+  "totalQuestions": 144,
+  "color": "blue",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Microwave guide cant transmit",
+      "options": [
+        "A. Transverse Electromagnetic (TEM) waves",
+        "B. All conducting materials are made from bonding & connected to ground.",
+        "C. Broadcast situation"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is Transverse Electromagnetic (TEM) waves."
+    },
+    {
+      "id": 2,
+      "question": "Maximum power transfer occurs when there is",
+      "options": [
+        "A. Characteristic impedance",
+        "B. decrease",
+        "C. Impedance matching"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is Impedance matching."
+    },
+    {
+      "id": 3,
+      "question": "Polarization of electromagnetic wave refers to the polarization of",
+      "options": [
+        "A. selectivity and sensitivity",
+        "B. Waveguide",
+        "C. Electric field"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is Electric field."
+    },
+    {
+      "id": 4,
+      "question": "Omnidirectional antenna used in",
+      "options": [
+        "A. oscillator",
+        "B. Broadcast situation",
+        "C. klystron tube"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is Broadcast situation."
+    },
+    {
+      "id": 5,
+      "question": "--- is not typical antenna parameter",
+      "options": [
+        "A. Conductivity",
+        "B. multiplication",
+        "C. space wave"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is Conductivity."
+    },
+    {
+      "id": 6,
+      "question": "Microwave transistor",
+      "options": [
+        "A. 1 GHZ to 100 GHZ",
+        "B. Standing waves",
+        "C. Microwave FET"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is Microwave FET."
+    },
+    {
+      "id": 7,
+      "question": "The operation frequency of PIN diode",
+      "options": [
+        "A. Sampling",
+        "B. 700 GHZ",
+        "C. transmission medium called Transmitter"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is 700 GHZ."
+    },
+    {
+      "id": 8,
+      "question": "Which of the following used as high power microwave oscillator",
+      "options": [
+        "A. other parameters June. The system is FM",
+        "B. crossed electron and magnetic fields (magnetron)",
+        "C. variation is called PM modulation"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is crossed electron and magnetic fields (magnetron)."
+    },
+    {
+      "id": 9,
+      "question": "Not transmitter modulating technique",
+      "options": [
+        "A. Amplification of transmitted signal",
+        "B. waveguides",
+        "C. front end and demodulator"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is Amplification of transmitted signal."
+    },
+    {
+      "id": 10,
+      "question": "In ordinary circuit current & voltage are in phase at",
+      "options": [
+        "A. much greater than unity",
+        "B. resistive circuit",
+        "C. 700 GHZ"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is resistive circuit."
+    },
+    {
+      "id": 11,
+      "question": "Which wave propagation use line of sight",
+      "options": [
+        "A. operate at positive resistance",
+        "B. space wave",
+        "C. Broadcast situation"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is space wave."
+    },
+    {
+      "id": 12,
+      "question": "wave propagation use for GPS",
+      "options": [
+        "A. space wave",
+        "B. FM",
+        "C. resistive circuit"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is space wave."
+    },
+    {
+      "id": 13,
+      "question": "Which of the following is true",
+      "options": [
+        "A. Sense Antenna",
+        "B. skin effect is more pronounced at high frequency",
+        "C. other parameters June. The system is FM"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is skin effect is more pronounced at high frequency."
+    },
+    {
+      "id": 14,
+      "question": "Which of the following transmission line not used for microwave",
+      "options": [
+        "A. reception Yagi-Uda antenna",
+        "B. 108 to 137 MHZ",
+        "C. two wire line"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is two wire line."
+    },
+    {
+      "id": 15,
+      "question": "The portion of the near field immediate to the surrounding the antenna called as",
+      "options": [
+        "A. reactive near field",
+        "B. Modulation",
+        "C. Microwave FET"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is reactive near field."
+    },
+    {
+      "id": 16,
+      "question": "A waveguide is preferred over coaxial cable",
+      "options": [
+        "A. high power & lower attenuation",
+        "B. skin effect is more pronounced at high frequency",
+        "C. Transverse Electromagnetic (TEM) waves"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is high power & lower attenuation."
+    },
+    {
+      "id": 17,
+      "question": "Which of the following is basic element of radio transmitter",
+      "options": [
+        "A. Antenna",
+        "B. high power & lower attenuation",
+        "C. modulator"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is modulator."
+    },
+    {
+      "id": 18,
+      "question": "Basic element of radio receiver",
+      "options": [
+        "A. transmitter",
+        "B. front end and demodulator",
+        "C. Ratio detector"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is front end and demodulator."
+    },
+    {
+      "id": 19,
+      "question": "Which of the following not true about Gunn diode",
+      "options": [
+        "A. Linear",
+        "B. operate at positive resistance",
+        "C. radio receiver"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is operate at positive resistance."
+    },
+    {
+      "id": 20,
+      "question": "Why is it important to use microwave repeater",
+      "options": [
+        "A. high efficiency",
+        "B. static charge",
+        "C. direct path"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is direct path."
+    },
+    {
+      "id": 21,
+      "question": "When the impedance of the load is equal to characteristics impedance it is called",
+      "options": [
+        "A. 1.5m (\\lambda = c / f = 0, L = \\lambda / 2)",
+        "B. matching",
+        "C. Static wicks"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is matching."
+    },
+    {
+      "id": 22,
+      "question": "Which of the following is found at 180° from the major lobe",
+      "options": [
+        "A. Back lobe",
+        "B. reception Yagi-Uda antenna",
+        "C. cross-section line"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is Back lobe."
+    },
+    {
+      "id": 23,
+      "question": "Which microwave is the best",
+      "options": [
+        "A. allows a signal to pass only in one direction",
+        "B. Static wicks",
+        "C. waveguides"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is waveguides."
+    },
+    {
+      "id": 24,
+      "question": "If based on local oscillator",
+      "options": [
+        "A. higher",
+        "B. 3",
+        "C. variation is called PM modulation"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is higher."
+    },
+    {
+      "id": 25,
+      "question": "modulation is done in",
+      "options": [
+        "A. transmitter",
+        "B. Modulation",
+        "C. oscillator"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is transmitter."
+    },
+    {
+      "id": 26,
+      "question": "In radio wave propagation critical frequency occur at",
+      "options": [
+        "A. when high frequency reflect from ionosphere",
+        "B. higher than that of intelligence signal",
+        "C. All conducting materials are made from bonding & connected to ground."
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is when high frequency reflect from ionosphere."
+    },
+    {
+      "id": 27,
+      "question": "--- is testing standard compliance (EMC) test",
+      "options": [
+        "A. emission testing",
+        "B. Ratio detector",
+        "C. transmission medium called Transmitter"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is emission testing."
+    },
+    {
+      "id": 28,
+      "question": "Which one is not part of complete antenna",
+      "options": [
+        "A. E-field",
+        "B. allows a signal to pass only in one direction",
+        "C. amplifier"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is amplifier."
+    },
+    {
+      "id": 29,
+      "question": "The ionosphere propagation is known as",
+      "options": [
+        "A. by high ultraviolet rays from the sun",
+        "B. series resonant circuit",
+        "C. skywave propagation"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is skywave propagation."
+    },
+    {
+      "id": 30,
+      "question": "Which of the following doesn't affect HF",
+      "options": [
+        "A. other parameters June. The system is FM",
+        "B. wind speed",
+        "C. emission testing"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is wind speed."
+    },
+    {
+      "id": 31,
+      "question": "Which of the following radio operation used for aircraft communications",
+      "options": [
+        "A. AM",
+        "B. static charge",
+        "C. E-field"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is AM."
+    },
+    {
+      "id": 32,
+      "question": "A row ionosphere layer is occurred",
+      "options": [
+        "A. modulator",
+        "B. Antenna",
+        "C. by high ultraviolet rays from the sun"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is by high ultraviolet rays from the sun."
+    },
+    {
+      "id": 33,
+      "question": "When load impedance equals the characteristics impedance of the transmission line, it",
+      "options": [
+        "A. means the load (antenna) --- all the power Transmits",
+        "B. oscillator",
+        "C. they disrupt aircraft electronics system"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is means the load (antenna) --- all the power Transmits."
+    },
+    {
+      "id": 34,
+      "question": "What is the component that converts an electrical signal into a signal suitable for",
+      "options": [
+        "A. Ratio detector",
+        "B. transmission medium called Transmitter",
+        "C. LED Disk"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is transmission medium called Transmitter."
+    },
+    {
+      "id": 35,
+      "question": "The frequency of the local oscillator in a superheterodyne receiver is",
+      "options": [
+        "A. higher than the incoming signal",
+        "B. discrete point in the circuit are called. Lumped",
+        "C. Static wicks"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is higher than the incoming signal."
+    },
+    {
+      "id": 36,
+      "question": "What device is used to radiate or collect EM energy into/from space",
+      "options": [
+        "A. Back lobe",
+        "B. operate at positive resistance",
+        "C. Antenna"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is Antenna."
+    },
+    {
+      "id": 37,
+      "question": "Deviation f = 75 KHZ, modulating frequency = 15 KHZ, what is BW",
+      "options": [
+        "A. antenna",
+        "B. Stub",
+        "C. 180 KHZ"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is 180 KHZ."
+    },
+    {
+      "id": 38,
+      "question": "Fresnel Zone is also called",
+      "options": [
+        "A. radiation pattern",
+        "B. Near zone",
+        "C. Immunity"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is Near zone."
+    },
+    {
+      "id": 39,
+      "question": "Is not true about Gunn diode",
+      "options": [
+        "A. over positive resistance",
+        "B. direct path",
+        "C. Buncher"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is over positive resistance."
+    },
+    {
+      "id": 40,
+      "question": "Negligible transmission line",
+      "options": [
+        "A. matching",
+        "B. loop antenna and sense antenna",
+        "C. LC"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is LC."
+    },
+    {
+      "id": 41,
+      "question": "--- and --- are relevant source of EM environments",
+      "options": [
+        "A. For radio and TV transmitter",
+        "B. Demodulator",
+        "C. high power & lower attenuation"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is For radio and TV transmitter."
+    },
+    {
+      "id": 42,
+      "question": "Basic requirement of antenna transmitter",
+      "options": [
+        "A. 1 GHZ to 100 GHZ",
+        "B. Near zone",
+        "C. high efficiency"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is high efficiency."
+    },
+    {
+      "id": 43,
+      "question": "minimum frequency and minimum channel Bandwidth",
+      "options": [
+        "A. LC",
+        "B. when high frequency reflect from ionosphere",
+        "C. SSB"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is SSB."
+    },
+    {
+      "id": 44,
+      "question": "Distributed constant of transmission line",
+      "options": [
+        "A. long distance travel of signal",
+        "B. Broadcast situation",
+        "C. cross-section line"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is cross-section line."
+    },
+    {
+      "id": 45,
+      "question": "effect of standing wave",
+      "options": [
+        "A. operate at positive resistance",
+        "B. Decrease fed power to antenna",
+        "C. capacitor"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is Decrease fed power to antenna."
+    },
+    {
+      "id": 46,
+      "question": "Transmission line determine by",
+      "options": [
+        "A. antenna",
+        "B. emission testing",
+        "C. Cross-sectional area"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is Cross-sectional area."
+    },
+    {
+      "id": 47,
+      "question": "Basic difference btn TRF & super heterodyne",
+      "options": [
+        "A. perpendicular to each other",
+        "B. super heterodyne has frequency translation but not TRF",
+        "C. LED Disk"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is super heterodyne has frequency translation but not TRF."
+    },
+    {
+      "id": 48,
+      "question": "In EMC, maximum power input impedance equal",
+      "options": [
+        "A. klystron tube",
+        "B. equal to source resistance",
+        "C. Transverse Electromagnetic (TEM) waves"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is equal to source resistance."
+    },
+    {
+      "id": 49,
+      "question": "The ratio of Voltage to current in transmission line",
+      "options": [
+        "A. to remove amplitude variations",
+        "B. Characteristic impedance",
+        "C. high efficiency"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is Characteristic impedance."
+    },
+    {
+      "id": 50,
+      "question": "opposition of power transmission",
+      "options": [
+        "A. reactive near field",
+        "B. Characteristic impedance",
+        "C. Antenna"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is Characteristic impedance."
+    },
+    {
+      "id": 51,
+      "question": "ESD components damage by",
+      "options": [
+        "A. over positive resistance",
+        "B. two wire line",
+        "C. static charge"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is static charge."
+    },
+    {
+      "id": 52,
+      "question": "In klystron determine frequency by",
+      "options": [
+        "A. Buncher",
+        "B. 88 to 108 MHZ",
+        "C. cavity resonant"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is cavity resonant."
+    },
+    {
+      "id": 53,
+      "question": "Modulation used for",
+      "options": [
+        "A. frequency antenna tuning circuit",
+        "B. Characteristic impedance",
+        "C. long distance travel of signal"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is long distance travel of signal."
+    },
+    {
+      "id": 54,
+      "question": "Which of the following is used as switch",
+      "options": [
+        "A. PIN diode",
+        "B. Antenna",
+        "C. emission testing"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is PIN diode."
+    },
+    {
+      "id": 55,
+      "question": "Which of the following types of antenna used for space craft",
+      "options": [
+        "A. Immunity",
+        "B. waveguides",
+        "C. Space-probe"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is Space-probe."
+    },
+    {
+      "id": 56,
+      "question": "Which of the following FM detector is non-sensitive to amplitude variation",
+      "options": [
+        "A. cavity resonant",
+        "B. PLL detector",
+        "C. equal to source resistance"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is PLL detector."
+    },
+    {
+      "id": 57,
+      "question": "Which part of radio receiver maintains constant signal level throughout the system over",
+      "options": [
+        "A. wide range limiter",
+        "B. reception Yagi-Uda antenna",
+        "C. oscillator"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is wide range limiter."
+    },
+    {
+      "id": 58,
+      "question": "Non-directional radio antenna used for direction finding",
+      "options": [
+        "A. Electric field",
+        "B. frequency antenna tuning circuit",
+        "C. Sense Antenna"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is Sense Antenna."
+    },
+    {
+      "id": 59,
+      "question": "ADF system uses two antennas",
+      "options": [
+        "A. frequency antenna tuning circuit",
+        "B. loop antenna and sense antenna",
+        "C. 3"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is loop antenna and sense antenna."
+    },
+    {
+      "id": 60,
+      "question": "The frequency of local oscillator is",
+      "options": [
+        "A. higher than that of intelligence signal & lower than IF",
+        "B. All conducting materials are made from bonding & connected to ground.",
+        "C. Conductivity"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is higher than that of intelligence signal & lower than IF."
+    },
+    {
+      "id": 61,
+      "question": "The SSB Bandwidth in AM is",
+      "options": [
+        "A. Broadcast situation",
+        "B. FM",
+        "C. cross-section line"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is FM."
+    },
+    {
+      "id": 62,
+      "question": "When the beam area of the antenna increase the directivity will be",
+      "options": [
+        "A. loop antenna and sense antenna",
+        "B. decrease",
+        "C. Electric field"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is decrease."
+    },
+    {
+      "id": 63,
+      "question": "What is the name of the input cavity of three cavity klystron",
+      "options": [
+        "A. higher than the incoming signal",
+        "B. Buncher",
+        "C. amplifier"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is Buncher."
+    },
+    {
+      "id": 64,
+      "question": "Which one of the following is not used for TEM transmission",
+      "options": [
+        "A. Waveguide",
+        "B. higher than that of intelligence signal",
+        "C. half that needed for conventional AM"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is Waveguide."
+    },
+    {
+      "id": 65,
+      "question": "signals RF mixer is used for",
+      "options": [
+        "A. loop antenna and sense antenna",
+        "B. multiplication",
+        "C. oscillator"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is multiplication."
+    },
+    {
+      "id": 66,
+      "question": "how many types of megnetron",
+      "options": [
+        "A. 3",
+        "B. Sampling",
+        "C. Efficiency, SNR"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 3."
+    },
+    {
+      "id": 67,
+      "question": "The space btn cavity of klystron",
+      "options": [
+        "A. when high frequency reflect from ionosphere",
+        "B. Drift space",
+        "C. two wire line"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is Drift space."
+    },
+    {
+      "id": 68,
+      "question": "The range of VHF is from",
+      "options": [
+        "A. Broadcast situation",
+        "B. 108 to 137 MHZ",
+        "C. Cross-sectional area"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is 108 to 137 MHZ."
+    },
+    {
+      "id": 69,
+      "question": "What is the purpose of directional waveguide coupler",
+      "options": [
+        "A. 180 KHZ",
+        "B. much greater than unity",
+        "C. Sampling"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is Sampling."
+    },
+    {
+      "id": 70,
+      "question": "Basic requirement of transmitter is",
+      "options": [
+        "A. Antenna",
+        "B. Electric field",
+        "C. Efficiency, SNR"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is Efficiency, SNR."
+    },
+    {
+      "id": 71,
+      "question": "Which of the following corresponds to an antenna known as a dipole",
+      "options": [
+        "A. Linear",
+        "B. Back lobe",
+        "C. Isotropic source"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is Linear."
+    },
+    {
+      "id": 72,
+      "question": "If the transmission line is not terminated, which waves appear around the line",
+      "options": [
+        "A. multiplication",
+        "B. Standing waves",
+        "C. klystron tube"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is Standing waves."
+    },
+    {
+      "id": 73,
+      "question": "Directional waveguide are used for",
+      "options": [
+        "A. ABC (By reducing efficiency of coupling device, by reducing source of interference)",
+        "B. Conductivity",
+        "C. point-to-point communication system, military directional communication system"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is point-to-point communication system, military directional communication system."
+    },
+    {
+      "id": 74,
+      "question": "Polarization of antenna",
+      "options": [
+        "A. Orientation of Electric field",
+        "B. selectivity and sensitivity",
+        "C. E-field"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is Orientation of Electric field."
+    },
+    {
+      "id": 75,
+      "question": "In quarter wave short circuit line short circuit at far ends like",
+      "options": [
+        "A. modulator",
+        "B. parallel resonant",
+        "C. rectangular waveguide"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is parallel resonant."
+    },
+    {
+      "id": 76,
+      "question": "Half wave (dipole) antenna which parameter can turn at the edge",
+      "options": [
+        "A. modulator",
+        "B. E power",
+        "C. radio receiver"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is E power."
+    },
+    {
+      "id": 77,
+      "question": "What is the length of diploma antenna",
+      "options": [
+        "A. Half wavelength",
+        "B. to remove amplitude variations",
+        "C. Sense Antenna"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is Half wavelength."
+    },
+    {
+      "id": 78,
+      "question": "FM band",
+      "options": [
+        "A. Efficiency, SNR",
+        "B. 88 to 108 MHZ",
+        "C. space wave"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is 88 to 108 MHZ."
+    },
+    {
+      "id": 79,
+      "question": "How to discharge static electricity in an aircraft",
+      "options": [
+        "A. All conducting materials are made from bonding & connected to ground.",
+        "B. Microwave FET",
+        "C. wind speed"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is All conducting materials are made from bonding & connected to ground.."
+    },
+    {
+      "id": 80,
+      "question": "When the modulating frequency is 1/2 of other, are constant amplitude wing index is",
+      "options": [
+        "A. modulator",
+        "B. skin effect is more pronounced at high frequency",
+        "C. Doubled (FM)"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is Doubled (FM)."
+    },
+    {
+      "id": 81,
+      "question": "Electrostatic sensitive device is a component that can be damaged by common",
+      "options": [
+        "A. 88 to 108 MHZ",
+        "B. Static charges",
+        "C. operate at positive resistance"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is Static charges."
+    },
+    {
+      "id": 82,
+      "question": "Which of the following antennas is the most commonly used type of antenna for TV",
+      "options": [
+        "A. PIN diode",
+        "B. decrease",
+        "C. reception Yagi-Uda antenna"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is reception Yagi-Uda antenna."
+    },
+    {
+      "id": 83,
+      "question": "For wide band FM, the frequency-modulation index is",
+      "options": [
+        "A. Buncher",
+        "B. much greater than unity",
+        "C. Sense Antenna"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is much greater than unity."
+    },
+    {
+      "id": 84,
+      "question": "What do we call the opposite of susceptibility",
+      "options": [
+        "A. AM",
+        "B. wide range limiter",
+        "C. Immunity"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is Immunity."
+    },
+    {
+      "id": 85,
+      "question": "An isolator is",
+      "options": [
+        "A. A two-port device non reciprocal",
+        "B. 1.5m (\\lambda = c / f = 0, L = \\lambda / 2)",
+        "C. over positive resistance"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is A two-port device non reciprocal."
+    },
+    {
+      "id": 86,
+      "question": "If the modulating frequency is halved in a modulating system, the modulation index 1 &",
+      "options": [
+        "A. SSB",
+        "B. electromagnetic field is called characteristic impedance",
+        "C. other parameters June. The system is FM"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is other parameters June. The system is FM."
+    },
+    {
+      "id": 87,
+      "question": "What is the function of limiter in an fm receiver",
+      "options": [
+        "A. to remove amplitude variations",
+        "B. Envelope detector",
+        "C. Characteristic impedance"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is to remove amplitude variations."
+    },
+    {
+      "id": 88,
+      "question": "What fidelity in a radio receiver",
+      "options": [
+        "A. higher than that of intelligence signal & lower than IF",
+        "B. It is ability to accurately reproduce in its output, the signal that appeared at its input",
+        "C. LED Disk"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is It is ability to accurately reproduce in its output, the signal that appeared at its input."
+    },
+    {
+      "id": 89,
+      "question": "Polarization of EM wave determined by",
+      "options": [
+        "A. 88 to 108 MHZ",
+        "B. LED Disk",
+        "C. E-field"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is E-field."
+    },
+    {
+      "id": 90,
+      "question": "Which of the following devices is used as a common FM detector",
+      "options": [
+        "A. PIN DIODE",
+        "B. high efficiency",
+        "C. Ratio detector"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is Ratio detector."
+    },
+    {
+      "id": 91,
+      "question": "Demodulation is done in",
+      "options": [
+        "A. parallel resonant",
+        "B. radio receiver",
+        "C. antenna"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is radio receiver."
+    },
+    {
+      "id": 92,
+      "question": "The tuned sequence of subsystems in an FM superheterodyne receiver is",
+      "options": [
+        "A. LED Disk",
+        "B. antenna to the radiation intensity of an isotropic or reference antenna, producing the same total power is called Directivity",
+        "C. RF amplifier, mixer, IF amplifier, limiter, discriminator, and audio amplifier"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is RF amplifier, mixer, IF amplifier, limiter, discriminator, and audio amplifier."
+    },
+    {
+      "id": 93,
+      "question": "Which region of the electromagnetic spectrum is normally called the microwave region",
+      "options": [
+        "A. 1 GHZ to 100 GHZ",
+        "B. Decrease fed power to antenna",
+        "C. emission testing"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 1 GHZ to 100 GHZ."
+    },
+    {
+      "id": 94,
+      "question": "The ability of electronic system to function properly in its intended electromagnetic env't",
+      "options": [
+        "A. FM",
+        "B. long distance travel of signal",
+        "C. and not be a source of pollution to that env't is known as Electromagnetic Compatibility"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is and not be a source of pollution to that env't is known as Electromagnetic Compatibility."
+    },
+    {
+      "id": 95,
+      "question": "when load impedance equals the characteristic impedance of transmission line, it means",
+      "options": [
+        "A. the load (antenna) transmits all the power the load (antenna) transmits all the power",
+        "B. wind speed",
+        "C. a wide range of incoming carrier signal strengths at its output automatic gain control"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is the load (antenna) transmits all the power the load (antenna) transmits all the power."
+    },
+    {
+      "id": 96,
+      "question": "What do modern FM receivers use de-emphasis circuits for",
+      "options": [
+        "A. FM",
+        "B. restore original signal power at higher frequencies",
+        "C. the load (antenna) transmits all the power the load (antenna) transmits all the power"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is restore original signal power at higher frequencies."
+    },
+    {
+      "id": 97,
+      "question": "What parameter of an antenna is the ratio of the effective radiating area to the physical",
+      "options": [
+        "A. when high frequency reflect from ionosphere",
+        "B. area of the aperture. aperture efficiency",
+        "C. transmission medium called Transmitter"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is area of the aperture. aperture efficiency."
+    },
+    {
+      "id": 98,
+      "question": "Which one of the following uses cavities for output input circuits",
+      "options": [
+        "A. to remove amplitude variations",
+        "B. klystron tube",
+        "C. PLL detector"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is klystron tube."
+    },
+    {
+      "id": 99,
+      "question": "Which of the following devices is used as a common AM detector",
+      "options": [
+        "A. Envelope detector",
+        "B. Near zone",
+        "C. 700 GHZ"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is Envelope detector."
+    },
+    {
+      "id": 100,
+      "question": "Which of the following devices is used as a common FM detector",
+      "options": [
+        "A. frequency 10.7 MHZ",
+        "B. Ratio detector",
+        "C. they disrupt aircraft electronics system"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is Ratio detector."
+    },
+    {
+      "id": 101,
+      "question": "The value of the total opposition of the transmission media to the flow of the",
+      "options": [
+        "A. TWT",
+        "B. electromagnetic field is called characteristic impedance",
+        "C. For radio and TV transmitter"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is electromagnetic field is called characteristic impedance."
+    },
+    {
+      "id": 102,
+      "question": "What device that convert high frequency current into electromagnetic wave",
+      "options": [
+        "A. when high frequency reflect from ionosphere",
+        "B. cross-section line",
+        "C. antenna"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is antenna."
+    },
+    {
+      "id": 103,
+      "question": "What parameter of antenna is the ratio of the maximum radiation intensity of the subject",
+      "options": [
+        "A. antenna to the radiation intensity of an isotropic or reference antenna, producing the same total power is called Directivity",
+        "B. Conductivity",
+        "C. Stub"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is antenna to the radiation intensity of an isotropic or reference antenna, producing the same total power is called Directivity."
+    },
+    {
+      "id": 104,
+      "question": "What is local oscillator used for in super heterodyne receiver",
+      "options": [
+        "A. To shift the frequency of the received modulated carrier to the IF band",
+        "B. transmission medium called Transmitter",
+        "C. Envelope detector"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is To shift the frequency of the received modulated carrier to the IF band."
+    },
+    {
+      "id": 105,
+      "question": "Which part of a radio receiver maintains constant signal levels throughout the system over",
+      "options": [
+        "A. a wide range of incoming carrier signal strengths at its output automatic gain control",
+        "B. Detection",
+        "C. restore original signal power at higher frequencies"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is a wide range of incoming carrier signal strengths at its output automatic gain control."
+    },
+    {
+      "id": 106,
+      "question": "--- is the best medium for handling the large microwave power.",
+      "options": [
+        "A. Isotropic source",
+        "B. decrease",
+        "C. rectangular waveguide"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is rectangular waveguide."
+    },
+    {
+      "id": 107,
+      "question": "why do we use microwave link repeaters in the microwave transmitter and receiver system",
+      "options": [
+        "A. to overcome loss & weak power problem",
+        "B. TWT",
+        "C. complex propagation constant"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is to overcome loss & weak power problem."
+    },
+    {
+      "id": 108,
+      "question": "The network in which the R,L,C parameters are individually concentrated or lumped at",
+      "options": [
+        "A. LED Disk",
+        "B. Ratio detector",
+        "C. discrete point in the circuit are called. Lumped"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is discrete point in the circuit are called. Lumped."
+    },
+    {
+      "id": 109,
+      "question": "superimposing of an intelligence signal on a carrier signal is called",
+      "options": [
+        "A. selectivity and sensitivity",
+        "B. resistive circuit",
+        "C. Modulation"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is Modulation."
+    },
+    {
+      "id": 110,
+      "question": "What is the purpose of the receiver's squelch circuit",
+      "options": [
+        "A. For radio and TV transmitter",
+        "B. static charge",
+        "C. To prevent amplified noise from reaching the loudspeaker during the absence of an incoming signal"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is To prevent amplified noise from reaching the loudspeaker during the absence of an incoming signal."
+    },
+    {
+      "id": 111,
+      "question": "Which effect of high intensity radiated files on aircraft",
+      "options": [
+        "A. matching",
+        "B. they disrupt aircraft electronics system",
+        "C. higher than that of intelligence signal"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is they disrupt aircraft electronics system."
+    },
+    {
+      "id": 112,
+      "question": "Bandwidth required for the SSB suppressed carrier is approximately",
+      "options": [
+        "A. half that needed for conventional AM",
+        "B. Drift space",
+        "C. Ratio detector"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is half that needed for conventional AM."
+    },
+    {
+      "id": 113,
+      "question": "An antenna device that radiates energy uniformly in all direction is called",
+      "options": [
+        "A. Isotropic source",
+        "B. complex propagation constant",
+        "C. selectivity and sensitivity"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is Isotropic source."
+    },
+    {
+      "id": 114,
+      "question": "What is called the process of mixing 2 frequencies in a nonlinear device",
+      "options": [
+        "A. Characteristic impedance",
+        "B. Efficiency, SNR",
+        "C. Heterodyning"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is Heterodyning."
+    },
+    {
+      "id": 115,
+      "question": "The frequency of local oscillator is",
+      "options": [
+        "A. higher than that of intelligence signal",
+        "B. Linear",
+        "C. Detection"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is higher than that of intelligence signal."
+    },
+    {
+      "id": 116,
+      "question": "Local oscillator circuit produce a sine wave at a frequency --- above the related RF",
+      "options": [
+        "A. Modulation",
+        "B. frequency 10.7 MHZ",
+        "C. crossed electron and magnetic fields (magnetron)"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is frequency 10.7 MHZ."
+    },
+    {
+      "id": 117,
+      "question": "What are the static discharge found at different structure of aircraft normally known as",
+      "options": [
+        "A. Static wicks",
+        "B. emission testing",
+        "C. Microwave FET"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is Static wicks."
+    },
+    {
+      "id": 118,
+      "question": "What circuit is used to lengthen and shorten antennas electrically to better match the",
+      "options": [
+        "A. frequency antenna tuning circuit",
+        "B. 30 KHZ to 300 GHZ",
+        "C. by high ultraviolet rays from the sun"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is frequency antenna tuning circuit."
+    },
+    {
+      "id": 119,
+      "question": "The process of recovering the intelligence signal from AM signal",
+      "options": [
+        "A. Detection",
+        "B. higher than the incoming signal",
+        "C. space wave"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is Detection."
+    },
+    {
+      "id": 120,
+      "question": "If the frequency of the carrier wave is tuned according to the intelligent signal amplitude",
+      "options": [
+        "A. variation is called PM modulation",
+        "B. E-field",
+        "C. Back lobe"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is variation is called PM modulation."
+    },
+    {
+      "id": 121,
+      "question": "What generate the final carrier frequency in transmitter circuit",
+      "options": [
+        "A. oscillator",
+        "B. Ratio detector",
+        "C. high efficiency"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is oscillator."
+    },
+    {
+      "id": 122,
+      "question": "Section of transmission line (open & short) used to match impedance",
+      "options": [
+        "A. Characteristic impedance",
+        "B. radiation pattern",
+        "C. Stub"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is Stub."
+    },
+    {
+      "id": 123,
+      "question": "Directivity is determined by",
+      "options": [
+        "A. Ratio detector",
+        "B. amplifier",
+        "C. radiation pattern"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is radiation pattern."
+    },
+    {
+      "id": 124,
+      "question": "Which of following sources used a helix",
+      "options": [
+        "A. TWT",
+        "B. Space-probe",
+        "C. discrete point in the circuit are called. Lumped"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is TWT."
+    },
+    {
+      "id": 125,
+      "question": "The primary component associated w electrical charge",
+      "options": [
+        "A. reception Yagi-Uda antenna",
+        "B. capacitor",
+        "C. Standing waves"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is capacitor."
+    },
+    {
+      "id": 126,
+      "question": "minimum attenuation in one direction and opposite (maximum) attenuation in other",
+      "options": [
+        "A. LED Disk",
+        "B. frequency 10.7 MHZ",
+        "C. direction microwave isolator"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is direction microwave isolator."
+    },
+    {
+      "id": 127,
+      "question": "Methods used to reduce EMI",
+      "options": [
+        "A. Amplitude of the carrier wave",
+        "B. wind speed",
+        "C. ABC (By reducing efficiency of coupling device, by reducing source of interference)"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is ABC (By reducing efficiency of coupling device, by reducing source of interference)."
+    },
+    {
+      "id": 128,
+      "question": "A group of antenna (automatic tuning system)",
+      "options": [
+        "A. other parameters June. The system is FM",
+        "B. space wave",
+        "C. Antenna Coupler"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is Antenna Coupler."
+    },
+    {
+      "id": 129,
+      "question": "Reflex Klystron is used for",
+      "options": [
+        "A. 1 GHZ to 100 GHZ",
+        "B. oscillator",
+        "C. by high ultraviolet rays from the sun"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is oscillator."
+    },
+    {
+      "id": 130,
+      "question": "Not microwave device",
+      "options": [
+        "A. half that needed for conventional AM",
+        "B. emission testing",
+        "C. LED Disk"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is LED Disk."
+    },
+    {
+      "id": 131,
+      "question": "The directional coupler is",
+      "options": [
+        "A. PIN DIODE",
+        "B. much greater than unity",
+        "C. a device that provides a method of sampling energy from within a waveguide"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is a device that provides a method of sampling energy from within a waveguide."
+    },
+    {
+      "id": 132,
+      "question": "Type of microwave diode has large intrinsic region btn PPN",
+      "options": [
+        "A. oscillator",
+        "B. complex propagation constant",
+        "C. PIN DIODE"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is PIN DIODE."
+    },
+    {
+      "id": 133,
+      "question": "which of the following considered primary line constant except",
+      "options": [
+        "A. complex propagation constant",
+        "B. 700 GHZ",
+        "C. crossed electron and magnetic fields (magnetron)"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is complex propagation constant."
+    },
+    {
+      "id": 134,
+      "question": "Antenna up and down movement polarization",
+      "options": [
+        "A. Vertical polarization",
+        "B. radiation pattern",
+        "C. Heterodyning"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is Vertical polarization."
+    },
+    {
+      "id": 135,
+      "question": "open circuit with quarter wavelength",
+      "options": [
+        "A. E power",
+        "B. radio receiver",
+        "C. series resonant circuit"
+      ],
+      "correctIndex": 2,
+      "explanation": "The correct answer is series resonant circuit."
+    },
+    {
+      "id": 136,
+      "question": "What is microwave isolator used for",
+      "options": [
+        "A. To shift the frequency of the received modulated carrier to the IF band",
+        "B. allows a signal to pass only in one direction",
+        "C. space wave"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is allows a signal to pass only in one direction."
+    },
+    {
+      "id": 137,
+      "question": "The 2 basic specification for receiver are",
+      "options": [
+        "A. emission testing",
+        "B. selectivity and sensitivity",
+        "C. E power"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is selectivity and sensitivity."
+    },
+    {
+      "id": 138,
+      "question": "The frequency spectrum range for radio waves is from",
+      "options": [
+        "A. Drift space",
+        "B. 30 KHZ to 300 GHZ",
+        "C. to overcome loss & weak power problem"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is 30 KHZ to 300 GHZ."
+    },
+    {
+      "id": 139,
+      "question": "--- used for recovering message signal from radiated RF signal",
+      "options": [
+        "A. 108 to 137 MHZ",
+        "B. Demodulator",
+        "C. Amplitude of the carrier wave"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is Demodulator."
+    },
+    {
+      "id": 140,
+      "question": "Determine the length of half wave dipole antenna for use at frequency of 100 MHZ",
+      "options": [
+        "A. 1.5m (\\lambda = c / f = 0, L = \\lambda / 2)",
+        "B. Characteristic impedance",
+        "C. Conductivity"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 1.5m (\\lambda = c / f = 0, L = \\lambda / 2)."
+    },
+    {
+      "id": 141,
+      "question": "What is fidelity in a radio receiver",
+      "options": [
+        "A. its ability to accurately reproduce in its output the signal that appears at its input",
+        "B. amplifier",
+        "C. LC"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is its ability to accurately reproduce in its output the signal that appears at its input."
+    },
+    {
+      "id": 142,
+      "question": "What is the relationship btn the electric and magnetic fields of radio wave",
+      "options": [
+        "A. perpendicular to each other",
+        "B. matching",
+        "C. radiation pattern"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is perpendicular to each other."
+    },
+    {
+      "id": 143,
+      "question": "Radio wave sometimes bend around a corner bls of",
+      "options": [
+        "A. selectivity and sensitivity",
+        "B. Diffraction",
+        "C. Buncher"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is Diffraction."
+    },
+    {
+      "id": 144,
+      "question": "In amplitude modulation, which of the following varies",
+      "options": [
+        "A. PIN DIODE",
+        "B. Amplitude of the carrier wave",
+        "C. Ratio detector"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct answer is Amplitude of the carrier wave."
+    }
+  ]
+}
