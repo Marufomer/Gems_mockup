@@ -215,8 +215,8 @@
         "B. OLED",
         "C. LCD"
       ],
-      "correctIndex": 1,
-      "explanation": "The provided answer identifies OLED as the display type that does not emit its own light."
+      "correctIndex": 2,
+      "explanation": "The provided answer identifies LCD as the display type that does not emit its own light."
     },
     {
       "id": 20,
