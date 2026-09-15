@@ -539,14 +539,14 @@
     },
     {
       "id": 49,
-      "question": "Combinational logic which can decode that",
+      "question": "Combinational logic which can decode 1101 that",
       "options": [
         "A. One flip-flop only",
         "B. One 4 input AND gate, and inverter",
         "C. One counter only"
       ],
       "correctIndex": 1,
-      "explanation": "Decoding logic can use AND gates and inverters to recognize specific binary input combinations."
+      "explanation": "Do decode the specific 4-bit binary sequence 1101 (where $A_3 A_2 A_1 A_0 = 1101$), a logic circuit must output a HIGH (1) only when this exact combination is present at its inputs."
     },
     {
       "id": 50,
