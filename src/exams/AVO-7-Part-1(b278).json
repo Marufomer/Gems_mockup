@@ -1,0 +1,255 @@
+{
+  "id": "avo-7-part-1",
+  "title": "AVO-7-Part-1",
+  "module": "AVO-7",
+  "course": "avionics",
+  "category": "our_exam_b278",
+  "description": "Part exam covering instrument fundamentals: temperature sensing elements, pressure sensing elements, mechanisms and gearing, synchro systems, instrument panel layout and mounting, and basic flight instrument grouping.",
+  "durationMinutes": 60,
+  "totalQuestions": 22,
+  "color": "purple",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which one of the following is a bimetallic combination that changes shape when heat is added?",
+      "options": [
+        "A. Brass / steel",
+        "B. Copper / copper",
+        "C. Invar / invar"
+      ],
+      "correctIndex": 0,
+      "explanation": "A bimetallic element must join two metals with clearly different coefficients of linear expansion. Brass expands much more than steel, so when heated the strip bends toward the steel side. Two identical metals would expand equally and produce no movement."
+    },
+    {
+      "id": 2,
+      "question": "Which one of the following has a low coefficient of expansion?",
+      "options": [
+        "A. Aluminium alloy",
+        "B. Invar with 36% nickel",
+        "C. Brass"
+      ],
+      "correctIndex": 1,
+      "explanation": "Invar is an iron-nickel alloy containing about 36% nickel, chosen specifically because it barely changes dimension with temperature. It is used where a stable reference length is needed despite temperature swings."
+    },
+    {
+      "id": 3,
+      "question": "Which type of temperature sensor is most widely used today?",
+      "options": [
+        "A. Bimetallic strip",
+        "B. Liquid-in-glass",
+        "C. Thermo-resistant"
+      ],
+      "correctIndex": 2,
+      "explanation": "Resistance-type (thermo-resistant) sensors dominate because their resistance change with temperature is accurate, repeatable and easily converted into an electrical signal that can be transmitted to remote indicators and computers."
+    },
+    {
+      "id": 4,
+      "question": "What is the coefficient of expansion of Invar when it is exposed to changes in temperature?",
+      "options": [
+        "A. It has a negligible coefficient of linear expansion",
+        "B. It has the highest coefficient of any alloy",
+        "C. Its coefficient is equal to that of brass"
+      ],
+      "correctIndex": 0,
+      "explanation": "Invar's near-zero linear expansion is the whole reason it is specified. It lets an instrument mechanism keep its calibration because the element length does not drift with ambient temperature."
+    },
+    {
+      "id": 5,
+      "question": "What is the purpose of sloping the main instrument panel forward from the vertical plane?",
+      "options": [
+        "A. To improve cooling airflow over the instruments",
+        "B. To reduce parallax error",
+        "C. To make the instruments easier to remove"
+      ],
+      "correctIndex": 1,
+      "explanation": "Tilting the panel brings the dial faces closer to perpendicular to the pilot's line of sight, so the pointer and the scale are read along the same axis and the apparent displacement of the pointer (parallax) is minimised."
+    },
+    {
+      "id": 6,
+      "question": "Which mechanism produces anti-backlash in an instrument movement?",
+      "options": [
+        "A. Hairsprings",
+        "B. Corrugations",
+        "C. Bellows"
+      ],
+      "correctIndex": 0,
+      "explanation": "A fine hairspring keeps a light preload on the gear train so the teeth stay in contact on one flank only. This removes the lost motion (backlash) that would otherwise cause the pointer to lag or hesitate when the input reverses direction."
+    },
+    {
+      "id": 7,
+      "question": "What is the principal physical difference between the TX and the TR of a torque synchro system?",
+      "options": [
+        "A. The TX is mechanically coupled to an input shaft, while the TR rotor is free to rotate",
+        "B. The TX has no rotor winding at all",
+        "C. The TR is supplied with dc while the TX is supplied with ac"
+      ],
+      "correctIndex": 0,
+      "explanation": "The torque transmitter's rotor is driven by the measured quantity, so its position is the input. The torque receiver's rotor carries only the pointer and is free to turn until it aligns itself with the transmitted field."
+    },
+    {
+      "id": 8,
+      "question": "Which type of sensor is most suited for differential pressure measurement?",
+      "options": [
+        "A. Bourdon tube",
+        "B. Bellows",
+        "C. Bimetallic strip"
+      ],
+      "correctIndex": 1,
+      "explanation": "Bellows have a large effective area and long stroke, and two of them can be opposed so that the movement produced is proportional to the difference between the two applied pressures."
+    },
+    {
+      "id": 9,
+      "question": "A special clamp, shaped and dimensioned to fit the instrument case, is permanently secured to the rear face of the panel. This is known as:",
+      "options": [
+        "A. Flange mounting",
+        "B. Clamp mounting",
+        "C. Shock mounting"
+      ],
+      "correctIndex": 1,
+      "explanation": "In clamp mounting the instrument is slid into a clamp fixed behind the panel and locked from the front, giving a clean panel face and allowing the instrument to be changed from the front without disturbing the panel."
+    },
+    {
+      "id": 10,
+      "question": "Which one of the following instruments requires its case to be sealed?",
+      "options": [
+        "A. Airspeed indicator",
+        "B. Turn and slip indicator",
+        "C. Engine tachometer"
+      ],
+      "correctIndex": 0,
+      "explanation": "The airspeed indicator case is fed with static pressure and the capsule with pitot pressure, so the case must be airtight. Any leak would let cabin pressure into the case and corrupt the differential the instrument measures."
+    },
+    {
+      "id": 11,
+      "question": "Which display is governed by a square-law calibration?",
+      "options": [
+        "A. Altitude",
+        "B. Airspeed",
+        "C. Temperature"
+      ],
+      "correctIndex": 1,
+      "explanation": "Dynamic pressure varies with the square of the speed, so the airspeed scale is cramped at the low end and progressively opens out at the high end rather than being linear."
+    },
+    {
+      "id": 12,
+      "question": "Which of the following is an application of a synchro system?",
+      "options": [
+        "A. Remote position indication for the autopilot",
+        "B. Filtering of electrical noise",
+        "C. Storage of flight data"
+      ],
+      "correctIndex": 0,
+      "explanation": "Synchros transmit angular position electrically from one location to another, which is exactly what is needed to feed surface and control positions to the autopilot and to drive remote indicators."
+    },
+    {
+      "id": 13,
+      "question": "Which one is true about the instruments of the first aircraft?",
+      "options": [
+        "A. They were mechanical",
+        "B. They were fully electronic",
+        "C. They were computer driven"
+      ],
+      "correctIndex": 0,
+      "explanation": "The earliest aircraft instruments were purely mechanical devices driven directly by the quantity being measured. Electronic and computer-driven displays came many decades later."
+    },
+    {
+      "id": 14,
+      "question": "Which of the following instruments was found on the Wright Flyer of the Wright Brothers?",
+      "options": [
+        "A. Engine tachometer",
+        "B. Attitude indicator",
+        "C. Radio altimeter"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Wright Flyer carried only a few basic mechanical instruments, among them an engine revolution counter (tachometer). Gyroscopic and radio instruments did not exist at that time."
+    },
+    {
+      "id": 15,
+      "question": "Which of the following uses a permanent magnet for its rotor?",
+      "options": [
+        "A. Autosyn",
+        "B. Magnesyn",
+        "C. Desynn"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Magnesyn system is distinguished by its permanent-magnet rotor working with a toroidal stator winding, which is why it needs no rotor excitation supply or slip rings."
+    },
+    {
+      "id": 16,
+      "question": "The instruments included in the basic T grouping are:",
+      "options": [
+        "A. Airspeed and altimeter",
+        "B. Tachometer and oil pressure",
+        "C. EGT and fuel flow"
+      ],
+      "correctIndex": 0,
+      "explanation": "The basic T arranges the primary flight instruments around the attitude indicator, with airspeed to the left and the altimeter to the right, forming the horizontal bar of the T, and heading below."
+    },
+    {
+      "id": 17,
+      "question": "Which one of the following shows flight attitude?",
+      "options": [
+        "A. Attitude indicator",
+        "B. Altimeter",
+        "C. Vertical speed indicator"
+      ],
+      "correctIndex": 0,
+      "explanation": "The attitude indicator displays pitch and bank relative to the horizon. The altimeter and VSI give only vertical position and rate, not the aircraft's attitude in space."
+    },
+    {
+      "id": 18,
+      "question": "Which of the following sensors is used for hydraulic pressure measurement?",
+      "options": [
+        "A. Bourdon tube",
+        "B. Diaphragm",
+        "C. Bimetallic strip"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Bourdon tube is a stiff curved tube that tends to straighten as internal pressure rises, which makes it well suited to the high pressures found in hydraulic systems. Diaphragms and capsules are for low pressures."
+    },
+    {
+      "id": 19,
+      "question": "What do the arrows in a synchro schematic diagram indicate?",
+      "options": [
+        "A. Current flow direction",
+        "B. Rotor speed",
+        "C. Winding resistance"
+      ],
+      "correctIndex": 0,
+      "explanation": "The arrows show the instantaneous direction of current in the stator and rotor windings, which is what determines the resultant magnetic field and hence the rotor position taken up by the receiver."
+    },
+    {
+      "id": 20,
+      "question": "Two diaphragms joined together form a:",
+      "options": [
+        "A. Capsule",
+        "B. Bellows",
+        "C. Bourdon tube"
+      ],
+      "correctIndex": 0,
+      "explanation": "Joining two diaphragms at their rims produces a capsule, which gives roughly twice the deflection of a single diaphragm for the same pressure change. Stacking several capsules produces a bellows."
+    },
+    {
+      "id": 21,
+      "question": "What is the use of gears in an instrument mechanism?",
+      "options": [
+        "A. Used to increase and decrease speed",
+        "B. Convert straight-line or arc-like motion into full rotary motion",
+        "C. Both"
+      ],
+      "correctIndex": 2,
+      "explanation": "Gear trains serve both purposes: they change the ratio between input and output movement so the pointer sweeps a useful arc, and they convert the small linear or arc movement of the sensing element into rotation of the pointer spindle."
+    },
+    {
+      "id": 22,
+      "question": "What is the use of corrugation in a diaphragm or capsule?",
+      "options": [
+        "A. It permits deflection",
+        "B. It seals the instrument case",
+        "C. It prevents corrosion"
+      ],
+      "correctIndex": 0,
+      "explanation": "The concentric corrugations let the thin metal flex and stretch under pressure, giving a larger and more linear deflection than a flat sheet of the same thickness, while still keeping the element strong enough to return to shape."
+    }
+  ]
+}

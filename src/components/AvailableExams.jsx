@@ -37,20 +37,25 @@ function getCourseIcon(courseId, className = 'w-6 h-6') {
 function ExamCard({ exam, onStartExam }) {
   const icon = getCourseIcon(exam.course, 'w-6 h-6')
   const isSchoolFinal = exam.category === 'school_final'
+  const isOurExamB278 = exam.category === 'our_exam_b278'
+
+  let badgeClass = 'bg-blue-50 text-blue-700 border-blue-200'
+  let badgeLabel = '📘 Part Exam'
+  if (isOurExamB278) {
+    badgeClass = 'bg-purple-50 text-purple-700 border-purple-200'
+    badgeLabel = '⚡ our exam(B278)'
+  } else if (isSchoolFinal) {
+    badgeClass = 'bg-amber-50 text-amber-800 border-amber-200'
+    badgeLabel = '🎓 Subfinal & School Exam'
+  }
 
   return (
     <div className="bg-white rounded-2xl border border-slate-200 p-5 flex flex-col justify-between shadow-xs hover:shadow-md transition-all duration-200 group hover:-translate-y-0.5">
       <div>
         {/* Header Badges */}
         <div className="flex items-center justify-between gap-2 mb-3">
-          <span
-            className={`text-[10px] font-bold px-2.5 py-0.5 rounded-full border ${
-              isSchoolFinal
-                ? 'bg-amber-50 text-amber-800 border-amber-200'
-                : 'bg-blue-50 text-blue-700 border-blue-200'
-            }`}
-          >
-            {isSchoolFinal ? '🎓 Subfinal & School Exam' : '📘 Part Exam'}
+          <span className={`text-[10px] font-bold px-2.5 py-0.5 rounded-full border ${badgeClass}`}>
+            {badgeLabel}
           </span>
 
           <span className="text-[11px] font-medium text-slate-400">
@@ -120,6 +125,15 @@ function ExamCard({ exam, onStartExam }) {
 
 function EmptySubSectionCard({ course, categoryId }) {
   const isSchoolFinal = categoryId === 'school_final'
+  const isOurExamB278 = categoryId === 'our_exam_b278'
+
+  const titleText = isOurExamB278
+    ? 'No our exam(B278) Added Yet'
+    : isSchoolFinal
+    ? 'No Subfinal or School Exams Added Yet'
+    : 'No Part Exams Added Yet'
+
+  const categoryValue = isOurExamB278 ? 'our_exam_b278' : isSchoolFinal ? 'school_final' : 'part'
 
   return (
     <div className="bg-slate-50/70 border-2 border-dashed border-slate-200 rounded-2xl p-6 text-center flex flex-col items-center justify-center">
@@ -129,10 +143,10 @@ function EmptySubSectionCard({ course, categoryId }) {
         </svg>
       </div>
       <h5 className="font-semibold text-slate-800 text-xs mb-1">
-        No {isSchoolFinal ? 'Subfinal or School Exams' : 'Part Exams'} Added Yet
+        {titleText}
       </h5>
       <p className="text-[11px] text-slate-500 max-w-sm leading-relaxed mb-3">
-        Place a new JSON file into <code className="bg-white px-1.5 py-0.5 rounded border border-slate-200 font-mono text-[10px] text-blue-600">src/exams/</code> with <code className="font-mono text-slate-700">"course": "{course.id}"</code> and <code className="font-mono text-slate-700">"category": "{isSchoolFinal ? 'school_final' : 'part'}"</code>.
+        Place a new JSON file into <code className="bg-white px-1.5 py-0.5 rounded border border-slate-200 font-mono text-[10px] text-blue-600">src/exams/</code> with <code className="font-mono text-slate-700">"course": "{course.id}"</code> and <code className="font-mono text-slate-700">"category": "{categoryValue}"</code>.
       </p>
       <span className="text-[10px] text-slate-400">Refer to src/exams/README.md for format template</span>
     </div>
@@ -154,10 +168,13 @@ export default function AvailableExams({ onStartExam }) {
   const [expandedSubsections, setExpandedSubsections] = useState({
     'avionics-part': false,
     'avionics-school_final': false,
+    'avionics-our_exam_b278': false,
     'airframe-part': false,
     'airframe-school_final': false,
+    'airframe-our_exam_b278': false,
     'powerplant-part': false,
     'powerplant-school_final': false,
+    'powerplant-our_exam_b278': false,
   })
 
   // Toggle Course Section Open/Closed
@@ -208,6 +225,7 @@ export default function AvailableExams({ onStartExam }) {
         ...prev,
         [`${courseId}-part`]: true,
         [`${courseId}-school_final`]: true,
+        [`${courseId}-our_exam_b278`]: true,
       }))
       setTimeout(() => {
         const el = document.getElementById(`course-section-${courseId}`)
@@ -228,6 +246,7 @@ export default function AvailableExams({ onStartExam }) {
       updatedCourses[c.id] = nextState
       updatedSubsections[`${c.id}-part`] = nextState
       updatedSubsections[`${c.id}-school_final`] = nextState
+      updatedSubsections[`${c.id}-our_exam_b278`] = nextState
     })
     setExpandedCourses(updatedCourses)
     setExpandedSubsections(updatedSubsections)
@@ -324,11 +343,13 @@ export default function AvailableExams({ onStartExam }) {
           const courseData = grouped[course.id]
           const partExams = courseData?.part || []
           const schoolFinalExams = courseData?.school_final || []
+          const ourExamB278Exams = courseData?.our_exam_b278 || []
           const courseTotal = courseData?.total || 0
           const isCourseExpanded = Boolean(expandedCourses[course.id])
 
           const isPartExpanded = Boolean(expandedSubsections[`${course.id}-part`])
           const isSchoolFinalExpanded = Boolean(expandedSubsections[`${course.id}-school_final`])
+          const isOurExamB278Expanded = Boolean(expandedSubsections[`${course.id}-our_exam_b278`])
 
           return (
             <div
@@ -369,11 +390,13 @@ export default function AvailableExams({ onStartExam }) {
                   </div>
                 </div>
 
-                <div className="flex items-center gap-3 self-end sm:self-auto">
-                  <div className="flex items-center gap-2 text-xs text-slate-500">
+                <div className="flex items-center gap-3 self-end sm:self-auto flex-wrap sm:flex-nowrap">
+                  <div className="flex items-center gap-1.5 sm:gap-2 text-xs text-slate-500 flex-wrap">
                     <span className="font-semibold text-slate-700">{partExams.length} Part</span>
                     <span className="text-slate-300">·</span>
                     <span className="font-semibold text-slate-700">{schoolFinalExams.length} School Final</span>
+                    <span className="text-slate-300">·</span>
+                    <span className="font-semibold text-purple-700">{ourExamB278Exams.length} B278</span>
                   </div>
 
                   {/* Rotating Chevron Icon */}
@@ -502,6 +525,62 @@ export default function AvailableExams({ onStartExam }) {
                           </div>
                         ) : (
                           <EmptySubSectionCard course={course} categoryId="school_final" />
+                        )}
+                      </div>
+                    )}
+                  </div>
+
+                  {/* SUB-SECTION 3: our exam(B278) */}
+                  <div
+                    id={`sub-section-${course.id}-our_exam_b278`}
+                    className="border border-purple-200/80 rounded-2xl p-4 sm:p-5 bg-purple-50/20"
+                  >
+                    {/* Sub-section Header Button (Click to toggle/open up our exam(B278)) */}
+                    <button
+                      type="button"
+                      onClick={() => handleToggleSubsection(course.id, 'our_exam_b278')}
+                      className="w-full flex items-center justify-between gap-2 pb-2 text-left cursor-pointer select-none group"
+                    >
+                      <div className="flex items-center gap-2.5">
+                        <span className="w-2.5 h-2.5 rounded-full bg-purple-600"></span>
+                        <h4 className="font-bold text-slate-900 text-sm group-hover:text-purple-700 transition-colors">
+                          our exam(B278)
+                        </h4>
+                        <span className="text-[11px] font-semibold text-purple-800 bg-purple-100/80 border border-purple-200 px-2 py-0.2 rounded-full">
+                          {ourExamB278Exams.length}
+                        </span>
+                        <span className="text-[11px] text-slate-400 hidden sm:inline font-normal">
+                          · B278 batch examination tests & practice questions
+                        </span>
+                      </div>
+
+                      <div className="flex items-center gap-2 text-xs font-semibold text-slate-500">
+                        <span className="hidden sm:inline text-[11px] text-slate-400">
+                          {isOurExamB278Expanded ? 'Click to collapse' : 'Click to open up'}
+                        </span>
+                        <div
+                          className={`w-6 h-6 rounded-md flex items-center justify-center transition-transform duration-200 ${
+                            isOurExamB278Expanded ? 'rotate-180 text-purple-600' : 'text-slate-400'
+                          }`}
+                        >
+                          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2.5} stroke="currentColor" className="w-3.5 h-3.5">
+                            <path strokeLinecap="round" strokeLinejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+                          </svg>
+                        </div>
+                      </div>
+                    </button>
+
+                    {/* our exam(B278) Cards (Opens up when expanded) */}
+                    {isOurExamB278Expanded && (
+                      <div className="pt-3 animate-in fade-in duration-150">
+                        {ourExamB278Exams.length > 0 ? (
+                          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+                            {ourExamB278Exams.map((exam) => (
+                              <ExamCard key={exam.id} exam={exam} onStartExam={onStartExam} />
+                            ))}
+                          </div>
+                        ) : (
+                          <EmptySubSectionCard course={course} categoryId="our_exam_b278" />
                         )}
                       </div>
                     )}

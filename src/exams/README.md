@@ -6,13 +6,13 @@ Welcome! This folder contains all the examination JSON files. The website **auto
 
 ## 🏛️ Course & Sub-Section Architecture
 
-The main page is divided into **3 Examination Courses**, and each course has **2 Sub-Sections**:
+The main page is divided into **3 Examination Courses**, and each course has **3 Sub-Sections**:
 
 | Course | ID (`course`) | Sub-Sections (`category`) |
 | :--- | :--- | :--- |
-| **Avionic Exam** | `"avionics"` | 1. **Part Exam** (`"category": "part"`)<br>2. **Subfinal and School Exam** (`"category": "school_final"`) |
-| **Airframe Exam** | `"airframe"` | 1. **Part Exam** (`"category": "part"`)<br>2. **Subfinal and School Exam** (`"category": "school_final"`) |
-| **Powerplant Exam** | `"powerplant"` | 1. **Part Exam** (`"category": "part"`)<br>2. **Subfinal and School Exam** (`"category": "school_final"`) |
+| **Avionic Exam** | `"avionics"` | 1. **Part Exam** (`"category": "part"`)<br>2. **Subfinal and School Exam** (`"category": "school_final"`)<br>3. **our exam(B278)** (`"category": "our_exam_b278"` or `"b278"`) |
+| **Airframe Exam** | `"airframe"` | 1. **Part Exam** (`"category": "part"`)<br>2. **Subfinal and School Exam** (`"category": "school_final"`)<br>3. **our exam(B278)** (`"category": "our_exam_b278"` or `"b278"`) |
+| **Powerplant Exam** | `"powerplant"` | 1. **Part Exam** (`"category": "part"`)<br>2. **Subfinal and School Exam** (`"category": "school_final"`)<br>3. **our exam(B278)** (`"category": "our_exam_b278"` or `"b278"`) |
 
 ---
 
@@ -56,7 +56,7 @@ Every exam JSON file in `src/exams/` should follow this structure:
 | `title` | `string` | Display title of the exam. | Any string (e.g. `"Powerplant School Final (100Q)"`) |
 | `module` | `string` | Module / subject tag displayed on cards & headers. | e.g. `"AVO-1"`, `"ET-AV07.6"`, `"Turbine Engines"` |
 | `course` | `string` | **Which course this exam belongs to.** | `"avionics"`, `"airframe"`, or `"powerplant"` |
-| `category` | `string` | **Which sub-section this exam belongs to.** | `"part"` (Part Exam) or `"school_final"` (Subfinal & School Exam) |
+| `category` | `string` | **Which sub-section this exam belongs to.** | `"part"` (Part Exam), `"school_final"` (Subfinal & School Exam), or `"our_exam_b278"` (our exam(B278)) |
 | `description` | `string` | Summary of topics covered by this exam. | Any descriptive text |
 | `durationMinutes`| `number` | Timed duration in Exam Mode (countdown timer). | Defaults to `150` minutes |
 | `totalQuestions` | `number` | Total number of questions (auto-verified against `questions.length`). | e.g. `50`, `90` |
@@ -277,6 +277,7 @@ If you forget to add `"course"` or `"category"` into your JSON file, the loader 
    - If filename, title, or module contains `powerplant`, `engine`, or `pp` ➔ **Powerplant Exam**
 
 2. **Sub-Section Auto-Detection**:
+   - If filename, title, or module contains `b278`, `our exam`, or `our_exam` ➔ **our exam(B278)**
    - If filename, title, or module contains `school`, `final`, or `subfinal` ➔ **Subfinal and School Exam**
    - Otherwise ➔ **Part Exam**
 
@@ -285,4 +286,4 @@ If you forget to add `"course"` or `"category"` into your JSON file, the loader 
 ## ⚡ Live Auto-Reload
 
 - **No code changes needed**: Simply create and save a `.json` file in `src/exams/`.
-- The website immediately discovers the new exam, places it under the correct Course and Sub-Section, and makes it available to take in **Exam Mode** (timed) or **Practice Mode** (untimed with instant answers)!
+- The website immediately discovers the new exam, places it under the correct Course and Sub-Section (`Part Exam`, `Subfinal and School Exam`, or `our exam(B278)`), and makes it available to take in **Exam Mode** (timed) or **Practice Mode** (untimed with instant answers)!

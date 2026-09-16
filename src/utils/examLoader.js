@@ -49,6 +49,13 @@ export const SUB_SECTIONS = [
     subtitle: 'Comprehensive school finals & subfinal evaluation exams',
     badgeClass: 'bg-amber-100 text-amber-800 border-amber-200',
   },
+  {
+    id: 'our_exam_b278',
+    title: 'our exam(B278)',
+    shortTitle: 'our exam(B278)',
+    subtitle: 'B278 batch examination tests & practice questions',
+    badgeClass: 'bg-purple-100 text-purple-800 border-purple-200',
+  },
 ]
 
 /**
@@ -70,10 +77,18 @@ function determineCourse(data, fileName) {
 }
 
 /**
- * Determines which sub-section an exam belongs to: 'part' | 'school_final'
+ * Determines which sub-section an exam belongs to: 'part' | 'school_final' | 'our_exam_b278'
  */
 function determineCategory(data, fileName) {
   const explicit = String(data.category || data.subSection || data.section || data.type || '').toLowerCase().trim()
+  if (
+    explicit.includes('b278') ||
+    explicit.includes('our exam') ||
+    explicit.includes('our_exam') ||
+    explicit === 'our_exam_b278'
+  ) {
+    return 'our_exam_b278'
+  }
   if (
     explicit.includes('school') ||
     explicit.includes('final') ||
@@ -89,6 +104,9 @@ function determineCategory(data, fileName) {
 
   // Auto-detect from filename, title, id, or module text
   const combined = `${data.id || ''} ${fileName} ${data.title || ''} ${data.module || ''}`.toLowerCase()
+  if (combined.includes('b278') || combined.includes('our exam') || combined.includes('our_exam')) {
+    return 'our_exam_b278'
+  }
   if (
     combined.includes('school') ||
     combined.includes('subfinal') ||
@@ -134,6 +152,13 @@ function normalizeExam(filePath, rawData) {
 
   const iconBg = colorMap[color] || 'bg-blue-600'
 
+  let categoryLabel = 'Part Exam'
+  if (category === 'school_final') {
+    categoryLabel = 'Subfinal & School Exam'
+  } else if (category === 'our_exam_b278') {
+    categoryLabel = 'our exam(B278)'
+  }
+
   return {
     ...data,
     id,
@@ -144,8 +169,8 @@ function normalizeExam(filePath, rawData) {
     durationMinutes,
     totalQuestions,
     course, // 'avionics' | 'airframe' | 'powerplant'
-    category, // 'part' | 'school_final'
-    categoryLabel: category === 'school_final' ? 'Subfinal & School Exam' : 'Part Exam',
+    category, // 'part' | 'school_final' | 'our_exam_b278'
+    categoryLabel,
     courseLabel: course === 'airframe' ? 'Airframe Exam' : course === 'powerplant' ? 'Powerplant Exam' : 'Avionics Exam',
     color,
     iconBg,
@@ -177,6 +202,7 @@ export function getExamsGrouped() {
       info: course,
       part: courseExams.filter((ex) => ex.category === 'part'),
       school_final: courseExams.filter((ex) => ex.category === 'school_final'),
+      our_exam_b278: courseExams.filter((ex) => ex.category === 'our_exam_b278'),
       total: courseExams.length,
     }
   })
