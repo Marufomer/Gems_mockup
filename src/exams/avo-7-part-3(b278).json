@@ -1,0 +1,266 @@
+{
+  "id": "avo-7-part-3",
+  "title": "AVO-7-Part-3",
+  "module": "AVO-7",
+  "course": "avionics",
+  "category": "our_exam_b278",
+  "description": "Part exam covering pitot-static systems: static port location, alternate static source, pitot heat, altimeter/QNH, airspeed and VSI operation, CADC, drain traps, leak checks, and sources of pitot-static instrument error.",
+  "durationMinutes": 60,
+  "totalQuestions": 23,
+  "color": "rose",
+  "questions": [
+    {
+      "id": 1,
+      "question": "How many pressure connectors are there on one side of an air data computer?",
+      "options": [
+        "A. 2",
+        "B. 1",
+        "C. 4"
+      ],
+      "correctIndex": 0,
+      "explanation": "Each side (channel) of an air data computer normally has two pressure connections — one for pitot (total) pressure and one for static pressure — so that it can derive airspeed, altitude and rate of change of altitude."
+    },
+    {
+      "id": 2,
+      "question": "Where should a static port be positioned?",
+      "options": [
+        "A. Least affected by airflow variation",
+        "B. As close as possible to the pitot tube",
+        "C. Inside the pressurized cabin"
+      ],
+      "correctIndex": 0,
+      "explanation": "The static port must be sited where the local airflow stays as close as possible to true ambient (undisturbed) pressure across the full range of speed and attitude, i.e. a location least affected by airflow variation around the fuselage."
+    },
+    {
+      "id": 3,
+      "question": "Why do we need alternate static pressure sources?",
+      "options": [
+        "A. For emergency use",
+        "B. To increase indicated airspeed accuracy at all times",
+        "C. To reduce the weight of the pitot-static system"
+      ],
+      "correctIndex": 0,
+      "explanation": "An alternate static source provides a backup air pressure reference for the emergency use if the primary static port or line becomes blocked or damaged, so the flight instruments can continue to function."
+    },
+    {
+      "id": 4,
+      "question": "What is mandatory regarding pitot-static heat indication?",
+      "options": [
+        "A. Indication of heat operation in the cockpit",
+        "B. The heaters must run continuously on the ground with no indication",
+        "C. Heat indication is only required on the ground"
+      ],
+      "correctIndex": 0,
+      "explanation": "The crew must be able to confirm that pitot/static probe heating is actually operating, so a cockpit indication of heater operation (and/or a fault warning) is a mandatory feature of the system."
+    },
+    {
+      "id": 5,
+      "question": "QNH is defined as:",
+      "options": [
+        "A. Setting the pressure scale to make the altimeter read airfield height above sea level",
+        "B. Setting the altimeter to read zero on the runway",
+        "C. Setting the altimeter to standard pressure 1013.25 hPa"
+      ],
+      "correctIndex": 0,
+      "explanation": "QNH is the barometric pressure setting that, when set on the altimeter subscale, makes the altimeter read the airfield's elevation (height above mean sea level) while the aircraft is on the ground at that airfield."
+    },
+    {
+      "id": 6,
+      "question": "What does a conventional cabin altimeter directly respond to?",
+      "options": [
+        "A. Prevailing cabin air pressure",
+        "B. Outside static pressure only",
+        "C. Pitot (total) pressure"
+      ],
+      "correctIndex": 0,
+      "explanation": "A cabin altimeter is connected to the cabin (pressurized) air rather than to the aircraft's external static system, so it directly responds to and displays the prevailing cabin air pressure, shown as an equivalent altitude."
+    },
+    {
+      "id": 7,
+      "question": "In a VSI, what limits the flow of air into the case?",
+      "options": [
+        "A. Orifice",
+        "B. Diaphragm",
+        "C. Bourdon tube"
+      ],
+      "correctIndex": 0,
+      "explanation": "A calibrated orifice (metering restrictor) delays the pressure change reaching the instrument case, so a momentary difference exists between the case and the diaphragm during a change of altitude, which is what the VSI measures."
+    },
+    {
+      "id": 8,
+      "question": "The VSI uses the pressure difference between:",
+      "options": [
+        "A. Static pressure for the diaphragm and static pressure for the instrument case",
+        "B. Pitot pressure for the diaphragm and static pressure for the case",
+        "C. Cabin pressure and pitot pressure"
+      ],
+      "correctIndex": 0,
+      "explanation": "Both the diaphragm and the case receive static pressure, but the case pressure lags behind the diaphragm pressure because of the metering orifice. The resulting momentary difference between these two static pressure paths is what deflects the diaphragm and drives the pointer."
+    },
+    {
+      "id": 9,
+      "question": "Which of the following is NOT a correct procedure applied to the pitot-static heater system?",
+      "options": [
+        "A. Make sure the pitot probe is covered",
+        "B. Check the heater indication operates correctly",
+        "C. Check for correct heater current draw"
+      ],
+      "correctIndex": 0,
+      "explanation": "The pitot probe must be left uncovered (and the pitot heat kept off) so the probe can be safely checked and the airflow path is clear; covering the probe would be the opposite of the correct test procedure and risks damage if heat is then applied."
+    },
+    {
+      "id": 10,
+      "question": "The sensing element in an airspeed indicator is a:",
+      "options": [
+        "A. Diaphragm",
+        "B. Bimetallic strip",
+        "C. Bourdon tube"
+      ],
+      "correctIndex": 0,
+      "explanation": "The airspeed indicator uses a diaphragm (capsule) fed with pitot pressure inside a case fed with static pressure; the diaphragm deflects according to the pitot-static differential (dynamic pressure), which is calibrated in terms of airspeed."
+    },
+    {
+      "id": 11,
+      "question": "Which of the following is NOT correct about drain traps of a pitot-static system?",
+      "options": [
+        "A. The drain valves are not of the self-closing type, so they can be inadvertently left open after drainage of accumulated water",
+        "B. Drain traps collect moisture from the lowest points of the pitot-static lines",
+        "C. Drain traps should be checked and drained during scheduled maintenance"
+      ],
+      "correctIndex": 0,
+      "explanation": "In practice, drain valves in a pitot-static system are of the self-closing type specifically to prevent them from being left open after draining, since an open drain would introduce a leak into the system. The statement claiming they are not self-closing is therefore the incorrect one."
+    },
+    {
+      "id": 12,
+      "question": "Use of a CADC (central air data computer) helps:",
+      "options": [
+        "A. Minimize the 'plumbing' arrangement of pitot-static systems",
+        "B. Eliminate the need for a static port entirely",
+        "C. Increase the number of pitot tubes required"
+      ],
+      "correctIndex": 0,
+      "explanation": "By computing airspeed, altitude and vertical speed centrally and distributing the results electrically to the various displays and systems, the CADC greatly reduces the amount of pneumatic tubing ('plumbing') that would otherwise be needed to feed multiple individual instruments."
+    },
+    {
+      "id": 13,
+      "question": "The pitot-static system senses total pressure and static pressure, which are measured in terms of:",
+      "options": [
+        "A. Speed, altitude and rate of change of altitude (vertical speed)",
+        "B. Fuel flow, EGT and oil pressure",
+        "C. Attitude, heading and course"
+      ],
+      "correctIndex": 0,
+      "explanation": "The combination of total (pitot) pressure and static pressure is processed to derive airspeed (from the differential), altitude (from static pressure), and vertical speed (from the rate of change of static pressure)."
+    },
+    {
+      "id": 14,
+      "question": "The complexity of a pitot-static system depends primarily upon:",
+      "options": [
+        "A. The type and size of aircraft, and the number of locations where primary flight instrument data are required",
+        "B. The color scheme of the cockpit instruments",
+        "C. The number of passengers on board"
+      ],
+      "correctIndex": 0,
+      "explanation": "A small single-instrument aircraft needs only a simple system, while a large aircraft with multiple crew stations, redundant instruments and air data computers needs a much more extensive system — so aircraft type/size and the number of data-use locations drive the complexity."
+    },
+    {
+      "id": 15,
+      "question": "What could be a reason for altimeter error?",
+      "options": [
+        "A. Variation in temperature and pressure",
+        "B. Variation in engine RPM",
+        "C. Variation in hydraulic pressure"
+      ],
+      "correctIndex": 0,
+      "explanation": "Altimeters are calibrated against a standard atmosphere, so departures of actual outside air temperature and pressure from that standard produce known errors between indicated and true altitude."
+    },
+    {
+      "id": 16,
+      "question": "Which of the following is the correct procedure for a pitot system leak check?",
+      "options": [
+        "A. Make sure that the ATC transponders are in standby mode",
+        "B. Make sure that the ATC transponders are in normal transmit mode",
+        "C. Disconnect the transponder power supply entirely"
+      ],
+      "correctIndex": 0,
+      "explanation": "During a pitot-static/leak check the ATC transponder(s) must be set to standby so that altitude-reporting transmissions are not triggered and interfere with ground control or the test, while the system is being pressurized and checked for leaks."
+    },
+    {
+      "id": 17,
+      "question": "To prevent the entry of water and other foreign matter, the pitot pressure tube is provided with:",
+      "options": [
+        "A. Baffles",
+        "B. A metering orifice",
+        "C. A bimetallic strip"
+      ],
+      "correctIndex": 0,
+      "explanation": "Internal baffles inside the pitot tube help deflect water droplets and foreign matter out through drain holes while still allowing the pitot pressure to reach the instrument lines cleanly."
+    },
+    {
+      "id": 18,
+      "question": "What is the use of the VSI?",
+      "options": [
+        "A. To show the rate of climb or descent",
+        "B. To show indicated airspeed",
+        "C. To show barometric pressure setting"
+      ],
+      "correctIndex": 0,
+      "explanation": "The vertical speed indicator displays the rate at which the aircraft is climbing or descending, expressed as feet (or metres) per minute, giving the pilot a continuous trend indication rather than just current altitude."
+    },
+    {
+      "id": 19,
+      "question": "In an instantaneous VSI, when the aircraft pitches down, the instrument shows an immediate:",
+      "options": [
+        "A. Rate of descent",
+        "B. Rate of climb",
+        "C. No change in indication"
+      ],
+      "correctIndex": 0,
+      "explanation": "The instantaneous VSI uses accelerometer-driven pumps to sense the vertical acceleration the moment the aircraft pitches down, giving an immediate rate-of-descent indication without the lag of a conventional VSI."
+    },
+    {
+      "id": 20,
+      "question": "What is the purpose of a drain hole in a pitot-static system?",
+      "options": [
+        "A. Used to prevent blockage of the pipe due to moisture and foreign matter",
+        "B. Used to reduce the overall system pressure",
+        "C. Used to equalize cabin and outside pressure"
+      ],
+      "correctIndex": 0,
+      "explanation": "Drain holes allow any condensed moisture or foreign matter that collects in the pitot or static lines to escape, preventing blockages that would otherwise cause erroneous or sluggish instrument readings."
+    },
+    {
+      "id": 21,
+      "question": "Which one of the following is correct?",
+      "options": [
+        "A. On a pressurized aircraft, cabin pressure and outside pressure are different",
+        "B. On a pressurized aircraft, cabin pressure and outside pressure are always identical",
+        "C. Pressurization has no effect on cabin altimeter readings"
+      ],
+      "correctIndex": 0,
+      "explanation": "The whole purpose of pressurization is to maintain a cabin pressure higher than the outside ambient pressure at altitude, so the cabin altimeter reads a lower (more comfortable) altitude than the aircraft's actual flight altitude."
+    },
+    {
+      "id": 22,
+      "question": "Which onboard aircraft equipment is subject to pitot-static testing?",
+      "options": [
+        "A. Altimeter, airspeed, vertical speed",
+        "B. Engine tachometer, oil pressure, fuel flow",
+        "C. Attitude indicator, HSI, RMI"
+      ],
+      "correctIndex": 0,
+      "explanation": "Pitot-static testing checks every instrument and system fed from the pitot-static system, principally the altimeter, airspeed indicator and vertical speed indicator, along with any air data computer outputs derived from them."
+    },
+    {
+      "id": 23,
+      "question": "Which one of the following is correct?",
+      "options": [
+        "A. Direct indication and transmission of data is highly affected by error due to plumbing",
+        "B. Direct indication and transmission of data is completely unaffected by plumbing errors",
+        "C. Plumbing length has no bearing on pitot-static instrument accuracy"
+      ],
+      "correctIndex": 0,
+      "explanation": "In a directly-plumbed pitot-static system, leaks, blockages, condensation and line length in the tubing ('plumbing') directly affect the pressure reaching the instruments, so direct indication and transmission of data is highly susceptible to plumbing-related error — a key reason electronic air data computers with minimal plumbing are preferred on larger aircraft."
+    }
+  ]
+}

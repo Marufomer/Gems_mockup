@@ -1,0 +1,233 @@
+{
+  "id": "avo-7-part-4",
+  "title": "AVO-7-Part-4",
+  "module": "AVO-7",
+  "course": "avionics",
+  "category": "our_exam_b278",
+  "description": "Part exam covering gyroscopic instruments: pendulous erection, vertical gyro construction, gimbal error and gimbal lock, precession, ring laser gyros, rate gyros, turn and bank indication, and gyro drive systems.",
+  "durationMinutes": 60,
+  "totalQuestions": 20,
+  "color": "green",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which one of the following is a pendulous erection operating factor?",
+      "options": [
+        "A. Unequal air reaction",
+        "B. Equal magnetic flux",
+        "C. Constant hydraulic pressure"
+      ],
+      "correctIndex": 0,
+      "explanation": "Pendulous vanes hang below the gyro case, and when the gyro tilts, gravity causes an unequal air reaction across the vanes. This unequal reaction produces the correcting torque that erects the gyro back to its vertical reference."
+    },
+    {
+      "id": 2,
+      "question": "What is the effective method of driving a gimbaled rotor gyro?",
+      "options": [
+        "A. Electrically",
+        "B. By vacuum-driven air jets only",
+        "C. By manual hand-spinning before flight"
+      ],
+      "correctIndex": 0,
+      "explanation": "Modern gimbaled gyros are driven electrically, using an ac induction motor built into the rotor assembly, which gives a more constant and higher rotor speed than older vacuum/pneumatic drive methods."
+    },
+    {
+      "id": 3,
+      "question": "What is the use of the pendulum in a vertical gyro?",
+      "options": [
+        "A. To prevent incorrect erection",
+        "B. To increase rotor spin speed",
+        "C. To measure outside air temperature"
+      ],
+      "correctIndex": 0,
+      "explanation": "The pendulous erection system senses when the spin axis has drifted from true vertical and applies a correcting torque, while being designed so it does not apply erection torque during aircraft accelerations or turns, preventing incorrect (false) erection."
+    },
+    {
+      "id": 4,
+      "question": "What effect does a gimbal error have?",
+      "options": [
+        "A. It causes a false heading indication",
+        "B. It causes a false airspeed indication",
+        "C. It causes a false fuel quantity indication"
+      ],
+      "correctIndex": 0,
+      "explanation": "Gimbal error arises from the geometry of the gimbal rings when the aircraft is in a steep bank combined with certain headings, and it produces a temporary false heading indication on the directional gyro."
+    },
+    {
+      "id": 5,
+      "question": "Which component drives the horizon bar of an attitude indicator?",
+      "options": [
+        "A. Separate pitch and roll servomotors",
+        "B. A single combined pitch-and-roll motor",
+        "C. The pendulous vanes directly"
+      ],
+      "correctIndex": 0,
+      "explanation": "Pitch and roll are independent quantities, so separate servomotors — one for pitch and one for roll — drive the horizon bar (or attitude tape) so each axis can be positioned independently based on its own error signal."
+    },
+    {
+      "id": 6,
+      "question": "The roll reference in a rigid (gimbaled) gyro system is provided by the:",
+      "options": [
+        "A. Rotor, outer gimbal, inner gimbal",
+        "B. Static port and pitot tube",
+        "C. Fuel tank compensator"
+      ],
+      "correctIndex": 0,
+      "explanation": "A rigid gimbaled gyro maintains its spin axis fixed in space through the combination of the spinning rotor and the outer and inner gimbal rings, which allow the aircraft to move in pitch and roll around the fixed rotor without disturbing it."
+    },
+    {
+      "id": 7,
+      "question": "Precession is defined as:",
+      "options": [
+        "A. Angular change 90 degrees away from the applied force",
+        "B. Angular change in the same direction as the applied force",
+        "C. A complete stop of rotor rotation"
+      ],
+      "correctIndex": 0,
+      "explanation": "Gyroscopic precession is the characteristic response of a spinning rotor to an applied force: instead of moving in the direction of the force, the resulting angular change appears 90 degrees away, in the direction of rotor rotation."
+    },
+    {
+      "id": 8,
+      "question": "Which of the following is a correct statement?",
+      "options": [
+        "A. A ring laser gyro uses a beam of light",
+        "B. A ring laser gyro uses a spinning mechanical rotor",
+        "C. A ring laser gyro requires pneumatic drive air"
+      ],
+      "correctIndex": 0,
+      "explanation": "The ring laser gyro has no spinning mass; it senses rotation optically by comparing two laser beams travelling around a closed cavity, making it a solid-state alternative to the traditional mechanical spinning-rotor gyro."
+    },
+    {
+      "id": 9,
+      "question": "Which instrument is controlled by a gyroscope?",
+      "options": [
+        "A. Attitude indicator",
+        "B. Airspeed indicator",
+        "C. Fuel quantity indicator"
+      ],
+      "correctIndex": 0,
+      "explanation": "The attitude indicator (artificial horizon) relies on a gyro (mechanical rotor or laser gyro) to provide the stable pitch and roll reference. Airspeed and fuel quantity are pressure- and capacitance/float-based instruments, not gyroscopic."
+    },
+    {
+      "id": 10,
+      "question": "In an RLG (ring laser gyro) installation, how many are typically fitted?",
+      "options": [
+        "A. One for each axis of flight",
+        "B. Only one gyro for the entire aircraft",
+        "C. One RLG per passenger seat row"
+      ],
+      "correctIndex": 0,
+      "explanation": "A full inertial reference unit uses a triad of ring laser gyros, one mounted for each of the three axes of flight (pitch, roll and yaw), so rotation about every axis can be sensed independently."
+    },
+    {
+      "id": 11,
+      "question": "Which of the following statements about the RLG is INCORRECT?",
+      "options": [
+        "A. It produces laser beams that travel in the same direction around a closed triangular cavity",
+        "B. It senses rotation by comparing the frequency of two counter-propagating beams",
+        "C. It has no spinning mass and therefore no mechanical bearings to wear"
+      ],
+      "correctIndex": 0,
+      "explanation": "A ring laser gyro actually sends two beams around the closed cavity in opposite directions, not the same direction; rotation is detected from the frequency difference between them (the Sagnac effect). The statement claiming they travel in the same direction is therefore the incorrect one."
+    },
+    {
+      "id": 12,
+      "question": "The freedom of a gyro rotor to move about the horizontal axis is called:",
+      "options": [
+        "A. Tilting freedom",
+        "B. Spinning freedom",
+        "C. Erection freedom"
+      ],
+      "correctIndex": 0,
+      "explanation": "The gimbal arrangement gives the rotor freedom to tilt about the horizontal axis independently of the aircraft's motion, which is what allows the spin axis to remain fixed in space as the aircraft pitches and rolls."
+    },
+    {
+      "id": 13,
+      "question": "Pitch level switches send a signal to the:",
+      "options": [
+        "A. Pitch torque motor",
+        "B. Fuel flow transmitter",
+        "C. Yaw damper servo"
+      ],
+      "correctIndex": 0,
+      "explanation": "Pitch level (cutout) switches sense the erection condition in pitch and, when a correction is needed, signal the pitch torque motor to apply the corrective torque that erects the gyro."
+    },
+    {
+      "id": 14,
+      "question": "What error occurs when a gyro loses its normal spin-axis freedom because a gimbal reaches its mechanical limit?",
+      "options": [
+        "A. Gimbal lock",
+        "B. Precession error",
+        "C. Ram rise error"
+      ],
+      "correctIndex": 0,
+      "explanation": "If the aircraft manoeuvres beyond the range of the gimbal system, the gimbals can reach their stops and 'lock', causing the gyro to tumble and lose its correct attitude/heading reference — this condition is called gimbal lock."
+    },
+    {
+      "id": 15,
+      "question": "The rate gyro operates on the principle of:",
+      "options": [
+        "A. Gyroscopic precession",
+        "B. Capacitance change",
+        "C. Thermocouple EMF"
+      ],
+      "correctIndex": 0,
+      "explanation": "A rate gyro is restrained by a spring so that, instead of remaining rigid in space, an applied rotational rate produces a precession-driven deflection proportional to the rate of turn — the same precession principle that underlies all gyroscopic behaviour."
+    },
+    {
+      "id": 16,
+      "question": "Acceleration error results in a false:",
+      "options": [
+        "A. Pitch indication",
+        "B. Fuel quantity indication",
+        "C. Cabin altitude indication"
+      ],
+      "correctIndex": 0,
+      "explanation": "During acceleration, the pendulous erection system can be fooled into treating the inertial force as if it were gravity, applying an erroneous correction that produces a temporary false pitch (nose-up/nose-down) indication on the attitude indicator."
+    },
+    {
+      "id": 17,
+      "question": "Which of the following is NOT correct?",
+      "options": [
+        "A. For high-performance aircraft, gyroscopic instruments were designed for operation from aircraft pneumatic systems",
+        "B. Electrically-driven gyros became preferred for high-performance aircraft",
+        "C. Pneumatic (vacuum) gyro performance degrades at high altitude"
+      ],
+      "correctIndex": 0,
+      "explanation": "Pneumatic/vacuum-driven gyros lose performance with reduced air density at altitude, which is exactly why high-performance aircraft moved to electrically-driven gyros instead. The statement that high-performance aircraft gyros were designed for pneumatic operation is therefore the incorrect one."
+    },
+    {
+      "id": 18,
+      "question": "Air blowing through a nozzle into the buckets of a gyro rotor:",
+      "options": [
+        "A. Spins the gyro at high speed",
+        "B. Erects the gyro to true vertical",
+        "C. Cools the gyro bearings"
+      ],
+      "correctIndex": 0,
+      "explanation": "In a pneumatically (vacuum or pressure) driven gyro, air is directed through a nozzle onto small buckets machined around the rotor rim, and the impact of this air jet spins the rotor up to its operating speed."
+    },
+    {
+      "id": 19,
+      "question": "Which of the following statements is true regarding the gyro used in a rate of turn and bank indicator?",
+      "options": [
+        "A. The rotor has a greater precession rate",
+        "B. The rotor has no freedom to precess at all",
+        "C. The rotor is driven pneumatically only, never electrically"
+      ],
+      "correctIndex": 0,
+      "explanation": "Because a turn-and-bank/rate gyro must respond quickly to a rate of turn, it is designed with a higher precession rate than an attitude gyro, giving a prompt, proportional deflection for the rate being sensed."
+    },
+    {
+      "id": 20,
+      "question": "What is a gyro, in aviation terms?",
+      "options": [
+        "A. A spinning wheel (mass)",
+        "B. A sealed capsule of gas",
+        "C. A coil of resistance wire"
+      ],
+      "correctIndex": 0,
+      "explanation": "A gyroscope is fundamentally a spinning wheel or mass, which by its angular momentum tends to maintain its spin axis fixed in space — the basic property that all gyroscopic flight instruments are built around."
+    }
+  ]
+}

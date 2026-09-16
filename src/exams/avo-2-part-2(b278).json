@@ -1,0 +1,244 @@
+{
+  "id": "avo-2-part-2",
+  "title": "AVO-2-Part-2",
+  "module": "AVO-2",
+  "course": "avionics",
+  "category": "our_exam_b278",
+  "description": "Part exam covering basic electronics: IC packaging, amplifier classes and phase relationships, oscillators (Colpitts, Armstrong, relaxation), the Barkhausen criterion, voltage regulators, and printed circuit boards.",
+  "durationMinutes": 60,
+  "totalQuestions": 21,
+  "color": "blue",
+  "questions": [
+    {
+      "id": 1,
+      "question": "The most popular IC package is the:",
+      "options": [
+        "A. DIP",
+        "B. BGA",
+        "C. TO-92"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Dual In-line Package (DIP), with its two parallel rows of pins, has long been the most common and widely recognized IC package, especially for socketed and through-hole assembly."
+    },
+    {
+      "id": 2,
+      "question": "Which amplifier class gives high linearity and low distortion?",
+      "options": [
+        "A. Class A",
+        "B. Class B",
+        "C. Class C"
+      ],
+      "correctIndex": 0,
+      "explanation": "A Class A amplifier conducts for the full 360 degrees of the input cycle, which keeps the output waveform closely following the input and gives high linearity and low distortion, at the cost of poor efficiency."
+    },
+    {
+      "id": 3,
+      "question": "What type of amplifier is used to produce a binary output and is a basic building block?",
+      "options": [
+        "A. Comparator amplifier",
+        "B. Class C amplifier",
+        "C. Push-pull amplifier"
+      ],
+      "correctIndex": 0,
+      "explanation": "A comparator amplifier drives its output fully high or fully low depending on which input is larger, producing a two-state (binary) output, which makes it a fundamental building block in digital and switching circuits."
+    },
+    {
+      "id": 4,
+      "question": "Which of the following is a memory element?",
+      "options": [
+        "A. Bistable",
+        "B. Oscillator",
+        "C. Comparator"
+      ],
+      "correctIndex": 0,
+      "explanation": "A bistable circuit (flip-flop) has two stable output states and remains in whichever state it was last set to, giving it the ability to store one bit of information — the basic function of a memory element."
+    },
+    {
+      "id": 5,
+      "question": "In a series regulator circuit, the resistance of which element is varied to change the output voltage?",
+      "options": [
+        "A. Active element",
+        "B. Load resistor",
+        "C. Input filter capacitor"
+      ],
+      "correctIndex": 0,
+      "explanation": "A series regulator uses an active element (such as a transistor) in series with the load, whose effective resistance is continuously varied by the control circuit to hold the output voltage constant despite changes in input or load."
+    },
+    {
+      "id": 6,
+      "question": "PCB stands for:",
+      "options": [
+        "A. Printed circuit board",
+        "B. Power control board",
+        "C. Programmable circuit breaker"
+      ],
+      "correctIndex": 0,
+      "explanation": "PCB is the standard abbreviation for printed circuit board, the laminated board used to mechanically support and electrically interconnect components using etched copper traces."
+    },
+    {
+      "id": 7,
+      "question": "Which oscillator uses two center-tapped capacitors in series with a parallel inductor?",
+      "options": [
+        "A. Colpitts oscillator",
+        "B. Hartley oscillator",
+        "C. Crystal oscillator"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Colpitts oscillator's tank circuit is formed from a pair of series capacitors (with the junction providing the tap) working with a single inductor, distinguishing it from the Hartley oscillator, which instead uses a tapped inductor with a single capacitor."
+    },
+    {
+      "id": 8,
+      "question": "A capacitive-type filter is characterized by:",
+      "options": [
+        "A. Fast charge and slow discharge",
+        "B. Slow charge and fast discharge",
+        "C. Equal charge and discharge rates"
+      ],
+      "correctIndex": 0,
+      "explanation": "A capacitor filter charges quickly through the low forward resistance of the rectifier but discharges slowly through the higher resistance of the load, which is what smooths the rectified output into a relatively steady dc voltage."
+    },
+    {
+      "id": 9,
+      "question": "A relaxation oscillator is also known as a:",
+      "options": [
+        "A. Multivibrator",
+        "B. Comparator",
+        "C. Regulator"
+      ],
+      "correctIndex": 0,
+      "explanation": "Relaxation oscillators generate a repetitive waveform by repeatedly charging and rapidly discharging a reactive element between two switching thresholds, which is the operating principle of the multivibrator family of circuits."
+    },
+    {
+      "id": 10,
+      "question": "Which amplifier class has the highest efficiency?",
+      "options": [
+        "A. Class C",
+        "B. Class A",
+        "C. Class B"
+      ],
+      "correctIndex": 0,
+      "explanation": "Class C conducts for less than 180 degrees of the input cycle, drawing current only in short pulses, which gives it the highest efficiency of the standard amplifier classes at the expense of significant output distortion."
+    },
+    {
+      "id": 11,
+      "question": "Which class of amplifier conducts for slightly more than 180 degrees (just above cutoff)?",
+      "options": [
+        "A. Class AB",
+        "B. Class A",
+        "C. Class C"
+      ],
+      "correctIndex": 0,
+      "explanation": "Class AB is a compromise design: the device conducts for more than the 180 degrees of Class B but less than the full 360 degrees of Class A, reducing crossover distortion while improving efficiency over Class A."
+    },
+    {
+      "id": 12,
+      "question": "___________ is used to mechanically support and electrically connect electronic components using conductive pathways, or traces, etched from copper sheets laminated onto a non-conductive substrate.",
+      "options": [
+        "A. A printed circuit board",
+        "B. A breadboard",
+        "C. A wiring harness"
+      ],
+      "correctIndex": 0,
+      "explanation": "This is the standard definition of a printed circuit board: a non-conductive substrate laminated with copper that is etched into traces to both hold components in place and wire them together electrically."
+    },
+    {
+      "id": 13,
+      "question": "Which oscillator type uses a tickler coil?",
+      "options": [
+        "A. Armstrong oscillator",
+        "B. Colpitts oscillator",
+        "C. Wien bridge oscillator"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Armstrong oscillator obtains its feedback through a small secondary winding called the tickler coil, magnetically coupled to the main tank circuit inductor, which is the feature that distinguishes it from the Colpitts and Hartley designs."
+    },
+    {
+      "id": 14,
+      "question": "In a common-emitter configuration, the phase relationship between input and output is:",
+      "options": [
+        "A. 180 degrees",
+        "B. 0 degrees (in phase)",
+        "C. 90 degrees"
+      ],
+      "correctIndex": 0,
+      "explanation": "A common-emitter amplifier inverts the signal, so the output is 180 degrees out of phase with the input — one of its defining characteristics compared with the common-base and common-collector configurations."
+    },
+    {
+      "id": 15,
+      "question": "In a common-base configuration, the phase relationship between input and output is:",
+      "options": [
+        "A. Similar phase (0 degrees)",
+        "B. 180 degrees",
+        "C. 90 degrees"
+      ],
+      "correctIndex": 0,
+      "explanation": "The common-base amplifier does not invert the signal, so its output remains in phase with the input, unlike the common-emitter configuration which produces a 180-degree phase shift."
+    },
+    {
+      "id": 16,
+      "question": "What type of feedback is required for an oscillator circuit?",
+      "options": [
+        "A. Positive or regenerative",
+        "B. Negative or degenerative",
+        "C. No feedback at all"
+      ],
+      "correctIndex": 0,
+      "explanation": "An oscillator needs positive (regenerative) feedback so that the returned signal reinforces the original signal in phase, sustaining continuous oscillation, whereas negative feedback would tend to stabilize and suppress oscillation."
+    },
+    {
+      "id": 17,
+      "question": "The voltage gain around the closed feedback loop of an oscillator must be equal to:",
+      "options": [
+        "A. One",
+        "B. Zero",
+        "C. Infinity"
+      ],
+      "correctIndex": 0,
+      "explanation": "For self-sustaining oscillation the loop gain must settle at exactly unity (one): any more and the amplitude would grow uncontrollably, any less and the oscillation would die out."
+    },
+    {
+      "id": 18,
+      "question": "Per the Barkhausen criterion, the amplifier gain around the loop must equal:",
+      "options": [
+        "A. One",
+        "B. Two",
+        "C. Zero"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Barkhausen criterion states that steady oscillation occurs when the loop gain (amplifier gain multiplied by feedback factor) equals exactly one, with the total phase shift around the loop equal to zero or a multiple of 360 degrees."
+    },
+    {
+      "id": 19,
+      "question": "What is an advantage of a PCB compared with wire-wrapped or point-to-point constructed circuits?",
+      "options": [
+        "A. It is more compact, reliable and reproducible than wire-wrapped or point-to-point constructed circuits",
+        "B. It requires no design or layout work at all",
+        "C. It never needs any form of maintenance"
+      ],
+      "correctIndex": 0,
+      "explanation": "Compared with hand-wired or point-to-point construction, a PCB gives a smaller, mechanically stronger and far more consistently reproducible circuit, since every board is etched to the same layout instead of being wired individually by hand."
+    },
+    {
+      "id": 20,
+      "question": "What is a disadvantage of a PCB?",
+      "options": [
+        "A. It requires specially trained technicians to repair it",
+        "B. It cannot carry any current at all",
+        "C. It is heavier than an equivalent wire-wrapped circuit"
+      ],
+      "correctIndex": 0,
+      "explanation": "Because components and traces are densely packed and soldered directly onto the board, repairing a PCB (tracing faults, reflowing joints, replacing fine-pitch components) requires specially trained technicians and proper equipment, unlike simpler point-to-point wiring."
+    },
+    {
+      "id": 21,
+      "question": "If the linear voltage gain of an amplifier is 10, what is the voltage gain expressed in decibels?",
+      "options": [
+        "A. 20 dB",
+        "B. 10 dB",
+        "C. 100 dB"
+      ],
+      "correctIndex": 0,
+      "explanation": "Voltage gain in dB is calculated as 20 × log10(gain). For a linear gain of 10, 20 × log10(10) = 20 × 1 = 20 dB."
+    }
+  ]
+}

@@ -1,0 +1,343 @@
+{
+  "id": "avo-7-part-2",
+  "title": "AVO-7-Part-2",
+  "module": "AVO-7",
+  "course": "avionics",
+  "category": "our_exam_b278",
+  "description": "Part exam covering discrete/status monitoring, EFIS/EICAS/ECAM displays, fuel quantity and flow indication, thermocouple and tachometer sensing, ratiometers, temperature probes, and flight data acquisition.",
+  "durationMinutes": 75,
+  "totalQuestions": 30,
+  "color": "amber",
+  "questions": [
+    {
+      "id": 1,
+      "question": "A 'discrete' signal is used to monitor:",
+      "options": [
+        "A. Switch, relay, indication",
+        "B. Continuously variable pressure",
+        "C. Analog voltage from a potentiometer"
+      ],
+      "correctIndex": 0,
+      "explanation": "Discrete signals are simple two-state (on/off) inputs, so they are well suited to monitoring the logical status of switches, relays and simple indications such as gear-down, rather than a continuously variable quantity."
+    },
+    {
+      "id": 2,
+      "question": "In which area is the status mode message displayed?",
+      "options": [
+        "A. Upper display unit",
+        "B. Lower display unit",
+        "C. Standby instrument"
+      ],
+      "correctIndex": 1,
+      "explanation": "On a typical EICAS/ECAM arrangement, engine primary parameters are shown on the upper display unit while status and system-condition messages, selected via STATUS mode, appear on the lower display unit."
+    },
+    {
+      "id": 3,
+      "question": "The left RLS output signal is sent to the:",
+      "options": [
+        "A. DU (display unit)",
+        "B. FDR",
+        "C. Autothrottle computer"
+      ],
+      "correctIndex": 0,
+      "explanation": "The left sensor's output is routed to the display unit so that the corresponding symbol or parameter can be generated and shown to the crew."
+    },
+    {
+      "id": 4,
+      "question": "The Hall effect is:",
+      "options": [
+        "A. Used to convert the rotational speed of the turbine to an electrical signal",
+        "B. Used to measure static air temperature",
+        "C. Used to seal the fuel tank sender unit"
+      ],
+      "correctIndex": 0,
+      "explanation": "A Hall effect sensor produces a voltage pulse each time a rotating target (such as a turbine shaft gear tooth) passes it, and the pulse rate is proportional to rotational speed, giving an electrical tachometer signal."
+    },
+    {
+      "id": 5,
+      "question": "How is the tank unit connected in a ratiometer fuel quantity system?",
+      "options": [
+        "A. Wired in series coil",
+        "B. Wired directly across the battery bus",
+        "C. Connected only through a shunt resistor"
+      ],
+      "correctIndex": 0,
+      "explanation": "In a ratiometer-type fuel gauge, the capacitance-derived tank unit signal is applied through a series coil arrangement so that the indicator responds to the ratio of currents rather than to absolute current, making it insensitive to supply voltage variation."
+    },
+    {
+      "id": 6,
+      "question": "For a flight crew to check readiness for dispatch against the MEL, which mode does he/she select?",
+      "options": [
+        "A. Status mode",
+        "B. Engine mode",
+        "C. Compare mode"
+      ],
+      "correctIndex": 0,
+      "explanation": "Status mode presents a summary of system faults and inoperative items, which is exactly the information the crew needs to check the aircraft's dispatch status against the Minimum Equipment List."
+    },
+    {
+      "id": 7,
+      "question": "In which location is a compensator found?",
+      "options": [
+        "A. In the low point of the fuel tank",
+        "B. In the cockpit overhead panel",
+        "C. In the flight data recorder"
+      ],
+      "correctIndex": 0,
+      "explanation": "The compensator (a reference capacitor) is installed at the lowest point of the fuel tank so it remains fully submerged, giving the capacitance fuel gauging system a fixed reference against fuel density and dielectric changes."
+    },
+    {
+      "id": 8,
+      "question": "What displays are found in an EFIS installation?",
+      "options": [
+        "A. PFD, ND and control panel",
+        "B. Only the primary flight display",
+        "C. Only the engine display"
+      ],
+      "correctIndex": 0,
+      "explanation": "A typical EFIS comprises the primary flight display, the navigation display, and the associated control/display panels the crew uses to select the display modes and ranges."
+    },
+    {
+      "id": 9,
+      "question": "What are the components of a velocity pickup?",
+      "options": [
+        "A. Permanent magnet, coil of wire, spring supports",
+        "B. Bourdon tube, linkage, pointer",
+        "C. Thermocouple, cold junction, indicator"
+      ],
+      "correctIndex": 0,
+      "explanation": "A velocity (electromagnetic) pickup consists of a permanent magnet and coil assembly, spring-mounted so that relative motion between the magnet and coil induces a voltage proportional to vibration velocity."
+    },
+    {
+      "id": 10,
+      "question": "The voltage produced by a thermocouple is:",
+      "options": [
+        "A. Directly proportional to applied temperature",
+        "B. Inversely proportional to applied temperature",
+        "C. Independent of temperature"
+      ],
+      "correctIndex": 0,
+      "explanation": "A thermocouple generates an EMF (the Seebeck effect) that increases as the temperature difference between the hot and cold junctions increases, so its output voltage is directly proportional to the applied temperature."
+    },
+    {
+      "id": 11,
+      "question": "Which thermocouple type is used to measure exhaust gas temperature for a turbine engine?",
+      "options": [
+        "A. Chromel-alumel",
+        "B. Copper-constantan",
+        "C. Iron-constantan"
+      ],
+      "correctIndex": 0,
+      "explanation": "Chromel-alumel (Type K) thermocouples are used for turbine EGT measurement because they can withstand the high exhaust temperatures and still give a stable, repeatable output."
+    },
+    {
+      "id": 12,
+      "question": "Which display shows engine parameters?",
+      "options": [
+        "A. EICAS/ECAM",
+        "B. HSI",
+        "C. RMI"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Engine Indication and Crew Alerting System (Boeing) and Electronic Centralized Aircraft Monitor (Airbus) are the dedicated systems that display engine primary and secondary parameters, together with crew alerting messages."
+    },
+    {
+      "id": 13,
+      "question": "How is the ULD (underwater locator device) activated?",
+      "options": [
+        "A. Submerged under water",
+        "B. By pressing a cockpit test switch",
+        "C. By reaching 3400 g of impact"
+      ],
+      "correctIndex": 0,
+      "explanation": "The ULD has a water-activated switch that starts the ultrasonic pulse transmission only when it is immersed in water, so it stays inactive during ground handling and remains ready to be located if the wreckage enters the sea."
+    },
+    {
+      "id": 14,
+      "question": "The leads of a thermocouple are made up of:",
+      "options": [
+        "A. Different materials",
+        "B. The same material",
+        "C. Insulated copper only"
+      ],
+      "correctIndex": 0,
+      "explanation": "A thermocouple works because two dissimilar metals are joined together; the EMF is generated at the junction due to the difference in their thermoelectric properties, so the two leads must be of different materials."
+    },
+    {
+      "id": 15,
+      "question": "Engine vibration is displayed as:",
+      "options": [
+        "A. Primary display",
+        "B. Secondary display",
+        "C. Status display"
+      ],
+      "correctIndex": 1,
+      "explanation": "Vibration is a secondary engine parameter — useful for monitoring engine health but not needed on every flight phase — so it is grouped with the secondary (rather than the always-shown primary) engine indications."
+    },
+    {
+      "id": 16,
+      "question": "Which one of the following parameters is considered a status/system parameter?",
+      "options": [
+        "A. Door, hydraulic",
+        "B. N1, EGT",
+        "C. Airspeed, altitude"
+      ],
+      "correctIndex": 0,
+      "explanation": "Door and hydraulic system conditions are aircraft system status items, displayed in the status page, whereas N1/EGT are engine primary parameters and airspeed/altitude are flight instrument parameters."
+    },
+    {
+      "id": 17,
+      "question": "The EADI displays attitude information, indicating pitch and roll against a:",
+      "options": [
+        "A. Two-color sphere representing the horizon (ground/sky)",
+        "B. Single-color flat background",
+        "C. Digital numeric readout only"
+      ],
+      "correctIndex": 0,
+      "explanation": "The electronic ADI shows a two-color (brown/blue) sphere representing ground and sky, against which the aircraft symbol and command bars move to show the pitch and roll attitude directly and intuitively."
+    },
+    {
+      "id": 18,
+      "question": "ECAM differs from EICAS in that:",
+      "options": [
+        "A. It displays operational procedure in the event of failure",
+        "B. It cannot display engine parameters",
+        "C. It has no status page"
+      ],
+      "correctIndex": 0,
+      "explanation": "In addition to monitoring and alerting, ECAM presents the corrective action (operational) procedure to follow on the lower display when a failure occurs, which is a distinguishing feature compared to a basic EICAS."
+    },
+    {
+      "id": 19,
+      "question": "The sensor for cabin air temperature is a:",
+      "options": [
+        "A. Variable resistor (bulb)",
+        "B. Thermocouple",
+        "C. Bourdon tube"
+      ],
+      "correctIndex": 0,
+      "explanation": "Cabin air temperature is normally sensed by a resistance bulb whose resistance varies with temperature, giving a simple and accurate signal for the relatively small, stable temperature range found in the cabin."
+    },
+    {
+      "id": 20,
+      "question": "Which of the following units orders the data before it reaches the FDR?",
+      "options": [
+        "A. Flight data acquisition unit",
+        "B. Cockpit voice recorder",
+        "C. Underwater locator beacon"
+      ],
+      "correctIndex": 0,
+      "explanation": "The FDAU collects, samples and formats data from the various sensors and systems into an ordered digital stream (Harvard bi-phase format) before sending it on to the flight data recorder."
+    },
+    {
+      "id": 21,
+      "question": "For fuel flow measurement, a reciprocating engine typically uses a:",
+      "options": [
+        "A. Vane-type fuel flow meter",
+        "B. Mass fuel flow transmitter",
+        "C. Turbine flow meter"
+      ],
+      "correctIndex": 0,
+      "explanation": "Reciprocating engines commonly use a vane-type (rotating vane) fuel flow meter, where fuel flow deflects a spring-loaded vane against a calibrated scale; turbine and mass-flow transmitters are associated with turbine engines."
+    },
+    {
+      "id": 22,
+      "question": "A tachometer indicator is responsive to a change in:",
+      "options": [
+        "A. Frequency",
+        "B. Pressure",
+        "C. Temperature"
+      ],
+      "correctIndex": 0,
+      "explanation": "An electrical (generator-type) tachometer produces an ac output whose frequency is proportional to shaft speed, and the indicator responds to that change in frequency to display RPM."
+    },
+    {
+      "id": 23,
+      "question": "A ratiometer, compared to a Wheatstone bridge, is:",
+      "options": [
+        "A. More stable and accurate",
+        "B. Less stable and less accurate",
+        "C. Identical in performance"
+      ],
+      "correctIndex": 0,
+      "explanation": "Because a ratiometer measures the ratio of two currents rather than an absolute bridge balance, it is largely unaffected by supply voltage fluctuations, making it more stable and accurate than a simple Wheatstone bridge circuit."
+    },
+    {
+      "id": 24,
+      "question": "_____ is the 'true' temperature — the one you would measure if the airplane were not moving through the air.",
+      "options": [
+        "A. Static air temperature",
+        "B. Total air temperature",
+        "C. Ram air temperature"
+      ],
+      "correctIndex": 0,
+      "explanation": "Static air temperature (SAT), also called outside air temperature, is the actual ambient temperature of the air unaffected by the aircraft's motion, unlike total/ram air temperature which includes the ram rise from compression."
+    },
+    {
+      "id": 25,
+      "question": "The increase in temperature created by ram compression on the surface of an aircraft traveling at high speed through the atmosphere is called:",
+      "options": [
+        "A. Ram air",
+        "B. Static air",
+        "C. Cabin air"
+      ],
+      "correctIndex": 0,
+      "explanation": "As the aircraft moves fast through the air, the air is compressed and decelerated at the probe, and the kinetic energy is converted to heat — this rise above the true static temperature is the ram air (ram rise) effect."
+    },
+    {
+      "id": 26,
+      "question": "The drive shaft in a magnetic drag-cup tachometer is:",
+      "options": [
+        "A. Flexible",
+        "B. Rigid",
+        "C. Hollow and hydraulically driven"
+      ],
+      "correctIndex": 0,
+      "explanation": "A flexible drive shaft couples the engine to the magnetic drag-cup mechanism, allowing for the offset and misalignment between the engine accessory drive and the indicator location while still transmitting rotational speed accurately."
+    },
+    {
+      "id": 27,
+      "question": "Which of the following computers is commonly used for symbol/graphic generation for display units on Boeing aircraft?",
+      "options": [
+        "A. DEU",
+        "B. FDAU",
+        "C. SMYD"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Display Electronics Unit (DEU) generates the symbols and graphics shown on the EFIS/EICAS display units, converting sensor and computer data into the pictures the crew sees on the displays."
+    },
+    {
+      "id": 28,
+      "question": "Which of the following EICAS messages requires immediate corrective action and is displayed in 'red'?",
+      "options": [
+        "A. Warning",
+        "B. Caution",
+        "C. Advisory"
+      ],
+      "correctIndex": 0,
+      "explanation": "Warning messages, shown in red, indicate a condition requiring immediate crew action. Caution messages (amber) require timely awareness and action, while advisory messages are informational and of lower priority."
+    },
+    {
+      "id": 29,
+      "question": "Turbine exhaust gas temperature is measured using a:",
+      "options": [
+        "A. Thermocouple",
+        "B. Bourdon tube",
+        "C. Bimetallic strip"
+      ],
+      "correctIndex": 0,
+      "explanation": "Thermocouples are used to measure EGT because they can survive the high exhaust temperatures and provide an electrical signal (millivolt output) proportional to that temperature for the cockpit indicator."
+    },
+    {
+      "id": 30,
+      "question": "ECAM displays the failure and also the:",
+      "options": [
+        "A. Undertaken (corrective action) procedure",
+        "B. Fuel price for the sector",
+        "C. Passenger seating chart"
+      ],
+      "correctIndex": 0,
+      "explanation": "In addition to annunciating the failure itself, ECAM presents the associated corrective action procedure the crew must undertake, guiding them step by step through the required checklist actions."
+    }
+  ]
+}

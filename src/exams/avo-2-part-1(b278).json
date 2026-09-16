@@ -1,0 +1,200 @@
+{
+  "id": "avo-2-part-1",
+  "title": "AVO-2-Part-1",
+  "module": "AVO-2",
+  "course": "avionics",
+  "category": "our_exam_b278",
+  "description": "Part exam covering basic semiconductor devices: diode biasing and depletion region, varactor and Zener diodes, UJT and SCR construction, phototransistors and photoresistors, BJT operating modes, doping, and tunneling current.",
+  "durationMinutes": 45,
+  "totalQuestions": 17,
+  "color": "blue",
+  "questions": [
+    {
+      "id": 1,
+      "question": "For an NPN transistor to be ON:",
+      "options": [
+        "A. We forward bias the BE junction and reverse bias the CB junction",
+        "B. We reverse bias both the BE and CB junctions",
+        "C. We forward bias both the BE and CB junctions"
+      ],
+      "correctIndex": 0,
+      "explanation": "In normal (active mode) operation the base-emitter junction is forward biased so majority carriers can be injected into the base, while the collector-base junction is reverse biased so those carriers are swept across to the collector, turning the transistor ON."
+    },
+    {
+      "id": 2,
+      "question": "Which of the following is NOT true about a varactor diode?",
+      "options": [
+        "A. It has fixed capacitance",
+        "B. Its capacitance varies with applied reverse voltage",
+        "C. It is used in voltage-controlled tuning circuits"
+      ],
+      "correctIndex": 0,
+      "explanation": "The whole purpose of a varactor (varicap) diode is that its junction capacitance changes as the reverse bias voltage is varied, so describing it as having 'fixed capacitance' is the false statement about it."
+    },
+    {
+      "id": 3,
+      "question": "When a diode is forward biased, the resistance of the depletion region is:",
+      "options": [
+        "A. Low",
+        "B. High",
+        "C. Infinite"
+      ],
+      "correctIndex": 0,
+      "explanation": "Forward biasing narrows the depletion region and allows majority carriers to cross the junction easily, giving the depletion region a low resistance and allowing current to flow freely."
+    },
+    {
+      "id": 4,
+      "question": "When a diode is reverse biased, the resistance of the depletion region is:",
+      "options": [
+        "A. High",
+        "B. Low",
+        "C. Zero"
+      ],
+      "correctIndex": 0,
+      "explanation": "Reverse bias widens the depletion region and removes free carriers from it, giving it a very high resistance so that only a small leakage current flows."
+    },
+    {
+      "id": 5,
+      "question": "A UJT (unijunction transistor) has:",
+      "options": [
+        "A. 1 emitter and 2 base terminals",
+        "B. 2 emitters and 1 base terminal",
+        "C. 3 base terminals and no emitter"
+      ],
+      "correctIndex": 0,
+      "explanation": "A UJT is a three-terminal device with a single emitter and two base connections (Base 1 and Base 2) on either end of the same bar of semiconductor material, which is why it is called 'uni'-junction despite having three leads."
+    },
+    {
+      "id": 6,
+      "question": "An SCR (silicon controlled rectifier) is a:",
+      "options": [
+        "A. 4 layer, 3 junction device",
+        "B. 2 layer, 1 junction device",
+        "C. 3 layer, 2 junction device"
+      ],
+      "correctIndex": 0,
+      "explanation": "The SCR is built from alternating PNPN silicon layers, giving it four layers and three junctions, which is what allows it to latch on and stay conducting once triggered by the gate."
+    },
+    {
+      "id": 7,
+      "question": "A photoresistor is:",
+      "options": [
+        "A. A light dependent resistor",
+        "B. A voltage dependent resistor",
+        "C. A temperature dependent resistor"
+      ],
+      "correctIndex": 0,
+      "explanation": "A photoresistor (LDR) changes its resistance according to the amount of light falling on it, which is why it is commonly known as a light dependent resistor."
+    },
+    {
+      "id": 8,
+      "question": "A Shockley diode is:",
+      "options": [
+        "A. A PNPN junction device",
+        "B. A simple PN junction device",
+        "C. A three-terminal NPN device"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Shockley diode is a four-layer PNPN device (essentially a two-terminal SCR without a gate) that exhibits a negative-resistance switching characteristic once it breaks over into conduction."
+    },
+    {
+      "id": 9,
+      "question": "A diode has:",
+      "options": [
+        "A. 2 terminals",
+        "B. 3 terminals",
+        "C. 4 terminals"
+      ],
+      "correctIndex": 0,
+      "explanation": "A basic diode is formed from a single PN junction and has two terminals, the anode and the cathode, distinguishing it from three-terminal devices such as transistors."
+    },
+    {
+      "id": 10,
+      "question": "Compared to a photodiode, a phototransistor:",
+      "options": [
+        "A. Is slower to react to light changes",
+        "B. Is faster to react to light changes",
+        "C. Reacts at exactly the same speed"
+      ],
+      "correctIndex": 0,
+      "explanation": "A phototransistor's internal current gain amplifies the small photodiode-like current, but the extra junction and gain stage give it a larger junction capacitance, making it slower to respond to changes in light than a plain photodiode."
+    },
+    {
+      "id": 11,
+      "question": "In BJT saturation mode:",
+      "options": [
+        "A. BE and CB junctions are both forward biased",
+        "B. BE and CB junctions are both reverse biased",
+        "C. BE is reverse biased and CB is forward biased"
+      ],
+      "correctIndex": 0,
+      "explanation": "Saturation occurs when both the base-emitter and the collector-base junctions are forward biased, which drives the transistor fully ON so that collector current is limited mainly by the external circuit rather than by the transistor."
+    },
+    {
+      "id": 12,
+      "question": "Which of the following best defines electronics?",
+      "options": [
+        "A. Electronics is a branch of engineering dealing with the design and application of electronic devices, and is also concerned with the design, manufacture and maintenance of electronic devices",
+        "B. Electronics is the study of mechanical linkages used in aircraft flight controls",
+        "C. Electronics is limited to the study of large-scale electrical power generation"
+      ],
+      "correctIndex": 0,
+      "explanation": "Electronics covers the theory, design, application, manufacture and maintenance of devices that control the flow of electrons, which is broader than just electrical power engineering or mechanical systems."
+    },
+    {
+      "id": 13,
+      "question": "Holes in a semiconductor are:",
+      "options": [
+        "A. Vacant spaces left in a semiconductor when electrons move away from their original positions",
+        "B. Extra electrons added by doping with a pentavalent impurity",
+        "C. Physical gaps in the crystal lattice caused by manufacturing defects"
+      ],
+      "correctIndex": 0,
+      "explanation": "When a valence electron leaves its position (for example, freed by thermal energy or an applied field), it leaves behind a vacant space called a hole, which behaves as a mobile positive charge carrier in the semiconductor."
+    },
+    {
+      "id": 14,
+      "question": "Tunneling current in a diode is due to:",
+      "options": [
+        "A. A very thin depletion region caused by heavy doping",
+        "B. A very wide depletion region caused by light doping",
+        "C. Excessive forward voltage applied slowly over time"
+      ],
+      "correctIndex": 0,
+      "explanation": "Heavy doping on both sides of the junction makes the depletion region extremely thin, thin enough that charge carriers can quantum-mechanically tunnel directly through the potential barrier, producing the tunneling current seen in devices like the tunnel diode."
+    },
+    {
+      "id": 15,
+      "question": "A Zener diode is:",
+      "options": [
+        "A. A constant voltage device",
+        "B. A constant current device",
+        "C. A variable capacitance device"
+      ],
+      "correctIndex": 0,
+      "explanation": "Operated in reverse breakdown, a Zener diode holds a nearly constant voltage across itself over a wide range of reverse current, which is why it is used as a voltage reference/regulator element."
+    },
+    {
+      "id": 16,
+      "question": "A semiconductor doped using atoms with 5 valence electrons produces:",
+      "options": [
+        "A. N type material",
+        "B. P type material",
+        "C. Intrinsic (undoped) material"
+      ],
+      "correctIndex": 0,
+      "explanation": "A pentavalent (5 valence electron) dopant such as phosphorus or arsenic contributes an extra free electron to the crystal lattice, creating N-type material with electrons as the majority carrier."
+    },
+    {
+      "id": 17,
+      "question": "When is a transistor useful for use in amplification?",
+      "options": [
+        "A. When it is in the active mode",
+        "B. When it is in cutoff mode",
+        "C. When it is in saturation mode"
+      ],
+      "correctIndex": 0,
+      "explanation": "Only in the active (linear) mode does the transistor's collector current respond proportionally to changes in base current or voltage, giving the linear gain needed for amplification. Cutoff and saturation are the two switching (ON/OFF) states."
+    }
+  ]
+}
