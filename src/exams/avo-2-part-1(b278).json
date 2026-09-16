@@ -1,10 +1,10 @@
 {
-  "id": "avo-2-part-1",
-  "title": "AVO-2-Part-1",
+  "id": "avo-2-part-1(B278)",
+  "title": "AVO-2-Part-1(B278)",
   "module": "AVO-2",
   "course": "avionics",
   "category": "our_exam_b278",
-  "description": "Part exam covering basic semiconductor devices: diode biasing and depletion region, varactor and Zener diodes, UJT and SCR construction, phototransistors and photoresistors, BJT operating modes, doping, and tunneling current.",
+  "description": "Exam covering basic semiconductor devices: diode biasing and depletion region, varactor and Zener diodes, UJT and SCR construction, phototransistors and photoresistors, BJT operating modes, doping, and tunneling current.",
   "durationMinutes": 45,
   "totalQuestions": 17,
   "color": "blue",
