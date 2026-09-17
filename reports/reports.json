@@ -10,5 +10,17 @@
     "message": "",
     "reportedAt": "2026-09-17T14:10:53.812Z",
     "status": "pending"
+  },
+  {
+    "id": "rep_1789655614554_4v8jtd",
+    "examId": "avo-2-part-1(B278)",
+    "examTitle": "AVO-2-Part-1(B278)",
+    "questionId": "1",
+    "questionNumber": 1,
+    "question": "For an NPN transistor to be ON:",
+    "reason": "Unclear question",
+    "message": "",
+    "reportedAt": "2026-09-17T14:33:34.555Z",
+    "status": "pending"
   }
 ]
