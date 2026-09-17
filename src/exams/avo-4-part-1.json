@@ -721,7 +721,7 @@
         "B. Negative to positive",
         "C. Electrolyte to the casing"
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
       "explanation": "During charging, lithium ions move through the electrolyte from the positive electrode toward the negative electrode."
     },
     {
