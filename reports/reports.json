@@ -11,7 +11,7 @@
     "reportedAt": "2026-09-17T14:10:53.812Z",
     "status": "resolved",
     "statusLabel": "Resolved",
-    "updatedAt": "2026-09-17T14:40:24.131Z"
+    "updatedAt": "2026-09-17T14:44:48.806Z"
   },
   {
     "id": "rep_1789655614554_4v8jtd",
@@ -23,6 +23,22 @@
     "reason": "Unclear question",
     "message": "",
     "reportedAt": "2026-09-17T14:33:34.555Z",
-    "status": "pending"
+    "status": "resolved",
+    "statusLabel": "Resolved",
+    "updatedAt": "2026-09-17T14:44:42.143Z"
+  },
+  {
+    "id": "rep_1789656252165_ohbnl8",
+    "examId": "avo-2-part-1(B278)",
+    "examTitle": "AVO-2-Part-1(B278)",
+    "questionId": "1",
+    "questionNumber": 1,
+    "question": "For an NPN transistor to be ON:",
+    "reason": "Incorrect explanation",
+    "message": "",
+    "reportedAt": "2026-09-17T14:44:12.165Z",
+    "status": "resolved",
+    "statusLabel": "Resolved",
+    "updatedAt": "2026-09-17T14:44:45.686Z"
   }
 ]

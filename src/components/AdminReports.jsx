@@ -239,13 +239,13 @@ export default function AdminReports({ onBackToDashboard }) {
                 <label className="block text-xs font-semibold text-slate-700">
                   Admin Password
                 </label>
-                <button
+                {/* <button
                   type="button"
                   onClick={() => setPasswordInput('admin123')}
                   className="text-[11px] text-blue-600 hover:text-blue-700 font-medium hover:underline cursor-pointer"
                 >
                   Use default (admin123)
-                </button>
+                </button> */}
               </div>
               <div className="relative">
                 <input
@@ -274,9 +274,6 @@ export default function AdminReports({ onBackToDashboard }) {
                   )}
                 </button>
               </div>
-              <p className="text-[11px] text-slate-400 mt-1">
-                Configured via Netlify environment variable <code className="font-mono text-slate-600">ADMIN_PASSWORD</code> (default: <span className="font-mono font-semibold text-slate-700">admin123</span>).
-              </p>
             </div>
 
             <div className="flex items-center gap-3 pt-2">
