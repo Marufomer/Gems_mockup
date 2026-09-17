@@ -141,6 +141,33 @@ export function localNetlifyFunctionsPlugin() {
             }
           }
 
+          if (req.method === 'OPTIONS') {
+            res.writeHead(204, {
+              'Access-Control-Allow-Origin': '*',
+              'Access-Control-Allow-Headers': 'Content-Type, Authorization, x-admin-password, X-Admin-Password',
+              'Access-Control-Allow-Methods': 'GET, POST, PATCH, OPTIONS',
+            })
+            res.end()
+            return
+          }
+
+          const configuredPass = (process.env.ADMIN_PASSWORD || 'admin123').trim()
+          const incomingPass = String(
+            req.headers['x-admin-password'] ||
+            req.headers['X-Admin-Password'] ||
+            queryParams.adminPassword ||
+            ''
+          ).trim()
+
+          if (incomingPass !== configuredPass) {
+            res.writeHead(401, {
+              'Content-Type': 'application/json',
+              'Access-Control-Allow-Origin': '*',
+            })
+            res.end(JSON.stringify({ error: 'Unauthorized: Invalid admin credentials.' }))
+            return
+          }
+
           // Fallback to local reports/reports.json file
           const reportsPath = path.resolve(process.cwd(), 'reports', 'reports.json')
           let reports = []

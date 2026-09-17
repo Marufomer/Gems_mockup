@@ -23,13 +23,17 @@ async function sleep(ms) {
 }
 
 function verifyAdminAuth(event) {
-  const configuredPassword = process.env.ADMIN_PASSWORD || 'admin123';
-  const incomingPassword =
-    event.headers['x-admin-password'] ||
-    event.headers['X-Admin-Password'] ||
-    event.queryStringParameters?.adminPassword;
+  const configuredPassword = (process.env.ADMIN_PASSWORD || 'admin123').trim();
+  const headers = event.headers || {};
+  const incomingPassword = String(
+    headers['x-admin-password'] ||
+    headers['X-Admin-Password'] ||
+    headers['X-ADMIN-PASSWORD'] ||
+    event.queryStringParameters?.adminPassword ||
+    ''
+  ).trim();
 
-  return incomingPassword === configuredPassword;
+  return Boolean(incomingPassword) && incomingPassword === configuredPassword;
 }
 
 export const handler = async (event) => {

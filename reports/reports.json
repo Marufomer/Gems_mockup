@@ -9,7 +9,9 @@
     "reason": "Wrong answer",
     "message": "",
     "reportedAt": "2026-09-17T14:10:53.812Z",
-    "status": "pending"
+    "status": "resolved",
+    "statusLabel": "Resolved",
+    "updatedAt": "2026-09-17T14:40:24.131Z"
   },
   {
     "id": "rep_1789655614554_4v8jtd",

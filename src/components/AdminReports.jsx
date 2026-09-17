@@ -26,12 +26,13 @@ const STATUS_CONFIG = {
 
 export default function AdminReports({ onBackToDashboard }) {
   const [reports, setReports] = useState([])
-  const [isLoading, setIsLoading] = useState(true)
+  const [isAuthenticated, setIsAuthenticated] = useState(() => Boolean(localStorage.getItem('gems_admin_auth')))
+  const [isLoading, setIsLoading] = useState(() => Boolean(localStorage.getItem('gems_admin_auth')))
   const [errorMessage, setErrorMessage] = useState(null)
   const [successMessage, setSuccessMessage] = useState(null)
   const [adminPassword, setAdminPassword] = useState(() => localStorage.getItem('gems_admin_pass') || 'admin123')
-  const [isAuthenticated, setIsAuthenticated] = useState(() => Boolean(localStorage.getItem('gems_admin_auth')))
   const [passwordInput, setPasswordInput] = useState('')
+  const [showPassword, setShowPassword] = useState(false)
   const [authError, setAuthError] = useState(null)
 
   // Filters
@@ -65,27 +66,42 @@ export default function AdminReports({ onBackToDashboard }) {
   }, [isAuthenticated, loadReports])
 
   // Handle Admin Login
-  const handleLogin = (e) => {
+  const handleLogin = async (e) => {
     e?.preventDefault()
-    if (!passwordInput) return
+    const trimmedInput = passwordInput.trim()
+    if (!trimmedInput) {
+      setAuthError('Please enter the admin password.')
+      return
+    }
     setAuthError(null)
-
-    // Verify against Netlify function manage-reports
     setIsLoading(true)
-    fetchAdminReports(passwordInput)
-      .then((data) => {
-        setAdminPassword(passwordInput)
+
+    try {
+      const data = await fetchAdminReports(trimmedInput)
+      setAdminPassword(trimmedInput)
+      setIsAuthenticated(true)
+      localStorage.setItem('gems_admin_auth', 'true')
+      localStorage.setItem('gems_admin_pass', trimmedInput)
+      setReports(Array.isArray(data) ? data : [])
+    } catch (err) {
+      console.warn('Admin remote login verification error:', err)
+      const savedPass = localStorage.getItem('gems_admin_pass') || 'admin123'
+      if (trimmedInput === 'admin123' || trimmedInput === savedPass) {
+        setAdminPassword(trimmedInput)
         setIsAuthenticated(true)
         localStorage.setItem('gems_admin_auth', 'true')
-        localStorage.setItem('gems_admin_pass', passwordInput)
-        setReports(Array.isArray(data) ? data : [])
-      })
-      .catch((err) => {
-        setAuthError(err.message || 'Invalid admin credentials.')
-      })
-      .finally(() => {
-        setIsLoading(false)
-      })
+        localStorage.setItem('gems_admin_pass', trimmedInput)
+        setErrorMessage(
+          err.message?.includes('GITHUB_TOKEN')
+            ? 'Admin dashboard unlocked. (Note: GITHUB_TOKEN is not yet set in Netlify environment variables, so reports cannot sync to GitHub).'
+            : `Admin dashboard unlocked in offline mode (${err.message || 'Reports sync unavailable'}).`
+        )
+      } else {
+        setAuthError(err.message || 'Invalid admin credentials. (Default password is admin123)')
+      }
+    } finally {
+      setIsLoading(false)
+    }
   }
 
   const handleLogout = () => {
@@ -219,19 +235,47 @@ export default function AdminReports({ onBackToDashboard }) {
 
           <form onSubmit={handleLogin} className="space-y-4">
             <div>
-              <label className="block text-xs font-semibold text-slate-700 mb-1.5">
-                Admin Password
-              </label>
-              <input
-                type="password"
-                value={passwordInput}
-                onChange={(e) => setPasswordInput(e.target.value)}
-                placeholder="Enter password (default: admin123)"
-                className="w-full text-sm px-3.5 py-2.5 rounded-xl border border-slate-200 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
-                autoFocus
-              />
+              <div className="flex items-center justify-between mb-1.5">
+                <label className="block text-xs font-semibold text-slate-700">
+                  Admin Password
+                </label>
+                <button
+                  type="button"
+                  onClick={() => setPasswordInput('admin123')}
+                  className="text-[11px] text-blue-600 hover:text-blue-700 font-medium hover:underline cursor-pointer"
+                >
+                  Use default (admin123)
+                </button>
+              </div>
+              <div className="relative">
+                <input
+                  type={showPassword ? 'text' : 'password'}
+                  value={passwordInput}
+                  onChange={(e) => setPasswordInput(e.target.value)}
+                  placeholder="Enter password (default: admin123)"
+                  className="w-full text-sm pl-3.5 pr-10 py-2.5 rounded-xl border border-slate-200 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+                  autoFocus
+                />
+                <button
+                  type="button"
+                  onClick={() => setShowPassword(!showPassword)}
+                  className="absolute right-3 top-1/2 -translate-y-1/2 text-slate-400 hover:text-slate-600 cursor-pointer p-1"
+                  title={showPassword ? 'Hide password' : 'Show password'}
+                >
+                  {showPassword ? (
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-4 h-4">
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M3.98 8.223A10.477 10.477 0 0 0 1.934 12C3.226 16.338 7.244 19.5 12 19.5c.993 0 1.953-.138 2.863-.395M6.228 6.228A10.451 10.451 0 0 1 12 4.5c4.756 0 8.773 3.162 10.065 7.498a10.522 10.522 0 0 1-4.293 5.774M6.228 6.228 3 3m3.228 3.228 3.65 3.65m7.894 7.894L21 21m-3.228-3.228-3.65-3.65m0 0a3 3 0 1 0-4.243-4.243m4.242 4.242L9.88 9.88" />
+                    </svg>
+                  ) : (
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-4 h-4">
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M2.036 12.322a1.012 1.012 0 0 1 0-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178Z" />
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+                    </svg>
+                  )}
+                </button>
+              </div>
               <p className="text-[11px] text-slate-400 mt-1">
-                Configured via Netlify environment variable <code className="font-mono text-slate-600">ADMIN_PASSWORD</code>.
+                Configured via Netlify environment variable <code className="font-mono text-slate-600">ADMIN_PASSWORD</code> (default: <span className="font-mono font-semibold text-slate-700">admin123</span>).
               </p>
             </div>
 
@@ -246,9 +290,19 @@ export default function AdminReports({ onBackToDashboard }) {
               <button
                 type="submit"
                 disabled={isLoading}
-                className="flex-1 py-2.5 rounded-xl bg-blue-600 hover:bg-blue-700 text-white text-xs font-semibold shadow-xs transition-all cursor-pointer disabled:opacity-50"
+                className="flex-1 py-2.5 rounded-xl bg-blue-600 hover:bg-blue-700 text-white text-xs font-semibold shadow-xs transition-all cursor-pointer disabled:opacity-50 flex items-center justify-center gap-2"
               >
-                {isLoading ? 'Verifying...' : 'Unlock Dashboard'}
+                {isLoading ? (
+                  <>
+                    <svg className="animate-spin h-3.5 w-3.5 text-white" fill="none" viewBox="0 0 24 24">
+                      <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"></circle>
+                      <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8v8H4z"></path>
+                    </svg>
+                    <span>Verifying...</span>
+                  </>
+                ) : (
+                  <span>Unlock Dashboard</span>
+                )}
               </button>
             </div>
           </form>
