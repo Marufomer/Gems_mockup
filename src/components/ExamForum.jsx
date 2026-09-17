@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useMemo } from 'react'
 import { getExamById } from '../utils/examLoader'
+import ReportQuestionModal from './ReportQuestionModal'
 
 export default function ExamForum({
   examId = 'aircraft-instruments',
@@ -26,6 +27,7 @@ export default function ExamForum({
   const [secondsRemaining, setSecondsRemaining] = useState((examData.durationMinutes || 150) * 60)
   // Modal states
   const [showEndModal, setShowEndModal] = useState(false)
+  const [showReportModal, setShowReportModal] = useState(false)
   const [examSubmitted, setExamSubmitted] = useState(false)
 
   // Timer interval: ONLY active in 'exam' mode
@@ -401,6 +403,30 @@ export default function ExamForum({
           <div className="p-4 sm:p-8 flex-1 flex flex-col">
             {activeQuestion ? (
               <>
+                {/* Question Top Sub-header with Report Question Button */}
+                <div className="flex items-center justify-between gap-2 mb-3 pb-2 border-b border-slate-100">
+                  <span className="text-[11px] font-semibold text-slate-400">
+                    Question ID: #{activeQuestion.id !== undefined ? activeQuestion.id : currentQuestionIndex + 1}
+                  </span>
+
+                  <button
+                    type="button"
+                    onClick={() => setShowReportModal(true)}
+                    className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-lg text-slate-500 hover:text-red-600 hover:bg-red-50 text-[11px] font-semibold transition-all border border-slate-200 hover:border-red-200 cursor-pointer group"
+                    title="Report a mistake in this question"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 20 20"
+                      fill="currentColor"
+                      className="w-3.5 h-3.5 text-slate-400 group-hover:text-red-600 transition-colors"
+                    >
+                      <path d="M3.5 2.75a.75.75 0 0 0-1.5 0v14.5a.75.75 0 0 0 1.5 0v-4.392l1.657-.348a6.449 6.449 0 0 1 4.271.572 7.948 7.948 0 0 0 5.965.524l2.078-.64A.75.75 0 0 0 18 12.25v-8.5a.75.75 0 0 0-.904-.734l-2.38.501a6.45 6.45 0 0 1-4.186-.482 7.95 7.95 0 0 0-5.748-.485L3.5 3.018V2.75Z" />
+                    </svg>
+                    <span>Report Question</span>
+                  </button>
+                </div>
+
                 <h1 className="text-base sm:text-lg font-bold text-slate-900 leading-snug mb-5 sm:mb-8">
                   {activeQuestion.question}
                 </h1>
@@ -711,6 +737,23 @@ export default function ExamForum({
               </button>
 
               <button
+                onClick={() => setShowReportModal(true)}
+                className="w-full flex items-center gap-2.5 px-3 py-2.5 rounded-xl hover:bg-red-50 text-xs font-semibold text-slate-700 hover:text-red-600 transition-colors text-left cursor-pointer"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  strokeWidth={1.75}
+                  stroke="currentColor"
+                  className="w-4 h-4 text-red-500"
+                >
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M3 3v1.5M3 21v-6m0 0 2.77-.693a9 9 0 0 1 6.208.682l.108.054a9 9 0 0 0 6.086.71l3.114-.732a48.524 48.524 0 0 0-.005-10.499l-3.11.732a9 9 0 0 1-6.085-.711l-.108-.054a9 9 0 0 0-6.208-.682L3 4.5M3 15V4.5" />
+                </svg>
+                <span>Report This Question</span>
+              </button>
+
+              <button
                 onClick={() => setShowEndModal(true)}
                 className="w-full flex items-center gap-2.5 px-3 py-2.5 rounded-xl hover:bg-red-50 text-xs font-semibold text-slate-700 hover:text-red-600 transition-colors text-left cursor-pointer"
               >
@@ -879,6 +922,15 @@ export default function ExamForum({
           </div>
         </div>
       )}
+
+      {/* Report Question Modal */}
+      <ReportQuestionModal
+        isOpen={showReportModal}
+        onClose={() => setShowReportModal(false)}
+        exam={examData}
+        question={activeQuestion}
+        questionNumber={currentQuestionIndex + 1}
+      />
     </div>
   )
 }

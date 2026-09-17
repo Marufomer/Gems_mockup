@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import { getExamById } from '../utils/examLoader'
+import ReportQuestionModal from './ReportQuestionModal'
 
 export default function ExamResult({
   examId = 'aircraft-powerplant',
@@ -20,6 +21,9 @@ export default function ExamResult({
   
   // Currently highlighted question in navigation grid
   const [activeNavQuestion, setActiveNavQuestion] = useState(1)
+
+  // Report Question modal state in results page
+  const [reportingQuestionData, setReportingQuestionData] = useState(null)
 
   // Question status map calculated strictly from real questions
   const questionStatusMap = React.useMemo(() => {
@@ -542,25 +546,39 @@ export default function ExamResult({
                             </div>
 
                             {/* Explanation */}
-                            <div className="pt-2 border-t border-rose-100 flex items-start gap-2 text-xs">
-                              <svg
-                                xmlns="http://www.w3.org/2000/svg"
-                                viewBox="0 0 20 20"
-                                fill="currentColor"
-                                className="w-4 h-4 text-blue-600 flex-shrink-0 mt-0.5"
-                              >
-                                <path
-                                  fillRule="evenodd"
-                                  d="M18 10a8 8 0 1 1-16 0 8 8 0 0 1 16 0Zm-7-4a1 1 0 1 1-2 0 1 1 0 0 1 2 0ZM9 9a.75.75 0 0 0 0 1.5h.253a.25.25 0 0 1 .244.304l-.459 2.066A1.75 1.75 0 0 0 10.747 15H11a.75.75 0 0 0 0-1.5h-.253a.25.25 0 0 1-.244-.304l.459-2.066A1.75 1.75 0 0 0 9.253 9H9Z"
-                                  clipRule="evenodd"
-                                />
-                              </svg>
-                              <div>
-                                <p className="font-bold text-slate-800">Explanation</p>
-                                <p className="text-slate-600 leading-relaxed mt-0.5">
-                                  {qItem.explanation}
-                                </p>
+                            <div className="pt-2 border-t border-rose-100 flex items-start justify-between gap-2 text-xs">
+                              <div className="flex items-start gap-2 flex-1">
+                                <svg
+                                  xmlns="http://www.w3.org/2000/svg"
+                                  viewBox="0 0 20 20"
+                                  fill="currentColor"
+                                  className="w-4 h-4 text-blue-600 flex-shrink-0 mt-0.5"
+                                >
+                                  <path
+                                    fillRule="evenodd"
+                                    d="M18 10a8 8 0 1 1-16 0 8 8 0 0 1 16 0Zm-7-4a1 1 0 1 1-2 0 1 1 0 0 1 2 0ZM9 9a.75.75 0 0 0 0 1.5h.253a.25.25 0 0 1 .244.304l-.459 2.066A1.75 1.75 0 0 0 10.747 15H11a.75.75 0 0 0 0-1.5h-.253a.25.25 0 0 1-.244-.304l.459-2.066A1.75 1.75 0 0 0 9.253 9H9Z"
+                                    clipRule="evenodd"
+                                  />
+                                </svg>
+                                <div>
+                                  <p className="font-bold text-slate-800">Explanation</p>
+                                  <p className="text-slate-600 leading-relaxed mt-0.5">
+                                    {qItem.explanation}
+                                  </p>
+                                </div>
                               </div>
+
+                              <button
+                                type="button"
+                                onClick={() => setReportingQuestionData({ question: qItem, number: qNum })}
+                                className="inline-flex items-center gap-1 text-[11px] font-semibold text-slate-400 hover:text-red-600 hover:bg-red-50 py-1 px-2 rounded-lg transition-colors shrink-0 cursor-pointer"
+                                title="Report issue with this question"
+                              >
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="w-3 h-3">
+                                  <path d="M3.5 2.75a.75.75 0 0 0-1.5 0v14.5a.75.75 0 0 0 1.5 0v-4.392l1.657-.348a6.449 6.449 0 0 1 4.271.572 7.948 7.948 0 0 0 5.965.524l2.078-.64A.75.75 0 0 0 18 12.25v-8.5a.75.75 0 0 0-.904-.734l-2.38.501a6.45 6.45 0 0 1-4.186-.482 7.95 7.95 0 0 0-5.748-.485L3.5 3.018V2.75Z" />
+                                </svg>
+                                <span>Report</span>
+                              </button>
                             </div>
                           </div>
                         </div>
@@ -655,6 +673,17 @@ export default function ExamResult({
         </div>
 
       </main>
+
+      {/* Report Question Modal for Exam Results */}
+      {reportingQuestionData && (
+        <ReportQuestionModal
+          isOpen={Boolean(reportingQuestionData)}
+          onClose={() => setReportingQuestionData(null)}
+          exam={examData}
+          question={reportingQuestionData.question}
+          questionNumber={reportingQuestionData.number}
+        />
+      )}
     </div>
   )
 }

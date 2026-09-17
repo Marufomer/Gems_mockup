@@ -6,13 +6,14 @@ import GoalBanner from './components/GoalBanner'
 import ExamForum from './components/ExamForum'
 import ExamResult from './components/ExamResult'
 import ModeSelectModal from './components/ModeSelectModal'
+import AdminReports from './components/AdminReports'
 import { getAllExams, getExamById } from './utils/examLoader'
 
 export default function App() {
   const allExams = getAllExams()
   const defaultExamId = allExams[0]?.id || 'avo-1-module-1-2'
 
-  const [currentView, setCurrentView] = useState('dashboard') // 'dashboard' | 'exam' | 'result'
+  const [currentView, setCurrentView] = useState('dashboard') // 'dashboard' | 'exam' | 'result' | 'admin'
   const [selectedExamId, setSelectedExamId] = useState(defaultExamId)
   const [selectedExamMode, setSelectedExamMode] = useState('exam') // 'exam' | 'practice'
   const [showModeModal, setShowModeModal] = useState(false)
@@ -78,9 +79,17 @@ export default function App() {
     )
   }
 
+  if (currentView === 'admin') {
+    return (
+      <AdminReports
+        onBackToDashboard={handleBackToDashboard}
+      />
+    )
+  }
+
   return (
     <div className="min-h-screen bg-[#f8fafc] font-sans">
-      <Navbar />
+      <Navbar onOpenAdmin={() => { setCurrentView('admin'); window.scrollTo({ top: 0, behavior: 'smooth' }) }} />
       <main className="max-w-6xl mx-auto px-4 sm:px-6 py-4 sm:py-6">
         
 

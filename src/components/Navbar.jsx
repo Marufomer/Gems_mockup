@@ -1,6 +1,6 @@
-export default function Navbar() {
+export default function Navbar({ onOpenAdmin }) {
   return (
-    <header className="bg-white border-b border-gray-200 px-4 sm:px-6 py-3 flex items-center">
+    <header className="bg-white border-b border-gray-200 px-4 sm:px-6 py-3 flex items-center justify-between">
       {/* Logo */}
       <div className="flex items-center gap-2">
         {/* Graduation cap icon */}
@@ -17,6 +17,20 @@ export default function Navbar() {
         </div>
         <span className="text-xl font-bold text-gray-900">Gems-Mockup</span>
       </div>
+
+      {/* Admin Button */}
+      {onOpenAdmin && (
+        <button
+          onClick={onOpenAdmin}
+          className="flex items-center gap-1.5 px-3 py-1.5 rounded-xl border border-slate-200 hover:bg-slate-50 text-xs font-semibold text-slate-700 hover:text-blue-600 transition-colors cursor-pointer"
+          title="Open Question Reports (Admin)"
+        >
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="w-3.5 h-3.5 text-slate-500">
+            <path fillRule="evenodd" d="M10 1a4.5 4.5 0 0 0-4.5 4.5V9H5a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-6a2 2 0 0 0-2-2h-.5V5.5A4.5 4.5 0 0 0 10 1Zm3 8V5.5a3 3 0 1 0-6 0V9h6Z" clipRule="evenodd" />
+          </svg>
+          <span>Admin</span>
+        </button>
+      )}
     </header>
   )
 }
