@@ -112,11 +112,11 @@
       "id": 10,
       "question": "System that uses a strapdown platform attached to the airframe:",
       "options": [
-        "Magnetic compass only",
+        "INS",
         "Both INS and IRS",
-        "Pneumatic directional gyro"
+        "IRS"
       ],
-      "correctIndex": 1,
+      "correctIndex": 2,
       "explanation": "Modern inertial systems can use strapdown configurations attached directly to the aircraft structure."
     },
     {
