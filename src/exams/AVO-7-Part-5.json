@@ -23,33 +23,21 @@
     {
       "id": 2,
       "question": "What is the drift due to Earth rate on the north gyro stabilized INS when the aircraft is flying at 90° latitude?",
-      "options": [
-        "15°/hr",
-        "0°/hr",
-        "7.5°/hr"
-      ],
+      "options": ["15°/hr", "0°/hr", "7.5°/hr"],
       "correctIndex": 1,
       "explanation": "Earth-rate drift for a north gyro is 15° × cos(latitude). At 90°, cos(90°) = 0, giving 0°/hr."
     },
     {
       "id": 3,
       "question": "What is the drift due to Earth rate on north gyro stabilized INS when the A/C is flying at 0° latitude?",
-      "options": [
-        "0°/hr",
-        "7.5°/hr",
-        "15°/hr"
-      ],
+      "options": ["0°/hr", "7.5°/hr", "15°/hr"],
       "correctIndex": 2,
       "explanation": "At 0° latitude, 15° × cos(0°) = 15°/hr."
     },
     {
       "id": 4,
       "question": "Which one of the following excitation current is used with flux valves?",
-      "options": [
-        "DC Current",
-        "AC Current",
-        "Pulsed current only"
-      ],
+      "options": ["DC Current", "AC Current", "Pulsed current only"],
       "correctIndex": 1,
       "explanation": "The flux valve uses AC excitation in its primary coil."
     },
@@ -89,11 +77,7 @@
     {
       "id": 8,
       "question": "Drift due to Earth rate on the vertical gyro at zero-degree latitude?",
-      "options": [
-        "15°/hr",
-        "7.5°/hr",
-        "0°/hr"
-      ],
+      "options": ["15°/hr", "7.5°/hr", "0°/hr"],
       "correctIndex": 2,
       "explanation": "Vertical gyro Earth-rate drift is 15° × sin(latitude). At 0°, the result is 0°/hr."
     },
@@ -111,22 +95,14 @@
     {
       "id": 10,
       "question": "System that uses a strapdown platform attached to the airframe:",
-      "options": [
-        "INS",
-        "Both INS and IRS",
-        "IRS"
-      ],
+      "options": ["INS", "Both INS and IRS", "IRS"],
       "correctIndex": 2,
-      "explanation": "Modern inertial systems can use strapdown configurations attached directly to the aircraft structure."
+      "explanation": "IRS (Inertial Reference System): Uses a strapdown platform where sensors (such as ring laser gyros and accelerometers) are mounted directly—or strapped down—to the aircraft's airframe without using moving gimbals. INS (Inertial Navigation System): Traditional INS systems typically rely on a gimballed platform to keep the inertial sensors stabilized relative to Earth, rather than being strapped directly to the airframe."
     },
     {
       "id": 11,
       "question": "Erection mechanism utilizes gyro property",
-      "options": [
-        "Rigidity",
-        "Precession",
-        "Magnetism"
-      ],
+      "options": ["Rigidity", "Precession", "Magnetism"],
       "correctIndex": 1,
       "explanation": "Gyro erection systems use the principle of precession to return the gyro to its reference position."
     },
@@ -177,11 +153,7 @@
     {
       "id": 16,
       "question": "At what time after power is removed gyro rotor stops",
-      "options": [
-        "30 sec",
-        "After 3 min",
-        "Immediately"
-      ],
+      "options": ["30 sec", "After 3 min", "Immediately"],
       "correctIndex": 1,
       "explanation": "The gyro rotor may continue spinning after power removal; maintenance procedures specify waiting about 3 minutes."
     },
@@ -232,11 +204,7 @@
     {
       "id": 21,
       "question": "Vertical component of magnetic field around equator",
-      "options": [
-        "90°",
-        "0",
-        "15°"
-      ],
+      "options": ["90°", "0", "15°"],
       "correctIndex": 1,
       "explanation": "Near the magnetic equator, the vertical component of Earth's magnetic field is approximately zero."
     },
@@ -320,22 +288,14 @@
     {
       "id": 29,
       "question": "Which of the following is the error of directional gyro?",
-      "options": [
-        "Variation",
-        "Drift",
-        "Dip"
-      ],
+      "options": ["Variation", "Drift", "Dip"],
       "correctIndex": 1,
       "explanation": "Directional gyroscopes experience drift, which must be corrected by an erection or slaving system."
     },
     {
       "id": 30,
       "question": "Operating an aircraft near the magnetic poles causes what is known as",
-      "options": [
-        "Dip error",
-        "Compass-card error",
-        "Pitot error"
-      ],
+      "options": ["Dip error", "Compass-card error", "Pitot error"],
       "correctIndex": 0,
       "explanation": "The steep angle of Earth's magnetic field near the poles produces dip-related compass errors."
     },
@@ -353,11 +313,7 @@
     {
       "id": 32,
       "question": "The magnetic flux passing through flux detector coil is maximum when it is ___ degree with the direction of the earth's magnetic field degree with the...",
-      "options": [
-        "90°",
-        "45°",
-        "0° (Parallel alignment)"
-      ],
+      "options": ["90°", "45°", "0° (Parallel alignment)"],
       "correctIndex": 2,
       "explanation": "Flux is maximum when the coil/spoke is parallel to the magnetic field, corresponding to 0°."
     },
@@ -408,22 +364,14 @@
     {
       "id": 37,
       "question": "What will be the output data when the acceleration data is supplied to a primary stage integrator?",
-      "options": [
-        "Ground speed",
-        "Distance",
-        "Temperature"
-      ],
+      "options": ["Ground speed", "Distance", "Temperature"],
       "correctIndex": 0,
       "explanation": "Integrating acceleration with respect to time gives velocity or ground speed."
     },
     {
       "id": 38,
       "question": "Which one of the following reference indicates the heading reference?",
-      "options": [
-        "Compass card",
-        "Altimeter",
-        "Vertical speed indicator"
-      ],
+      "options": ["Compass card", "Altimeter", "Vertical speed indicator"],
       "correctIndex": 0,
       "explanation": "The compass card provides the heading reference."
     },
@@ -463,11 +411,7 @@
     {
       "id": 42,
       "question": "Compass bowl is made up of",
-      "options": [
-        "Magnetic steel",
-        "Non-magnetic material",
-        "Ferrous iron"
-      ],
+      "options": ["Magnetic steel", "Non-magnetic material", "Ferrous iron"],
       "correctIndex": 1,
       "explanation": "The compass bowl is made from non-magnetic material to avoid interference with the magnetic sensing system."
     },
@@ -485,11 +429,7 @@
     {
       "id": 44,
       "question": "What is the drift due to earth rate on the vertical gyro stabilized INS when the aircraft is flying on 90° latitude?",
-      "options": [
-        "0°/hr",
-        "7.5°/hr",
-        "15°/hr"
-      ],
+      "options": ["0°/hr", "7.5°/hr", "15°/hr"],
       "correctIndex": 2,
       "explanation": "Vertical gyro Earth-rate drift is 15° × sin(latitude). At 90°, sin(90°) = 1, giving 15°/hr."
     },
@@ -518,11 +458,7 @@
     {
       "id": 47,
       "question": "Which one is means of controlling drift on directional gyroscopes?",
-      "options": [
-        "Erection devices",
-        "Pitot probes",
-        "Fuel pumps"
-      ],
+      "options": ["Erection devices", "Pitot probes", "Fuel pumps"],
       "correctIndex": 0,
       "explanation": "Erection devices correct gyro drift and maintain the required reference."
     },
@@ -551,11 +487,7 @@
     {
       "id": 50,
       "question": "A card on a directional gyro is installed on",
-      "options": [
-        "Inner rotor",
-        "Outer ring",
-        "Housing only"
-      ],
+      "options": ["Inner rotor", "Outer ring", "Housing only"],
       "correctIndex": 1,
       "explanation": "The directional gyro card is mounted on the outer ring."
     },
@@ -573,22 +505,14 @@
     {
       "id": 52,
       "question": "Which one of the following is a line drawn on an aeronautical chart that connects the location on the planet where a compass pointing to magnetic north is also pointing to geographic True North?",
-      "options": [
-        "Isogonic",
-        "Agonic",
-        "Isobaric"
-      ],
+      "options": ["Isogonic", "Agonic", "Isobaric"],
       "correctIndex": 1,
       "explanation": "An agonic line connects points where magnetic variation is zero."
     },
     {
       "id": 53,
       "question": "Which one of the following lines on aeronautical charts indicates points of equal variation?",
-      "options": [
-        "Agonic",
-        "Isogonic",
-        "Isobaric"
-      ],
+      "options": ["Agonic", "Isogonic", "Isobaric"],
       "correctIndex": 1,
       "explanation": "Isogonic lines connect points having equal magnetic variation."
     },
@@ -639,11 +563,7 @@
     {
       "id": 58,
       "question": "A knob on a directional gyro used to set it to indicate the same heading as the magnetic compass is",
-      "options": [
-        "Caging knob",
-        "Trim knob",
-        "Altitude knob"
-      ],
+      "options": ["Caging knob", "Trim knob", "Altitude knob"],
       "correctIndex": 0,
       "explanation": "The caging/heading-setting knob is used to set the DG indication to the required heading reference."
     },
@@ -661,11 +581,7 @@
     {
       "id": 60,
       "question": "Where is flux valve located on an aircraft?",
-      "options": [
-        "Wing tips",
-        "Engine inlet",
-        "Cockpit instrument panel"
-      ],
+      "options": ["Wing tips", "Engine inlet", "Cockpit instrument panel"],
       "correctIndex": 0,
       "explanation": "The flux valve is normally located at a remote wing-tip position to minimize magnetic interference."
     },
@@ -727,11 +643,7 @@
     {
       "id": 66,
       "question": "The procedure of correcting the indication of deviation error is minimized by two small permanent magnets inside the compensating mechanism in the compass",
-      "options": [
-        "Compass swinging",
-        "Degaussing only",
-        "IRS initialization"
-      ],
+      "options": ["Compass swinging", "Degaussing only", "IRS initialization"],
       "correctIndex": 0,
       "explanation": "Compass swinging is the procedure used to determine and minimize deviation using the compass compensating mechanism."
     },
@@ -760,11 +672,7 @@
     {
       "id": 69,
       "question": "Output data from the 2nd integrator gives",
-      "options": [
-        "Acceleration",
-        "Distance",
-        "Magnetic variation"
-      ],
+      "options": ["Acceleration", "Distance", "Magnetic variation"],
       "correctIndex": 1,
       "explanation": "Integrating acceleration once gives velocity/ground speed; integrating again gives distance or position."
     },
@@ -815,11 +723,7 @@
     {
       "id": 74,
       "question": "One of the oldest and simplest instruments for indicating direction is",
-      "options": [
-        "Magnetic compass",
-        "IRS",
-        "Laser gyro"
-      ],
+      "options": ["Magnetic compass", "IRS", "Laser gyro"],
       "correctIndex": 0,
       "explanation": "The magnetic compass is one of the oldest and simplest instruments used for indicating direction."
     },
@@ -859,66 +763,42 @@
     {
       "id": 78,
       "question": "For one detector spoke, how many headings correspond to zero flux?",
-      "options": [
-        "1",
-        "2",
-        "3"
-      ],
+      "options": ["1", "2", "3"],
       "correctIndex": 1,
       "explanation": "For one detector spoke, two headings correspond to zero flux because the magnetic-field relationship repeats in opposite directions."
     },
     {
       "id": 79,
       "question": "How many accelerometers are used in IRS strapdowns?",
-      "options": [
-        "2",
-        "3",
-        "6"
-      ],
+      "options": ["2", "3", "6"],
       "correctIndex": 1,
       "explanation": "A strapdown IRS uses three accelerometers to measure acceleration along the three aircraft axes."
     },
     {
       "id": 80,
       "question": "The brake is also applied approximately __ seconds after the power supply has been switched off to prevent spinning of the gyroscope about its vertical axis during rundown",
-      "options": [
-        "10",
-        "30",
-        "60"
-      ],
+      "options": ["10", "30", "60"],
       "correctIndex": 1,
       "explanation": "The supplied maintenance information specifies approximately 30 seconds after power removal for brake application."
     },
     {
       "id": 81,
       "question": "Accelerometer used for the longitudinal axis",
-      "options": [
-        "East-West",
-        "North-South",
-        "Vertical"
-      ],
+      "options": ["East-West", "North-South", "Vertical"],
       "correctIndex": 1,
       "explanation": "The supplied answer identifies the North-South accelerometer for the longitudinal axis."
     },
     {
       "id": 82,
       "question": "All A/C heading detected using",
-      "options": [
-        "2 spokes",
-        "3 spokes",
-        "4 spokes"
-      ],
+      "options": ["2 spokes", "3 spokes", "4 spokes"],
       "correctIndex": 1,
       "explanation": "The flux detector uses three spokes arranged to sense the Earth's magnetic field and determine aircraft heading."
     },
     {
       "id": 83,
       "question": "Spoke detector made of",
-      "options": [
-        "Aluminum",
-        "Steel",
-        "Permalloy"
-      ],
+      "options": ["Aluminum", "Steel", "Permalloy"],
       "correctIndex": 2,
       "explanation": "The flux detector spokes are made of Permalloy, a material suitable for sensing magnetic flux."
     }
