@@ -442,12 +442,12 @@
       "id": 40,
       "question": "Negligible transmission line",
       "options": [
-        "A. matching",
-        "B. loop antenna and sense antenna",
-        "C. LC"
+        "A. L",
+        "B. C",
+        "C. G"
       ],
       "correctIndex": 2,
-      "explanation": "The correct answer is LC."
+      "explanation": "The correct answer is G."
     },
     {
       "id": 41,
