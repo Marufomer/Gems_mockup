@@ -1,0 +1,640 @@
+{
+  "id": "avionics-final-exam-01",
+  "title": "Avionics final exam 01",
+  "module": "school final",
+  "course": "avionics",
+  "category": "school_final",
+  "description": "A reviewed subset (57 of 100 questions) of the Avionics School Final for AMT_47, covering instruments, communications, navigation, compass/IRS, AFCS, aircraft electrical systems, DC motors, lighting, AC fundamentals, and batteries.",
+  "durationMinutes": 150,
+  "totalQuestions": 57,
+  "color": "rose",
+  "questions": [
+    {
+      "id": 1,
+      "question": "What is the relationship between the amount of deflection produced by a deflecting torque and the magnitude of the quantity to be measured?",
+      "options": [
+        "They are directly proportional",
+        "They are inversely proportional",
+        "They don't have any relationship"
+      ],
+      "correctIndex": 0,
+      "explanation": "In a torque-balance instrument movement, the deflection produced is directly proportional to the magnitude of the quantity being measured, which is what allows the pointer position to be calibrated as a meaningful reading of that quantity."
+    },
+    {
+      "id": 5,
+      "question": "Which one of the following elements of a bimetallic strip maintains the same length while the other is expanding when exposed to heat?",
+      "options": [
+        "The brass or steel",
+        "The invar",
+        "The brass only"
+      ],
+      "correctIndex": 1,
+      "explanation": "A bimetallic strip pairs a high-expansion metal (such as brass) with Invar, which has a near-negligible coefficient of linear expansion, so the Invar side stays essentially the same length while the other side expands, causing the strip to bend."
+    },
+    {
+      "id": 6,
+      "question": "Which one of the following is a digital or veeder-counter type of display?",
+      "options": [
+        "One which data are presented pictorially",
+        "One which data are presented with numbers pointed by an indicator for presentation",
+        "One in which data are presented in the form of letters or numbers (alpha-numeric display)"
+      ],
+      "correctIndex": 2,
+      "explanation": "A digital/veeder-counter display presents its information directly as alpha-numeric characters (letters or numbers), unlike a pictorial display or a pointer-and-scale display, where the data is represented graphically or by a moving indicator."
+    },
+    {
+      "id": 7,
+      "question": "Which of the components in the PA system sets priority for the audio inputs?",
+      "options": [
+        "Passenger Entertainment System (PES)",
+        "PA Amplifier",
+        "Radio Management Panel (RMP)"
+      ],
+      "correctIndex": 1,
+      "explanation": "The PA amplifier contains the priority logic that arbitrates between competing audio sources (such as cockpit announcements, cabin crew calls, and boarding music), muting lower-priority inputs so higher-priority audio is always heard first."
+    },
+    {
+      "id": 8,
+      "question": "Which of the following is NOT true about the SelCal system?",
+      "options": [
+        "It is a 4-tone modulated signal",
+        "Supplies the flight crew with indications of calls that come in from the airline ground stations",
+        "Enables pilots to continuously monitor company communications channels"
+      ],
+      "correctIndex": 2,
+      "explanation": "The whole purpose of SelCal is to let the crew stop continuously monitoring the radio, since the ground station transmits the aircraft's unique 4-tone code to alert the crew only when a call is meant for them. So the claim that it enables continuous monitoring is the false statement."
+    },
+    {
+      "id": 9,
+      "question": "Which mode of ATC interrogations are used in civil aircraft?",
+      "options": [
+        "Mode D and S",
+        "Mode A, C and S",
+        "Mode A, B and C"
+      ],
+      "correctIndex": 1,
+      "explanation": "Civil aircraft transponders normally respond to Mode A (identity), Mode C (altitude) and Mode S (selective addressing, used by modern SSR and TCAS) interrogations. Mode B and Mode D are not used in civil ATC operations."
+    },
+    {
+      "id": 11,
+      "question": "The validity of an ARINC 429 data word is checked by using:",
+      "options": [
+        "Checksum bit",
+        "SSM bit",
+        "A parity bit"
+      ],
+      "correctIndex": 2,
+      "explanation": "An ARINC 429 data word includes a parity bit (typically odd parity) as its final bit, which is used to detect a single-bit error in transmission and confirm the validity of the received word."
+    },
+    {
+      "id": 14,
+      "question": "Which of the following operate in the same frequency band as ATC/Mode S transponders?",
+      "options": [
+        "RA and Weather Radar System",
+        "VOR and ADF",
+        "TCAS and DME interrogators"
+      ],
+      "correctIndex": 2,
+      "explanation": "TCAS and DME interrogators operate in the same 1030/1090 MHz frequency band used by ATC/Mode S transponders, since TCAS interrogates other aircraft's transponders directly and DME uses closely related L-band frequencies."
+    },
+    {
+      "id": 15,
+      "question": "The primary purpose of the helix in a traveling wave tube is to:",
+      "options": [
+        "Reduce the axial velocity of the RF field",
+        "Prevent the electron beam from spreading in the long tube",
+        "Reduce the noise field"
+      ],
+      "correctIndex": 0,
+      "explanation": "The helical slow-wave structure reduces the effective axial (forward) velocity of the RF wave travelling along it, so that it stays in step with the slower electron beam passing through the centre of the helix, allowing continuous energy transfer and amplification along the tube's length."
+    },
+    {
+      "id": 19,
+      "question": "Which one of the following is for medium quality voice and fax/data?",
+      "options": [
+        "Aero-L (Low Gain Antenna)",
+        "Aero-I (Intermediate Gain Antenna)",
+        "Aero-H (High Gain Antenna)"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Aero-I (Intermediate Gain Antenna) satellite communication service sits between Aero-L and Aero-H in capability, providing medium-quality voice and fax/data service, whereas Aero-H offers the highest quality and Aero-L the most basic."
+    },
+    {
+      "id": 20,
+      "question": "___ provides the transmission of the interrogator signals and reception of the ground station reply signals.",
+      "options": [
+        "DME Interrogator",
+        "DME Antenna",
+        "DME RDMI display"
+      ],
+      "correctIndex": 1,
+      "explanation": "The DME antenna is the physical element that radiates the interrogator's transmitted pulses and picks up the ground station's reply pulses, passing them to and from the DME interrogator unit for processing."
+    },
+    {
+      "id": 21,
+      "question": "The principal physical differences between the transmitter (TX) and the receiver (TR) of a torque synchro are:",
+      "options": [
+        "The TR is mechanically coupled to an input shaft, while the TX rotor is free to rotate",
+        "The TX is mechanically coupled to an input shaft, while the TR rotor is free to rotate",
+        "Both TR and TX rotor are mechanically coupled"
+      ],
+      "correctIndex": 1,
+      "explanation": "The torque transmitter's rotor is mechanically coupled to and driven by the input shaft carrying the quantity being measured, while the torque receiver's rotor is left free to rotate, turning only until it aligns itself electrically with the field set up by the transmitter."
+    },
+    {
+      "id": 24,
+      "question": "The ___ generates the carrier frequency and does the modulation and demodulation during communication over the HF system.",
+      "options": [
+        "HF transceiver",
+        "HF Antenna",
+        "Antenna Coupler"
+      ],
+      "correctIndex": 0,
+      "explanation": "The HF transceiver contains the circuitry that generates the carrier frequency and performs modulation on transmit and demodulation on receive; the antenna simply radiates/picks up the signal, and the antenna coupler matches the antenna's impedance to the transmission line."
+    },
+    {
+      "id": 26,
+      "question": "Which one of the following indicators is found on the right side of the gyro horizon, considering the basic six layout of primary instruments?",
+      "options": [
+        "The rate of turn and bank indicator",
+        "The vertical speed indicator",
+        "The altimeter"
+      ],
+      "correctIndex": 1,
+      "explanation": "In the classic basic-six layout, the vertical speed indicator sits in the lower-right position next to the centrally mounted attitude indicator (gyro horizon), while the turn-and-bank indicator is on the lower left and the altimeter is at the top right."
+    },
+    {
+      "id": 31,
+      "question": "Which of the following is used for air temperature information when the speed of the aircraft is above 0.2 Mach?",
+      "options": [
+        "TAT (Total Air Temperature) probe",
+        "Bimetallic temperature gauge",
+        "A simple resistance-type temperature gauge"
+      ],
+      "correctIndex": 0,
+      "explanation": "Above about 0.2 Mach, ram air compression at the probe becomes significant, so a TAT (Total Air Temperature) probe — which measures the temperature including the ram rise — is used instead of a simple static-air sensor, and the true/static value is then computed from it."
+    },
+    {
+      "id": 33,
+      "question": "Which one of the following inertial systems use laser gyroscopes?",
+      "options": [
+        "The inertial navigation system",
+        "The inertial reference system",
+        "Both"
+      ],
+      "correctIndex": 1,
+      "explanation": "The inertial reference system (IRS), the modern successor to the older mechanical INS platform, uses ring laser gyros (or fibre-optic gyros) as its rotation sensors, giving it a solid-state, low-maintenance design."
+    },
+    {
+      "id": 34,
+      "question": "The type of measuring mechanism in a vane-type fuel flow meter is:",
+      "options": [
+        "Direct reading",
+        "Direct-remote reading",
+        "Remote reading"
+      ],
+      "correctIndex": 0,
+      "explanation": "A vane-type fuel flow meter deflects a spring-loaded vane mechanically in proportion to fuel flow and reads that deflection directly on a local dial, making it a direct-reading instrument rather than one that transmits its reading remotely."
+    },
+    {
+      "id": 35,
+      "question": "___ is the reading on the altimeter when it is set to the local barometric pressure at mean sea level.",
+      "options": [
+        "Indicated altitude",
+        "True altitude",
+        "Absolute altitude"
+      ],
+      "correctIndex": 0,
+      "explanation": "Indicated altitude is, by definition, whatever the altimeter reads once its subscale has been set to the local barometric pressure at mean sea level (QNH); it approximates true altitude but does not correct for non-standard temperature."
+    },
+    {
+      "id": 36,
+      "question": "In a magnetic drag cup tachometer, the pointer of the indicator is kept at a specific reading point by:",
+      "options": [
+        "Hairspring",
+        "Drive cable",
+        "Permanent magnet"
+      ],
+      "correctIndex": 0,
+      "explanation": "A restraining hairspring opposes the drag torque produced by the rotating permanent magnet acting on the drag cup, so the pointer settles at the specific angular position where the two torques balance, corresponding to the measured speed."
+    },
+    {
+      "id": 37,
+      "question": "Which one of the following statements is true regarding the gyros in rate of turn and bank indicators?",
+      "options": [
+        "The rotor has a greater precession rate",
+        "Does not become rigid",
+        "The rotor has a greater rigidity effect"
+      ],
+      "correctIndex": 0,
+      "explanation": "The gyro used in a rate of turn and bank indicator is designed with a higher precession rate than a rigidity-type (attitude) gyro, so it responds promptly with a deflection proportional to the rate of turn being sensed."
+    },
+    {
+      "id": 38,
+      "question": "Where is the flux detector element located on an aircraft?",
+      "options": [
+        "Wing tips and vertical stabilizers",
+        "Vertical stabilizer",
+        "Wing tip"
+      ],
+      "correctIndex": 0,
+      "explanation": "Flux detector (flux valve) elements are typically mounted at the wing tips or in the vertical stabilizer, locations remote from the fuselage's own magnetic disturbances, so the earth's magnetic field can be sensed as accurately as possible."
+    },
+    {
+      "id": 39,
+      "question": "Which of the following is a remote indication of fuel quantity?",
+      "options": [
+        "Float-type sight gauge fuel quantity indicator",
+        "DC electric fuel quantity indicator",
+        "Sight glass"
+      ],
+      "correctIndex": 1,
+      "explanation": "A DC electric fuel quantity indicator uses a float-and-transmitter arrangement to send an electrical signal to a cockpit gauge, giving a true remote indication, unlike a sight gauge or sight glass, which must be read directly at the tank itself."
+    },
+    {
+      "id": 40,
+      "question": "To prevent the entry of water and other foreign matter, the pitot pressure tube is provided with:",
+      "options": [
+        "Heater",
+        "Baffles",
+        "Cover cap"
+      ],
+      "correctIndex": 1,
+      "explanation": "Internal baffles inside the pitot tube deflect water droplets and foreign matter away through drain holes while still allowing pitot pressure to reach the instrument lines cleanly."
+    },
+    {
+      "id": 41,
+      "question": "When does erection cutout kick in?",
+      "options": [
+        "During turns (greater than 8 degrees bank)",
+        "During turns (less than 5 degrees bank)",
+        "During turns (greater than 10 degrees bank)"
+      ],
+      "correctIndex": 2,
+      "explanation": "The erection cutout disables the gyro's pendulous erection system once bank exceeds a preset threshold (typically about 10 degrees), preventing the erection system from mistakenly correcting the gyro toward a false vertical during a genuine coordinated turn."
+    },
+    {
+      "id": 42,
+      "question": "A spindown brake system is applied approximately ___ after the power supply has been switched off, to prevent spinning of the gyroscope.",
+      "options": [
+        "40 seconds",
+        "30 seconds",
+        "50 seconds"
+      ],
+      "correctIndex": 1,
+      "explanation": "The brake is applied about 30 seconds after power removal, letting the rotor slow naturally first before being braked to stop uncontrolled spinning/precession about its vertical axis during rundown."
+    },
+    {
+      "id": 43,
+      "question": "Which one of the following devices is used for an attitude displacement pickup for signal transmission for indication in the cockpit?",
+      "options": [
+        "A variable resistor",
+        "A micro switch",
+        "A synchro system"
+      ],
+      "correctIndex": 2,
+      "explanation": "A synchro system converts the gyro's mechanical attitude displacement into an electrical signal that can be transmitted to a remote cockpit indicator, giving an accurate and reliable pickup for the attitude display."
+    },
+    {
+      "id": 44,
+      "question": "Which of the following is true?",
+      "options": [
+        "A+0=0",
+        "A+A=1",
+        "A+A=A"
+      ],
+      "correctIndex": 2,
+      "explanation": "By the idempotent law of Boolean algebra, A OR A always equals A, since OR-ing a value with itself changes nothing. A+0=0 is false (A+0=A), and A+A=1 is also false (that identity applies to A+A', not A+A)."
+    },
+    {
+      "id": 63,
+      "question": "What would happen if an excitation of the alternators is not matched in a parallel system?",
+      "options": [
+        "Hysteresis losses occur in the parallel connected generators",
+        "Excessive output power induces in the generators",
+        "An undesirable circulating reactive current will flow in the system"
+      ],
+      "correctIndex": 2,
+      "explanation": "If the excitation levels (and hence output voltages) of paralleled alternators are not matched, the voltage difference between them drives an undesirable circulating reactive current through the system, which can overheat windings and unbalance load sharing."
+    },
+    {
+      "id": 64,
+      "question": "The number of rectifying elements of a selenium rectifier connected in series ___ the voltage handling ability of a rectifier.",
+      "options": [
+        "Remain the same",
+        "Increase",
+        "Decrease"
+      ],
+      "correctIndex": 1,
+      "explanation": "Connecting more rectifying elements in series shares the applied reverse voltage across each element, increasing the overall voltage the rectifier stack can handle before breakdown."
+    },
+    {
+      "id": 68,
+      "question": "In a parallel electrical system, all A.C. generators are connected to one distribution bus, which is called:",
+      "options": [
+        "Split-parallel bus",
+        "Split-bus",
+        "Tie-bus"
+      ],
+      "correctIndex": 2,
+      "explanation": "The single common distribution point where all the paralleled AC generator outputs are tied together is referred to as the tie-bus, allowing the generators to share the connected electrical load."
+    },
+    {
+      "id": 69,
+      "question": "On a twin-engine operated aircraft with both generators operating, which of the following consumer services are supplied with power?",
+      "options": [
+        "All consumer services",
+        "All essential services only",
+        "All non-essential services only"
+      ],
+      "correctIndex": 0,
+      "explanation": "With both generators operating normally, the electrical system has enough capacity to power all consumer services on the aircraft, not just the essential or non-essential loads individually."
+    },
+    {
+      "id": 70,
+      "question": "What is the measurement of one unknown pressure with reference to another unknown pressure?",
+      "options": [
+        "Differential pressure",
+        "Gauge pressure",
+        "Absolute pressure"
+      ],
+      "correctIndex": 0,
+      "explanation": "Differential pressure is the pressure difference measured between two points, neither of which needs to be a known reference such as ambient or a perfect vacuum, distinguishing it from gauge pressure (referenced to ambient) and absolute pressure (referenced to a vacuum)."
+    },
+    {
+      "id": 71,
+      "question": "The boost pumps in main tank No. 1 and main tank No. 2 are:",
+      "options": [
+        "Not interchangeable",
+        "Dissimilar",
+        "Interchangeable"
+      ],
+      "correctIndex": 2,
+      "explanation": "The boost pumps fitted to main tank No. 1 and main tank No. 2 are identical, interchangeable units, simplifying spares holding and allowing either pump to be swapped between the two tank positions."
+    },
+    {
+      "id": 72,
+      "question": "What is the power input to the stabilizer trim actuator?",
+      "options": [
+        "115 volts, single-phase, 400 Hz",
+        "115 volts, three-phase, 50 Hz",
+        "115 volts, three-phase, 400 Hz"
+      ],
+      "correctIndex": 2,
+      "explanation": "The stabilizer trim actuator's electric motor is powered from the standard aircraft AC supply of 115 volts, three-phase, 400 Hz, matching the aircraft's main AC generation frequency and phase configuration."
+    },
+    {
+      "id": 73,
+      "question": "Which of the following is the better way to avoid Electromagnetic Interference (EMI) and High Intensity Radiated Field (HIRF) problems?",
+      "options": [
+        "Using electrical cables and optical sensors",
+        "Using optical fiber cables and optical sensor",
+        "Using electrical cables and sensors"
+      ],
+      "correctIndex": 1,
+      "explanation": "Optical fibre cables carry light rather than electrical current, so they are inherently immune to electromagnetic interference and HIRF; pairing them with an optical sensor removes the metallic conductor path entirely, giving the best protection against EMI/HIRF."
+    },
+    {
+      "id": 74,
+      "question": "___ uses a fluid under pressure to drive machinery or move mechanical components.",
+      "options": [
+        "Hydraulic system",
+        "Electric system",
+        "Pneumatic system"
+      ],
+      "correctIndex": 0,
+      "explanation": "A hydraulic system specifically uses a pressurized liquid (hydraulic fluid) to transmit force and drive actuators and machinery, distinguishing it from a pneumatic system (which uses pressurized air/gas) and an electric system (which uses electrical power)."
+    },
+    {
+      "id": 75,
+      "question": "The most commonly used method of speed control of a D.C. motor is by varying the:",
+      "options": [
+        "Voltage applied to the motor",
+        "Field strength",
+        "Armature circuit resistance"
+      ],
+      "correctIndex": 0,
+      "explanation": "Varying the applied voltage is the most common and efficient way to control a DC motor's speed, since speed is directly related to applied voltage, without the power losses associated with inserting armature resistance."
+    },
+    {
+      "id": 76,
+      "question": "What are the positions of the switch which controls the emergency lighting system?",
+      "options": [
+        "OFF/ON",
+        "OFF/ON/ARMD",
+        "OFF/DIM/BRIGHT"
+      ],
+      "correctIndex": 1,
+      "explanation": "The emergency lighting switch normally has three positions — OFF, ON, and ARMED — with ARMED allowing the system to automatically illuminate on loss of normal power, in addition to the manual ON and OFF positions."
+    },
+    {
+      "id": 77,
+      "question": "In the resistance-start split-phase induction motor, the electrical phase shift between the currents in the two windings is obtained by making the impedance of the windings:",
+      "options": [
+        "Unequal",
+        "Equal",
+        "Zero"
+      ],
+      "correctIndex": 0,
+      "explanation": "By giving the start (auxiliary) winding a different resistance-to-reactance ratio than the run winding, their impedances become unequal, producing the phase shift between the two winding currents needed to create a starting torque."
+    },
+    {
+      "id": 78,
+      "question": "How many armature wire loops are available in the most simplest DC motor?",
+      "options": [
+        "Triple",
+        "Single",
+        "Double"
+      ],
+      "correctIndex": 1,
+      "explanation": "The most basic DC motor model uses a single armature wire loop rotating within a magnetic field, connected to a simple split-ring commutator — additional loops are added in practical motors to smooth out torque and output."
+    },
+    {
+      "id": 79,
+      "question": "___ is a device in the actuator that limits the rotation, and in addition its contacts are also utilized to complete circuits to indicator lights or magnetic indicators.",
+      "options": [
+        "Thermal switch",
+        "Limit switch",
+        "Brake"
+      ],
+      "correctIndex": 1,
+      "explanation": "A limit switch is positioned to stop rotation of the actuator once it reaches the end of its travel, and its contacts also close or open to complete circuits feeding indicator lights or position indicators in the cockpit."
+    },
+    {
+      "id": 80,
+      "question": "Which of the following motors has the poorest speed regulation?",
+      "options": [
+        "Differential compound motor",
+        "Cumulative compound motor",
+        "Series motor"
+      ],
+      "correctIndex": 2,
+      "explanation": "A series motor's speed varies dramatically with load — running very fast under light load and very slowly under heavy load — giving it by far the poorest speed regulation of the common DC motor types."
+    },
+    {
+      "id": 81,
+      "question": "Which of the following lights provides visual guidance for cabin evacuation when all sources of lighting above four feet are obscured by smoke?",
+      "options": [
+        "Floor proximity lighting",
+        "Emergency exit signs",
+        "Emergency exit lights"
+      ],
+      "correctIndex": 0,
+      "explanation": "Floor proximity lighting is mounted low along the cabin floor path, below the smoke layer that typically fills the upper cabin, so it remains visible to guide passengers to the exits when higher-mounted lighting is obscured."
+    },
+    {
+      "id": 82,
+      "question": "The electric stab trim switch is located on ___.",
+      "options": [
+        "Control wheel",
+        "Control stand",
+        "MCP"
+      ],
+      "correctIndex": 0,
+      "explanation": "The electric stabilizer trim switches are mounted on the outboard horn of each control wheel, so the pilot can trim the aircraft without releasing the controls."
+    },
+    {
+      "id": 83,
+      "question": "The basis for A/P operation is ___.",
+      "options": [
+        "Increasing the error signal",
+        "Error correction",
+        "Feedback"
+      ],
+      "correctIndex": 1,
+      "explanation": "The autopilot is fundamentally an error-correction system: it continuously compares the aircraft's actual state with the commanded state and drives the servos to reduce that error to zero."
+    },
+    {
+      "id": 84,
+      "question": "The Mach trim actuator moves the ___.",
+      "options": [
+        "Rudder",
+        "Stabilizer",
+        "Elevator"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Mach trim system applies its correction through the elevator, adjusting the elevator neutral position as Mach number increases to counter the nose-down tendency (mach tuck), distinct from the stabilizer trim system."
+    },
+    {
+      "id": 85,
+      "question": "To engage go-around mode, you press ___ button.",
+      "options": [
+        "ALT HOLD",
+        "TO/GA",
+        "LNAV"
+      ],
+      "correctIndex": 1,
+      "explanation": "The TO/GA (take-off/go-around) switch, mounted on the thrust levers, commands go-around mode, forcing the flight director to a pitch-up, wings-level command."
+    },
+    {
+      "id": 87,
+      "question": "The transmission of power over long distances is accomplished by using:",
+      "options": [
+        "Invertors",
+        "Rectifiers",
+        "Transformers"
+      ],
+      "correctIndex": 2,
+      "explanation": "Transformers step voltage up for long-distance transmission (reducing current and resistive losses in the lines) and step it back down for distribution, making them the key component for efficient long-distance power transmission."
+    },
+    {
+      "id": 89,
+      "question": "When the frequency of the voltage applied to a series RL circuit is decreased, the impedance:",
+      "options": [
+        "Increases",
+        "Remains the same",
+        "Decreases"
+      ],
+      "correctIndex": 2,
+      "explanation": "Inductive reactance is given by XL = 2πfL, so as frequency decreases, XL decreases, and since total impedance Z = √(R² + XL²), a lower XL results in a lower overall impedance."
+    },
+    {
+      "id": 91,
+      "question": "Which of the following is true about the relationship between the capacitance of parallel plates and their area?",
+      "options": [
+        "They are inversely related",
+        "They have no relationship",
+        "They are directly related"
+      ],
+      "correctIndex": 2,
+      "explanation": "Capacitance of a parallel-plate capacitor is given by C = εA/d, so capacitance increases directly with plate area (and decreases as plate separation increases), making area and capacitance directly related."
+    },
+    {
+      "id": 92,
+      "question": "What will we do if power can't be turned off while the victim is under electric shock?",
+      "options": [
+        "Try to find the power switch somewhere else",
+        "Wear protective material to remove the victim",
+        "Give first aid to the victim"
+      ],
+      "correctIndex": 1,
+      "explanation": "If the power source cannot be de-energized immediately, the rescuer must wear insulated/protective material (such as rubber gloves) before touching or pulling the victim clear, to avoid becoming a second casualty of the electric shock."
+    },
+    {
+      "id": 94,
+      "question": "Siemens per metre (S/m) is the unit for:",
+      "options": [
+        "Electricity",
+        "Conductivity",
+        "Resistivity"
+      ],
+      "correctIndex": 1,
+      "explanation": "Siemens per metre is the SI unit of electrical conductivity, the inverse property of resistivity, which is instead measured in ohm-metres."
+    },
+    {
+      "id": 95,
+      "question": "What will be the amount of current provided continuously if the battery's capacity is quoted as 40 AH at the 1-hour rate?",
+      "options": [
+        "60 A",
+        "40 A",
+        "80 A"
+      ],
+      "correctIndex": 1,
+      "explanation": "A capacity quoted at the 1-hour rate means the battery can deliver that current continuously for one hour, so a 40 AH rating at the 1-hour rate corresponds to a continuous discharge current of 40 A."
+    },
+    {
+      "id": 96,
+      "question": "The reaction between sulfuric acid and the lead plates begins to coat both positive and negative plates; this process is called ___.",
+      "options": [
+        "Galvanization",
+        "Sulfation",
+        "Intercalation"
+      ],
+      "correctIndex": 1,
+      "explanation": "Sulfation is the process where lead sulfate crystals form and coat the battery plates as the sulfuric acid electrolyte reacts with the lead, a process which, if allowed to harden, reduces battery capacity and performance."
+    },
+    {
+      "id": 97,
+      "question": "What should be done to optimize the battery service life?",
+      "options": [
+        "Put the battery in storage for a long time",
+        "Overcharge the battery",
+        "Plan a maintenance and maintain as per the schedule and proper charging"
+      ],
+      "correctIndex": 2,
+      "explanation": "Following a planned maintenance schedule with correct charging practices keeps the battery in good condition and extends its service life, unlike prolonged storage without maintenance or overcharging, both of which shorten battery life."
+    },
+    {
+      "id": 98,
+      "question": "What is the primary purpose of conduits?",
+      "options": [
+        "Facilitation of fluid drainage from wire bundles",
+        "Mechanical protection of wires and cables",
+        "Protection of wire bundles against atmospheric pressure"
+      ],
+      "correctIndex": 1,
+      "explanation": "Conduits are rigid or flexible tubes fitted over wire bundles specifically to give them mechanical protection against abrasion, chafing and impact damage as they pass through the aircraft structure."
+    },
+    {
+      "id": 100,
+      "question": "One of the following is NOT true about an electromagnet:",
+      "options": [
+        "Electromagnet requires no power supply",
+        "Electromagnet requires continuous supply of current to maintain the magnetic field",
+        "Magnetic field can be changed by controlling the amount of current in the winding"
+      ],
+      "correctIndex": 0,
+      "explanation": "An electromagnet must be continuously supplied with current to sustain its magnetic field — removing the power collapses the field. So the claim that it requires no power supply at all is the false statement about it."
+    }
+  ]
+}
