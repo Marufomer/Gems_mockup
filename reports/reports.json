@@ -22,5 +22,17 @@
     "message": "",
     "reportedAt": "2026-09-18T11:01:20.299Z",
     "status": "pending"
+  },
+  {
+    "id": "rep_1789830977589_jzbsnr",
+    "examId": "avo-6-part-1",
+    "examTitle": "Avo-6-part-1",
+    "questionId": "97",
+    "questionNumber": 97,
+    "question": "What parameter of an antenna is the ratio of the effective radiating area to the physical",
+    "reason": "Wrong question",
+    "message": "",
+    "reportedAt": "2026-09-19T15:16:17.589Z",
+    "status": "pending"
   }
 ]
