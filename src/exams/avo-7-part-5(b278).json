@@ -1,0 +1,266 @@
+{
+  "id": "avo-7-part-5",
+  "title": "AVO-7-Part-5",
+  "module": "AVO-7",
+  "course": "avionics",
+  "category": "our_exam_b278",
+  "description": "Part exam covering directional gyros, magnetic compass and flux valve systems, compass errors (deviation, dip), INS gyros/accelerometers, gyro erection and rundown, and degaussing procedures.",
+  "durationMinutes": 60,
+  "totalQuestions": 23,
+  "color": "purple",
+  "questions": [
+    {
+      "id": 1,
+      "question": "How many gyroscopes does an INS (inertial navigation system) have?",
+      "options": [
+        "1",
+        "3",
+        "6"
+      ],
+      "correctIndex": 1,
+      "explanation": "An inertial navigation platform uses three gyroscopes, one for each axis (pitch, roll and yaw), so that rotation about every axis can be sensed independently and the platform's orientation in space is fully defined."
+    },
+    {
+      "id": 2,
+      "question": "A directional gyro is compensated for:",
+      "options": [
+        "Cabin pressure change",
+        "Fuel flow variation",
+        "Dip and acceleration errors"
+      ],
+      "correctIndex": 2,
+      "explanation": "A directional gyro's heading output is affected by errors such as apparent drift caused by the earth's rotation (related to dip) and by acceleration effects, so compensation is built in to correct for these before the heading is displayed."
+    },
+    {
+      "id": 3,
+      "question": "How is variation in the magnetic compass liquid volume compensated for?",
+      "options": [
+        "By a bimetallic strip",
+        "By a hairspring",
+        "By a diaphragm or bellows"
+      ],
+      "correctIndex": 2,
+      "explanation": "As the compass liquid expands or contracts with temperature, a flexible diaphragm or bellows in the compass bowl absorbs the volume change, preventing bubbles from forming or the bowl from being over-pressurized."
+    },
+    {
+      "id": 4,
+      "question": "Why is wire twisted when used near a flux valve?",
+      "options": [
+        "To increase the current-carrying capacity of the wire",
+        "To reduce the overall length of the wire run",
+        "To cancel out the magnetic field induced by current flowing in the wire"
+      ],
+      "correctIndex": 2,
+      "explanation": "Twisting the pair of wires makes the small magnetic fields produced by current flowing in opposite directions in each wire cancel each other out, preventing that current-induced field from corrupting the sensitive earth's-field measurement made by the flux valve."
+    },
+    {
+      "id": 5,
+      "question": "What is one means of controlling drift on directional gyroscopes?",
+      "options": [
+        "Compensating magnets",
+        "Erection devices",
+        "A degaussing coil"
+      ],
+      "correctIndex": 1,
+      "explanation": "Erection devices periodically apply a small correcting torque to the directional gyro, aligning it back with the reference (often magnetic north from a flux valve) and counteracting the gradual drift inherent in any free gyro."
+    },
+    {
+      "id": 6,
+      "question": "In a pneumatically operated directional gyro (DG), the magnetic heading is presented:",
+      "options": [
+        "With the whole gimbal assembly fixed and the case moving along with the aircraft heading",
+        "With the case fixed and the gimbal assembly rotating with the aircraft heading",
+        "By a purely electronic digital readout with no gimbal at all"
+      ],
+      "correctIndex": 0,
+      "explanation": "In a pneumatic DG, the gyro's spin axis and gimbal assembly stay fixed in space while the aircraft (and instrument case) rotates around it, and the heading is read from the relative position between the fixed gimbal and the moving case/dial."
+    },
+    {
+      "id": 7,
+      "question": "The gyro brake is also applied approximately how many seconds after the power supply has been switched off, to prevent spinning of the gyroscope about its vertical axis during rundown?",
+      "options": [
+        "5 seconds",
+        "10 minutes",
+        "30 seconds"
+      ],
+      "correctIndex": 2,
+      "explanation": "A brake is applied about 30 seconds after power is removed, allowing the rotor to slow down naturally first, and then braking it to stop uncontrolled precession/spinning about the vertical axis while the rotor is running down."
+    },
+    {
+      "id": 8,
+      "question": "One of the oldest and simplest instruments for indicating direction is the:",
+      "options": [
+        "Directional gyro",
+        "Inertial navigation system",
+        "Magnetic compass"
+      ],
+      "correctIndex": 2,
+      "explanation": "The magnetic compass, aligning a freely pivoted magnet with the earth's magnetic field, is one of the oldest and mechanically simplest direction-indicating instruments, long predating gyroscopic and inertial systems."
+    },
+    {
+      "id": 9,
+      "question": "When a warning flag related to a directional gyro is seen on an indicator, what is the possible corrective action?",
+      "options": [
+        "Increase engine RPM",
+        "Reduce cabin pressure",
+        "Set the related circuit breaker"
+      ],
+      "correctIndex": 2,
+      "explanation": "A warning flag usually indicates a loss of power or a fault to that gyro's supply, so checking and resetting the related circuit breaker is a standard first corrective action before further troubleshooting."
+    },
+    {
+      "id": 10,
+      "question": "The effects of deviation due to the longitudinal and lateral components of aircraft magnetism are compensated by:",
+      "options": [
+        "Erection devices",
+        "Compensating magnets",
+        "A bellows assembly"
+      ],
+      "correctIndex": 1,
+      "explanation": "Small adjustable compensating magnets, mounted in the compensator unit of the compass, are used to cancel out the aircraft's own longitudinal and lateral magnetic effects, reducing deviation error during the compass swing procedure."
+    },
+    {
+      "id": 11,
+      "question": "A better solution to deviation error is to remotely locate the magnetic compass in:",
+      "options": [
+        "A wing tip or the vertical stabilizer",
+        "The centre of the instrument panel",
+        "The nose landing gear bay"
+      ],
+      "correctIndex": 0,
+      "explanation": "Mounting the flux-sensing element (such as a flux valve) out at a wing tip or in the vertical stabilizer moves it well away from the aircraft's own magnetic disturbances (engines, electrical equipment), greatly reducing deviation error compared with a compass mounted near the cockpit."
+    },
+    {
+      "id": 12,
+      "question": "An INS remains stabilized in the horizontal position during an attitude change because:",
+      "options": [
+        "It relies entirely on GPS signals for stabilization",
+        "It has four gyros instead of three",
+        "It doesn't have a third accelerometer to correct vertical movement"
+      ],
+      "correctIndex": 2,
+      "explanation": "Most INS platforms use only two horizontal accelerometers (north-south and east-west) rather than a third vertical one, since the vertical channel is inherently unstable; this is why the platform is kept stabilized horizontally rather than trying to correct vertical attitude changes directly."
+    },
+    {
+      "id": 13,
+      "question": "To eliminate reverse reading of the compass card, which design is used?",
+      "options": [
+        "Horizontal presentation",
+        "A dual-pointer vertical card",
+        "A backward-printed scale"
+      ],
+      "correctIndex": 0,
+      "explanation": "A horizontal (top-viewed) presentation of the compass card avoids the reversed appearance that occurs when the numbers are read from behind a vertically mounted card, allowing the pilot to read the heading directly and correctly."
+    },
+    {
+      "id": 14,
+      "question": "A directional gyro (DG) provides:",
+      "options": [
+        "Long-term absolute heading reference with no drift",
+        "Airspeed reference only",
+        "Short-term heading reference"
+      ],
+      "correctIndex": 2,
+      "explanation": "Because a free gyro gradually drifts, the DG only provides an accurate heading reference over the short term; it must be periodically re-aligned (manually or via a flux valve) with the magnetic compass to remain accurate over longer periods."
+    },
+    {
+      "id": 15,
+      "question": "Magnetic compass bowls are fitted with liquid to:",
+      "options": [
+        "Dampen oscillation of the float",
+        "Increase the weight of the compass card",
+        "Prevent electrical shorting inside the bowl"
+      ],
+      "correctIndex": 0,
+      "explanation": "The compass liquid provides viscous damping that steadies the floating card assembly, reducing oscillation and overswing caused by aircraft manoeuvres and turbulence so the heading can be read more easily."
+    },
+    {
+      "id": 16,
+      "question": "At what time after power is removed does the gyro rotor typically stop spinning?",
+      "options": [
+        "3 minutes",
+        "10 minutes",
+        "30 seconds"
+      ],
+      "correctIndex": 0,
+      "explanation": "After power is removed the rotor decelerates and, following the initial run-down period and brake application, the rotor typically comes to a complete stop within about 3 minutes."
+    },
+    {
+      "id": 17,
+      "question": "What action should be taken before degaussing the standby compass area?",
+      "options": [
+        "Disconnect the aircraft battery entirely",
+        "Remove the flux valve from the wing tip",
+        "Open the compass lighting circuit breaker"
+      ],
+      "correctIndex": 2,
+      "explanation": "The compass lighting circuit breaker is opened before degaussing so that any current flowing near the standby compass (from its integral lighting) does not interfere with, or be affected by, the degaussing process."
+    },
+    {
+      "id": 18,
+      "question": "Operating an aircraft near the magnetic poles causes what is known as:",
+      "options": [
+        "Acceleration error",
+        "Dip error",
+        "Deviation error"
+      ],
+      "correctIndex": 1,
+      "explanation": "Near the magnetic poles the earth's field lines become steeply inclined, causing the compass magnet to try to align with the vertical component of the field rather than the horizontal — this is known as dip error, and it becomes most pronounced at high latitudes."
+    },
+    {
+      "id": 19,
+      "question": "Where is the flux valve typically located on an aircraft?",
+      "options": [
+        "Nose landing gear bay",
+        "Cockpit overhead panel",
+        "Wing tips"
+      ],
+      "correctIndex": 2,
+      "explanation": "The flux valve is mounted out at a wing tip (or another location remote from the fuselage), well away from the magnetic disturbances of engines, electrical equipment and ferrous structure, so it senses the earth's magnetic field as accurately as possible."
+    },
+    {
+      "id": 20,
+      "question": "The floating magnets in a compass are not affected by:",
+      "options": [
+        "Electrical current flowing nearby",
+        "Nearby ferrous metal structure",
+        "Plastic materials (instrument case)"
+      ],
+      "correctIndex": 2,
+      "explanation": "Plastic and other non-magnetic materials used for the compass case have no magnetic influence on the floating magnet assembly, unlike ferrous metals and current-carrying conductors, which can deflect the compass and introduce deviation error."
+    },
+    {
+      "id": 21,
+      "question": "Which accelerometer is used for the longitudinal axis in an inertial system?",
+      "options": [
+        "North-South accelerometer",
+        "Vertical accelerometer",
+        "East-West accelerometer"
+      ],
+      "correctIndex": 0,
+      "explanation": "The accelerometer aligned along the aircraft's longitudinal (fore-aft) reference senses north-south acceleration, which is integrated to derive north-south velocity and position as part of the inertial navigation solution."
+    },
+    {
+      "id": 22,
+      "question": "Through which one of the following components is the excitation current supplied to the flux valve?",
+      "options": [
+        "The pickup coil",
+        "The secondary coil",
+        "The primary coil"
+      ],
+      "correctIndex": 2,
+      "explanation": "An ac excitation current is applied to the flux valve's primary coil, which periodically saturates the core; the resulting signal induced in the pickoff (secondary) coils is then what varies with the earth's magnetic field direction."
+    },
+    {
+      "id": 23,
+      "question": "Which one of the following types of excitation current is used with flux valves?",
+      "options": [
+        "DC current",
+        "AC current",
+        "Pulsed current from a battery only"
+      ],
+      "correctIndex": 1,
+      "explanation": "Flux valves operate on the principle of periodically saturating and desaturating a magnetic core, which requires an alternating (AC) excitation current rather than a steady DC supply."
+    }
+  ]
+}
