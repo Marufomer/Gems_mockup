@@ -69,6 +69,8 @@
     "reason": "Wrong answer",
     "message": "",
     "reportedAt": "2026-09-21T14:36:43.541Z",
-    "status": "pending"
+    "status": "resolved",
+    "statusLabel": "Resolved",
+    "updatedAt": "2026-09-21T14:53:22.381Z"
   }
 ]
