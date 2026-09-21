@@ -677,8 +677,8 @@
         "B. Area microphone",
         "C. Cabin handset"
       ],
-      "correctIndex": 0,
-      "explanation": "The supplied answer identifies the observer's microphone as the input that does not go through the remote area microphone."
+      "correctIndex": 1,
+      "explanation": "The supplied answer identifies the Area microphone as the input that does not go through the remote area microphone."
     },
     {
       "id": 62,
