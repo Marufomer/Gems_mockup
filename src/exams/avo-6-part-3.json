@@ -402,8 +402,8 @@
         "B. bus network",
         "C. star network"
       ],
-      "correctIndex": 1,
-      "explanation": "A bus network uses a shared central communication path; the wording in the question describes the bus-network configuration."
+      "correctIndex": 2,
+      "explanation": "A star network uses a shared central communication path; the wording in the question describes the bus-network configuration."
     },
     {
       "id": 37,
