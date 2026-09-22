@@ -22,10 +22,10 @@
     },
     {
       "id": 2,
-      "question": "The differing properties of land and water with regard to electromagnetic ground wave",
+      "question": "The differing properties of land and water with regard to electromagnetic ground wave absorption leads to refraction of the NDB transmission",
       "options": [
         "A. Night effect",
-        "B. absorption leads to refraction of the NDB transmission Coastal effect",
+        "B. Coastal effect",
         "C. Mountain effect"
       ],
       "correctIndex": 1,
