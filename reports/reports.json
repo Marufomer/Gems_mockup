@@ -84,5 +84,17 @@
     "message": "",
     "reportedAt": "2026-09-23T03:57:58.152Z",
     "status": "pending"
+  },
+  {
+    "id": "rep_1790177525087_16m1m4",
+    "examId": "avo-6-part-5",
+    "examTitle": "Avo-6-Part-5",
+    "questionId": "52",
+    "questionNumber": 52,
+    "question": "Which one of the following is not an input for the ground proximity warning computer",
+    "reason": "Unclear question",
+    "message": "",
+    "reportedAt": "2026-09-23T15:32:05.087Z",
+    "status": "pending"
   }
 ]
