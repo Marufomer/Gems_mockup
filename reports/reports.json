@@ -72,5 +72,17 @@
     "status": "resolved",
     "statusLabel": "Resolved",
     "updatedAt": "2026-09-21T14:53:22.381Z"
+  },
+  {
+    "id": "rep_1790135878152_yti00r",
+    "examId": "avionics-final-exam-01",
+    "examTitle": "Avionics final exam 01",
+    "questionId": "34",
+    "questionNumber": 17,
+    "question": "The type of measuring mechanism in a vane-type fuel flow meter is:",
+    "reason": "Wrong answer",
+    "message": "",
+    "reportedAt": "2026-09-23T03:57:58.152Z",
+    "status": "pending"
   }
 ]
