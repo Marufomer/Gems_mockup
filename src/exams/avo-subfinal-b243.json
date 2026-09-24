@@ -1,0 +1,508 @@
+{
+  "id": "avo-subfinal-b243",
+  "title": "AVO-SUBFINAL-B243",
+  "module": "school final",
+  "course": "avionics",
+  "category": "school_final",
+  "description": "Avionics school subfinal examination.",
+  "durationMinutes": 90,
+  "totalQuestions": 45,
+  "color": "purple",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Starting winding of a single-phase induction motor is mounted on:",
+      "options": [
+        "A. Stator",
+        "B. Rotor",
+        "C. Commutator"
+      ],
+      "correctIndex": 0,
+      "explanation": "Answer retained from the supplied question set: Stator."
+    },
+    {
+      "id": 2,
+      "question": "Unipolar non-zero output:",
+      "options": [
+        "A. 11",
+        "B. 00",
+        "C. 01"
+      ],
+      "correctIndex": 1,
+      "explanation": "Answer retained from the supplied question set: 00."
+    },
+    {
+      "id": 3,
+      "question": "Reliable, rugged, cheap...",
+      "options": [
+        "A. DC generator",
+        "B. Stepper motor",
+        "C. AC motor"
+      ],
+      "correctIndex": 2,
+      "explanation": "Answer retained from the supplied question set: AC motor."
+    },
+    {
+      "id": 4,
+      "question": "Cargo compartment fire is extinguished by__ if smoke is detected:",
+      "options": [
+        "A. Flight crew",
+        "B. Cabin crew",
+        "C. Ground engineer"
+      ],
+      "correctIndex": 0,
+      "explanation": "Answer retained from the supplied question set: Flight crew."
+    },
+    {
+      "id": 5,
+      "question": "In a DC generator, the armature coils are wound around a hollow iron core.",
+      "options": [
+        "A. Wave winding",
+        "B. Ring winding",
+        "C. Basket winding"
+      ],
+      "correctIndex": 1,
+      "explanation": "Answer retained from the supplied question set: Ring winding."
+    },
+    {
+      "id": 6,
+      "question": "Two AC signals summed like DC signals are:",
+      "options": [
+        "A. Out of phase",
+        "B. In quadrature",
+        "C. In phase"
+      ],
+      "correctIndex": 2,
+      "explanation": "Answer retained from the supplied question set: In phase."
+    },
+    {
+      "id": 7,
+      "question": "During sunset and sunrise, ADF transmissions are affected by:",
+      "options": [
+        "A. Variation of the ionosphere",
+        "B. Variation of the troposphere",
+        "C. Variation of aircraft speed"
+      ],
+      "correctIndex": 0,
+      "explanation": "Answer retained from the supplied question set: Variation of the ionosphere."
+    },
+    {
+      "id": 8,
+      "question": "Satellite Data Unit (SDU) function:",
+      "options": [
+        "A. Provides hydraulic pressure",
+        "B. Interfaces with another onboard avionics system",
+        "C. Controls landing gear"
+      ],
+      "correctIndex": 1,
+      "explanation": "Answer retained from the supplied question set: Interfaces with another onboard avionics system."
+    },
+    {
+      "id": 9,
+      "question": "Current gain calculation: 1mA per 10MV and 10mA at 1V:",
+      "options": [
+        "A. 100",
+        "B. 1",
+        "C. 10"
+      ],
+      "correctIndex": 2,
+      "explanation": "Answer retained from the supplied question set: 10."
+    },
+    {
+      "id": 10,
+      "question": "Solderless crimp, copper wire, and terminal lugs must conform to:",
+      "options": [
+        "A. MIL-T-7928",
+        "B. MIL-C-17",
+        "C. MIL-W-5088"
+      ],
+      "correctIndex": 0,
+      "explanation": "Answer retained from the supplied question set: MIL-T-7928."
+    },
+    {
+      "id": 11,
+      "question": "In an SR flip-flop, when input is set, output is:",
+      "options": [
+        "A. Reset",
+        "B. Set",
+        "C. Toggle"
+      ],
+      "correctIndex": 1,
+      "explanation": "Answer retained from the supplied question set: Set."
+    },
+    {
+      "id": 12,
+      "question": "Used to reduce Dutch roll:",
+      "options": [
+        "A. Elevator trim",
+        "B. Speed brake",
+        "C. Yaw damper"
+      ],
+      "correctIndex": 2,
+      "explanation": "Answer retained from the supplied question set: Yaw damper."
+    },
+    {
+      "id": 13,
+      "question": "Aircraft part that protects the brakes from wear and helps with safe landing:",
+      "options": [
+        "A. Thrust reverser",
+        "B. Spoiler",
+        "C. Flap"
+      ],
+      "correctIndex": 0,
+      "explanation": "Answer retained from the supplied question set: Thrust reverser."
+    },
+    {
+      "id": 14,
+      "question": "Output of NOT gate when input is A':",
+      "options": [
+        "A. X = A'",
+        "B. X = A",
+        "C. X = 0"
+      ],
+      "correctIndex": 1,
+      "explanation": "Answer retained from the supplied question set: X = A."
+    },
+    {
+      "id": 15,
+      "question": "What happens to the accumulator contents after executing the ANA instruction?",
+      "options": [
+        "A. The accumulator is cleared to zero.",
+        "B. The accumulator is complemented.",
+        "C. The accumulator holds the result of the bitwise AND operation."
+      ],
+      "correctIndex": 2,
+      "explanation": "Answer retained from the supplied question set: The accumulator holds the result of the bitwise AND operation.."
+    },
+    {
+      "id": 16,
+      "question": "Purpose of checksum and cyclic redundancy system:",
+      "options": [
+        "A. Used for error detection & coded",
+        "B. Used for signal amplification",
+        "C. Used for frequency conversion"
+      ],
+      "correctIndex": 0,
+      "explanation": "Answer retained from the supplied question set: Used for error detection & coded."
+    },
+    {
+      "id": 17,
+      "question": "Frequency range of a radio altimeter:",
+      "options": [
+        "A. 108 to 118 MHz",
+        "B. 4200 to 4400 MHz",
+        "C. 960 to 1215 MHz"
+      ],
+      "correctIndex": 1,
+      "explanation": "Answer retained from the supplied question set: 4200 to 4400 MHz."
+    },
+    {
+      "id": 18,
+      "question": "Excitation process of VFG is similar to:",
+      "options": [
+        "A. ADF",
+        "B. DME",
+        "C. IDG"
+      ],
+      "correctIndex": 2,
+      "explanation": "Answer retained from the supplied question set: IDG."
+    },
+    {
+      "id": 19,
+      "question": "Frequency of Underwater Locator Beacon:",
+      "options": [
+        "A. 37.5 Hz",
+        "B. 75 kHz",
+        "C. 37.5 kHz"
+      ],
+      "correctIndex": 0,
+      "explanation": "Answer retained from the supplied question set: 37.5 Hz."
+    },
+    {
+      "id": 20,
+      "question": "Essential power source of an aircraft:",
+      "options": [
+        "A. External GPU",
+        "B. Aircraft battery",
+        "C. Static inverter"
+      ],
+      "correctIndex": 1,
+      "explanation": "Answer retained from the supplied question set: Aircraft battery."
+    },
+    {
+      "id": 21,
+      "question": "Direct indicating element of a Bourdon tube is connected to:",
+      "options": [
+        "A. Fixed casing",
+        "B. Pressure inlet",
+        "C. Moving part"
+      ],
+      "correctIndex": 2,
+      "explanation": "Answer retained from the supplied question set: Moving part."
+    },
+    {
+      "id": 22,
+      "question": "Which surface is used for yaw damping?",
+      "options": [
+        "A. Rudder",
+        "B. Aileron",
+        "C. Elevator"
+      ],
+      "correctIndex": 0,
+      "explanation": "Answer retained from the supplied question set: Rudder."
+    },
+    {
+      "id": 23,
+      "question": "For a Split-Parallel system, when all four engines are operating, the bus is:",
+      "options": [
+        "A. Split",
+        "B. Parallel",
+        "C. Isolated"
+      ],
+      "correctIndex": 1,
+      "explanation": "Answer retained from the supplied question set: Parallel."
+    },
+    {
+      "id": 24,
+      "question": "Common emitter operation results in:",
+      "options": [
+        "A. No phase change",
+        "B. Signal cancellation",
+        "C. Signal phase reversal"
+      ],
+      "correctIndex": 2,
+      "explanation": "Answer retained from the supplied question set: Signal phase reversal."
+    },
+    {
+      "id": 25,
+      "question": "Voltage multivibrator is composed of:",
+      "options": [
+        "A. Combination of capacitor and diode",
+        "B. Transformer and resistor",
+        "C. Inductor and transistor"
+      ],
+      "correctIndex": 0,
+      "explanation": "Answer retained from the supplied question set: Combination of capacitor and diode."
+    },
+    {
+      "id": 26,
+      "question": "Speed and voltage have a direct relationship as long as:",
+      "options": [
+        "A. Resistance remains constant",
+        "B. Flux remains constant",
+        "C. Current remains zero"
+      ],
+      "correctIndex": 1,
+      "explanation": "Answer retained from the supplied question set: Flux remains constant."
+    },
+    {
+      "id": 27,
+      "question": "Precautions when working with ESD:",
+      "options": [
+        "A. Use bare hands",
+        "B. Disconnect all grounding",
+        "C. Wear a wrist strap"
+      ],
+      "correctIndex": 2,
+      "explanation": "Answer retained from the supplied question set: Wear a wrist strap."
+    },
+    {
+      "id": 28,
+      "question": "N number selected with (2^m) output, how much Selected lines:",
+      "options": [
+        "A. m",
+        "B. 2m",
+        "C. 2^m"
+      ],
+      "correctIndex": 0,
+      "explanation": "Answer retained from the supplied question set: m."
+    },
+    {
+      "id": 29,
+      "question": "Number of center tank boost pumps available in an aircraft:",
+      "options": [
+        "A. 1",
+        "B. 2",
+        "C. 4"
+      ],
+      "correctIndex": 1,
+      "explanation": "Answer retained from the supplied question set: 2."
+    },
+    {
+      "id": 30,
+      "question": "A type of antenna that radiates signals equally in all directions:",
+      "options": [
+        "A. Loop antenna",
+        "B. Directional antenna",
+        "C. Isotropic source"
+      ],
+      "correctIndex": 2,
+      "explanation": "Answer retained from the supplied question set: Isotropic source."
+    },
+    {
+      "id": 31,
+      "question": "In a normal SCR, the anode is __ with respect to the cathode:",
+      "options": [
+        "A. Positive",
+        "B. Negative",
+        "C. Neutral"
+      ],
+      "correctIndex": 0,
+      "explanation": "Answer retained from the supplied question set: Positive."
+    },
+    {
+      "id": 32,
+      "question": "A DC system where the DC generator is fixed to the same shaft as the AC generator is called:",
+      "options": [
+        "A. Belt-driven direct current generator",
+        "B. Direct-connected direct current generator",
+        "C. Separate-shaft direct current generator"
+      ],
+      "correctIndex": 1,
+      "explanation": "Answer retained from the supplied question set: Direct-connected direct current generator."
+    },
+    {
+      "id": 33,
+      "question": "Difference between single-mode and multi-mode fiber optic cables:",
+      "options": [
+        "A. Cladding material",
+        "B. Connector shape",
+        "C. Core diameter"
+      ],
+      "correctIndex": 2,
+      "explanation": "Answer retained from the supplied question set: Core diameter."
+    },
+    {
+      "id": 34,
+      "question": "As the cross-sectional area of a resistor increases, the resistance value:",
+      "options": [
+        "A. Decreases",
+        "B. Increases",
+        "C. Remains unchanged"
+      ],
+      "correctIndex": 0,
+      "explanation": "Answer retained from the supplied question set: Decreases."
+    },
+    {
+      "id": 35,
+      "question": "Component of the FMS system that allows the crew to input flight details and performance parameters into the FMC:",
+      "options": [
+        "A. Flight Data Recorder",
+        "B. Control and Display Unit",
+        "C. Air Data Computer"
+      ],
+      "correctIndex": 1,
+      "explanation": "Answer retained from the supplied question set: Control and Display Unit."
+    },
+    {
+      "id": 36,
+      "question": "Capacitive reactance is represented as:",
+      "options": [
+        "A. XL",
+        "B. R",
+        "C. Xc"
+      ],
+      "correctIndex": 2,
+      "explanation": "Answer retained from the supplied question set: Xc."
+    },
+    {
+      "id": 37,
+      "question": "Which of the following is NOT a component of an autopilot system?",
+      "options": [
+        "A. FDAU",
+        "B. Servo actuator",
+        "C. Flight control computer"
+      ],
+      "correctIndex": 0,
+      "explanation": "Answer retained from the supplied question set: FDAU."
+    },
+    {
+      "id": 38,
+      "question": "FET terminals:",
+      "options": [
+        "A. Anode, Cathode, and Gate",
+        "B. Drain, Source, and Gate",
+        "C. Emitter, Base, and Collector"
+      ],
+      "correctIndex": 1,
+      "explanation": "Answer retained from the supplied question set: Drain, Source, and Gate."
+    },
+    {
+      "id": 39,
+      "question": "When transformer windings don't have any line (empty), they have:",
+      "options": [
+        "A. Iron core",
+        "B. Ferrite core",
+        "C. Air core"
+      ],
+      "correctIndex": 2,
+      "explanation": "Answer retained from the supplied question set: Air core."
+    },
+    {
+      "id": 40,
+      "question": "The lower atmosphere layer in which we live is called:",
+      "options": [
+        "A. Troposphere",
+        "B. Stratosphere",
+        "C. Mesosphere"
+      ],
+      "correctIndex": 0,
+      "explanation": "Answer retained from the supplied question set: Troposphere."
+    },
+    {
+      "id": 41,
+      "question": "7-bit alphanumeric code with 128 characters:",
+      "options": [
+        "A. EBCDIC",
+        "B. ASCII",
+        "C. BCD"
+      ],
+      "correctIndex": 1,
+      "explanation": "Answer retained from the supplied question set: ASCII."
+    },
+    {
+      "id": 42,
+      "question": "Which of the following is true?",
+      "options": [
+        "A. Bourdon tube is used only for electrical current measurement.",
+        "B. Bourdon tube cannot be used in aircraft instruments.",
+        "C. Bourdon tube used for oil temperature in older aircraft"
+      ],
+      "correctIndex": 2,
+      "explanation": "Answer retained from the supplied question set: Bourdon tube used for oil temperature in older aircraft."
+    },
+    {
+      "id": 43,
+      "question": "Which statement is true about EPR (Engine Pressure Ratio)? 1, EPR is the ratio of exhaust to inlet pressure which measures thrust. 2, EPR is the ratio of exhaust to inlet pressure which measures constant volumetric efficiency.",
+      "options": [
+        "A. Only 1",
+        "B. Only 2",
+        "C. Both 1 and 2"
+      ],
+      "correctIndex": 0,
+      "explanation": "Answer retained from the supplied question set: Only 1."
+    },
+    {
+      "id": 44,
+      "question": "A waveform that ramps up gradually and drops sharply is called:",
+      "options": [
+        "A. Square wave",
+        "B. Sawtooth",
+        "C. Sine wave"
+      ],
+      "correctIndex": 1,
+      "explanation": "Answer retained from the supplied question set: Sawtooth."
+    },
+    {
+      "id": 45,
+      "question": "Which accelerometer measures acceleration in the longitudinal direction?",
+      "options": [
+        "A. East-West",
+        "B. Vertical",
+        "C. North-South"
+      ],
+      "correctIndex": 2,
+      "explanation": "Answer retained from the supplied question set: North-South."
+    }
+  ]
+}
