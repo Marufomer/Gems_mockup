@@ -1,0 +1,541 @@
+{
+  "id": "avo-sub-final-b211",
+  "title": "AVO sub-final -B211",
+  "module": "school final",
+  "course": "avionics",
+  "category": "school_final",
+  "description": "Sub-final exam covering displays, memory, digital logic, semiconductors, AC generators, EWIS, ADF/DME/SELCAL, gyros, air data, fire protection, batteries, AOA sensors, software criticality, DC/AC machines, and wave polarization.",
+  "durationMinutes": 150,
+  "totalQuestions": 48,
+  "color": "green",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which type of electronic display is rarely found on recent aircraft?",
+      "options": [
+        "LED",
+        "CRT",
+        "LCD"
+      ],
+      "correctIndex": 1,
+      "explanation": "CRT displays were used in early glass cockpits but have largely been replaced by lighter, more reliable LCD flat-panel displays in modern aircraft, making CRT the display type now rarely found on recent aircraft."
+    },
+    {
+      "id": 2,
+      "question": "What characteristic of read-only memory (ROM) makes it useful?",
+      "options": [
+        "ROM information can be easily updated",
+        "Data in ROM is non-volatile, that is, it remains there even without electrical power",
+        "ROM provides very large amounts of inexpensive data storage"
+      ],
+      "correctIndex": 1,
+      "explanation": "ROM's defining useful characteristic is that its stored data is non-volatile — it is retained permanently even when power is removed, which is exactly what is needed for storing fixed programs and constants."
+    },
+    {
+      "id": 3,
+      "question": "In a digital system, the operation of circuitry, data & instructions are expressed using:",
+      "options": [
+        "Binary numbers",
+        "Octal numbers",
+        "Decimal numbers"
+      ],
+      "correctIndex": 0,
+      "explanation": "Digital circuits are built from two-state (on/off) logic elements, so all circuitry operation, data and instructions are fundamentally expressed and processed as binary numbers."
+    },
+    {
+      "id": 4,
+      "question": "An ideal diode presents a(n) ____ when reverse-biased and a(n) ____ when forward-biased.",
+      "options": [
+        "Open, open",
+        "Open, short",
+        "Short, open"
+      ],
+      "correctIndex": 1,
+      "explanation": "An ideal diode behaves as a perfect switch: it presents an open circuit (infinite resistance) when reverse-biased, blocking current, and a short circuit (zero resistance) when forward-biased, allowing current to flow freely."
+    },
+    {
+      "id": 5,
+      "question": "Which type of rotor often consists of several separately wound pole pieces, bolted to the frame of the rotor?",
+      "options": [
+        "Compound wound rotor",
+        "Salient pole rotor",
+        "Shunt wound rotor"
+      ],
+      "correctIndex": 1,
+      "explanation": "A salient pole rotor is built from individual, projecting pole pieces, each with its own field winding, bolted onto the rotor frame — distinct from a cylindrical (non-salient) rotor design."
+    },
+    {
+      "id": 6,
+      "question": "The crimping tool handle is identified by using ____ as per the size of wire that it is crimping.",
+      "options": [
+        "Number of conductors",
+        "Color code",
+        "Type of material"
+      ],
+      "correctIndex": 1,
+      "explanation": "Crimping tool handles are color-coded so the correct tool (and matching die) for a given wire and terminal size can be quickly identified, reducing the risk of using an improperly sized crimp tool."
+    },
+    {
+      "id": 7,
+      "question": "Determining the relative bearing of a selected ground station with respect to the aircraft centerline is the purpose of:",
+      "options": [
+        "DME",
+        "ADF systems",
+        "VOR systems"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Automatic Direction Finder (ADF) determines the relative bearing to a tuned NDB ground station with respect to the aircraft's nose (centerline), driving the ADF needle to point toward the station."
+    },
+    {
+      "id": 8,
+      "question": "The frequency spectrum range for radio waves is from ___ to ___.",
+      "options": [
+        "30 KHz to 300 GHz",
+        "300 GHz to 3000 GHz",
+        "300 Hz to 3 KHz"
+      ],
+      "correctIndex": 0,
+      "explanation": "The radio frequency spectrum is generally defined as spanning from about 30 KHz (VLF) up to 300 GHz (EHF), covering everything from long-wave radio through microwave frequencies."
+    },
+    {
+      "id": 9,
+      "question": "Which instrument is used to measure high resistance, such as insulation resistance?",
+      "options": [
+        "Megohmmeter (Megger)",
+        "Ammeter",
+        "Wattmeter"
+      ],
+      "correctIndex": 0,
+      "explanation": "A megohmmeter (Megger) applies a high test voltage and measures the resulting very small leakage current to determine high resistance values, such as the insulation resistance of a wire or winding, which ordinary ohmmeters cannot accurately measure."
+    },
+    {
+      "id": 10,
+      "question": "Which DME component sends the interrogator signal and receives the ground station's reply signal?",
+      "options": [
+        "DME interrogator",
+        "DME antenna",
+        "DME control panel"
+      ],
+      "correctIndex": 1,
+      "explanation": "The DME antenna is the physical element that radiates the interrogator's transmitted pulses and picks up the ground station's reply pulses, passing them to and from the DME interrogator unit for processing."
+    },
+    {
+      "id": 11,
+      "question": "If the vertical gyro is tilted up while in ALT HOLD mode, the command bar moves:",
+      "options": [
+        "Upward",
+        "Downward",
+        "Sideways"
+      ],
+      "correctIndex": 1,
+      "explanation": "A nose-up displacement signal makes the computer command a correction back toward the reference altitude, so the command bars deflect downward, commanding a 'fly down' correction."
+    },
+    {
+      "id": 12,
+      "question": "In an air data system, airspeed is calculated by the:",
+      "options": [
+        "Air Data Computer (ADC)",
+        "Flight Data Recorder (FDR)",
+        "Attitude and Heading Reference System (AHRS)"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Air Data Computer processes pitot and static pressure inputs to compute airspeed (along with altitude and vertical speed), distributing the calculated values electronically to the various displays and systems."
+    },
+    {
+      "id": 13,
+      "question": "Which elastic pressure sensing element is used for oxygen pressure indication?",
+      "options": [
+        "Bourdon tube",
+        "Diaphragm",
+        "Capsule"
+      ],
+      "correctIndex": 0,
+      "explanation": "Oxygen system pressures are relatively high, so a Bourdon tube — suited to higher pressure ranges — is the elastic sensing element typically used for oxygen pressure indication."
+    },
+    {
+      "id": 14,
+      "question": "The first successful airplanes flown by the pioneers were constructed of:",
+      "options": [
+        "Stick and string (wood, wire and fabric)",
+        "Riveted aluminum monocoque structure",
+        "Composite carbon fiber"
+      ],
+      "correctIndex": 0,
+      "explanation": "The earliest successful aircraft, such as the Wright Flyer, were built from simple wooden sticks, wire bracing and fabric covering — a lightweight construction often described informally as 'stick and string,' long before metal or composite structures existed."
+    },
+    {
+      "id": 15,
+      "question": "There will be maneuver indications on the PFDs to guide the flight crew to avoid a possible collision during a:",
+      "options": [
+        "Traffic Advisory (TA)",
+        "Resolution Advisory (RA)",
+        "Ground proximity warning"
+      ],
+      "correctIndex": 1,
+      "explanation": "A TCAS Resolution Advisory (RA) provides an actual vertical maneuver command (climb or descend) displayed on the PFD to guide the crew in avoiding a collision, whereas a Traffic Advisory (TA) only alerts the crew to nearby traffic without a maneuver command."
+    },
+    {
+      "id": 16,
+      "question": "What color is displayed for the inner marker beacon indication?",
+      "options": [
+        "Blue",
+        "Amber",
+        "White"
+      ],
+      "correctIndex": 2,
+      "explanation": "The three ILS marker beacons are each identified by a distinct color and tone: outer marker (blue), middle marker (amber), and inner marker (white), letting the crew identify which marker has just been crossed."
+    },
+    {
+      "id": 17,
+      "question": "What network technology connects machines and people within a site in a small area?",
+      "options": [
+        "LAN (Local Area Network)",
+        "WAN (Wide Area Network)",
+        "Internet"
+      ],
+      "correctIndex": 0,
+      "explanation": "A LAN connects devices and users within a limited, localized area such as a single building or site, unlike a WAN, which spans much larger geographic distances by linking multiple sites together."
+    },
+    {
+      "id": 18,
+      "question": "Which function of protocols finds the most efficient route between source and destination before sending the data?",
+      "options": [
+        "Data flow control",
+        "Data sequencing",
+        "Data routing"
+      ],
+      "correctIndex": 2,
+      "explanation": "Routing is the protocol function specifically responsible for determining the most efficient path for data to travel from source to destination across a network."
+    },
+    {
+      "id": 19,
+      "question": "Which one is true when the attendant switch on the passenger sign panel is pressed?",
+      "options": [
+        "A pink light comes on at the forward and aft cabin attendant stations",
+        "The cockpit door automatically unlocks",
+        "All passenger reading lights turn off"
+      ],
+      "correctIndex": 0,
+      "explanation": "Pressing the attendant call switch illuminates a pink attendant-call light at the forward and aft cabin attendant stations, alerting the cabin crew that they are being called."
+    },
+    {
+      "id": 20,
+      "question": "In the SELCAL system, each aircraft is assigned a unique code consisting of:",
+      "options": [
+        "2 letters",
+        "4 letters",
+        "6 letters"
+      ],
+      "correctIndex": 1,
+      "explanation": "Each aircraft is assigned a unique 4-letter SELCAL code, which the ground station transmits as a corresponding 4-tone sequence to selectively alert that specific aircraft without the crew needing to continuously monitor the frequency."
+    },
+    {
+      "id": 21,
+      "question": "Where is the control panel for the external lights normally located?",
+      "options": [
+        "On the lower overhead panel",
+        "On the center pedestal",
+        "On the glareshield"
+      ],
+      "correctIndex": 0,
+      "explanation": "External light switches (landing, taxi, navigation, beacon, strobe, etc.) are commonly grouped together on the lower overhead panel, within easy reach of both pilots."
+    },
+    {
+      "id": 22,
+      "question": "A complete fire protection system includes:",
+      "options": [
+        "Fire detection/warning and fire extinguishing systems",
+        "Only a smoke detector in the cabin",
+        "Only a cockpit fire warning light"
+      ],
+      "correctIndex": 0,
+      "explanation": "A complete fire protection system must both detect and warn of a fire (detection/warning) and provide the means to put it out (extinguishing), rather than relying on detection alone."
+    },
+    {
+      "id": 23,
+      "question": "What is the active material at the negative plate in a NiCad battery?",
+      "options": [
+        "Lead",
+        "Cadmium",
+        "Lithium"
+      ],
+      "correctIndex": 1,
+      "explanation": "A NiCad (nickel-cadmium) battery uses cadmium as the active material at the negative plate and nickel oxyhydroxide at the positive plate, with potassium hydroxide as the electrolyte."
+    },
+    {
+      "id": 24,
+      "question": "The output of an AND gate is high if:",
+      "options": [
+        "Any one input is high",
+        "Only all inputs are high",
+        "All inputs are low"
+      ],
+      "correctIndex": 1,
+      "explanation": "An AND gate only outputs a high (1) when every one of its inputs is high; if even one input is low, the output is low, unlike an OR gate, which outputs high if any input is high."
+    },
+    {
+      "id": 25,
+      "question": "What is the term for the opposition to current flow?",
+      "options": [
+        "Resistance",
+        "Capacitance",
+        "Inductance"
+      ],
+      "correctIndex": 0,
+      "explanation": "Resistance is, by definition, the property of a material that opposes the flow of electric current through it, converting some electrical energy into heat in the process."
+    },
+    {
+      "id": 26,
+      "question": "The nose-down tendency of an aircraft at a high Mach number is called:",
+      "options": [
+        "Critical Mach",
+        "Mach tuck",
+        "Pitch down"
+      ],
+      "correctIndex": 1,
+      "explanation": "As Mach number increases the centre of pressure moves aft, producing a nose-down pitching moment known as Mach tuck — the effect the Mach trim system automatically compensates for."
+    },
+    {
+      "id": 27,
+      "question": "Airspeed indicators are, in effect, very sensitive pressure gauges measuring the difference between:",
+      "options": [
+        "The pitot and static pressures",
+        "Pitot pressures only",
+        "Static pressures only"
+      ],
+      "correctIndex": 0,
+      "explanation": "The airspeed indicator's diaphragm is fed pitot (total) pressure while its case is fed static pressure, and the instrument responds to the differential (dynamic) pressure between the two, calibrated to read airspeed."
+    },
+    {
+      "id": 28,
+      "question": "What are the vibration pickups used on Boeing aircraft?",
+      "options": [
+        "Piezoelectric accelerometer only",
+        "Electromechanical velocity pickup and Piezoelectric accelerometer",
+        "Electromechanical velocity pickup only"
+      ],
+      "correctIndex": 1,
+      "explanation": "Boeing aircraft engine vibration monitoring systems have used both electromechanical velocity pickups (older/classic designs) and piezoelectric accelerometers (modern designs), depending on the aircraft type and generation."
+    },
+    {
+      "id": 29,
+      "question": "Which of the following indicates pitch & roll information?",
+      "options": [
+        "Electronic Horizontal Situation Indicator (EHSI)",
+        "Electronic Attitude Director Indicator (EADI)",
+        "Symbol generator"
+      ],
+      "correctIndex": 1,
+      "explanation": "The EADI (the electronic version of the attitude director indicator/artificial horizon) displays the aircraft's pitch and roll attitude, while the EHSI instead presents the horizontal/navigation situation (heading, course, etc.)."
+    },
+    {
+      "id": 30,
+      "question": "Which of the following instruments was found on the Wright Flyer of the Wright Brothers?",
+      "options": [
+        "Gyro horizon",
+        "Primary flight display",
+        "Engine tachometer"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Wright Flyer carried only a few basic mechanical instruments, among them an engine revolution counter (tachometer). Gyroscopic instruments and electronic flight displays did not exist at that time."
+    },
+    {
+      "id": 31,
+      "question": "A transducer converting electric energy to sound is a(n):",
+      "options": [
+        "Antenna",
+        "Speaker",
+        "Microphone"
+      ],
+      "correctIndex": 1,
+      "explanation": "A speaker converts an electrical audio signal into sound waves, the opposite conversion to a microphone, which converts sound waves into an electrical signal."
+    },
+    {
+      "id": 32,
+      "question": "An enormous spark caused by the discharge of static electricity from a highly charged cloud is called:",
+      "options": [
+        "Electric shock",
+        "Static electricity",
+        "Lightning"
+      ],
+      "correctIndex": 2,
+      "explanation": "Lightning is the large-scale discharge of built-up static electric charge between a highly charged cloud and the ground (or another cloud), producing the visible spark associated with a storm."
+    },
+    {
+      "id": 33,
+      "question": "Manifold pressure is measured as:",
+      "options": [
+        "Absolute pressure",
+        "Gauge pressure",
+        "Differential pressure"
+      ],
+      "correctIndex": 0,
+      "explanation": "Manifold pressure gauges read absolute pressure (referenced to a vacuum), which is essential for correctly setting engine power since it reflects the true pressure in the intake manifold regardless of local atmospheric pressure."
+    },
+    {
+      "id": 34,
+      "question": "Which of the following indicates pitch & bank information?",
+      "options": [
+        "Gyro horizon",
+        "Heading indicator",
+        "Vertical speed indicator"
+      ],
+      "correctIndex": 0,
+      "explanation": "The gyro horizon (attitude indicator) displays both pitch and bank (roll) information relative to the horizon, while the heading indicator shows only direction and the VSI shows only rate of climb/descent."
+    },
+    {
+      "id": 35,
+      "question": "A bridge rectifier will behave like a half-wave rectifier when:",
+      "options": [
+        "Only 2 diodes remain forward biased (functional) in the circuit",
+        "All 4 diodes are forward biased simultaneously",
+        "All 4 diodes are reverse biased simultaneously"
+      ],
+      "correctIndex": 0,
+      "explanation": "If one diode pair in a bridge rectifier fails open, only the remaining diode pair can still become forward biased during its half of the cycle, so the circuit effectively rectifies only one half of each AC cycle, behaving like a half-wave rectifier."
+    },
+    {
+      "id": 36,
+      "question": "How many types of AOA (angle of attack) sensors are commonly used?",
+      "options": [
+        "1",
+        "2",
+        "3"
+      ],
+      "correctIndex": 1,
+      "explanation": "AOA is commonly sensed using two general types: the vane-type sensor (a small external vane that aligns with the airflow) and the differential/null-seeking pressure type, which senses AOA from pressure differences at slotted probe ports."
+    },
+    {
+      "id": 37,
+      "question": "How many levels of software criticality are defined (e.g. per DO-178)?",
+      "options": [
+        "3",
+        "4",
+        "5"
+      ],
+      "correctIndex": 2,
+      "explanation": "DO-178 defines five software levels (A through E) based on the severity of the failure condition the software could contribute to, ranging from Level A (catastrophic) down to Level E (no safety effect)."
+    },
+    {
+      "id": 38,
+      "question": "A DC series motor is characterized by:",
+      "options": [
+        "Low starting torque",
+        "High starting torque",
+        "Constant torque regardless of load"
+      ],
+      "correctIndex": 1,
+      "explanation": "In a series motor, the same current flows through both the field and armature windings, so at starting both are at their highest values simultaneously, giving the series motor a very high starting torque compared to other DC motor types."
+    },
+    {
+      "id": 40,
+      "question": "The directional gyro is best defined as providing a:",
+      "options": [
+        "Short-term heading reference",
+        "Long-term absolute heading reference with no drift",
+        "Airspeed reference"
+      ],
+      "correctIndex": 0,
+      "explanation": "Because a free gyro gradually drifts, the directional gyro only provides an accurate heading reference over the short term and must be periodically re-aligned with the magnetic compass to remain accurate over longer periods."
+    },
+    {
+      "id": 41,
+      "question": "DC generators used on aircraft are typically:",
+      "options": [
+        "Separately excited",
+        "Self-excited",
+        "Permanent magnet excited"
+      ],
+      "correctIndex": 1,
+      "explanation": "Aircraft DC generators are typically self-excited, meaning the field winding draws its excitation current from the generator's own output rather than from a separate external power source."
+    },
+    {
+      "id": 42,
+      "question": "Which of the following is NOT an input to the flight control computer (FCC)?",
+      "options": [
+        "Air Data Computer (ADC)",
+        "Inertial Reference System (IRS)",
+        "Autopilot mode annunciator display"
+      ],
+      "correctIndex": 2,
+      "explanation": "The ADC and IRS both supply real sensor data into the FCC as inputs. The autopilot mode annunciator, by contrast, is an output display that shows the FCC's current mode status to the crew, not a signal feeding into the computer."
+    },
+    {
+      "id": 43,
+      "question": "The waveform commonly used in AC circuits is a:",
+      "options": [
+        "Sinusoidal wave",
+        "Square wave",
+        "Sawtooth wave"
+      ],
+      "correctIndex": 0,
+      "explanation": "Standard AC power systems, including aircraft 115V/400Hz systems, are generated and distributed as sinusoidal waveforms, which are the natural output of rotating AC generators."
+    },
+    {
+      "id": 44,
+      "question": "The total current in a parallel circuit is:",
+      "options": [
+        "The same in every branch",
+        "The sum of all branch currents",
+        "The average of all branch currents"
+      ],
+      "correctIndex": 1,
+      "explanation": "By Kirchhoff's Current Law, the total current supplied to a parallel circuit equals the sum of the currents flowing through each individual branch."
+    },
+    {
+      "id": 45,
+      "question": "What type of generator system consists of a DC generator mounted on the same shaft as an AC generator?",
+      "options": [
+        "Direct-connected DC generator",
+        "Rotary inverter",
+        "Static inverter"
+      ],
+      "correctIndex": 0,
+      "explanation": "A direct-connected DC generator is physically coupled on the same shaft as the AC generator (alternator), turning at the same speed and providing DC output (such as for field excitation) alongside the AC output, without any separate drive mechanism."
+    },
+    {
+      "id": 46,
+      "question": "Which memory is used to hold the running program?",
+      "options": [
+        "Primary memory",
+        "Secondary memory",
+        "Read-only memory only"
+      ],
+      "correctIndex": 0,
+      "explanation": "Primary memory (RAM) directly holds the program instructions and data actively being executed by the processor, giving fast access, whereas secondary memory (such as disk storage) holds programs and data not currently in use."
+    },
+    {
+      "id": 47,
+      "question": "A combinational logic circuit's output depends on:",
+      "options": [
+        "Only the current inputs",
+        "Both the current inputs and the previous output state",
+        "A stored clock pulse only"
+      ],
+      "correctIndex": 0,
+      "explanation": "A combinational circuit has no memory of past states; its output at any instant depends solely on the current combination of inputs, unlike a sequential circuit, whose output also depends on its previous state."
+    },
+    {
+      "id": 48,
+      "question": "The working principle of a synchronous motor is based on:",
+      "options": [
+        "Magnetic locking between the rotor and the rotating stator field",
+        "Induced current in a squirrel-cage rotor",
+        "Commutator switching of armature current"
+      ],
+      "correctIndex": 0,
+      "explanation": "In a synchronous motor, the DC-excited rotor field locks in step with (synchronizes to) the rotating magnetic field produced by the stator, causing the rotor to turn at exactly synchronous speed — the defining working principle of this motor type."
+    },
+    {
+      "id": 49,
+      "question": "The polarization of a wave depends on the direction of the:",
+      "options": [
+        "E field (electric field)",
+        "H field (magnetic field) only",
+        "Direction of propagation only"
+      ],
+      "correctIndex": 0,
+      "explanation": "An electromagnetic wave's polarization is defined by the orientation of its electric (E) field vector as the wave propagates, which is why antennas are described as vertically, horizontally, or circularly polarized based on their E-field orientation."
+    }
+  ]
+}
