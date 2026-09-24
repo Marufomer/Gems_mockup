@@ -1,0 +1,552 @@
+{
+  "id": "avo-sub-final-b214",
+  "title": "AVO sub-final -B214",
+  "module": "school final",
+  "course": "avionics",
+  "category": "school_final",
+  "description": "Sub-final exam covering EWIS, microwave/RF transmission lines, SELCAL, PA and comm systems, GPS segments, TCAS, AFCS command bars, AC power, rectifiers, ACARS, sensors, displays, semiconductors, digital logic, DC/AC machines, magnetism, pressure instruments, and AFCS servos.",
+  "durationMinutes": 150,
+  "totalQuestions": 49,
+  "color": "blue",
+  "questions": [
+    {
+      "id": 1,
+      "question": "A wire conduit that has become kinked should be:",
+      "options": [
+        "Left in place if the kink is not visible",
+        "Straightened by hand and re-installed",
+        "Replaced"
+      ],
+      "correctIndex": 2,
+      "explanation": "A kinked conduit can restrict or damage the wires inside it and cannot reliably be restored to its original protective shape, so it should be replaced rather than reused."
+    },
+    {
+      "id": 2,
+      "question": "____ is the best medium for handling large microwave power.",
+      "options": [
+        "Strip line",
+        "Rectangular waveguide",
+        "Coaxial line"
+      ],
+      "correctIndex": 1,
+      "explanation": "Rectangular waveguide has very low loss and a large physical cross-section, giving it a much higher power-handling capability than coaxial line or strip line, making it the preferred medium for high-power microwave transmission."
+    },
+    {
+      "id": 3,
+      "question": "When the load impedance equals the characteristic impedance (Zo) of the transmission line, it means the load (antenna) _____ all the power.",
+      "options": [
+        "Transmits",
+        "Reflects",
+        "Attenuates"
+      ],
+      "correctIndex": 0,
+      "explanation": "When the load is perfectly matched to the line's characteristic impedance, all the incident power is transferred (transmitted/absorbed) into the load with no reflection, which is the condition a matched antenna feed is designed to achieve."
+    },
+    {
+      "id": 4,
+      "question": "What is a SELCAL decoder?",
+      "options": [
+        "The unit that receives the signal emitted on the ground and initiates a signal for visual and aural indication",
+        "The unit that keys the microphone whenever the aircraft transmits",
+        "The unit that permanently stores the aircraft's SELCAL code without processing incoming signals"
+      ],
+      "correctIndex": 0,
+      "explanation": "The SELCAL decoder listens for the aircraft's unique 4-tone code sent from the ground station and, on recognizing it, triggers the cockpit's visual and aural call alerts, letting the crew know a ground call is waiting without having to monitor the radio continuously."
+    },
+    {
+      "id": 5,
+      "question": "In the PA system, which of the following has the lowest priority level?",
+      "options": [
+        "Cockpit announcements",
+        "Cabin crew calls",
+        "Flight entertainment & boarding music"
+      ],
+      "correctIndex": 2,
+      "explanation": "The PA priority scheme automatically mutes lower-priority audio when a higher-priority source is active; flight entertainment and boarding music sit at the bottom of that priority order, below cockpit and cabin crew announcements."
+    },
+    {
+      "id": 6,
+      "question": "The way devices are interconnected in a network is called:",
+      "options": [
+        "Network topology",
+        "Internet",
+        "Protocol stack"
+      ],
+      "correctIndex": 0,
+      "explanation": "Network topology describes the physical or logical arrangement of how devices are connected to one another (such as bus, star, or ring), as distinct from the internet (a network of networks) or a protocol stack (the layered set of rules governing communication)."
+    },
+    {
+      "id": 7,
+      "question": "Which GPS segment calculates and formats the satellite navigation message?",
+      "options": [
+        "Space Segment (Satellite)",
+        "Control Segment",
+        "User Segment"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Control Segment (ground monitoring and master control stations) tracks the satellites, computes their precise orbital and clock data, and formats and uploads the navigation message that the satellites then broadcast."
+    },
+    {
+      "id": 8,
+      "question": "Which of the following TCAS components controls surveillance, tracking, advisory, and air-to-air maneuver coordination?",
+      "options": [
+        "TCAS antenna",
+        "TCAS computer",
+        "Mode S transponder"
+      ],
+      "correctIndex": 1,
+      "explanation": "The TCAS computer is the central processing unit that performs surveillance of nearby traffic, tracks their range and altitude, generates traffic and resolution advisories, and coordinates maneuvers with other TCAS-equipped aircraft."
+    },
+    {
+      "id": 9,
+      "question": "When the heading cursor is set 10 degrees greater than the aircraft's heading, the command bars turn to _____.",
+      "options": [
+        "Center",
+        "Right",
+        "Left"
+      ],
+      "correctIndex": 1,
+      "explanation": "Since the selected heading is to the right of the current heading, the aircraft must turn right to reach it, so the heading error signal deflects the command bars to the right to command that turn."
+    },
+    {
+      "id": 10,
+      "question": "What is the function of a wattmeter?",
+      "options": [
+        "Measures current",
+        "Measures active power",
+        "Measures reactive voltage"
+      ],
+      "correctIndex": 1,
+      "explanation": "A wattmeter measures active (real) power — the power actually converted into useful work — by combining both the current and voltage in the circuit, rather than measuring either quantity alone."
+    },
+    {
+      "id": 11,
+      "question": "A center-tapped transformer has its output full-wave rectified. The rectification will require a minimum of:",
+      "options": [
+        "6 diodes",
+        "2 diodes",
+        "4 diodes"
+      ],
+      "correctIndex": 1,
+      "explanation": "A center-tapped full-wave rectifier only needs 2 diodes, one conducting on each half-cycle using the two halves of the center-tapped secondary winding; a bridge rectifier (without a center tap) is what requires 4 diodes."
+    },
+    {
+      "id": 12,
+      "question": "In an airborne ACARS system, which component manages the incoming and outgoing messages?",
+      "options": [
+        "Control Display Unit (CDU)",
+        "Management Unit (MU)",
+        "VHF data radio"
+      ],
+      "correctIndex": 1,
+      "explanation": "The ACARS Management Unit (MU) is the central processor that formats, queues, and routes outgoing messages and sorts incoming messages to the appropriate cockpit display, coordinating the overall message traffic."
+    },
+    {
+      "id": 13,
+      "question": "Why are development and subsequent operation of equipment governed by established requirements and standards?",
+      "options": [
+        "The environmental conditions under which they operate require conformity of design",
+        "To reduce manufacturing cost only",
+        "To standardize marketing terms across airlines"
+      ],
+      "correctIndex": 0,
+      "explanation": "Aircraft equipment must reliably survive and function under demanding environmental conditions (vibration, temperature extremes, altitude, EMI), so standards and requirements exist to ensure every unit's design conforms to those operating conditions."
+    },
+    {
+      "id": 14,
+      "question": "What type of electrical power is used for a ratiometer temperature measurement system?",
+      "options": [
+        "AC",
+        "DC",
+        "RF"
+      ],
+      "correctIndex": 1,
+      "explanation": "Ratiometer-based temperature indicating systems are excited with DC power, since the ratiometer measures the ratio between two DC currents flowing through its coils rather than an AC waveform."
+    },
+    {
+      "id": 15,
+      "question": "A velocity pickup sensor is made up of which components?",
+      "options": [
+        "A permanent magnet, a coil of wire, and spring supports for the coil of wire",
+        "A thermocouple, a cold junction, and an indicator",
+        "A bourdon tube, a linkage, and a pointer"
+      ],
+      "correctIndex": 0,
+      "explanation": "A velocity (electromagnetic) pickup consists of a spring-mounted permanent magnet and coil assembly; relative motion between the magnet and coil induces a voltage proportional to vibration velocity."
+    },
+    {
+      "id": 16,
+      "question": "Which of the following components generates the image data for all the display units (DU)?",
+      "options": [
+        "Graphic Generator (GG)",
+        "Flight Data Acquisition Unit (FDAU)",
+        "Remote Data Concentrator (RDC)"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Graphic Generator (also called Display Electronics Unit or Symbol Generator on some aircraft) processes sensor and computer data into the graphics and symbology sent to each display unit, whereas the FDAU and RDC handle data acquisition rather than image generation."
+    },
+    {
+      "id": 17,
+      "question": "What is the typical location of the pitot head on subsonic aircraft?",
+      "options": [
+        "Ahead of the wing tip, at the side of the fuselage nose section, or ahead of the vertical stabilizer",
+        "Inside the pressurized cabin",
+        "At the trailing edge of the wing"
+      ],
+      "correctIndex": 0,
+      "explanation": "Pitot heads are mounted where they can sense undisturbed airflow ahead of the aircraft structure — typically ahead of a wing tip, on the side of the fuselage nose, or ahead of the vertical stabilizer."
+    },
+    {
+      "id": 18,
+      "question": "Which statement correctly describes a remotely mounted vertical gyro?",
+      "options": [
+        "It is an electrically driven gyro that supplies the reference for the automatic flight control system and the flight instruments of the aircraft",
+        "It is a pneumatically driven gyro used only for the turn coordinator",
+        "It requires no electrical power and operates purely mechanically"
+      ],
+      "correctIndex": 0,
+      "explanation": "A remote vertical gyro is an electrically driven gyroscope, mounted away from the cockpit displays, that provides the pitch and roll reference used by both the automatic flight control system and the flight instruments."
+    },
+    {
+      "id": 19,
+      "question": "What can be used to increase the efficiency of a Class A amplifier?",
+      "options": [
+        "Transformer coupling (output transformer)",
+        "Adding more bias resistors",
+        "Removing the heat sink"
+      ],
+      "correctIndex": 0,
+      "explanation": "A transformer-coupled Class A amplifier is significantly more efficient than a resistance-coupled one, since the transformer matches the load impedance for maximum power transfer without dissipating DC bias power in a series resistor."
+    },
+    {
+      "id": 20,
+      "question": "Which of the following gives rules/guidance for aircraft software upgrades?",
+      "options": [
+        "RTCA/EUROCAE document (e.g. DO-178)",
+        "IATA fare rules",
+        "ISO 9001 quality manual"
+      ],
+      "correctIndex": 0,
+      "explanation": "RTCA and EUROCAE jointly publish the standards (such as DO-178) that provide the rules and guidance governing the design, verification and approval of aircraft software, including software upgrades."
+    },
+    {
+      "id": 21,
+      "question": "Resistance is the opposition to current flow. Is this statement true or false?",
+      "options": [
+        "True",
+        "False",
+        "Only true for AC circuits"
+      ],
+      "correctIndex": 0,
+      "explanation": "By definition, electrical resistance is the property of a material that opposes the flow of current through it, converting some of the electrical energy into heat — this holds for both AC and DC circuits."
+    },
+    {
+      "id": 22,
+      "question": "What is true when the circuit cannot be de-energized to save a victim of electric shock?",
+      "options": [
+        "Try to find the power switch somewhere else",
+        "Wear protective equipment and remove the victim",
+        "Give first aid to the victim before doing anything else"
+      ],
+      "correctIndex": 1,
+      "explanation": "If the power cannot be shut off immediately, the rescuer must first put on insulated protective equipment before touching and removing the victim, to avoid also becoming a casualty of the electric shock."
+    },
+    {
+      "id": 23,
+      "question": "An inverter converts:",
+      "options": [
+        "AC to DC",
+        "DC to AC",
+        "DC to DC"
+      ],
+      "correctIndex": 1,
+      "explanation": "An inverter takes a DC input and converts it into an AC output, the opposite function of a rectifier, which converts AC to DC."
+    },
+    {
+      "id": 24,
+      "question": "In a forward-biased PN junction, a battery is connected so that its voltage opposes the junction field. This reduces the junction barrier and causes the junction to offer ______ resistance.",
+      "options": [
+        "Low",
+        "High",
+        "Infinite"
+      ],
+      "correctIndex": 0,
+      "explanation": "Forward biasing narrows the depletion region and lowers the potential barrier, allowing majority carriers to cross the junction easily, so the junction presents a low resistance to current flow."
+    },
+    {
+      "id": 25,
+      "question": "If one diode opens in a bridge full-wave rectifier, the output becomes:",
+      "options": [
+        "A half-wave rectified output",
+        "An unaffected full-wave rectified output",
+        "Zero output"
+      ],
+      "correctIndex": 0,
+      "explanation": "With one diode open, current can only flow through the remaining path during one half of the AC cycle, so the bridge rectifier's output effectively becomes a half-wave rectified signal instead of a full-wave one."
+    },
+    {
+      "id": 26,
+      "question": "What is the decimal value of the binary number 00000010011?",
+      "options": [
+        "18",
+        "16",
+        "19"
+      ],
+      "correctIndex": 2,
+      "explanation": "Reading the set bits from the binary value: 10011 = 16 + 2 + 1 = 19 in decimal."
+    },
+    {
+      "id": 27,
+      "question": "_______ is the 'heart' of the processor, which performs many operations.",
+      "options": [
+        "Control unit",
+        "Arithmetic-Logic Unit (ALU)",
+        "Motherboard"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Arithmetic-Logic Unit (ALU) is the part of the processor that actually carries out arithmetic and logic operations on data, which is why it is often described as the 'heart' of the processor, while the control unit directs operation sequencing."
+    },
+    {
+      "id": 28,
+      "question": "Which oscillator type uses a tickler coil?",
+      "options": [
+        "Armstrong",
+        "Colpitts",
+        "Hartley"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Armstrong oscillator obtains its feedback through a small secondary winding called the tickler coil, magnetically coupled to the main tank circuit inductor, distinguishing it from the Colpitts and Hartley designs."
+    },
+    {
+      "id": 29,
+      "question": "What is a disadvantage of the R-S flip-flop?",
+      "options": [
+        "Invalid (undefined) output",
+        "No input",
+        "No clock pulse"
+      ],
+      "correctIndex": 0,
+      "explanation": "When both the R and S inputs of an R-S flip-flop are asserted at the same time, the output enters an invalid/undefined (forbidden) state, which is the main design disadvantage of this basic flip-flop type."
+    },
+    {
+      "id": 30,
+      "question": "The yoke for a small AC generator is typically constructed of:",
+      "options": [
+        "Cast iron",
+        "Cobalt",
+        "Steel alloy"
+      ],
+      "correctIndex": 0,
+      "explanation": "For small AC generators, the yoke (outer frame) is commonly made of cast iron, which is inexpensive and provides an adequate low-reluctance magnetic return path for the smaller magnetic flux involved."
+    },
+    {
+      "id": 31,
+      "question": "The outer frame of an AC generator (alternator) is called the:",
+      "options": [
+        "Yoke",
+        "Rotor",
+        "Slip ring"
+      ],
+      "correctIndex": 0,
+      "explanation": "The yoke is the outer stationary frame of the alternator that supports the stator core and windings and provides the magnetic flux return path."
+    },
+    {
+      "id": 32,
+      "question": "The SI unit of magnetic field (flux density) is the:",
+      "options": [
+        "Tesla",
+        "Weber",
+        "Gauss"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Tesla is the SI unit of magnetic flux density (magnetic field strength). The Weber is the SI unit of magnetic flux itself, and the Gauss is a non-SI (CGS) unit of flux density."
+    },
+    {
+      "id": 33,
+      "question": "Which of the following is NOT true about the control of the cargo compartment lights?",
+      "options": [
+        "They are also controlled automatically by the cargo door position",
+        "They are powered from the aircraft's DC electrical system",
+        "They are controlled only using the switch"
+      ],
+      "correctIndex": 2,
+      "explanation": "Cargo compartment lights are typically not controlled solely by a manual switch — many installations also switch them automatically based on the cargo door's position, so the claim that they are 'controlled only using the switch' is the false statement."
+    },
+    {
+      "id": 34,
+      "question": "What is the purpose of connecting DC power to a synchronous motor's rotor?",
+      "options": [
+        "To produce a fixed (constant) magnetic field",
+        "To generate the AC output for the stator",
+        "To provide mechanical braking"
+      ],
+      "correctIndex": 0,
+      "explanation": "Feeding DC to the rotor winding of a synchronous motor produces a fixed magnetic field that locks (synchronizes) with the rotating stator field, which is what makes the rotor turn at exactly synchronous speed."
+    },
+    {
+      "id": 35,
+      "question": "In an AC aircraft, essential power is ultimately backed up by the:",
+      "options": [
+        "Battery",
+        "APU generator only",
+        "Ground power unit"
+      ],
+      "correctIndex": 0,
+      "explanation": "The aircraft battery is the ultimate backup power source for essential loads, supplying power directly or via a static inverter when all generator sources (engine and APU) are unavailable."
+    },
+    {
+      "id": 36,
+      "question": "Which type of display does NOT emit its own light?",
+      "options": [
+        "CRT",
+        "LCD",
+        "LED"
+      ],
+      "correctIndex": 1,
+      "explanation": "An LCD does not generate its own light; it relies on a separate backlight to illuminate its liquid crystal pixels, unlike a CRT or LED display, which both actively emit light themselves."
+    },
+    {
+      "id": 37,
+      "question": "Which of the following is NOT a true term for the signal path from a control surface to the FCC?",
+      "options": [
+        "Path",
+        "Feedback loop path",
+        "Forward path"
+      ],
+      "correctIndex": 2,
+      "explanation": "A signal travelling from the control surface (via its position sensor) back to the FCC is a feedback signal, so it is correctly described as the 'feedback loop path.' The 'forward path' instead describes the command signal going from the FCC out to the control surface, making it the wrong term for this direction."
+    },
+    {
+      "id": 38,
+      "question": "Which of the following is NOT a component of a transformer?",
+      "options": [
+        "Primary (winding)",
+        "Mutual flux",
+        "Core"
+      ],
+      "correctIndex": 1,
+      "explanation": "The primary winding and the core are physical parts of a transformer, whereas mutual flux is the magnetic linkage effect that results from the transformer's operation, not a physical component in its own right."
+    },
+    {
+      "id": 39,
+      "question": "Which elastic pressure sensing element is used for oxygen pressure indication?",
+      "options": [
+        "Bourdon tube",
+        "Diaphragm",
+        "Capsule"
+      ],
+      "correctIndex": 0,
+      "explanation": "Oxygen system pressures are relatively high, so a Bourdon tube — suited to higher pressure ranges — is the elastic sensing element typically used for oxygen pressure indication."
+    },
+    {
+      "id": 40,
+      "question": "If the test condition clears and the failure is eliminated in the system, the respective warning light will:",
+      "options": [
+        "Remain illuminated until manually reset",
+        "Go off (extinguish)",
+        "Flash continuously"
+      ],
+      "correctIndex": 1,
+      "explanation": "Once the underlying fault is actually cleared, the monitoring circuit no longer detects a failure condition, so the associated warning light extinguishes rather than staying lit or continuing to flash."
+    },
+    {
+      "id": 41,
+      "question": "Power factor is expressed as:",
+      "options": [
+        "True power / Apparent power",
+        "R / Z",
+        "Both"
+      ],
+      "correctIndex": 2,
+      "explanation": "Power factor can be expressed either as the ratio of true (real) power to apparent power, or, in a simple series R-X circuit, as the ratio of resistance to impedance (R/Z) — both expressions are equivalent and valid."
+    },
+    {
+      "id": 42,
+      "question": "Capacitance will _____ as the plate area of a capacitor is made larger.",
+      "options": [
+        "Show no difference",
+        "Increase",
+        "Decrease"
+      ],
+      "correctIndex": 1,
+      "explanation": "Capacitance is directly proportional to plate area (C = εA/d), so increasing the plate area increases the capacitor's capacitance."
+    },
+    {
+      "id": 43,
+      "question": "An alternator driven by a constant speed drive (CSD) regulates a constant:",
+      "options": [
+        "Voltage",
+        "Current",
+        "Frequency"
+      ],
+      "correctIndex": 2,
+      "explanation": "A constant speed drive mechanically holds the alternator's rotational speed constant regardless of engine speed variations, and since AC frequency is directly proportional to rotor speed, this is what keeps the generator's output frequency constant."
+    },
+    {
+      "id": 44,
+      "question": "In a pneumatic directional gyro, how is the magnetic heading presented?",
+      "options": [
+        "The rotor, inner ring and outer ring are fixed in space, while the case rotates along with the aircraft",
+        "The case is fixed, while the rotor assembly rotates with the aircraft",
+        "Both the case and the rotor rotate together with the aircraft"
+      ],
+      "correctIndex": 0,
+      "explanation": "The gyro's rotor and gimbal rings stay fixed in space due to gyroscopic rigidity, while the instrument case (and the aircraft it's mounted in) rotates around this fixed reference, with heading read from the relative position between case and gimbal."
+    },
+    {
+      "id": 45,
+      "question": "Starting current in a series-wound DC motor passes through both the field and armature windings, producing a:",
+      "options": [
+        "High starting torque",
+        "Constant starting torque",
+        "Low starting torque"
+      ],
+      "correctIndex": 0,
+      "explanation": "Because the same large starting current flows through both the series field and the armature, both the field strength and armature current are high simultaneously, producing a high starting torque — the classic characteristic of a series-wound DC motor."
+    },
+    {
+      "id": 46,
+      "question": "On the ADF control panel, when the pilot wants the needle to automatically display bearing information, he/she puts the mode SELECT knob in the ___ position.",
+      "options": [
+        "ANT",
+        "ADF",
+        "LOOP"
+      ],
+      "correctIndex": 1,
+      "explanation": "Selecting the ADF position combines the loop and sense antenna signals to automatically drive the needle to point toward the tuned station's bearing, unlike the ANT or LOOP positions, which are used for tuning/identification purposes without automatic bearing indication."
+    },
+    {
+      "id": 47,
+      "question": "Which of the following is true about magnetic lines of force?",
+      "options": [
+        "Magnetic lines of force go from north to south pole outside the magnet",
+        "Magnetic lines of force go from south to north pole outside the magnet",
+        "Magnetic lines of force never form closed loops"
+      ],
+      "correctIndex": 0,
+      "explanation": "By convention, magnetic field lines are drawn leaving the north pole and entering the south pole in the external field, then continuing from south back to north inside the magnet, forming complete closed loops."
+    },
+    {
+      "id": 48,
+      "question": "Which one is true regarding microcontroller architecture?",
+      "options": [
+        "Von Neumann architecture uses a single data bus for both data and instructions stored in a unique memory, while Harvard architecture uses separate buses for data and instructions stored in different memories",
+        "Von Neumann and Harvard architectures are identical in their bus structure",
+        "Harvard architecture uses a single shared memory for both data and instructions, just like Von Neumann"
+      ],
+      "correctIndex": 0,
+      "explanation": "Von Neumann architecture shares one memory and one bus for both instructions and data, which can create a bottleneck, while Harvard architecture uses physically separate memories and buses for instructions and data, allowing both to be accessed simultaneously."
+    },
+    {
+      "id": 49,
+      "question": "Modern large aircraft use ____ type of autopilot servo.",
+      "options": [
+        "Electro-hydraulic",
+        "Pneumatic",
+        "Electrical"
+      ],
+      "correctIndex": 0,
+      "explanation": "Large aircraft need high actuating forces to move their flight controls, so the autopilot computer's electrical command signal is used to meter hydraulic power through an electro-hydraulic servo, combining electrical control with hydraulic muscle."
+    }
+  ]
+}
