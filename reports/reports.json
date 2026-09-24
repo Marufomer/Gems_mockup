@@ -72,5 +72,41 @@
     "status": "resolved",
     "statusLabel": "Resolved",
     "updatedAt": "2026-09-21T14:53:22.381Z"
+  },
+  {
+    "id": "rep_1790135878152_yti00r",
+    "examId": "avionics-final-exam-01",
+    "examTitle": "Avionics final exam 01",
+    "questionId": "34",
+    "questionNumber": 17,
+    "question": "The type of measuring mechanism in a vane-type fuel flow meter is:",
+    "reason": "Wrong answer",
+    "message": "",
+    "reportedAt": "2026-09-23T03:57:58.152Z",
+    "status": "pending"
+  },
+  {
+    "id": "rep_1790177525087_16m1m4",
+    "examId": "avo-6-part-5",
+    "examTitle": "Avo-6-Part-5",
+    "questionId": "52",
+    "questionNumber": 52,
+    "question": "Which one of the following is not an input for the ground proximity warning computer",
+    "reason": "Unclear question",
+    "message": "",
+    "reportedAt": "2026-09-23T15:32:05.087Z",
+    "status": "pending"
+  },
+  {
+    "id": "rep_1790188906714_85fux6",
+    "examId": "avo-5-part-2",
+    "examTitle": "Avo-5-part-2",
+    "questionId": "108",
+    "questionNumber": 108,
+    "question": "Not used as a smoke detector",
+    "reason": "Unclear question",
+    "message": "",
+    "reportedAt": "2026-09-23T18:41:46.714Z",
+    "status": "pending"
   }
 ]
