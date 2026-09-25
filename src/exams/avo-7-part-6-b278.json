@@ -1,0 +1,288 @@
+{
+  "id": "avo-7-part-6-b278",
+  "title": "AVO-7-Part-6(B278)",
+  "module": "AVO-7(B278)",
+  "course": "avionics",
+  "category": "our_exam_b278",
+  "description": "Part exam covering the autopilot/AFCS: yaw damper and rudder summing, command bars, stick shaker, basic modes, fly-by-wire, servo types, trim switches, FDR location, and disengagement/warning logic.",
+  "durationMinutes": 60,
+  "totalQuestions": 25,
+  "color": "purple",
+  "questions": [
+    {
+      "id": 1,
+      "question": "The manual rudder pedal input to the auto yaw damper function is combined at the:",
+      "options": [
+        "Rudder summing unit",
+        "Mode control panel",
+        "Instrument amplifier"
+      ],
+      "correctIndex": 0,
+      "explanation": "The rudder summing unit combines the pilot's manual rudder pedal input with the yaw damper's electrical command signal, so the servo drives the rudder to the sum of both inputs without the pedals themselves moving."
+    },
+    {
+      "id": 2,
+      "question": "What are the inputs on the control panel of the AFCS computer?",
+      "options": [
+        "Only cabin pressure schedule",
+        "Mode selection, setting — but not limited to those",
+        "Only engine thrust rating"
+      ],
+      "correctIndex": 1,
+      "explanation": "The AFCS/mode control panel provides mode selection and target settings (heading, altitude, speed, vertical speed, course), among other functions — a broad set of inputs, not a narrow single-purpose control."
+    },
+    {
+      "id": 3,
+      "question": "Which one gives the lateral guidance of the command bar?",
+      "options": [
+        "Horizon line",
+        "Vertical bar",
+        "Bank scale"
+      ],
+      "correctIndex": 1,
+      "explanation": "The command bars consist of a vertical bar and a horizontal bar; the vertical bar tilts to give the roll/lateral steering guidance, while the horizontal bar moves up or down to give pitch guidance."
+    },
+    {
+      "id": 4,
+      "question": "What is activated by the stall warning system when the aircraft approaches a stall condition (near stall)?",
+      "options": [
+        "Speed brakes",
+        "Yaw damper",
+        "Stick shakers"
+      ],
+      "correctIndex": 2,
+      "explanation": "As the aircraft approaches the stall, the stick shaker motor vibrates the control column, giving the pilot an unmistakable tactile warning of the impending stall."
+    },
+    {
+      "id": 6,
+      "question": "What happens to the autopilot when there is no mode selection made for vertical or lateral navigation, but the autopilot system is engaged?",
+      "options": [
+        "It disengages immediately",
+        "It automatically holds the vertical and lateral basic mode",
+        "It defaults to go-around mode"
+      ],
+      "correctIndex": 1,
+      "explanation": "With no specific navigation mode selected, the autopilot defaults to its basic modes — typically holding the pitch attitude (or altitude) and wings-level/heading — until the crew selects a specific vertical or lateral mode."
+    },
+    {
+      "id": 7,
+      "question": "In which system are the pilot's controls and the servos connected electrically?",
+      "options": [
+        "Fly-by-wire",
+        "Cable-and-pulley system",
+        "Push-pull rod system"
+      ],
+      "correctIndex": 0,
+      "explanation": "A fly-by-wire system replaces the mechanical linkages between the pilot's controls and the flight control surfaces with electrical signals, which are processed by flight control computers and sent to the servo actuators."
+    },
+    {
+      "id": 8,
+      "question": "The servomotor that moves the flight control surfaces without moving the pilot's controls is the ___ type.",
+      "options": [
+        "Series",
+        "Parallel",
+        "Differential"
+      ],
+      "correctIndex": 0,
+      "explanation": "A series servo is inserted into the control run downstream of the pilot's controls, so surface movement occurs with no corresponding movement at the control column, unlike a parallel servo, which back-drives the pilot's controls."
+    },
+    {
+      "id": 9,
+      "question": "Of the following three terms, two have the same meaning. Which one is different?",
+      "options": [
+        "Feedback",
+        "Command",
+        "Follow-up"
+      ],
+      "correctIndex": 1,
+      "explanation": "Feedback and follow-up both refer to the signal returned from a servo/actuator reporting its actual position, whereas command refers to the input instruction telling the servo where to go — a different concept from the other two."
+    },
+    {
+      "id": 10,
+      "question": "Where is the electrical trim switch located?",
+      "options": [
+        "Control wheel",
+        "Mode control panel",
+        "Center pedestal"
+      ],
+      "correctIndex": 0,
+      "explanation": "The electrical (stab) trim switches are mounted on the outboard horn of each control wheel, so the pilot can trim the aircraft without releasing the controls."
+    },
+    {
+      "id": 11,
+      "question": "Which control surface is used by the yaw damper?",
+      "options": [
+        "Elevator",
+        "Aileron",
+        "Rudder"
+      ],
+      "correctIndex": 2,
+      "explanation": "Yaw is controlled about the vertical axis by the rudder, so the yaw damper servo drives the rudder to oppose Dutch roll oscillation."
+    },
+    {
+      "id": 12,
+      "question": "Glideslope beam capture gives which light on the annunciator panel?",
+      "options": [
+        "Amber",
+        "Green",
+        "Red"
+      ],
+      "correctIndex": 1,
+      "explanation": "The glide slope light illuminates amber when the approach mode is armed, and changes to green once the GS beam has actually been captured, confirming the aircraft is tracking the beam."
+    },
+    {
+      "id": 13,
+      "question": "The underwater locator beacon (ULB) is activated:",
+      "options": [
+        "Underwater",
+        "By reaching 3400 g of impact",
+        "By a cockpit switch"
+      ],
+      "correctIndex": 0,
+      "explanation": "The ULB has a water-activated switch that starts the ultrasonic pulse transmission only when submerged, keeping it inactive during normal ground and flight operations and ready to be located if the wreckage enters the sea."
+    },
+    {
+      "id": 14,
+      "question": "Setting a heading 10° more than the actual heading will move the command bars to deviate to:",
+      "options": [
+        "Center",
+        "Right",
+        "Left"
+      ],
+      "correctIndex": 1,
+      "explanation": "The heading error synchro commands a turn toward the selected heading; since it is 10° greater than the current heading, the shorter turn is to the right, so the command bars deflect right."
+    },
+    {
+      "id": 15,
+      "question": "What is the advantage of the autopilot?",
+      "options": [
+        "Reduces crew fatigue only",
+        "Provides a greater degree of precision only",
+        "Both: reduces crew fatigue and provides a greater degree of precision"
+      ],
+      "correctIndex": 2,
+      "explanation": "Automatic flight relieves the crew of the continuous workload of manual control on long flights and holds the flight path far more accurately and consistently than a pilot can by hand, giving both benefits together."
+    },
+    {
+      "id": 16,
+      "question": "Which axis is controlled in a single-axis autopilot system?",
+      "options": [
+        "Longitudinal axis",
+        "Lateral axis",
+        "Vertical axis"
+      ],
+      "correctIndex": 1,
+      "explanation": "A single-axis autopilot is a basic wing-leveller: it controls roll about the lateral/longitudinal reference using the ailerons only, with no pitch or yaw control."
+    },
+    {
+      "id": 17,
+      "question": "The autopilot can be disengaged by:",
+      "options": [
+        "Control wheel and mode control panel",
+        "Only by pulling the autopilot circuit breaker",
+        "Only by moving the mode selector to OFF"
+      ],
+      "correctIndex": 0,
+      "explanation": "A quick-release disengage switch is provided on each control wheel for immediate use, and the engage/disengage controls on the mode control panel give a second means of disconnection."
+    },
+    {
+      "id": 18,
+      "question": "The two thrust levers of an autothrottle system are driven:",
+      "options": [
+        "Only by the left servo, with the right slaved mechanically",
+        "Always together by a single servo",
+        "Independently"
+      ],
+      "correctIndex": 2,
+      "explanation": "Each thrust lever has its own servo drive, allowing the autothrottle to set different thrust on each engine, which is required for thrust trimming and for continued operation if one channel fails."
+    },
+    {
+      "id": 19,
+      "question": "When the autopilot is disengaged, is there an aural warning?",
+      "options": [
+        "Only during an automatic landing",
+        "No",
+        "Yes"
+      ],
+      "correctIndex": 2,
+      "explanation": "Autopilot disconnect — whether commanded or automatic — produces an aural warning together with a visual warning light, because an unnoticed disconnect is a hazardous condition."
+    },
+    {
+      "id": 20,
+      "question": "Which one of the following parts of the autopilot system is the 'muscle' for its control?",
+      "options": [
+        "The mode control panel",
+        "The servo motors",
+        "The vertical gyro"
+      ],
+      "correctIndex": 1,
+      "explanation": "The servo motors are the actuating elements that physically move the flight control surfaces, providing the mechanical force ('muscle') commanded by the computer; the MCP only selects modes and the gyro only senses attitude."
+    },
+    {
+      "id": 21,
+      "question": "Where is the flight data recorder (FDR) located?",
+      "options": [
+        "Nose section",
+        "Forward electronics bay",
+        "Rear of fuselage"
+      ],
+      "correctIndex": 2,
+      "explanation": "Accident evidence shows the rear fuselage and tail unit structure is the section most likely to survive or be least severely damaged, so the protected FDR is installed in the rear of the aircraft."
+    },
+    {
+      "id": 22,
+      "question": "A dual-axis autopilot controls which axes?",
+      "options": [
+        "Pitch and yaw",
+        "Roll and pitch",
+        "Roll and yaw"
+      ],
+      "correctIndex": 1,
+      "explanation": "A two-axis (dual-axis) autopilot adds pitch control to the basic roll channel, driving the ailerons and elevator; the rudder (yaw) channel is added separately as a third axis in a full three-axis system."
+    },
+    {
+      "id": 23,
+      "question": "Which of the following interfaces the pilot and the autopilot computer?",
+      "options": [
+        "Command",
+        "Underwater locator beacon",
+        "Servo actuator"
+      ],
+      "correctIndex": 0,
+      "explanation": "The pilot's interface with the computer is through command selection — mode and target selections made on the control panel are converted into the command inputs the computer works to."
+    },
+    {
+      "id": 24,
+      "question": "Modern large aircraft use which type of autopilot servo?",
+      "options": [
+        "Purely mechanical cable drive",
+        "Pneumatic",
+        "Electro-hydraulic"
+      ],
+      "correctIndex": 2,
+      "explanation": "Large aircraft need high actuating forces to move their flight controls, so the computer's electrical command signal is used to meter hydraulic power through an electro-hydraulic servo, combining electrical control with hydraulic muscle."
+    },
+    {
+      "id": 25,
+      "question": "What is the advantage of the autopilot?",
+      "options": [
+        "Reduces fuel consumption only",
+        "Reduces crew fatigue and provides a greater degree of precision",
+        "Eliminates the need for flight instruments"
+      ],
+      "correctIndex": 1,
+      "explanation": "Automatic flight relieves the crew of continuous manual control workload and holds the flight path more accurately and consistently than hand-flying, giving both reduced fatigue and greater precision."
+    },
+    {
+      "id": 26,
+      "question": "How does the yaw damper damp Dutch roll?",
+      "options": [
+        "By displacement of the ailerons to oppose the roll oscillation",
+        "By reducing engine thrust asymmetrically",
+        "By displacement of the rudder to further assist the vertical stabilizer in its stabilizing function"
+      ],
+      "correctIndex": 2,
+      "explanation": "The yaw damper senses the yaw rate of the Dutch roll oscillation and commands a small rudder displacement that works with the vertical stabilizer's natural stabilizing (weathercock) effect, damping out the oscillation."
+    }
+  ]
+}
