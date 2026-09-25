@@ -1,0 +1,563 @@
+{
+  "id": "avo-sub-final-b274",
+  "title": "AVO Sub-final(B274)",
+  "module": "school final",
+  "course": "avionics",
+  "category": "school_final",
+  "description": "Avionics Sub-Final examination questions with three choices.",
+  "durationMinutes": 150,
+  "totalQuestions": 50,
+  "color": "blue",
+  "questions": [
+    {
+      "id": 1,
+      "question": "What is the advantage of continuous loop over spot detector?",
+      "options": [
+        "To measure electrical voltage",
+        "To detect the whole area",
+        "To detect only one specific point"
+      ],
+      "correctIndex": 1,
+      "explanation": "A continuous loop sensing system can monitor the entire protected area, whereas a spot detector checks only a particular location."
+    },
+    {
+      "id": 2,
+      "question": "What can cause an intermittent alarm?",
+      "options": [
+        "Frayed wire",
+        "Fully insulated wire",
+        "New battery cell"
+      ],
+      "correctIndex": 0,
+      "explanation": "A frayed or damaged wire can create an intermittent electrical condition, which may cause an alarm to appear and disappear."
+    },
+    {
+      "id": 3,
+      "question": "A 40 Ah battery rated at a 10-hour rate can supply approximately how much current?",
+      "options": [
+        "4 A",
+        "40 A",
+        "10 A"
+      ],
+      "correctIndex": 0,
+      "explanation": "A 40 Ah battery on a 10-hour rate supplies 40 ÷ 10 = 4 A for the rated period."
+    },
+    {
+      "id": 4,
+      "question": "Which component of a circuit is responsible for consuming current?",
+      "options": [
+        "Generator",
+        "Load",
+        "Circuit breaker"
+      ],
+      "correctIndex": 1,
+      "explanation": "The load is the part of a circuit that consumes electrical energy and therefore allows current to flow through it."
+    },
+    {
+      "id": 5,
+      "question": "What is the loss associated with repeated magnetization and demagnetization?",
+      "options": [
+        "Copper loss",
+        "Hysteresis loss",
+        "Mechanical loss"
+      ],
+      "correctIndex": 1,
+      "explanation": "Hysteresis loss occurs because a magnetic material uses energy during repeated magnetization and demagnetization cycles."
+    },
+    {
+      "id": 6,
+      "question": "Which is an example of natural electricity?",
+      "options": [
+        "Lightning",
+        "Static inverter output",
+        "Battery charging"
+      ],
+      "correctIndex": 0,
+      "explanation": "Lightning is a natural electrical discharge produced by charge separation in the atmosphere."
+    },
+    {
+      "id": 7,
+      "question": "What is true about RMS and average value for an AC waveform?",
+      "options": [
+        "Average is always greater than RMS",
+        "RMS is greater than average",
+        "RMS and average are always equal"
+      ],
+      "correctIndex": 1,
+      "explanation": "For the waveform considered in the question, the RMS value is greater than the average value, because RMS represents the heating-equivalent magnitude of the AC quantity."
+    },
+    {
+      "id": 8,
+      "question": "What is the function of the multiplier on a voltmeter?",
+      "options": [
+        "To decrease the supply frequency",
+        "To increase the voltmeter range",
+        "To increase battery capacity"
+      ],
+      "correctIndex": 1,
+      "explanation": "A multiplier resistor extends the voltage range of a voltmeter so that it can measure a higher voltage than the basic meter movement can handle."
+    },
+    {
+      "id": 9,
+      "question": "What is the brain of the AFCS?",
+      "options": [
+        "AFCS computer",
+        "Flight control cable",
+        "Pitot probe"
+      ],
+      "correctIndex": 0,
+      "explanation": "The AFCS computer processes flight-control inputs and commands, so it acts as the central processing unit or brain of the automatic flight control system."
+    },
+    {
+      "id": 10,
+      "question": "How is Mach trim operated?",
+      "options": [
+        "Only manually",
+        "Only by the landing gear",
+        "Automatically"
+      ],
+      "correctIndex": 2,
+      "explanation": "Mach trim is normally controlled automatically so that the aircraft can maintain the required trim as Mach number changes."
+    },
+    {
+      "id": 11,
+      "question": "The angular change in direction of the plane of rotation under the influence of an applied force at a point 90 degrees away in the direction of rotation is called what?",
+      "options": [
+        "Acceleration",
+        "Precession",
+        "Induction"
+      ],
+      "correctIndex": 1,
+      "explanation": "Precession is the change in the direction of a gyroscope's rotational plane when an applied force acts at right angles to the rotor motion."
+    },
+    {
+      "id": 12,
+      "question": "Where is the drain hole located in the pitot tube?",
+      "options": [
+        "Between the pitot probe and the casing",
+        "At the static port only",
+        "Inside the cockpit instrument"
+      ],
+      "correctIndex": 0,
+      "explanation": "The drain arrangement provides a path for moisture to leave the space between the pitot probe and its casing, helping prevent water accumulation."
+    },
+    {
+      "id": 13,
+      "question": "How many accelerometers are there in the INS gyroscope system?",
+      "options": [
+        "3",
+        "4",
+        "2"
+      ],
+      "correctIndex": 2,
+      "explanation": "The supplied answer is two accelerometers in the INS gyroscope arrangement described by the question."
+    },
+    {
+      "id": 14,
+      "question": "What do the abbreviations CISC and RISC stand for?",
+      "options": [
+        "Computer Input Signal Circuit and Radio Interface Signal Circuit",
+        "Complex Instruction Set Computing and Reduced Instruction Set Computing",
+        "Central Integrated System Control and Remote Instrument System Control"
+      ],
+      "correctIndex": 1,
+      "explanation": "CISC means Complex Instruction Set Computing, while RISC means Reduced Instruction Set Computing; the names describe different processor instruction-set approaches."
+    },
+    {
+      "id": 15,
+      "question": "What is the function of the accumulator register?",
+      "options": [
+        "Store ALU",
+        "Supply hydraulic pressure",
+        "Generate radio frequency"
+      ],
+      "correctIndex": 0,
+      "explanation": "The accumulator is a processor register used to hold intermediate data and results produced during arithmetic and logic operations by the ALU."
+    },
+    {
+      "id": 16,
+      "question": "Which of the following is an input device?",
+      "options": [
+        "Printer",
+        "Monitor",
+        "Keyboard"
+      ],
+      "correctIndex": 2,
+      "explanation": "A keyboard is an input device because it allows the user to enter data or commands into a computer."
+    },
+    {
+      "id": 17,
+      "question": "Which technology has minimum power dissipation?",
+      "options": [
+        "TTL",
+        "ECL",
+        "CMOS"
+      ],
+      "correctIndex": 2,
+      "explanation": "CMOS logic is known for very low static power consumption, making its power dissipation small compared with many other logic technologies."
+    },
+    {
+      "id": 18,
+      "question": "Which one is not a neutralizing electrolyte agent for NiCd batteries?",
+      "options": [
+        "Boric acid",
+        "Sodium bicarbonate",
+        "Distilled water"
+      ],
+      "correctIndex": 1,
+      "explanation": "The supplied answer identifies sodium bicarbonate as the item that is not a neutralizing electrolyte agent for a NiCd battery condition."
+    },
+    {
+      "id": 19,
+      "question": "Which amplifier class has the highest linearity and low distortion?",
+      "options": [
+        "Class C",
+        "Class B",
+        "Class A"
+      ],
+      "correctIndex": 2,
+      "explanation": "Class A amplifiers conduct for the full cycle and are known for good linearity and low distortion, although they are less efficient."
+    },
+    {
+      "id": 20,
+      "question": "Which service is directly connected to the AC battery?",
+      "options": [
+        "Vital service",
+        "Entertainment service",
+        "Non-essential service"
+      ],
+      "correctIndex": 0,
+      "explanation": "Vital services are electrical services that must remain available for essential aircraft operation and are therefore connected to the required battery supply."
+    },
+    {
+      "id": 21,
+      "question": "What is the range of low frequency according to the stated answer?",
+      "options": [
+        "100 kHz–1 MHz",
+        "20 Hz–100 kHz",
+        "300 Hz–3 kHz"
+      ],
+      "correctIndex": 1,
+      "explanation": "The supplied answer gives the low-frequency range as 20 Hz to 100 kHz."
+    },
+    {
+      "id": 22,
+      "question": "Which one is odd?",
+      "options": [
+        "Flip-flop",
+        "Counter",
+        "Adder"
+      ],
+      "correctIndex": 0,
+      "explanation": "A flip-flop is a bistable storage device used to hold one bit of information, unlike combinational devices such as basic adders."
+    },
+    {
+      "id": 23,
+      "question": "What is the function of a PMG?",
+      "options": [
+        "Initial excitation",
+        "Fuel pressure regulation",
+        "Landing gear extension"
+      ],
+      "correctIndex": 0,
+      "explanation": "A permanent magnet generator provides an initial source of electrical excitation so generator operation can be established."
+    },
+    {
+      "id": 24,
+      "question": "Which one provides a high output voltage?",
+      "options": [
+        "Boost",
+        "Buck",
+        "Rectifier"
+      ],
+      "correctIndex": 0,
+      "explanation": "A boost arrangement raises the output voltage above the input voltage, so it is associated with obtaining a higher output voltage."
+    },
+    {
+      "id": 25,
+      "question": "MOSFET/JFET are associated with which technology?",
+      "options": [
+        "DTL",
+        "TTL",
+        "CMOS"
+      ],
+      "correctIndex": 2,
+      "explanation": "MOSFET and JFET are field-effect transistor devices commonly associated with MOS/CMOS electronic technology in the context of this question."
+    },
+    {
+      "id": 26,
+      "question": "What is the resistance of a PN junction in its conducting condition?",
+      "options": [
+        "Infinite",
+        "Very high",
+        "Low"
+      ],
+      "correctIndex": 2,
+      "explanation": "When a PN junction is forward biased and conducting, its effective resistance is low, allowing significant current to flow."
+    },
+    {
+      "id": 27,
+      "question": "What is the amount of electrical energy that a cell can provide from new condition to the end of its useful voltage on load called?",
+      "options": [
+        "Cell frequency",
+        "Cell capacity",
+        "Cell resistance"
+      ],
+      "correctIndex": 1,
+      "explanation": "Cell capacity is the amount of electrical charge a cell can deliver under specified conditions before its terminal voltage falls to the defined end point."
+    },
+    {
+      "id": 28,
+      "question": "What does an ADC converter determine?",
+      "options": [
+        "The smallest amount to measure",
+        "The maximum battery current",
+        "The mechanical speed of a motor"
+      ],
+      "correctIndex": 0,
+      "explanation": "An ADC quantizes an analog signal into digital steps; its resolution determines the smallest change or amount that can be distinguished."
+    },
+    {
+      "id": 29,
+      "question": "Which SCR terminal is used to fire the device?",
+      "options": [
+        "Gate",
+        "Cathode",
+        "Anode"
+      ],
+      "correctIndex": 0,
+      "explanation": "The gate terminal of an SCR receives the triggering signal that turns the device on when the required conditions are met."
+    },
+    {
+      "id": 30,
+      "question": "What does a rotary inverter convert?",
+      "options": [
+        "DC directly to mechanical braking force",
+        "DC motor input to a three-phase AC generator output",
+        "Three-phase AC directly to hydraulic pressure"
+      ],
+      "correctIndex": 1,
+      "explanation": "A rotary inverter uses a motor to drive a generator, converting DC electrical input into three-phase AC electrical output."
+    },
+    {
+      "id": 31,
+      "question": "In which connection is VL = 1.73 VP?",
+      "options": [
+        "Star (Wye) connection",
+        "Delta connection",
+        "Single-phase connection"
+      ],
+      "correctIndex": 0,
+      "explanation": "In a balanced three-phase star (wye) connection, the line voltage is √3 times the phase voltage, so VL = 1.73 VP."
+    },
+    {
+      "id": 32,
+      "question": "What does the FCC control in relation to the control surface?",
+      "options": [
+        "Rearward",
+        "Sideways only",
+        "Forward"
+      ],
+      "correctIndex": 2,
+      "explanation": "The supplied answer identifies forward as the direction associated with the FCC-to-control-surface relationship in this question."
+    },
+    {
+      "id": 33,
+      "question": "Which one is NOT an advantage of crimping?",
+      "options": [
+        "Good mechanical connection",
+        "Consistent connection",
+        "Weak strength"
+      ],
+      "correctIndex": 2,
+      "explanation": "Weak strength is not an advantage of crimping; a properly made crimp should provide a strong and reliable electrical and mechanical connection."
+    },
+    {
+      "id": 34,
+      "question": "Which term describes a system that is not linear?",
+      "options": [
+        "Neutral",
+        "Continuous",
+        "Non-linear"
+      ],
+      "correctIndex": 2,
+      "explanation": "A non-linear system does not maintain a directly proportional relationship between input and output, so it is described as non-linear."
+    },
+    {
+      "id": 35,
+      "question": "What does a motor-driven impeller transmit?",
+      "options": [
+        "Electrical",
+        "Hydraulic",
+        "Pneumatic"
+      ],
+      "correctIndex": 0,
+      "explanation": "The supplied answer identifies the transmitted quantity as electrical; the motor-driven impeller is associated with transferring the drive into the instrument system."
+    },
+    {
+      "id": 36,
+      "question": "What is the function of gears in an instrument?",
+      "options": [
+        "Only reduce battery temperature",
+        "Only increase electrical voltage",
+        "Increase or decrease rotor motion and change straight motion to curved motion"
+      ],
+      "correctIndex": 2,
+      "explanation": "Instrument gears can change the amount of movement, increase or decrease rotation, and convert one type of mechanical motion into the movement needed by the indication mechanism."
+    },
+    {
+      "id": 37,
+      "question": "What is the process of mixing two frequencies in a non-linear device called?",
+      "options": [
+        "Heterodyning",
+        "Amplification",
+        "Rectification"
+      ],
+      "correctIndex": 0,
+      "explanation": "Heterodyning is the process of combining frequencies in a non-linear device to produce new frequency components, including sum and difference frequencies."
+    },
+    {
+      "id": 38,
+      "question": "Which display remains true if the bank angle does not exceed 30 degrees?",
+      "options": [
+        "Magnetic compass",
+        "Fuel quantity indicator",
+        "Radio altimeter"
+      ],
+      "correctIndex": 2,
+      "explanation": "The supplied answer identifies the radio altimeter for this question; a radio altimeter provides altitude information by measuring the aircraft's height above the surface using radio signals."
+    },
+    {
+      "id": 39,
+      "question": "Where is an AC generator driven by a GTE found?",
+      "options": [
+        "Main landing gear",
+        "Cabin pressure panel",
+        "Accessory drive section"
+      ],
+      "correctIndex": 2,
+      "explanation": "A gas-turbine engine can drive the aircraft AC generator through the engine accessory drive section."
+    },
+    {
+      "id": 40,
+      "question": "What is the depth of penetration of current into a conductor called?",
+      "options": [
+        "Breakdown voltage",
+        "Dielectric strength",
+        "Skin depth"
+      ],
+      "correctIndex": 2,
+      "explanation": "Skin depth is the distance into a conductor over which an alternating current decreases significantly from its surface value because of the skin effect."
+    },
+    {
+      "id": 41,
+      "question": "What is below the Application layer in the OSI model?",
+      "options": [
+        "Physical layer",
+        "Presentation layer",
+        "Transport layer"
+      ],
+      "correctIndex": 1,
+      "explanation": "In the OSI model, the Presentation layer is directly below the Application layer and is responsible for functions such as data representation and format conversion."
+    },
+    {
+      "id": 42,
+      "question": "What does the receiver of an optical fiber system do?",
+      "options": [
+        "Converts optical signals to electrical signals",
+        "Converts RF signals to fuel pressure",
+        "Converts electrical signals to hydraulic pressure"
+      ],
+      "correctIndex": 0,
+      "explanation": "An optical receiver detects the incoming light signal and converts it into an electrical signal that can be processed by the receiving equipment."
+    },
+    {
+      "id": 43,
+      "question": "Which is NOT a purpose of an HF controller?",
+      "options": [
+        "Control HF communication functions",
+        "Select operating frequency",
+        "Increase or decrease volume"
+      ],
+      "correctIndex": 2,
+      "explanation": "According to the supplied answer, increasing or decreasing volume is not considered a purpose of the HF controller in this question."
+    },
+    {
+      "id": 44,
+      "question": "What is a function of weather radar?",
+      "options": [
+        "Detect weather turbulence",
+        "Control landing gear",
+        "Measure engine oil pressure"
+      ],
+      "correctIndex": 0,
+      "explanation": "Weather radar is used to detect and display weather activity ahead of the aircraft, including areas of precipitation and associated turbulence."
+    },
+    {
+      "id": 45,
+      "question": "Which equipment generates the carrier frequency and performs modulation and demodulation for RF/MF communication?",
+      "options": [
+        "Pitot-static system",
+        "HF transceiver",
+        "Flight data recorder"
+      ],
+      "correctIndex": 1,
+      "explanation": "An HF transceiver provides the transmit and receive functions for HF communication, including generation, modulation and demodulation of the RF communication signal."
+    },
+    {
+      "id": 46,
+      "question": "Which is NOT a function of GPWS?",
+      "options": [
+        "Excessive electrical load protection",
+        "Unsafe flight-path warning",
+        "Terrain warning"
+      ],
+      "correctIndex": 0,
+      "explanation": "GPWS provides warnings related to unsafe proximity to terrain and other hazardous flight conditions; excessive electrical-load protection is not a GPWS function."
+    },
+    {
+      "id": 47,
+      "question": "Which of the following uses three-phase power?",
+      "options": [
+        "Passenger reading light",
+        "Landing gear",
+        "Cockpit microphone"
+      ],
+      "correctIndex": 1,
+      "explanation": "Landing-gear systems can use three-phase electrical power for their actuators or associated drive equipment in the aircraft system described."
+    },
+    {
+      "id": 48,
+      "question": "What is the phase difference associated with an inductive and capacitive motor arrangement?",
+      "options": [
+        "Single phase",
+        "Split phase",
+        "Zero phase"
+      ],
+      "correctIndex": 1,
+      "explanation": "A split-phase arrangement uses phase displacement between winding currents to create the required rotating magnetic field for motor operation."
+    },
+    {
+      "id": 49,
+      "question": "Why is a series-wound motor preferred over a shunt-wound motor for high starting loads?",
+      "options": [
+        "No starting current",
+        "High starting torque",
+        "Low starting torque"
+      ],
+      "correctIndex": 1,
+      "explanation": "A series-wound motor develops high starting torque because the field winding carries the same high starting current as the armature."
+    },
+    {
+      "id": 50,
+      "question": "What does the status mode display indicate according to the supplied answer?",
+      "options": [
+        "High hydraulic pressure",
+        "Maximum engine speed",
+        "Low display unit"
+      ],
+      "correctIndex": 2,
+      "explanation": "The supplied answer identifies the status mode display as the low display unit for the system described by the question."
+    }
+  ]
+}
