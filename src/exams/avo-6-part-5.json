@@ -201,7 +201,7 @@
       "question": "Performance management reduces fuel consumption",
       "options": [
         "A. By increasing fuel flow during cruise",
-        "B. By optimizing flight performance; about 2–12% energy can be saved",
+        "B. By optimizing flight performance; about 1-2% energy can be saved",
         "C. By disabling the navigation database"
       ],
       "correctIndex": 1,
@@ -341,11 +341,11 @@
     },
     {
       "id": 31,
-      "question": "Is the heart of the system, performing all the navigational & performance calculations and",
+      "question": "Is the heart of the system, performing all the navigational & performance calculations and Providing control and guidance commands",
       "options": [
-        "A. Cabin attendant panel",
-        "B. Threat traffic display",
-        "C. Providing control and guidance commands (FMCS)"
+        "A. CAP",
+        "B. PFD",
+        "C. FMCS"
       ],
       "correctIndex": 2,
       "explanation": "This answer is the correct answer already supplied in the question file. The explanation is kept consistent with the avionics-system material in the ET-AV06 M5 reference. Therefore, the supplied correct answer is “providing control and guidance commands FMCS”."
