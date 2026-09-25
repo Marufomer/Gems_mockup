@@ -4,1110 +4,1110 @@
   "module": "AVO-6",
   "course": "avionics",
   "category": "part",
-  "description": "Exam covering TCAS, GPWS, EGPWS, FMS, FMC, CDU, IMA, OIS, maintenance systems, warning systems, and aircraft avionics architecture. Correct answers are the answers already supplied in the question file; explanations are based on the ET-AV06 M5 reference.",
+  "description": "Exam covering TCAS, GPWS, EGPWS, FMS, FMC, CDU, IMA, OIS, on-board maintenance systems, and aircraft warning systems. Options and explanations are grounded in the ET-AV06 M5: Typical Avionics System (Level 2) reference note, with each question reduced to three answer choices while preserving the originally supplied correct answer.",
   "durationMinutes": 150,
   "totalQuestions": 100,
   "color": "purple",
   "questions": [
     {
       "id": 1,
-      "question": "ICAO Annex 6 states",
+      "question": "According to ICAO Annex 6, which aircraft must be equipped with a ground proximity warning system that has a forward-looking terrain avoidance function?",
       "options": [
-        "A. All turbine-engine airplanes with a maximum take-off mass of 15,000 kg or more, or more than 30 passenger seats",
+        "A. All turbine-engine airplanes with a maximum take-off mass over 15,000 kg, or authorized to carry more than 30 passengers",
         "B. Only piston-engine airplanes below 5,700 kg",
         "C. Only helicopters used for commercial operations"
       ],
       "correctIndex": 0,
-      "explanation": "This answer is the correct answer already supplied in the question file. The explanation is kept consistent with the avionics-system material in the ET-AV06 M5 reference. Therefore, the supplied correct answer is “all turbine engine airplane of max take off mass 15000 kg or more than 30 passenger”."
+      "explanation": "ICAO Annex 6, Chapter 6 states that all turbine-engine airplanes of a maximum certificated take-off mass in excess of 15,000 kg, or authorized to carry more than 30 passengers, must be equipped with a GPWS having a forward-looking terrain avoidance function."
     },
     {
       "id": 2,
-      "question": "ICAO Annex 10",
+      "question": "According to ICAO Annex 10, which of the following is a required function of ACAS II (TCAS II)?",
       "options": [
-        "A. TCAS antenna requirements",
+        "A. TCAS antenna installation requirements",
         "B. Detection of collision threats and generation of resolution advisories to avoid them",
-        "C. Cabin communication system requirements"
+        "C. Cabin interphone communication requirements"
       ],
       "correctIndex": 1,
-      "explanation": "This answer is the correct answer already supplied in the question file. The explanation is kept consistent with the avionics-system material in the ET-AV06 M5 reference. Therefore, the supplied correct answer is “Detection of collision threat and generation of resolution advisory to avoid them”."
+      "explanation": "ICAO Annex 10 lists the required ACAS II functions as surveillance and generation of traffic advisories, detection of collision threats and generation of resolution advisories to avoid them, coordination with other suitably equipped aircraft, and communication with ground stations."
     },
     {
       "id": 3,
-      "question": "Aural warning for steep descent",
+      "question": "Which aural warning is given for a steep, excessive descent rate close to the ground?",
       "options": [
-        "A. Terrain",
-        "B. Bank angle",
-        "C. Pull up"
+        "A. \"Terrain, Terrain\"",
+        "B. \"Bank Angle, Bank Angle\"",
+        "C. \"Whoop, Whoop, Pull Up\""
       ],
       "correctIndex": 2,
-      "explanation": "The reference explains that aircraft warning systems provide attention-getting indications for system faults or unsafe conditions, with urgency indicated by light color and/or audio. Therefore, the supplied correct answer is “Pull up”."
+      "explanation": "GPWS Mode 1 covers a large descent rate. If the descent rate continues or increases, the alert changes to a warning with the PULL-UP light and the aural message \"WHOOP WHOOP PULL-UP.\""
     },
     {
       "id": 4,
-      "question": "What is the shape of resolution advisory shown on a TCAS display",
+      "question": "What shape represents a Resolution Advisory (RA) on the TCAS/EFIS display?",
       "options": [
-        "A. Amber circles",
-        "B. Red squares",
-        "C. Green triangles"
+        "A. An open white diamond",
+        "B. A solid red square",
+        "C. A solid amber (yellow) circle"
       ],
       "correctIndex": 1,
-      "explanation": "The reference explains that TCAS monitors nearby traffic and provides traffic information and, where applicable, resolution advisories to help maintain safe separation. Therefore, the supplied correct answer is “Red squares”."
+      "explanation": "The reference explains that once an intruder is assessed as an actual collision threat the TCAS display symbol changes to a solid red square (a filled red box on the EFIS), together with a voice Resolution Advisory command."
     },
     {
       "id": 5,
-      "question": "TCAS I stands for",
+      "question": "What is TCAS I intended to provide?",
       "options": [
-        "A. Proximity warning only to assist the pilot in visually acquiring an intruder",
-        "B. Resolution advisories with vertical guidance only",
-        "C. Ground-proximity warning for terrain"
+        "A. Proximity warning only, to assist the pilot in the visual acquisition of an intruder aircraft",
+        "B. Resolution advisories with vertical maneuver guidance",
+        "C. A ground-proximity warning against terrain"
       ],
       "correctIndex": 0,
-      "explanation": "The reference explains that TCAS monitors nearby traffic and provides traffic information and, where applicable, resolution advisories to help maintain safe separation. Therefore, the supplied correct answer is “Proximity warning only to assist the pilot in the visual acquisition”."
+      "explanation": "TCAS I provides proximity warning only to assist the pilot in the visual acquisition of intruder aircraft, and it is intended for smaller commuter and general aviation aircraft."
     },
     {
       "id": 6,
-      "question": "Used for Cabin 380 by cabin crew",
+      "question": "On an aircraft such as the A380, which unit is used by cabin crew for cabin operations and to access their electronic documentation?",
       "options": [
         "A. Flight Management Computer (FMC)",
-        "B. Remote Access Panel (RAP)",
-        "C. Traffic Collision Avoidance System (TCAS) computer"
+        "B. Flight Attendant Panel (FAP) / cabin access panel",
+        "C. TCAS computer"
       ],
       "correctIndex": 1,
-      "explanation": "This answer is the correct answer already supplied in the question file. The explanation is kept consistent with the avionics-system material in the ET-AV06 M5 reference. Therefore, the supplied correct answer is “RAP (Remote access panel)”."
+      "explanation": "The reference describes the Flight Attendant Panels (FAPs) as touchscreen units used by the cabin crew to access cabin applications and electronic documentation for cabin operations."
     },
     {
       "id": 7,
-      "question": "TCAS operate",
+      "question": "The basic principle of TCAS operation is most closely related to which surveillance technique?",
       "options": [
-        "A. To display only weather information",
-        "B. Secondary surveillance radar",
-        "C. To detect and track nearby aircraft and provide traffic or resolution advisories"
+        "A. Displaying only weather radar returns",
+        "B. Secondary surveillance radar (interrogating transponders on SSR frequencies)",
+        "C. Detecting and tracking nearby aircraft using an onboard terrain database"
       ],
       "correctIndex": 1,
-      "explanation": "The reference explains that TCAS monitors nearby traffic and provides traffic information and, where applicable, resolution advisories to help maintain safe separation. Therefore, the supplied correct answer is “Secondary surveillance radar”."
+      "explanation": "TCAS/ACAS detects nearby intruder aircraft by interrogating their transponders, which reply to Air Traffic Control Radar Beacon System (ATCRBS) Mode C or Mode S interrogations on SSR frequencies (1030/1090 MHz) \u2014 the same principle used by secondary surveillance radar."
     },
     {
       "id": 8,
-      "question": "Not input of TCAS II",
+      "question": "Which of the following is NOT one of the required inputs to TCAS II?",
       "options": [
-        "A. Aircraft weight and fuel data",
-        "B. Own aircraft altitude and position",
-        "C. Terrain database"
+        "A. Own aircraft's maximum cruising true airspeed capability",
+        "B. Pressure altitude and radio altitude",
+        "C. Terrain and airport database"
       ],
       "correctIndex": 2,
-      "explanation": "The reference explains that TCAS monitors nearby traffic and provides traffic information and, where applicable, resolution advisories to help maintain safe separation. Therefore, the supplied correct answer is “Own GPS data”."
+      "explanation": "TCAS II requires the aircraft address code, air-to-air Mode S transmissions, own aircraft's maximum cruising true airspeed, pressure altitude, and radio altitude. A terrain/airport database is not a TCAS input \u2014 it belongs to the (E)GPWS."
     },
     {
       "id": 9,
-      "question": "Not directly related to aural warning",
+      "question": "Which of the following is NOT one of the typical aural warning events listed for the flight compartment aural warning system?",
       "options": [
         "A. Cabin temperature alert",
-        "B. Threat traffic",
-        "C. Flight plan performance calculation"
+        "B. Engine or wheel-well fire",
+        "C. Unsafe take-off or landing configuration"
       ],
       "correctIndex": 0,
-      "explanation": "The reference explains that aircraft warning systems provide attention-getting indications for system faults or unsafe conditions, with urgency indicated by light color and/or audio. Therefore, the supplied correct answer is “Cabin T° alert”."
+      "explanation": "The reference lists abnormal take-off/landing, cabin pressurization, overspeed/Mach conditions, engine or wheel-well fire, crew-call and collision-avoidance recommendations as events triggering aural warnings; a cabin temperature alert is not among these discrete aural-warning inputs."
     },
     {
       "id": 10,
-      "question": "Level 0",
+      "question": "In the A350 Flight Warning System alert classification, which level does NOT have an associated aural warning?",
       "options": [
-        "A. Do not have an aural warning",
-        "B. Provide resolution advisories",
-        "C. Provide terrain database information"
+        "A. Level 0",
+        "B. Level 2",
+        "C. Level 3"
       ],
       "correctIndex": 0,
-      "explanation": "This answer is the correct answer already supplied in the question file. The explanation is kept consistent with the avionics-system material in the ET-AV06 M5 reference. Therefore, the supplied correct answer is “Do not have aural warning”."
+      "explanation": "Level 0 indications cover operational or system conditions for which only a flight-deck indication (such as a memo or ECAM advisory) is required, so they do not carry an aural warning, unlike Level 2 and Level 3 alerts."
     },
     {
       "id": 11,
-      "question": "Stall warning test panel",
+      "question": "Where is the stall warning test typically carried out and monitored from?",
       "options": [
-        "A. Cockpit",
-        "B. Navigation display",
-        "C. TCAS antenna"
+        "A. The cockpit, using the stall warning test/control panel",
+        "B. The navigation display",
+        "C. The TCAS antenna bay"
       ],
       "correctIndex": 0,
-      "explanation": "The reference explains that aircraft warning systems provide attention-getting indications for system faults or unsafe conditions, with urgency indicated by light color and/or audio. Therefore, the supplied correct answer is “Cockpit”."
+      "explanation": "The reference's B737-200 stall warning test description is centred on the cockpit stall warning panel, where the test is initiated and its indications are observed."
     },
     {
       "id": 12,
-      "question": "Not function of TCAS",
+      "question": "Which of the following is NOT a function controlled by the TCAS computer?",
       "options": [
-        "A. Collision avoidance surveillance",
-        "B. Ground communication",
-        "C. Periodic self-test"
+        "A. Surveillance and tracking",
+        "B. Communication with ATC ground stations",
+        "C. Air-to-air maneuver coordination"
       ],
       "correctIndex": 1,
-      "explanation": "The reference explains that TCAS monitors nearby traffic and provides traffic information and, where applicable, resolution advisories to help maintain safe separation. Therefore, the supplied correct answer is “Ground communication”."
+      "explanation": "The reference states that the TCAS computer controls surveillance, tracking, advisory, and air-to-air maneuver coordination. Direct communication with ground stations is not one of the functions the TCAS computer itself performs."
     },
     {
       "id": 13,
-      "question": "How IMA scalable than traditional one",
+      "question": "How is Integrated Modular Avionics (IMA) more scalable than a traditional (federated) architecture?",
       "options": [
-        "A. By sharing common resources for different applications",
-        "B. By installing a separate processor for every application",
-        "C. By increasing the number of LRUs and wiring"
+        "A. By sharing common computing and communication resources across different applications",
+        "B. By installing a separate dedicated processor for every application",
+        "C. By increasing the number of LRUs and the amount of point-to-point wiring"
       ],
       "correctIndex": 0,
-      "explanation": "The reference describes IMA as a centralized avionics architecture in which computing and communication resources can be shared by different applications. Therefore, the supplied correct answer is “By sharing common resource for different applications”."
+      "explanation": "IMA replaces numerous separate processors and LRUs with fewer, centralized processing modules that host multiple software applications on shared computing and communication resources, making the architecture easier to expand than the traditional one-LRU-per-function approach."
     },
     {
       "id": 14,
-      "question": "Cause of GPWS",
+      "question": "Which of the following is a typical cause that would trigger a GPWS alert?",
       "options": [
-        "A. High descent rate at low altitude",
-        "B. Normal cruise at constant altitude",
-        "C. High cabin temperature"
+        "A. A high descent rate at low altitude",
+        "B. Normal cruise flight at a constant altitude",
+        "C. A high cabin temperature reading"
       ],
       "correctIndex": 0,
-      "explanation": "The reference explains that GPWS/EGPWS monitors aircraft height and other aircraft inputs and provides alerts or warnings when terrain proximity or the aircraft flight condition becomes unsafe. Therefore, the supplied correct answer is “High descent rate at low altitude”."
+      "explanation": "The hazardous conditions listed for GPWS include excessive descent rate, excessive bank angle at low altitude, insufficient terrain clearance, and excessive closure rate to terrain \u2014 a high descent rate at low altitude is a classic trigger."
     },
     {
       "id": 15,
-      "question": "Which traffic causes issue one resolution advisory",
+      "question": "Which classification of traffic causes TCAS to issue a Resolution Advisory (RA)?",
       "options": [
-        "A. Own GPS data",
+        "A. Own aircraft's GPS-derived position",
         "B. Threat traffic",
-        "C. Navigation database"
+        "C. Information from the navigation database"
       ],
       "correctIndex": 1,
-      "explanation": "The reference explains that TCAS monitors nearby traffic and provides traffic information and, where applicable, resolution advisories to help maintain safe separation. Therefore, the supplied correct answer is “Threat traffic”."
+      "explanation": "The reference defines threat traffic as airplanes with an altitude separation of about \u00b1900 feet and a time to closest point of approach of less than 25 seconds \u2014 this class of traffic is what causes the TCAS computer to generate a Resolution Advisory."
     },
     {
       "id": 16,
-      "question": "Which domain is used by passenger",
+      "question": "Which OIS domain is primarily used to provide services to passengers?",
       "options": [
         "A. Navigation domain",
-        "B. Communication (Cabin) domain",
+        "B. Communication and cabin domain",
         "C. Maintenance domain"
       ],
       "correctIndex": 1,
-      "explanation": "This answer is the correct answer already supplied in the question file. The explanation is kept consistent with the avionics-system material in the ET-AV06 M5 reference. Therefore, the supplied correct answer is “Communication (Cabin domain)”."
+      "explanation": "The Onboard Information System applications are hosted on three domains \u2014 avionics, flight operations, and communication and cabin. The communication and cabin domain is the one associated with cabin/passenger-facing services."
     },
     {
       "id": 17,
-      "question": "Which initiates TCAS II issue RA",
+      "question": "What initiates a TCAS II Resolution Advisory (RA)?",
       "options": [
-        "A. Predicted violation of the safe-separation boundary",
-        "B. Low fuel quantity",
-        "C. Excessive cabin temperature"
+        "A. A predicted violation of the safe vertical separation boundary as the intruder continues to close",
+        "B. Low fuel quantity on board",
+        "C. An excessive cabin temperature reading"
       ],
       "correctIndex": 0,
-      "explanation": "The reference explains that TCAS monitors nearby traffic and provides traffic information and, where applicable, resolution advisories to help maintain safe separation. Therefore, the supplied correct answer is “Predicted violation of safe separation boundary”."
+      "explanation": "TCAS II predicts the time to, and separation at, the intruder's closest point of approach. If the intruder continues to close and safe boundaries would be violated, TCAS II issues a Resolution Advisory to maintain safe vertical separation."
     },
     {
       "id": 18,
-      "question": "Performance management reduces fuel consumption",
+      "question": "How much fuel/energy can performance management typically save through optimized flight performance?",
       "options": [
-        "A. By increasing fuel flow during cruise",
-        "B. By optimizing flight performance; about 1-2% energy can be saved",
-        "C. By disabling the navigation database"
+        "A. Fuel flow is increased during cruise for a safety margin",
+        "B. About 1 to 2% of energy can be saved through the best flight strategy",
+        "C. The navigation database is disabled to reduce processing load"
       ],
       "correctIndex": 1,
-      "explanation": "The reference explains that aircraft warning systems provide attention-getting indications for system faults or unsafe conditions, with urgency indicated by light color and/or audio. Therefore, the supplied correct answer is “2 to 12% energy can be saved”."
+      "explanation": "The reference states that through selection of the best strategy in FMS performance management, between 1 and 2% of energy can be saved."
     },
     {
       "id": 19,
-      "question": "EGPWS is better than GPWS because",
+      "question": "Why is EGPWS considered an improvement over the original GPWS?",
       "options": [
-        "A. It uses only radio altimeter information",
-        "B. It contains a worldwide terrain database and airport database",
-        "C. It operates without aircraft position information"
+        "A. It relies solely on the radio altimeter for all alerting decisions",
+        "B. It contains a worldwide terrain and airport database compared with aircraft position and track",
+        "C. It can operate fully without knowing the aircraft's position"
       ],
       "correctIndex": 1,
-      "explanation": "The reference explains that GPWS/EGPWS monitors aircraft height and other aircraft inputs and provides alerts or warnings when terrain proximity or the aircraft flight condition becomes unsafe. Therefore, the supplied correct answer is “It contains worldwide terrain database and airport data base”."
+      "explanation": "The EGPWS contains a worldwide terrain and airport database and compares the airplane's position and track against this database, incorporating terrain alerting and display functions that the basic GPWS does not have."
     },
     {
       "id": 20,
-      "question": "FMCS --- by checking vertical and horizontal profile",
+      "question": "How does the FMCS enhance performance by checking the vertical and horizontal flight profile?",
       "options": [
-        "A. Enhances performance",
-        "B. Displays cabin temperature",
-        "C. Provides the TCAS resolution advisory"
+        "A. By calculating a flight path that gives the shortest flying time at the lowest fuel consumption",
+        "B. By continuously displaying cabin temperature to the crew",
+        "C. By generating TCAS resolution advisories"
       ],
       "correctIndex": 0,
-      "explanation": "The reference identifies the FMC as the heart of the FMS, performing navigation and performance calculations and providing control and guidance commands. Therefore, the supplied correct answer is “Enhances performance”."
+      "explanation": "The FMS/FMC contains a performance database and calculates a vertical profile (combined with the lateral/horizontal path) that gives the shortest possible flying time at the lowest fuel consumption, which is how it enhances overall flight performance."
     },
     {
       "id": 21,
-      "question": "IMA advantage",
+      "question": "What is a key advantage of IMA compared with a conventional federated avionics architecture?",
       "options": [
-        "A. More LRUs",
-        "B. Separate processors for every function",
-        "C. Less LRUs"
+        "A. It requires more LRUs than a conventional architecture",
+        "B. It requires a dedicated processor for every function",
+        "C. It requires fewer LRUs by sharing centralized processing resources"
       ],
       "correctIndex": 2,
-      "explanation": "The reference describes IMA as a centralized avionics architecture in which computing and communication resources can be shared by different applications. Therefore, the supplied correct answer is “Less LRUs”."
+      "explanation": "IMA replaces numerous separate processors and LRUs with fewer, more centralized processing units, reducing the LRU count compared with the conventional federated approach."
     },
     {
       "id": 22,
-      "question": "Indicates when a fault has been recorded by maintenance system",
+      "question": "On a typical maintenance panel, what indicates that a fault has been recorded by the maintenance system?",
       "options": [
-        "A. Excessive descent rate",
-        "B. BITE advisory/load indicator",
-        "C. Glideslope deviation"
+        "A. Excessive descent rate warning",
+        "B. The BITE Loaded Indicator",
+        "C. Glideslope deviation light"
       ],
       "correctIndex": 1,
-      "explanation": "The reference describes onboard maintenance functions as providing testing, fault information, maintenance support, and aircraft data loading. Therefore, the supplied correct answer is “BITE loaded indicator”."
+      "explanation": "The maintenance panel's Bite Loaded Indicator specifically indicates when a fault has been recorded by the maintenance system."
     },
     {
       "id": 23,
-      "question": "What TCAS equipment is required on the host aircraft & other traffic that are intruder to",
+      "question": "For two aircraft to obtain fully coordinated air-to-air TCAS maneuvers, what equipment is required on both the host aircraft and the intruder?",
       "options": [
-        "A. TCAS II equipment capable of coordinated surveillance and resolution advisories",
-        "B. Only a VHF communication radio",
-        "C. Only a weather radar"
+        "A. Both aircraft must carry TCAS II equipment capable of coordinated resolution advisories",
+        "B. Only a VHF communication radio is required on both aircraft",
+        "C. Only weather radar is required on both aircraft"
       ],
       "correctIndex": 0,
-      "explanation": "The reference explains that TCAS monitors nearby traffic and provides traffic information and, where applicable, resolution advisories to help maintain safe separation. Therefore, the supplied correct answer is “make maneuver TCAS II”."
+      "explanation": "The levels-of-protection table shows that TCAS-TCAS coordination (TTC), where advisories are coordinated between the two aircraft via a Mode S data link, is only available when both aircraft carry TCAS II (or better) equipment."
     },
     {
       "id": 24,
-      "question": "Advantage of IMA",
+      "question": "Which of the following describes an advantage of IMA?",
       "options": [
-        "A. More wiring and separate boxes",
-        "B. Detection in advance of possible failure appearance (prognostic AVM)",
-        "C. Both weight reduction and cost reduction"
+        "A. More wiring and more separate boxes than a conventional architecture",
+        "B. A dedicated prognostic Aircraft Vibration Monitoring function",
+        "C. Both weight saving (less wiring and boxes) and cost reduction"
       ],
       "correctIndex": 2,
-      "explanation": "The reference describes IMA as a centralized avionics architecture in which computing and communication resources can be shared by different applications. Therefore, the supplied correct answer is “Both (weight reduction & cost)”."
+      "explanation": "The reference lists the advantages of IMA's shared, centralized computing approach as weight saving through less wiring and fewer boxes, together with cost reduction."
     },
     {
       "id": 25,
-      "question": "Crew interface with FMS",
+      "question": "What is the crew's main interface with the Flight Management Computer (FMC)?",
       "options": [
-        "A. CDU",
-        "B. Primary Flight Display (PFD)",
-        "C. Weather radar control panel"
+        "A. The Control and Display Unit (CDU)",
+        "B. The Primary Flight Display (PFD)",
+        "C. The weather radar control panel"
       ],
       "correctIndex": 0,
-      "explanation": "The reference explains that the FMS uses navigation and performance information to calculate the flight path, performance predictions, and guidance required for the flight. Therefore, the supplied correct answer is “CDU”."
+      "explanation": "The CDU is the means of communication with the FMC: it lets the crew input flight and performance details before flight and displays the navigation and performance computations for reference."
     },
     {
       "id": 26,
-      "question": "Not function of FMC",
+      "question": "Which of the following is NOT a function of the FMC?",
       "options": [
         "A. Flight planning and performance calculations",
-        "B. Detecting nearby intruder aircraft",
-        "C. Providing flight guidance information"
+        "B. Detecting the presence of a nearby intruder aircraft",
+        "C. Providing flight guidance and control commands"
       ],
       "correctIndex": 1,
-      "explanation": "The reference identifies the FMC as the heart of the FMS, performing navigation and performance calculations and providing control and guidance commands. Therefore, the supplied correct answer is “Detect presence of nearby intruder aircraft”."
+      "explanation": "The FMC is described as the heart of the FMS, performing navigational and performance calculations and providing control and guidance commands; detecting a nearby intruder aircraft is a TCAS function, not an FMC one."
     },
     {
       "id": 27,
-      "question": "Solid red color on GPWS",
+      "question": "What does a solid red terrain color indicate on an EGPWS terrain display?",
       "options": [
         "A. Terrain/obstacle threat warning",
-        "B. Normal navigation indication",
-        "C. Cabin service indication"
+        "B. Normal, unrestricted navigation",
+        "C. A cabin service indication"
       ],
       "correctIndex": 0,
-      "explanation": "The reference explains that GPWS/EGPWS monitors aircraft height and other aircraft inputs and provides alerts or warnings when terrain proximity or the aircraft flight condition becomes unsafe. Therefore, the supplied correct answer is “Terrain/obstacle threat warning”."
+      "explanation": "Table 5.1 of the reference lists solid red as indicating a terrain/obstacle threat warning on the EGPWS display."
     },
     {
       "id": 28,
-      "question": "--- is a set of electronic documentation and applications for flight maintenance & cabin",
+      "question": "Which system is a set of electronic documentation and applications for flight, maintenance, and cabin operations, replacing paper documentation?",
       "options": [
-        "A. Operations OIS",
-        "B. TCAS antenna",
-        "C. Radio altimeter"
+        "A. The Onboard Information System (OIS)",
+        "B. The TCAS antenna array",
+        "C. The radio altimeter"
       ],
       "correctIndex": 0,
-      "explanation": "The reference describes onboard maintenance functions as providing testing, fault information, maintenance support, and aircraft data loading. Therefore, the supplied correct answer is “operations OIS”."
+      "explanation": "The reference defines the Onboard Information System (OIS) as a set of electronic documentation and applications for flight, maintenance, and cabin operations that replaces previously used paper documentation."
     },
     {
       "id": 29,
-      "question": "--- are used by cabin crew for cabin operations",
+      "question": "Which panel do cabin crew use for cabin operations, such as consulting cabin documentation and forms?",
       "options": [
         "A. Flight Management Computer",
         "B. Cockpit display unit",
-        "C. Flight Attendant Panel (CFAP)"
+        "C. Flight Attendant Panel (FAP)"
       ],
       "correctIndex": 2,
-      "explanation": "This answer is the correct answer already supplied in the question file. The explanation is kept consistent with the avionics-system material in the ET-AV06 M5 reference. Therefore, the supplied correct answer is “Flight attendant panel (CFAP)”."
+      "explanation": "The Flight Attendant Panels (FAPs) are described as touchscreens used by the cabin crew to access their electronic documentation and forms for cabin operations."
     },
     {
       "id": 30,
-      "question": "--- is used to load data by pilot",
+      "question": "Which unit does the pilot use to load flight and performance data into the FMC before flight?",
       "options": [
-        "A. CDU",
+        "A. Control and Display Unit (CDU)",
         "B. TCAS computer",
         "C. GPWS computer"
       ],
       "correctIndex": 0,
-      "explanation": "This answer is the correct answer already supplied in the question file. The explanation is kept consistent with the avionics-system material in the ET-AV06 M5 reference. Therefore, the supplied correct answer is “CDU”."
+      "explanation": "The CDU is used before flight to initialize the performance and navigation requirements, allowing the crew to input flight details and performance parameters into the FMC."
     },
     {
       "id": 31,
-      "question": "Is the heart of the system, performing all the navigational & performance calculations and Providing control and guidance commands",
+      "question": "Which component is the heart of the FMS, performing all navigational and performance calculations and providing control and guidance commands?",
       "options": [
-        "A. CAP",
-        "B. PFD",
-        "C. FMCS"
+        "A. Caution and Advisory Panel (CAP)",
+        "B. Primary Flight Display (PFD)",
+        "C. Flight Management Computer (FMC)"
       ],
       "correctIndex": 2,
-      "explanation": "This answer is the correct answer already supplied in the question file. The explanation is kept consistent with the avionics-system material in the ET-AV06 M5 reference. Therefore, the supplied correct answer is “providing control and guidance commands FMCS”."
+      "explanation": "The reference states that the Flight Management Computer (FMC) is the heart of the system, performing all the navigational and performance calculations and providing control and guidance commands."
     },
     {
       "id": 32,
-      "question": "Excessive descent rate is detected in which mode",
+      "question": "An excessive descent rate is detected under which GPWS mode?",
       "options": [
         "A. Mode 2",
         "B. Mode 1",
         "C. Mode 5"
       ],
       "correctIndex": 1,
-      "explanation": "The reference explains that GPWS/EGPWS monitors aircraft height and other aircraft inputs and provides alerts or warnings when terrain proximity or the aircraft flight condition becomes unsafe. Therefore, the supplied correct answer is “Mode 1”."
+      "explanation": "GPWS Mode 1 covers a large descent rate: it warns the pilot when the aircraft is below about 2,450 feet radio altitude with an excessive rate of descent, triggering \"SINK RATE\" or \"WHOOP WHOOP PULL-UP.\""
     },
     {
       "id": 33,
-      "question": "TCAS airborne equipment consists of an interrogator transmitter and receiver respectively",
+      "question": "The TCAS airborne equipment consists of an interrogator, transmitter, and receiver operating on which SSR frequencies?",
       "options": [
-        "A. Resolution advisory",
-        "B. Navigation display",
+        "A. Resolution advisory frequencies only",
+        "B. VHF navigation frequencies",
         "C. 1030 MHz and 1090 MHz"
       ],
       "correctIndex": 2,
-      "explanation": "The reference explains that TCAS monitors nearby traffic and provides traffic information and, where applicable, resolution advisories to help maintain safe separation. Therefore, the supplied correct answer is “1030 MHz & 1090 MHz”."
+      "explanation": "TCAS airborne equipment consists of an interrogator, transmitter, and receiver operating on SSR frequencies of 1030 MHz and 1090 MHz respectively."
     },
     {
       "id": 34,
-      "question": "Which component of the FMS system allows the crew to input the flight details and",
+      "question": "Which component of the FMS allows the crew to input flight details and performance parameters into the FMC?",
       "options": [
-        "A. Flight Management Computer",
+        "A. Flight Management Computer itself",
         "B. Primary Flight Display",
         "C. Control and Display Unit (CDU)"
       ],
       "correctIndex": 2,
-      "explanation": "The reference explains that the FMS uses navigation and performance information to calculate the flight path, performance predictions, and guidance required for the flight. Therefore, the supplied correct answer is “performance parameters in to the FMC Control and Display Unit”."
+      "explanation": "The CDU allows the crew to input the flight details and performance parameters into the FMC, and it displays the navigation and performance computations for reference and monitoring."
     },
     {
       "id": 35,
-      "question": "What is not the advantage of IMA",
+      "question": "Which of the following is NOT an advantage of IMA?",
       "options": [
-        "A. More wiring and boxes",
-        "B. Centralized processing",
-        "C. Shared resources and fewer LRUs"
+        "A. More wiring and more separate boxes",
+        "B. Centralized, shared computing resources",
+        "C. Fewer LRUs than a conventional architecture"
       ],
       "correctIndex": 0,
-      "explanation": "The reference describes IMA as a centralized avionics architecture in which computing and communication resources can be shared by different applications. Therefore, the supplied correct answer is “More wiring and boxes”."
+      "explanation": "IMA is intended to reduce wiring and the number of boxes by sharing centralized computing resources across applications, so \"more wiring and boxes\" describes the conventional architecture, not an IMA advantage."
     },
     {
       "id": 36,
-      "question": "CDU is found in",
+      "question": "Where is the CDU normally located?",
       "options": [
-        "A. Engine nacelle",
-        "B. Cockpit",
-        "C. Main landing gear bay"
+        "A. In the engine nacelle",
+        "B. In the cockpit",
+        "C. In the main landing gear bay"
       ],
       "correctIndex": 1,
-      "explanation": "The reference explains that the CDU is the crew interface with the FMC and is used to enter flight and performance information and display FMS information. Therefore, the supplied correct answer is “Cockpit”."
+      "explanation": "The CDU is the crew's interface with the FMC and is located in the cockpit, where the flight crew uses it before and during flight."
     },
     {
       "id": 37,
-      "question": "Provides traffic advisories and resolution advisories in a vertical direction to avoid",
+      "question": "Which system provides traffic advisories and resolution advisories in the vertical direction to avoid conflicting traffic?",
       "options": [
-        "A. Terrain alert",
-        "B. Conflicting traffic: TCAS II",
-        "C. Cabin temperature alert"
+        "A. GPWS terrain alert",
+        "B. TCAS II",
+        "C. Cabin temperature alert system"
       ],
       "correctIndex": 1,
-      "explanation": "This answer is the correct answer already supplied in the question file. The explanation is kept consistent with the avionics-system material in the ET-AV06 M5 reference. Therefore, the supplied correct answer is “conflicting traffic TCAS 2”."
+      "explanation": "TCAS II provides traffic advisories and resolution advisories (recommended escape maneuvers) in the vertical direction to avoid conflicting traffic, and is used on airline, larger commuter, and business aircraft."
     },
     {
       "id": 38,
-      "question": "Which type of warning signal will sound in the cockpit when airspeed or mach no exceeds",
+      "question": "Which warning sound is heard in the cockpit when airspeed or Mach number exceeds structural limits?",
       "options": [
-        "A. Terrain callout",
-        "B. TCAS resolution advisory",
-        "C. Clacker"
+        "A. A terrain callout",
+        "B. A TCAS resolution advisory tone",
+        "C. An overspeed clacker"
       ],
       "correctIndex": 2,
-      "explanation": "The reference explains that aircraft warning systems provide attention-getting indications for system faults or unsafe conditions, with urgency indicated by light color and/or audio. Therefore, the supplied correct answer is “limits Clacker”."
+      "explanation": "The B737 aural warning module list includes overspeed clackers among the sounds produced in the flight compartment, used to alert the crew when airspeed/Mach limits are exceeded."
     },
     {
       "id": 39,
-      "question": "Warning and caution light",
+      "question": "Which two colors are typically used for warning and caution lights?",
       "options": [
-        "A. Green and blue lights",
-        "B. Red and amber lights",
-        "C. White and green lights"
+        "A. Green and blue",
+        "B. Red and amber",
+        "C. White and green"
       ],
       "correctIndex": 1,
-      "explanation": "The reference explains that aircraft warning systems provide attention-getting indications for system faults or unsafe conditions, with urgency indicated by light color and/or audio. Therefore, the supplied correct answer is “Red & amber lights”."
+      "explanation": "The reference states that red warning lights show conditions requiring immediate corrective action, while amber (yellow) caution lights show conditions that do not immediately affect flight capability."
     },
     {
       "id": 40,
-      "question": "White and blue color indications in the cockpit are for",
+      "question": "White and blue (or green) color indications in the cockpit generally represent what?",
       "options": [
-        "A. Immediate crew action",
-        "B. Caution requiring corrective action",
-        "C. Advisory information"
+        "A. A condition requiring immediate crew action",
+        "B. A caution requiring future corrective action",
+        "C. Advisory information / normal system operation"
       ],
       "correctIndex": 2,
-      "explanation": "This answer is the correct answer already supplied in the question file. The explanation is kept consistent with the avionics-system material in the ET-AV06 M5 reference. Therefore, the supplied correct answer is “Advisory info”."
+      "explanation": "The reference explains that green lights show safe system operation and white or blue lights show normal operation \u2014 these represent advisory or normal-status information rather than a caution or warning."
     },
     {
       "id": 41,
-      "question": "System that supplies trend and servicing monitoring and monitoring reports for the Detection in advance of possible failure appearance",
+      "question": "Which function supplies trend and servicing monitoring reports for the detection, in advance, of a possible failure appearance?",
       "options": [
-        "A. Cabin communication system",
-        "B. prognostic AVM",
-        "C. Traffic collision alert"
+        "A. The cabin communication system",
+        "B. The OMS prognostic function",
+        "C. TCAS traffic alerting"
       ],
       "correctIndex": 1,
-      "explanation": "This answer is the correct answer already supplied in the question file. The explanation is kept consistent with the avionics-system material in the ET-AV06 M5 reference. Therefore, the supplied correct answer is “detection in advance of possible failure appearance Prognostic AVM”."
+      "explanation": "The Onboard Maintenance System's prognostic function operates on aircraft operational data and supplies trend and servicing monitoring reports for the detection in advance of a possible failure appearance."
     },
     {
       "id": 42,
-      "question": "Which of the following TCAS components controls surveillance, tracking, advisory & airtoair maneuver coordination",
+      "question": "Which TCAS component controls surveillance, tracking, advisory generation, and air-to-air maneuver coordination?",
       "options": [
         "A. Navigation display",
         "B. BITE computer",
         "C. TCAS computer"
       ],
       "correctIndex": 2,
-      "explanation": "The reference explains that TCAS monitors nearby traffic and provides traffic information and, where applicable, resolution advisories to help maintain safe separation. Therefore, the supplied correct answer is “TCAS computer”."
+      "explanation": "The TCAS computer is the main TCAS component, controlling surveillance, tracking, advisory generation, and air-to-air maneuver coordination."
     },
     {
       "id": 43,
-      "question": "FMC computes and displays the flight plan on the",
+      "question": "The FMC computes the flight plan and shows it on which display?",
       "options": [
-        "A. Navigation database",
-        "B. ND",
-        "C. PFD only"
+        "A. The navigation database directly",
+        "B. The Navigation Display (ND)",
+        "C. Only the PFD"
       ],
       "correctIndex": 1,
-      "explanation": "The reference identifies the FMC as the heart of the FMS, performing navigation and performance calculations and providing control and guidance commands. Therefore, the supplied correct answer is “ND”."
+      "explanation": "The FMS also gives information to the EFIS to show the flight plan on the Navigation Display (ND), so the crew can monitor the aircraft's progress relative to the plan."
     },
     {
       "id": 44,
-      "question": "Replaces numerous separate processors and LRUs with fewer, more centralized processing",
+      "question": "What does IMA use to replace numerous separate processors and LRUs?",
       "options": [
-        "A. More separate LRUs",
-        "B. Additional mechanical systems",
-        "C. Centralized processing units (IMA)"
+        "A. More separate stand-alone LRUs",
+        "B. Additional mechanical linkage systems",
+        "C. Fewer, more centralized processing units"
       ],
       "correctIndex": 2,
-      "explanation": "This answer is the correct answer already supplied in the question file. The explanation is kept consistent with the avionics-system material in the ET-AV06 M5 reference. Therefore, the supplied correct answer is “units IMA”."
+      "explanation": "The Integrated Modular Avionics concept replaces numerous separate processors and line-replaceable units with fewer, more centralized processing units."
     },
     {
       "id": 45,
-      "question": "On-board maintenance computer",
+      "question": "What is the term used for the onboard maintenance computer that processes fault information and supplies maintenance messages?",
       "options": [
-        "A. CMC",
+        "A. Central Maintenance Computer (CMC/CMCS)",
         "B. Secondary surveillance radar",
         "C. Aircraft GPS antenna"
       ],
       "correctIndex": 0,
-      "explanation": "The reference describes onboard maintenance functions as providing testing, fault information, maintenance support, and aircraft data loading. Therefore, the supplied correct answer is “CMC”."
+      "explanation": "The Central Maintenance Computer System (CMCS) monitors the airplane's systems for faults, processes fault information, supplies maintenance messages, and monitors flight-deck effects."
     },
     {
       "id": 46,
-      "question": "Objective is to ensure action is taken during alert & warning",
+      "question": "The objective of which system is to ensure timely crew action is taken during a terrain-related alert or warning?",
       "options": [
-        "A. Flight attendant panel",
+        "A. Flight Attendant Panel",
         "B. Integrated Modular Avionics (IMA)",
-        "C. GPWS"
+        "C. Ground Proximity Warning System (GPWS)"
       ],
       "correctIndex": 2,
-      "explanation": "The reference explains that aircraft warning systems provide attention-getting indications for system faults or unsafe conditions, with urgency indicated by light color and/or audio. Therefore, the supplied correct answer is “GPWS”."
+      "explanation": "The GPWS is designed to alert the flight crew to an unsafe condition due to terrain proximity so that timely corrective action can be taken, using both visual and aural annunciations."
     },
     {
       "id": 47,
-      "question": "Ground proximity warning system works below",
+      "question": "Below approximately what radio altitude does GPWS Mode 1 (large descent rate) alerting become active?",
       "options": [
         "A. 500 feet AGL",
         "B. 1,000 feet AGL",
-        "C. 2,500 feet AGL"
+        "C. About 2,450\u20132,500 feet AGL"
       ],
       "correctIndex": 2,
-      "explanation": "The reference explains that GPWS/EGPWS monitors aircraft height and other aircraft inputs and provides alerts or warnings when terrain proximity or the aircraft flight condition becomes unsafe. Therefore, the supplied correct answer is “2500 feet (above ground level)”."
+      "explanation": "The reference states that GPWS Mode 1 warnings occur when the aircraft is below approximately 2,450 feet radio altitude with an excessive rate of descent, with alerts/warnings possible between about 30 and 2,450 feet."
     },
     {
       "id": 48,
-      "question": "Which type of warning signal will sound in the cockpit when there is engine fire",
+      "question": "Which warning sound is heard in the cockpit for an engine fire?",
       "options": [
-        "A. Bell",
-        "B. Pull up",
-        "C. Clacker"
+        "A. A fire bell",
+        "B. \"Pull Up\" voice callout",
+        "C. An overspeed clacker"
       ],
       "correctIndex": 0,
-      "explanation": "The reference explains that aircraft warning systems provide attention-getting indications for system faults or unsafe conditions, with urgency indicated by light color and/or audio. Therefore, the supplied correct answer is “Bell”."
+      "explanation": "The aural warning module produces fire bells among its outputs, and a bell also sounds for related unsafe conditions such as retarding the throttle with the gear not down and locked."
     },
     {
       "id": 49,
-      "question": "Which symbol of TCAS on the navigation display indicates the intruder is above your",
+      "question": "On the TCAS navigation display, which symbol indicates that the intruder aircraft is above your own altitude?",
       "options": [
-        "A. A minus sign",
-        "B. A plus sign",
-        "C. A zero"
+        "A. A minus sign with a number below the symbol",
+        "B. A plus sign with a number above the symbol",
+        "C. A zero with no sign"
       ],
-      "correctIndex": 2,
-      "explanation": "The reference explains that TCAS monitors nearby traffic and provides traffic information and, where applicable, resolution advisories to help maintain safe separation. Therefore, the supplied correct answer is “altitude A plus sign”."
+      "correctIndex": 1,
+      "explanation": "A + sign and number displayed above the traffic symbol indicates the intruder is above your own altitude, while a \u2013 sign and number below indicates it is below."
     },
     {
       "id": 50,
-      "question": "The number of independent FMS in a typical commercial aircraft is",
+      "question": "How many independent Flight Management Systems (FMS) does a typical commercial aircraft carry?",
       "options": [
         "A. One",
         "B. Two",
         "C. Four"
       ],
-      "correctIndex": 2,
-      "explanation": "The reference explains that the FMS uses navigation and performance information to calculate the flight path, performance predictions, and guidance required for the flight. Therefore, the supplied correct answer is “2”."
+      "correctIndex": 1,
+      "explanation": "A typical commercial aircraft carries two independent FMS/FMC installations for redundancy in navigation and performance computation."
     },
     {
       "id": 51,
-      "question": "--- TCAS alert comes on where there is more than 6 nautical miles or more than 1200 feet",
+      "question": "A TCAS traffic symbol appears on the display when other traffic is beyond which separation from your aircraft?",
       "options": [
-        "A. Proximate traffic only",
-        "B. 2 nautical miles and 500 feet",
-        "C. More than 6 nautical miles or more than 1,200 feet vertically"
+        "A. Proximate traffic only, regardless of distance",
+        "B. Within 2 nautical miles and 500 feet",
+        "C. More than 6 nautical miles, or more than 1,200 feet vertically"
       ],
       "correctIndex": 2,
-      "explanation": "The reference explains that TCAS monitors nearby traffic and provides traffic information and, where applicable, resolution advisories to help maintain safe separation. Therefore, the supplied correct answer is “vertically from your airplane Other traffic”."
+      "explanation": "A Traffic Advisory symbol that is not yet a threat initially appears as an open diamond, meaning the other traffic is more than 6 nautical miles away or more than 1,200 feet vertically from your aircraft."
     },
     {
       "id": 52,
-      "question": "Which one of the following is not an input for the ground proximity warning computer",
+      "question": "Which of the following is NOT typically an input to the Ground Proximity Warning Computer (GPWC)?",
       "options": [
         "A. Radio altimeter",
-        "B. Aircraft configuration data",
-        "C. VHF transceiver"
+        "B. Landing gear and flap position",
+        "C. VHF transceiver (voice communication radio)"
       ],
       "correctIndex": 2,
-      "explanation": "The reference explains that GPWS/EGPWS monitors aircraft height and other aircraft inputs and provides alerts or warnings when terrain proximity or the aircraft flight condition becomes unsafe. Therefore, the supplied correct answer is “VHF transceiver”."
+      "explanation": "Typical GPWS inputs include the radio altimeter, air data computer, FMC, IRS, landing gear position, flap position, and VHF navigation receiver \u2014 a VHF voice communication transceiver is not among the listed GPWC inputs."
     },
     {
       "id": 53,
-      "question": "On the typical ATR 72 aircraft maintenance panel, BITE Advisory display indicates",
+      "question": "On a typical ATR 72 maintenance panel, what does the BITE Advisory Display indicate?",
       "options": [
-        "A. Illuminating lights and recording the cause of the failure",
-        "B. Providing flight guidance commands",
-        "C. Displaying the navigation database"
+        "A. It illuminates lights that record the code of the failure detected",
+        "B. It provides flight guidance commands to the autopilot",
+        "C. It displays the navigation database contents"
       ],
       "correctIndex": 0,
-      "explanation": "The reference explains that aircraft warning systems provide attention-getting indications for system faults or unsafe conditions, with urgency indicated by light color and/or audio. Therefore, the supplied correct answer is “Illuminating lights, the cause of the failure recorded”."
+      "explanation": "The Bite Advisory Display indicates, through illuminated lights, the code of the failure recorded, with combinations of lights able to code up to 14 failures per system."
     },
     {
       "id": 54,
-      "question": "GPWS BITE test performs",
+      "question": "What does the GPWS/EGPWS self-test (BITE) capability perform?",
       "options": [
-        "A. Navigation display test",
-        "B. Periodic test",
-        "C. Cabin communication test"
+        "A. A navigation display calibration test",
+        "B. A structured, multi-level periodic self-test of system functions",
+        "C. A cabin communication system test"
       ],
       "correctIndex": 1,
-      "explanation": "The reference explains that GPWS/EGPWS monitors aircraft height and other aircraft inputs and provides alerts or warnings when terrain proximity or the aircraft flight condition becomes unsafe. Therefore, the supplied correct answer is “Periodic test”."
+      "explanation": "The EGPWS Self-Test capability consists of several levels (from a GO/NO-GO pre-flight check through current faults, configuration, fault history, warning history, and discrete test) used to verify and indicate intended functions."
     },
     {
       "id": 55,
-      "question": "--- occurs about 25 sec before the aircraft nearest point of approach",
+      "question": "A Resolution Advisory (RA) typically occurs about how many seconds before the closest point of approach?",
       "options": [
-        "A. Resolution Advisory",
-        "B. Traffic Advisory",
-        "C. GPWS terrain warning"
+        "A. About 25 seconds",
+        "B. About 40 seconds",
+        "C. About 90 seconds"
       ],
       "correctIndex": 0,
-      "explanation": "This answer is the correct answer already supplied in the question file. The explanation is kept consistent with the avionics-system material in the ET-AV06 M5 reference. Therefore, the supplied correct answer is “Resolution Advisory”."
+      "explanation": "The reference classifies threat traffic (which causes a Resolution Advisory) as having a time to closest point of approach of less than 25 seconds."
     },
     {
       "id": 56,
-      "question": "--- suggests vertical maneuver for safe separation (avoid collision)",
+      "question": "Which TCAS advisory suggests a vertical maneuver to achieve safe separation and avoid a collision?",
       "options": [
-        "A. Resolution Advisory",
-        "B. Traffic Advisory",
-        "C. Warning light"
+        "A. Resolution Advisory (RA)",
+        "B. Traffic Advisory (TA)",
+        "C. A simple caution light"
       ],
       "correctIndex": 0,
-      "explanation": "This answer is the correct answer already supplied in the question file. The explanation is kept consistent with the avionics-system material in the ET-AV06 M5 reference. Therefore, the supplied correct answer is “Resolution advisory”."
+      "explanation": "The Resolution Advisory (RA) is the TCAS advisory that recommends an escape/vertical maneuver to maintain safe separation from the intruder and avoid a collision."
     },
     {
       "id": 57,
-      "question": "Abnormal situation of A/C for which crew awareness & corrective action are necessary",
+      "question": "In the A350 Flight Warning System, which alert level describes an abnormal aircraft situation requiring crew awareness and corrective action, without being an immediate emergency?",
       "options": [
         "A. Level 1",
         "B. Level 2",
         "C. Level 3"
       ],
-      "correctIndex": 2,
-      "explanation": "This answer is the correct answer already supplied in the question file. The explanation is kept consistent with the avionics-system material in the ET-AV06 M5 reference. Therefore, the supplied correct answer is “Level 2”."
+      "correctIndex": 1,
+      "explanation": "A Level 2 alert refers to an abnormal situation of the aircraft for which crew awareness and subsequent corrective or compensatory action are necessary, as distinct from the immediate-reaction Level 3 emergency alerts."
     },
     {
       "id": 58,
-      "question": "In which category is the function of uploading/downloading in OMS",
+      "question": "In the Onboard Maintenance System (OMS), the function of uploading/downloading software and files falls under which category?",
       "options": [
         "A. Maintenance support",
         "B. Flight guidance",
         "C. Cabin entertainment"
       ],
       "correctIndex": 0,
-      "explanation": "The reference describes onboard maintenance functions as providing testing, fault information, maintenance support, and aircraft data loading. Therefore, the supplied correct answer is “Maintenance support”."
+      "explanation": "The OMS maintenance support functions specifically include software uploading and file downloading, alongside access to electronic maintenance documentation and interactive tests."
     },
     {
       "id": 59,
-      "question": "What TCAS equipment is required on the host aircraft and other traffic that are intruder to",
+      "question": "For a fully coordinated maneuver between two aircraft using TCAS-TCAS coordination at the highest protection level, what equipment is required on both aircraft?",
       "options": [
-        "A. Coordinated maneuver TCAS III",
-        "B. Ground proximity warning system",
-        "C. Weather radar"
+        "A. Both aircraft equipped for coordinated maneuvers (e.g., matching TCAS II/III capability)",
+        "B. A ground-proximity warning system only",
+        "C. Weather radar only"
       ],
       "correctIndex": 0,
-      "explanation": "The reference explains that TCAS monitors nearby traffic and provides traffic information and, where applicable, resolution advisories to help maintain safe separation. Therefore, the supplied correct answer is “make coordinated maneuver TCAS III”."
+      "explanation": "The levels-of-protection table shows that TCAS-TCAS coordination, which enables fully coordinated escape maneuvers, requires both the host and intruder aircraft to carry an appropriately equipped TCAS system."
     },
     {
       "id": 60,
-      "question": "Performs all the calculation & prediction required to determine the most economical flight",
+      "question": "Which system performs all the calculations and predictions needed to determine the most economical flight profile?",
       "options": [
         "A. TCAS computer",
-        "B. Performance display",
+        "B. A stand-alone performance display",
         "C. FMC"
       ],
       "correctIndex": 2,
-      "explanation": "The reference explains that aircraft warning systems provide attention-getting indications for system faults or unsafe conditions, with urgency indicated by light color and/or audio. Therefore, the supplied correct answer is “profile FMC”."
+      "explanation": "The FMC's performance database and calculations determine the vertical profile that gives the shortest flying time at the lowest fuel consumption \u2014 i.e., the most economical flight profile."
     },
     {
       "id": 61,
-      "question": "The aircraft navigation database is generally updated every --- days",
+      "question": "How often is the aircraft's navigation database typically updated?",
       "options": [
-        "A. 14",
-        "B. 28",
-        "C. 56"
+        "A. Every 14 days",
+        "B. Every 28 days",
+        "C. Every 56 days"
       ],
-      "correctIndex": 2,
-      "explanation": "The reference explains that the navigation database contains aeronautical information used by the FMC and is updated on a 28-day cycle. Therefore, the supplied correct answer is “28”."
+      "correctIndex": 1,
+      "explanation": "The reference states that the navigation database is updated every 28 days, coinciding with the ICAO navigation data cycle, with the FMC holding the current and next 28-day database."
     },
     {
       "id": 62,
-      "question": "Which of the following avionics systems uses federated architecture",
+      "question": "Which avionics architecture uses a separate LRU for each dedicated system function, interconnected point-to-point?",
       "options": [
-        "A. Conventional/federated architecture",
+        "A. Conventional / federated architecture",
         "B. Integrated Modular Avionics",
-        "C. Distributed mechanical architecture"
+        "C. A single-computer distributed architecture"
       ],
       "correctIndex": 0,
-      "explanation": "This answer is the correct answer already supplied in the question file. The explanation is kept consistent with the avionics-system material in the ET-AV06 M5 reference. Therefore, the supplied correct answer is “Conventional”."
+      "explanation": "The conventional (federated) avionics approach uses a separate LRU for each avionics function, interconnected point-to-point using buses such as ARINC 429/629, which IMA was designed to replace with shared, centralized processing."
     },
     {
       "id": 63,
-      "question": "To calculate the closest point of approach (CPA) and the relative altitude, the TCAS",
+      "question": "To calculate the closest point of approach (CPA) and relative altitude of traffic, what does the TCAS computer primarily use?",
       "options": [
-        "A. Computer uses time",
-        "B. Computer uses cabin temperature",
-        "C. Computer uses fuel pressure"
+        "A. The time until the CPA, together with own and traffic aircraft range, altitude, and airspeed",
+        "B. Cabin temperature readings",
+        "C. Engine fuel pressure readings"
       ],
       "correctIndex": 0,
-      "explanation": "The reference explains that TCAS monitors nearby traffic and provides traffic information and, where applicable, resolution advisories to help maintain safe separation. Therefore, the supplied correct answer is “computer uses Time”."
+      "explanation": "To calculate the CPA and relative altitude, the TCAS computer uses the time until the CPA together with the TCAS airplane's airspeed and altitude, and the range, altitude, and airspeed of the traffic airplane."
     },
     {
       "id": 64,
-      "question": "Calculation of the flight profile (vertical flight plan) and optimization of speed and altitude",
+      "question": "What is calculated when the FMS works out the vertical flight plan, optimizing speed and altitude?",
       "options": [
-        "A. Vertical and horizontal profile",
-        "B. Cabin service profile",
-        "C. Engine maintenance profile"
+        "A. The vertical and horizontal profile, based on aircraft weight, fuel weight, and time",
+        "B. Only the cabin service schedule",
+        "C. Only the maintenance fault history"
       ],
       "correctIndex": 0,
-      "explanation": "The reference explains that the FMS uses navigation and performance information to calculate the flight path, performance predictions, and guidance required for the flight. Therefore, the supplied correct answer is “depending on Time, A/C weight, fuel weight”."
+      "explanation": "The FMS vertical flight plan calculation optimizes speed and altitude depending on aircraft weight, fuel weight, and time, together with aircraft/engine performance databases."
     },
     {
       "id": 65,
-      "question": "Which computers that can monitor and control several systems via several apps",
+      "question": "Which computers can monitor and control several aircraft systems through multiple software applications hosted on shared resources?",
       "options": [
-        "A. Individual stand-alone radios",
-        "B. Integrated Modular Avionics (IMA)",
-        "C. Mechanical control computers"
+        "A. Individual stand-alone analog gauges",
+        "B. Integrated Modular Avionics (IMA) computers",
+        "C. Dedicated mechanical control units"
       ],
       "correctIndex": 1,
-      "explanation": "This answer is the correct answer already supplied in the question file. The explanation is kept consistent with the avionics-system material in the ET-AV06 M5 reference. Therefore, the supplied correct answer is “Integrated Modular Avionics (IMA)”."
+      "explanation": "IMA computers can monitor and control several systems via several applications hosted on shared computing and communication resources, unlike the dedicated, single-function LRUs of a conventional architecture."
     },
     {
       "id": 66,
-      "question": "There will be maneuver indication on the PFDs to guide the flight crew to avoid a possible",
+      "question": "During a Resolution Advisory (RA), where is a maneuver indication shown to guide the flight crew in avoiding a possible collision?",
       "options": [
-        "A. Collision during Resolution Advisory (RA)",
-        "B. Cabin service interruption",
-        "C. Fuel imbalance"
+        "A. On the Primary Flight Displays (PFDs)",
+        "B. On the cabin service panel",
+        "C. On the fuel quantity indicator"
       ],
-      "correctIndex": 1,
-      "explanation": "This answer is the correct answer already supplied in the question file. The explanation is kept consistent with the avionics-system material in the ET-AV06 M5 reference. Therefore, the supplied correct answer is “collision during Resolution Advisory (RA)”."
+      "correctIndex": 0,
+      "explanation": "When a Resolution Advisory is generated, maneuver indications appear on the PFDs to guide the flight crew, in addition to indications on the NDs and aural annunciations from the warning speakers."
     },
     {
       "id": 67,
-      "question": "Bank angle call-outs occur at",
+      "question": "GPWS bank-angle call-outs are provided as part of which mode?",
       "options": [
         "A. Mode 1",
         "B. Mode 5",
         "C. Mode 6"
       ],
       "correctIndex": 2,
-      "explanation": "This answer is the correct answer already supplied in the question file. The explanation is kept consistent with the avionics-system material in the ET-AV06 M5 reference. Therefore, the supplied correct answer is “Mode 6”."
+      "explanation": "GPWS Mode 6 provides alerts and call-outs for descent below predefined altitudes and can also incorporate bank-angle protection call-outs."
     },
     {
       "id": 68,
-      "question": "Which TCAS type will provide traffic advisories and resolution advisories in the horizontal",
+      "question": "Which TCAS type will provide traffic advisories and resolution advisories in both the horizontal and vertical directions?",
       "options": [
         "A. TCAS I",
         "B. TCAS II",
         "C. TCAS III"
       ],
       "correctIndex": 2,
-      "explanation": "The reference explains that TCAS monitors nearby traffic and provides traffic information and, where applicable, resolution advisories to help maintain safe separation. Therefore, the supplied correct answer is “as well as the vertical direction to avoid conflicting traffic TCAS III”."
+      "explanation": "TCAS III, still under development at the time of writing, is intended to provide traffic advisories and resolution advisories in the horizontal as well as the vertical direction, unlike TCAS II which is vertical-only."
     },
     {
       "id": 69,
-      "question": "The FMS also gives information to the EFIS to show the flight plan on",
+      "question": "The FMS provides information to the EFIS to show the flight plan on which display?",
       "options": [
-        "A. Primary Flight Display (PFD)",
-        "B. Navigation Display (ND)",
-        "C. Engine display"
+        "A. The Primary Flight Display (PFD) only",
+        "B. The Navigation Display (ND)",
+        "C. A dedicated engine display"
       ],
       "correctIndex": 1,
-      "explanation": "The reference explains that the FMS uses navigation and performance information to calculate the flight path, performance predictions, and guidance required for the flight. Therefore, the supplied correct answer is “Navigation Display (ND)”."
+      "explanation": "The FMS gives information to the EFIS to show the selected flight plan on the Navigation Display (ND), while flight path guidance is separately shown on the PFD."
     },
     {
       "id": 70,
-      "question": "Warning alerts are given for a terrain threat that requires",
+      "question": "A GPWS terrain warning alert (as opposed to a caution) requires what kind of crew response?",
       "options": [
-        "A. Routine crew monitoring",
-        "B. Communication with cabin crew",
+        "A. Routine monitoring only",
+        "B. Coordination with cabin crew",
         "C. Immediate crew action"
       ],
       "correctIndex": 2,
-      "explanation": "The reference explains that GPWS/EGPWS monitors aircraft height and other aircraft inputs and provides alerts or warnings when terrain proximity or the aircraft flight condition becomes unsafe. Therefore, the supplied correct answer is “Immediate crew action”."
+      "explanation": "GPWS/EGPWS caution and warning envelopes are structured so that a warning-level terrain alert demands an immediate crew action, while a caution provides earlier notice for monitoring."
     },
     {
       "id": 71,
-      "question": "Which mode shows too much deviation below the glide slope",
+      "question": "Which GPWS mode alerts the crew to too much deviation below the ILS glideslope?",
       "options": [
         "A. Mode 1",
         "B. Mode 5",
         "C. Mode 6"
       ],
       "correctIndex": 1,
-      "explanation": "The reference explains that GPWS/EGPWS monitors aircraft height and other aircraft inputs and provides alerts or warnings when terrain proximity or the aircraft flight condition becomes unsafe. Therefore, the supplied correct answer is “Mode 5”."
+      "explanation": "GPWS Mode 5 covers too much deviation below the glideslope centerline; if the aircraft sinks below the glideslope, the amber GS light illuminates and the aural warning repeats \"GLIDE SLOPE GLIDE SLOPE.\""
     },
     {
       "id": 72,
-      "question": "EGPWS eliminates blind spots of the original GPWS by using GPS and",
+      "question": "EGPWS eliminates the \"blind spots\" of the original GPWS by comparing aircraft position (from GPS) against what?",
       "options": [
-        "A. Terrain database",
-        "B. Cabin database",
-        "C. Maintenance database"
+        "A. A worldwide terrain and airport database",
+        "B. A cabin service schedule database",
+        "C. A structural maintenance database"
       ],
       "correctIndex": 0,
-      "explanation": "The reference explains that GPWS/EGPWS monitors aircraft height and other aircraft inputs and provides alerts or warnings when terrain proximity or the aircraft flight condition becomes unsafe. Therefore, the supplied correct answer is “Terrain database”."
+      "explanation": "The EGPWS eliminates the reactive-only limitation of basic GPWS by comparing the airplane's GPS-derived position and track against a worldwide terrain and airport database to predict conflicts ahead of the aircraft."
     },
     {
       "id": 73,
-      "question": "One is not a system component of the GPWS",
+      "question": "Which of the following is NOT a system component/interface of the GPWS?",
       "options": [
         "A. GPWS computer",
         "B. TCAS antenna",
         "C. Radio altimeter"
       ],
       "correctIndex": 1,
-      "explanation": "The reference explains that GPWS/EGPWS monitors aircraft height and other aircraft inputs and provides alerts or warnings when terrain proximity or the aircraft flight condition becomes unsafe. Therefore, the supplied correct answer is “TCAS antenna”."
+      "explanation": "GPWS interfaces listed in the reference include the radio altimeter, air data computer, inertial reference unit, stall warning system, landing gear handle, flap/stab position module, and ILS receiver \u2014 a TCAS antenna is not one of them."
     },
     {
       "id": 74,
-      "question": "TCAS interrogations and replies are sent",
+      "question": "How are TCAS interrogations and replies exchanged between two TCAS-equipped aircraft for coordinated maneuvers?",
       "options": [
-        "A. Directly between the onboard ATC transponders",
-        "B. Through the cabin interphone",
-        "C. Through the weather radar"
+        "A. Directly between the onboard Mode S transponders, using a data link",
+        "B. Through the cabin interphone system",
+        "C. Through the weather radar transmitter"
       ],
       "correctIndex": 0,
-      "explanation": "The reference explains that TCAS monitors nearby traffic and provides traffic information and, where applicable, resolution advisories to help maintain safe separation. Therefore, the supplied correct answer is “Directly between the onboard ATC transponders”."
+      "explanation": "Two TCAS II-equipped aircraft coordinate their resolution advisories directly, using a Mode S transponder data link between the onboard equipment, without needing ATC or ground station relay."
     },
     {
       "id": 75,
-      "question": "Navigation facilities including location, altitude, frequency, identification and the FMS are",
+      "question": "Navigation facility details such as location, altitude, frequency, and identification of ILS/VOR/DME stations are examples of what?",
       "options": [
-        "A. Examples of navigation database information",
-        "B. Examples of cabin database information",
-        "C. Examples of maintenance database information"
+        "A. Contents of the navigation database",
+        "B. Contents of the cabin service database",
+        "C. Contents of the maintenance fault log"
       ],
-      "correctIndex": 1,
-      "explanation": "The reference explains that the FMS uses navigation and performance information to calculate the flight path, performance predictions, and guidance required for the flight. Therefore, the supplied correct answer is “examples of Navigation Database”."
+      "correctIndex": 0,
+      "explanation": "The navigation database contains aerodrome details and navigation facilities (ILS, VOR, DME), including their location, altitude, frequency, and identification, along with airways, SIDs, STARs, and company routes."
     },
     {
       "id": 76,
-      "question": "Flight path guidance is shown on the",
+      "question": "On which display is flight path guidance information shown to the pilot?",
       "options": [
-        "A. Primary Flight Display (PFD)",
-        "B. Navigation Display (ND)",
-        "C. Multi-function display only"
+        "A. The Primary Flight Display (PFD)",
+        "B. The Navigation Display (ND) only",
+        "C. A multi-function engine display only"
       ],
       "correctIndex": 0,
-      "explanation": "This answer is the correct answer already supplied in the question file. The explanation is kept consistent with the avionics-system material in the ET-AV06 M5 reference. Therefore, the supplied correct answer is “Primary Flight Display (PFD)”."
+      "explanation": "Flight path guidance and steering commands generated by the FMS/AFS are shown to the crew primarily on the Primary Flight Display (PFD), via the flight director command cues."
     },
     {
       "id": 77,
-      "question": "Which of the following is not a function of the FMS",
+      "question": "Which of the following is NOT a function of the Flight Management System (FMS)?",
       "options": [
-        "A. Resolution advisory",
-        "B. Terrain database",
-        "C. Automatically switching between different types of communications"
+        "A. Calculating the lateral and vertical flight plan",
+        "B. Managing performance predictions such as fuel and arrival time",
+        "C. Automatically switching between different types of radio communications"
       ],
       "correctIndex": 2,
-      "explanation": "The reference explains that the FMS uses navigation and performance information to calculate the flight path, performance predictions, and guidance required for the flight. Therefore, the supplied correct answer is “Automatically switch between different types of comms”."
+      "explanation": "The FMS's role is centered on navigation, guidance, and performance management (flight plan, fuel and time predictions); automatically switching between different communication systems is not one of its listed functions."
     },
     {
       "id": 78,
-      "question": "Which of the following is a function of integrated modular avionics",
+      "question": "Which of the following describes a general function of Integrated Modular Avionics (IMA)?",
       "options": [
-        "A. Centralized computing and data communication",
-        "B. Flight attendant call system only",
-        "C. Hydraulic pressure control only"
+        "A. To supply a centralized computing and data communication capability",
+        "B. To operate only the flight attendant call system",
+        "C. To control only hydraulic system pressure"
       ],
-      "correctIndex": 1,
-      "explanation": "The reference describes IMA as a centralized avionics architecture in which computing and communication resources can be shared by different applications. Therefore, the supplied correct answer is “To supply a centralized computing and data communication capability”."
+      "correctIndex": 0,
+      "explanation": "The reference states that the general function of IMA is to organize shared resources and to supply a centralized computing and data communication capability for multiple aircraft systems."
     },
     {
       "id": 79,
-      "question": "Which of the following system enables us to access the Minimum Equipment List (MEL) &",
+      "question": "Which system lets the crew access the Minimum Equipment List (MEL) and Configuration Deviation List (CDL) electronically?",
       "options": [
-        "A. Flight Management Computer",
-        "B. Navigation database",
-        "C. Configuration Deviation List (CDL) electronically through OIS"
+        "A. Flight Management Computer alone",
+        "B. Navigation database alone",
+        "C. The Onboard Information System (OIS), via its avionics domain electronic documentation"
       ],
       "correctIndex": 2,
-      "explanation": "This answer is the correct answer already supplied in the question file. The explanation is kept consistent with the avionics-system material in the ET-AV06 M5 reference. Therefore, the supplied correct answer is “Configuration Deviation List (CDL) electronically Onboard Info System (OIS)”."
+      "explanation": "The OIS avionics domain hosts electronic documentation needed by flight and maintenance crew, including the MEL and CDL, giving electronic access instead of using paper manuals."
     },
     {
       "id": 80,
-      "question": "The --- caution light show system malfunction or conditions that do not immediately affect the",
+      "question": "An amber caution light typically shows what kind of condition?",
       "options": [
-        "A. Green advisory light",
-        "B. Amber caution light",
-        "C. Blue maintenance light"
+        "A. A green, fully normal operating condition",
+        "B. A system malfunction or condition that does not immediately affect the aircraft's flight capability",
+        "C. A blue maintenance-only indication"
       ],
       "correctIndex": 1,
-      "explanation": "The reference explains that aircraft warning systems provide attention-getting indications for system faults or unsafe conditions, with urgency indicated by light color and/or audio. Therefore, the supplied correct answer is “aircraft's flight capabilities Amber”."
+      "explanation": "The reference explains that amber caution lights show system malfunctions or conditions that do not immediately affect the aircraft's flight capabilities but that possibly require future corrective action."
     },
     {
       "id": 81,
-      "question": "Where is the location of FMC",
+      "question": "Where is the Flight Management Computer (FMC) typically installed on the aircraft?",
       "options": [
-        "A. Main equipment center",
-        "B. Cockpit overhead panel",
-        "C. Landing gear bay"
+        "A. In the main equipment center",
+        "B. On the cockpit overhead panel",
+        "C. In the main landing gear bay"
       ],
-      "correctIndex": 1,
-      "explanation": "The reference identifies the FMC as the heart of the FMS, performing navigation and performance calculations and providing control and guidance commands. Therefore, the supplied correct answer is “Main equipment center”."
+      "correctIndex": 0,
+      "explanation": "Like most large avionics LRUs, the FMC is typically installed in the aircraft's main equipment center, with the CDU as its remote cockpit interface."
     },
     {
       "id": 82,
-      "question": "How many channels does the aural warning unit on ATR 72 have",
+      "question": "How many channels does a typical aircraft aural warning unit (e.g., on the ATR 72 / B737-type systems) have?",
       "options": [
         "A. Two",
         "B. Four",
         "C. Six"
       ],
       "correctIndex": 0,
-      "explanation": "The reference explains that aircraft warning systems provide attention-getting indications for system faults or unsafe conditions, with urgency indicated by light color and/or audio. Therefore, the supplied correct answer is “Two”."
+      "explanation": "The reference states that the aural warning module has two channels, connected in parallel, with a 6 dB reduction in audio output if one channel fails."
     },
     {
       "id": 83,
-      "question": "Mode 1 terrain awareness cautions are given for",
+      "question": "GPWS Mode 1 terrain-awareness cautions/warnings are given for what condition?",
       "options": [
         "A. Excessive descent rate",
         "B. Low fuel quantity",
         "C. High cabin temperature"
       ],
       "correctIndex": 0,
-      "explanation": "The reference explains that GPWS/EGPWS monitors aircraft height and other aircraft inputs and provides alerts or warnings when terrain proximity or the aircraft flight condition becomes unsafe. Therefore, the supplied correct answer is “Excessive descent rate”."
+      "explanation": "GPWS Mode 1 is specifically the large-descent-rate mode: it triggers \"SINK RATE\" and, if the condition worsens, \"WHOOP WHOOP PULL-UP.\""
     },
     {
       "id": 84,
-      "question": "In pre-flight phases, the FMS calculates the --- of the aircraft",
+      "question": "During the pre-flight phase, what does the FMS calculate for the aircraft based on the entered weight and cruise altitude?",
       "options": [
-        "A. Vertical and horizontal profile",
-        "B. Cabin temperature profile",
-        "C. Maintenance fault profile"
+        "A. The vertical and horizontal (lateral) flight profile",
+        "B. Only the cabin temperature profile",
+        "C. Only the maintenance fault profile"
       ],
       "correctIndex": 0,
-      "explanation": "The reference explains that the FMS uses navigation and performance information to calculate the flight path, performance predictions, and guidance required for the flight. Therefore, the supplied correct answer is “Vertical and horizontal profile”."
+      "explanation": "Once the lateral flight plan is selected, additional data such as weight and cruise altitude is inserted so the FMS can calculate the vertical flight plan together with the lateral flight plan, forming the overall flight profile."
     },
     {
       "id": 85,
-      "question": "Which level of the fire warning system refers to an emergency situation for which",
+      "question": "In the A350 Flight Warning System, which alert level refers to an emergency situation requiring the crew's immediate reaction?",
       "options": [
         "A. Level 1",
         "B. Level 2",
         "C. Level 3"
       ],
-      "correctIndex": 0,
-      "explanation": "The reference explains that aircraft warning systems provide attention-getting indications for system faults or unsafe conditions, with urgency indicated by light color and/or audio. Therefore, the supplied correct answer is “immediate action of the crew is necessary Level 3”."
+      "correctIndex": 2,
+      "explanation": "A Level 3 alert refers to an emergency situation, such as ENGINE/APU FIRE or OVERSPEED, for which an immediate reaction of the crew is necessary \u2014 the highest urgency in the FWS classification."
     },
     {
       "id": 86,
-      "question": "Traffic Advisories",
+      "question": "What is the purpose of TCAS Traffic Advisories (TAs)?",
       "options": [
-        "A. Assist the crew visually searching for and identifying an intruder aircraft",
-        "B. Generate a terrain database",
-        "C. Control the flight management computer"
+        "A. To assist the crew in visually searching for and identifying an intruder aircraft",
+        "B. To automatically generate a terrain database",
+        "C. To directly control the flight management computer's flight plan"
       ],
       "correctIndex": 0,
-      "explanation": "This answer is the correct answer already supplied in the question file. The explanation is kept consistent with the avionics-system material in the ET-AV06 M5 reference. Therefore, the supplied correct answer is “Assist the crew visually searching and identifying an intruder aircraft”."
+      "explanation": "A Traffic Advisory alerts the crew that closing traffic is in the vicinity, helping them visually search for and identify the intruder aircraft before any escape maneuver is required."
     },
     {
       "id": 87,
-      "question": "The --- warning lights show system malfunctions or conditions that cause dangerous",
+      "question": "Red warning lights typically indicate what type of condition?",
       "options": [
-        "A. Amber conditions",
-        "B. Green conditions",
-        "C. Red conditions"
+        "A. Conditions requiring an amber-level future action only",
+        "B. Fully normal, green-level system operation",
+        "C. System malfunctions or conditions that cause dangerous flight conditions, requiring immediate action"
       ],
       "correctIndex": 2,
-      "explanation": "The reference explains that aircraft warning systems provide attention-getting indications for system faults or unsafe conditions, with urgency indicated by light color and/or audio. Therefore, the supplied correct answer is “conditions Red”."
+      "explanation": "The reference states that red warning lights show system malfunctions or conditions that cause dangerous flight conditions and require an immediate corrective action."
     },
     {
       "id": 88,
-      "question": "One is not the use of structural monitoring applied to aircraft engines",
+      "question": "Which of the following is NOT a valid purpose of structural (health) monitoring as applied to aircraft engines?",
       "options": [
-        "A. Detection of failures after any real damage has occurred",
-        "B. Monitoring engine condition",
-        "C. Detecting structural changes or damage"
+        "A. Detecting failures only after real damage has already occurred",
+        "B. Preventing engine damage and possible hazard following a catastrophic failure",
+        "C. Detecting changes in engine speed, temperature, pressure, and vibration before damage occurs"
       ],
       "correctIndex": 0,
-      "explanation": "This answer is the correct answer already supplied in the question file. The explanation is kept consistent with the avionics-system material in the ET-AV06 M5 reference. Therefore, the supplied correct answer is “The detection of failures after any real damage has occurred”."
+      "explanation": "Structural/health monitoring was first applied to engines specifically to prevent damage and to detect failures before any real damage occurs \u2014 detecting them only after the damage has already happened defeats this purpose."
     },
     {
       "id": 89,
-      "question": "On the typical ATR 72 aircraft maintenance panel, which of the following indicates through",
+      "question": "On a typical ATR 72 maintenance panel, how are recorded faults indicated to the technician?",
       "options": [
-        "A. Two channels",
-        "B. Detect presence of nearby intruder aircraft",
-        "C. Illuminating lights and recording the failure code on the BITE Advisory Display"
+        "A. Through two independent aural-warning channels",
+        "B. By detecting the presence of a nearby intruder aircraft",
+        "C. By illuminating lights and recording the failure code on the Bite Advisory Display"
       ],
       "correctIndex": 2,
-      "explanation": "The reference describes onboard maintenance functions as providing testing, fault information, maintenance support, and aircraft data loading. Therefore, the supplied correct answer is “illuminating lights, the code of the failure recorded Bite Advisory Display”."
+      "explanation": "The maintenance panel indicates recorded faults by illuminating lights and recording the failure code on the Bite Advisory Display, using combinations of lights to code up to 14 failures per system."
     },
     {
       "id": 90,
-      "question": "Which one of the FF is not true with respect to integrated modular avionics architecture",
+      "question": "Which of the following is NOT true with respect to the Integrated Modular Avionics architecture?",
       "options": [
-        "A. Prognostic AVM",
-        "B. Increased life style",
-        "C. Shared resources and centralized processing"
+        "A. It supports a prognostic health-monitoring capability",
+        "B. It always increases the overall lifecycle/maintenance cost of the avionics suite",
+        "C. It relies on shared resources and centralized processing"
       ],
       "correctIndex": 1,
-      "explanation": "The reference describes IMA as a centralized avionics architecture in which computing and communication resources can be shared by different applications. Therefore, the supplied correct answer is “Increased life style”."
+      "explanation": "IMA is intended to reduce, not increase, lifecycle and maintenance costs by sharing centralized processing resources across applications, so a claim that it always increases lifecycle cost is not consistent with its design goals."
     },
     {
       "id": 91,
-      "question": "It is intended for use by smaller commuter and general aviation aircraft",
+      "question": "Which TCAS type is intended for use by smaller commuter and general aviation aircraft?",
       "options": [
         "A. TCAS II",
         "B. TCAS I",
         "C. TCAS III"
       ],
       "correctIndex": 1,
-      "explanation": "This answer is the correct answer already supplied in the question file. The explanation is kept consistent with the avionics-system material in the ET-AV06 M5 reference. Therefore, the supplied correct answer is “TCAS I”."
+      "explanation": "TCAS I provides proximity warning only, to assist the pilot in the visual acquisition of intruder aircraft, and is intended for use by smaller commuter and general aviation aircraft."
     },
     {
       "id": 92,
-      "question": "Which one is the general function of Integrated Modular Avionics (IMA)",
+      "question": "What is the general function of Integrated Modular Avionics (IMA)?",
       "options": [
-        "A. To supply centralized computing and data communication capability",
-        "B. To provide only terrain warning",
-        "C. To provide only secondary surveillance radar"
+        "A. To supply a centralized computing and data communication capability",
+        "B. To provide terrain warning only",
+        "C. To provide secondary surveillance radar only"
       ],
       "correctIndex": 0,
-      "explanation": "The reference describes IMA as a centralized avionics architecture in which computing and communication resources can be shared by different applications. Therefore, the supplied correct answer is “To supply a centralized computing and data communication capability”."
+      "explanation": "The reference describes the general function of IMA as organizing shared resources and supplying a centralized computing and data communication capability across multiple applications."
     },
     {
       "id": 93,
-      "question": "TCAS alert comes on where there is more than 6 nautical miles or more than 1200 feet",
+      "question": "A TCAS traffic symbol first appears on the display when other traffic is beyond what separation from the aircraft?",
       "options": [
-        "A. Vertically from your airplane: other traffic",
-        "B. From the navigation database",
-        "C. From the cabin domain"
+        "A. More than 6 nautical miles or more than 1,200 feet vertically",
+        "B. Any distance defined only by the navigation database",
+        "C. Any distance defined only by the cabin domain"
       ],
       "correctIndex": 0,
-      "explanation": "The reference explains that TCAS monitors nearby traffic and provides traffic information and, where applicable, resolution advisories to help maintain safe separation. Therefore, the supplied correct answer is “vertically from your airplane Other traffic”."
+      "explanation": "Other traffic that is more than 6 nautical miles away or more than 1,200 feet vertically from your aircraft is initially shown as an open (non-threat) diamond symbol on the display."
     },
     {
       "id": 94,
-      "question": "Is the heart of the system, performing all the navigational and performance calculations",
+      "question": "Which system is the heart of the aircraft, performing all navigational and performance calculations and providing control and guidance commands?",
       "options": [
-        "A. Terrain/obstacle threat warning",
-        "B. Providing control and guidance commands through the Flight Management Computer System (FMCS)",
-        "C. Cabin warning indication"
+        "A. The terrain/obstacle threat warning system",
+        "B. The Flight Management Computer System (FMCS)",
+        "C. A cabin warning indication panel"
       ],
       "correctIndex": 1,
-      "explanation": "This answer is the correct answer already supplied in the question file. The explanation is kept consistent with the avionics-system material in the ET-AV06 M5 reference. Therefore, the supplied correct answer is “and providing control and guidance commands Flight Management Computer System (FMCS)”."
+      "explanation": "The Flight Management Computer System (FMCS) is described as the heart of the system, performing all navigational and performance calculations and providing control and guidance commands."
     },
     {
       "id": 95,
-      "question": "Traffic Advisory",
+      "question": "What is the purpose of a TCAS Traffic Advisory (TA)?",
       "options": [
-        "A. Immediate corrective action",
-        "B. Assist the pilot in visually acquiring the intruder",
-        "C. Update the navigation database"
+        "A. To command an immediate corrective vertical maneuver",
+        "B. To assist the pilot in the visual acquisition of the intruder aircraft",
+        "C. To automatically update the navigation database"
       ],
       "correctIndex": 1,
-      "explanation": "The reference explains that TCAS monitors nearby traffic and provides traffic information and, where applicable, resolution advisories to help maintain safe separation. Therefore, the supplied correct answer is “To assist the pilot in the visual acquisition of intruder”."
+      "explanation": "A Traffic Advisory is intended to assist the pilot in the visual acquisition of the intruder aircraft and to alert the crew that closing traffic is nearby, ahead of any resolution advisory."
     },
     {
       "id": 96,
-      "question": "The number of independent FMS in a typical commercial aircraft is",
+      "question": "How many independent FMS installations does a typical commercial aircraft carry?",
       "options": [
         "A. One",
         "B. Two",
         "C. Three"
       ],
       "correctIndex": 1,
-      "explanation": "The reference explains that the FMS uses navigation and performance information to calculate the flight path, performance predictions, and guidance required for the flight. Therefore, the supplied correct answer is “2”."
+      "explanation": "A typical commercial aircraft carries two independent FMS/FMC installations for redundancy."
     },
     {
       "id": 97,
-      "question": "The database contains aeronautical information for the planned area of operations of the",
+      "question": "Which database contains the aeronautical information for the planned area of operations of the aircraft?",
       "options": [
-        "A. Own GPS data",
-        "B. Aircraft navigation database",
-        "C. Two FMS computers"
+        "A. Own aircraft's GPS position log",
+        "B. The aircraft navigation database",
+        "C. The list of onboard FMS computers"
       ],
       "correctIndex": 1,
-      "explanation": "This answer is the correct answer already supplied in the question file. The explanation is kept consistent with the avionics-system material in the ET-AV06 M5 reference. Therefore, the supplied correct answer is “aircraft is Navigation database”."
+      "explanation": "The navigation database contains aeronautical information for the planned area of operations of the aircraft, including aerodrome details, navigation facilities, airways, SIDs, STARs, and company routes."
     },
     {
       "id": 98,
-      "question": "CMC does not provide information",
+      "question": "Which type of information does the Central Maintenance Computer (CMC) NOT typically provide?",
       "options": [
-        "A. TCAS computer information",
-        "B. Flight operation information",
-        "C. FMS guidance commands"
+        "A. Fault and maintenance-related information from aircraft systems, including TCAS BITE data",
+        "B. Flight operations information (such as performance or navigation planning tools)",
+        "C. Guidance commands from the FMS"
       ],
       "correctIndex": 1,
-      "explanation": "The reference describes onboard maintenance functions as providing testing, fault information, maintenance support, and aircraft data loading. Therefore, the supplied correct answer is “To flight operation”."
+      "explanation": "The CMCS is focused on monitoring aircraft systems for faults, processing fault information, and supplying maintenance messages; general flight operations information (planning/performance tools) is instead provided through the OIS flight operations domain, not the CMC."
     },
     {
       "id": 99,
-      "question": "What crew must confirm all is navigable",
+      "question": "Before the FMS can start navigating, what must the crew confirm to the system?",
       "options": [
-        "A. Cabin communication status",
-        "B. Aircraft's present position",
-        "C. Fuel temperature"
+        "A. The cabin communication system status",
+        "B. The aircraft's present position",
+        "C. The fuel temperature"
       ],
       "correctIndex": 1,
-      "explanation": "This answer is the correct answer already supplied in the question file. The explanation is kept consistent with the avionics-system material in the ET-AV06 M5 reference. Therefore, the supplied correct answer is “Aircraft's present position”."
+      "explanation": "The FMS derives a start position from the selected flight plan and presents it as the present position; the crew must confirm this present position before the FMS begins to navigate."
     },
     {
       "id": 100,
-      "question": "Is not an input of TCAS II",
+      "question": "Which of the following is NOT a required input to TCAS II?",
       "options": [
-        "A. Clacker",
-        "B. Own aircraft's GPS coordinate",
-        "C. 2,500 feet AGL"
+        "A. Radio altitude and pressure altitude",
+        "B. Own aircraft's GPS-derived coordinates",
+        "C. Own aircraft's maximum cruising true airspeed capability"
       ],
       "correctIndex": 1,
-      "explanation": "The reference explains that TCAS monitors nearby traffic and provides traffic information and, where applicable, resolution advisories to help maintain safe separation. Therefore, the supplied correct answer is “Own aircraft's GPS coordinate”."
+      "explanation": "TCAS II's required inputs are the aircraft address code, air-to-air Mode S transmissions, own aircraft's maximum cruising true airspeed, pressure altitude, and radio altitude \u2014 a GPS-derived coordinate is not among these listed inputs."
     }
   ]
 }
