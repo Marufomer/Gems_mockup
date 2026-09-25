@@ -451,10 +451,10 @@
     },
     {
       "id": 41,
-      "question": "System that supplies trend and servicing monitoring and monitoring reports for the",
+      "question": "System that supplies trend and servicing monitoring and monitoring reports for the Detection in advance of possible failure appearance",
       "options": [
         "A. Cabin communication system",
-        "B. Detection in advance of possible failure appearance (prognostic AVM)",
+        "B. prognostic AVM",
         "C. Traffic collision alert"
       ],
       "correctIndex": 1,
