@@ -1,0 +1,211 @@
+{
+  "id": "avo-sub-final-romaric",
+  "title": "AVO sub-final (Romaric)",
+  "module": "school final",
+  "course": "avionics",
+  "category": "school_final",
+  "description": "Sub-final exam covering PCB fundamentals, Bourdon tube sensing, flight director command bars, microphones, splice bonding checks, AC frequency/RL circuits, battery series/parallel wiring, AFCS go-around and autothrottle indications, filters, digital codes, and TCAS jitter.",
+  "durationMinutes": 60,
+  "totalQuestions": 18,
+  "color": "amber",
+  "questions": [
+    {
+      "id": 1,
+      "question": "What is a disadvantage of a PCB?",
+      "options": [
+        "It is expensive",
+        "It does not need point-to-point wiring",
+        "It needs special training to repair"
+      ],
+      "correctIndex": 2,
+      "explanation": "Because components and traces are densely packed and soldered directly onto the board, properly tracing faults and reworking a PCB requires specially trained technicians and equipment, unlike simpler point-to-point wiring."
+    },
+    {
+      "id": 2,
+      "question": "A Bourdon tube is used to measure which of the following? (1 = pressure, 2 = temperature, 3 = position, 4 = quantity)",
+      "options": [
+        "1 and 2",
+        "1 and 3",
+        "2 and 4"
+      ],
+      "correctIndex": 0,
+      "explanation": "A Bourdon tube directly measures pressure by straightening under internal pressure, and this same principle is also used in filled-system (Bourdon-tube) thermometers, where a temperature-sensing bulb generates a pressure that the tube then converts into a temperature reading."
+    },
+    {
+      "id": 3,
+      "question": "If the heading display is 10° and a right-turn command is required, where will the command bar move?",
+      "options": [
+        "Right",
+        "Left",
+        "Center"
+      ],
+      "correctIndex": 0,
+      "explanation": "The heading error signal commands a turn in the required direction, so with a right turn needed to reach the selected heading, the command bar deflects to the right."
+    },
+    {
+      "id": 4,
+      "question": "Which type of microphone uses a capacitor?",
+      "options": [
+        "Electrostatic (condenser) microphone",
+        "Carbon microphone",
+        "Dynamic microphone"
+      ],
+      "correctIndex": 0,
+      "explanation": "An electrostatic (condenser) microphone forms a capacitor between a thin conductive diaphragm and a fixed backplate; sound waves vary the spacing between them, changing the capacitance and producing the audio signal."
+    },
+    {
+      "id": 5,
+      "question": "Which tool is used to check the bonding of a splice?",
+      "options": [
+        "Digital multimeter (DMM)",
+        "Megger (insulation resistance tester)",
+        "Oscilloscope"
+      ],
+      "correctIndex": 0,
+      "explanation": "A digital multimeter is used to check the low-resistance bonding continuity across a splice, confirming the joint provides a solid, low-resistance electrical connection."
+    },
+    {
+      "id": 6,
+      "question": "What is the output frequency if a 50 Hz frequency is doubled?",
+      "options": [
+        "100 Hz",
+        "50 Hz",
+        "25 Hz"
+      ],
+      "correctIndex": 0,
+      "explanation": "Doubling a 50 Hz signal simply multiplies its frequency by two, giving 100 Hz."
+    },
+    {
+      "id": 7,
+      "question": "If two 12 V batteries are connected in series, what is the total voltage?",
+      "options": [
+        "24 V",
+        "12 V",
+        "6 V"
+      ],
+      "correctIndex": 0,
+      "explanation": "In a series connection, the individual cell/battery voltages add together, so two 12 V batteries in series give 24 V total, while the amp-hour (Ah) capacity stays the same as a single battery."
+    },
+    {
+      "id": 8,
+      "question": "If two 12 V batteries are connected in parallel, what is the total voltage?",
+      "options": [
+        "12 V",
+        "24 V",
+        "6 V"
+      ],
+      "correctIndex": 0,
+      "explanation": "In a parallel connection, the voltage stays the same as a single battery (12 V), while the combined amp-hour (Ah) capacity increases, since the batteries share the load current between them."
+    },
+    {
+      "id": 9,
+      "question": "To engage the go-around mode, you press the:",
+      "options": [
+        "TO/GA button",
+        "ALT HOLD button",
+        "LNAV button"
+      ],
+      "correctIndex": 0,
+      "explanation": "The TO/GA (take-off/go-around) switch, mounted on the thrust levers, commands go-around mode, forcing the flight director to a pitch-up, wings-level command."
+    },
+    {
+      "id": 10,
+      "question": "Which control input automatically activates the flight director during a go-around?",
+      "options": [
+        "GA selection on the TO/GA switch",
+        "ALT HOLD selection",
+        "LNAV selection"
+      ],
+      "correctIndex": 0,
+      "explanation": "Pressing the go-around switch forces the mode selector to the GA position, which automatically brings the flight director command bars into view, commanding a pitch-up and wings-level attitude."
+    },
+    {
+      "id": 11,
+      "question": "Autothrottle activation is indicated on:",
+      "options": [
+        "FMA on PFD/EADI",
+        "ND only",
+        "CDU only"
+      ],
+      "correctIndex": 0,
+      "explanation": "Autothrottle mode status appears in the flight mode annunciator (FMA) strip on the PFD/EADI, alongside the pitch and roll mode annunciations."
+    },
+    {
+      "id": 12,
+      "question": "In an RL circuit, if the frequency doubles, the current will:",
+      "options": [
+        "Decrease",
+        "Increase",
+        "Remain the same"
+      ],
+      "correctIndex": 0,
+      "explanation": "Inductive reactance XL = 2πfL increases as frequency increases, which increases the circuit's total impedance and therefore decreases the current for a fixed applied voltage."
+    },
+    {
+      "id": 13,
+      "question": "What is the opposite of a band-reject filter?",
+      "options": [
+        "Band-pass filter",
+        "Low-pass filter",
+        "High-pass filter"
+      ],
+      "correctIndex": 0,
+      "explanation": "A band-reject (notch/stop) filter blocks a specific range of frequencies while passing everything else, which is the exact opposite of a band-pass filter, which passes only a specific range of frequencies and blocks everything else."
+    },
+    {
+      "id": 14,
+      "question": "What can be done to increase the current in an RL circuit?",
+      "options": [
+        "Decrease the frequency",
+        "Increase the frequency",
+        "Increase the inductance"
+      ],
+      "correctIndex": 0,
+      "explanation": "Since inductive reactance XL = 2πfL decreases as frequency decreases, lowering the frequency reduces the circuit's total impedance, which increases the current for a fixed applied voltage."
+    },
+    {
+      "id": 15,
+      "question": "Which 6-bit alphanumeric code can represent 64 characters?",
+      "options": [
+        "BCD (BCD Interchange Code)",
+        "EBCDIC",
+        "ASCII"
+      ],
+      "correctIndex": 0,
+      "explanation": "BCDIC is a 6-bit code, giving 2^6 = 64 possible characters, unlike the 8-bit EBCDIC or the (originally) 7-bit ASCII, both of which can represent a larger character set."
+    },
+    {
+      "id": 16,
+      "question": "What is the formula for capacitors connected in series?",
+      "options": [
+        "1/CT = 1/C1 + 1/C2 + ...",
+        "CT = C1 + C2 + ...",
+        "CT = C1 × C2"
+      ],
+      "correctIndex": 0,
+      "explanation": "Capacitors in series combine like resistors in parallel: the reciprocal of the total capacitance equals the sum of the reciprocals of each individual capacitance, which always makes the total series capacitance smaller than the smallest individual capacitor."
+    },
+    {
+      "id": 17,
+      "question": "What is the second name of an AC alternator?",
+      "options": [
+        "AC generator",
+        "DC generator",
+        "DC alternator"
+      ],
+      "correctIndex": 0,
+      "explanation": "An alternator and an AC generator refer to the same machine — a rotating device that generates alternating current — so 'AC generator' is simply the alternative name for an alternator."
+    },
+    {
+      "id": 18,
+      "question": "The deliberate random variation of the time interval between successive interrogations is called:",
+      "options": [
+        "Jitter",
+        "Squitter",
+        "Fruit"
+      ],
+      "correctIndex": 0,
+      "explanation": "Jitter is intentionally introduced into the timing of successive TCAS/DME interrogations so that interrogations from different aircraft do not consistently overlap or synchronize, reducing the chance of repeated mutual interference (garbling) between systems."
+    }
+  ]
+}
