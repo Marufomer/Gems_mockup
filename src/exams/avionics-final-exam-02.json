@@ -1,0 +1,871 @@
+{
+  "id": "avionics-final-exam-02",
+  "title": "Avionics final exam 02",
+  "module": "school final",
+  "course": "avionics",
+  "category": "school_final",
+  "description": "A reviewed subset (78 of 100 questions) of the Avionics School Final for AMT_47_Resit_3, covering EIS/instruments, EWIS, electrical fundamentals, AC circuits, compass/IRS, attitude indication, flight director/FDR, pitot-static, lighting, DC motors, pressure instruments, DC power generation, radio transmission theory, communications, data comms/fiber optics, radio navigation, semiconductor devices, digital electronics, aircraft computers, electronic circuits, batteries, and AFCS.",
+  "durationMinutes": 150,
+  "totalQuestions": 78,
+  "color": "indigo",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which of the following is NOT correct about Electronic Instrument System (EIS)?",
+      "options": [
+        "The solid-state nature of its components increases reliability",
+        "It contributes to instrument system by reducing instrument panel clutter",
+        "It uses complex electro-mechanical instruments"
+      ],
+      "correctIndex": 2,
+      "explanation": "EIS ('glass cockpit') displays replace the older complex electro-mechanical gauges with solid-state electronic displays, so saying it 'uses complex electro-mechanical instruments' is the false statement. Its solid-state design genuinely does improve reliability and reduce panel clutter, so those two statements are true."
+    },
+    {
+      "id": 3,
+      "question": "Which of the following maintenance procedures for a display system is NOT correct?",
+      "options": [
+        "Use only the recommended cleaners to clean the display",
+        "You can use any materials for cleaning of the display",
+        "Do not touch the glass with your bare skin"
+      ],
+      "correctIndex": 1,
+      "explanation": "Display screens have anti-glare/anti-reflective coatings that can be damaged by the wrong solvents or abrasive materials, so only manufacturer-approved cleaners should be used. Claiming 'any materials' can be used is the incorrect procedure."
+    },
+    {
+      "id": 4,
+      "question": "Which of the following is the process of combining 2 lengths of wires so that they can carry a current?",
+      "options": [
+        "Stripe",
+        "Splice",
+        "Crimp"
+      ],
+      "correctIndex": 1,
+      "explanation": "Splicing is the specific process of joining two separate lengths of wire into one continuous electrical path, whereas crimping generally refers to attaching a terminal or connector to a single wire end."
+    },
+    {
+      "id": 5,
+      "question": "Which ESD protective measure is commonly used for transporting sensitive devices between workstations?",
+      "options": [
+        "Bubble wrap",
+        "ESD bags",
+        "Cardboard boxes"
+      ],
+      "correctIndex": 1,
+      "explanation": "ESD (anti-static) bags are specifically designed with a conductive/dissipative layer to shield sensitive electronic components from static discharge while being moved between workstations, unlike plain bubble wrap or cardboard."
+    },
+    {
+      "id": 6,
+      "question": "Which of the following is a leading factor for wiring degradation in aircraft?",
+      "options": [
+        "Vibration",
+        "Loose connection",
+        "Moisture & Heat"
+      ],
+      "correctIndex": 0,
+      "explanation": "Constant vibration causes wire insulation to chafe against structure, clamps, or adjacent bundles over time, making it one of the most commonly cited causes of wire degradation and eventual insulation failure in aircraft wiring, alongside moisture, heat and loose connections."
+    },
+    {
+      "id": 7,
+      "question": "What is the primary purpose of wire connectors in an aircraft EWIS?",
+      "options": [
+        "Enhance the aesthetics of the wiring",
+        "Facilitate easy removal and replacement of components",
+        "Increase the electrical resistance of the wires"
+      ],
+      "correctIndex": 1,
+      "explanation": "Connectors let a wire bundle be quickly disconnected from and reconnected to a component, making removal and replacement of that component far quicker than working with permanently spliced or soldered wiring."
+    },
+    {
+      "id": 8,
+      "question": "An ideal transformer is one which has:",
+      "options": [
+        "A common core for its primary and secondary windings",
+        "No losses and no magnetic leakage",
+        "Interleaved primary and secondary windings"
+      ],
+      "correctIndex": 1,
+      "explanation": "By definition, an 'ideal' transformer is a theoretical model with zero copper loss, zero core loss, and no flux leakage between primary and secondary — a perfect energy transfer device used as a baseline for analysis."
+    },
+    {
+      "id": 9,
+      "question": "One of the following studies about generation, distribution & utilization of electrical energy.",
+      "options": [
+        "Electricity",
+        "Static electricity",
+        "Electric field"
+      ],
+      "correctIndex": 0,
+      "explanation": "Electricity, as a field of study, broadly covers the generation, distribution and utilization of electrical energy. Static electricity and electric field are narrower physical concepts within that broader field, not the field of study itself."
+    },
+    {
+      "id": 10,
+      "question": "The total current of a DC circuit connected in parallel is ________.",
+      "options": [
+        "The same",
+        "The ratio of the current in all branches",
+        "The sum of the current in all branches"
+      ],
+      "correctIndex": 2,
+      "explanation": "By Kirchhoff's Current Law, the total current supplied to a parallel circuit equals the sum of the currents flowing through each individual branch, since each branch offers a separate path back to the source."
+    },
+    {
+      "id": 11,
+      "question": "The primary sources of electrical energy in aircraft are ________.",
+      "options": [
+        "Batteries",
+        "Transformers",
+        "Generators"
+      ],
+      "correctIndex": 2,
+      "explanation": "Engine- or APU-driven generators (or alternators) are the primary in-flight source of electrical power on an aircraft; the battery serves as a secondary/emergency source, and transformers merely convert an existing supply rather than generating power."
+    },
+    {
+      "id": 12,
+      "question": "Dashed lines drawn between the windings of the transformer indicate that the transformer has ________.",
+      "options": [
+        "Ferrite cored",
+        "Solid cored",
+        "Air cored"
+      ],
+      "correctIndex": 0,
+      "explanation": "In standard schematic symbol convention, two solid parallel lines between the winding coils denote a solid (iron) core, while two dashed parallel lines denote a ferrite (powdered-iron) core; no line at all denotes an air core."
+    },
+    {
+      "id": 13,
+      "question": "The complementary expression of reactance is called ________.",
+      "options": [
+        "Admittance",
+        "Conductance",
+        "Susceptance"
+      ],
+      "correctIndex": 2,
+      "explanation": "Admittance Y = 1/Z is made up of conductance G (the complement of resistance) and susceptance B (the complement of reactance), so susceptance is the reactance-side counterpart within the admittance expression, just as conductance is the resistance-side counterpart."
+    },
+    {
+      "id": 14,
+      "question": "An enormous spark caused by the discharge of static electricity from a highly charged cloud is called ________.",
+      "options": [
+        "Electric shock",
+        "Static electricity",
+        "Lightning"
+      ],
+      "correctIndex": 2,
+      "explanation": "Lightning is the large-scale discharge of built-up static electric charge between a highly charged cloud and the ground (or another cloud), producing the visible spark and thunder associated with a storm."
+    },
+    {
+      "id": 15,
+      "question": "Materials whose resistance decreases with increasing temperature are called ________.",
+      "options": [
+        "Positive temperature co-efficient",
+        "Zero temperature co-efficient",
+        "Negative temperature co-efficient"
+      ],
+      "correctIndex": 2,
+      "explanation": "A negative temperature coefficient (NTC) material — such as an NTC thermistor or most semiconductors — has resistance that falls as temperature rises, the opposite of a positive temperature coefficient (PTC) material."
+    },
+    {
+      "id": 16,
+      "question": "The conventional flow of electrons is considered to be from ________ to ________.",
+      "options": [
+        "Negative to Positive",
+        "Positive to Negative",
+        "Depends up on circuit type"
+      ],
+      "correctIndex": 1,
+      "explanation": "By long-standing convention, current is defined as flowing from positive to negative in a circuit, which is the opposite direction to the actual movement of electrons (which flow from negative to positive)."
+    },
+    {
+      "id": 19,
+      "question": "What will be measured as the test switch on the cockpit fire panel is selected to test each sensing element loop?",
+      "options": [
+        "Continuity",
+        "Current",
+        "Voltage"
+      ],
+      "correctIndex": 0,
+      "explanation": "The fire detection self-test function checks the continuity of each sensing element loop, confirming the loop is intact and not open or shorted, rather than measuring an operating current or voltage."
+    },
+    {
+      "id": 21,
+      "question": "In a modern twin-engine A/C, when both generators fail, which source can supply the essential A.C. bus?",
+      "options": [
+        "Power from the APU generator",
+        "The battery via the static inverter, with load shedding",
+        "Short-circuiting the main bus"
+      ],
+      "correctIndex": 1,
+      "explanation": "With both engine generators lost, the aircraft battery powers a static inverter to keep essential AC loads running, while load shedding automatically disconnects non-essential loads to conserve the limited remaining power."
+    },
+    {
+      "id": 22,
+      "question": "Which type of generator is similar in construction to the revolving-armature alternator?",
+      "options": [
+        "D.C. generator",
+        "Large a.c. generator",
+        "Pilot exciter"
+      ],
+      "correctIndex": 0,
+      "explanation": "A revolving-armature alternator has its output winding on the rotating member, just like a conventional DC generator, whereas large modern AC generators instead use a revolving-field (stationary armature) construction."
+    },
+    {
+      "id": 23,
+      "question": "Assume the no-load voltage of a generator is 250 volts and the full-load voltage is 220 volts; calculate the percent of regulation.",
+      "options": [
+        "13.6%",
+        "30%",
+        "50%"
+      ],
+      "correctIndex": 0,
+      "explanation": "Percent regulation = (V(no-load) − V(full-load)) / V(full-load) × 100 = (250 − 220) / 220 × 100 = 30/220 × 100 ≈ 13.6%."
+    },
+    {
+      "id": 25,
+      "question": "The directional gyro employs a:",
+      "options": [
+        "Horizontal-axis gyroscope",
+        "Vertical-axis and horizontal-axis gyroscope",
+        "Vertical-axis gyroscope"
+      ],
+      "correctIndex": 0,
+      "explanation": "The directional gyro uses a gyro with its spin axis mounted horizontally, giving it rigidity about that horizontal axis so it can sense rotation (heading changes) about the vertical axis, distinguishing it from the vertical gyro used for attitude sensing."
+    },
+    {
+      "id": 26,
+      "question": "What property of a gyroscope is 'an angular change resulting in a change of direction of the plane of rotation of the gyro rotor under the influence of an applied force at a point 90 degrees away, in the direction of rotation'?",
+      "options": [
+        "Gyroscopic inertia",
+        "Precession",
+        "Rigidity"
+      ],
+      "correctIndex": 1,
+      "explanation": "This is the textbook definition of gyroscopic precession: an applied force produces its resulting effect not at the point of application, but 90 degrees further around in the direction of rotor spin."
+    },
+    {
+      "id": 28,
+      "question": "On aircraft, an RLG (ring laser gyro) is installed for:",
+      "options": [
+        "Longitudinal and vertical axis of flight",
+        "Longitudinal axis and lateral axis of flight",
+        "Each axis of flight"
+      ],
+      "correctIndex": 2,
+      "explanation": "A full inertial reference/navigation platform uses a triad of ring laser gyros, one for each of the three axes of flight (pitch, roll and yaw), so rotation about every axis can be sensed independently."
+    },
+    {
+      "id": 29,
+      "question": "The yaw damper system:",
+      "options": [
+        "Provides a command signal to operate the rudder autopilot actuator",
+        "Provides a command signal to the yaw damper actuator during Dutch roll, to oppose the effect of rudder action",
+        "Is a function of the autopilot system only"
+      ],
+      "correctIndex": 1,
+      "explanation": "The yaw damper senses the yaw rate associated with Dutch roll and commands its own dedicated servo actuator to apply an opposing rudder movement, damping the oscillation independently of whether the main autopilot is engaged."
+    },
+    {
+      "id": 30,
+      "question": "Which of the following is the error of the directional gyro?",
+      "options": [
+        "Drift",
+        "Dip error",
+        "Variation error"
+      ],
+      "correctIndex": 0,
+      "explanation": "Drift — the gradual, real precession of the gyro's spin axis away from its reference — is the inherent error of the directional gyro, requiring periodic manual or automatic re-alignment. Dip error and variation error are instead associated with the magnetic compass."
+    },
+    {
+      "id": 31,
+      "question": "Which of the following is NOT correct regarding the pitot heater inspection procedure?",
+      "options": [
+        "Make sure the PROBE HEAT switches are set to the AUTO position",
+        "Supply electrical power",
+        "Make sure there are protective covers on the air data sensors"
+      ],
+      "correctIndex": 2,
+      "explanation": "Protective pitot/static covers must be removed before the heater inspection so the technician can safely check and feel the probe for correct heating; leaving covers fitted would prevent proper inspection and risk heat damage under the cover, making this the incorrect procedure step."
+    },
+    {
+      "id": 32,
+      "question": "________ are caused by the fact that any changes in the static or dynamic pressure outside the aircraft require a finite amount of time to make their way down the tubing and affect the gauges.",
+      "options": [
+        "Blocked pitot tube error",
+        "Compressibility error",
+        "Lag errors"
+      ],
+      "correctIndex": 2,
+      "explanation": "Lag error is exactly this: the time delay for a pressure change outside the aircraft to travel through the pitot-static tubing and reach the instrument, causing the reading to momentarily lag behind the true value, especially during rapid altitude or speed changes."
+    },
+    {
+      "id": 34,
+      "question": "Which of the following lights are intended as 'attention-getters' to warn of the presence of an aircraft and identify its position?",
+      "options": [
+        "Navigation Lights",
+        "Anti-Collision Lights",
+        "Wing illumination lights"
+      ],
+      "correctIndex": 1,
+      "explanation": "Anti-collision lights (rotating beacons and strobes) are specifically designed to be highly conspicuous 'attention-getters' that draw the eye to the aircraft's presence, whereas navigation lights mainly indicate the aircraft's orientation and right-of-way status."
+    },
+    {
+      "id": 36,
+      "question": "Where is the switch which controls the window lights located?",
+      "options": [
+        "Aft attendant panel",
+        "Forward attendant panel",
+        "Overhead panel"
+      ],
+      "correctIndex": 2,
+      "explanation": "Window/reading and general cabin lighting controls are commonly grouped on the flight deck or cabin overhead panel, along with other lighting controls, for convenient centralized access."
+    },
+    {
+      "id": 37,
+      "question": "What is the purpose of the encoder in a servomotor?",
+      "options": [
+        "To measure speed",
+        "To measure error",
+        "To measure position"
+      ],
+      "correctIndex": 2,
+      "explanation": "An encoder provides position feedback in a servo system, reporting the actual angular or linear position of the shaft so the control loop can compare it against the commanded position."
+    },
+    {
+      "id": 38,
+      "question": "The lights in each cargo compartment are operated ________.",
+      "options": [
+        "Dependently",
+        "With one switch for all compartments",
+        "Independently"
+      ],
+      "correctIndex": 2,
+      "explanation": "Each cargo compartment typically has its own independent lighting control, so a compartment's lights can be switched on or off without affecting lighting in other cargo compartments."
+    },
+    {
+      "id": 39,
+      "question": "What should be the first step to remove the lamp subassembly in the wing/wingtip anti-collision lights, regarding safety?",
+      "options": [
+        "Remove the lamp subassembly",
+        "Disconnect the electrical connector",
+        "Open its circuit breaker and install a safety tag"
+      ],
+      "correctIndex": 2,
+      "explanation": "Standard lockout/tagout safety practice requires the circuit to be de-energized and tagged first — opening the breaker and installing a safety tag — before any further disassembly steps such as disconnecting the connector or removing the lamp."
+    },
+    {
+      "id": 40,
+      "question": "Which of the following system is controlled directly and only by an input signal, without the benefit of feedback?",
+      "options": [
+        "Closed loop system",
+        "Open loop system",
+        "Both loop systems"
+      ],
+      "correctIndex": 1,
+      "explanation": "An open loop system's output is determined solely by its input, with no feedback path to correct for errors, unlike a closed loop system which continuously compares output against a reference."
+    },
+    {
+      "id": 41,
+      "question": "What is the purpose of the tachogenerator in a servomotor?",
+      "options": [
+        "To convert position to voltage",
+        "To measure position",
+        "To measure speed"
+      ],
+      "correctIndex": 2,
+      "explanation": "A tachogenerator produces an output voltage proportional to the shaft's rotational speed, giving the servo loop a rate (speed) feedback signal used for damping and motor speed control."
+    },
+    {
+      "id": 42,
+      "question": "When the speed of a DC motor increases, its armature current:",
+      "options": [
+        "Remains constant",
+        "Increases",
+        "Decreases"
+      ],
+      "correctIndex": 2,
+      "explanation": "As motor speed rises, the back-EMF generated by the rotating armature also rises, reducing the net voltage available to drive current through the armature resistance, so the armature current decreases."
+    },
+    {
+      "id": 43,
+      "question": "What pressure representation does a manifold pressure gauge have?",
+      "options": [
+        "Absolute pressure",
+        "Gauge pressure",
+        "Atmospheric pressure"
+      ],
+      "correctIndex": 0,
+      "explanation": "Manifold pressure gauges read absolute pressure (referenced to a vacuum), which is essential for correctly setting engine power since it reflects the true pressure in the intake manifold regardless of local atmospheric pressure."
+    },
+    {
+      "id": 44,
+      "question": "Which one of the following pressure sensing elements is used to measure relatively higher pressure?",
+      "options": [
+        "Bourdon tube",
+        "Diaphragm",
+        "Capsule"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Bourdon tube's stiff, curved construction makes it suited to measuring relatively high pressures, whereas the more flexible diaphragm and capsule elements are chosen for lower-pressure, higher-sensitivity applications."
+    },
+    {
+      "id": 45,
+      "question": "What type of testing is used to test the short circuit condition of an armature winding of a DC generator?",
+      "options": [
+        "Growler test",
+        "Bar-to-bar test",
+        "Voltmeter test"
+      ],
+      "correctIndex": 0,
+      "explanation": "Growler test is used to detect a shorted coil in an armature winding."
+    },
+    {
+      "id": 46,
+      "question": "The most practical and convenient method of generator output voltage regulation is by controlling ________.",
+      "options": [
+        "The strength of the field current",
+        "The speed of the armature",
+        "The number of armature coils"
+      ],
+      "correctIndex": 0,
+      "explanation": "A voltage regulator adjusts the generator's field current to control output voltage, since this can be done electrically and continuously, unlike changing armature speed (fixed by the engine) or the number of coils (fixed by construction)."
+    },
+    {
+      "id": 47,
+      "question": "________ is a device that converts an electrical signal to radio waves or vice versa.",
+      "options": [
+        "Antenna",
+        "Electron gun",
+        "Microwave tube"
+      ],
+      "correctIndex": 0,
+      "explanation": "An antenna converts a guided electrical signal into radiated electromagnetic (radio) waves on transmit, and converts received radio waves back into an electrical signal on receive."
+    },
+    {
+      "id": 48,
+      "question": "Which frequency band is NOT used for satellite transmission?",
+      "options": [
+        "K-band",
+        "C-band",
+        "L-band"
+      ],
+      "correctIndex": 0,
+      "explanation": "Pure K-band suffers heavy atmospheric water vapor absorption, so it was split into Ku-band and Ka-band for practical use; K-band itself is not used for satellite transmission, unlike the widely used L-band and C-band."
+    },
+    {
+      "id": 49,
+      "question": "Which function of protocols finds the most efficient route between source and destination before sending the data?",
+      "options": [
+        "Data flow control",
+        "Data sequencing",
+        "Data routing"
+      ],
+      "correctIndex": 2,
+      "explanation": "Routing is the protocol function specifically responsible for determining the most efficient path for data to travel from source to destination across a network."
+    },
+    {
+      "id": 50,
+      "question": "The frequency range of the VOR is in the ________ range.",
+      "options": [
+        "Ultrahigh Frequency",
+        "Very High Frequency",
+        "High Frequency"
+      ],
+      "correctIndex": 1,
+      "explanation": "VOR operates between 108.00 and 117.95 MHz, which falls within the Very High Frequency (VHF) band."
+    },
+    {
+      "id": 51,
+      "question": "Which part of ATC is used to confirm the four-bit squawk code identification for ATC controllers?",
+      "options": [
+        "ATC transponder",
+        "ATC control panel",
+        "ATC display unit"
+      ],
+      "correctIndex": 2,
+      "explanation": "The ATC display unit is the component that actually transmits the aircraft's assigned squawk code in response to ground radar interrogations, allowing controllers to identify the aircraft."
+    },
+    {
+      "id": 52,
+      "question": "How is the ADF antenna connected to the receiver?",
+      "options": [
+        "Using a waveguide",
+        "Using coaxial cable",
+        "Using AWG 6 copper or aluminium cable"
+      ],
+      "correctIndex": 1,
+      "explanation": "The ADF loop and sense antennas are connected to the receiver using shielded coaxial cable, which carries the low-level RF signal with minimal loss and interference; waveguides are reserved for much higher microwave frequencies."
+    },
+    {
+      "id": 53,
+      "question": "The ________ layer lies between the Network layer and the Physical layer.",
+      "options": [
+        "Data link layer",
+        "Transport layer",
+        "Network layer"
+      ],
+      "correctIndex": 0,
+      "explanation": "In the OSI model, the layers from the bottom up are Physical (1), Data Link (2), Network (3), Transport (4); the Data Link layer sits directly between the Physical and Network layers."
+    },
+    {
+      "id": 54,
+      "question": "Under which function is uploading/downloading of data categorized?",
+      "options": [
+        "Maintenance support",
+        "Prognostic function",
+        "Diagnosis function"
+      ],
+      "correctIndex": 0,
+      "explanation": "Uploading and downloading of software, databases and recorded data is categorized as a maintenance support function, since it supports maintenance activity rather than performing prediction (prognostics) or fault diagnosis itself."
+    },
+    {
+      "id": 55,
+      "question": "In an EMC signal, the source delivers maximum power to the input of the transmission line when the transmission line's input impedance:",
+      "options": [
+        "Is equal to the source resistance",
+        "Is greater than the source resistance",
+        "Is smaller than the source resistance"
+      ],
+      "correctIndex": 0,
+      "explanation": "The maximum power transfer theorem states that maximum power is delivered to a load when the load's impedance is matched (equal) to the source's internal resistance/impedance."
+    },
+    {
+      "id": 56,
+      "question": "The value of the total opposition of the transmission media to the flow of electromagnetic field energy is called:",
+      "options": [
+        "Standing waves",
+        "Reflected waves",
+        "Characteristic impedance"
+      ],
+      "correctIndex": 2,
+      "explanation": "Characteristic impedance is the property of a transmission line that defines its total opposition to the propagating electromagnetic energy; a mismatch to this impedance is what produces reflected waves and standing waves on the line."
+    },
+    {
+      "id": 57,
+      "question": "Which standardized symbology is used to indicate intruders that have caused a Resolution Advisory (RA) to be issued?",
+      "options": [
+        "Red filled square",
+        "Amber or yellow filled circle",
+        "White filled diamond"
+      ],
+      "correctIndex": 0,
+      "explanation": "TCAS traffic symbology uses a solid red square for an RA-generating intruder, a solid amber/yellow circle for a Traffic Advisory (TA), and a white/cyan diamond for proximate or other traffic."
+    },
+    {
+      "id": 58,
+      "question": "Which of the following satellites is in synchronous orbit with the earth's rotational period?",
+      "options": [
+        "Low earth orbit (LEO)",
+        "Medium earth orbit (MEO)",
+        "Geostationary earth orbit satellite (GEO)"
+      ],
+      "correctIndex": 2,
+      "explanation": "A geostationary (GEO) satellite orbits at an altitude and speed that matches the earth's rotation, so it appears fixed over the same point on the equator, unlike LEO and MEO satellites which move relative to the ground."
+    },
+    {
+      "id": 59,
+      "question": "Which one of the following is a digital or veeder-counter type of display?",
+      "options": [
+        "One which data are presented pictorially",
+        "One which data are presented with numbers pointed by an indicator for presentation",
+        "One in which data are presented in the form of letters or numbers (alpha-numeric display)"
+      ],
+      "correctIndex": 2,
+      "explanation": "A digital/veeder-counter display presents its information directly as alpha-numeric characters, unlike a pictorial display or a pointer-and-scale display, where the data is represented graphically or by a moving indicator."
+    },
+    {
+      "id": 60,
+      "question": "A router operates in which layer of the OSI model?",
+      "options": [
+        "Data link layer",
+        "Network layer",
+        "Application layer"
+      ],
+      "correctIndex": 1,
+      "explanation": "Routers make forwarding decisions based on logical (IP) addressing, which is Network layer (Layer 3) information, distinguishing them from switches (Data Link layer) and application-level devices."
+    },
+    {
+      "id": 61,
+      "question": "Which of the following microphones works on the electro-magnetic principle?",
+      "options": [
+        "Electrostatic Microphone",
+        "Carbon Microphone",
+        "Dynamic Microphone"
+      ],
+      "correctIndex": 2,
+      "explanation": "A dynamic (moving-coil) microphone generates its output by electromagnetic induction, as sound waves move a coil attached to a diaphragm within a magnetic field — the same principle as a small generator."
+    },
+    {
+      "id": 62,
+      "question": "Which of the following aircraft data bus specifications is used on general aviation aircraft?",
+      "options": [
+        "ARINC 573",
+        "ASCB",
+        "ATM"
+      ],
+      "correctIndex": 1,
+      "explanation": "ASCB (Avionics Standard Communications Bus), used in Collins Pro Line-type systems, is a data bus specification commonly found in general aviation and business aircraft, whereas ARINC 573 is an older flight data recorder standard and ATM is a general networking technology, not specifically an aviation data bus."
+    },
+    {
+      "id": 63,
+      "question": "________ refers only to the direction in which the airplane is pointed.",
+      "options": [
+        "Bearing",
+        "Radial",
+        "Heading"
+      ],
+      "correctIndex": 2,
+      "explanation": "Heading is defined strictly as the direction the aircraft's nose is pointed, which can differ from its actual track over the ground due to wind drift — unlike bearing or radial, which describe direction relative to a station."
+    },
+    {
+      "id": 64,
+      "question": "What is the coefficient of expansion of brass when exposed to changes in temperature?",
+      "options": [
+        "Has a negligible coefficient of linear expansion",
+        "Has a higher linear expansion",
+        "Is not affected by temperature changes"
+      ],
+      "correctIndex": 1,
+      "explanation": "Brass has a comparatively high coefficient of linear expansion, which is exactly why it is paired with a low-expansion metal like Invar in a bimetallic strip, so the difference in expansion causes the strip to bend with temperature."
+    },
+    {
+      "id": 65,
+      "question": "Which one of the following director displays of a radio navigation system aids the pilot in maintaining the correct position of the aircraft during the approach to land on an airport runway?",
+      "options": [
+        "The instrument landing system",
+        "The gyro horizon",
+        "The magnetic compass"
+      ],
+      "correctIndex": 0,
+      "explanation": "The instrument landing system (ILS) is specifically designed to give lateral (localizer) and vertical (glide slope) guidance during the final approach to land, unlike the gyro horizon (attitude only) or the magnetic compass (heading only)."
+    },
+    {
+      "id": 70,
+      "question": "If a PN junction diode is forward biased, the resistance value is ________.",
+      "options": [
+        "Medium",
+        "Low",
+        "High"
+      ],
+      "correctIndex": 1,
+      "explanation": "Forward biasing narrows the depletion region and allows majority carriers to cross the junction freely, giving the diode a low resistance and allowing current to flow readily."
+    },
+    {
+      "id": 71,
+      "question": "Which of the following circuits can be used as a parallel-to-serial converter?",
+      "options": [
+        "Demultiplexer",
+        "Multiplexer",
+        "Decoder"
+      ],
+      "correctIndex": 1,
+      "explanation": "A multiplexer selects one of several parallel input lines at a time and routes it to a single output, which is exactly the function needed to convert parallel data into a serial data stream."
+    },
+    {
+      "id": 72,
+      "question": "Generally, voltage amplifiers are ________ signal amplifiers.",
+      "options": [
+        "Very large",
+        "Small",
+        "Large"
+      ],
+      "correctIndex": 1,
+      "explanation": "Voltage amplifiers are typically designed to amplify small input signals with high voltage gain and minimal distortion, as opposed to power amplifiers, which are built to handle large signal levels and deliver significant output power."
+    },
+    {
+      "id": 73,
+      "question": "To which addressing mode does the instruction MVI A, 05H belong?",
+      "options": [
+        "Immediate",
+        "Direct",
+        "Register"
+      ],
+      "correctIndex": 0,
+      "explanation": "MVI (Move Immediate) loads the literal data value (05H) directly into the register as part of the instruction itself, which is the definition of immediate addressing mode."
+    },
+    {
+      "id": 74,
+      "question": "Multi-vibrators can be used to produce which type of signals?",
+      "options": [
+        "Square wave",
+        "Sine wave",
+        "Triangular wave"
+      ],
+      "correctIndex": 0,
+      "explanation": "Astable, monostable and bistable multivibrators are all classically used to generate rectangular/square-wave pulse signals, switching sharply between two voltage levels."
+    },
+    {
+      "id": 76,
+      "question": "What does a logical AND gate output when both inputs are low?",
+      "options": [
+        "Undefined",
+        "High",
+        "Low"
+      ],
+      "correctIndex": 2,
+      "explanation": "An AND gate outputs high only when every input is high; with both inputs low (0 AND 0), the output is low."
+    },
+    {
+      "id": 77,
+      "question": "What is the READY pin of a microprocessor used for?",
+      "options": [
+        "To indicate that the microprocessor is ready to receive outputs",
+        "To indicate that the microprocessor is ready to receive inputs",
+        "To synchronize the microprocessor with an external device"
+      ],
+      "correctIndex": 2,
+      "explanation": "The READY input lets a slower external memory or I/O device tell the microprocessor to insert wait states, synchronizing the CPU's timing with devices that cannot keep up with its normal clock speed."
+    },
+    {
+      "id": 78,
+      "question": "A class ________ amplifier is biased slightly above the cutoff region and operates in the linear region for slightly more than 180° of the input cycle.",
+      "options": [
+        "Class C",
+        "Class B",
+        "Class AB"
+      ],
+      "correctIndex": 2,
+      "explanation": "Class AB biasing sits between Class B (exactly 180° conduction) and Class A (full 360° conduction), conducting for slightly more than 180° to reduce crossover distortion while still improving efficiency over Class A."
+    },
+    {
+      "id": 79,
+      "question": "A PN junction diode is reverse biased when:",
+      "options": [
+        "The anode and cathode are connected to +ve and −ve terminals respectively",
+        "The anode and cathode are connected to −ve and +ve terminals respectively",
+        "The anode and gate are connected to −ve and +ve terminals respectively"
+      ],
+      "correctIndex": 1,
+      "explanation": "Reverse bias occurs when the anode (P-side) is made negative and the cathode (N-side) positive relative to it, widening the depletion region and preventing current flow (aside from a small leakage current)."
+    },
+    {
+      "id": 81,
+      "question": "Schottky TTL design was used to:",
+      "options": [
+        "Delay the time of operation",
+        "Speed up the time of operation",
+        "Minimize power consumption"
+      ],
+      "correctIndex": 1,
+      "explanation": "Schottky TTL uses Schottky diodes to clamp the transistors and prevent them from fully saturating, which removes the storage-time delay of saturated switching and significantly speeds up the gate's switching time."
+    },
+    {
+      "id": 82,
+      "question": "The high-speed counter is a ________ type of counter.",
+      "options": [
+        "Decade counter",
+        "Asynchronous counter",
+        "Synchronous counter"
+      ],
+      "correctIndex": 2,
+      "explanation": "A synchronous counter clocks all its flip-flops simultaneously, avoiding the cumulative propagation delay seen in asynchronous (ripple) counters, which makes it capable of much higher counting speeds."
+    },
+    {
+      "id": 83,
+      "question": "A photo resistor is called a:",
+      "options": [
+        "Photo diode",
+        "Thermistor",
+        "Light dependent resistor"
+      ],
+      "correctIndex": 2,
+      "explanation": "A photoresistor's resistance changes according to the amount of light falling on it, which is exactly why it is commonly known as a Light Dependent Resistor (LDR)."
+    },
+    {
+      "id": 84,
+      "question": "The output of latches will remain in a set/reset state until ________.",
+      "options": [
+        "The trigger pulse is given to change the state",
+        "Any pulse is given to go into the previous state",
+        "They don't get any pulse anymore"
+      ],
+      "correctIndex": 0,
+      "explanation": "A latch holds its output state indefinitely — this is its defining memory property — and only changes when a new trigger input specifically commands it to switch to the other state."
+    },
+    {
+      "id": 85,
+      "question": "The bistable multivibrator:",
+      "options": [
+        "Is free running",
+        "Has one stable state",
+        "Has two stable states"
+      ],
+      "correctIndex": 2,
+      "explanation": "A bistable multivibrator (flip-flop) has, by definition, two stable output states and remains in whichever one it was last set to until a trigger input forces a change — unlike the free-running astable multivibrator."
+    },
+    {
+      "id": 86,
+      "question": "The instruction INR D informs the assembler to:",
+      "options": [
+        "Double the contents of D",
+        "Increment the contents of D",
+        "Decrement the contents of D"
+      ],
+      "correctIndex": 1,
+      "explanation": "INR is the 8085 mnemonic for 'increment register', so INR D adds 1 to the current contents of register D."
+    },
+    {
+      "id": 87,
+      "question": "When is the 8085's zero flag said to be set?",
+      "options": [
+        "D7 = 0",
+        "Accumulator = 0",
+        "D7 = 1"
+      ],
+      "correctIndex": 1,
+      "explanation": "The zero (Z) flag is set whenever the result of an arithmetic or logic operation, held in the accumulator, is exactly zero; D7 relates instead to the sign flag, which reflects the most significant bit of the result."
+    },
+    {
+      "id": 89,
+      "question": "________ is a 6-bit alphanumeric code marked as BA8421, where 64 characters can be coded.",
+      "options": [
+        "Extended BCD Interchange Code (EBCDIC)",
+        "BCD Interchange Code (BCDIC)",
+        "American Standard Code for Information Interchange (ASCII)"
+      ],
+      "correctIndex": 1,
+      "explanation": "BCDIC is a 6-bit code (its bit positions are commonly labeled B, A, 8, 4, 2, 1 — matching 'BA8421'), giving 2^6 = 64 possible characters, unlike the 8-bit EBCDIC or the (originally) 7-bit ASCII."
+    },
+    {
+      "id": 91,
+      "question": "What will happen if a frozen battery is subjected to a high charge rate?",
+      "options": [
+        "It will start to melt first & then charge",
+        "It may explode",
+        "The charger can't charge it"
+      ],
+      "correctIndex": 1,
+      "explanation": "Charging a frozen battery at a high rate can cause internal gas buildup and pressure faster than the frozen electrolyte can safely dissipate it, creating a real risk that the battery case may rupture or explode."
+    },
+    {
+      "id": 92,
+      "question": "The general type of inspection performed on a rechargeable aircraft battery is considered ________.",
+      "options": [
+        "Modifying to improve the operation of a battery",
+        "Preventative maintenance",
+        "Troubleshooting a battery to pinpoint a specific problem"
+      ],
+      "correctIndex": 1,
+      "explanation": "Routine, scheduled battery inspections are a preventative maintenance activity, intended to catch and correct developing issues (such as low electrolyte or sulfation) before they cause a failure, rather than diagnosing an already-reported fault."
+    },
+    {
+      "id": 93,
+      "question": "Where is the MCP located? (B-737NG)",
+      "options": [
+        "P7",
+        "P8",
+        "P5"
+      ],
+      "correctIndex": 0,
+      "explanation": "On the Boeing 737NG, the Mode Control Panel is mounted on the P7 glareshield panel, directly in front of and above the primary flight displays for easy access by both pilots."
+    },
+    {
+      "id": 95,
+      "question": "Which one is NOT among the four parts of an autopilot?",
+      "options": [
+        "FDAU",
+        "Computer",
+        "Sensors"
+      ],
+      "correctIndex": 0,
+      "explanation": "An autopilot's four basic parts are sensors, a computer, output devices (servos/actuators), and a command reference unit. The FDAU (Flight Data Acquisition Unit) instead belongs to the flight data recorder system, not the autopilot."
+    }
+  ]
+}
