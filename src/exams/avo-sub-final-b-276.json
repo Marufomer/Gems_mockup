@@ -1,0 +1,563 @@
+{
+  "id": "avo-sub-final-b-276",
+  "title": "AVO sub-final (B-276)",
+  "module": "school final",
+  "course": "avionics",
+  "category": "school_final",
+  "description": "Sub-final exam covering magnetism, batteries, EIS brightness, fire extinguishing, semiconductors/SCR, digital logic, op-amps, AC power efficiency and resonance, engine instruments, AC generation, galley/water systems, wiring, LCD displays, ACARS, ADF, FWS inhibition logic, HF comms, limiters, microphones, transmission lines, GPS antennas, autopilot synchronization, fiber optics, gyros, compass, pressurization, flight director, and motor theory.",
+  "durationMinutes": 150,
+  "totalQuestions": 50,
+  "color": "teal",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which one of the following is slightly repelled by a magnetic field?",
+      "options": [
+        "Diamagnetic material",
+        "Ferromagnetic material",
+        "Paramagnetic material"
+      ],
+      "correctIndex": 0,
+      "explanation": "A diamagnetic material develops a weak magnetization opposing an applied field, causing it to be slightly repelled, unlike ferromagnetic materials (strongly attracted) and paramagnetic materials (weakly attracted)."
+    },
+    {
+      "id": 2,
+      "question": "Which part of the cell is used to prevent internal shorting?",
+      "options": [
+        "Separators",
+        "Electrolyte",
+        "Terminal posts"
+      ],
+      "correctIndex": 0,
+      "explanation": "Separators are the porous insulating sheets placed between the positive and negative plates of a cell, keeping them physically apart to prevent them from touching and causing an internal short circuit, while still allowing ion flow through the electrolyte."
+    },
+    {
+      "id": 3,
+      "question": "What are the brightness control inputs for the display system?",
+      "options": [
+        "Bezel Light Sensor (BLS) and Remote Light Sensor (RLS)",
+        "Only the manual brightness knob",
+        "Only the cabin lighting bus voltage"
+      ],
+      "correctIndex": 0,
+      "explanation": "Display brightness is automatically adjusted using inputs from both the bezel-mounted light sensor (detecting light directly on the display) and remote light sensors (detecting overall ambient cockpit lighting), in addition to the manual brightness control."
+    },
+    {
+      "id": 4,
+      "question": "Which extinguishing method is used for a Class B fire?",
+      "options": [
+        "Smothering",
+        "Cooling with water",
+        "Starving the fire of solid fuel"
+      ],
+      "correctIndex": 0,
+      "explanation": "Class B fires involve flammable liquids, which are best extinguished by smothering (cutting off the oxygen supply) using an agent such as foam or CO2, since water would spread the burning liquid rather than putting it out."
+    },
+    {
+      "id": 5,
+      "question": "In an SCR operating in the forward-blocking (off) state, what happens?",
+      "options": [
+        "Leakage current flows from anode to cathode",
+        "Full load current flows from cathode to anode",
+        "The gate current alone carries all the load current"
+      ],
+      "correctIndex": 0,
+      "explanation": "In forward blocking, the SCR is forward biased but not yet triggered, so only a small leakage current flows from anode to cathode; the SCR does not conduct fully until a gate pulse triggers it into the forward-conduction state."
+    },
+    {
+      "id": 6,
+      "question": "An amplifier draws 1 mA at a 10 mV input and produces 1 mA at a 1 V output. What is its voltage gain?",
+      "options": [
+        "100",
+        "10",
+        "1"
+      ],
+      "correctIndex": 0,
+      "explanation": "Voltage gain = output voltage / input voltage = 1 V / 10 mV = 1000 mV / 10 mV = 100."
+    },
+    {
+      "id": 7,
+      "question": "What are the terminals of a UJT (unijunction transistor)?",
+      "options": [
+        "Emitter, Base 1, Base 2",
+        "Emitter, Collector, Base",
+        "Anode, Cathode, Gate"
+      ],
+      "correctIndex": 0,
+      "explanation": "A UJT is a three-terminal device with a single emitter and two base connections (Base 1 and Base 2) on either end of the same bar of semiconductor material."
+    },
+    {
+      "id": 8,
+      "question": "What is the octal equivalent of the hexadecimal number 2C?",
+      "options": [
+        "54",
+        "44",
+        "64"
+      ],
+      "correctIndex": 0,
+      "explanation": "Hex 2C = decimal 44 (2×16 + 12). Converting 44 to octal: 44 = 5×8 + 4, giving octal 54."
+    },
+    {
+      "id": 9,
+      "question": "What is the memory capacity represented by 32 address bits?",
+      "options": [
+        "2^32",
+        "32^2",
+        "2×32"
+      ],
+      "correctIndex": 0,
+      "explanation": "An n-bit address bus can address 2^n unique memory locations, so 32 address bits give a memory capacity of 2^32 locations."
+    },
+    {
+      "id": 10,
+      "question": "An op-amp with a capacitor at its input, used for pulse signal generation, is a(n):",
+      "options": [
+        "Differentiator amplifier",
+        "Integrator amplifier",
+        "Summing amplifier"
+      ],
+      "correctIndex": 0,
+      "explanation": "A differentiator circuit places the capacitor in series with the input, producing an output proportional to the rate of change of the input signal, which is useful for generating sharp pulses from a changing input waveform."
+    },
+    {
+      "id": 11,
+      "question": "What is the function of an encoder?",
+      "options": [
+        "To convert the input to a binary code",
+        "To convert a binary code back to the original input",
+        "To amplify the input signal"
+      ],
+      "correctIndex": 0,
+      "explanation": "An encoder is a digital circuit that converts an active input line (such as one of several switch inputs) into a corresponding binary output code, the opposite function of a decoder."
+    },
+    {
+      "id": 12,
+      "question": "Which one of the following is NOT a reason why power efficiency is less than 100%?",
+      "options": [
+        "Power in and power out are equal",
+        "Heat losses in the conductors and components",
+        "Friction and mechanical losses"
+      ],
+      "correctIndex": 0,
+      "explanation": "If power in and power out were actually equal, the system would be 100% efficient with no losses at all — so this statement describes the absence of inefficiency, not a cause of it, making it the one option that is NOT a reason for efficiency being below 100%."
+    },
+    {
+      "id": 13,
+      "question": "In a circuit that consumes the least power for a given voltage and current, the phase angle between voltage and current differs by:",
+      "options": [
+        "0°",
+        "90°",
+        "60°"
+      ],
+      "correctIndex": 1,
+      "explanation": "Real power is given by P = VI·cos(θ); when the phase angle θ is 90°, cos(90°) = 0, so the circuit consumes essentially no real power despite carrying voltage and current — the condition of a purely reactive load."
+    },
+    {
+      "id": 14,
+      "question": "What is the role of the instruction decoder?",
+      "options": [
+        "Identifying and decoding instructions",
+        "Storing the results of instructions",
+        "Fetching instructions from memory"
+      ],
+      "correctIndex": 0,
+      "explanation": "The instruction decoder interprets the fetched instruction's opcode, identifying what operation it represents and decoding it into the control signals needed to execute that instruction."
+    },
+    {
+      "id": 15,
+      "question": "Which of the following is an example of a sequential circuit?",
+      "options": [
+        "Flip-flop",
+        "AND gate",
+        "OR gate"
+      ],
+      "correctIndex": 0,
+      "explanation": "A flip-flop is a sequential circuit because its output depends not only on its current inputs but also on its previous stored state, unlike simple combinational gates such as AND or OR, whose output depends only on the current inputs."
+    },
+    {
+      "id": 16,
+      "question": "In a parallel resonant circuit, resonance magnifies the:",
+      "options": [
+        "Voltage",
+        "Resistance",
+        "Frequency"
+      ],
+      "correctIndex": 0,
+      "explanation": "At resonance, the parallel LC combination presents a very high impedance to the source, and this high impedance causes a magnified voltage to develop across the parallel combination for a given source current."
+    },
+    {
+      "id": 17,
+      "question": "For one complete cycle of an alternating current, the average value is:",
+      "options": [
+        "Zero",
+        "Equal to the peak value",
+        "Equal to the RMS value"
+      ],
+      "correctIndex": 0,
+      "explanation": "Over one full sine wave cycle, the positive and negative half-cycles are symmetrical and exactly cancel out, so the mathematical average value over a complete cycle is zero."
+    },
+    {
+      "id": 18,
+      "question": "For 6 cascaded flip-flops, what is the maximum number of states available?",
+      "options": [
+        "64 (2^6)",
+        "36 (6^2)",
+        "12 (6×2)"
+      ],
+      "correctIndex": 0,
+      "explanation": "Each flip-flop can store one bit (2 states), so n cascaded flip-flops can represent 2^n states; with 6 flip-flops, that gives 2^6 = 64 possible states."
+    },
+    {
+      "id": 19,
+      "question": "The water level sensor works on which principle?",
+      "options": [
+        "Copper mesh capacitance",
+        "Float-driven resistance",
+        "Bourdon tube pressure"
+      ],
+      "correctIndex": 0,
+      "explanation": "The copper mesh water level sensor works on the capacitance principle: the capacitance between the mesh and the surrounding water changes as the water level rises or falls, giving a signal proportional to the water quantity."
+    },
+    {
+      "id": 20,
+      "question": "What type of fuel flow sensor is used for a reciprocating engine?",
+      "options": [
+        "Vane-type",
+        "Mass flow (Coriolis) type",
+        "Turbine-type"
+      ],
+      "correctIndex": 0,
+      "explanation": "Reciprocating engines commonly use a vane-type fuel flow meter, where fuel flow deflects a spring-loaded vane against a calibrated scale; turbine and mass-flow transmitters are instead associated with turbine engines."
+    },
+    {
+      "id": 21,
+      "question": "Regarding engine oil pressure indication: (i) which sensing element measures it, and (ii) why is it critical to the pilot?",
+      "options": [
+        "It is measured by a Bourdon tube, and is one of the most important indications for the pilot since it reflects the engine's lubrication and health",
+        "It is measured by a thermocouple, and is only a secondary indication of engine performance",
+        "It is measured by a capacitance probe, and is not normally monitored in flight"
+      ],
+      "correctIndex": 0,
+      "explanation": "Oil pressure is sensed using a Bourdon tube (suited to the moderate pressures involved), and it is one of the most critical indications for the pilot, since a loss of oil pressure signals imminent lubrication failure and possible engine damage or seizure."
+    },
+    {
+      "id": 22,
+      "question": "Conduction in a material is based on:",
+      "options": [
+        "The number of free electrons",
+        "The number of protons in the nucleus",
+        "The physical size of the material"
+      ],
+      "correctIndex": 0,
+      "explanation": "A material's ability to conduct electricity depends on how many free (loosely bound) electrons it has available to move and carry charge; conductors have many free electrons, while insulators have very few."
+    },
+    {
+      "id": 23,
+      "question": "What is the relationship between the capacitance of a parallel-plate capacitor and its plate area?",
+      "options": [
+        "Directly related",
+        "Inversely related",
+        "No relationship"
+      ],
+      "correctIndex": 0,
+      "explanation": "Capacitance of a parallel-plate capacitor is given by C = εA/d, so capacitance increases directly with plate area."
+    },
+    {
+      "id": 24,
+      "question": "Which unit controls the switching between generator and motor operation?",
+      "options": [
+        "Generator Control Unit (GCU)",
+        "Bus Power Control Unit (BPCU)",
+        "Flight Control Computer (FCC)"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Generator Control Unit (GCU) monitors and controls the generator's operation, including switching functions such as when a starter-generator transitions between motoring (starting) and generating modes."
+    },
+    {
+      "id": 25,
+      "question": "If an alternator fails to build up voltage, what should be checked?",
+      "options": [
+        "Test the voltmeter on another (known-good) alternator",
+        "Immediately replace the generator control unit",
+        "Increase the engine speed further"
+      ],
+      "correctIndex": 0,
+      "explanation": "Before condemning the alternator itself, the voltmeter should be tested on another known-good alternator to rule out a faulty indicating instrument as the actual cause of the apparent no-voltage-build-up condition."
+    },
+    {
+      "id": 26,
+      "question": "If all generators fail, essential services are supplied by the:",
+      "options": [
+        "Emergency static inverter",
+        "Ground power unit",
+        "APU generator only"
+      ],
+      "correctIndex": 0,
+      "explanation": "With all engine generators lost, the battery powers an emergency static inverter to keep essential AC loads running, since it has no moving parts and can be relied on to start instantly from battery power alone."
+    },
+    {
+      "id": 27,
+      "question": "What is the maximum power rating of the B737's electrical system?",
+      "options": [
+        "90 kVA",
+        "60 kVA",
+        "120 kVA"
+      ],
+      "correctIndex": 0,
+      "explanation": "The B737's engine-driven generators are typically rated at 90 kVA each, providing the aircraft's main AC electrical power."
+    },
+    {
+      "id": 28,
+      "question": "What locks the brew cup and coffee pot in the galley coffee maker?",
+      "options": [
+        "A lever handle",
+        "A magnetic latch",
+        "A spring-loaded pin"
+      ],
+      "correctIndex": 0,
+      "explanation": "The galley coffee maker uses a lever handle to lock the brew cup and coffee pot securely in place during the brewing cycle, preventing them from being dislodged during turbulence."
+    },
+    {
+      "id": 29,
+      "question": "The boost pumps in fuel tanks 1 and 2 are positioned as the:",
+      "options": [
+        "Forward and aft pumps",
+        "Left and right pumps",
+        "Upper and lower pumps"
+      ],
+      "correctIndex": 0,
+      "explanation": "Each main tank is normally fitted with a forward and an aft boost pump, giving two independent pump locations within the same tank for redundancy and even fuel draw."
+    },
+    {
+      "id": 30,
+      "question": "Which of the following wire sizes is the largest?",
+      "options": [
+        "0000 AWG",
+        "24 AWG",
+        "40 AWG"
+      ],
+      "correctIndex": 0,
+      "explanation": "In the American Wire Gauge (AWG) system, gauge numbers decrease as wire size increases, so 0000 AWG (4/0) represents one of the largest standard wire sizes, well above the smaller-gauge (higher-numbered) wires."
+    },
+    {
+      "id": 31,
+      "question": "Which of the following wires is joined at the terminal to identify a particular circuit connection?",
+      "options": [
+        "The striped wire",
+        "The solid-color wire",
+        "The unmarked wire"
+      ],
+      "correctIndex": 0,
+      "explanation": "A striped wire (a solid base color with a contrasting stripe) is used to distinguish a specific circuit or connection at the terminal from an otherwise identical solid-color wire, aiding correct identification during termination."
+    },
+    {
+      "id": 32,
+      "question": "In a positive-image LCD display, if voltage is applied to a segment it becomes ___, and if voltage is removed it becomes ___.",
+      "options": [
+        "Opaque, Transparent",
+        "Transparent, Opaque",
+        "Opaque, Opaque"
+      ],
+      "correctIndex": 0,
+      "explanation": "In a positive-image LCD, applying voltage to a segment rotates its liquid crystal molecules so the segment becomes opaque (visible against the background), while removing voltage lets it return to its transparent (invisible) state."
+    },
+    {
+      "id": 33,
+      "question": "What is the frequency range of ACARS?",
+      "options": [
+        "118 MHz to 137.5 MHz",
+        "108 MHz to 117.95 MHz",
+        "225 MHz to 400 MHz"
+      ],
+      "correctIndex": 0,
+      "explanation": "ACARS operates within the aircraft VHF communication band, roughly 118 MHz to the upper end of the civil VHF comm range near 137.5 MHz, with the common ACARS channel at 131.550 MHz falling within this range."
+    },
+    {
+      "id": 34,
+      "question": "If the pilot only wants inputs from the sense aerial (antenna) on the ADF, which mode is selected?",
+      "options": [
+        "ANT",
+        "ADF",
+        "LOOP"
+      ],
+      "correctIndex": 0,
+      "explanation": "Selecting ANT uses only the sense antenna, giving a strong, undirectional audio signal ideal for tuning and identifying the station, but with no bearing information — unlike the ADF position, which combines both loop and sense antennas for automatic bearing display."
+    },
+    {
+      "id": 35,
+      "question": "What is the purpose of inhibition logic in a flight warning system (FWS)?",
+      "options": [
+        "To prevent unnecessary alerts during any phase of flight where they would not be appropriate",
+        "To permanently disable all warnings on the ground",
+        "To increase the volume of all aural warnings"
+      ],
+      "correctIndex": 0,
+      "explanation": "Inhibition logic suppresses certain warnings during specific flight phases (such as take-off or landing) where they would be a distraction rather than useful, preventing unnecessary or nuisance alerts without disabling genuinely critical warnings."
+    },
+    {
+      "id": 36,
+      "question": "Which system is used for long-distance, air-to-ground communication?",
+      "options": [
+        "HF",
+        "VHF",
+        "UHF"
+      ],
+      "correctIndex": 0,
+      "explanation": "HF radio's ability to refract off the ionosphere gives it a much longer range than VHF or UHF, making it the standard choice for long-distance, over-water or remote-area air-to-ground communication."
+    },
+    {
+      "id": 37,
+      "question": "A limiter is used to:",
+      "options": [
+        "Remove amplitude variation",
+        "Increase the signal's frequency",
+        "Convert AC to DC"
+      ],
+      "correctIndex": 0,
+      "explanation": "A limiter clips a signal at a fixed level, removing unwanted amplitude variations (such as noise-induced amplitude modulation) while preserving the frequency/phase information, which is especially useful ahead of an FM demodulator."
+    },
+    {
+      "id": 38,
+      "question": "Which type of microphone operates by varying capacitance?",
+      "options": [
+        "Electrostatic (condenser) microphone",
+        "Carbon microphone",
+        "Dynamic microphone"
+      ],
+      "correctIndex": 0,
+      "explanation": "An electrostatic (condenser) microphone forms a capacitor between a thin diaphragm and a fixed backplate; sound waves vary the spacing between them, changing the capacitance and producing the audio signal."
+    },
+    {
+      "id": 39,
+      "question": "What is used to send energy from one location to another?",
+      "options": [
+        "Transmission line",
+        "Antenna only",
+        "Amplifier only"
+      ],
+      "correctIndex": 0,
+      "explanation": "A transmission line (such as coaxial cable or waveguide) guides electromagnetic energy from a transmitter to an antenna, or from an antenna to a receiver, carrying the signal between two locations with minimal loss."
+    },
+    {
+      "id": 40,
+      "question": "Where are GPS antennas typically located on the aircraft?",
+      "options": [
+        "On top of the fuselage",
+        "On the belly of the fuselage",
+        "At the wing tips"
+      ],
+      "correctIndex": 0,
+      "explanation": "GPS antennas are mounted on top of the fuselage to give them a clear, unobstructed view of the sky above, which is necessary to receive signals from the overhead GPS satellite constellation."
+    },
+    {
+      "id": 41,
+      "question": "What is the purpose of autopilot synchronization?",
+      "options": [
+        "To avoid a jerky movement when the autopilot is engaged",
+        "To increase the autopilot's maximum bank angle",
+        "To synchronize the FDR with the CVR"
+      ],
+      "correctIndex": 0,
+      "explanation": "By keeping the computer's reference continuously matched to the aircraft's existing attitude before engagement, the command at the moment of engagement is essentially zero, preventing a sudden, jerky control input or transient."
+    },
+    {
+      "id": 42,
+      "question": "Which of the following has the highest bandwidth?",
+      "options": [
+        "Fiber optic cable",
+        "Twisted wire cable",
+        "Coaxial cable"
+      ],
+      "correctIndex": 0,
+      "explanation": "Fiber optic cable, using light rather than electrical signals, offers vastly higher bandwidth than twisted wire or coaxial cable, along with immunity to electromagnetic interference."
+    },
+    {
+      "id": 43,
+      "question": "Which gyro type is the most effective/efficient?",
+      "options": [
+        "Laser gyro",
+        "Mechanical gyro",
+        "Electromechanical gyro"
+      ],
+      "correctIndex": 0,
+      "explanation": "The laser (ring laser) gyro has no spinning mass or mechanical bearings to wear out, giving it higher reliability, accuracy, and lower maintenance compared with mechanical or electromechanical gyros."
+    },
+    {
+      "id": 44,
+      "question": "What does the lubber line indicate on the compass card?",
+      "options": [
+        "The aircraft's current heading",
+        "The selected course",
+        "The wind correction angle"
+      ],
+      "correctIndex": 0,
+      "explanation": "The lubber line is a fixed reference mark against which the rotating compass card is read; whatever heading value aligns with the lubber line is the aircraft's current heading."
+    },
+    {
+      "id": 45,
+      "question": "Which of the following is true?",
+      "options": [
+        "In a pressurized aircraft, there is a difference between cabin pressure and outside pressure",
+        "In a pressurized aircraft, cabin pressure and outside pressure are always equal",
+        "Pressurization has no effect on cabin altitude"
+      ],
+      "correctIndex": 0,
+      "explanation": "The whole purpose of pressurization is to maintain a cabin pressure higher than the outside ambient pressure at altitude, so a pressure difference between the cabin and the outside air is a defining feature of a pressurized aircraft in flight."
+    },
+    {
+      "id": 46,
+      "question": "Setting a heading 10° more than the actual heading will move the command bars to deviate to:",
+      "options": [
+        "Right",
+        "Left",
+        "Center"
+      ],
+      "correctIndex": 0,
+      "explanation": "The heading error synchro commands a turn toward the selected heading; since it is 10° greater than the current heading, the shorter turn is to the right, so the command bars deflect right."
+    },
+    {
+      "id": 47,
+      "question": "Which of the following is NOT normally found on an AC motor's nameplate rating?",
+      "options": [
+        "Torque",
+        "Voltage",
+        "Frequency"
+      ],
+      "correctIndex": 0,
+      "explanation": "An AC motor's nameplate typically lists voltage, current, power, frequency, and speed, but torque is not usually a standard nameplate rating, since it can be derived from the rated power and speed rather than being listed directly."
+    },
+    {
+      "id": 48,
+      "question": "Which of the following is true about a synchronous motor?",
+      "options": [
+        "It uses both AC and DC",
+        "It uses AC only, for both stator and rotor",
+        "It uses DC only, for both stator and rotor"
+      ],
+      "correctIndex": 0,
+      "explanation": "A synchronous motor's stator is fed with AC to create the rotating magnetic field, while its rotor winding is fed with DC to create a fixed magnetic field that locks in step with the rotating stator field — so it uses both AC and DC."
+    },
+    {
+      "id": 49,
+      "question": "What is the working principle of a DC motor?",
+      "options": [
+        "Attraction and repulsion between magnetic fields",
+        "Electromagnetic induction of a rotor current",
+        "Mutual inductance between two windings"
+      ],
+      "correctIndex": 0,
+      "explanation": "A DC motor turns because the magnetic field produced by the armature current interacts with the fixed field winding's magnetic field through attraction and repulsion, producing the torque that rotates the armature."
+    },
+    {
+      "id": 50,
+      "question": "Regarding engine oil pressure, what is the most important indication it provides to the pilot?",
+      "options": [
+        "It confirms the engine is being properly lubricated, and a loss of pressure warns of imminent engine damage",
+        "It confirms the exact remaining fuel quantity",
+        "It confirms the cabin is properly pressurized"
+      ],
+      "correctIndex": 0,
+      "explanation": "As covered earlier, oil pressure indication is critical because it confirms the engine's lubrication system is functioning; a drop in oil pressure is one of the most urgent indications a pilot can receive, since continued operation risks rapid engine damage or seizure."
+    }
+  ]
+}
