@@ -1,0 +1,563 @@
+{
+  "id": "avo-sub-final-b-un-1",
+  "title": "AVO sub-final (B-UN-1)",
+  "module": "school final",
+  "course": "avionics",
+  "category": "school_final",
+  "description": "Sub-final exam covering pressure instruments, fire protection, synchros, EMI, fiber optics/data comm, communication systems, radio navigation, GPWS, magnetism, pitot-static, flight director, compass/IRS, gyros, AC circuits, DC/AC machines, digital electronics, computers, software management, AFCS servos, displays, and batteries.",
+  "durationMinutes": 150,
+  "totalQuestions": 50,
+  "color": "rose",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which type of sensor is most suited for differential pressure measurement?",
+      "options": [
+        "Bourdon tube",
+        "Bellows",
+        "Diaphragms"
+      ],
+      "correctIndex": 1,
+      "explanation": "Bellows have a large effective area and long stroke, and two of them can be opposed so that the resulting movement is proportional to the difference between the two applied pressures, making them well suited to differential pressure measurement."
+    },
+    {
+      "id": 2,
+      "question": "The pressure sensor for the hydraulic pressure indication system is the:",
+      "options": [
+        "Diaphragm",
+        "Capsule",
+        "Bourdon tube"
+      ],
+      "correctIndex": 2,
+      "explanation": "Hydraulic system pressures are relatively high, so the stiff, curved Bourdon tube — suited to higher pressure ranges — is used for hydraulic pressure indication, rather than the more flexible diaphragm or capsule elements used at lower pressures."
+    },
+    {
+      "id": 3,
+      "question": "Where is the location of the carbon monoxide detector in the aircraft?",
+      "options": [
+        "Surface combustion heater compartment",
+        "Cockpit and/or cabin",
+        "Engine and/or nacelle"
+      ],
+      "correctIndex": 1,
+      "explanation": "Carbon monoxide detectors are placed in the cockpit and/or cabin, since CO is a colorless, odorless gas that is dangerous specifically to occupants breathing the cabin air, unlike fire/overheat detectors, which are placed in the heater, engine or nacelle areas themselves."
+    },
+    {
+      "id": 4,
+      "question": "How does the stator of a TX (transmitter) of a synchro receive its voltage?",
+      "options": [
+        "By a physical connection with the rotor",
+        "By a magnetic coupling with another stator",
+        "By a magnetic coupling with the rotor"
+      ],
+      "correctIndex": 2,
+      "explanation": "The synchro's rotor is excited with an AC reference voltage, and this induces corresponding voltages in the three stator windings purely through magnetic (transformer) coupling — there is no physical/electrical connection between rotor and stator."
+    },
+    {
+      "id": 5,
+      "question": "The effects of EMI can be reduced by:",
+      "options": [
+        "Increasing the susceptibility of the receptor",
+        "Increasing emissions",
+        "Suppressing emissions at the source"
+      ],
+      "correctIndex": 2,
+      "explanation": "The most effective way to reduce electromagnetic interference is to suppress the unwanted emissions at their source (through filtering, shielding, or grounding), rather than trying to make the victim equipment tolerate more interference."
+    },
+    {
+      "id": 6,
+      "question": "Which transmission line has an inner copper conductor and an outer conductor separated by an insulator?",
+      "options": [
+        "Coaxial cable",
+        "Twisted-wire cable",
+        "Fiber optic cable"
+      ],
+      "correctIndex": 0,
+      "explanation": "Coaxial cable's construction is exactly this: a single inner copper conductor surrounded by a dielectric insulator, which is in turn surrounded by an outer conductive shield, giving it low loss and good shielding for RF signals."
+    },
+    {
+      "id": 7,
+      "question": "Which one of the following is a transducer that converts sound waves (acoustic) into electrical signals?",
+      "options": [
+        "Amplifier",
+        "Microphone",
+        "Speaker"
+      ],
+      "correctIndex": 1,
+      "explanation": "A microphone converts acoustic sound waves into a corresponding electrical signal, the opposite conversion performed by a speaker, which turns an electrical signal back into sound."
+    },
+    {
+      "id": 8,
+      "question": "An antenna source that radiates energy uniformly in all directions is called:",
+      "options": [
+        "Point source",
+        "Anisotropic source",
+        "Isotropic source"
+      ],
+      "correctIndex": 2,
+      "explanation": "An isotropic source is a theoretical antenna that radiates equal power uniformly in every direction, forming a perfect sphere of radiation, and is used as the reference standard for antenna gain calculations."
+    },
+    {
+      "id": 9,
+      "question": "___ serves to indicate the airspeed range over which the aircraft landing flaps may be extended in the take-off, approach and landing configurations of the aircraft.",
+      "options": [
+        "Red radial line",
+        "Yellow arc",
+        "White arc"
+      ],
+      "correctIndex": 2,
+      "explanation": "The white arc on the airspeed indicator marks the flap operating range, from the stall speed in the landing configuration up to the maximum flap-extended speed (VFE)."
+    },
+    {
+      "id": 10,
+      "question": "The operating frequency of the VOR system is in the ___ range.",
+      "options": [
+        "108-117.95 MHz",
+        "2.2 to 2.4 GHz",
+        "90 KHz to 1,800 KHz"
+      ],
+      "correctIndex": 0,
+      "explanation": "VOR operates in the VHF band between 108.00 and 117.95 MHz, sharing the lower portion of that range with the ILS localizer."
+    },
+    {
+      "id": 11,
+      "question": "Which type of fiber optic cable is most widely used for long distance communication links?",
+      "options": [
+        "Multimode step index",
+        "Multimode graded index",
+        "Single-mode step index"
+      ],
+      "correctIndex": 2,
+      "explanation": "Single-mode step index fiber carries only a single light path with minimal modal dispersion, giving it the lowest signal loss and highest bandwidth over long distances, making it the preferred choice for long-haul communication links."
+    },
+    {
+      "id": 12,
+      "question": "An automatically activated ELT, which is permanently attached to an aircraft, is called a(n):",
+      "options": [
+        "Survival ELT (ELT(S))",
+        "Automatic deployable ELT (ELT(AD))",
+        "Automatic fixed ELT (ELT(AF))"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Automatic Fixed ELT (ELT(AF)) is permanently mounted in the aircraft and activates automatically on impact, unlike the deployable type, which ejects from the aircraft, or the survival type, which is manually carried and activated by survivors."
+    },
+    {
+      "id": 13,
+      "question": "Determining the relative bearing of a selected ground station with respect to the aircraft center line is the purpose of:",
+      "options": [
+        "DME",
+        "ADF systems",
+        "VOR systems"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Automatic Direction Finder (ADF) determines the relative bearing to a tuned NDB ground station with respect to the aircraft's nose (centerline), driving the ADF needle to point toward the station."
+    },
+    {
+      "id": 14,
+      "question": "The Ground Proximity Warning System (GPWS) works ___ feet above ground level.",
+      "options": [
+        "At 10,000 ft",
+        "Below 2,500 ft",
+        "Above 5,000 ft"
+      ],
+      "correctIndex": 1,
+      "explanation": "GPWS monitoring is active below approximately 2,500 feet above ground level, the altitude band where terrain closure and unsafe approach-to-terrain situations become a genuine hazard requiring warning."
+    },
+    {
+      "id": 15,
+      "question": "Which one is NOT among the uses of static dischargers?",
+      "options": [
+        "It radiates radio frequencies that interfere with radio and navigation equipment",
+        "Ensure a good quality of radio transmission",
+        "Avoid static electricity discharging noise"
+      ],
+      "correctIndex": 0,
+      "explanation": "Static dischargers are fitted specifically to bleed off static charge quietly at the wick tips, preventing it from discharging noisily elsewhere on the airframe and interfering with radios; they are not intended to (and should not) radiate RF energy that would itself cause interference."
+    },
+    {
+      "id": 16,
+      "question": "Like poles:",
+      "options": [
+        "Repel each other",
+        "Attract each other",
+        "Have no effect on each other"
+      ],
+      "correctIndex": 0,
+      "explanation": "Two magnetic poles of the same polarity (north-north or south-south) repel each other, while unlike poles (north-south) attract, following the basic law of magnetism."
+    },
+    {
+      "id": 17,
+      "question": "___ are caused by the fact that any changes in the static or dynamic pressure outside the aircraft require a finite amount of time to make their way down the tubing and affect the gauges.",
+      "options": [
+        "Blocked pitot tube error",
+        "Compressibility error",
+        "Lag errors"
+      ],
+      "correctIndex": 2,
+      "explanation": "Lag error is exactly this: the time delay for a pressure change outside the aircraft to travel through the pitot-static tubing and reach the instrument, causing the reading to momentarily lag behind the true value."
+    },
+    {
+      "id": 18,
+      "question": "Which of the following is correct about the central air data computer (CADC)?",
+      "options": [
+        "Maximizes the 'plumbing' arrangement of pitot-static systems",
+        "Minimizes the 'plumbing' arrangement of pitot-static systems",
+        "Maximizes the weight of pitot-static systems"
+      ],
+      "correctIndex": 1,
+      "explanation": "By computing airspeed, altitude and vertical speed centrally and distributing the results electrically, the CADC greatly reduces the amount of pneumatic tubing that would otherwise be needed to feed multiple individual instruments."
+    },
+    {
+      "id": 19,
+      "question": "When the heading cursor is put 10 degrees more than the aircraft's heading, the command bars turn to ___.",
+      "options": [
+        "Center",
+        "Right",
+        "Left"
+      ],
+      "correctIndex": 1,
+      "explanation": "Since the selected heading is to the right of the current heading, the aircraft must turn right to reach it, so the heading error signal deflects the command bars to the right to command that turn."
+    },
+    {
+      "id": 20,
+      "question": "The directional gyro employs:",
+      "options": [
+        "Vertical-axis and horizontal-axis gyroscope",
+        "Vertical-axis gyroscope",
+        "Horizontal-axis gyroscope"
+      ],
+      "correctIndex": 2,
+      "explanation": "The directional gyro uses a gyro with its spin axis mounted horizontally, giving it rigidity about that horizontal axis so it can sense rotation (heading changes) about the vertical axis, distinguishing it from the vertical gyro used for attitude sensing."
+    },
+    {
+      "id": 21,
+      "question": "Which of the following instruments is controlled by a gyroscope?",
+      "options": [
+        "Altimeter",
+        "Attitude indicator",
+        "Airspeed indicator"
+      ],
+      "correctIndex": 1,
+      "explanation": "The attitude indicator (artificial horizon) relies on a gyro to provide the stable pitch and roll reference, unlike the altimeter and airspeed indicator, which are pressure-based instruments."
+    },
+    {
+      "id": 22,
+      "question": "In any AC circuit:",
+      "options": [
+        "Reactive power is more than apparent power",
+        "Actual power is more than reactive power",
+        "Apparent power is always more than actual power"
+      ],
+      "correctIndex": 2,
+      "explanation": "Apparent power (S = V×I) is the vector combination of real (true) power and reactive power, so it is always equal to or greater than the true power alone; only in a purely resistive circuit (power factor = 1) do they become equal."
+    },
+    {
+      "id": 23,
+      "question": "The total current in an RL circuit always:",
+      "options": [
+        "Lags the source voltage",
+        "Stays in phase with the source voltage",
+        "Leads the source voltage"
+      ],
+      "correctIndex": 0,
+      "explanation": "In an inductive (RL) circuit, the inductor opposes changes in current, causing the current to lag behind the applied voltage by some phase angle between 0° and 90°, depending on the relative size of R and XL."
+    },
+    {
+      "id": 24,
+      "question": "Which of the following is an electrical-type temperature measuring device?",
+      "options": [
+        "Wheatstone bridge",
+        "Bimetallic thermometer",
+        "Bourdon tube"
+      ],
+      "correctIndex": 0,
+      "explanation": "A Wheatstone bridge circuit is used with a resistance temperature sensor to electrically measure temperature by detecting the change in resistance, unlike the bimetallic thermometer and Bourdon tube, which are purely mechanical sensing elements."
+    },
+    {
+      "id": 25,
+      "question": "The water level sensor is a copper mesh ___ type sensor that is part of the water system.",
+      "options": [
+        "Inductance",
+        "Capacitance",
+        "Resistance"
+      ],
+      "correctIndex": 1,
+      "explanation": "The copper mesh water level sensor works on the capacitance principle: the capacitance between the mesh and the surrounding water changes as the water level rises or falls, giving a signal proportional to the water quantity."
+    },
+    {
+      "id": 26,
+      "question": "What is the power supply for the emergency lights?",
+      "options": [
+        "DC bus",
+        "Main battery",
+        "Battery pack"
+      ],
+      "correctIndex": 2,
+      "explanation": "Emergency lighting is supplied by its own dedicated battery pack (individual light unit batteries or a central emergency battery pack), ensuring the lights remain operational even if the aircraft's main DC bus and main battery are unavailable."
+    },
+    {
+      "id": 27,
+      "question": "As a technician, for which of the following applications would you prefer a DC motor over an AC motor?",
+      "options": [
+        "Variable speed operation",
+        "High speed operation",
+        "Low speed operation"
+      ],
+      "correctIndex": 0,
+      "explanation": "DC motors offer simple, smooth, and wide-range speed control by varying applied voltage or field current, making them the preferred choice for applications requiring variable speed operation, whereas AC induction motors are more naturally suited to fixed-speed operation."
+    },
+    {
+      "id": 28,
+      "question": "If the speed of a DC shunt motor is increased, the back EMF of the motor will:",
+      "options": [
+        "Decrease",
+        "Remain the same",
+        "Increase"
+      ],
+      "correctIndex": 2,
+      "explanation": "Back EMF is directly proportional to the motor's rotational speed and field flux, so as the shunt motor's speed increases, the back EMF it generates increases correspondingly."
+    },
+    {
+      "id": 29,
+      "question": "What are the brightness inputs to the Display Electronics Unit (DEU)?",
+      "options": [
+        "Brightness control panel only",
+        "Brightness control panel, remote light sensors",
+        "Brightness control panel, remote light sensors, bezel light sensors"
+      ],
+      "correctIndex": 2,
+      "explanation": "The DEU combines manual brightness control panel settings with automatic ambient light readings from both remote light sensors and bezel-mounted light sensors, so the display brightness adapts to overall cockpit lighting as well as light falling directly on the display's own bezel."
+    },
+    {
+      "id": 30,
+      "question": "What is the function of a wattmeter?",
+      "options": [
+        "Measures current",
+        "Measures active power",
+        "Measures reactive voltage"
+      ],
+      "correctIndex": 1,
+      "explanation": "A wattmeter measures active (real) power — the power actually converted into useful work — by combining both the current and voltage in the circuit, rather than measuring either quantity alone."
+    },
+    {
+      "id": 31,
+      "question": "The sub-atomic particle that has no electrical charge is the:",
+      "options": [
+        "Neutron",
+        "Proton",
+        "Electron"
+      ],
+      "correctIndex": 0,
+      "explanation": "The neutron carries no electrical charge, unlike the proton (positive charge) and the electron (negative charge), which together with the neutron make up the atom."
+    },
+    {
+      "id": 32,
+      "question": "What type of extinguisher is used in electrical fire fighting?",
+      "options": [
+        "Foam extinguisher",
+        "CO2 extinguisher",
+        "Water extinguisher"
+      ],
+      "correctIndex": 1,
+      "explanation": "CO2 extinguishers are non-conductive and leave no residue, making them safe to use on energized electrical fires, unlike water or foam extinguishers, which conduct electricity and pose a serious shock hazard on live equipment."
+    },
+    {
+      "id": 33,
+      "question": "The crimping tool handle is identified by using ___ as per the size of wire that it is crimping.",
+      "options": [
+        "Number of conductors",
+        "Color code",
+        "Type of material"
+      ],
+      "correctIndex": 1,
+      "explanation": "Crimping tool handles are color-coded so the correct tool (and matching die) for a given wire and terminal size can be quickly identified, reducing the risk of using an improperly sized crimp tool."
+    },
+    {
+      "id": 34,
+      "question": "Inverters are typically used on large aircraft for:",
+      "options": [
+        "Normal operating conditions",
+        "When normal 115V AC, 400Hz is required from the DC bus in day-to-day operation",
+        "Emergency situations"
+      ],
+      "correctIndex": 2,
+      "explanation": "Static or rotary inverters supply essential AC power from the battery specifically for emergency situations, when the normal generator-supplied AC power is lost, rather than being the primary source of AC in normal operation."
+    },
+    {
+      "id": 35,
+      "question": "Which type of AC generator uses a constant speed drive unit?",
+      "options": [
+        "Integrated Drive Generator (IDG)",
+        "Variable Frequency Generator (VFG)",
+        "DC alternator"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Integrated Drive Generator combines a hydro-mechanical constant speed drive with the generator in one unit, holding generator speed (and hence output frequency) constant despite varying engine speed, unlike a variable frequency generator, which allows frequency to vary with engine speed."
+    },
+    {
+      "id": 36,
+      "question": "Which type of rotor often consists of several separately wound pole pieces, bolted to the frame of the rotor?",
+      "options": [
+        "Compound wound rotor",
+        "Salient pole rotor",
+        "Shunt wound rotor"
+      ],
+      "correctIndex": 1,
+      "explanation": "A salient pole rotor is built from individual, projecting pole pieces, each with its own field winding, bolted onto the rotor frame — distinct from a cylindrical (non-salient) rotor design."
+    },
+    {
+      "id": 37,
+      "question": "The commutator in a DC generator is used to:",
+      "options": [
+        "Disconnect the coil winding when the induced current reaches a maximum value",
+        "Provide a means of connecting an external field current supply",
+        "Periodically reverse the connections to the rotating conductor"
+      ],
+      "correctIndex": 2,
+      "explanation": "The commutator's split-ring segments periodically reverse the connection to the rotating armature coil as it turns, converting the internally generated AC into a pulsating DC output at the brushes."
+    },
+    {
+      "id": 38,
+      "question": "A center-tapped transformer has its output full-wave rectified. The rectification will require a minimum of:",
+      "options": [
+        "6 diodes",
+        "2 diodes",
+        "4 diodes"
+      ],
+      "correctIndex": 1,
+      "explanation": "A center-tapped full-wave rectifier only needs 2 diodes, one conducting on each half-cycle using the two halves of the center-tapped secondary winding; a bridge rectifier (without a center tap) is what requires 4 diodes."
+    },
+    {
+      "id": 39,
+      "question": "When adding an even parity bit to the code 1100100, the result is:",
+      "options": [
+        "1110010",
+        "1100100",
+        "11100100"
+      ],
+      "correctIndex": 2,
+      "explanation": "The code 1100100 contains three 1-bits (an odd count), so for even parity a parity bit of 1 must be added to make the total number of 1-bits even, giving the 8-bit result 11100100."
+    },
+    {
+      "id": 40,
+      "question": "An ideal diode presents a(n) ___ when reverse-biased and a(n) ___ when forward-biased.",
+      "options": [
+        "Open, open",
+        "Open, short",
+        "Short, open"
+      ],
+      "correctIndex": 1,
+      "explanation": "An ideal diode behaves as a perfect switch: it presents an open circuit (infinite resistance) when reverse-biased, blocking current, and a short circuit (zero resistance) when forward-biased, allowing current to flow freely."
+    },
+    {
+      "id": 41,
+      "question": "Propagation delay is the operating speed when switching from:",
+      "options": [
+        "Both are correct",
+        "An 'OFF' state to an 'ON' state",
+        "An 'ON' state to an 'OFF' state"
+      ],
+      "correctIndex": 0,
+      "explanation": "Propagation delay refers to the switching time of a logic gate in both directions — from low to high and from high to low — so both transition directions are correctly included in the definition."
+    },
+    {
+      "id": 42,
+      "question": "In a digital system, the operation of circuitry, data & instructions are expressed using:",
+      "options": [
+        "Binary numbers",
+        "Octal numbers",
+        "Decimal numbers"
+      ],
+      "correctIndex": 0,
+      "explanation": "Digital circuits are built from two-state (on/off) logic elements, so all circuitry operation, data and instructions are fundamentally expressed and processed as binary numbers."
+    },
+    {
+      "id": 43,
+      "question": "What characteristic of read-only memory (ROM) makes it useful?",
+      "options": [
+        "ROM information can be easily updated",
+        "Data in ROM is non-volatile, that is, it remains there even without electrical power",
+        "ROM provides very large amounts of inexpensive data storage"
+      ],
+      "correctIndex": 1,
+      "explanation": "ROM's defining useful characteristic is that its stored data is non-volatile — it is retained permanently even when power is removed, which is exactly what is needed for storing fixed programs and constants."
+    },
+    {
+      "id": 44,
+      "question": "Which unit is responsible for converting the data received from the user into a computer-understandable format?",
+      "options": [
+        "Memory unit",
+        "Arithmetic and logic unit",
+        "Input unit"
+      ],
+      "correctIndex": 2,
+      "explanation": "The input unit takes data entered by the user (keyboard, sensors, etc.) and converts it into the binary format the computer's processor can work with, before it is stored (memory unit) or processed (ALU)."
+    },
+    {
+      "id": 45,
+      "question": "Which of the following is false about aircraft software modification?",
+      "options": [
+        "Modifications to software will be subjected to the same approvals as aircraft parts",
+        "Any modifications made to software must be identified and controlled in accordance with the software configuration management plan",
+        "Modifications of the listed software levels does not require CAA investigation"
+      ],
+      "correctIndex": 2,
+      "explanation": "Modifications to safety-critical software levels (such as Level A or B) do require regulatory (CAA) oversight and approval, so the claim that they do not require CAA investigation is the false statement; software changes are controlled and approved just like hardware/parts modifications."
+    },
+    {
+      "id": 46,
+      "question": "If the failure description is 'Flight crew cannot perform their tasks; serious or fatal injuries to some occupants', which category of software level is it?",
+      "options": [
+        "Level B",
+        "Level E",
+        "Level A"
+      ],
+      "correctIndex": 0,
+      "explanation": "A failure causing serious or fatal injury to some (but not all) occupants and significantly increasing crew workload is classified as a 'Hazardous' failure condition, corresponding to Level B software, one step below the 'Catastrophic' Level A classification."
+    },
+    {
+      "id": 47,
+      "question": "A ___ A/P servo moves control surfaces without moving the pilot's control wheel/column.",
+      "options": [
+        "Parallel",
+        "Both",
+        "Series"
+      ],
+      "correctIndex": 2,
+      "explanation": "A series servo is inserted into the control run downstream of the pilot's controls, so surface movement occurs with no corresponding movement at the control column, unlike a parallel servo, which back-drives the pilot's controls."
+    },
+    {
+      "id": 48,
+      "question": "Which type of electronic display is rarely found on recent aircraft?",
+      "options": [
+        "LED",
+        "CRT",
+        "LCD"
+      ],
+      "correctIndex": 1,
+      "explanation": "CRT displays were used in early glass cockpits but have largely been replaced by lighter, more reliable LCD flat-panel displays in modern aircraft, making CRT the display type now rarely found on recent aircraft."
+    },
+    {
+      "id": 49,
+      "question": "___ is a resettable switch that provides redundant over-temperature protection by cutting off input power to the tank heaters if the external tank temperature goes above limits.",
+      "options": [
+        "Thermal switches",
+        "Low water sensor",
+        "Pressure relief"
+      ],
+      "correctIndex": 0,
+      "explanation": "Resettable thermal switches monitor the tank/heater temperature and open the heater's power circuit if the temperature exceeds a safe limit, providing a redundant layer of over-temperature protection alongside the primary thermostat control."
+    },
+    {
+      "id": 50,
+      "question": "What will happen if a frozen battery is subjected to a high charge rate?",
+      "options": [
+        "It may explode",
+        "The charger can't charge it",
+        "It will start to melt first & then charge"
+      ],
+      "correctIndex": 0,
+      "explanation": "Charging a frozen battery at a high rate can cause internal gas buildup and pressure faster than the frozen electrolyte can safely dissipate it, creating a real risk that the battery case may rupture or explode."
+    }
+  ]
+}
