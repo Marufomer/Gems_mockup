@@ -1,0 +1,838 @@
+{
+  "id": "avo-schoolfinal-b-264",
+  "title": "AVO schoolfinal (B-264)",
+  "module": "school final",
+  "course": "avionics",
+  "category": "school_final",
+  "description": "School final covering electrical/electronics fundamentals, digital logic, semiconductors, AC power calculations, radio navigation, batteries, gyros, EWIS, AFCS, generators, DC motors, lighting, sensors, OSI networking, atomic structure, and pitot-static systems.",
+  "durationMinutes": 150,
+  "totalQuestions": 75,
+  "color": "indigo",
+  "questions": [
+    {
+      "id": 1,
+      "question": "What is the SI unit of inductance?",
+      "options": [
+        "Henry",
+        "Farad",
+        "Ohm"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Henry is the SI unit of inductance, defined as the inductance that produces 1 volt of induced EMF when the current through it changes at a rate of 1 ampere per second."
+    },
+    {
+      "id": 2,
+      "question": "The sensitivity of a moving-coil voltmeter is rated in:",
+      "options": [
+        "kOhm/V",
+        "Amps",
+        "Watts"
+      ],
+      "correctIndex": 0,
+      "explanation": "A voltmeter's sensitivity is expressed in ohms-per-volt (or kOhm/V), indicating how much internal resistance it presents per volt of full-scale reading; a higher ohms-per-volt rating means less loading on the circuit being measured."
+    },
+    {
+      "id": 3,
+      "question": "What is the symbol for magnetic flux density?",
+      "options": [
+        "B",
+        "H",
+        "Φ"
+      ],
+      "correctIndex": 0,
+      "explanation": "Magnetic flux density is conventionally symbolized by B (measured in Tesla), distinct from H (magnetic field strength) and Φ (total magnetic flux, measured in Webers)."
+    },
+    {
+      "id": 4,
+      "question": "In the motor rule used to determine force direction, the forefinger (index finger) represents the:",
+      "options": [
+        "Magnetic field",
+        "Current",
+        "Motion (force)"
+      ],
+      "correctIndex": 0,
+      "explanation": "In the standard hand-rule mnemonic for motor action, the forefinger points in the direction of the magnetic field, the second finger represents current, and the thumb represents the resulting force (motion) on the conductor."
+    },
+    {
+      "id": 5,
+      "question": "In an 8085 instruction set, LDA stands for:",
+      "options": [
+        "Load accumulator",
+        "Load data address",
+        "Logical decoder address"
+      ],
+      "correctIndex": 0,
+      "explanation": "LDA (Load Accumulator) is the 8085 instruction that loads the accumulator directly with the data stored at a specified 16-bit memory address."
+    },
+    {
+      "id": 6,
+      "question": "When the address of the operand is given directly in the instruction itself, this is called:",
+      "options": [
+        "Direct addressing",
+        "Immediate addressing",
+        "Indirect addressing"
+      ],
+      "correctIndex": 0,
+      "explanation": "Direct addressing specifies the memory address of the operand directly within the instruction, so the processor reads the address from the instruction and then fetches the operand from that memory location."
+    },
+    {
+      "id": 7,
+      "question": "A NAND gate's output is low only when the inputs are:",
+      "options": [
+        "All high",
+        "All low",
+        "Mixed (some high, some low)"
+      ],
+      "correctIndex": 0,
+      "explanation": "A NAND gate is the complement of an AND gate: its output is low only when every input is high, and high for every other input combination."
+    },
+    {
+      "id": 8,
+      "question": "A load draws 10 kVA of apparent power and 8 kVAR of reactive power. What is the true (real) power?",
+      "options": [
+        "6 kW",
+        "18 kW",
+        "2 kW"
+      ],
+      "correctIndex": 0,
+      "explanation": "Using the power triangle, true power = √(S² − Q²) = √(10² − 8²) = √(100 − 64) = √36 = 6 kW."
+    },
+    {
+      "id": 9,
+      "question": "A loop antenna, used alone, is unable to:",
+      "options": [
+        "Show whether the aircraft is flying TO or FROM the station",
+        "Receive any signal at all",
+        "Operate at low frequencies"
+      ],
+      "correctIndex": 0,
+      "explanation": "A loop antenna alone produces an ambiguous, bidirectional (figure-eight) response, so it cannot by itself distinguish whether the station is ahead or behind the aircraft; combining it with a sense antenna resolves this TO/FROM ambiguity."
+    },
+    {
+      "id": 10,
+      "question": "A voltmeter should have:",
+      "options": [
+        "High resistance",
+        "Low resistance",
+        "Zero resistance"
+      ],
+      "correctIndex": 0,
+      "explanation": "An ideal voltmeter has very high internal resistance so that connecting it across a circuit draws negligible current and does not load down or disturb the voltage being measured."
+    },
+    {
+      "id": 11,
+      "question": "What is the complement of the Boolean expression AB + C'?",
+      "options": [
+        "(A' + B')C",
+        "(A + B)C'",
+        "A'B'C'"
+      ],
+      "correctIndex": 0,
+      "explanation": "Applying De Morgan's theorem: the complement of (AB + C') is (AB)' · (C')' = (A' + B') · C, since (AB)' = A'+B' and the complement of C' is simply C."
+    },
+    {
+      "id": 12,
+      "question": "For an oscillator's loop gain (AB) to equal 1, the total phase shift around the loop must be:",
+      "options": [
+        "360 degrees (or 0 degrees)",
+        "90 degrees",
+        "180 degrees"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Barkhausen criterion for sustained oscillation requires the loop gain to equal exactly 1 and the total phase shift around the feedback loop to equal 0° or a multiple of 360°, ensuring the feedback signal reinforces the original signal in phase."
+    },
+    {
+      "id": 13,
+      "question": "Antiskid systems are used to:",
+      "options": [
+        "Prevent wheel lockup and skidding during braking",
+        "Prevent tire deflation during taxi",
+        "Increase landing gear extension speed"
+      ],
+      "correctIndex": 0,
+      "explanation": "Antiskid systems automatically modulate brake pressure to prevent a wheel from locking up and skidding during braking, maintaining maximum braking effectiveness and preventing tire damage."
+    },
+    {
+      "id": 14,
+      "question": "What does ESD stand for?",
+      "options": [
+        "Electrostatic Sensitive Device",
+        "Electronic Signal Distributor",
+        "Emergency Shutdown Device"
+      ],
+      "correctIndex": 0,
+      "explanation": "ESD stands for Electrostatic Sensitive Device, referring to electronic components that are vulnerable to damage from stray static electric discharge and require special handling precautions."
+    },
+    {
+      "id": 15,
+      "question": "A protocol is best defined as:",
+      "options": [
+        "A set of rules that governs how data is formatted and transmitted between devices",
+        "A physical connector used to join two wires",
+        "A software application used to draft technical documents"
+      ],
+      "correctIndex": 0,
+      "explanation": "A protocol is a defined set of rules and conventions that devices follow so that data can be correctly formatted, transmitted, received and interpreted between them."
+    },
+    {
+      "id": 16,
+      "question": "A filter is used to:",
+      "options": [
+        "Remove unwanted frequencies from a signal",
+        "Increase the amplitude of every frequency equally",
+        "Convert AC to DC"
+      ],
+      "correctIndex": 0,
+      "explanation": "A filter is a circuit designed to pass certain desired frequencies while attenuating (removing) unwanted frequencies from a signal, such as noise or an unwanted frequency band."
+    },
+    {
+      "id": 17,
+      "question": "The output of a simple (unfiltered) rectifier is a:",
+      "options": [
+        "Pulsating DC wave",
+        "Pure sine wave",
+        "Constant DC voltage"
+      ],
+      "correctIndex": 0,
+      "explanation": "A rectifier converts AC into a unidirectional but still varying (pulsating) DC waveform; a smoothing filter must be added afterward to produce a steadier, more constant DC output."
+    },
+    {
+      "id": 18,
+      "question": "A multiplexer functions as a:",
+      "options": [
+        "Parallel-to-serial converter",
+        "Serial-to-parallel converter",
+        "AC-to-DC converter"
+      ],
+      "correctIndex": 0,
+      "explanation": "A multiplexer selects one of several parallel input lines at a time and routes it to a single output, which converts parallel data into a serial data stream."
+    },
+    {
+      "id": 19,
+      "question": "What does the IEEE 802 family of standards primarily define?",
+      "options": [
+        "Local and metropolitan area network (LAN/MAN) standards",
+        "Aircraft fuel system standards",
+        "Hydraulic fluid specifications"
+      ],
+      "correctIndex": 0,
+      "explanation": "The IEEE 802 series of standards defines the protocols and specifications used for local area networks (LAN) and metropolitan area networks (MAN), including Ethernet and network bridging/management standards."
+    },
+    {
+      "id": 20,
+      "question": "Which specification governs solderless crimp connections?",
+      "options": [
+        "MIL-T-7928",
+        "MIL-STD-1553",
+        "ARINC 429"
+      ],
+      "correctIndex": 0,
+      "explanation": "MIL-T-7928 is the military specification that governs the requirements for solderless (crimp) wire terminals and splices used in aircraft wiring."
+    },
+    {
+      "id": 21,
+      "question": "The operating frequency range of the VOR system is:",
+      "options": [
+        "108 to 117.95 MHz",
+        "962 to 1213 MHz",
+        "90 KHz to 1,800 KHz"
+      ],
+      "correctIndex": 0,
+      "explanation": "VOR operates in the VHF band between 108.00 and 117.95 MHz, sharing the lower portion of that range with the ILS localizer."
+    },
+    {
+      "id": 22,
+      "question": "A 60 V, 50 Hz AC supply can be expressed as an instantaneous voltage equation of:",
+      "options": [
+        "v = 84.4 sin(314t)",
+        "v = 60 sin(100t)",
+        "v = 120 sin(50t)"
+      ],
+      "correctIndex": 0,
+      "explanation": "The peak value is Vrms × √2 = 60 × 1.414 ≈ 84.4 V, and the angular frequency is ω = 2πf = 2π×50 ≈ 314 rad/s, giving the instantaneous equation v = 84.4 sin(314t)."
+    },
+    {
+      "id": 23,
+      "question": "For a 4-pole alternator running at 400 Hz, what is the synchronous speed?",
+      "options": [
+        "12,000 rpm",
+        "6,000 rpm",
+        "24,000 rpm"
+      ],
+      "correctIndex": 0,
+      "explanation": "Synchronous speed Ns = 120f / P = (120 × 400) / 4 = 12,000 rpm."
+    },
+    {
+      "id": 24,
+      "question": "The yellow arc on the airspeed indicator represents the:",
+      "options": [
+        "Caution range, requiring careful operation only in smooth air",
+        "Normal operating range",
+        "Flap operating range"
+      ],
+      "correctIndex": 0,
+      "explanation": "The yellow arc marks the caution range on the airspeed indicator, where the aircraft should only be operated in smooth air with caution, between the top of the green (normal operating) range and the red line (never-exceed speed)."
+    },
+    {
+      "id": 25,
+      "question": "A synchro system is commonly used to remotely indicate:",
+      "options": [
+        "Flap position",
+        "Engine oil temperature",
+        "Cabin altitude"
+      ],
+      "correctIndex": 0,
+      "explanation": "Synchros are commonly used to transmit a mechanical position (such as the flap surface position) electrically to a remote cockpit indicator, giving the crew a reliable position readout."
+    },
+    {
+      "id": 26,
+      "question": "Which type of fuel quantity indicating system is most commonly used on modern aircraft?",
+      "options": [
+        "Capacitance type",
+        "Float-type sight gauge",
+        "Mechanical dipstick"
+      ],
+      "correctIndex": 0,
+      "explanation": "Capacitance-type fuel quantity indicating systems are the most widely used on modern aircraft, since they give an accurate, remote electrical reading of fuel mass across tanks of complex shape."
+    },
+    {
+      "id": 27,
+      "question": "The pitch limit indicator (PLI) is displayed on the:",
+      "options": [
+        "EADI",
+        "EHSI",
+        "Engine display"
+      ],
+      "correctIndex": 0,
+      "explanation": "The PLI is drawn against the pitch scale of the EADI (attitude display), showing the pitch attitude at which stall warning would occur so the pitch margin can be read directly."
+    },
+    {
+      "id": 28,
+      "question": "The main aircraft battery is normally NOT used for:",
+      "options": [
+        "The APU's initial start-up (which uses a dedicated APU battery on some aircraft)",
+        "Powering essential loads when generators are lost",
+        "Providing standby power for cockpit instruments"
+      ],
+      "correctIndex": 0,
+      "explanation": "On some aircraft types, the APU has its own dedicated starting battery rather than drawing on the main aircraft battery for its initial start, keeping the main battery's charge reserved for other essential and standby functions."
+    },
+    {
+      "id": 29,
+      "question": "The field winding of a DC shunt motor is supplied with:",
+      "options": [
+        "DC",
+        "AC",
+        "A pulsed RF signal"
+      ],
+      "correctIndex": 0,
+      "explanation": "As a DC machine, a DC shunt motor's field winding (connected in parallel/shunt with the armature) is supplied with direct current, producing the steady magnetic field needed for motor operation."
+    },
+    {
+      "id": 30,
+      "question": "A voltage reading taken without any load connected is called the:",
+      "options": [
+        "Open circuit voltage",
+        "Short circuit voltage",
+        "Terminal voltage under load"
+      ],
+      "correctIndex": 0,
+      "explanation": "With no load drawing current, the measured voltage is the open circuit voltage — the source's voltage with no internal voltage drop caused by load current."
+    },
+    {
+      "id": 31,
+      "question": "Free Air Temperature (FAT) refers to the aircraft's:",
+      "options": [
+        "Static air temperature",
+        "Total air temperature",
+        "Cabin temperature"
+      ],
+      "correctIndex": 0,
+      "explanation": "Free Air Temperature is another name for static (outside) air temperature — the true ambient temperature unaffected by the aircraft's own motion, as opposed to total air temperature, which includes the ram-rise effect."
+    },
+    {
+      "id": 32,
+      "question": "Gyroscopic precession causes the resulting effect of an applied force to appear:",
+      "options": [
+        "90 degrees away from the point of application, in the direction of rotation",
+        "At the exact point where the force is applied",
+        "180 degrees opposite the point of application"
+      ],
+      "correctIndex": 0,
+      "explanation": "By the property of gyroscopic precession, a force applied to a spinning rotor produces its resulting angular change not at the point of application, but 90 degrees further around in the direction of rotor spin."
+    },
+    {
+      "id": 33,
+      "question": "A laser (ring laser) gyro senses rotation using a:",
+      "options": [
+        "Beam of light",
+        "Spinning mechanical rotor",
+        "Rotating magnetic field"
+      ],
+      "correctIndex": 0,
+      "explanation": "A ring laser gyro has no spinning mass; it detects rotation optically by comparing the frequency of two counter-propagating laser beams travelling around a closed cavity, making it a solid-state alternative to the traditional mechanical gyro."
+    },
+    {
+      "id": 34,
+      "question": "An INS (Inertial Navigation System) requires which input before use?",
+      "options": [
+        "The aircraft's initial position",
+        "The destination airport's ILS frequency",
+        "The current outside air temperature"
+      ],
+      "correctIndex": 0,
+      "explanation": "Because an INS only tracks changes in position by integrating sensed acceleration over time, it must be given an accurate initial position as a starting reference before it can compute the aircraft's ongoing position correctly."
+    },
+    {
+      "id": 35,
+      "question": "The pitch mode active during take-off before 400 ft is:",
+      "options": [
+        "TO/GA",
+        "ALT HOLD",
+        "VNAV SPD"
+      ],
+      "correctIndex": 0,
+      "explanation": "TO/GA is the take-off/go-around pitch mode and remains engaged through the initial climb until another pitch mode can be selected above the mode-change height, commonly 400 ft."
+    },
+    {
+      "id": 36,
+      "question": "How many boost pumps are typically installed in the center fuel tank?",
+      "options": [
+        "2",
+        "1",
+        "4"
+      ],
+      "correctIndex": 0,
+      "explanation": "The center tank typically has two boost pumps, providing redundancy and higher flow capacity, since the center tank usually holds the largest fuel quantity and its pumps are prioritized to feed the engines first."
+    },
+    {
+      "id": 38,
+      "question": "What is the wavelength of a 15 MHz radio wave?",
+      "options": [
+        "20 m",
+        "2 m",
+        "200 m"
+      ],
+      "correctIndex": 0,
+      "explanation": "Wavelength = speed of light / frequency = 300,000,000 m/s ÷ 15,000,000 Hz = 20 meters."
+    },
+    {
+      "id": 39,
+      "question": "Which of the following is a control device?",
+      "options": [
+        "Switch",
+        "Resistor",
+        "Capacitor"
+      ],
+      "correctIndex": 0,
+      "explanation": "A switch is specifically a control device, used to manually or automatically make or break an electrical circuit, unlike a resistor or capacitor, which are passive circuit elements."
+    },
+    {
+      "id": 40,
+      "question": "On a twin-engine operated aircraft with both generators operating, which of the following consumer services are supplied with power?",
+      "options": [
+        "All consumer services",
+        "All essential services only",
+        "All non-essential services only"
+      ],
+      "correctIndex": 0,
+      "explanation": "With both generators operating normally, the electrical system has enough capacity to power all consumer services on the aircraft, not just the essential or non-essential loads individually."
+    },
+    {
+      "id": 41,
+      "question": "How do LVDT and RVDT differ in construction?",
+      "options": [
+        "The RVDT uses a rotary core/magnet, while the LVDT uses a cylindrical, linearly moving core",
+        "The LVDT uses a rotary core, while the RVDT uses a linearly moving core",
+        "Both use identical rotary cores"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Linear Variable Differential Transformer (LVDT) uses a cylindrical core that moves linearly through the windings, while the Rotary Variable Differential Transformer (RVDT) uses a rotating core/vane to sense angular rather than linear displacement."
+    },
+    {
+      "id": 42,
+      "question": "A single solid rod of drawn metal, enclosed in a suitable insulating material and outer protective material, is called:",
+      "options": [
+        "Wire",
+        "Cable",
+        "Conduit"
+      ],
+      "correctIndex": 0,
+      "explanation": "This describes the basic construction of a wire: a single solid conductor drawn to size, then covered with insulation and an outer protective jacket."
+    },
+    {
+      "id": 44,
+      "question": "How does a NiCad battery differ from a lead-acid battery in maintenance?",
+      "options": [
+        "Individual NiCad cells can be replaced",
+        "NiCad batteries never need any maintenance",
+        "NiCad batteries cannot be recharged"
+      ],
+      "correctIndex": 0,
+      "explanation": "Unlike a lead-acid battery, a NiCad battery is built from individual cells that can be tested and replaced one at a time if a cell fails, without having to discard the entire battery."
+    },
+    {
+      "id": 45,
+      "question": "Gassing in a battery, causing water loss, requires what maintenance action?",
+      "options": [
+        "Water (electrolyte level) adjustment",
+        "Complete battery replacement",
+        "Increasing the charge rate further"
+      ],
+      "correctIndex": 0,
+      "explanation": "Gassing during charging causes water in the electrolyte to be lost as gas, so periodic water (electrolyte level) adjustment — topping up with distilled water — is required to maintain proper battery operation."
+    },
+    {
+      "id": 46,
+      "question": "Which type of electronic display is not used in recent aircraft?",
+      "options": [
+        "CRT",
+        "LCD",
+        "LED backlit LCD"
+      ],
+      "correctIndex": 0,
+      "explanation": "CRT displays were used in early glass cockpits but have been replaced by lighter, more reliable LCD flat-panel displays in modern aircraft."
+    },
+    {
+      "id": 47,
+      "question": "A Level A software failure condition can affect:",
+      "options": [
+        "Primary and secondary flight control surfaces",
+        "Cabin entertainment systems only",
+        "Galley equipment only"
+      ],
+      "correctIndex": 0,
+      "explanation": "Level A represents the most severe (catastrophic) software failure classification, associated with failures that could affect flight-critical systems such as the primary and secondary flight control surfaces."
+    },
+    {
+      "id": 48,
+      "question": "In a shift register, which flip-flop's output is used as the input to the next stage?",
+      "options": [
+        "D (the D flip-flop's Q output feeding the next stage's D input)",
+        "The clock input",
+        "The reset input"
+      ],
+      "correctIndex": 0,
+      "explanation": "In a shift register built from D flip-flops, the Q output of each flip-flop is connected to the D input of the next flip-flop, so data shifts along the chain on each clock pulse."
+    },
+    {
+      "id": 49,
+      "question": "Which of the following are early digital logic families?",
+      "options": [
+        "DTL and RTL",
+        "TCP and IP",
+        "AC and DC"
+      ],
+      "correctIndex": 0,
+      "explanation": "Diode-Transistor Logic (DTL) and Resistor-Transistor Logic (RTL) were among the earliest digital logic families, predating the more widely used TTL and CMOS families."
+    },
+    {
+      "id": 50,
+      "question": "A digital counter is fundamentally a:",
+      "options": [
+        "Binary counter",
+        "Analog integrator",
+        "Sine wave generator"
+      ],
+      "correctIndex": 0,
+      "explanation": "A digital counter counts pulses using binary logic, incrementing (or decrementing) its stored binary value with each clock pulse, making it fundamentally a binary counter."
+    },
+    {
+      "id": 51,
+      "question": "A circuit that is free-running, continuously oscillating without external triggering, is called a(n):",
+      "options": [
+        "Astable multivibrator",
+        "Monostable multivibrator",
+        "Bistable multivibrator"
+      ],
+      "correctIndex": 0,
+      "explanation": "An astable multivibrator has no stable state and continuously switches between its two states on its own, making it 'free-running,' unlike the monostable (one stable state) or bistable (two stable states, requiring a trigger to change)."
+    },
+    {
+      "id": 52,
+      "question": "A Class AB amplifier is:",
+      "options": [
+        "Biased to conduct slightly above (more than) the cutoff region",
+        "Biased to conduct for the full 360 degrees of the input cycle",
+        "Biased to conduct for less than 180 degrees of the input cycle"
+      ],
+      "correctIndex": 0,
+      "explanation": "Class AB biasing sits between Class B (exactly 180° conduction) and Class A (full 360° conduction), conducting for slightly more than 180° to reduce crossover distortion while improving efficiency over Class A."
+    },
+    {
+      "id": 53,
+      "question": "In a Delta-connected three-phase system:",
+      "options": [
+        "Line voltage equals phase voltage",
+        "Line voltage equals √3 times phase voltage",
+        "Line current equals phase current"
+      ],
+      "correctIndex": 0,
+      "explanation": "In a Delta connection, each winding is connected directly across two lines, so the line voltage equals the phase voltage; it is the line current that equals √3 times the phase current, the opposite relationship to a Wye (star) connection."
+    },
+    {
+      "id": 54,
+      "question": "A common-emitter amplifier produces a phase shift of:",
+      "options": [
+        "180 degrees",
+        "0 degrees (in phase)",
+        "90 degrees"
+      ],
+      "correctIndex": 0,
+      "explanation": "A common-emitter amplifier inverts the signal, so the output is 180 degrees out of phase with the input, one of its defining characteristics compared with the common-base and common-collector configurations."
+    },
+    {
+      "id": 55,
+      "question": "Which part of a radio receiver maintains constant signal levels throughout the system over a wide range of incoming carrier signal strengths at its output?",
+      "options": [
+        "Automatic Gain Control (AGC)",
+        "The local oscillator",
+        "The IF filter"
+      ],
+      "correctIndex": 0,
+      "explanation": "Automatic Gain Control continuously adjusts the receiver's amplification so that the output signal level stays relatively constant, compensating for wide variations in the strength of the incoming carrier signal."
+    },
+    {
+      "id": 56,
+      "question": "Which of the following are pressure sensing elements?",
+      "options": [
+        "Diaphragm and capsule",
+        "Thermocouple and thermistor",
+        "Photodiode and phototransistor"
+      ],
+      "correctIndex": 0,
+      "explanation": "Diaphragms and capsules are elastic pressure sensing elements that deflect in proportion to applied pressure, unlike thermocouples/thermistors (temperature sensors) or photodiodes/phototransistors (light sensors)."
+    },
+    {
+      "id": 57,
+      "question": "The computer for the Common Display System (CDS) is the:",
+      "options": [
+        "DEU (Display Electronics Unit)",
+        "FDAU",
+        "BPCU"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Display Electronics Unit (DEU) generates the symbols and graphics for the Common Display System, processing sensor and computer data into the images shown on the display units."
+    },
+    {
+      "id": 58,
+      "question": "A thyristor can be thought of as combining the characteristics of a:",
+      "options": [
+        "High-speed switch and a mechanical relay",
+        "Resistor and capacitor",
+        "Transformer and rectifier"
+      ],
+      "correctIndex": 0,
+      "explanation": "A thyristor (such as an SCR) behaves like a mechanical relay in that it latches on and stays conducting once triggered, but it switches at electronic speeds far faster than any mechanical relay could achieve."
+    },
+    {
+      "id": 59,
+      "question": "A cabin attendant's PA announcement to passengers is not heard because the pilot makes a simultaneous cockpit announcement. What is the probable cause?",
+      "options": [
+        "Cockpit announcements are given priority over cabin crew PA announcements",
+        "The cabin crew's microphone is faulty",
+        "The PA system was switched off entirely"
+      ],
+      "correctIndex": 0,
+      "explanation": "The PA system's priority logic automatically mutes lower-priority audio sources when a higher-priority one is active; cockpit announcements are given the highest priority, so a simultaneous cabin crew announcement is muted."
+    },
+    {
+      "id": 60,
+      "question": "What is a primary purpose of the EWIS (Electrical Wiring Interconnection System)?",
+      "options": [
+        "To facilitate easy removal and replacement of components via connectors",
+        "To increase the aircraft's overall weight for balance",
+        "To provide structural support to the airframe"
+      ],
+      "correctIndex": 0,
+      "explanation": "Connectors within the EWIS let a wire bundle be quickly disconnected from and reconnected to a component, making removal and replacement of that component far quicker than permanently spliced or soldered wiring."
+    },
+    {
+      "id": 61,
+      "question": "When checking a diode in forward bias with a meter, the meter's positive lead is connected to the:",
+      "options": [
+        "Anode",
+        "Cathode",
+        "Gate"
+      ],
+      "correctIndex": 0,
+      "explanation": "Forward biasing a diode requires the anode to be made positive relative to the cathode, so the meter's positive test lead is connected to the anode to forward bias the junction and allow current to flow."
+    },
+    {
+      "id": 62,
+      "question": "Aircraft hydraulic pumps (electrically driven) are typically powered by:",
+      "options": [
+        "115V, three-phase AC",
+        "28V DC",
+        "230V, single-phase AC"
+      ],
+      "correctIndex": 0,
+      "explanation": "Electrically driven hydraulic pumps are typically powered by the aircraft's standard 115V, three-phase AC supply, which provides the power needed to drive the pump motor."
+    },
+    {
+      "id": 63,
+      "question": "Aero-L (Low Gain Antenna) satellite communication service is primarily used for:",
+      "options": [
+        "Packet (data) messaging",
+        "High-quality live video streaming",
+        "High-definition voice calls only"
+      ],
+      "correctIndex": 0,
+      "explanation": "Aero-L, with its lower gain and bandwidth compared to Aero-H/I, is suited to low-bandwidth applications such as short packet data messaging rather than high-quality voice or video."
+    },
+    {
+      "id": 64,
+      "question": "Where are passenger reading lights typically located?",
+      "options": [
+        "In the Passenger Service Unit (PSU)",
+        "In the aft galley",
+        "In the cargo compartment"
+      ],
+      "correctIndex": 0,
+      "explanation": "Passenger reading lights are built into the Passenger Service Unit (PSU) above each seat row, along with the air gasper vent, call button, and signs."
+    },
+    {
+      "id": 65,
+      "question": "What is the most commonly used method of speed control for a DC motor?",
+      "options": [
+        "Varying the voltage applied to the motor",
+        "Varying the armature circuit resistance",
+        "Varying the motor's field winding material"
+      ],
+      "correctIndex": 0,
+      "explanation": "Varying the applied voltage is the most common and efficient way to control a DC motor's speed, since speed is directly related to applied voltage, without the power losses associated with inserting armature resistance."
+    },
+    {
+      "id": 66,
+      "question": "In a parallel circuit, which quantity remains the same across every branch?",
+      "options": [
+        "Voltage",
+        "Current",
+        "Power"
+      ],
+      "correctIndex": 0,
+      "explanation": "In a parallel circuit, every branch is connected across the same two nodes, so the voltage across each branch is identical, while the current through each branch can differ depending on that branch's resistance."
+    },
+    {
+      "id": 67,
+      "question": "Which of the following is true about aircraft navigation lights?",
+      "options": [
+        "The right (starboard) light is green and the left (port) light is red",
+        "The right (starboard) light is red and the left (port) light is green",
+        "Both navigation lights are white"
+      ],
+      "correctIndex": 0,
+      "explanation": "By international convention, an aircraft's right (starboard) navigation light is green and its left (port) light is red, matching the same convention used for ships, so other traffic can judge the aircraft's orientation and right-of-way at a glance."
+    },
+    {
+      "id": 68,
+      "question": "What happens to the autopilot when there is no mode selection made for vertical or lateral navigation, but the autopilot system is engaged?",
+      "options": [
+        "It automatically holds the vertical and lateral basic mode",
+        "It disengages immediately",
+        "It defaults to go-around mode"
+      ],
+      "correctIndex": 0,
+      "explanation": "With no specific navigation mode selected, the autopilot defaults to its basic modes — typically holding the pitch attitude (or altitude) and wings-level/heading — until the crew selects a specific vertical or lateral mode."
+    },
+    {
+      "id": 69,
+      "question": "A router operates in which layer of the OSI model?",
+      "options": [
+        "Network layer",
+        "Data link layer",
+        "Application layer"
+      ],
+      "correctIndex": 0,
+      "explanation": "Routers make forwarding decisions based on logical (IP) addressing, which is Network layer (Layer 3) information, distinguishing them from switches (Data Link layer) and application-level devices."
+    },
+    {
+      "id": 70,
+      "question": "When a warning flag related to a Resolution Advisory (RA) is displayed, what is the first troubleshooting procedure?",
+      "options": [
+        "Check/reset the related circuit breaker",
+        "Replace the entire TCAS computer",
+        "Ignore the flag and continue operation"
+      ],
+      "correctIndex": 0,
+      "explanation": "A related warning flag usually indicates a loss of power or a signal fault, so checking and cycling the related circuit breaker is the standard first troubleshooting step before further, more invasive fault isolation."
+    },
+    {
+      "id": 71,
+      "question": "The directional gyro is best defined as providing a:",
+      "options": [
+        "Short-term heading reference",
+        "Long-term absolute heading reference with no drift",
+        "Airspeed reference"
+      ],
+      "correctIndex": 0,
+      "explanation": "Because a free gyro gradually drifts, the directional gyro only provides an accurate heading reference over the short term and must be periodically re-aligned with the magnetic compass to remain accurate over longer periods."
+    },
+    {
+      "id": 72,
+      "question": "Which electron shell is closest to the nucleus of an atom?",
+      "options": [
+        "The K shell",
+        "The L shell",
+        "The M shell"
+      ],
+      "correctIndex": 0,
+      "explanation": "Electron shells are labeled K, L, M, N and so on from the innermost outward, so the K shell is always the closest shell to the nucleus."
+    },
+    {
+      "id": 73,
+      "question": "What type of generator system consists of a DC generator mounted on the same shaft as an AC generator?",
+      "options": [
+        "Direct-connected DC generator",
+        "Rotary inverter",
+        "Static inverter"
+      ],
+      "correctIndex": 0,
+      "explanation": "A direct-connected DC generator is physically coupled on the same shaft as the AC generator (alternator), turning at the same speed and providing DC output alongside the AC output, without any separate drive mechanism."
+    },
+    {
+      "id": 74,
+      "question": "For different isotopes of the same element, the number of protons and neutrons is:",
+      "options": [
+        "Not always the same",
+        "Always exactly the same",
+        "Always in a fixed 1:1 ratio"
+      ],
+      "correctIndex": 0,
+      "explanation": "The number of protons defines which element an atom is and stays fixed for that element, but the number of neutrons can vary between isotopes of the same element, so protons and neutrons are not always equal in number."
+    },
+    {
+      "id": 75,
+      "question": "Aircraft instrument housings and cases are typically constructed of:",
+      "options": [
+        "Non-ferrous materials",
+        "Ferrous (iron-based) materials",
+        "Uninsulated bare copper"
+      ],
+      "correctIndex": 0,
+      "explanation": "Instrument cases are made of non-ferrous materials (such as aluminum alloy) to avoid introducing magnetic interference with nearby magnetic instruments, such as the magnetic compass."
+    },
+    {
+      "id": 76,
+      "question": "The ratio between the largest and smallest values that a DAC (digital-to-analog converter) can represent is called its:",
+      "options": [
+        "Dynamic range",
+        "Resolution",
+        "Settling time"
+      ],
+      "correctIndex": 0,
+      "explanation": "Dynamic range describes the ratio between the largest and smallest signal values a DAC can represent, indicating the span of output values it can accurately produce."
+    },
+    {
+      "id": 77,
+      "question": "The pitot tube is mounted:",
+      "options": [
+        "Forward, aligned with the aircraft's flight line, facing into the relative airflow",
+        "Aft, facing away from the direction of flight",
+        "Inside the pressurized cabin"
+      ],
+      "correctIndex": 0,
+      "explanation": "The pitot tube must face directly into the oncoming relative airflow to correctly sense total (pitot) pressure, so it is mounted forward, aligned with the aircraft's normal flight line."
+    }
+  ]
+}
