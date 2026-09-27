@@ -1,0 +1,552 @@
+{
+  "id": "avo-sub-final-b-264",
+  "title": "AVO sub-final (B-264)",
+  "module": "school final",
+  "course": "avionics",
+  "category": "school_final",
+  "description": "Sub-final exam covering IC packages, circuit protection, transformers, laser gyros, generators, CVR, VHF/HF comms, 8085 microprocessor instructions, thrust reversal, protection relays, hex-binary conversion, ATR72 BITE, batteries, meter sensitivity, digital codes, JFET, adders, RAT, flux valve handling, cargo door sensing, split bus, TRU, JK flip-flop, Desyn synchro, network topology, FBW, atmosphere layers, radio altimeter, compass error, and autopilot.",
+  "durationMinutes": 150,
+  "totalQuestions": 49,
+  "color": "amber",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which one is the most common IC package?",
+      "options": [
+        "Flat package",
+        "DIP",
+        "BGA"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Dual In-line Package (DIP), with its two parallel rows of pins, has long been the most common and widely recognized IC package, especially for socketed and through-hole assembly."
+    },
+    {
+      "id": 2,
+      "question": "What is the function of a capacitor?",
+      "options": [
+        "To store electrical energy",
+        "To generate electrical energy",
+        "To convert AC to DC"
+      ],
+      "correctIndex": 0,
+      "explanation": "A capacitor stores electrical energy in the electric field between its plates, charging when a voltage is applied and releasing that stored energy when needed."
+    },
+    {
+      "id": 3,
+      "question": "What is the function of a circuit breaker?",
+      "options": [
+        "Protect the wire",
+        "Protect the electrical power source",
+        "Protect the load device only"
+      ],
+      "correctIndex": 0,
+      "explanation": "A circuit breaker's rating is sized to protect the wire it feeds, opening the circuit before an overload or short circuit current can overheat and damage the wiring, rather than primarily protecting the power source itself."
+    },
+    {
+      "id": 4,
+      "question": "What is the function of a transformer?",
+      "options": [
+        "Step up the input power",
+        "Step down the input power",
+        "Both step up and step down input power"
+      ],
+      "correctIndex": 2,
+      "explanation": "A transformer can be designed either to step voltage up or step it down, depending on its turns ratio, so it is capable of both functions depending on how it is wound and applied."
+    },
+    {
+      "id": 5,
+      "question": "What is the power source for a laser gyro?",
+      "options": [
+        "28V DC",
+        "115V AC, 400Hz",
+        "Pneumatic air pressure"
+      ],
+      "correctIndex": 1,
+      "explanation": "Ring laser gyros are typically powered from the aircraft's standard 115V, 400Hz AC supply, which drives the laser and associated electronics, unlike mechanical gyros which historically used DC or pneumatic drive."
+    },
+    {
+      "id": 6,
+      "question": "In a brushless AC generator, the output of the pilot exciter is supplied to the:",
+      "options": [
+        "GCU (Generator Control Unit)",
+        "Main rotor field directly",
+        "Cockpit voltmeter directly"
+      ],
+      "correctIndex": 0,
+      "explanation": "The pilot exciter's output is fed to the Generator Control Unit, which regulates and controls the excitation current supplied onward to the main exciter and rotor field, maintaining the generator's output voltage."
+    },
+    {
+      "id": 7,
+      "question": "Which of the following CVR inputs does NOT go through the cockpit area microphone (CAM)?",
+      "options": [
+        "Pilot/co-pilot headset (boom mic) audio, recorded via a direct interphone feed",
+        "Ambient cockpit sounds and conversation",
+        "Background engine and alarm sounds picked up in the cockpit"
+      ],
+      "correctIndex": 0,
+      "explanation": "Each pilot's headset (boom mic) audio is fed directly into the CVR through the interphone system, while ambient cockpit sounds, conversation and background noise are instead picked up by the cockpit area microphone (CAM) mounted in the overhead panel."
+    },
+    {
+      "id": 8,
+      "question": "What is an advantage of VHF over HF communication?",
+      "options": [
+        "VHF signal is not distorted (clearer audio quality, less affected by atmospheric noise)",
+        "VHF has a much longer range than HF",
+        "VHF can refract off the ionosphere for long-distance communication"
+      ],
+      "correctIndex": 0,
+      "explanation": "VHF line-of-sight transmission gives a clearer, less distorted audio signal that is largely free of the static and atmospheric noise that commonly affects HF, though HF has the advantage of much longer range via ionospheric refraction."
+    },
+    {
+      "id": 9,
+      "question": "What does the CMP instruction do in the 8085 microprocessor?",
+      "options": [
+        "Compares the accumulator with the specified operand",
+        "Copies the accumulator into memory",
+        "Complements every bit in memory"
+      ],
+      "correctIndex": 0,
+      "explanation": "CMP compares the contents of the accumulator with the specified operand by performing an internal subtraction and setting the flags accordingly, without actually changing the accumulator's value."
+    },
+    {
+      "id": 10,
+      "question": "Which of the following has the highest priority interrupt signal in the 8085?",
+      "options": [
+        "TRAP",
+        "RST 7.5",
+        "INTR"
+      ],
+      "correctIndex": 0,
+      "explanation": "TRAP is the highest-priority, non-maskable interrupt in the 8085, always recognized regardless of the interrupt enable flag, reserved for the most critical conditions such as power failure."
+    },
+    {
+      "id": 11,
+      "question": "What does RST mean in the 8085 instruction set?",
+      "options": [
+        "Restart",
+        "Reset system timer",
+        "Return from subroutine"
+      ],
+      "correctIndex": 0,
+      "explanation": "RST (Restart) is a one-byte call instruction that transfers program execution to one of eight fixed restart vector addresses, commonly used to service hardware interrupts."
+    },
+    {
+      "id": 12,
+      "question": "What is the purpose of thrust reversal?",
+      "options": [
+        "To help decelerate the aircraft after landing by redirecting engine exhaust flow forward",
+        "To increase climb thrust during take-off",
+        "To reduce engine fuel consumption during cruise"
+      ],
+      "correctIndex": 0,
+      "explanation": "Thrust reversers redirect the engine's exhaust (or fan) airflow forward instead of aft, producing a reverse thrust force that helps decelerate the aircraft during the landing roll, reducing reliance on the wheel brakes alone."
+    },
+    {
+      "id": 13,
+      "question": "Failure of the differential current relay is backed up by:",
+      "options": [
+        "The exciter (field) protection relay",
+        "The bus tie relay",
+        "The battery relay"
+      ],
+      "correctIndex": 0,
+      "explanation": "If the differential current relay fails to detect an internal generator fault, the exciter (field) protection relay provides a backup protective function, helping isolate the generator to prevent further damage."
+    },
+    {
+      "id": 14,
+      "question": "What is the binary equivalent of the hexadecimal value A5?",
+      "options": [
+        "10100101",
+        "10101010",
+        "01011010"
+      ],
+      "correctIndex": 0,
+      "explanation": "Converting A5 hex to binary directly, digit by digit: A = 1010, 5 = 0101, giving the combined binary value 10100101."
+    },
+    {
+      "id": 15,
+      "question": "On the typical ATR 72 aircraft maintenance panel, the BITE Advisory Display indicates:",
+      "options": [
+        "Illuminated lights showing the code of the recorded failure",
+        "The aircraft's current fuel quantity",
+        "The pilot's selected autopilot mode"
+      ],
+      "correctIndex": 0,
+      "explanation": "The BITE Advisory Display presents the recorded failure as an illuminated code on its lights, allowing maintenance personnel to identify which system fault has been logged by the aircraft's built-in test equipment."
+    },
+    {
+      "id": 16,
+      "question": "What is an advantage of a (two-winding) voltage transformer over an autotransformer?",
+      "options": [
+        "It provides electrical (inductive) isolation between primary and secondary",
+        "It is always smaller and lighter",
+        "It always has a higher efficiency"
+      ],
+      "correctIndex": 0,
+      "explanation": "A conventional (two-winding) transformer's separate primary and secondary windings provide full electrical isolation between the input and output circuits, unlike an autotransformer, which shares a common winding and has no such isolation."
+    },
+    {
+      "id": 17,
+      "question": "When cells are connected in series, the total capacity (Ah) is:",
+      "options": [
+        "The same as a single cell",
+        "The sum of all cell capacities",
+        "The average of all cell capacities"
+      ],
+      "correctIndex": 0,
+      "explanation": "In a series connection, the individual cell voltages add together, but the amp-hour capacity remains equal to that of a single cell, since the same current flows through every cell in the chain."
+    },
+    {
+      "id": 18,
+      "question": "When the load on a motor increases and the motor slows down, the back EMF will:",
+      "options": [
+        "Decrease",
+        "Increase",
+        "Remain the same"
+      ],
+      "correctIndex": 0,
+      "explanation": "Back EMF is directly proportional to motor speed, so as the motor slows under increased load, the back EMF it generates decreases, allowing more armature current to flow to meet the increased torque demand."
+    },
+    {
+      "id": 19,
+      "question": "A meter has an internal resistance of 1 kOhm and a full-scale voltage of 2V. What is its sensitivity?",
+      "options": [
+        "2 mA/V",
+        "0.5 mA/V",
+        "1 mA/V"
+      ],
+      "correctIndex": 2,
+      "explanation": "Full-scale current = V/R = 2V / 1kΩ = 2 mA. Expressed as a sensitivity per volt of full-scale reading, this gives 2 mA / 2 V = 1 mA/V."
+    },
+    {
+      "id": 20,
+      "question": "The number of instantaneous values within one cycle of a waveform is:",
+      "options": [
+        "Countable",
+        "Uncountable",
+        "Exactly equal to the frequency"
+      ],
+      "correctIndex": 1,
+      "explanation": "Since a continuous AC waveform's value changes smoothly at every point in time, there are an infinite (uncountable) number of instantaneous values within a single cycle."
+    },
+    {
+      "id": 21,
+      "question": "Heterodyning is the process of:",
+      "options": [
+        "Mixing two frequencies to produce sum and difference frequencies",
+        "Amplifying a single frequency",
+        "Filtering out a single frequency"
+      ],
+      "correctIndex": 0,
+      "explanation": "Heterodyning combines (mixes) two different frequencies in a non-linear device to produce new sum and difference frequencies, a technique widely used to convert a received RF signal down to a fixed intermediate frequency (IF)."
+    },
+    {
+      "id": 22,
+      "question": "Total internal reflection is the principle behind the operation of a(n):",
+      "options": [
+        "Optical fiber",
+        "Coaxial cable",
+        "Twisted pair cable"
+      ],
+      "correctIndex": 0,
+      "explanation": "Optical fiber relies on total internal reflection at the boundary between the core and cladding to keep light confined and travelling along the fiber's core with minimal loss."
+    },
+    {
+      "id": 23,
+      "question": "A fuel totalizer is used to:",
+      "options": [
+        "Sum the fuel quantity readings from all tanks into a single total reading",
+        "Measure the fuel flow rate to a single engine only",
+        "Measure the temperature of the fuel in the tanks"
+      ],
+      "correctIndex": 0,
+      "explanation": "The fuel totalizer combines the individual tank quantity signals and sums them into a single total fuel quantity reading for the crew, rather than requiring them to add up each tank's indication manually."
+    },
+    {
+      "id": 24,
+      "question": "A DC shunt motor is known for its:",
+      "options": [
+        "Relatively constant speed regardless of load",
+        "Extremely high starting torque",
+        "Speed that varies drastically with load"
+      ],
+      "correctIndex": 0,
+      "explanation": "Because the shunt field winding is connected across a constant voltage supply and stays relatively unaffected by armature current, a DC shunt motor maintains a relatively constant speed even as the load varies."
+    },
+    {
+      "id": 25,
+      "question": "In a reverse-biased JFET, the conduction channel width will:",
+      "options": [
+        "Decrease",
+        "Remain the same",
+        "Increase"
+      ],
+      "correctIndex": 0,
+      "explanation": "Increasing the reverse bias on the JFET's gate-source junction widens the depletion region, which narrows (decreases) the conducting channel width and reduces the current that can flow through the channel."
+    },
+    {
+      "id": 26,
+      "question": "The sum output of a full adder is given by:",
+      "options": [
+        "A XOR B XOR Cin",
+        "A AND B AND Cin",
+        "A OR B OR Cin"
+      ],
+      "correctIndex": 0,
+      "explanation": "A full adder's sum output is the three-input XOR of the two data bits and the carry-in (A XOR B XOR Cin), which correctly produces a 1 only when an odd number of the three inputs are 1."
+    },
+    {
+      "id": 27,
+      "question": "The RAT (Ram Air Turbine) is used to:",
+      "options": [
+        "Supply emergency hydraulic/electrical power during a critical situation, such as dual engine failure",
+        "Provide normal cruise power in place of the engine generators",
+        "Cool the avionics bay during ground operations"
+      ],
+      "correctIndex": 0,
+      "explanation": "The RAT is a small, wind-driven turbine that deploys into the airstream to provide a minimum level of emergency hydraulic and/or electrical power during a critical situation, such as the loss of all engine-driven power sources."
+    },
+    {
+      "id": 28,
+      "question": "An intermittent duty rating is typically used for a period of:",
+      "options": [
+        "2 minutes on, then off",
+        "24 hours continuous operation",
+        "10 seconds on, then off"
+      ],
+      "correctIndex": 0,
+      "explanation": "Intermittent-duty loads, such as landing gear or flap motors, are designed to operate for a short period — typically up to about 2 minutes — and then switch off, rather than running continuously."
+    },
+    {
+      "id": 29,
+      "question": "While working on and around a flux valve, what precaution must be taken?",
+      "options": [
+        "Use non-magnetic tools when working within 3 feet of it",
+        "Always keep it powered during maintenance",
+        "Cover it with a grounding strap at all times"
+      ],
+      "correctIndex": 0,
+      "explanation": "Because the flux valve is extremely sensitive to magnetic disturbance, technicians must use non-magnetic tools when working within about 3 feet of it, to avoid introducing errors into its sensing of the earth's magnetic field."
+    },
+    {
+      "id": 30,
+      "question": "A cargo door is closed but its indication light remains illuminated. What is the probable cause?",
+      "options": [
+        "The cargo door position switch is faulty or misadjusted",
+        "The cabin is not pressurized",
+        "The main landing gear is not down and locked"
+      ],
+      "correctIndex": 0,
+      "explanation": "The door light is driven by the door position switch, so if the door is actually closed but the light stays on, a faulty or misadjusted position switch is the most likely cause of the incorrect indication."
+    },
+    {
+      "id": 31,
+      "question": "A split bus electrical system is typically used on:",
+      "options": [
+        "Twin-engine aircraft",
+        "Single-engine aircraft only",
+        "Aircraft with no battery"
+      ],
+      "correctIndex": 0,
+      "explanation": "A split bus system keeps the two generator/bus sides normally isolated on a twin-engine aircraft, with a tie-bus available to connect them if one generator fails, giving each side its own independent power source under normal conditions."
+    },
+    {
+      "id": 32,
+      "question": "In a TRU (Transformer Rectifier Unit), the transformer is:",
+      "options": [
+        "Step-down",
+        "Step-up",
+        "Isolation only, with a 1:1 ratio"
+      ],
+      "correctIndex": 0,
+      "explanation": "The transformer within a TRU steps the AC input voltage down before it is rectified to the lower 28V DC output used by the aircraft's DC systems."
+    },
+    {
+      "id": 33,
+      "question": "Compared to a basic R-S flip-flop, a JK flip-flop is:",
+      "options": [
+        "Not indeterminate when both inputs are active",
+        "Also indeterminate when both inputs are active",
+        "Unable to be clocked"
+      ],
+      "correctIndex": 0,
+      "explanation": "The JK flip-flop resolves the invalid/indeterminate state that occurs in an R-S flip-flop when both inputs are asserted together; instead of an undefined output, the JK flip-flop toggles its output when both J and K are high."
+    },
+    {
+      "id": 34,
+      "question": "A Desyn synchro system operates on:",
+      "options": [
+        "DC",
+        "AC",
+        "RF"
+      ],
+      "correctIndex": 0,
+      "explanation": "Unlike standard AC-excited synchros, the Desyn remote-indicating system operates on DC, using a simpler two-wire transmission arrangement between the transmitter and receiver."
+    },
+    {
+      "id": 35,
+      "question": "A ring network topology is arranged in a:",
+      "options": [
+        "Circle",
+        "Straight line",
+        "Star pattern"
+      ],
+      "correctIndex": 0,
+      "explanation": "In a ring topology, each device is connected to exactly two neighboring devices, forming a continuous closed loop (circle) around which data is passed from device to device."
+    },
+    {
+      "id": 36,
+      "question": "In a fly-by-wire (FBW) system, the flight control computer is used to:",
+      "options": [
+        "Measure the position of the pilot's control input and the control surfaces",
+        "Physically move the flight control surfaces using cables",
+        "Store passenger data only"
+      ],
+      "correctIndex": 0,
+      "explanation": "In FBW, position sensors measure both the pilot's control input and the actual control surface position, and the flight control computer uses these measurements to compute and command the appropriate control law response through the servo actuators."
+    },
+    {
+      "id": 37,
+      "question": "Which of the following is NOT an actual layer of the Earth's atmosphere?",
+      "options": [
+        "Elluminosphere",
+        "Exosphere",
+        "Thermosphere"
+      ],
+      "correctIndex": 0,
+      "explanation": "The exosphere and thermosphere are genuine layers of the Earth's atmosphere, but 'elluminosphere' is not a recognized atmospheric layer, making it the correct pick as the non-existent term."
+    },
+    {
+      "id": 38,
+      "question": "On a radio altimeter, a pitch attitude of more than 20 degrees will typically result in:",
+      "options": [
+        "An excessive or erroneous radio altitude indication",
+        "A perfectly accurate reading regardless of attitude",
+        "Automatic disconnection of the autopilot"
+      ],
+      "correctIndex": 0,
+      "explanation": "A radio altimeter's beam geometry assumes the antenna is pointed roughly straight down; at extreme pitch (or roll) angles beyond about 20 degrees, the reflected signal path is distorted, producing an excessive or erroneous altitude reading."
+    },
+    {
+      "id": 39,
+      "question": "Quadrantal (quadrature) compass error is caused by:",
+      "options": [
+        "The aircraft's own magnetic structure",
+        "The earth's magnetic dip",
+        "Variation between true and magnetic north"
+      ],
+      "correctIndex": 0,
+      "explanation": "Quadrantal error is caused by the induced magnetism in the aircraft's own structure (particularly ferrous metal parts), which distorts the local magnetic field around the compass and produces an error that varies with the aircraft's heading."
+    },
+    {
+      "id": 40,
+      "question": "If a voltmeter is connected in series with a load, the circuit will effectively behave as a(n):",
+      "options": [
+        "Open circuit",
+        "Short circuit",
+        "Perfectly normal closed circuit"
+      ],
+      "correctIndex": 0,
+      "explanation": "A voltmeter has a very high internal resistance, so inserting one in series with a load (instead of the intended parallel connection) blocks almost all current flow, making the circuit behave essentially as an open circuit."
+    },
+    {
+      "id": 41,
+      "question": "Which of the following is an unweighted binary code?",
+      "options": [
+        "Excess-3 code",
+        "8421 BCD code",
+        "Binary code"
+      ],
+      "correctIndex": 0,
+      "explanation": "Excess-3 is an unweighted code, since its bit positions do not correspond to fixed place-value weights (it is derived by adding 3 to the standard 8421 BCD value), unlike the 8421 BCD code, which is weighted."
+    },
+    {
+      "id": 42,
+      "question": "Which of the following is NOT a characteristic of a primary battery?",
+      "options": [
+        "Reversible (rechargeable)",
+        "Converts chemical energy to electrical energy",
+        "Has a finite, non-rechargeable life once discharged"
+      ],
+      "correctIndex": 0,
+      "explanation": "A primary battery's chemical reaction is not reversible, meaning it cannot be recharged once discharged — this is exactly what distinguishes it from a secondary (rechargeable) battery, so 'reversible' is the characteristic it does NOT have."
+    },
+    {
+      "id": 43,
+      "question": "Which of the following is used from take-off to landing?",
+      "options": [
+        "Auto throttle",
+        "Autopilot",
+        "Autoland only"
+      ],
+      "correctIndex": 0,
+      "explanation": "The autothrottle can remain engaged and active continuously from the take-off roll through to landing, managing thrust throughout the flight, whereas the autopilot is typically not engaged during the take-off roll itself."
+    },
+    {
+      "id": 44,
+      "question": "Engine indications are primarily displayed on the:",
+      "options": [
+        "Center display (EICAS/ECAM)",
+        "Navigation display (ND) only",
+        "Standby instrument only"
+      ],
+      "correctIndex": 0,
+      "explanation": "Primary and secondary engine parameters are shown on the center-mounted EICAS or ECAM display, positioned between the two pilots' primary flight displays for easy reference by both crew members."
+    },
+    {
+      "id": 45,
+      "question": "Which type of sensor is most suited for differential pressure measurement?",
+      "options": [
+        "Bellows",
+        "Bourdon tube",
+        "Thermocouple"
+      ],
+      "correctIndex": 0,
+      "explanation": "Bellows have a large effective area and long stroke, and two of them can be opposed so that the resulting movement is proportional to the difference between the two applied pressures, making them well suited to differential pressure measurement."
+    },
+    {
+      "id": 46,
+      "question": "In older aircraft, the Bourdon tube was used for:",
+      "options": [
+        "Oil temperature indication (via a filled-system remote thermometer)",
+        "Cabin altitude indication",
+        "Fuel quantity indication"
+      ],
+      "correctIndex": 0,
+      "explanation": "Older aircraft used a Bourdon-tube-based filled-system thermometer for oil temperature indication, where a temperature-sensing bulb generates a pressure that the remote Bourdon tube then converts into a temperature reading."
+    },
+    {
+      "id": 47,
+      "question": "A standby altimeter fault is typically caused by a problem with the:",
+      "options": [
+        "Alternate pitot and static source",
+        "Right pitot probe only",
+        "Left pitot probe only"
+      ],
+      "correctIndex": 0,
+      "explanation": "The standby altimeter is normally fed from the alternate (standby) pitot-static source, so a fault or blockage in that alternate source is the typical cause of a standby altimeter malfunction, distinct from the primary left/right pitot-static systems."
+    },
+    {
+      "id": 48,
+      "question": "Which axis is controlled in a single-axis autopilot system?",
+      "options": [
+        "Lateral axis",
+        "Longitudinal axis",
+        "Vertical axis"
+      ],
+      "correctIndex": 0,
+      "explanation": "A single-axis autopilot is a basic wing-leveller: it controls roll about the lateral/longitudinal reference using the ailerons only, with no pitch or yaw control."
+    },
+    {
+      "id": 49,
+      "question": "Per the Barkhausen criterion, for sustained oscillation the loop gain AB must equal:",
+      "options": [
+        "1, with a total phase shift of 360 degrees",
+        "0, with a total phase shift of 180 degrees",
+        "Greater than 1, with no phase shift requirement"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Barkhausen criterion requires the loop gain (amplifier gain × feedback factor) to equal exactly 1, with the total phase shift around the loop equal to 0° or a multiple of 360°, for a self-sustaining oscillation to be maintained."
+    }
+  ]
+}
