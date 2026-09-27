@@ -1,0 +1,563 @@
+{
+  "id": "avo-sub-final-b-271",
+  "title": "AVO sub-final (B-271)",
+  "module": "school final",
+  "course": "avionics",
+  "category": "school_final",
+  "description": "Sub-final exam covering galley ovens, SMPS, CRT, rotary inverters, critical systems, digital subtractors/logic gates, power triangle calculations, status mode, thermocouples, LCD, op-amp gain, batteries, molecules, generators, DC generator armature output, Gramme ring vs drum wound rotors, PCB etching, synchros, ADF, TCAS, FM ratio detector, fiber optics, DC motor torque-speed, PA priority, AGC, transformer turns ratio, GCU, crimping, rectifier ripple frequency, Desyn synchro, series vs shunt motors, demultiplexers, ELT, assemblers, fuel boost pumps, network topology, salient pole rotors, AC supply RMS, capacitive reactance, JFET, pitot-static complexity, pneumatic gyros, and galley power.",
+  "durationMinutes": 150,
+  "totalQuestions": 50,
+  "color": "blue",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which oven type is used to pre-heat a pre-cooked meal using circulating hot air?",
+      "options": [
+        "Convection oven",
+        "Microwave oven",
+        "Induction oven"
+      ],
+      "correctIndex": 0,
+      "explanation": "A convection oven uses a fan to continuously circulate hot air around the food, heating pre-cooked galley meals evenly and efficiently, unlike a microwave oven, which heats using electromagnetic radiation rather than circulated air."
+    },
+    {
+      "id": 2,
+      "question": "What is a disadvantage of an SMPS (Switch Mode Power Supply)?",
+      "options": [
+        "Complex circuitry",
+        "Low efficiency",
+        "Excessive weight"
+      ],
+      "correctIndex": 0,
+      "explanation": "An SMPS achieves its high efficiency and light weight through more complex switching circuitry (control loops, switching elements, filtering) compared to a simple linear power supply, making complexity its main disadvantage."
+    },
+    {
+      "id": 3,
+      "question": "In a CRT, which element emits the electrons?",
+      "options": [
+        "Cathode",
+        "Anode",
+        "Control grid"
+      ],
+      "correctIndex": 0,
+      "explanation": "The heated cathode in a CRT emits electrons through thermionic emission, and these electrons are then focused and accelerated toward the screen by the anode and other elements of the electron gun."
+    },
+    {
+      "id": 4,
+      "question": "A rotary inverter is best described as a:",
+      "options": [
+        "DC motor driving an AC generator",
+        "AC motor driving a DC generator",
+        "Solid-state device with no moving parts"
+      ],
+      "correctIndex": 0,
+      "explanation": "A rotary inverter consists of a DC motor mechanically coupled to and driving an AC generator, converting DC input into AC output through this electromechanical arrangement, unlike a static inverter, which has no moving parts."
+    },
+    {
+      "id": 5,
+      "question": "Which of the following are considered critical systems?",
+      "options": [
+        "Navigation and Communication",
+        "Galley and Entertainment",
+        "Cabin Lighting and Water"
+      ],
+      "correctIndex": 0,
+      "explanation": "Navigation and communication systems are classed as critical systems, since a failure in either could directly endanger the safe continuation of the flight, unlike non-essential cabin systems such as galley equipment or entertainment."
+    },
+    {
+      "id": 6,
+      "question": "A full subtractor circuit subtracts how many inputs?",
+      "options": [
+        "3",
+        "2",
+        "4"
+      ],
+      "correctIndex": 0,
+      "explanation": "A full subtractor takes three inputs — the minuend bit, the subtrahend bit, and a borrow-in from the previous stage — and produces a difference and a borrow-out, unlike a half subtractor, which only handles two inputs with no borrow-in."
+    },
+    {
+      "id": 7,
+      "question": "If power factor = 0.8 and apparent power S = 40 kVA, what is the true (real) power?",
+      "options": [
+        "32 kW",
+        "40 kW",
+        "25 kW"
+      ],
+      "correctIndex": 0,
+      "explanation": "True power = apparent power × power factor = 40 kVA × 0.8 = 32 kW."
+    },
+    {
+      "id": 8,
+      "question": "How can the function Y = A·(B+C) be implemented using only NOR gates?",
+      "options": [
+        "Using 3 NOR gates",
+        "Using 2 NOR gates",
+        "Using 5 NOR gates"
+      ],
+      "correctIndex": 0,
+      "explanation": "Since NOR is a universal gate, any Boolean function can be built from NOR gates alone; the function Y = A·(B+C) can be implemented using a minimum of 3 NOR gates, realizing the OR and AND operations through combinations of NOR gates."
+    },
+    {
+      "id": 9,
+      "question": "The lower display is used to display status messages in which mode?",
+      "options": [
+        "Status mode",
+        "Engine mode",
+        "Compare mode"
+      ],
+      "correctIndex": 0,
+      "explanation": "Selecting status mode on the lower display presents a summary of system faults and status messages, letting the crew or maintenance personnel review the aircraft's current system condition."
+    },
+    {
+      "id": 10,
+      "question": "Are thermocouples protected from the heat they are used to sense, considering a turbine engine's EGT thermocouple?",
+      "options": [
+        "Yes",
+        "No",
+        "Only during ground operation"
+      ],
+      "correctIndex": 0,
+      "explanation": "Yes — EGT thermocouple probes are designed with protective housings and materials that allow them to withstand and accurately sense the very high exhaust gas temperatures without being damaged by that same heat."
+    },
+    {
+      "id": 11,
+      "question": "In an LCD, the amount of voltage applied controls the amount of light to be:",
+      "options": [
+        "Twisted (rotating the liquid crystal molecules)",
+        "Reflected off a mirror",
+        "Absorbed by a phosphor coating"
+      ],
+      "correctIndex": 0,
+      "explanation": "An LCD works by using an applied voltage to twist the orientation of its liquid crystal molecules, which controls how much light passes through or is blocked at each segment or pixel."
+    },
+    {
+      "id": 12,
+      "question": "An amplifier has an input of 1 mA at 10 mV, and an output of 10 mA at 1 V. What is the voltage gain (Av)?",
+      "options": [
+        "100",
+        "10",
+        "1000"
+      ],
+      "correctIndex": 0,
+      "explanation": "Voltage gain = output voltage / input voltage = 1 V / 10 mV = 1000 mV / 10 mV = 100."
+    },
+    {
+      "id": 13,
+      "question": "A battery's chemical reaction does NOT directly affect its:",
+      "options": [
+        "Capacity",
+        "Terminal voltage",
+        "Internal resistance"
+      ],
+      "correctIndex": 0,
+      "explanation": "While the chemical reaction determines voltage and internal resistance behavior, battery capacity (Ah rating) is primarily determined by the physical quantity of active material and plate area, not directly by the type of chemical reaction taking place."
+    },
+    {
+      "id": 14,
+      "question": "A molecule is made up of atoms that can be:",
+      "options": [
+        "The same or different elements",
+        "Only the same element",
+        "Only different elements"
+      ],
+      "correctIndex": 0,
+      "explanation": "A molecule is formed by two or more atoms bonded together, and those atoms can be of the same element (such as O2) or of different elements (such as H2O), so molecules are not restricted to only one case."
+    },
+    {
+      "id": 15,
+      "question": "A generator is best described as the:",
+      "options": [
+        "Primary electrical power source on an aircraft",
+        "Backup electrical power source only",
+        "Emergency-only electrical power source"
+      ],
+      "correctIndex": 0,
+      "explanation": "Engine- or APU-driven generators are the primary source of electrical power on an aircraft during flight, with the battery serving as the secondary/backup source rather than the primary one."
+    },
+    {
+      "id": 16,
+      "question": "Internally (ideally), the armature output in a DC generator is actually:",
+      "options": [
+        "AC",
+        "DC",
+        "Pulsed RF"
+      ],
+      "correctIndex": 0,
+      "explanation": "The voltage generated within the rotating armature coils of a DC generator is inherently alternating (AC); it is the commutator that mechanically rectifies this AC into the pulsating DC output seen at the brushes."
+    },
+    {
+      "id": 17,
+      "question": "The inefficiency of a Gramme ring rotor is overcome by using a:",
+      "options": [
+        "Drum wound rotor",
+        "Salient pole rotor",
+        "Squirrel cage rotor"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Gramme ring winding wastes much of its conductor length inside the ring where it contributes little to the generated EMF; the drum wound rotor design overcomes this inefficiency by using the full length of every conductor on the outer surface."
+    },
+    {
+      "id": 18,
+      "question": "A printed circuit board (PCB) is manufactured using:",
+      "options": [
+        "Photo (chemical) etching",
+        "Injection molding",
+        "Sand casting"
+      ],
+      "correctIndex": 0,
+      "explanation": "PCB copper traces are formed by photo (chemical) etching: a photosensitive resist masks the desired trace pattern, and the unwanted copper is chemically etched away, leaving the conductive circuit pattern behind."
+    },
+    {
+      "id": 19,
+      "question": "In a synchro, which element is excited and magnetically coupled with the rotor?",
+      "options": [
+        "The stator (TX) is excited and magnetically coupled with the rotor",
+        "The rotor is excited and magnetically coupled with another rotor",
+        "There is no magnetic coupling in a synchro"
+      ],
+      "correctIndex": 0,
+      "explanation": "In a synchro, the rotor is excited with an AC reference voltage, and this magnetically (transformer-) couples with the three stator windings, inducing corresponding voltages without any physical/electrical connection between them."
+    },
+    {
+      "id": 20,
+      "question": "The ADF system operates on which frequency range?",
+      "options": [
+        "Low frequency",
+        "Very high frequency",
+        "Ultra high frequency"
+      ],
+      "correctIndex": 0,
+      "explanation": "ADF receivers tune to NDB ground stations transmitting in the low frequency (LF) and medium frequency (MF) bands, distinguishing ADF from VOR (VHF) and radar altimeter/TCAS (UHF) systems."
+    },
+    {
+      "id": 21,
+      "question": "On the ADF control panel, to display bearing information, the pilot should select:",
+      "options": [
+        "ADF",
+        "ANT",
+        "LOOP"
+      ],
+      "correctIndex": 0,
+      "explanation": "Selecting the ADF position combines the loop and sense antenna signals to automatically drive the needle to point toward the tuned station's bearing, unlike the ANT position, which is used only for tuning/identification without bearing information."
+    },
+    {
+      "id": 22,
+      "question": "Which of the following is NOT true about electronic instruments?",
+      "options": [
+        "They use complex electro-mechanical construction",
+        "They reduce instrument panel clutter",
+        "Their solid-state nature increases reliability"
+      ],
+      "correctIndex": 0,
+      "explanation": "Electronic instruments (EIS/glass cockpit displays) replace complex electro-mechanical gauges with solid-state electronic displays, so claiming they 'use complex electro-mechanical construction' is the false statement about them."
+    },
+    {
+      "id": 23,
+      "question": "What must be supplied to an INS before it can find the aircraft's position?",
+      "options": [
+        "The initial position",
+        "The destination airport code",
+        "The current outside air temperature"
+      ],
+      "correctIndex": 0,
+      "explanation": "Because an INS only tracks changes in position by integrating sensed acceleration over time, it must be given an accurate initial position as a starting reference before it can compute the aircraft's ongoing position correctly."
+    },
+    {
+      "id": 24,
+      "question": "For a 3-input AND gate, which input combination gives a high (1) output?",
+      "options": [
+        "A=1, B=1, C=1",
+        "A=1, B=0, C=1",
+        "A=0, B=0, C=0"
+      ],
+      "correctIndex": 0,
+      "explanation": "An AND gate only outputs high when every one of its inputs is high, so all three inputs (A, B, and C) must equal 1 for the 3-input AND gate to output a high (1) result."
+    },
+    {
+      "id": 25,
+      "question": "The yaw channel is used for the:",
+      "options": [
+        "Yaw damper",
+        "Autothrottle",
+        "Altitude hold function"
+      ],
+      "correctIndex": 0,
+      "explanation": "The yaw channel of the AFCS computer processes yaw rate signals and drives the rudder through the yaw damper servo, specifically to damp out Dutch roll oscillation."
+    },
+    {
+      "id": 26,
+      "question": "The aileron is the control surface used in a:",
+      "options": [
+        "Single-axis autopilot system",
+        "Three-axis autopilot system only",
+        "Yaw-only autopilot system"
+      ],
+      "correctIndex": 0,
+      "explanation": "A single-axis autopilot is a basic roll (wing-leveller) system, controlling only the ailerons, without any pitch or yaw channel."
+    },
+    {
+      "id": 27,
+      "question": "Mode S is used for TCAS II's:",
+      "options": [
+        "Resolution Advisory (RA) coordination",
+        "Weather radar tilt control",
+        "Fuel quantity data transmission"
+      ],
+      "correctIndex": 0,
+      "explanation": "TCAS II uses Mode S data-link communication to coordinate Resolution Advisories between two TCAS-equipped aircraft in conflict, ensuring they are issued complementary (not conflicting) maneuver commands."
+    },
+    {
+      "id": 28,
+      "question": "A ratio detector is a type of detector used in:",
+      "options": [
+        "FM (frequency modulation) demodulation",
+        "AM (amplitude modulation) demodulation only",
+        "DC power regulation"
+      ],
+      "correctIndex": 0,
+      "explanation": "A ratio detector demodulates an FM signal by responding to the ratio of two rectified voltages derived from a discriminator transformer, and it has the added benefit of being relatively insensitive to amplitude variations (AM noise) in the incoming signal."
+    },
+    {
+      "id": 29,
+      "question": "Light is used by fiber optic cable to overcome the problem of:",
+      "options": [
+        "Electromagnetic Interference (EMI)",
+        "Excessive weight",
+        "Low bandwidth"
+      ],
+      "correctIndex": 0,
+      "explanation": "Because fiber optic cable carries information as light rather than electrical current, it is completely immune to electromagnetic interference, unlike copper conductors, which can pick up and be disrupted by EMI."
+    },
+    {
+      "id": 30,
+      "question": "A torque-speed curve is used to:",
+      "options": [
+        "Select the appropriate DC motor for an application",
+        "Measure a motor's insulation resistance",
+        "Calculate a motor's operating temperature"
+      ],
+      "correctIndex": 0,
+      "explanation": "A DC motor's torque-speed curve shows how its output torque varies with speed, which helps a technician or engineer select the right motor type (series, shunt, or compound) to match a given application's load and speed requirements."
+    },
+    {
+      "id": 31,
+      "question": "The PA (Public Address) system gives priority to cockpit announcements when there is a simultaneous announcement by:",
+      "options": [
+        "A flight attendant",
+        "The passenger entertainment system",
+        "The boarding music system"
+      ],
+      "correctIndex": 0,
+      "explanation": "The PA priority scheme automatically mutes a lower-priority audio source, so a cockpit crew announcement takes priority over and mutes a simultaneous flight attendant PA announcement."
+    },
+    {
+      "id": 32,
+      "question": "Automatic control of gain in a receiver is called:",
+      "options": [
+        "Automatic Gain Control (AGC)",
+        "Automatic Frequency Control (AFC)",
+        "Automatic Volume Limiting (AVL)"
+      ],
+      "correctIndex": 0,
+      "explanation": "Automatic Gain Control (AGC) continuously adjusts a receiver's amplification so that the output signal level stays relatively constant, compensating for wide variations in incoming signal strength."
+    },
+    {
+      "id": 33,
+      "question": "A transformer has N1 = 400 turns, N2 = 600 turns, and a primary current I1 = 15A. What is the secondary current I2?",
+      "options": [
+        "10 A",
+        "22.5 A",
+        "15 A"
+      ],
+      "correctIndex": 0,
+      "explanation": "For an ideal transformer, N1×I1 = N2×I2, so I2 = (N1×I1)/N2 = (400×15)/600 = 6000/600 = 10 A."
+    },
+    {
+      "id": 34,
+      "question": "The GCU (Generator Control Unit) is used to:",
+      "options": [
+        "Convert AC from the Permanent Magnet Generator (PMG) supply into DC for the exciter",
+        "Directly generate the aircraft's main AC bus power",
+        "Convert DC battery power into AC for the cabin lighting"
+      ],
+      "correctIndex": 0,
+      "explanation": "The GCU rectifies AC power from the permanent magnet generator (PMG) into DC, which is then supplied to the exciter to control and regulate the main generator's field excitation and output voltage."
+    },
+    {
+      "id": 35,
+      "question": "A color code on a crimping tool handle is used to:",
+      "options": [
+        "Identify the correct crimp handle/die for a given wire and terminal size",
+        "Indicate the manufacturing date of the tool",
+        "Indicate the tool's country of origin"
+      ],
+      "correctIndex": 0,
+      "explanation": "Crimping tool handles are color-coded so the correct tool (and matching die) can be quickly identified for the wire and terminal size being worked on, reducing the risk of using an improperly sized crimp."
+    },
+    {
+      "id": 36,
+      "question": "If the input frequency (fin) is 60 Hz, what is the ripple frequency of a full-wave rectifier's output?",
+      "options": [
+        "120 Hz",
+        "60 Hz",
+        "30 Hz"
+      ],
+      "correctIndex": 0,
+      "explanation": "A full-wave rectifier produces one output pulse for each half-cycle of the input, doubling the ripple frequency to twice the input frequency: 2 × 60 Hz = 120 Hz."
+    },
+    {
+      "id": 37,
+      "question": "Which DC synchro system is used for remote position indication?",
+      "options": [
+        "Desyn",
+        "Autosyn",
+        "Magnesyn"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Desyn system is a DC-operated remote-indicating synchro system, distinct from the AC-excited Autosyn and Magnesyn systems, which instead rely on AC excitation (or a permanent-magnet rotor with AC-excited stator)."
+    },
+    {
+      "id": 38,
+      "question": "For a variable speed application, as a technician, which DC motor type should be preferred?",
+      "options": [
+        "Series DC motor",
+        "Shunt DC motor",
+        "Permanent magnet DC motor"
+      ],
+      "correctIndex": 0,
+      "explanation": "A series DC motor's speed varies dramatically with load (from very fast under light load to slow under heavy load), which makes it well suited to variable-speed applications, unlike a shunt motor, which maintains a relatively constant speed regardless of load."
+    },
+    {
+      "id": 39,
+      "question": "A demultiplexer converts:",
+      "options": [
+        "One input to 8 outputs",
+        "8 inputs to one output",
+        "8 inputs to 8 outputs"
+      ],
+      "correctIndex": 0,
+      "explanation": "A demultiplexer performs the opposite function of a multiplexer: it takes a single input and routes it to one of several possible output lines (such as one of eight), selected by a set of control lines."
+    },
+    {
+      "id": 40,
+      "question": "An Automatic Fixed ELT (ELT(AF)) is:",
+      "options": [
+        "Automatically activated and permanently fixed to the aircraft",
+        "Manually activated and carried by survivors",
+        "Automatically deployed (ejected) from the aircraft on impact"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Automatic Fixed ELT is permanently mounted in the aircraft and activates automatically on impact, unlike the deployable type, which ejects from the aircraft, or the survival type, which is manually carried and activated."
+    },
+    {
+      "id": 41,
+      "question": "An assembler is used to:",
+      "options": [
+        "Convert mnemonic (assembly language) code into binary machine language",
+        "Convert binary machine language into a high-level language",
+        "Compile a high-level language directly into hardware"
+      ],
+      "correctIndex": 0,
+      "explanation": "An assembler translates human-readable mnemonic assembly language instructions into the binary machine code that the processor can actually execute."
+    },
+    {
+      "id": 42,
+      "question": "The main fuel booster pumps are typically located in the:",
+      "options": [
+        "Center fuel tank",
+        "Auxiliary fuel tank only",
+        "Fuel jettison line only"
+      ],
+      "correctIndex": 0,
+      "explanation": "Boost pumps are commonly located in the center fuel tank (as well as the main tanks), since the center tank is usually prioritized to feed the engines first, requiring its own dedicated boost pumps."
+    },
+    {
+      "id": 43,
+      "question": "In which network topology does disconnecting one cable cause the entire network to shut down?",
+      "options": [
+        "Ring",
+        "Star",
+        "Mesh"
+      ],
+      "correctIndex": 0,
+      "explanation": "In a ring topology, data travels around a single closed loop connecting every device; if one cable in that loop is disconnected, the loop is broken and the entire network can shut down, unlike a star topology, where only the one disconnected device is affected."
+    },
+    {
+      "id": 44,
+      "question": "What is a disadvantage of a salient pole rotor?",
+      "options": [
+        "It is heavy and bulky",
+        "It cannot be used at high speeds",
+        "It generates excessive electrical noise"
+      ],
+      "correctIndex": 0,
+      "explanation": "The projecting pole pieces of a salient pole rotor make it a heavy and bulky (mechanically less robust at very high speeds) construction, which is why cylindrical (non-salient) rotors are instead used for high-speed applications such as turbine-driven generators."
+    },
+    {
+      "id": 45,
+      "question": "Domestic AC power supply is typically rated at 220V, expressed as:",
+      "options": [
+        "RMS value",
+        "Peak value",
+        "Average value"
+      ],
+      "correctIndex": 0,
+      "explanation": "AC voltage ratings such as the domestic 220V supply are always given as RMS (root-mean-square) values, since RMS represents the equivalent heating/power effect of the AC waveform compared to a DC value of the same magnitude."
+    },
+    {
+      "id": 46,
+      "question": "The symbol used for capacitive reactance is:",
+      "options": [
+        "Xc",
+        "XL",
+        "Z"
+      ],
+      "correctIndex": 0,
+      "explanation": "Capacitive reactance is conventionally symbolized Xc, distinct from XL (inductive reactance) and Z (total impedance, which combines resistance and reactance)."
+    },
+    {
+      "id": 47,
+      "question": "A JFET is a:",
+      "options": [
+        "Voltage-controlled device",
+        "Current-controlled device",
+        "Power-controlled device"
+      ],
+      "correctIndex": 0,
+      "explanation": "A JFET's drain current is controlled by the voltage applied at the gate (which varies the depletion region and channel width), making it a voltage-controlled device, unlike a bipolar junction transistor, which is current-controlled."
+    },
+    {
+      "id": 48,
+      "question": "The complexity of a pitot-static system depends on:",
+      "options": [
+        "The type of aircraft, size of aircraft, and number of locations requiring data",
+        "Only the color of the aircraft's paint scheme",
+        "Only the number of passengers carried"
+      ],
+      "correctIndex": 0,
+      "explanation": "A small single-instrument aircraft needs only a simple pitot-static system, while a large aircraft with multiple crew stations, redundant instruments and multiple data-use locations needs a much more extensive system — so aircraft type, size, and the number of locations requiring pitot-static data all drive the system's complexity."
+    },
+    {
+      "id": 49,
+      "question": "In a pneumatic gyro system, how is the gyro rotor spun up?",
+      "options": [
+        "Air blows through a nozzle into buckets machined around the rotor",
+        "A small DC motor directly drives the rotor shaft",
+        "The rotor is spun by hand before flight"
+      ],
+      "correctIndex": 0,
+      "explanation": "In a pneumatically driven gyro, air is directed through a nozzle onto small buckets machined around the rotor rim, and the impact of this air jet spins the rotor up to its operating speed."
+    },
+    {
+      "id": 50,
+      "question": "Galley power is typically disconnected when:",
+      "options": [
+        "The main generator fails",
+        "The cabin lights are dimmed",
+        "The aircraft reaches cruise altitude"
+      ],
+      "correctIndex": 0,
+      "explanation": "Galley power is one of the first non-essential loads shed when a main generator fails, freeing up the remaining electrical capacity for essential flight systems rather than continuing to supply high-current galley equipment."
+    }
+  ]
+}
