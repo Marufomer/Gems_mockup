@@ -245,7 +245,7 @@
       "question": "Which one is odd?",
       "options": [
         "Flip-flop",
-        "Counter",
+        "decoder",
         "Adder"
       ],
       "correctIndex": 0,
