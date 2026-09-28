@@ -1,0 +1,563 @@
+{
+  "id": "avo-self-test-50",
+  "title": "Avionics Self Test(subfinal) (50Q)",
+  "module": "AVO-ALL",
+  "course": "avionics",
+  "category": "school_final",
+  "description": "50-question self test covering all avionics modules (ET-AV01 to ET-AV07), with question counts per module following the exam blueprint. Questions are drawn from the AVO All Exams 2024 file.",
+  "durationMinutes": 60,
+  "totalQuestions": 50,
+  "color": "blue",
+  "questions": [
+    {
+      "id": 1,
+      "question": "As the cross-sectional area of a conductor increases, its resistance:",
+      "options": [
+        "A. Increases",
+        "B. Stays the same",
+        "C. Decreases"
+      ],
+      "correctIndex": 2,
+      "explanation": "Resistance R = ρL/A, so a larger cross-sectional area gives more paths for electrons and lowers resistance."
+    },
+    {
+      "id": 2,
+      "question": "Which sub-atomic particle carries no electric charge?",
+      "options": [
+        "A. Proton",
+        "B. Neutron",
+        "C. Electron"
+      ],
+      "correctIndex": 1,
+      "explanation": "Protons are positive, electrons negative, and neutrons are electrically neutral."
+    },
+    {
+      "id": 3,
+      "question": "The RC time constant is the time for a capacitor to charge to what percentage of the source voltage?",
+      "options": [
+        "A. 37%",
+        "B. 86%",
+        "C. 63%"
+      ],
+      "correctIndex": 2,
+      "explanation": "After one time constant (τ = RC) a charging capacitor reaches about 63% of the source voltage; it discharges to about 37%."
+    },
+    {
+      "id": 4,
+      "question": "An ammeter must be connected:",
+      "options": [
+        "A. In series with the circuit",
+        "B. In parallel with the load",
+        "C. Across the supply terminals"
+      ],
+      "correctIndex": 0,
+      "explanation": "An ammeter has very low resistance and must carry the circuit current, so it is placed in series."
+    },
+    {
+      "id": 5,
+      "question": "Why is a transformer core made of laminations?",
+      "options": [
+        "A. To decrease eddy current losses",
+        "B. To increase flux leakage",
+        "C. To reduce copper losses"
+      ],
+      "correctIndex": 0,
+      "explanation": "Thin insulated laminations break up the paths of circulating eddy currents in the core, reducing heating and power loss."
+    },
+    {
+      "id": 6,
+      "question": "A transformer has 1000 primary turns on a 250 V AC supply and must give a 400 V secondary. How many secondary turns are needed?",
+      "options": [
+        "A. 1600",
+        "B. 625",
+        "C. 400"
+      ],
+      "correctIndex": 0,
+      "explanation": "Ns = Np × Vs / Vp = 1000 × 400 / 250 = 1600 turns."
+    },
+    {
+      "id": 7,
+      "question": "For an NPN transistor to conduct, its base-emitter junction must be:",
+      "options": [
+        "A. Forward biased",
+        "B. Reverse biased",
+        "C. Left unbiased"
+      ],
+      "correctIndex": 0,
+      "explanation": "An NPN transistor turns on when the base-emitter junction is forward biased (base positive relative to emitter)."
+    },
+    {
+      "id": 8,
+      "question": "In a bridge full-wave rectifier, if one diode opens, the output becomes:",
+      "options": [
+        "A. A half-wave rectified output",
+        "B. A full-wave output with double amplitude",
+        "C. Zero output"
+      ],
+      "correctIndex": 0,
+      "explanation": "With one diode open, one half-cycle path is lost, so only half of each AC cycle is rectified."
+    },
+    {
+      "id": 9,
+      "question": "Which amplifier class gives the highest linearity and lowest distortion?",
+      "options": [
+        "A. Class B",
+        "B. Class C",
+        "C. Class A"
+      ],
+      "correctIndex": 2,
+      "explanation": "A Class A amplifier conducts for the full 360° of the input cycle, giving the best linearity but the lowest efficiency."
+    },
+    {
+      "id": 10,
+      "question": "An astable multivibrator has how many stable states?",
+      "options": [
+        "A. One",
+        "B. Two",
+        "C. None"
+      ],
+      "correctIndex": 2,
+      "explanation": "An astable multivibrator continuously switches between two quasi-stable states, so it has no stable state and works as a free-running oscillator."
+    },
+    {
+      "id": 11,
+      "question": "What is the 2's complement of the binary number 10101011?",
+      "options": [
+        "A. 01010101",
+        "B. 01010100",
+        "C. 10101100"
+      ],
+      "correctIndex": 0,
+      "explanation": "Invert the bits (01010100) to get the 1's complement, then add 1 to get 01010101."
+    },
+    {
+      "id": 12,
+      "question": "Which of the following is NOT a universal gate?",
+      "options": [
+        "A. NAND",
+        "B. NOR",
+        "C. XOR"
+      ],
+      "correctIndex": 2,
+      "explanation": "NAND and NOR can each build any other gate; XOR and XNOR cannot."
+    },
+    {
+      "id": 13,
+      "question": "How many select lines does an 8-to-1 multiplexer require?",
+      "options": [
+        "A. 3",
+        "B. 2",
+        "C. 8"
+      ],
+      "correctIndex": 0,
+      "explanation": "2^3 = 8, so three select lines are needed to choose one of eight inputs."
+    },
+    {
+      "id": 14,
+      "question": "Which type of analog-to-digital converter is the fastest?",
+      "options": [
+        "A. Successive approximation ADC",
+        "B. Dual-slope ADC",
+        "C. Flash ADC"
+      ],
+      "correctIndex": 2,
+      "explanation": "A flash ADC uses one comparator per level and converts in a single step, making it the fastest type."
+    },
+    {
+      "id": 15,
+      "question": "A nibble is equivalent to how many bits?",
+      "options": [
+        "A. 8 bits",
+        "B. 4 bits",
+        "C. 2 bits"
+      ],
+      "correctIndex": 1,
+      "explanation": "A nibble is half a byte, i.e. 4 bits."
+    },
+    {
+      "id": 16,
+      "question": "Which CPU register holds the address of the next instruction to be fetched from memory?",
+      "options": [
+        "A. Stack pointer",
+        "B. Accumulator",
+        "C. Program counter"
+      ],
+      "correctIndex": 2,
+      "explanation": "The program counter points to the next instruction; the stack pointer tracks the stack and the accumulator holds data for the ALU."
+    },
+    {
+      "id": 17,
+      "question": "CISC and RISC stand for:",
+      "options": [
+        "A. Complex Instruction Set Computing and Reduced Instruction Set Computing",
+        "B. Complete Instruction Set Computing and Restricted Instruction Set Computing",
+        "C. Common Integrated System Code and Reduced Integrated System Code"
+      ],
+      "correctIndex": 0,
+      "explanation": "CISC uses a large, complex instruction set; RISC uses a small, simplified set of instructions."
+    },
+    {
+      "id": 18,
+      "question": "Which type of display does not emit its own light?",
+      "options": [
+        "A. CRT",
+        "B. LCD",
+        "C. LED"
+      ],
+      "correctIndex": 1,
+      "explanation": "An LCD works by polarizing crystals that modulate a backlight; CRTs and LEDs produce their own light."
+    },
+    {
+      "id": 19,
+      "question": "When removing an aircraft battery, which terminal is disconnected first?",
+      "options": [
+        "A. Positive",
+        "B. Negative",
+        "C. Both at the same time"
+      ],
+      "correctIndex": 1,
+      "explanation": "Disconnecting the negative (ground) lead first avoids accidental short circuits to the airframe when working on the positive terminal."
+    },
+    {
+      "id": 20,
+      "question": "What is the method of restoring the residual magnetism of a DC generator field?",
+      "options": [
+        "A. Reversing the armature connections",
+        "B. Increasing prime mover speed",
+        "C. Flashing the fields"
+      ],
+      "correctIndex": 2,
+      "explanation": "Flashing the fields applies a brief external DC source to the field windings to re-establish residual magnetism so voltage can build up."
+    },
+    {
+      "id": 21,
+      "question": "In modern aircraft, the Ram Air Turbine (RAT) is used:",
+      "options": [
+        "A. Continuously during normal flight",
+        "B. During every take-off",
+        "C. Only during emergency power loss"
+      ],
+      "correctIndex": 2,
+      "explanation": "The RAT deploys only when normal AC power is lost, supplying emergency power for flight-critical loads."
+    },
+    {
+      "id": 22,
+      "question": "The use of a Variable Frequency Generator (VFG) eliminates the need for:",
+      "options": [
+        "A. The Constant Speed Drive (CSD)",
+        "B. The exciter generator",
+        "C. The voltage regulator"
+      ],
+      "correctIndex": 0,
+      "explanation": "A VFG's output frequency varies with engine speed, so no CSD is required to hold a constant generator speed."
+    },
+    {
+      "id": 23,
+      "question": "The output of a typical aircraft static inverter is:",
+      "options": [
+        "A. 115 V AC, 400 Hz",
+        "B. 28 V DC",
+        "C. 230 V AC, 50 Hz"
+      ],
+      "correctIndex": 0,
+      "explanation": "Aircraft inverters convert DC battery power to 115 V, 400 Hz AC for essential loads."
+    },
+    {
+      "id": 24,
+      "question": "When the control unit reduces electrical load to an acceptable level after a system overload, this is called:",
+      "options": [
+        "A. Load sharing",
+        "B. Bus isolation",
+        "C. Load shedding"
+      ],
+      "correctIndex": 2,
+      "explanation": "Load shedding automatically disconnects non-essential loads to protect the remaining power source."
+    },
+    {
+      "id": 25,
+      "question": "The transformer inside a Transformer Rectifier Unit (TRU) is:",
+      "options": [
+        "A. Step-down",
+        "B. Step-up",
+        "C. A 1:1 isolation type"
+      ],
+      "correctIndex": 0,
+      "explanation": "A TRU steps 115 V AC down to about 28 V AC before rectifying it to 28 V DC."
+    },
+    {
+      "id": 26,
+      "question": "The starting current of a series-wound DC motor, passing through both field and armature windings, produces:",
+      "options": [
+        "A. Low starting torque",
+        "B. High starting torque",
+        "C. Constant starting torque"
+      ],
+      "correctIndex": 1,
+      "explanation": "Because the field flux is proportional to armature current, the series motor produces very high torque at start."
+    },
+    {
+      "id": 27,
+      "question": "Which DC motor is preferred for constant-speed operation?",
+      "options": [
+        "A. Series motor",
+        "B. Universal motor",
+        "C. Shunt motor"
+      ],
+      "correctIndex": 2,
+      "explanation": "A shunt motor's field current is constant, so its speed stays nearly constant under varying load."
+    },
+    {
+      "id": 28,
+      "question": "What is the purpose of an encoder in a servomotor system?",
+      "options": [
+        "A. To measure speed",
+        "B. To measure position",
+        "C. To measure temperature"
+      ],
+      "correctIndex": 1,
+      "explanation": "An encoder gives position feedback; a tachogenerator is used for speed feedback."
+    },
+    {
+      "id": 29,
+      "question": "The explosive device that breaks the diaphragm and discharges a fire extinguisher bottle is called a:",
+      "options": [
+        "A. Guard",
+        "B. Pressure switch",
+        "C. Squib"
+      ],
+      "correctIndex": 2,
+      "explanation": "A squib (cartridge) is fired electrically to rupture the bottle's diaphragm and release the agent."
+    },
+    {
+      "id": 30,
+      "question": "Which electromechanical transducer gives a variable AC output voltage proportional to the angular displacement of its input shaft?",
+      "options": [
+        "A. LVDT",
+        "B. RVDT",
+        "C. Thermocouple"
+      ],
+      "correctIndex": 1,
+      "explanation": "A Rotary Variable Differential Transformer measures angular displacement; an LVDT measures linear displacement."
+    },
+    {
+      "id": 31,
+      "question": "Which of the following is a cause of a false alarm in a fire detection system?",
+      "options": [
+        "A. Low cabin pressure",
+        "B. Moisture",
+        "C. Clean dry air"
+      ],
+      "correctIndex": 1,
+      "explanation": "Moisture can cause leakage/short paths in detector loops and trigger false fire warnings."
+    },
+    {
+      "id": 32,
+      "question": "Mixing two frequencies in a non-linear device is called:",
+      "options": [
+        "A. Heterodyning",
+        "B. Diffraction",
+        "C. Detection"
+      ],
+      "correctIndex": 0,
+      "explanation": "Heterodyning produces sum and difference frequencies and is the basis of the superheterodyne receiver's mixer."
+    },
+    {
+      "id": 33,
+      "question": "What is the length of a half-wave dipole antenna for 100 MHz?",
+      "options": [
+        "A. 3 m",
+        "B. 0.75 m",
+        "C. 1.5 m"
+      ],
+      "correctIndex": 2,
+      "explanation": "λ = c/f = 3×10⁸ / 100×10⁶ = 3 m, so a half-wave dipole is λ/2 = 1.5 m."
+    },
+    {
+      "id": 34,
+      "question": "The VHF communication frequency range is:",
+      "options": [
+        "A. 2 – 29.999 MHz",
+        "B. 118 – 137 MHz",
+        "C. 535 kHz – 1.6 MHz"
+      ],
+      "correctIndex": 1,
+      "explanation": "Aeronautical VHF voice communication operates from 118 to 137 MHz; HF is 2–29.999 MHz."
+    },
+    {
+      "id": 35,
+      "question": "Which ELT frequency is the digital distress signal designed for the Cospas-Sarsat system?",
+      "options": [
+        "A. 121.5 MHz",
+        "B. 243 MHz",
+        "C. 406 MHz"
+      ],
+      "correctIndex": 2,
+      "explanation": "406 MHz beacons transmit a coded digital signal; 121.5 and 243 MHz are older analog frequencies."
+    },
+    {
+      "id": 36,
+      "question": "What is the length of an ARINC 429 data word?",
+      "options": [
+        "A. 32 bits",
+        "B. 16 bits",
+        "C. 64 bits"
+      ],
+      "correctIndex": 0,
+      "explanation": "An ARINC 429 word is 32 bits long (label, SDI, data, SSM and parity)."
+    },
+    {
+      "id": 37,
+      "question": "Data transmission in a fiber-optic cable relies on which property?",
+      "options": [
+        "A. Electromagnetic induction",
+        "B. Ohmic conduction",
+        "C. Total internal reflection"
+      ],
+      "correctIndex": 2,
+      "explanation": "Light is guided in the core because it is totally internally reflected at the core–cladding boundary."
+    },
+    {
+      "id": 38,
+      "question": "Which part of the ILS provides horizontal (lateral) guidance?",
+      "options": [
+        "A. Glide slope",
+        "B. Localizer",
+        "C. Marker beacon"
+      ],
+      "correctIndex": 1,
+      "explanation": "The localizer gives left/right course guidance; the glide slope gives vertical guidance."
+    },
+    {
+      "id": 39,
+      "question": "The operating frequency range of the radio altimeter is:",
+      "options": [
+        "A. 108 – 112 MHz",
+        "B. 4200 – 4400 MHz",
+        "C. 9 – 12 GHz"
+      ],
+      "correctIndex": 1,
+      "explanation": "Radio altimeters operate around 4.3 GHz; 108–112 MHz is the localizer band and 9–12 GHz is weather radar."
+    },
+    {
+      "id": 40,
+      "question": "In the A350-type warning classification, which level describes an abnormal situation requiring crew awareness and corrective action?",
+      "options": [
+        "A. Level 2",
+        "B. Level 0",
+        "C. Level 3"
+      ],
+      "correctIndex": 0,
+      "explanation": "Level 2 covers abnormal situations needing awareness and corrective action; Level 3 is an emergency needing immediate reaction."
+    },
+    {
+      "id": 41,
+      "question": "Why is the main instrument panel sloped forward from the vertical?",
+      "options": [
+        "A. To increase instrument illumination",
+        "B. To reduce vibration",
+        "C. To reduce parallax error"
+      ],
+      "correctIndex": 2,
+      "explanation": "Tilting the panel toward the pilot lets the eye look more directly at the dials, reducing parallax reading errors."
+    },
+    {
+      "id": 42,
+      "question": "Absolute pressure of a fluid minus atmospheric pressure is called:",
+      "options": [
+        "A. Differential pressure",
+        "B. Absolute pressure",
+        "C. Gage pressure"
+      ],
+      "correctIndex": 2,
+      "explanation": "Gage pressure is measured relative to atmospheric pressure."
+    },
+    {
+      "id": 43,
+      "question": "A thermocouple's output voltage is produced by:",
+      "options": [
+        "A. A change in wire resistance",
+        "B. The temperature difference between the hot and cold junctions",
+        "C. Expansion of a bimetallic strip"
+      ],
+      "correctIndex": 1,
+      "explanation": "Two dissimilar metals joined at a hot junction generate an EMF proportional to the temperature difference from the cold junction."
+    },
+    {
+      "id": 44,
+      "question": "Which thermocouple pair is used to measure Exhaust Gas Temperature of a turbine engine?",
+      "options": [
+        "A. Copper-constantan",
+        "B. Iron-constantan",
+        "C. Chromel-alumel"
+      ],
+      "correctIndex": 2,
+      "explanation": "Chromel-alumel withstands the high temperatures of turbine exhaust gas."
+    },
+    {
+      "id": 45,
+      "question": "In a capacitance fuel quantity system, which capacitor parameter changes as the fuel level changes?",
+      "options": [
+        "A. Dielectric",
+        "B. Plate area",
+        "C. Plate spacing"
+      ],
+      "correctIndex": 0,
+      "explanation": "Fuel and air have different dielectric constants, so the capacitance changes as the tank probe is covered by more fuel."
+    },
+    {
+      "id": 46,
+      "question": "An airspeed indicator works using:",
+      "options": [
+        "A. Differential pressure (pitot minus static)",
+        "B. Static pressure only",
+        "C. Pitot temperature"
+      ],
+      "correctIndex": 0,
+      "explanation": "The indicator senses the difference between pitot (total) pressure and static pressure, i.e. dynamic pressure."
+    },
+    {
+      "id": 47,
+      "question": "An electric gyro horizon erection cut-out operates automatically when the bank angle exceeds approximately:",
+      "options": [
+        "A. 30°",
+        "B. 10°",
+        "C. 45°"
+      ],
+      "correctIndex": 1,
+      "explanation": "Erection cut-out disables the erection system in turns beyond about 10° of bank to avoid false erection errors."
+    },
+    {
+      "id": 48,
+      "question": "How many accelerometers are used in an Inertial Reference System (IRS)?",
+      "options": [
+        "A. 2",
+        "B. 3",
+        "C. 4"
+      ],
+      "correctIndex": 1,
+      "explanation": "An IRS uses three accelerometers, one for each axis (north-south, east-west and vertical)."
+    },
+    {
+      "id": 49,
+      "question": "What is the purpose of a yaw damper?",
+      "options": [
+        "A. To reduce phugoid oscillation",
+        "B. To reduce spiral divergence",
+        "C. To reduce Dutch roll"
+      ],
+      "correctIndex": 2,
+      "explanation": "The yaw damper uses the rudder to damp the coupled yaw-roll oscillation known as Dutch roll."
+    },
+    {
+      "id": 50,
+      "question": "The nose-down tendency of an aircraft at high Mach number is called:",
+      "options": [
+        "A. Mach tuck",
+        "B. Dutch roll",
+        "C. Aileron reversal"
+      ],
+      "correctIndex": 0,
+      "explanation": "Mach tuck occurs as the centre of pressure moves aft at high Mach; Mach trim compensates for it."
+    }
+  ]
+}
