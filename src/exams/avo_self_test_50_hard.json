@@ -1,0 +1,563 @@
+{
+  "id": "avo-self-test-50-hard",
+  "title": "Avionics Self Test 2 – Advanced (50Q)",
+  "module": "AVO-ALL",
+  "course": "avionics",
+  "category": "school_final",
+  "description": "Harder 50-question avionics self test (ET-AV01 to ET-AV07) with the same per-module blueprint as Self Test 1. Includes calculation and applied-concept questions with closer distractors, drawn from the AVO All Exams 2024 file.",
+  "durationMinutes": 75,
+  "totalQuestions": 50,
+  "color": "rose",
+  "questions": [
+    {
+      "id": 1,
+      "question": "If the distance between two point charges is doubled, the electrostatic force between them becomes:",
+      "options": [
+        "A. One half of its original value",
+        "B. One quarter of its original value",
+        "C. One eighth of its original value"
+      ],
+      "correctIndex": 1,
+      "explanation": "Coulomb's law: F ∝ 1/r². Doubling r divides the force by 2² = 4."
+    },
+    {
+      "id": 2,
+      "question": "A wire's length is doubled and its cross-sectional area is also doubled (same material, same temperature). Its resistance:",
+      "options": [
+        "A. Doubles",
+        "B. Remains unchanged",
+        "C. Is quartered"
+      ],
+      "correctIndex": 1,
+      "explanation": "R = ρL/A. Doubling both L and A cancels out, so R stays the same."
+    },
+    {
+      "id": 3,
+      "question": "A magnet that was pushed into a coil is now withdrawn. Compared with insertion, the galvanometer deflection is:",
+      "options": [
+        "A. In the opposite direction",
+        "B. In the same direction",
+        "C. Zero, because the flux is constant"
+      ],
+      "correctIndex": 0,
+      "explanation": "By Faraday's and Lenz's laws the induced EMF reverses polarity when the flux change reverses, so the deflection reverses."
+    },
+    {
+      "id": 4,
+      "question": "A series circuit has R = 30 Ω and total impedance Z = 50 Ω. What is its power factor?",
+      "options": [
+        "A. 0.6",
+        "B. 0.8",
+        "C. 0.5"
+      ],
+      "correctIndex": 0,
+      "explanation": "Power factor = R/Z = 30/50 = 0.6 (lagging or leading depending on the reactance)."
+    },
+    {
+      "id": 5,
+      "question": "In a balanced delta connection the phase current is 10 A. The line current is approximately:",
+      "options": [
+        "A. 17.3 A",
+        "B. 10 A",
+        "C. 30 A"
+      ],
+      "correctIndex": 0,
+      "explanation": "In a delta connection I_line = √3 × I_phase = 1.732 × 10 ≈ 17.3 A, while line voltage equals phase voltage."
+    },
+    {
+      "id": 6,
+      "question": "A transformer has 110 primary turns and 20 secondary turns. With 220 V applied to the primary, the secondary voltage is:",
+      "options": [
+        "A. 40 V",
+        "B. 1210 V",
+        "C. 20 V"
+      ],
+      "correctIndex": 0,
+      "explanation": "Vs = Vp × Ns/Np = 220 × 20/110 = 40 V (a step-down transformer)."
+    },
+    {
+      "id": 7,
+      "question": "Once an SCR has been triggered into conduction, it can normally be turned off by:",
+      "options": [
+        "A. Removing the gate signal",
+        "B. Reducing the anode current below the holding current",
+        "C. Applying a negative pulse to the gate only"
+      ],
+      "correctIndex": 1,
+      "explanation": "After latching, the gate loses control. The SCR turns off only when anode current falls below the holding current (or the anode is made negative)."
+    },
+    {
+      "id": 8,
+      "question": "An inverting summing op-amp has three 1 kΩ input resistors, a 2 kΩ feedback resistor and inputs of 1 V, 2 V and 3 V. The output voltage is:",
+      "options": [
+        "A. −6 V",
+        "B. −12 V",
+        "C. +12 V"
+      ],
+      "correctIndex": 1,
+      "explanation": "Vout = −Rf(V1/R1 + V2/R2 + V3/R3) = −2k × (1 + 2 + 3)/1k = −12 V."
+    },
+    {
+      "id": 9,
+      "question": "A 3-phase full-wave rectifier is fed from a 60 Hz supply. The ripple frequency at its output is:",
+      "options": [
+        "A. 180 Hz",
+        "B. 120 Hz",
+        "C. 360 Hz"
+      ],
+      "correctIndex": 2,
+      "explanation": "A 3-phase full-wave rectifier gives six pulses per cycle, so the ripple frequency is 6 × 60 = 360 Hz."
+    },
+    {
+      "id": 10,
+      "question": "Which amplifier class suffers from crossover distortion, which Class AB biasing is designed to overcome?",
+      "options": [
+        "A. Class A",
+        "B. Class C",
+        "C. Class B"
+      ],
+      "correctIndex": 2,
+      "explanation": "In Class B each transistor conducts for 180° and neither conducts near zero crossing. A small forward bias (Class AB) removes the dead zone."
+    },
+    {
+      "id": 11,
+      "question": "The hexadecimal number 2C is equal to which octal number?",
+      "options": [
+        "A. 54",
+        "B. 52",
+        "C. 64"
+      ],
+      "correctIndex": 0,
+      "explanation": "2C₁₆ = 2×16 + 12 = 44₁₀ = 5×8 + 4 = 54₈."
+    },
+    {
+      "id": 12,
+      "question": "Simplify Y = [(A + B′)(C + D′)]′",
+      "options": [
+        "A. A′B + C′D",
+        "B. AB′ + CD′",
+        "C. A′B′ + C′D′"
+      ],
+      "correctIndex": 0,
+      "explanation": "By De Morgan: (A + B′)′ + (C + D′)′ = A′B + C′D."
+    },
+    {
+      "id": 13,
+      "question": "A 4-bit binary adder adds 1111 + 1111 with carry-in 0. The result is:",
+      "options": [
+        "A. Sum = 1111, carry-out = 0",
+        "B. Sum = 0000, carry-out = 1",
+        "C. Sum = 1110, carry-out = 1"
+      ],
+      "correctIndex": 2,
+      "explanation": "15 + 15 = 30 = 11110₂, so the 4-bit sum is 1110 with a carry-out of 1."
+    },
+    {
+      "id": 14,
+      "question": "A 4-bit binary up-counter holds 1010. After 3 clock pulses it holds:",
+      "options": [
+        "A. 1100",
+        "B. 1110",
+        "C. 1101"
+      ],
+      "correctIndex": 2,
+      "explanation": "1010 → 1011 → 1100 → 1101 (10 + 3 = 13)."
+    },
+    {
+      "id": 15,
+      "question": "What is the even-parity bit for the code 1100100, and what is the resulting code word (parity bit first)?",
+      "options": [
+        "A. 0, giving 01100100",
+        "B. 1, giving 11100101",
+        "C. 1, giving 11100100"
+      ],
+      "correctIndex": 2,
+      "explanation": "The code has three 1s (odd). An even-parity bit of 1 makes the total number of 1s four."
+    },
+    {
+      "id": 16,
+      "question": "Which interrupt input of the 8085 microprocessor has the highest priority?",
+      "options": [
+        "A. INTR",
+        "B. RST 5.5",
+        "C. TRAP"
+      ],
+      "correctIndex": 2,
+      "explanation": "The priority order is TRAP (highest), RST 7.5, RST 6.5, RST 5.5, then INTR (lowest). TRAP is also non-maskable."
+    },
+    {
+      "id": 17,
+      "question": "In DO-178B software levels, a failure that prevents the crew from performing their tasks and can cause serious or fatal injuries to some occupants is classified as:",
+      "options": [
+        "A. Hazardous",
+        "B. Catastrophic",
+        "C. Major"
+      ],
+      "correctIndex": 0,
+      "explanation": "Level B (Hazardous/Severe-Major) means a large reduction in safety margins or crew capability; Catastrophic (Level A) would cause loss of the aircraft."
+    },
+    {
+      "id": 18,
+      "question": "What distinguishes the Harvard architecture from the Von Neumann architecture?",
+      "options": [
+        "A. A single shared bus for instructions and data",
+        "B. Separate buses and memories for instructions and data",
+        "C. Use of only 8-bit registers"
+      ],
+      "correctIndex": 1,
+      "explanation": "Harvard uses separate memories and buses for program and data, allowing simultaneous access. Von Neumann uses one shared memory and bus."
+    },
+    {
+      "id": 19,
+      "question": "How does armature reaction lead to brush arcing in a DC generator?",
+      "options": [
+        "A. By shifting the neutral axis away from the brush position",
+        "B. By increasing the field winding resistance",
+        "C. By reducing the number of commutator segments"
+      ],
+      "correctIndex": 0,
+      "explanation": "Armature flux distorts the main field and moves the magnetic neutral plane, so the brushes short coils carrying voltage, producing sparks."
+    },
+    {
+      "id": 20,
+      "question": "Which combination of conditions can cause thermal runaway in a NiCad battery?",
+      "options": [
+        "A. Deep discharge at low temperature",
+        "B. High battery temperature together with overcharging",
+        "C. Charging with too low a current"
+      ],
+      "correctIndex": 1,
+      "explanation": "Overcharge makes the cell generate heat, which lowers internal resistance and increases charge current, a self-reinforcing rise in temperature."
+    },
+    {
+      "id": 21,
+      "question": "A star-connected 3-phase generator has a line voltage of 208 V. The approximate phase voltage is:",
+      "options": [
+        "A. 120 V",
+        "B. 208 V",
+        "C. 360 V"
+      ],
+      "correctIndex": 0,
+      "explanation": "V_phase = V_line/√3 = 208/1.732 ≈ 120 V."
+    },
+    {
+      "id": 22,
+      "question": "Which parameters must be matched before paralleling AC generators?",
+      "options": [
+        "A. Voltage, frequency and phase sequence",
+        "B. Current, power factor and torque",
+        "C. Speed, temperature and load"
+      ],
+      "correctIndex": 0,
+      "explanation": "Generators must have matched voltage, frequency and phase sequence (and phase angle) to avoid large circulating currents when connected."
+    },
+    {
+      "id": 23,
+      "question": "What is the minimum bending radius normally allowed for a wire bundle?",
+      "options": [
+        "A. 3 times the bundle diameter",
+        "B. 20 times the bundle diameter",
+        "C. 10 times the bundle diameter"
+      ],
+      "correctIndex": 2,
+      "explanation": "EWIS practice sets the minimum bend radius of wire bundles at ten times the outside diameter of the bundle to avoid damage to insulation and conductors."
+    },
+    {
+      "id": 24,
+      "question": "Which of the following wire sizes is the largest conductor?",
+      "options": [
+        "A. 10 AWG",
+        "B. 0000 AWG",
+        "C. 22 AWG"
+      ],
+      "correctIndex": 1,
+      "explanation": "In the AWG system a smaller gauge number is a larger conductor; 0000 (4/0) is the largest of the choices."
+    },
+    {
+      "id": 25,
+      "question": "Which is NOT a factor used to determine the size of a wire for an aircraft circuit?",
+      "options": [
+        "A. Insulation strength",
+        "B. Voltage drop",
+        "C. Current-carrying capacity"
+      ],
+      "correctIndex": 0,
+      "explanation": "Wire size is selected for current capacity, allowable voltage drop, resistance and mechanical strength, not by insulation strength."
+    },
+    {
+      "id": 26,
+      "question": "A 3-phase induction motor is supplied at 50 Hz and runs at 1440 rpm. Its percentage slip is:",
+      "options": [
+        "A. 6%",
+        "B. 4%",
+        "C. 2.9%"
+      ],
+      "correctIndex": 1,
+      "explanation": "The nearest synchronous speed (4 poles) is 1500 rpm. Slip = (1500 − 1440)/1500 = 4%."
+    },
+    {
+      "id": 27,
+      "question": "If both the field current direction and the armature current direction of a DC motor are reversed, the motor will:",
+      "options": [
+        "A. Reverse its direction of rotation",
+        "B. Rotate in the same direction",
+        "C. Stop"
+      ],
+      "correctIndex": 1,
+      "explanation": "Torque ∝ flux × armature current. Reversing both reverses the product twice, so the direction is unchanged."
+    },
+    {
+      "id": 28,
+      "question": "A series-wound DC motor is run with no load. What is the danger?",
+      "options": [
+        "A. It can accelerate to destructive speed",
+        "B. It will stall",
+        "C. It will overheat due to high torque"
+      ],
+      "correctIndex": 0,
+      "explanation": "With no load the armature current and field flux fall, so speed rises without limit until the rotor may disintegrate."
+    },
+    {
+      "id": 29,
+      "question": "Cooking fires fueled by liquid cooking materials, greases and oils are classified as:",
+      "options": [
+        "A. Class K",
+        "B. Class C",
+        "C. Class D"
+      ],
+      "correctIndex": 0,
+      "explanation": "Class K covers cooking oils and fats; Class C is electrical and Class D is combustible metals."
+    },
+    {
+      "id": 30,
+      "question": "What is a hazard of excessive use of CO₂ or other agents with a strong cooling effect on an engine fire?",
+      "options": [
+        "A. Fuel line blockage",
+        "B. Over-temperature of the compressor",
+        "C. Turbine housing shrinks on the turbine and may cause the engine to disintegrate"
+      ],
+      "correctIndex": 2,
+      "explanation": "Rapid cooling contracts the turbine housing onto the hot turbine wheel, which can lead to engine failure."
+    },
+    {
+      "id": 31,
+      "question": "Which fire detector type is most suitable for detecting rate of temperature rise?",
+      "options": [
+        "A. Thermal switch (fixed temperature)",
+        "B. Thermocouple system",
+        "C. Ionization smoke detector"
+      ],
+      "correctIndex": 1,
+      "explanation": "Thermocouple detectors respond to the rate of temperature rise, ignoring slow changes; thermal switches respond to a fixed temperature."
+    },
+    {
+      "id": 32,
+      "question": "The ratio of the maximum radiation intensity of an antenna to that of an isotropic antenna radiating the same total power is called:",
+      "options": [
+        "A. Aperture efficiency",
+        "B. Polarization",
+        "C. Directivity"
+      ],
+      "correctIndex": 2,
+      "explanation": "Directivity compares the peak radiation intensity with an isotropic reference radiating the same total power."
+    },
+    {
+      "id": 33,
+      "question": "The bandwidth required for single-sideband suppressed-carrier (SSB-SC) transmission is approximately:",
+      "options": [
+        "A. Equal to conventional AM",
+        "B. Half that of conventional AM",
+        "C. Double that of conventional AM"
+      ],
+      "correctIndex": 1,
+      "explanation": "Conventional AM sends two sidebands (2 × fm). SSB-SC sends only one, so it needs about half the bandwidth."
+    },
+    {
+      "id": 34,
+      "question": "What is the fourth channel of a Cockpit Voice Recorder normally used for?",
+      "options": [
+        "A. The cockpit area microphone",
+        "B. Cabin interphone",
+        "C. Flight data input"
+      ],
+      "correctIndex": 0,
+      "explanation": "A CVR records the pilot, co-pilot and third-crew channels, and the fourth channel is dedicated to the area microphone."
+    },
+    {
+      "id": 35,
+      "question": "An Underwater Locator Beacon (ULB) transmits a usable signal for at least:",
+      "options": [
+        "A. 30 days",
+        "B. 7 days",
+        "C. 90 days"
+      ],
+      "correctIndex": 0,
+      "explanation": "ULBs are designed to operate for 30 days after being activated by immersion in water."
+    },
+    {
+      "id": 36,
+      "question": "What is the maximum number of receivers (sinks) on a single ARINC 429 bus?",
+      "options": [
+        "A. 20",
+        "B. 120",
+        "C. 2"
+      ],
+      "correctIndex": 0,
+      "explanation": "ARINC 429 is a single-transmitter bus that supports up to 20 receivers; ARINC 629 supports up to 120 terminals."
+    },
+    {
+      "id": 37,
+      "question": "What is the maximum data rate of an ARINC 664 / AFDX bus?",
+      "options": [
+        "A. 100 Mbps",
+        "B. 100 kbps",
+        "C. 2 Mbps"
+      ],
+      "correctIndex": 0,
+      "explanation": "AFDX is based on full-duplex switched Ethernet at 100 Mbps; ARINC 429 is 100 kbps and ARINC 629 is 2 Mbps."
+    },
+    {
+      "id": 38,
+      "question": "The middle marker beacon is modulated at 1300 Hz. What color light does it illuminate?",
+      "options": [
+        "A. Amber",
+        "B. Blue",
+        "C. White"
+      ],
+      "correctIndex": 0,
+      "explanation": "Outer marker is blue (400 Hz), middle marker amber (1300 Hz) and inner marker white (3000 Hz)."
+    },
+    {
+      "id": 39,
+      "question": "Which ATC transponder mode allows a specific aircraft to be selectively interrogated and supports a data link?",
+      "options": [
+        "A. Mode S",
+        "B. Mode A",
+        "C. Mode C"
+      ],
+      "correctIndex": 0,
+      "explanation": "Mode S uses a unique 24-bit aircraft address for selective interrogation and includes a data-link capability, also used by TCAS coordination."
+    },
+    {
+      "id": 40,
+      "question": "A TCAS Resolution Advisory is typically issued about how many seconds before the closest point of approach?",
+      "options": [
+        "A. 40 seconds",
+        "B. 60 seconds",
+        "C. 25 seconds"
+      ],
+      "correctIndex": 2,
+      "explanation": "A Traffic Advisory comes at about 40 s and a Resolution Advisory at about 25 s before the closest point of approach."
+    },
+    {
+      "id": 41,
+      "question": "What is the electrical zero of a control synchro system?",
+      "options": [
+        "A. 0°",
+        "B. 180°",
+        "C. 90°"
+      ],
+      "correctIndex": 2,
+      "explanation": "Torque synchros use 0° as electrical zero; control synchros use 90°, where the output voltage is nulled."
+    },
+    {
+      "id": 42,
+      "question": "Which synchro system uses permanent magnets in its rotors?",
+      "options": [
+        "A. Autosyn",
+        "B. Magnesyn",
+        "C. Desynn"
+      ],
+      "correctIndex": 1,
+      "explanation": "A Magnesyn has a permanent-magnet rotor, whereas an Autosyn uses an electromagnet rotor."
+    },
+    {
+      "id": 43,
+      "question": "What is the main advantage of a ratiometer temperature indicator over a Wheatstone bridge indicator?",
+      "options": [
+        "A. It needs no power supply",
+        "B. It uses no resistive sensor",
+        "C. It is less affected by supply voltage variations"
+      ],
+      "correctIndex": 2,
+      "explanation": "A ratiometer's deflection depends on the ratio of two currents, so changes in supply voltage largely cancel out."
+    },
+    {
+      "id": 44,
+      "question": "In an electrical tachometer system using a generator and a synchronous-motor indicator, the indicator responds to the generator's:",
+      "options": [
+        "A. Voltage amplitude",
+        "B. Current magnitude",
+        "C. Frequency"
+      ],
+      "correctIndex": 2,
+      "explanation": "The generator frequency is proportional to engine speed, and the synchronous motor indicator follows that frequency."
+    },
+    {
+      "id": 45,
+      "question": "Which EICAS message level requires immediate corrective action and is displayed in red?",
+      "options": [
+        "A. Caution",
+        "B. Advisory",
+        "C. Warning"
+      ],
+      "correctIndex": 2,
+      "explanation": "Warnings (red) demand immediate crew action; cautions are amber and advisories are white/other."
+    },
+    {
+      "id": 46,
+      "question": "A vertical speed indicator derives the rate of altitude change from changes in:",
+      "options": [
+        "A. Static pressure alone",
+        "B. Pitot minus static pressure",
+        "C. Total temperature"
+      ],
+      "correctIndex": 0,
+      "explanation": "The VSI senses the rate at which static pressure changes, using a calibrated leak between the diaphragm and the case."
+    },
+    {
+      "id": 47,
+      "question": "When a force is applied to a spinning gyro, the resulting movement occurs 90° from the point of application in the direction of rotation. This is called:",
+      "options": [
+        "A. Precession",
+        "B. Rigidity in space",
+        "C. Gimbal error"
+      ],
+      "correctIndex": 0,
+      "explanation": "Gyroscopic precession: the reaction to an applied force appears 90° ahead in the direction of rotor rotation."
+    },
+    {
+      "id": 48,
+      "question": "At which latitudes does an inertial reference unit take longer to align?",
+      "options": [
+        "A. Near the equator",
+        "B. The alignment time is independent of latitude",
+        "C. Higher latitudes"
+      ],
+      "correctIndex": 2,
+      "explanation": "Near the poles the horizontal component of Earth's rotation is small, so gyrocompassing takes longer."
+    },
+    {
+      "id": 49,
+      "question": "Which type of autopilot servo moves the flight control surfaces without moving the pilot's controls?",
+      "options": [
+        "A. Parallel servo",
+        "B. Trim servo",
+        "C. Series servo"
+      ],
+      "correctIndex": 2,
+      "explanation": "A series servo is in the control path and moves only the surface, whereas a parallel servo also moves the pilot's controls."
+    },
+    {
+      "id": 50,
+      "question": "On a flight director, the heading cursor is set 10° more than the actual heading. The command bar deflects toward:",
+      "options": [
+        "A. The right",
+        "B. The left",
+        "C. The center"
+      ],
+      "correctIndex": 0,
+      "explanation": "The steering computer commands a turn toward the selected heading, so the bar moves right to ask for a right turn."
+    }
+  ]
+}
