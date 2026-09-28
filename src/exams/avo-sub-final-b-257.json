@@ -1,0 +1,519 @@
+{
+  "id": "avo-sub-final-b-257",
+  "title": "AVO sub-final (B-257)",
+  "module": "school final",
+  "course": "avionics",
+  "category": "school_final",
+  "description": "Sub-final exam covering atomic basics, soldering tools, JFET pinch-off, TCAS traffic advisories, DC motors and generators, OSI layers, counters, master caution and flood lighting, power factor, turboprop torque, sensors, PN junction barrier, fuel/oil quantity sensing, EADI, pitot ram air, gyro slaving, fire extinguishers, 8085 microprocessor pins, wire selection, NiCad electrolyte, logic gates, antennas, laser gyro dither, GCU, cabin call systems, HF safety, fiber optics, transformers, delta connection, thermocouples, Fleming's rule, multivibrators, capacitive circuits, eddy currents, rectifier ripple, and tachometer drives.",
+  "durationMinutes": 120,
+  "totalQuestions": 46,
+  "color": "teal",
+  "questions": [
+    {
+      "id": 1,
+      "question": "What is the smallest particle of matter?",
+      "options": [
+        "Molecule",
+        "Atom",
+        "Compound"
+      ],
+      "correctIndex": 1,
+      "explanation": "The atom is the smallest particle of an element that retains that element's properties; molecules and compounds are larger structures built from two or more atoms bonded together."
+    },
+    {
+      "id": 2,
+      "question": "Which tool is used to remove (desolder) solder from a joint?",
+      "options": [
+        "Wire stripper",
+        "Solder sucker",
+        "Crimping tool"
+      ],
+      "correctIndex": 1,
+      "explanation": "A solder sucker (desoldering pump) draws molten solder away from a joint once it has been heated, allowing a component or wire to be freed and removed cleanly."
+    },
+    {
+      "id": 3,
+      "question": "In a JFET operating above the pinch-off voltage, the drain current will be:",
+      "options": [
+        "Increasing rapidly",
+        "Constant",
+        "Zero"
+      ],
+      "correctIndex": 1,
+      "explanation": "Once the drain-source voltage exceeds the pinch-off voltage, the conducting channel is fully pinched and the JFET enters its saturation region, where the drain current stays essentially constant regardless of further increases in drain voltage."
+    },
+    {
+      "id": 4,
+      "question": "What does a TCAS Traffic Advisory (TA) provide to the crew?",
+      "options": [
+        "A commanded climb or descent maneuver",
+        "Visual and aural alerts, along with the position of the intruding traffic",
+        "Automatic disconnection of the autopilot"
+      ],
+      "correctIndex": 1,
+      "explanation": "A Traffic Advisory alerts the crew with a visual and aural warning and shows the intruder's relative position (bearing, range and altitude) on the display, but it does not command any maneuver; that is the job of a Resolution Advisory."
+    },
+    {
+      "id": 5,
+      "question": "A series motor is used for applications requiring:",
+      "options": [
+        "Constant speed",
+        "Low starting torque",
+        "High starting torque"
+      ],
+      "correctIndex": 2,
+      "explanation": "In a series motor the full armature current also flows through the field winding, so at starting both are at their highest values, giving the motor a very high starting torque, which is why it is used for starters and heavy-load actuators."
+    },
+    {
+      "id": 6,
+      "question": "In the OSI model, which layer lies between the Session layer and the Application layer?",
+      "options": [
+        "Transport layer",
+        "Presentation layer",
+        "Network layer"
+      ],
+      "correctIndex": 1,
+      "explanation": "The OSI layers from the top are Application (7), Presentation (6), Session (5), Transport (4), Network (3), Data Link (2) and Physical (1), so the Presentation layer sits between the Session and Application layers."
+    },
+    {
+      "id": 8,
+      "question": "The major electrical generation on aircraft is based on the principle of:",
+      "options": [
+        "Magnetism (electromagnetic induction)",
+        "Chemical reaction",
+        "Photovoltaic effect"
+      ],
+      "correctIndex": 0,
+      "explanation": "Aircraft generators and alternators produce electricity by electromagnetic induction, moving conductors through a magnetic field, whereas batteries rely on chemical reaction and solar cells on the photovoltaic effect."
+    },
+    {
+      "id": 9,
+      "question": "How many flip-flops are needed for a counter with 10 output states (a decade counter)?",
+      "options": [
+        "3",
+        "4",
+        "10"
+      ],
+      "correctIndex": 1,
+      "explanation": "n flip-flops give 2^n states, so 3 flip-flops (8 states) are not enough for 10 states, while 4 flip-flops (16 states) are, and the counter is simply reset after the tenth count."
+    },
+    {
+      "id": 10,
+      "question": "Why is the power supply for electronic devices normally DC rather than AC?",
+      "options": [
+        "Because electronic devices prefer DC over AC",
+        "Because AC cannot be transmitted through wires",
+        "Because DC has a higher frequency than AC"
+      ],
+      "correctIndex": 0,
+      "explanation": "Semiconductor devices and digital circuits need a steady, stable supply voltage to operate correctly, so they are powered from DC (obtained by rectifying and filtering AC), rather than directly from a continuously alternating supply."
+    },
+    {
+      "id": 11,
+      "question": "What is the master caution light used for?",
+      "options": [
+        "To alert the crew to an operational fault or abnormal condition in a system",
+        "To illuminate the instrument panel",
+        "To indicate that the landing gear is down and locked"
+      ],
+      "correctIndex": 0,
+      "explanation": "The master caution light draws the crew's attention to a system abnormality or fault condition, prompting them to look at the annunciator or alerting display to identify which system needs attention."
+    },
+    {
+      "id": 12,
+      "question": "Which type of light is used to illuminate a control panel?",
+      "options": [
+        "Strobe light",
+        "Flood light",
+        "Landing light"
+      ],
+      "correctIndex": 1,
+      "explanation": "Flood lights provide general, wide-area illumination of the control and instrument panels so that switches and labels can be read, unlike strobe or landing lights, which are external aircraft lights."
+    },
+    {
+      "id": 13,
+      "question": "The ratio between true power and apparent power is called the:",
+      "options": [
+        "Reactive factor",
+        "Efficiency ratio",
+        "Power factor"
+      ],
+      "correctIndex": 2,
+      "explanation": "Power factor is defined as the ratio of true (real) power to apparent power, equal to the cosine of the phase angle between voltage and current in an AC circuit."
+    },
+    {
+      "id": 14,
+      "question": "On a turbo-propeller engine, power setting depends on:",
+      "options": [
+        "Torque rating",
+        "Cabin pressure",
+        "Oil temperature only"
+      ],
+      "correctIndex": 0,
+      "explanation": "Turboprop engine power is set by reference to the torque delivered to the propeller, since torque is directly related to the power the engine is producing at a given propeller speed."
+    },
+    {
+      "id": 15,
+      "question": "Which element of a measuring system actually measures the physical quantity?",
+      "options": [
+        "Indicator",
+        "Sensing (measuring) element",
+        "Amplifier"
+      ],
+      "correctIndex": 1,
+      "explanation": "The sensing (measuring) element is the first stage of a measuring system; it responds directly to the physical quantity (pressure, temperature, position and so on), and the other stages then process and display that response."
+    },
+    {
+      "id": 16,
+      "question": "If the load on a shunt motor increases, the back EMF (generated voltage) will:",
+      "options": [
+        "Increase",
+        "Remain the same",
+        "Decrease"
+      ],
+      "correctIndex": 2,
+      "explanation": "An increased load slows the shunt motor slightly, and since back EMF is proportional to speed, the back EMF decreases, allowing more armature current to flow to supply the extra torque demanded."
+    },
+    {
+      "id": 17,
+      "question": "When an external voltage is applied to a PN junction, the potential barrier will:",
+      "options": [
+        "Always increase",
+        "Increase or decrease, depending on the bias direction",
+        "Always stay the same"
+      ],
+      "correctIndex": 1,
+      "explanation": "Forward bias narrows the depletion region and lowers the barrier, while reverse bias widens it and raises the barrier, so the effect on the barrier depends on the direction of the applied voltage."
+    },
+    {
+      "id": 18,
+      "question": "What are the components of an oil quantity indicator?",
+      "options": [
+        "Bourdon tube and thermocouple",
+        "Float and reed switch",
+        "Diaphragm and capsule"
+      ],
+      "correctIndex": 1,
+      "explanation": "An oil quantity sensor uses a float carrying a magnet that moves along the tank; reed switches sealed in the probe close as the magnet passes them, giving an electrical signal for the oil level."
+    },
+    {
+      "id": 19,
+      "question": "Pitch indication is shown on the:",
+      "options": [
+        "EHSI",
+        "EADI",
+        "Engine display"
+      ],
+      "correctIndex": 1,
+      "explanation": "The EADI (electronic attitude director indicator) displays the aircraft's pitch and roll attitude, while the EHSI presents horizontal navigation information such as heading and course."
+    },
+    {
+      "id": 20,
+      "question": "Information from the vertical gyro (V/G) is used for calculation by the:",
+      "options": [
+        "Flight data recorder",
+        "AFCS computer",
+        "Fuel quantity indicator"
+      ],
+      "correctIndex": 1,
+      "explanation": "The vertical gyro supplies the aircraft's attitude reference to the AFCS computer, which uses it, together with the other sensor and mode inputs, to calculate the steering commands sent to the servos and command bars."
+    },
+    {
+      "id": 21,
+      "question": "The air entering a pitot tube is called:",
+      "options": [
+        "Bleed air",
+        "Static air",
+        "Ram air"
+      ],
+      "correctIndex": 2,
+      "explanation": "The air forced into the pitot tube by the aircraft's forward motion is called ram air, and the pressure it produces is the pitot (total) pressure used by the airspeed indicator."
+    },
+    {
+      "id": 22,
+      "question": "The drift of a directional gyro is controlled by:",
+      "options": [
+        "Slaving torque",
+        "Hairspring tension",
+        "Cabin pressure"
+      ],
+      "correctIndex": 0,
+      "explanation": "A slaving torque, derived from the flux valve's magnetic heading signal, is applied to the directional gyro to continuously correct its drift and keep it aligned with magnetic north."
+    },
+    {
+      "id": 23,
+      "question": "Fire extinguisher bottles are mostly pressurized with which gas?",
+      "options": [
+        "Oxygen",
+        "Nitrogen",
+        "Hydrogen"
+      ],
+      "correctIndex": 1,
+      "explanation": "Nitrogen is an inert, non-flammable gas, which makes it the standard choice for pressurizing extinguisher bottles so the extinguishing agent is expelled reliably without adding any fire risk."
+    },
+    {
+      "id": 24,
+      "question": "In the 8085, a DMA request is made through which pin?",
+      "options": [
+        "READY",
+        "HOLD",
+        "TRAP"
+      ],
+      "correctIndex": 1,
+      "explanation": "A DMA controller requests control of the buses by asserting the HOLD pin, and the 8085 acknowledges with HLDA once it has released the address and data buses."
+    },
+    {
+      "id": 25,
+      "question": "Which factor is considered when selecting a wire size?",
+      "options": [
+        "Insulation color",
+        "Voltage drop",
+        "Manufacturer's logo"
+      ],
+      "correctIndex": 1,
+      "explanation": "Wire size must be chosen so that the voltage drop along the run stays within permitted limits (along with the current-carrying capacity), whereas insulation color is used only for identification."
+    },
+    {
+      "id": 26,
+      "question": "What electrolyte is used in a Ni-Cad battery?",
+      "options": [
+        "Sulfuric acid",
+        "Potassium hydroxide (KOH)",
+        "Distilled water only"
+      ],
+      "correctIndex": 1,
+      "explanation": "A Ni-Cad battery uses an alkaline electrolyte, potassium hydroxide (KOH), unlike a lead-acid battery, which uses sulfuric acid."
+    },
+    {
+      "id": 27,
+      "question": "What is the sum output of a half adder?",
+      "options": [
+        "A AND B",
+        "A OR B",
+        "A XOR B"
+      ],
+      "correctIndex": 2,
+      "explanation": "A half adder's sum output is A XOR B (1 only when the inputs differ), and its carry output is A AND B."
+    },
+    {
+      "id": 28,
+      "question": "The complement of an OR gate is a:",
+      "options": [
+        "AND gate",
+        "NOR gate",
+        "XOR gate"
+      ],
+      "correctIndex": 1,
+      "explanation": "A NOR gate is simply an OR gate followed by an inverter, so the NOR is the complement of the OR (and, correspondingly, the complement of a NOR gate is an OR)."
+    },
+    {
+      "id": 29,
+      "question": "What is the correct sequence of instruction processing in a microcomputer?",
+      "options": [
+        "Fetch, Decode, Execute",
+        "Execute, Fetch, Decode",
+        "Decode, Execute, Fetch"
+      ],
+      "correctIndex": 0,
+      "explanation": "The processor first fetches the instruction from memory, then decodes it to determine what operation is required, and finally executes it."
+    },
+    {
+      "id": 30,
+      "question": "Which of the following is a type of wire antenna?",
+      "options": [
+        "Parabolic dish",
+        "Horn antenna",
+        "Linear dipole"
+      ],
+      "correctIndex": 2,
+      "explanation": "A linear dipole is a simple wire antenna made of two straight conductors, whereas a parabolic dish and a horn are aperture antennas used at microwave frequencies."
+    },
+    {
+      "id": 31,
+      "question": "Which of the following is a component of an antenna system?",
+      "options": [
+        "Feeder",
+        "Rectifier",
+        "Commutator"
+      ],
+      "correctIndex": 0,
+      "explanation": "The feeder (transmission line) carries the radio-frequency energy between the transmitter or receiver and the radiating element, making it a basic component of an antenna system."
+    },
+    {
+      "id": 32,
+      "question": "What is used to generate vibration in a laser gyro?",
+      "options": [
+        "Dither motor",
+        "Stepper relay",
+        "Magnetic drag cup"
+      ],
+      "correctIndex": 0,
+      "explanation": "A ring laser gyro is mechanically dithered (vibrated) by a dither motor to prevent the two counter-rotating beams from locking together at low rotation rates, a problem known as lock-in."
+    },
+    {
+      "id": 33,
+      "question": "The output of the pilot generator is connected to the:",
+      "options": [
+        "Main generator controller (GCU)",
+        "Cockpit voice recorder",
+        "Battery charger only"
+      ],
+      "correctIndex": 0,
+      "explanation": "The pilot (permanent magnet) generator's output supplies the generator controller, which rectifies it and uses it to regulate the excitation of the main generator."
+    },
+    {
+      "id": 34,
+      "question": "When a call is made from the forward to the aft cabin crew station, the indication at the aft station will be:",
+      "options": [
+        "A red light and horn",
+        "Blue light and chime sound",
+        "No indication"
+      ],
+      "correctIndex": 1,
+      "explanation": "An interphone call between cabin crew stations is announced at the receiving station by a light and a chime tone, so the crew member is alerted that a call is waiting."
+    },
+    {
+      "id": 35,
+      "question": "Why is a salient-pole rotor not used at high speeds?",
+      "options": [
+        "High centrifugal force",
+        "Excessive electrical resistance",
+        "Low magnetic flux"
+      ],
+      "correctIndex": 0,
+      "explanation": "The projecting pole pieces of a salient-pole rotor cannot withstand the large centrifugal forces at high speeds, which is why smooth cylindrical rotors are used for high-speed machines."
+    },
+    {
+      "id": 36,
+      "question": "Which precaution applies when the HF system is operated?",
+      "options": [
+        "Do not operate it with personnel under the fuselage near the HF antenna",
+        "Operate it only when the aircraft is airborne",
+        "Always operate it with the antenna coupler disconnected"
+      ],
+      "correctIndex": 0,
+      "explanation": "The HF transmitter radiates high power through the antenna, and the radiated energy can cause RF burns or shock hazards, so the system must not be operated while people are close to the antenna, for example under the fuselage."
+    },
+    {
+      "id": 37,
+      "question": "Which transmission medium is used for high-bandwidth transmission?",
+      "options": [
+        "Twisted-pair cable",
+        "Fiber optic cable",
+        "Coaxial cable"
+      ],
+      "correctIndex": 1,
+      "explanation": "Fiber optic cable carries information as light and offers far greater bandwidth than twisted-pair or coaxial cable, together with immunity to electromagnetic interference."
+    },
+    {
+      "id": 38,
+      "question": "In a low-resistance (high-current) winding, the conductor is made of:",
+      "options": [
+        "Thin wire with many turns",
+        "Thick wire with few turns",
+        "Thin wire with few turns"
+      ],
+      "correctIndex": 1,
+      "explanation": "A low-resistance, high-current winding uses thick wire (to carry the large current with little heating) and few turns, whereas a high-voltage winding uses many turns of thin wire."
+    },
+    {
+      "id": 39,
+      "question": "In a delta connection, the relationship between line voltage (VL) and phase voltage (VP) is:",
+      "options": [
+        "VL = √3 × VP",
+        "VL = VP",
+        "VL = VP / √3"
+      ],
+      "correctIndex": 1,
+      "explanation": "In a delta connection each phase winding is connected directly across two lines, so the line voltage equals the phase voltage, while the line current is √3 times the phase current."
+    },
+    {
+      "id": 40,
+      "question": "Multiple EGT thermocouple probes are most commonly connected in:",
+      "options": [
+        "Series",
+        "Parallel",
+        "Series-parallel with a shunt"
+      ],
+      "correctIndex": 1,
+      "explanation": "Connecting the thermocouple probes in parallel gives an output that is the average of the individual probe temperatures, so the indicator shows a representative mean EGT and one failed probe does not blank the whole circuit."
+    },
+    {
+      "id": 41,
+      "question": "In the 8085, the ALE pin (pin 30) is important for:",
+      "options": [
+        "Synchronization of the multiplexed address/data lines (address latching)",
+        "Powering the microprocessor",
+        "Selecting the interrupt priority"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Address Latch Enable signal goes high at the start of each machine cycle to tell an external latch when to capture the low-order address from the multiplexed address/data lines, keeping the address and data phases in step."
+    },
+    {
+      "id": 42,
+      "question": "Which rule is used to determine the direction of motion in a motor?",
+      "options": [
+        "Fleming's right-hand rule",
+        "Fleming's left-hand rule",
+        "Lenz's law"
+      ],
+      "correctIndex": 1,
+      "explanation": "Fleming's left-hand rule relates the field, current and force directions for a current-carrying conductor in a magnetic field, and so gives the direction of motion in a motor; the right-hand rule is used for generators."
+    },
+    {
+      "id": 43,
+      "question": "A multivibrator with two stable states (low and high) is called:",
+      "options": [
+        "Astable",
+        "Monostable",
+        "Bistable"
+      ],
+      "correctIndex": 2,
+      "explanation": "A bistable multivibrator (flip-flop) has two stable output states, low and high, and stays in either one until a trigger input changes it."
+    },
+    {
+      "id": 44,
+      "question": "In a purely capacitive circuit:",
+      "options": [
+        "Voltage lags current",
+        "Voltage leads current",
+        "Voltage and current are in phase"
+      ],
+      "correctIndex": 0,
+      "explanation": "In a purely capacitive AC circuit the current leads the voltage by 90 degrees, which is the same as saying the voltage lags the current."
+    },
+    {
+      "id": 45,
+      "question": "Eddy current loss is reduced by:",
+      "options": [
+        "Using a solid core",
+        "Lamination of the core",
+        "Increasing the supply frequency"
+      ],
+      "correctIndex": 1,
+      "explanation": "Building the core from thin insulated laminations breaks up the paths available for eddy currents, greatly reducing the circulating currents and the heat they cause."
+    },
+    {
+      "id": 46,
+      "question": "The output of an AC rectifier (before filtering) contains:",
+      "options": [
+        "Ripple",
+        "Pure sine waves",
+        "Perfectly steady DC"
+      ],
+      "correctIndex": 0,
+      "explanation": "A rectifier only converts the AC into unidirectional pulses, so its output still varies (ripple) and needs a smoothing filter to become steady DC."
+    },
+    {
+      "id": 47,
+      "question": "The drive shaft of a tachometer is connected using a:",
+      "options": [
+        "Rigid steel rod",
+        "Flexible cable",
+        "Chain drive"
+      ],
+      "correctIndex": 1,
+      "explanation": "A flexible drive cable allows for the offset and misalignment between the engine accessory drive and the indicator while still transmitting rotational speed accurately."
+    }
+  ]
+}
