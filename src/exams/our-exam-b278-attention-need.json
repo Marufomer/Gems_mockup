@@ -1,0 +1,145 @@
+{
+  "id": "our-exam-b278-attention-need",
+  "title": "Our-exam-b278-attention-need",
+  "module": "All avionics",
+  "course": "avionics",
+  "category": "our_exam_b278",
+  "description": "Avionics examination questions for B278.",
+  "durationMinutes": 150,
+  "totalQuestions": 12,
+  "color": "blue",
+  "questions": [
+    {
+      "id": 1,
+      "question": "What is a multiplexer?",
+      "options": [
+        "A. Device that changes/multiplexes signals into one",
+        "B. Device that stores electrical energy continuously",
+        "C. Device that separates one signal into several outputs"
+      ],
+      "correctIndex": 0,
+      "explanation": "A multiplexer is used to select a signal and route it through a single output path."
+    },
+    {
+      "id": 2,
+      "question": "What does the resolution of an ADC represent?",
+      "options": [
+        "A. Total number of power supplies connected to the converter",
+        "B. Smallest input signal change",
+        "C. Maximum output voltage of the converter"
+      ],
+      "correctIndex": 1,
+      "explanation": "ADC resolution is the smallest change in input signal that the converter can distinguish."
+    },
+    {
+      "id": 3,
+      "question": "How many inputs and outputs does a D flip-flop have?",
+      "options": [
+        "A. 1 input, 2 outputs",
+        "B. 2 inputs, 2 outputs",
+        "C. 2 inputs, 1 output"
+      ],
+      "correctIndex": 0,
+      "explanation": "The supplied answer identifies one data input and two complementary outputs, Q and Q̅."
+    },
+    {
+      "id": 4,
+      "question": "What does the strobe function in a register do?",
+      "options": [
+        "A. Convert AC directly into hydraulic pressure",
+        "B. Register an ON and OFF condition",
+        "C. Increase the battery voltage"
+      ],
+      "correctIndex": 1,
+      "explanation": "The supplied answer describes the strobe function as registering an ON/OFF condition."
+    },
+    {
+      "id": 5,
+      "question": "When a circuit is connected in parallel, what condition is indicated by the supplied answer?",
+      "options": [
+        "A. Open circuits",
+        "B. Short circuits",
+        "C. Closed circuits"
+      ],
+      "correctIndex": 1,
+      "explanation": "The source marks Short circuits as the answer for this question."
+    },
+    {
+      "id": 6,
+      "question": "Which term ranks materials according to electron gain or loss?",
+      "options": [
+        "A. Triboelectric",
+        "B. Thermoelectric",
+        "C. Conductivity"
+      ],
+      "correctIndex": 0,
+      "explanation": "The supplied answer is Triboelectric, which relates to the tendency of materials to gain or lose electrons through contact."
+    },
+    {
+      "id": 7,
+      "question": "Battery capacity is measured in what unit?",
+      "options": [
+        "A. Ohm",
+        "B. Ampere-hour",
+        "C. Volt"
+      ],
+      "correctIndex": 1,
+      "explanation": "Battery capacity is expressed in ampere-hours (Ah)."
+    },
+    {
+      "id": 8,
+      "question": "In a series circuit, the ammeter will be connected with what?",
+      "options": [
+        "A. Circuit insulation",
+        "B. Load",
+        "C. Battery case"
+      ],
+      "correctIndex": 1,
+      "explanation": "The supplied answer is load. An ammeter is connected in series with the circuit element whose current is being measured."
+    },
+    {
+      "id": 9,
+      "question": "When a circuit is RC, what is the phase angle between voltage and current?",
+      "options": [
+        "A. Less than 90 degrees",
+        "B. Exactly 90 degrees",
+        "C. Exactly 180 degrees"
+      ],
+      "correctIndex": 0,
+      "explanation": "The supplied answer states that the RC phase angle is less than 90 degrees."
+    },
+    {
+      "id": 10,
+      "question": "In an RC circuit, the current will do what relative to voltage?",
+      "options": [
+        "A. Lag voltage",
+        "B. Lead voltage",
+        "C. Remain exactly in phase with voltage"
+      ],
+      "correctIndex": 1,
+      "explanation": "The supplied answer is that current leads voltage in an RC circuit."
+    },
+    {
+      "id": 11,
+      "question": "Which term explains an increase in amplification?",
+      "options": [
+        "A. Loss",
+        "B. Signal",
+        "C. Gain"
+      ],
+      "correctIndex": 2,
+      "explanation": "Gain represents amplification of a signal; increasing amplification means increasing gain."
+    },
+    {
+      "id": 12,
+      "question": "How can a false alarm in an engine fire detection loop be identified according to the supplied answer?",
+      "options": [
+        "A. Disconnecting the loop",
+        "B. Increasing engine speed",
+        "C. Opening the fuel tank"
+      ],
+      "correctIndex": 0,
+      "explanation": "The supplied answer identifies disconnecting the loop as the method for identifying the false alarm."
+    }
+  ]
+}
