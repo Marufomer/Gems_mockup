@@ -1,0 +1,871 @@
+{
+  "id": "avo-school-final-b243new",
+  "title": "AVO SchoolFinal (B-243new)",
+  "module": "school final",
+  "course": "avionics",
+  "category": "school_final",
+  "description": "AVO SchoolFinal (B-243new) with three choices and explanations.",
+  "durationMinutes": 150,
+  "totalQuestions": 78,
+  "color": "blue",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which technology is widely used in PCBs for avionics systems?",
+      "options": [
+        "Surface Mounting Technology (SMT)",
+        "Vacuum tube technology",
+        "Hydraulic mounting technology"
+      ],
+      "correctIndex": 0,
+      "explanation": "SMT places electronic components directly onto the surface of a PCB, allowing compact, lightweight and high-density avionics assemblies."
+    },
+    {
+      "id": 2,
+      "question": "When a circuit cannot be de-energized to save a victim, what should be done?",
+      "options": [
+        "Wear protective equipment and remove the victim",
+        "Touch the victim directly with bare hands",
+        "Increase the circuit voltage"
+      ],
+      "correctIndex": 0,
+      "explanation": "When power cannot be removed, protective equipment helps isolate the rescuer from electrical contact while the victim is safely removed from the source."
+    },
+    {
+      "id": 3,
+      "question": "In an RC circuit, which quantity leads the other?",
+      "options": [
+        "Current leads voltage",
+        "Voltage leads current",
+        "Current and voltage are always in phase"
+      ],
+      "correctIndex": 0,
+      "explanation": "In a capacitive RC circuit, current leads voltage because the capacitor current depends on the rate of change of voltage."
+    },
+    {
+      "id": 4,
+      "question": "In an electrical circuit, when does a capacitor stop charging?",
+      "options": [
+        "When capacitor power is greater than battery power",
+        "When capacitor power is less than battery power",
+        "When capacitor voltage becomes equal to the battery voltage"
+      ],
+      "correctIndex": 2,
+      "explanation": "A capacitor stops charging when its voltage reaches the battery or supply voltage, so there is no longer a driving voltage for charging current."
+    },
+    {
+      "id": 5,
+      "question": "Which one generates square, sinusoidal, triangular, and sawtooth waves?",
+      "options": [
+        "Oscillator",
+        "AC generator",
+        "Function generator"
+      ],
+      "correctIndex": 2,
+      "explanation": "A function generator is designed to produce common test waveforms such as sine, square, triangular and sawtooth waves."
+    },
+    {
+      "id": 6,
+      "question": "Which motor can operate from either series AC or DC?",
+      "options": [
+        "Synchronous motor",
+        "Universal motor",
+        "Induction motor"
+      ],
+      "correctIndex": 1,
+      "explanation": "A universal motor is designed to operate on either AC or DC and is commonly a series-connected motor."
+    },
+    {
+      "id": 7,
+      "question": "How many layers can a PCB be made from according to the supplied answer?",
+      "options": [
+        "Even layers",
+        "Odd layers",
+        "Only one layer"
+      ],
+      "correctIndex": 0,
+      "explanation": "The supplied answer identifies even layers. Multilayer PCBs are built from stacked conductive layers separated by insulating material."
+    },
+    {
+      "id": 8,
+      "question": "Which type of battery has essentially unchanged specific gravity during discharge?",
+      "options": [
+        "Ni-Cd battery",
+        "Lead-acid battery",
+        "Silver-zinc battery"
+      ],
+      "correctIndex": 0,
+      "explanation": "Ni-Cd battery electrolyte specific gravity changes very little during discharge compared with lead-acid batteries."
+    },
+    {
+      "id": 9,
+      "question": "Which OSI layer oversees delivery of a data unit between two systems on different networks?",
+      "options": [
+        "Network layer",
+        "Physical layer",
+        "Presentation layer"
+      ],
+      "correctIndex": 0,
+      "explanation": "The OSI network layer handles logical addressing and routing so data can be delivered between systems on different networks."
+    },
+    {
+      "id": 10,
+      "question": "What is the synchronous speed of a 4-pole, 400 Hz machine?",
+      "options": [
+        "6,000 rpm",
+        "12,000 rpm",
+        "24,000 rpm"
+      ],
+      "correctIndex": 1,
+      "explanation": "Synchronous speed is Ns = 120f/P = 120×400/4 = 12,000 rpm."
+    },
+    {
+      "id": 11,
+      "question": "In a delta connection, what is the relationship between line current and phase current?",
+      "options": [
+        "Line current is 1.73 times phase current",
+        "Phase current is 1.73 times line current",
+        "Line current equals phase current"
+      ],
+      "correctIndex": 0,
+      "explanation": "In a balanced delta connection, line current is √3 times phase current, approximately 1.73 times."
+    },
+    {
+      "id": 12,
+      "question": "When both the base-emitter and collector-base junctions of a transistor are forward biased, the transistor is in which mode?",
+      "options": [
+        "Cutoff mode",
+        "Active mode",
+        "Saturation mode"
+      ],
+      "correctIndex": 2,
+      "explanation": "With both the base-emitter and collector-base junctions forward biased, the transistor operates in saturation."
+    },
+    {
+      "id": 13,
+      "question": "Which one is not a type of flip-flop?",
+      "options": [
+        "M flip-flop",
+        "T flip-flop",
+        "D flip-flop"
+      ],
+      "correctIndex": 0,
+      "explanation": "M flip-flop is not a standard basic flip-flop type; common types include SR, JK, D and T."
+    },
+    {
+      "id": 14,
+      "question": "For a monotonic DAC, when the digital input increases, what happens to the analog output?",
+      "options": [
+        "The analog output increases",
+        "The analog output decreases",
+        "There is no change"
+      ],
+      "correctIndex": 0,
+      "explanation": "A monotonic DAC gives an increasing analog output as the digital input code increases, without reversing direction."
+    },
+    {
+      "id": 15,
+      "question": "Besides conventional avionics, what is another classification of avionics?",
+      "options": [
+        "IMA",
+        "Digital",
+        "Analog"
+      ],
+      "correctIndex": 0,
+      "explanation": "Integrated Modular Avionics (IMA) is another major avionics architecture/classification in which computing resources are shared among applications."
+    },
+    {
+      "id": 16,
+      "question": "What solution assigns input lines when multiple requests are asserted?",
+      "options": [
+        "Decoder",
+        "Priority encoder",
+        "Oscillator"
+      ],
+      "correctIndex": 1,
+      "explanation": "A priority encoder resolves multiple asserted requests by assigning priority and producing a coded output for the selected input."
+    },
+    {
+      "id": 17,
+      "question": "What is a major problem of sky-wave propagation?",
+      "options": [
+        "Time delay",
+        "Terrain blockage only",
+        "No propagation delay"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sky-wave propagation can introduce significant time delays because radio waves may travel through different ionospheric paths."
+    },
+    {
+      "id": 18,
+      "question": "If the number of coils increases, what happens to the voltage variation between maximum and minimum?",
+      "options": [
+        "It increases",
+        "It decreases",
+        "It remains exactly equal"
+      ],
+      "correctIndex": 1,
+      "explanation": "Increasing the number of coils changes the generated waveform and can reduce the variation between maximum and minimum voltage in the supplied context."
+    },
+    {
+      "id": 19,
+      "question": "Several displays are in view only when the display unit is active. These are considered what type of displays?",
+      "options": [
+        "Full-time",
+        "Part-time",
+        "Always displayed"
+      ],
+      "correctIndex": 1,
+      "explanation": "Part-time displays are shown only when the associated display unit or function is active or required."
+    },
+    {
+      "id": 20,
+      "question": "Where is FD displayed?",
+      "options": [
+        "On the PFD",
+        "Only on the EICAS",
+        "Only on the weather radar"
+      ],
+      "correctIndex": 0,
+      "explanation": "Flight director guidance is normally presented on the Primary Flight Display (PFD) so the pilot can follow the commanded flight path."
+    },
+    {
+      "id": 21,
+      "question": "If an S-R flip-flop is set, the output is",
+      "options": [
+        "Set",
+        "Reset",
+        "No change"
+      ],
+      "correctIndex": 0,
+      "explanation": "When an S-R flip-flop is set, its output is in the set state, normally represented by Q = 1."
+    },
+    {
+      "id": 22,
+      "question": "When a load is connected to a battery, electron flow is from",
+      "options": [
+        "Positive to negative",
+        "Negative to positive",
+        "Both directions equally"
+      ],
+      "correctIndex": 1,
+      "explanation": "Conventional electron flow in a metallic conductor is from the negative terminal toward the positive terminal."
+    },
+    {
+      "id": 23,
+      "question": "On modern light aircraft, which type of voltage regulator is used?",
+      "options": [
+        "Solid-state",
+        "Carbon-pile",
+        "Vibration type"
+      ],
+      "correctIndex": 0,
+      "explanation": "Modern light aircraft commonly use solid-state voltage regulators because they provide reliable electronic voltage control with few moving parts."
+    },
+    {
+      "id": 24,
+      "question": "Why do modern AC alternators not utilize brushes or slip rings?",
+      "options": [
+        "It eliminates the need for brushes or slip rings",
+        "It increases brush wear",
+        "It requires more slip rings"
+      ],
+      "correctIndex": 0,
+      "explanation": "Brushless AC generators use an exciter arrangement to supply the main field, eliminating the need for brushes and slip rings at the main rotating interface."
+    },
+    {
+      "id": 25,
+      "question": "Which power source is considered critical in an aircraft?",
+      "options": [
+        "Aircraft battery",
+        "Aircraft generator",
+        "Alternator"
+      ],
+      "correctIndex": 0,
+      "explanation": "The aircraft battery is considered a critical source because it can supply essential electrical services when the normal generating sources are unavailable."
+    },
+    {
+      "id": 26,
+      "question": "Which is the main power source in an aircraft?",
+      "options": [
+        "Engine-driven generator",
+        "Battery",
+        "RAT"
+      ],
+      "correctIndex": 0,
+      "explanation": "The engine-driven generator is the main normal electrical power source on many aircraft once the engine is operating."
+    },
+    {
+      "id": 27,
+      "question": "What is the primary purpose of conduit?",
+      "options": [
+        "Mechanical protection for cables and wires",
+        "To increase fuel pressure",
+        "To provide radio modulation"
+      ],
+      "correctIndex": 0,
+      "explanation": "Conduit primarily protects electrical cables and wires from mechanical damage and environmental hazards."
+    },
+    {
+      "id": 28,
+      "question": "On which instrument is directional reference displayed?",
+      "options": [
+        "EADI",
+        "EHSI",
+        "ECAM"
+      ],
+      "correctIndex": 1,
+      "explanation": "The EHSI combines horizontal situation information with directional reference, making it the display identified in the source answer."
+    },
+    {
+      "id": 29,
+      "question": "The conduction of a photodiode depends on",
+      "options": [
+        "Electrons and holes",
+        "Only neutrons",
+        "Only protons"
+      ],
+      "correctIndex": 0,
+      "explanation": "Photodiode conduction involves the movement of electrons and holes generated by incident light in the semiconductor material."
+    },
+    {
+      "id": 30,
+      "question": "A 3-byte instruction contains",
+      "options": [
+        "Two opcodes plus one 8-bit address",
+        "One opcode plus one 8-bit address",
+        "One opcode plus a two 8-bit address"
+      ],
+      "correctIndex": 2,
+      "explanation": "A 3-byte instruction contains one opcode byte plus two additional bytes used to carry the 16-bit address/data information, matching the supplied answer."
+    },
+    {
+      "id": 31,
+      "question": "The Carry (CY) flag is used to",
+      "options": [
+        "Indicate carry-out conditions during arithmetic and logical operations",
+        "Measure fuel quantity",
+        "Set the engine thrust"
+      ],
+      "correctIndex": 0,
+      "explanation": "The carry flag indicates a carry out from an arithmetic operation and is also affected by certain logical and comparison operations."
+    },
+    {
+      "id": 32,
+      "question": "Which addressing mode specifies the operand address by a register pair?",
+      "options": [
+        "Implicit addressing mode",
+        "Direct addressing mode",
+        "Register addressing mode"
+      ],
+      "correctIndex": 2,
+      "explanation": "Register-pair addressing uses the contents of a register pair to specify the operand address."
+    },
+    {
+      "id": 33,
+      "question": "What does INR D do?",
+      "options": [
+        "Increment the contents of register D",
+        "Decrement the contents of register D",
+        "Clear register D"
+      ],
+      "correctIndex": 0,
+      "explanation": "The 8085 INR D instruction increases the contents of register D by one."
+    },
+    {
+      "id": 34,
+      "question": "Which generator contains a pilot generator, exciter generator, and main generator?",
+      "options": [
+        "Brushless generator",
+        "Permanent-magnet generator",
+        "Split-ring generator"
+      ],
+      "correctIndex": 0,
+      "explanation": "A brushless generator system can contain a pilot generator, exciter and main generator, with the excitation transferred without brushes."
+    },
+    {
+      "id": 35,
+      "question": "The speed of a motor is directly proportional to",
+      "options": [
+        "Torque",
+        "Number of poles",
+        "Frequency"
+      ],
+      "correctIndex": 2,
+      "explanation": "The supplied answer relates motor speed to frequency: for an AC motor, synchronous speed is proportional to frequency and inversely proportional to the number of poles."
+    },
+    {
+      "id": 36,
+      "question": "The frequency band of a DME antenna is",
+      "options": [
+        "VHF",
+        "UHF",
+        "HF"
+      ],
+      "correctIndex": 1,
+      "explanation": "DME operates in the UHF region, around 960–1215 MHz."
+    },
+    {
+      "id": 37,
+      "question": "What is the frequency range of an ADF antenna?",
+      "options": [
+        "90 kHz to 1800 kHz",
+        "30 MHz to 300 MHz",
+        "3 GHz to 30 GHz"
+      ],
+      "correctIndex": 0,
+      "explanation": "ADF operates in the low- and medium-frequency ranges; the supplied answer gives 90 kHz to 1800 kHz."
+    },
+    {
+      "id": 38,
+      "question": "Which type of gyroscope is used in modern aircraft according to the supplied answer?",
+      "options": [
+        "Electrical",
+        "Solid-state",
+        "Mechanical"
+      ],
+      "correctIndex": 1,
+      "explanation": "The supplied answer identifies solid-state gyros, which use electronic sensing rather than conventional spinning mechanical rotors."
+    },
+    {
+      "id": 39,
+      "question": "Which statement is true about EPR (Engine Pressure Ratio)?",
+      "options": [
+        "Only statement 1 is true: EPR is the ratio of exhaust to inlet pressure which measures thrust",
+        "Only statement 2 is true",
+        "Both statements are true"
+      ],
+      "correctIndex": 0,
+      "explanation": "EPR is the ratio of exhaust pressure to inlet pressure and is used as an engine thrust indication parameter, so statement 1 is the true one in the source."
+    },
+    {
+      "id": 40,
+      "question": "Which process is key to laser beam formation during light amplification?",
+      "options": [
+        "Spontaneous emission",
+        "Stimulated emission",
+        "Avalanche emission"
+      ],
+      "correctIndex": 1,
+      "explanation": "Stimulated emission causes an excited atom to release a photon matching the stimulating photon, which is the key process used in laser amplification."
+    },
+    {
+      "id": 41,
+      "question": "What section represents the type of information contained within the 32-bit ARINC 429 word?",
+      "options": [
+        "Label",
+        "Parity",
+        "Data"
+      ],
+      "correctIndex": 0,
+      "explanation": "The ARINC 429 label identifies the type or meaning of the information contained in the 32-bit word."
+    },
+    {
+      "id": 42,
+      "question": "What is a typical receiver function in an optical fiber communication system?",
+      "options": [
+        "Encoding of input data",
+        "Optical signal to output electrical signal conversion",
+        "Electrical to optical conversion"
+      ],
+      "correctIndex": 1,
+      "explanation": "An optical receiver detects the incoming light and converts the optical signal into an electrical output signal."
+    },
+    {
+      "id": 43,
+      "question": "Which detector is used for bleed-air temperature detection in a pipe-to-pipe connection?",
+      "options": [
+        "Spot type",
+        "Continuous-loop type",
+        "Thermocouple junction only"
+      ],
+      "correctIndex": 0,
+      "explanation": "A spot-type detector senses temperature at a specific point in the pipe, matching the supplied answer."
+    },
+    {
+      "id": 44,
+      "question": "Which lights provide illumination to pilots?",
+      "options": [
+        "Light shield",
+        "Navigation light",
+        "Anti-collision light"
+      ],
+      "correctIndex": 0,
+      "explanation": "A light shield is associated with cockpit illumination and helps provide controlled lighting for the pilots and instruments."
+    },
+    {
+      "id": 45,
+      "question": "Which of the following is NOT true about a potential fire zone of a modern multi-engine aircraft?",
+      "options": [
+        "Protected by a portable fire protection system",
+        "Protected by a fixed fire protection system",
+        "High degree of fire resistance"
+      ],
+      "correctIndex": 0,
+      "explanation": "The supplied answer marks portable fire protection as the item that is not true for a potential fire zone; modern aircraft fire zones use fixed fire-protection provisions and fire-resistant construction."
+    },
+    {
+      "id": 46,
+      "question": "An op amp is generally a",
+      "options": [
+        "Voltage amplifier",
+        "Current amplifier",
+        "Power amplifier"
+      ],
+      "correctIndex": 0,
+      "explanation": "An operational op amp is fundamentally a very high-gain voltage amplifier used with feedback to perform many analog functions."
+    },
+    {
+      "id": 47,
+      "question": "Which OSI layer is found between the network and physical layers?",
+      "options": [
+        "Transport layer",
+        "Application layer",
+        "Data link layer"
+      ],
+      "correctIndex": 2,
+      "explanation": "The OSI data-link layer sits directly above the physical layer and directly below the network layer."
+    },
+    {
+      "id": 48,
+      "question": "Which one is intended for medium-quality voice and fax/data?",
+      "options": [
+        "Aero-H",
+        "Aero-I",
+        "Aero-L"
+      ],
+      "correctIndex": 0,
+      "explanation": "The supplied answer identifies Aero-H as the service intended for medium-quality voice and fax/data."
+    },
+    {
+      "id": 49,
+      "question": "Which satellite is synchronous with the Earth's rotational period?",
+      "options": [
+        "Geostationary Earth Orbit (GEO) satellite",
+        "Low Earth Orbit (LEO) satellite",
+        "Polar-orbit satellite"
+      ],
+      "correctIndex": 0,
+      "explanation": "A GEO satellite has an orbital period equal to Earth’s rotational period and therefore remains fixed over approximately one point on the equator."
+    },
+    {
+      "id": 50,
+      "question": "Which type of digital circuit uses multi-transistor logic according to the supplied answer?",
+      "options": [
+        "TTL",
+        "CMOS",
+        "LSI"
+      ],
+      "correctIndex": 0,
+      "explanation": "TTL is a digital logic family based on bipolar transistors and was widely used for multi-transistor digital circuits."
+    },
+    {
+      "id": 51,
+      "question": "What is the function of the permanent magnet in a mechanical tachometer?",
+      "options": [
+        "To drive the shaft",
+        "To drive the cable",
+        "To create eddy current"
+      ],
+      "correctIndex": 2,
+      "explanation": "The permanent magnet in a mechanical tachometer creates a magnetic field that induces eddy currents in the drag cup, producing torque proportional to speed."
+    },
+    {
+      "id": 52,
+      "question": "In instrument mechanisms, which statement is true?",
+      "options": [
+        "In many aircraft applications, some elements are separated so that three or perhaps two elements form the mechanism within the instrument case",
+        "All mechanism elements must always be in one housing",
+        "Only electrical elements can form an instrument mechanism"
+      ],
+      "correctIndex": 0,
+      "explanation": "Instrument mechanisms may separate some elements so that only two or three elements form the working mechanism within the instrument case, depending on the application."
+    },
+    {
+      "id": 53,
+      "question": "The magnetic flux through the flux detector coil is maximum when the Earth's magnetic field is in which direction relative to the coil?",
+      "options": [
+        "45 degrees",
+        "90 degrees",
+        "0 degrees"
+      ],
+      "correctIndex": 2,
+      "explanation": "Magnetic flux through a coil is maximum when the magnetic field is aligned with the coil’s normal axis, corresponding to 0° in the supplied wording."
+    },
+    {
+      "id": 54,
+      "question": "TAT is used by the ADC to calculate",
+      "options": [
+        "TAT, SAT and TAS",
+        "Only pressure altitude",
+        "Only engine RPM"
+      ],
+      "correctIndex": 0,
+      "explanation": "The ADC uses TAT and other air-data parameters to derive quantities such as static air temperature and true airspeed."
+    },
+    {
+      "id": 55,
+      "question": "At which latitude does an operational inertial navigation/reference unit take longer to align?",
+      "options": [
+        "At higher latitudes",
+        "At lower latitudes",
+        "At the equator only"
+      ],
+      "correctIndex": 0,
+      "explanation": "Inertial systems generally take longer to align at higher latitudes because Earth-rate and related reference components change with latitude."
+    },
+    {
+      "id": 56,
+      "question": "Of the two that have the same meaning, choose the one that is different: feedback, follow-up, command",
+      "options": [
+        "Feedback",
+        "Follow-up",
+        "Command"
+      ],
+      "correctIndex": 2,
+      "explanation": "Feedback is returning information about an output, follow-up is subsequent action, while command is an instruction rather than the same concept."
+    },
+    {
+      "id": 57,
+      "question": "Why is a motor needed in a gyro?",
+      "options": [
+        "For correction of movement of the gyro in flight",
+        "To increase fuel pressure",
+        "To control cabin temperature"
+      ],
+      "correctIndex": 0,
+      "explanation": "A gyro motor spins and maintains the rotor while the gyro system uses correction mechanisms to control drift and movement during flight."
+    },
+    {
+      "id": 58,
+      "question": "Which statement about transmission lines and waveguides is given as true?",
+      "options": [
+        "Transmission lines support both TE and TM",
+        "Waveguides support only DC",
+        "Transmission lines cannot carry RF energy"
+      ],
+      "correctIndex": 0,
+      "explanation": "The supplied statement identifies transmission lines as supporting both TE and TM modes in the stated comparison."
+    },
+    {
+      "id": 59,
+      "question": "How can the sensitivity of altimeter pressure-sensing elements be increased?",
+      "options": [
+        "By using multiple capsule aneroids stacked together",
+        "By using multiple bellows stacked together",
+        "By using only one diaphragm"
+      ],
+      "correctIndex": 0,
+      "explanation": "Stacking multiple capsule aneroids increases the effective pressure-sensing area and displacement, improving altimeter sensitivity."
+    },
+    {
+      "id": 60,
+      "question": "Motor speed depends on the ______ requirement of the load",
+      "options": [
+        "Voltage",
+        "Frequency",
+        "Torque"
+      ],
+      "correctIndex": 2,
+      "explanation": "Motor speed is adjusted to satisfy the torque/speed requirement imposed by the load; the source answer identifies torque."
+    },
+    {
+      "id": 61,
+      "question": "Which is NOT true about a weather radar display?",
+      "options": [
+        "It shows the range",
+        "It shows the intensity",
+        "It shows the direction of the aircraft"
+      ],
+      "correctIndex": 2,
+      "explanation": "Weather radar displays normally provide information such as range and return intensity; the source identifies aircraft direction as not being a weather-radar display function."
+    },
+    {
+      "id": 62,
+      "question": "In a star connection, if VL = 480 V, what is VPH approximately?",
+      "options": [
+        "277 V",
+        "480 V",
+        "831 V"
+      ],
+      "correctIndex": 0,
+      "explanation": "For a balanced star connection, Vph = VL/√3 = 480/1.732 ≈ 277 V."
+    },
+    {
+      "id": 63,
+      "question": "What is the unit of power?",
+      "options": [
+        "Watt",
+        "Volt",
+        "Ohm"
+      ],
+      "correctIndex": 0,
+      "explanation": "The watt (W) is the SI unit of power, equal to one joule per second."
+    },
+    {
+      "id": 64,
+      "question": "In an RLC circuit, when current leads or lags the voltage, what is the relationship between impedance and resistance?",
+      "options": [
+        "Z is greater than R",
+        "Z is always equal to R",
+        "Z is less than R"
+      ],
+      "correctIndex": 0,
+      "explanation": "In a reactive RLC circuit, the impedance magnitude includes both resistance and reactance, so Z is greater than R when reactance is present."
+    },
+    {
+      "id": 65,
+      "question": "During a cockpit audio test, all devices except the hand microphone work correctly. Which statement explains this?",
+      "options": [
+        "The hand microphone transmits sound, not receives it",
+        "The cockpit speaker volume is lower",
+        "The audio system must be completely inoperative"
+      ],
+      "correctIndex": 0,
+      "explanation": "The supplied answer explains that a hand microphone is a transmit device: it sends the pilot’s voice into the audio system but does not act as a receiving device."
+    },
+    {
+      "id": 66,
+      "question": "The receiving part of a synchro system is a",
+      "options": [
+        "Motor",
+        "Generator",
+        "Rheostat"
+      ],
+      "correctIndex": 0,
+      "explanation": "In a synchro receiving system, the receiver acts as the electromechanical device that follows the transmitter position; the supplied answer identifies a motor."
+    },
+    {
+      "id": 67,
+      "question": "Which integrated system in modern aircraft provides the crew with engine and other system instrumentation and crew annunciations?",
+      "options": [
+        "EICAS",
+        "ADF",
+        "DME"
+      ],
+      "correctIndex": 0,
+      "explanation": "EICAS integrates engine indications, system information and crew alerting/annunciation functions in modern aircraft."
+    },
+    {
+      "id": 68,
+      "question": "Which actuator has mechanical elements that are required to rotate at low speed or through limited angular travel?",
+      "options": [
+        "Rotary actuator",
+        "Linear actuator",
+        "Resolver"
+      ],
+      "correctIndex": 0,
+      "explanation": "A rotary actuator produces rotary movement and is suited to mechanisms that need limited angular travel or low-speed rotation."
+    },
+    {
+      "id": 69,
+      "question": "The power factor of ______ is zero",
+      "options": [
+        "Capacitance",
+        "Inductor",
+        "Both"
+      ],
+      "correctIndex": 2,
+      "explanation": "For an ideal pure capacitor or pure inductor, current and voltage are 90° out of phase, giving a power factor of zero; the supplied answer selects both."
+    },
+    {
+      "id": 70,
+      "question": "What is used to match a single transmitter or receiver to one antenna, while antenna multicouplers match multiple transmitters or receivers to one antenna for simultaneous operation?",
+      "options": [
+        "Antenna couplers",
+        "Duplexers only",
+        "Waveguide filters"
+      ],
+      "correctIndex": 0,
+      "explanation": "An antenna coupler matches a single transmitter or receiver to an antenna, while a multicoupler allows multiple radios to share an antenna."
+    },
+    {
+      "id": 71,
+      "question": "GPWS will be triggered by",
+      "options": [
+        "Excessive descent rate at low altitude",
+        "Low cabin temperature",
+        "High fuel level"
+      ],
+      "correctIndex": 0,
+      "explanation": "GPWS provides a warning for hazardous terrain-clearance conditions such as excessive descent rate at low altitude."
+    },
+    {
+      "id": 72,
+      "question": "Which is NOT true about a weather radar display?",
+      "options": [
+        "It shows the cloud range",
+        "It shows the cloud intensity",
+        "It shows cloud radial"
+      ],
+      "correctIndex": 2,
+      "explanation": "Weather radar normally presents range and intensity of radar returns; the supplied answer identifies cloud radial as not a standard display item."
+    },
+    {
+      "id": 73,
+      "question": "Which of the following is NOT displayed in the cockpit according to the supplied answer?",
+      "options": [
+        "Weather information",
+        "Bearing data from VOR",
+        "GPS satellite data"
+      ],
+      "correctIndex": 2,
+      "explanation": "The supplied answer identifies GPS satellite data as not being directly displayed as cockpit weather/bearing information in the stated context."
+    },
+    {
+      "id": 74,
+      "question": "Which system primarily indicates landing decision height?",
+      "options": [
+        "DME",
+        "VOR",
+        "RA"
+      ],
+      "correctIndex": 2,
+      "explanation": "The radio altimeter (RA) provides accurate height above terrain at low altitude and is used for decision-height indications in the approach/landing context."
+    },
+    {
+      "id": 75,
+      "question": "When a conductor moves and cuts magnetic field lines, a voltage is induced in the conductor. This is described by",
+      "options": [
+        "Lenz law",
+        "Faraday law",
+        "Ohm law"
+      ],
+      "correctIndex": 1,
+      "explanation": "Faraday’s law states that a changing magnetic flux induces an electromotive force; Lenz’s law gives the direction of the induced effect."
+    },
+    {
+      "id": 76,
+      "question": "What is the use of an electrical fuel valve?",
+      "options": [
+        "To control the amount of fuel flow between the fuel tank and the engine",
+        "To control hydraulic pressure",
+        "To measure cabin altitude"
+      ],
+      "correctIndex": 0,
+      "explanation": "An electrical fuel valve controls fuel flow between the tank and engine by opening, closing or regulating the fuel path as commanded."
+    },
+    {
+      "id": 77,
+      "question": "A brushless AC generator has",
+      "options": [
+        "Pilot, exciter and main generator",
+        "Only a main generator",
+        "Only a pilot generator"
+      ],
+      "correctIndex": 0,
+      "explanation": "A brushless AC generator can use a pilot generator, exciter generator and main generator so excitation is transferred without brushes."
+    },
+    {
+      "id": 78,
+      "question": "Which process is key to laser beam formation during light amplification?",
+      "options": [
+        "Spontaneous emission",
+        "Stimulated emission",
+        "Avalanche emission"
+      ],
+      "correctIndex": 1,
+      "explanation": "Stimulated emission is the process in which an incoming photon triggers emission of another matching photon, enabling laser amplification."
+    }
+  ]
+}
