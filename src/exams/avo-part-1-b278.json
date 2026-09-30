@@ -1,0 +1,310 @@
+{
+  "id": "avo-part-1-b278",
+  "title": "AVO-Part-1(our-B278)",
+  "module": "AVO-Part-1(B278)",
+  "course": "avionics",
+  "category": "our_exam_b278",
+  "description": "Part exam covering RC/RL/RLC circuit phase relationships, reactance, resonance, wattmeters, function generators, delta connection, oscilloscope theory, rectifiers, logic color codes, active filters, transformer turns ratio, ammeter shunt calculation, meter grounding, and measuring instrument principles.",
+  "durationMinutes": 90,
+  "totalQuestions": 27,
+  "color": "purple",
+  "questions": [
+    {
+      "id": 1,
+      "question": "In an RC circuit, what is the phase relationship between voltage and current?",
+      "options": [
+        "Less than 90 degrees",
+        "Exactly 90 degrees",
+        "Exactly 0 degrees"
+      ],
+      "correctIndex": 0,
+      "explanation": "In a series RC circuit, the phase angle between voltage and current depends on the relative sizes of R and Xc, giving a phase difference somewhere between 0° (pure resistance) and 90° (pure capacitance) — so it is always less than 90°."
+    },
+    {
+      "id": 2,
+      "question": "In an RC circuit:",
+      "options": [
+        "Current leads the voltage",
+        "Current lags the voltage",
+        "Current is exactly in phase with the voltage"
+      ],
+      "correctIndex": 0,
+      "explanation": "In a capacitive (RC) circuit, the capacitor charges before the voltage across it can build up, causing the current to lead the applied voltage."
+    },
+    {
+      "id": 3,
+      "question": "An instrument transformer is used to:",
+      "options": [
+        "Step down both the AC system voltage and current for safe measurement",
+        "Step up both the AC system voltage and current",
+        "Convert AC to DC for the instrument"
+      ],
+      "correctIndex": 0,
+      "explanation": "Instrument transformers (voltage and current transformers) step down the high system voltage and current to lower, safer, standardized values that instruments can measure directly."
+    },
+    {
+      "id": 4,
+      "question": "Capacitive reactance becomes equal to inductive reactance at the:",
+      "options": [
+        "Resonance frequency",
+        "Zero frequency",
+        "Cutoff frequency"
+      ],
+      "correctIndex": 0,
+      "explanation": "At the resonance frequency of an LC circuit, XL and Xc become equal in magnitude, causing them to cancel each other's reactive effect and leaving the circuit's impedance purely resistive."
+    },
+    {
+      "id": 5,
+      "question": "The opposition to current flow in a purely capacitive circuit is called:",
+      "options": [
+        "Capacitive reactance",
+        "Inductive reactance",
+        "Resistance"
+      ],
+      "correctIndex": 0,
+      "explanation": "Capacitive reactance (Xc) is the term for a capacitor's frequency-dependent opposition to AC current flow, distinct from resistance (which is frequency-independent) and inductive reactance (found in inductors)."
+    },
+    {
+      "id": 6,
+      "question": "In an R-L-C circuit, power loss (dissipation) occurs only in the:",
+      "options": [
+        "Resistance (R) only",
+        "Inductance (L) only",
+        "Capacitance (C) only"
+      ],
+      "correctIndex": 0,
+      "explanation": "Only the resistive element actually dissipates energy as heat; the ideal inductor and capacitor store and return energy to the circuit each cycle without net power loss."
+    },
+    {
+      "id": 7,
+      "question": "In which type of circuit is the power factor zero?",
+      "options": [
+        "Both purely capacitive and purely inductive circuits",
+        "A purely resistive circuit",
+        "A circuit with equal resistance and reactance"
+      ],
+      "correctIndex": 0,
+      "explanation": "In a purely reactive circuit (whether purely capacitive or purely inductive), voltage and current are 90° out of phase, making cos(90°) = 0, so the power factor is zero in either case."
+    },
+    {
+      "id": 8,
+      "question": "A wattmeter is used to measure:",
+      "options": [
+        "Active power",
+        "Reactive power only",
+        "Apparent power only"
+      ],
+      "correctIndex": 0,
+      "explanation": "A wattmeter combines both the current and voltage in a circuit to measure active (real) power — the power actually converted into useful work."
+    },
+    {
+      "id": 9,
+      "question": "Which device generates square, triangular, and sawtooth waveforms?",
+      "options": [
+        "Function generator",
+        "Oscilloscope",
+        "Wattmeter"
+      ],
+      "correctIndex": 0,
+      "explanation": "A function generator is specifically designed to produce a variety of standard waveforms — sine, square, triangular and sawtooth — at adjustable frequency and amplitude, for testing and calibration purposes."
+    },
+    {
+      "id": 10,
+      "question": "In a Delta connection:",
+      "options": [
+        "Line voltage equals phase voltage",
+        "Line voltage equals √3 times phase voltage",
+        "Line current equals phase current"
+      ],
+      "correctIndex": 0,
+      "explanation": "In a Delta connection, each winding is connected directly across two lines, so the line voltage equals the phase voltage; it is the line current that equals √3 times the phase current."
+    },
+    {
+      "id": 11,
+      "question": "An oscilloscope is used to represent:",
+      "options": [
+        "Voltage versus time",
+        "Voltage versus current",
+        "Current versus frequency only"
+      ],
+      "correctIndex": 0,
+      "explanation": "An oscilloscope's basic display plots the instantaneous voltage of a signal against time, letting the user see the shape, amplitude, and timing of a waveform directly."
+    },
+    {
+      "id": 12,
+      "question": "The time required to complete one cycle is called the:",
+      "options": [
+        "Period",
+        "Frequency",
+        "Amplitude"
+      ],
+      "correctIndex": 0,
+      "explanation": "The period is defined as the time taken to complete one full cycle of a repeating waveform; frequency is simply the reciprocal of the period (the number of cycles per second)."
+    },
+    {
+      "id": 13,
+      "question": "If the period of a sine wave is 25 ms, what is its frequency?",
+      "options": [
+        "40 Hz",
+        "25 Hz",
+        "4 Hz"
+      ],
+      "correctIndex": 0,
+      "explanation": "Frequency = 1 / period = 1 / 0.025 s = 40 Hz."
+    },
+    {
+      "id": 14,
+      "question": "Which device is used to convert AC to DC?",
+      "options": [
+        "Rectifier",
+        "Inverter",
+        "Transformer"
+      ],
+      "correctIndex": 0,
+      "explanation": "A rectifier converts alternating current into direct current by allowing current flow in one direction only, using diodes to block the reverse half-cycles."
+    },
+    {
+      "id": 15,
+      "question": "In digital logic probes, what color typically indicates a logic HIGH?",
+      "options": [
+        "Red",
+        "Green",
+        "Blue"
+      ],
+      "correctIndex": 0,
+      "explanation": "On most logic probes, a red indicator lights to show a logic HIGH state, while a green (or a separate) indicator shows logic LOW, giving a quick visual read of the signal level."
+    },
+    {
+      "id": 16,
+      "question": "Filters constructed using an amplifying element together with resistors and capacitors are called:",
+      "options": [
+        "Active filters",
+        "Passive filters",
+        "Mechanical filters"
+      ],
+      "correctIndex": 0,
+      "explanation": "Active filters include an amplifying element (such as an op-amp) alongside resistors and capacitors, allowing them to provide gain and sharper roll-off than passive filters, which use only resistors, capacitors and inductors."
+    },
+    {
+      "id": 17,
+      "question": "A transformer steps 110V down to 20V. What is the turns ratio (Np/Ns)?",
+      "options": [
+        "5.5",
+        "2.2",
+        "0.18"
+      ],
+      "correctIndex": 0,
+      "explanation": "The turns ratio equals the voltage ratio: Np/Ns = Ep/Es = 110V / 20V = 5.5."
+    },
+    {
+      "id": 18,
+      "question": "Which type of transformer core is used for high-frequency applications?",
+      "options": [
+        "Air core",
+        "Solid iron core",
+        "Laminated steel core"
+      ],
+      "correctIndex": 0,
+      "explanation": "Air-core transformers avoid the core losses (hysteresis and eddy current losses) that become significant in iron or steel cores at high frequencies, making air core the preferred choice for high-frequency applications."
+    },
+    {
+      "id": 19,
+      "question": "An ammeter movement has a coil resistance (Rm) of 1 kΩ and a full-scale deflection current (Im) of 1 mA. To measure a total current of 1 A, what is the approximate value of the shunt resistance (Rsh)?",
+      "options": [
+        "Approximately 1 Ω",
+        "Approximately 1 kΩ",
+        "Approximately 100 Ω"
+      ],
+      "correctIndex": 0,
+      "explanation": "The shunt resistance is calculated as Rsh = (Im × Rm) / (I − Im) = (1 mA × 1 kΩ) / (1 A − 1 mA) ≈ (1 mA × 1000 Ω) / 1 A ≈ 1 Ω, since the shunt must carry almost all of the 1 A while only 1 mA passes through the meter movement."
+    },
+    {
+      "id": 20,
+      "question": "On an oscilloscope, the vertical display shows 4 divisions with a x10 probe attenuation and a setting of 5 V/div. What are the peak-to-peak voltage (Vp-p) and RMS voltage (Vrms)?",
+      "options": [
+        "200 Vp-p and 70.7 V RMS",
+        "20 Vp-p and 7.07 V RMS",
+        "40 Vp-p and 14.1 V RMS"
+      ],
+      "correctIndex": 0,
+      "explanation": "Vp-p = divisions × volts/div × probe attenuation = 4 × 5 V × 10 = 200 Vp-p. The peak voltage is half of that, 100 V, and Vrms = Vpeak / √2 = 100 / 1.414 ≈ 70.7 V."
+    },
+    {
+      "id": 21,
+      "question": "For a sine wave with Irms = 60 A and f = 50 Hz, what is the instantaneous current equation i(t)?",
+      "options": [
+        "i(t) = 84.85 sin(314t)",
+        "i(t) = 60 sin(100t)",
+        "i(t) = 120 sin(50t)"
+      ],
+      "correctIndex": 0,
+      "explanation": "Peak current = Irms × √2 = 60 × 1.414 ≈ 84.85 A, and angular frequency ω = 2πf = 2π×50 ≈ 314 rad/s, giving i(t) = 84.85 sin(314t)."
+    },
+    {
+      "id": 22,
+      "question": "Resistance is measured using a(n):",
+      "options": [
+        "Ohmmeter",
+        "Ammeter",
+        "Wattmeter"
+      ],
+      "correctIndex": 0,
+      "explanation": "An ohmmeter applies a known small current to the component under test and measures the resulting voltage to calculate and directly display its resistance."
+    },
+    {
+      "id": 23,
+      "question": "Why do we ground an oscilloscope?",
+      "options": [
+        "For safety purposes",
+        "To increase its bandwidth",
+        "To reduce its input impedance"
+      ],
+      "correctIndex": 0,
+      "explanation": "Grounding the oscilloscope chassis protects the operator from a hazardous shock in the event of an internal fault, and also provides a stable reference for accurate voltage measurements."
+    },
+    {
+      "id": 24,
+      "question": "To increase the current in a series RL circuit, the frequency must:",
+      "options": [
+        "Decrease",
+        "Increase",
+        "Remain the same"
+      ],
+      "correctIndex": 0,
+      "explanation": "Inductive reactance XL = 2πfL decreases as frequency decreases, which lowers the circuit's total impedance and therefore increases the current for a fixed applied voltage."
+    },
+    {
+      "id": 25,
+      "question": "Which of the following uses the principle of the heating effect of current, passing through a highly resistive wire, to deflect the pointer?",
+      "options": [
+        "Thermocouple-type (hot-wire) meter",
+        "Moving-coil (D'Arsonval) meter",
+        "Moving-iron meter"
+      ],
+      "correctIndex": 0,
+      "explanation": "A thermocouple-type (hot-wire) meter passes current through a highly resistive wire, and the heat generated is sensed by a thermocouple whose output drives the pointer, exploiting the current's heating effect rather than a magnetic effect."
+    },
+    {
+      "id": 26,
+      "question": "Electrical measuring instruments use some physical effect to produce their deflection. What effect do they most commonly use?",
+      "options": [
+        "Magnetic effect",
+        "Chemical effect",
+        "Photoelectric effect"
+      ],
+      "correctIndex": 0,
+      "explanation": "Most electrical measuring instruments (moving-coil and moving-iron meters) rely on the magnetic effect of current — the force or torque produced when current-carrying conductors interact with a magnetic field — to deflect their pointer."
+    },
+    {
+      "id": 27,
+      "question": "A transformer induces secondary voltage from the primary voltage through:",
+      "options": [
+        "Flux (mutual magnetic flux linkage)",
+        "Direct electrical (conductive) connection",
+        "Capacitive coupling"
+      ],
+      "correctIndex": 0,
+      "explanation": "A transformer works by mutual induction: the changing magnetic flux produced by the primary winding's current links with the secondary winding, inducing a voltage in it with no direct electrical connection between the two windings."
+    }
+  ]
+}
