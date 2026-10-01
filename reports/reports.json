@@ -156,5 +156,41 @@
     "message": "",
     "reportedAt": "2026-09-28T05:38:09.092Z",
     "status": "pending"
+  },
+  {
+    "id": "rep_1790766521345_nfeedf",
+    "examId": "avionics-final-exam-02",
+    "examTitle": "Avionics final exam 02",
+    "questionId": "6",
+    "questionNumber": 5,
+    "question": "Which of the following is a leading factor for wiring degradation in aircraft?",
+    "reason": "Wrong answer",
+    "message": "",
+    "reportedAt": "2026-09-30T11:08:41.345Z",
+    "status": "pending"
+  },
+  {
+    "id": "rep_1790766717505_1e3v6j",
+    "examId": "avionics-final-exam-02",
+    "examTitle": "Avionics final exam 02",
+    "questionId": "36",
+    "questionNumber": 28,
+    "question": "Where is the switch which controls the window lights located?",
+    "reason": "Wrong answer",
+    "message": "",
+    "reportedAt": "2026-09-30T11:11:57.505Z",
+    "status": "pending"
+  },
+  {
+    "id": "rep_1790767058385_uuag7a",
+    "examId": "avionics-final-exam-02",
+    "examTitle": "Avionics final exam 02",
+    "questionId": "77",
+    "questionNumber": 64,
+    "question": "What is the READY pin of a microprocessor used for?",
+    "reason": "Wrong answer",
+    "message": "",
+    "reportedAt": "2026-09-30T11:17:38.385Z",
+    "status": "pending"
   }
 ]
