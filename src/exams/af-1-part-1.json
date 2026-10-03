@@ -1,0 +1,959 @@
+{
+  "id": "af-1-part-1",
+  "title": "AF-1-part-1",
+  "module": "AF-M1",
+  "course": "airframe",
+  "category": "part",
+  "description": "Airframe exam covering fuselage, wing, empennage, landing gear, control surfaces, doors/windows, structural design philosophy, and related airframe systems, drawn from the AF-1 question/answer bank.",
+  "durationMinutes": 150,
+  "totalQuestions": 86,
+  "color": "green",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Antidrag wires resist the forward and aft forces in the wing structure in which direction?",
+      "options": [
+        "A. Chord direction",
+        "B. Span direction",
+        "C. Vertical direction"
+      ],
+      "correctIndex": 0,
+      "explanation": "Antidrag wires run chordwise between the front and rear spars to resist drag loads acting along the chord direction."
+    },
+    {
+      "id": 2,
+      "question": "A triple-pane acrylic cabin window primarily provides what benefit?",
+      "options": [
+        "A. Lightning strike protection",
+        "B. Engine noise protection",
+        "C. Fuel vapor sealing"
+      ],
+      "correctIndex": 1,
+      "explanation": "The extra acrylic pane in a triple-pane window arrangement adds sound/thermal insulation, including attenuating engine noise."
+    },
+    {
+      "id": 3,
+      "question": "Requirements for tabs, door operation, and control surfaces are published under which regulation?",
+      "options": [
+        "A. FAA Part 25, for aircraft above 5,700 kg",
+        "B. FAA Part 23, for aircraft below 5,700 kg",
+        "C. FAA Part 43, for all aircraft"
+      ],
+      "correctIndex": 0,
+      "explanation": "FAR Part 25 covers airworthiness standards for transport category airplanes, generally those above 5,700 kg (12,500 lb)."
+    },
+    {
+      "id": 4,
+      "question": "Fuselage skin thickness varies along a particular location mainly based on what?",
+      "options": [
+        "A. The paint scheme applied",
+        "B. The load carried and stress sustained at that location",
+        "C. The cabin temperature at that location"
+      ],
+      "correctIndex": 1,
+      "explanation": "Skin gauge is selected according to the structural load and stress the section must carry, so thickness varies by location."
+    },
+    {
+      "id": 5,
+      "question": "Aircraft windshields must comply with regulations addressing which hazard?",
+      "options": [
+        "A. Lightning color change",
+        "B. Bird strike",
+        "C. Cabin noise"
+      ],
+      "correctIndex": 1,
+      "explanation": "Windshields must meet bird-strike resistance requirements to protect the flight deck during impact at operating speeds."
+    },
+    {
+      "id": 6,
+      "question": "On the standard aircraft zonal numbering system, Zone 400 generally represents which area?",
+      "options": [
+        "A. Wings",
+        "B. Empennage",
+        "C. Engine"
+      ],
+      "correctIndex": 2,
+      "explanation": "In the ATA/manufacturer zonal numbering convention, the 400-series zone numbers are typically assigned to the power plant/engine area."
+    },
+    {
+      "id": 7,
+      "question": "Wings that have no external bracing (struts or wires) are called what?",
+      "options": [
+        "A. Full cantilever wings",
+        "B. Semi-cantilever wings",
+        "C. Braced wings"
+      ],
+      "correctIndex": 0,
+      "explanation": "A full cantilever wing carries all bending and torsional loads internally without external struts or wires."
+    },
+    {
+      "id": 8,
+      "question": "The wing has its cambered aerodynamic shape mainly because of which structural member?",
+      "options": [
+        "A. The spars",
+        "B. The ribs",
+        "C. The stringers"
+      ],
+      "correctIndex": 1,
+      "explanation": "Wing ribs are shaped to the airfoil section and maintain the cambered profile of the wing skin."
+    },
+    {
+      "id": 9,
+      "question": "A ruddervator (combined rudder and elevator surface) is found on which type of empennage?",
+      "options": [
+        "A. T-tail",
+        "B. Cruciform tail",
+        "C. V-tail"
+      ],
+      "correctIndex": 2,
+      "explanation": "A V-tail arrangement combines the functions of rudder and elevator into two surfaces called ruddervators."
+    },
+    {
+      "id": 10,
+      "question": "A compression rib or bulkhead rib is designed to receive compression loads that tend to do what?",
+      "options": [
+        "A. Force the wing spars apart",
+        "B. Force the wing spars together",
+        "C. Twist the wing skin"
+      ],
+      "correctIndex": 1,
+      "explanation": "Compression ribs resist loads that would otherwise push the front and rear spars toward each other."
+    },
+    {
+      "id": 11,
+      "question": "What is the first step when installing a stabilizer?",
+      "options": [
+        "A. Connect the control cables",
+        "B. Rig the trim tab",
+        "C. Inspect the mounting structure"
+      ],
+      "correctIndex": 2,
+      "explanation": "Before installation, the mounting points and structure must be inspected to ensure they are airworthy and ready to accept the stabilizer."
+    },
+    {
+      "id": 12,
+      "question": "How many structural members make up the primary structure of a typical transport fuselage?",
+      "options": [
+        "A. Two (frames and stringers only)",
+        "B. Five (frames, stringers, skin, floor, and doors)",
+        "C. Three (fuselage frames, main floor members, main spars)"
+      ],
+      "correctIndex": 2,
+      "explanation": "The primary load path is commonly described as fuselage frames, main floor beams, and main spars/structure."
+    },
+    {
+      "id": 13,
+      "question": "What is a key difference between rotary-wing and fixed-wing aircraft?",
+      "options": [
+        "A. Rotary-wing aircraft cannot hover",
+        "B. Fixed-wing aircraft do not need an airfoil",
+        "C. Fixed-wing aircraft need forward motion to generate lift"
+      ],
+      "correctIndex": 2,
+      "explanation": "A fixed wing generates lift only when air flows over it due to forward motion, while a rotor can generate lift while the aircraft is stationary."
+    },
+    {
+      "id": 14,
+      "question": "The wing is especially vulnerable to accidental damage during which ground operations?",
+      "options": [
+        "A. Taxiing and towing",
+        "B. Engine start and shutdown",
+        "C. Fueling only"
+      ],
+      "correctIndex": 0,
+      "explanation": "Wingtips and leading edges are commonly struck during taxiing and towing due to their span and proximity to other objects."
+    },
+    {
+      "id": 15,
+      "question": "Occupants of an aircraft are protected from electrical shock (e.g., lightning) because the surrounding structure acts as what?",
+      "options": [
+        "A. A Faraday cage",
+        "B. A ground fault interrupter",
+        "C. A dielectric barrier"
+      ],
+      "correctIndex": 0,
+      "explanation": "The metal aircraft structure encloses the occupants like a Faraday cage, conducting lightning current around rather than through the cabin."
+    },
+    {
+      "id": 16,
+      "question": "Precipitation static charge on an aircraft is produced by what mechanism?",
+      "options": [
+        "A. The batteries overcharging in flight",
+        "B. The aircraft moving through the air absorbs electrons from the atmosphere (friction with precipitation/particles)",
+        "C. The engines generating excess current"
+      ],
+      "correctIndex": 1,
+      "explanation": "Friction between the airframe and airborne particles (rain, snow, dust) causes a transfer of electrons, building up a static charge."
+    },
+    {
+      "id": 17,
+      "question": "Vertical loads in the fuselage are primarily concentrated on which members?",
+      "options": [
+        "A. Stringers and longerons",
+        "B. Skin panels alone",
+        "C. Frames and formers"
+      ],
+      "correctIndex": 2,
+      "explanation": "Frames and formers are oriented to pick up vertical (and circumferential) loads and transfer them into the fuselage shell."
+    },
+    {
+      "id": 18,
+      "question": "In which type of fuselage construction are longerons used as the primary load-carrying members?",
+      "options": [
+        "A. Truss construction",
+        "B. Pure monocoque construction",
+        "C. Semi-monocoque construction"
+      ],
+      "correctIndex": 0,
+      "explanation": "In a truss-type fuselage, longerons (and their associated truss members) carry the primary loads, with the covering carrying little load."
+    },
+    {
+      "id": 19,
+      "question": "Which type of flap both increases wing area and changes wing camber when extended?",
+      "options": [
+        "A. Plain flap",
+        "B. Fowler flap",
+        "C. Split flap"
+      ],
+      "correctIndex": 1,
+      "explanation": "A Fowler flap slides aft and down, increasing both wing area and camber, unlike a plain or split flap which only changes camber."
+    },
+    {
+      "id": 20,
+      "question": "Ribs found at the inboard edge of the wing, where the wing attaches to the fuselage, are called what?",
+      "options": [
+        "A. Compression ribs",
+        "B. False ribs",
+        "C. Butt ribs"
+      ],
+      "correctIndex": 2,
+      "explanation": "Butt ribs are located at the wing root/inboard edge where the wing structure attaches to the fuselage."
+    },
+    {
+      "id": 21,
+      "question": "Nosing over and ground looping are problems most associated with which landing gear configuration?",
+      "options": [
+        "A. Conventional (tailwheel) landing gear",
+        "B. Tricycle landing gear",
+        "C. Tandem landing gear"
+      ],
+      "correctIndex": 0,
+      "explanation": "Conventional gear places the center of gravity behind the main wheels, making the aircraft prone to nosing over and ground looping."
+    },
+    {
+      "id": 22,
+      "question": "Lateral (roll) stability of an aircraft is significantly affected by which design feature?",
+      "options": [
+        "A. Wing sweep angle alone",
+        "B. Wing dihedral",
+        "C. Wing aspect ratio alone"
+      ],
+      "correctIndex": 1,
+      "explanation": "Dihedral angle creates a restoring roll moment when the aircraft sideslips, improving lateral stability."
+    },
+    {
+      "id": 23,
+      "question": "Which landing gear configuration allows forceful brake application without the risk of the aircraft nosing over?",
+      "options": [
+        "A. Conventional (tailwheel) landing gear",
+        "B. Tricycle landing gear",
+        "C. Bicycle landing gear"
+      ],
+      "correctIndex": 1,
+      "explanation": "With tricycle gear the CG is forward of the main gear, allowing heavy braking without tipping the aircraft onto its nose."
+    },
+    {
+      "id": 24,
+      "question": "Which device assists the pilot in moving a control surface at very high airspeeds?",
+      "options": [
+        "A. Balance tab",
+        "B. Trim tab",
+        "C. Spring tab"
+      ],
+      "correctIndex": 2,
+      "explanation": "A spring tab uses a spring linkage to provide additional aerodynamic assistance to the pilot's control input, especially important at high speed."
+    },
+    {
+      "id": 25,
+      "question": "Which wing planform is characterized by a low aspect ratio?",
+      "options": [
+        "A. Delta wing",
+        "B. Straight, high-aspect-ratio wing",
+        "C. Elliptical wing"
+      ],
+      "correctIndex": 0,
+      "explanation": "A delta wing has a short span relative to its chord, giving it a low aspect ratio compared with straight or elliptical wings."
+    },
+    {
+      "id": 26,
+      "question": "Which of the following is NOT a correct statement about ventilating internal structural cavities?",
+      "options": [
+        "A. That ventilation is meant to prevent corrosion",
+        "B. That ventilation helps remove moisture from enclosed spaces",
+        "C. That ventilation can help balance pressure within the structure"
+      ],
+      "correctIndex": 0,
+      "explanation": "Trapped moisture, not the absence of ventilation itself, is the real corrosion driver; the statement singling out \"prevent corrosion\" as the sole/defining purpose is the incorrect one among the listed options."
+    },
+    {
+      "id": 27,
+      "question": "Aircraft that carry passengers and crew must have seats that comply with what kind of regulations?",
+      "options": [
+        "A. Noise regulations",
+        "B. Crashworthiness regulations",
+        "C. Fuel efficiency regulations"
+      ],
+      "correctIndex": 1,
+      "explanation": "Passenger and crew seats must meet crashworthiness standards covering strength, attachment, and occupant protection during an emergency landing."
+    },
+    {
+      "id": 28,
+      "question": "Which of the following is NOT typically found on a full (pure) monocoque fuselage?",
+      "options": [
+        "A. Longerons",
+        "B. Formers/frames",
+        "C. Stressed skin"
+      ],
+      "correctIndex": 0,
+      "explanation": "A pure monocoque relies on the skin and formers/frames to carry loads; it does not use longerons as primary load-carrying members."
+    },
+    {
+      "id": 29,
+      "question": "Which parts of the aircraft are classified as secondary structure?",
+      "options": [
+        "A. Parts that carry no load at all",
+        "B. Parts that are highly stressed but, if damaged, will not cause failure of the aircraft",
+        "C. Parts that are never inspected"
+      ],
+      "correctIndex": 1,
+      "explanation": "Secondary structure can be highly loaded locally, but its failure does not lead to loss of the aircraft, unlike primary structure."
+    },
+    {
+      "id": 30,
+      "question": "Redundant structural or system designs are characteristic of which design philosophy?",
+      "options": [
+        "A. Safe-life design",
+        "B. Single load path design",
+        "C. Fail-safe design"
+      ],
+      "correctIndex": 2,
+      "explanation": "Fail-safe design provides multiple load paths or redundancy so that failure of one element does not cause overall failure."
+    },
+    {
+      "id": 31,
+      "question": "Precise points on an aircraft are located using a system of what reference lines?",
+      "options": [
+        "A. Fuselage stations, water lines, and buttock lines",
+        "B. Latitude, longitude, and altitude",
+        "C. Zone numbers only"
+      ],
+      "correctIndex": 0,
+      "explanation": "Aircraft dimensional references use fuselage (body) stations, water lines, and buttock lines to precisely locate structure and equipment."
+    },
+    {
+      "id": 32,
+      "question": "In which type of fuselage construction does the skin act as the primary load carrier?",
+      "options": [
+        "A. Truss construction",
+        "B. Semi-monocoque construction",
+        "C. Pure monocoque construction"
+      ],
+      "correctIndex": 2,
+      "explanation": "In pure monocoque construction, the stressed skin alone carries the primary bending, shear, and torsional loads."
+    },
+    {
+      "id": 33,
+      "question": "A firewall is typically constructed from which materials?",
+      "options": [
+        "A. Stainless steel and titanium",
+        "B. Aluminum alloy and fiberglass",
+        "C. Plywood and fabric"
+      ],
+      "correctIndex": 0,
+      "explanation": "Firewalls must resist fire penetration, so they are made from fire-resistant materials such as stainless steel or titanium."
+    },
+    {
+      "id": 34,
+      "question": "What promotes the smooth flow of air over gaps between fixed and movable control surfaces?",
+      "options": [
+        "A. Vortex generators",
+        "B. Winglets",
+        "C. Gap seals"
+      ],
+      "correctIndex": 2,
+      "explanation": "Gap seals close the space between a fixed surface and its adjacent movable control surface, smoothing airflow and reducing drag/noise."
+    },
+    {
+      "id": 35,
+      "question": "Engine mounts and fuselage frames are classified as what kind of structure?",
+      "options": [
+        "A. Secondary aircraft structure",
+        "B. Non-structural fairing",
+        "C. Primary aircraft structure"
+      ],
+      "correctIndex": 2,
+      "explanation": "Primary structure carries flight, ground, and pressurization loads whose failure would endanger the aircraft; engine mounts and fuselage frames fall into this category."
+    },
+    {
+      "id": 36,
+      "question": "In a Warren truss arrangement, the diagonal wires/members primarily carry what type of stress?",
+      "options": [
+        "A. Pure torsional stress",
+        "B. Pure bending stress",
+        "C. Tension stress"
+      ],
+      "correctIndex": 2,
+      "explanation": "In the classic Warren truss pattern, the diagonal members are generally designed to carry tension loads as the structure flexes."
+    },
+    {
+      "id": 37,
+      "question": "In a pressurized aircraft, drain tubes are typically fitted with what feature?",
+      "options": [
+        "A. A pressure relief valve",
+        "B. A drain valve",
+        "C. A heating element only"
+      ],
+      "correctIndex": 1,
+      "explanation": "Drain tubes in a pressurized fuselage include a drain/check valve so cabin pressure is not lost while moisture is still able to drain overboard."
+    },
+    {
+      "id": 38,
+      "question": "Which high-lift device is controlled independently by its own dedicated switch in the cockpit?",
+      "options": [
+        "A. Leading edge slats",
+        "B. Trailing edge flaps",
+        "C. Spoilers"
+      ],
+      "correctIndex": 0,
+      "explanation": "On many transport aircraft, leading-edge slats have a separate control switch/system distinct from the trailing-edge flap system."
+    },
+    {
+      "id": 39,
+      "question": "A key design feature of acrylic cabin windows is what?",
+      "options": [
+        "A. Single load path design",
+        "B. Fail-safe design",
+        "C. No redundancy by design"
+      ],
+      "correctIndex": 1,
+      "explanation": "Acrylic windows are designed fail-safe, typically using multiple panes so that failure of one pane does not result in loss of cabin pressure."
+    },
+    {
+      "id": 40,
+      "question": "Aircraft doors are constructed with inner and outer skins and vertical/horizontal members similar to which other structure?",
+      "options": [
+        "A. The wing spar",
+        "B. The landing gear strut",
+        "C. The fuselage"
+      ],
+      "correctIndex": 2,
+      "explanation": "Doors are essentially small fuselage sections, built with inner/outer skins and a supporting frame similar to the surrounding fuselage structure."
+    },
+    {
+      "id": 41,
+      "question": "A small hydraulic shock absorber mounted between the nose wheel fork and the nose gear cylinder/structure is called what?",
+      "options": [
+        "A. A trunnion",
+        "B. A torque link",
+        "C. A shimmy damper"
+      ],
+      "correctIndex": 2,
+      "explanation": "A shimmy damper controls rapid, unwanted oscillation (shimmy) of the nose wheel by damping its side-to-side motion."
+    },
+    {
+      "id": 42,
+      "question": "Bonding cables on an aircraft are more correctly referred to as what?",
+      "options": [
+        "A. Primary conductors",
+        "B. Insulators",
+        "C. Secondary conductors"
+      ],
+      "correctIndex": 2,
+      "explanation": "Bonding jumpers/cables are secondary current-carrying paths used to maintain electrical continuity between structural components."
+    },
+    {
+      "id": 43,
+      "question": "An aircraft windshield must be able to withstand impacts at approximately what speed range?",
+      "options": [
+        "A. 50 to 100 knots",
+        "B. 250 to 350 knots",
+        "C. 500 to 600 knots"
+      ],
+      "correctIndex": 1,
+      "explanation": "Transport category windshields are certified to withstand bird strikes and other impacts in roughly the 250-350 knot range typical of low-altitude operations."
+    },
+    {
+      "id": 44,
+      "question": "What makes it easy to load freight onto the cargo floor of an aircraft?",
+      "options": [
+        "A. A smooth painted floor only",
+        "B. Extra seating rails",
+        "C. Trucks, guides, and rollers"
+      ],
+      "correctIndex": 2,
+      "explanation": "Cargo floors incorporate roller trays, guides, and powered or manual systems to let freight be moved and loaded with ground equipment such as trucks."
+    },
+    {
+      "id": 45,
+      "question": "The cambered shape of a wing cross-section is called what?",
+      "options": [
+        "A. A fairing",
+        "B. An airfoil",
+        "C. A fuselage station"
+      ],
+      "correctIndex": 1,
+      "explanation": "The cambered cross-sectional shape of a wing or control surface is called an airfoil."
+    },
+    {
+      "id": 46,
+      "question": "Which type of tab does NOT have a dedicated control from the cockpit?",
+      "options": [
+        "A. Balance tabs",
+        "B. Trim tabs",
+        "C. Servo tabs"
+      ],
+      "correctIndex": 0,
+      "explanation": "Balance tabs move automatically with the primary control surface to reduce control forces; they are not independently operated from the cockpit like trim tabs."
+    },
+    {
+      "id": 47,
+      "question": "The width of the wing measured parallel to the longitudinal axis (leading edge to trailing edge) is called what?",
+      "options": [
+        "A. Span",
+        "B. Chord",
+        "C. Camber"
+      ],
+      "correctIndex": 1,
+      "explanation": "Chord is the straight-line distance from the leading edge to the trailing edge of an airfoil section."
+    },
+    {
+      "id": 48,
+      "question": "A device that creates a swirling, downward vortex to help maintain attached boundary layer flow over the wing is called what?",
+      "options": [
+        "A. A vortex generator",
+        "B. A wing fence",
+        "C. A winglet"
+      ],
+      "correctIndex": 0,
+      "explanation": "Vortex generators create small, energetic vortices that re-energize the boundary layer, helping delay flow separation over the wing."
+    },
+    {
+      "id": 49,
+      "question": "Which device reduces drag caused by wingtip vortices in flight?",
+      "options": [
+        "A. A vortex generator",
+        "B. A winglet",
+        "C. A gap seal"
+      ],
+      "correctIndex": 1,
+      "explanation": "Winglets reduce the strength of wingtip vortices and the resulting induced drag by altering the spanwise airflow at the tip."
+    },
+    {
+      "id": 50,
+      "question": "What type of stress acts on the upper surface of the wing skin during flight (wing bending upward)?",
+      "options": [
+        "A. Compression",
+        "B. Tension",
+        "C. Shear only"
+      ],
+      "correctIndex": 0,
+      "explanation": "As the wing bends upward under lift, the upper skin is placed in compression while the lower skin is placed in tension."
+    },
+    {
+      "id": 51,
+      "question": "A 4130 (chrome-moly) steel tubing structural member is typically designed to carry which types of load?",
+      "options": [
+        "A. Tension and compression",
+        "B. Only tension",
+        "C. Only torsion"
+      ],
+      "correctIndex": 0,
+      "explanation": "Welded steel tube members in truss structures are generally designed to carry axial tension and compression loads."
+    },
+    {
+      "id": 52,
+      "question": "Approximately how much current can a lightning strike deliver to an aircraft structure?",
+      "options": [
+        "A. About 100,000 amperes",
+        "B. About 100 amperes",
+        "C. About 1,000,000 amperes"
+      ],
+      "correctIndex": 0,
+      "explanation": "A typical severe lightning strike can involve peak currents on the order of 100,000 amperes, which the airframe must safely conduct away."
+    },
+    {
+      "id": 53,
+      "question": "What is the purpose of a ball-mat in the cargo compartment?",
+      "options": [
+        "A. To let freight be easily rotated/maneuvered",
+        "B. To weigh the cargo automatically",
+        "C. To seal the cargo door"
+      ],
+      "correctIndex": 0,
+      "explanation": "A ball-mat (ball transfer mat) uses recessed balls to let heavy cargo containers or pallets be turned and positioned with minimal effort."
+    },
+    {
+      "id": 54,
+      "question": "Which aircraft structural element does NOT support ground or flight loads?",
+      "options": [
+        "A. A spar",
+        "B. A fairing",
+        "C. A frame"
+      ],
+      "correctIndex": 1,
+      "explanation": "Fairings are aerodynamic covers that smooth airflow but are not designed to carry structural flight or ground loads."
+    },
+    {
+      "id": 55,
+      "question": "A structure or component given a certified period of operation during which failure is considered extremely unlikely, accounting for wear, fatigue, and corrosion, follows which design concept?",
+      "options": [
+        "A. Fail-safe design",
+        "B. Damage-tolerant design (only)",
+        "C. Safe-life design"
+      ],
+      "correctIndex": 2,
+      "explanation": "Safe-life parts are retired after a defined service life calculated so that the probability of fatigue failure within that life is extremely low."
+    },
+    {
+      "id": 56,
+      "question": "Which door is used by both crew and passengers for normal boarding?",
+      "options": [
+        "A. The passenger entry door",
+        "B. The cargo door",
+        "C. The emergency overwing hatch"
+      ],
+      "correctIndex": 0,
+      "explanation": "The passenger entry door is the main boarding door used by crew and passengers during normal ground operations."
+    },
+    {
+      "id": 57,
+      "question": "While designing the passenger compartment, seats must be able to withstand a sudden stop of over how many times the force of gravity?",
+      "options": [
+        "A. 5 times",
+        "B. 20 times",
+        "C. 50 times"
+      ],
+      "correctIndex": 1,
+      "explanation": "Modern crashworthy seat standards require seats and attachments to withstand dynamic loads of roughly 16g (commonly cited around 20g in training material) in a sudden-stop scenario."
+    },
+    {
+      "id": 58,
+      "question": "In the entrance door area, what is installed to allow freight to be loaded easily?",
+      "options": [
+        "A. A fuel drain",
+        "B. A ball-mat",
+        "C. A pressure relief valve"
+      ],
+      "correctIndex": 1,
+      "explanation": "A ball-mat near the entrance/cargo door lets containers and pallets be rolled and rotated into position with minimal force."
+    },
+    {
+      "id": 59,
+      "question": "What is the first step in the installation of a wing?",
+      "options": [
+        "A. Support the wing",
+        "B. Torque the attachment bolts",
+        "C. Rig the aileron cables"
+      ],
+      "correctIndex": 0,
+      "explanation": "The wing must first be properly supported (e.g., on a stand or hoist) before attachment points are aligned and fastened."
+    },
+    {
+      "id": 60,
+      "question": "An airworthiness certificate must conform to what?",
+      "options": [
+        "A. The airline's internal maintenance schedule",
+        "B. The pilot's license category",
+        "C. The type of certificate (type certificate) issued for that aircraft"
+      ],
+      "correctIndex": 2,
+      "explanation": "The airworthiness certificate is issued based on the aircraft's conformity with its type certificate and approved design data."
+    },
+    {
+      "id": 61,
+      "question": "What structural members give the fuselage its shape?",
+      "options": [
+        "A. Spars and ribs",
+        "B. Stringers alone",
+        "C. Formers and frames"
+      ],
+      "correctIndex": 2,
+      "explanation": "Formers and frames establish the cross-sectional shape of the fuselage, over which the skin is applied."
+    },
+    {
+      "id": 62,
+      "question": "What is the first step when removing a control surface?",
+      "options": [
+        "A. Observe safety procedures",
+        "B. Disconnect the hinge bolts",
+        "C. Remove the balance weight"
+      ],
+      "correctIndex": 0,
+      "explanation": "Before any disassembly work, applicable safety procedures (locking controls, tagging, support) must be observed first."
+    },
+    {
+      "id": 63,
+      "question": "What is the use of the buttock line reference system?",
+      "options": [
+        "A. To measure altitude above the ground",
+        "B. To measure engine thrust line only",
+        "C. To locate structures to the right or left of the aircraft, with the fuselage centerline as station zero"
+      ],
+      "correctIndex": 2,
+      "explanation": "Buttock lines are measured left and right from the fuselage centerline (buttock line zero) to precisely locate structure laterally."
+    },
+    {
+      "id": 64,
+      "question": "Passenger seat mechanisms can be disconnected from the floor, if necessary, by doing what?",
+      "options": [
+        "A. Releasing a few quick-release fasteners",
+        "B. Cutting the seat rail",
+        "C. Removing the cabin floor panel"
+      ],
+      "correctIndex": 0,
+      "explanation": "Seat tracks and attachment fittings are designed with quick-release fasteners so seats can be removed or repositioned quickly."
+    },
+    {
+      "id": 65,
+      "question": "How is the angle of incidence of a wing measured?",
+      "options": [
+        "A. Between the wingtip and the wing root",
+        "B. Between the horizontal stabilizer and the wing",
+        "C. Between the wing chord line and the fuselage longitudinal axis"
+      ],
+      "correctIndex": 2,
+      "explanation": "Angle of incidence is the fixed angle between the wing's chord line and the fuselage reference (longitudinal) axis."
+    },
+    {
+      "id": 66,
+      "question": "Which type of wing requires additional external support?",
+      "options": [
+        "A. A full cantilever wing",
+        "B. A semi-cantilever wing",
+        "C. A delta wing"
+      ],
+      "correctIndex": 1,
+      "explanation": "A semi-cantilever wing uses external struts or wires in addition to its internal structure, unlike a full cantilever wing."
+    },
+    {
+      "id": 67,
+      "question": "A distance measured from a reference line along the longitudinal axis of the fuselage is called what?",
+      "options": [
+        "A. Water line",
+        "B. Buttock line",
+        "C. Body (fuselage) station"
+      ],
+      "correctIndex": 2,
+      "explanation": "Fuselage/body stations measure distance fore and aft along the longitudinal axis from a defined reference datum."
+    },
+    {
+      "id": 68,
+      "question": "In a wire-braced structure, the bracing wire is designed to carry what type of load?",
+      "options": [
+        "A. Tension load",
+        "B. Compression load",
+        "C. Torsional load"
+      ],
+      "correctIndex": 0,
+      "explanation": "Bracing wires can only pull, so they are designed to carry tension loads, typically arranged so at least one wire is always in tension."
+    },
+    {
+      "id": 69,
+      "question": "Which of the following fuselage requirements is NOT mandatory for all aircraft?",
+      "options": [
+        "A. That it must be pressurized",
+        "B. That it must support flight loads",
+        "C. That it must protect the occupants"
+      ],
+      "correctIndex": 0,
+      "explanation": "Pressurization is required only for aircraft operating at altitudes where cabin pressurization is needed; it is not a universal fuselage requirement."
+    },
+    {
+      "id": 70,
+      "question": "What device is used to control the spanwise flow of air over a swept wing?",
+      "options": [
+        "A. A wing fence",
+        "B. A vortex generator",
+        "C. A winglet"
+      ],
+      "correctIndex": 0,
+      "explanation": "A wing fence is a stationary vane on the wing's upper surface that blocks spanwise airflow, helping prevent tip stall on swept wings."
+    },
+    {
+      "id": 71,
+      "question": "The Pratt truss type of construction is known for having what members?",
+      "options": [
+        "A. Only longerons and skin",
+        "B. Only ribs and spars",
+        "C. Longerons, diagonal members, and vertical members"
+      ],
+      "correctIndex": 2,
+      "explanation": "A Pratt truss uses longerons connected by vertical and diagonal members arranged to carry tension and compression efficiently."
+    },
+    {
+      "id": 72,
+      "question": "Which of the following is an example of a combined stress condition?",
+      "options": [
+        "A. Pure tension in a bolt",
+        "B. Pure compression in a strut",
+        "C. Bending of the wing"
+      ],
+      "correctIndex": 2,
+      "explanation": "Wing bending combines tension on one surface with compression on the opposite surface plus shear, making it a combined-stress condition."
+    },
+    {
+      "id": 73,
+      "question": "Which of the following aircraft is designed to be supported in the air by the buoyancy principle?",
+      "options": [
+        "A. A glider",
+        "B. A helicopter",
+        "C. A balloon"
+      ],
+      "correctIndex": 2,
+      "explanation": "A balloon is lighter-than-air and is supported by buoyancy, unlike heavier-than-air aircraft that rely on aerodynamic lift."
+    },
+    {
+      "id": 74,
+      "question": "Width measurements taken to the left and right of the fuselage centerline are referred to as what?",
+      "options": [
+        "A. Water line",
+        "B. Buttock line",
+        "C. Fuselage station"
+      ],
+      "correctIndex": 1,
+      "explanation": "Buttock line dimensions describe lateral distance left or right of the fuselage centerline (buttock line zero)."
+    },
+    {
+      "id": 75,
+      "question": "A control surface that can be adjusted independently from the cockpit to relieve control pressures is called what?",
+      "options": [
+        "A. A balance tab",
+        "B. A trim tab",
+        "C. A servo tab"
+      ],
+      "correctIndex": 1,
+      "explanation": "A trim tab is pilot-adjustable from the cockpit and is used to relieve control-wheel/pedal forces in steady flight."
+    },
+    {
+      "id": 76,
+      "question": "Which of the following is a required criterion for the cockpit compartment?",
+      "options": [
+        "A. It must be an enclosed compartment",
+        "B. It must be located aft of the wing",
+        "C. It must be pressurized on all aircraft types"
+      ],
+      "correctIndex": 0,
+      "explanation": "Flight deck design requirements call for the cockpit to be an enclosed compartment, among other crew-protection criteria."
+    },
+    {
+      "id": 77,
+      "question": "To prevent leakage of cabin pressure, all doors must have what feature?",
+      "options": [
+        "A. A substantial seal",
+        "B. A double-pane window",
+        "C. A hydraulic actuator"
+      ],
+      "correctIndex": 0,
+      "explanation": "Pressurized aircraft doors require an effective, substantial seal around the frame to prevent cabin pressure loss."
+    },
+    {
+      "id": 78,
+      "question": "Which of the following aircraft is designed to be supported in the air by dynamic reaction with the air?",
+      "options": [
+        "A. A balloon",
+        "B. An airship",
+        "C. A glider"
+      ],
+      "correctIndex": 2,
+      "explanation": "A glider (and heavier-than-air aircraft generally) is supported by the dynamic reaction of air flowing over its wings, unlike buoyant craft like balloons."
+    },
+    {
+      "id": 79,
+      "question": "Which structural component does NOT carry flight loads?",
+      "options": [
+        "A. The wing spar",
+        "B. The fuselage frame",
+        "C. The landing gear"
+      ],
+      "correctIndex": 2,
+      "explanation": "The landing gear primarily carries ground loads (taxi, takeoff/landing impact) rather than in-flight aerodynamic loads."
+    },
+    {
+      "id": 80,
+      "question": "What methodology helps determine the load to be imposed on every part of the aircraft structure?",
+      "options": [
+        "A. Stress analysis",
+        "B. Weight and balance calculation",
+        "C. Fuel flow analysis"
+      ],
+      "correctIndex": 0,
+      "explanation": "Stress analysis is the engineering methodology used to determine the loads and resulting stresses that each structural member must withstand."
+    },
+    {
+      "id": 81,
+      "question": "Which of the following comes first when removing a stabilizer?",
+      "options": [
+        "A. Disconnect the control cables",
+        "B. Remove the attachment bolts",
+        "C. Remove the skin panels"
+      ],
+      "correctIndex": 0,
+      "explanation": "Before unbolting the stabilizer, its control cables (elevator/trim linkages) must be disconnected to avoid damage or injury."
+    },
+    {
+      "id": 82,
+      "question": "What is the principal structural member of the wing?",
+      "options": [
+        "A. The rib",
+        "B. The spar",
+        "C. The stringer"
+      ],
+      "correctIndex": 1,
+      "explanation": "The spar is the main structural member running spanwise that carries the primary bending and shear loads of the wing."
+    },
+    {
+      "id": 83,
+      "question": "Fuselage construction in which the skin carries all the loads without supporting structure is called what?",
+      "options": [
+        "A. Semi-monocoque construction",
+        "B. Pure monocoque construction",
+        "C. Truss construction"
+      ],
+      "correctIndex": 1,
+      "explanation": "In pure monocoque construction, there is no internal truss or stringer framework; the stressed skin alone carries all loads."
+    },
+    {
+      "id": 84,
+      "question": "Which tab moves in the same direction as the primary control surface it is attached to?",
+      "options": [
+        "A. An anti-servo tab",
+        "B. A servo (balance) tab",
+        "C. A trim-only tab"
+      ],
+      "correctIndex": 0,
+      "explanation": "An anti-servo tab deflects in the same direction as the control surface to increase the force the pilot must apply, improving feel/stability."
+    },
+    {
+      "id": 85,
+      "question": "How do spoilers assist the roll movement of the aircraft?",
+      "options": [
+        "A. On the wing where the aileron moves up, the spoiler also rises, further reducing lift on that wing",
+        "B. They deploy symmetrically on both wings during roll",
+        "C. They only operate during landing roll-out"
+      ],
+      "correctIndex": 0,
+      "explanation": "Roll spoilers deploy on the wing with the upward-deflected aileron, further decreasing lift on that side and augmenting the rolling moment."
+    },
+    {
+      "id": 86,
+      "question": "Longerons are described as what kind of structural member?",
+      "options": [
+        "A. Lateral ring members of the fuselage",
+        "B. The primary load-carrying lengthwise (longitudinal) members of the aircraft",
+        "C. Short vertical stiffeners only"
+      ],
+      "correctIndex": 1,
+      "explanation": "Longerons run fore-and-aft along the fuselage (or wing) and are the principal longitudinal load-carrying members in truss and semi-monocoque structures."
+    }
+  ]
+}
