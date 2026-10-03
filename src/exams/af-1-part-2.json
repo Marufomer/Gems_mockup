@@ -1,0 +1,904 @@
+{
+  "id": "af-1-part-2",
+  "title": "AF-1-part-2",
+  "module": "AF-M2",
+  "course": "airframe",
+  "category": "part",
+  "description": "Airframe exam covering aircraft rigging, leveling, control surface travel and balancing, cable systems, hardware practices, and manufacturing/assembly procedures, drawn from the AF-1 rigging question/answer bank.",
+  "durationMinutes": 150,
+  "totalQuestions": 81,
+  "color": "green",
+  "questions": [
+    {
+      "id": 1,
+      "question": "When should rigging of an aircraft be performed?",
+      "options": [
+        "A. Whenever there is a problem with alignment",
+        "B. Only at the first annual inspection",
+        "C. Only when the aircraft is painted"
+      ],
+      "correctIndex": 0,
+      "explanation": "Rigging is carried out whenever misalignment of flight controls or structure is suspected or detected, not on a fixed arbitrary schedule."
+    },
+    {
+      "id": 2,
+      "question": "Which part increases wing camber, increases lift, and helps control the aircraft at low speed?",
+      "options": [
+        "A. Flap",
+        "B. Spoiler",
+        "C. Winglet"
+      ],
+      "correctIndex": 0,
+      "explanation": "Flaps increase camber and wing area, producing more lift and allowing safe, controllable flight at lower airspeeds such as takeoff and landing."
+    },
+    {
+      "id": 3,
+      "question": "What is used to counteract the effects of engine and propeller torque?",
+      "options": [
+        "A. Dihedral alone",
+        "B. Wash-in and wash-out (differential wing twist)",
+        "C. Sweep angle alone"
+      ],
+      "correctIndex": 1,
+      "explanation": "Differential wing twist (wash-in on one wing, wash-out on the other) is used to offset the asymmetric lift caused by engine/propeller torque effects."
+    },
+    {
+      "id": 4,
+      "question": "What must be done before checking the position or angle of a main component of an aircraft?",
+      "options": [
+        "A. Removing all control surfaces",
+        "B. Jacking and leveling the aircraft",
+        "C. Draining all fuel"
+      ],
+      "correctIndex": 1,
+      "explanation": "The aircraft must first be jacked and leveled so that all rigging measurements are taken from a known, consistent reference attitude."
+    },
+    {
+      "id": 5,
+      "question": "Which balancing method does not require removal of the control surface?",
+      "options": [
+        "A. Calculation balancing method",
+        "B. Scale (reaction) balancing method",
+        "C. Removal and reweighing method"
+      ],
+      "correctIndex": 0,
+      "explanation": "The calculation method determines balance using measured weights and distances without physically removing the control surface from the aircraft."
+    },
+    {
+      "id": 6,
+      "question": "A wooden cradle used in aircraft structural work is best described as what?",
+      "options": [
+        "A. Supports cut to conform to the shape of the fuselage frame",
+        "B. A standard shipping container",
+        "C. A type of control lock"
+      ],
+      "correctIndex": 0,
+      "explanation": "A wooden cradle is custom-cut so its supports match the contour of the fuselage frame, cradling the structure securely during work."
+    },
+    {
+      "id": 7,
+      "question": "Where an angular or twisting motion is needed in a control system, what is typically installed?",
+      "options": [
+        "A. A turnbuckle",
+        "B. A torque tube",
+        "C. A fairlead"
+      ],
+      "correctIndex": 1,
+      "explanation": "A torque tube transmits rotary (twisting) motion through a control system where a straight push-pull or cable run cannot do so."
+    },
+    {
+      "id": 8,
+      "question": "If the top of a landing gear wheel leans inboard relative to the vertical, what is this called?",
+      "options": [
+        "A. Negative camber",
+        "B. Positive camber",
+        "C. Toe-in"
+      ],
+      "correctIndex": 0,
+      "explanation": "When the top of the wheel tilts inward (toward the aircraft centerline), this out-of-vertical condition is called negative camber."
+    },
+    {
+      "id": 9,
+      "question": "What are the two very important alignments that must be checked for an airplane's wings?",
+      "options": [
+        "A. Sweep angle and aspect ratio",
+        "B. Angle of incidence and dihedral",
+        "C. Chord and span"
+      ],
+      "correctIndex": 1,
+      "explanation": "Wing rigging checks focus on angle of incidence (relative to the fuselage) and dihedral (the upward wing angle), both critical to flight characteristics."
+    },
+    {
+      "id": 10,
+      "question": "Which balancing method uses a scale graduated in hundreds of pounds?",
+      "options": [
+        "A. Calculation method",
+        "B. Reaction method using a known weight only",
+        "C. Scale method of a pound"
+      ],
+      "correctIndex": 2,
+      "explanation": "This balancing method directly reads the reaction force on a scale graduated in hundreds of pounds to determine control surface balance."
+    },
+    {
+      "id": 11,
+      "question": "If no specific direction is given for inserting a bolt, which way should it be installed?",
+      "options": [
+        "A. With the bolt head down or aft",
+        "B. In whichever direction is most convenient",
+        "C. With the bolt head up or forward"
+      ],
+      "correctIndex": 2,
+      "explanation": "The standard practice, absent other instructions, is to install bolts with the head up or forward so that, if the nut loosens, gravity/airflow works against it falling out."
+    },
+    {
+      "id": 12,
+      "question": "A twist in an airplane wing that decreases its angle of incidence near the tip is called what?",
+      "options": [
+        "A. Wash-in",
+        "B. Wash-out",
+        "C. Dihedral"
+      ],
+      "correctIndex": 1,
+      "explanation": "Wash-out reduces the angle of incidence toward the wingtip, which helps the wing root stall before the tip, preserving aileron control."
+    },
+    {
+      "id": 13,
+      "question": "Which of the following is NOT used to measure control surface travel?",
+      "options": [
+        "A. Universal propeller protractor",
+        "B. Spirit level",
+        "C. Rigging/travel board"
+      ],
+      "correctIndex": 1,
+      "explanation": "A spirit level is used for leveling the aircraft, not for measuring the angular travel of a control surface."
+    },
+    {
+      "id": 14,
+      "question": "A 7x7 construction cable is generally classified as what type of cable?",
+      "options": [
+        "A. Medium flexible cable",
+        "B. Extra flexible cable",
+        "C. Non-flexible (solid) cable"
+      ],
+      "correctIndex": 0,
+      "explanation": "7x7 (7 strands of 7 wires) cable is a medium-flexibility cable, more flexible than 1x19 but less flexible than 7x19 cable."
+    },
+    {
+      "id": 15,
+      "question": "What instrument is used for measuring the angle of incidence of a wing?",
+      "options": [
+        "A. An incidence board",
+        "B. A tensiometer",
+        "C. A protractor level only"
+      ],
+      "correctIndex": 0,
+      "explanation": "An incidence board is placed on the wing at specified rib stations to measure the angle of incidence against a reference."
+    },
+    {
+      "id": 16,
+      "question": "What effect does lengthening the rear wing strut have?",
+      "options": [
+        "A. Decreases the angle of incidence and washes the wing out",
+        "B. Increases the angle of incidence and washes the wing in",
+        "C. Has no effect on incidence or wash"
+      ],
+      "correctIndex": 0,
+      "explanation": "Lengthening the rear strut rotates the trailing edge of the wing down relative to the front attachment, decreasing incidence and introducing wash-out."
+    },
+    {
+      "id": 17,
+      "question": "Control surface travel stops are checked relative to what?",
+      "options": [
+        "A. Only after an incident",
+        "B. Prior to flight, against the manufacturer's specified travel limits",
+        "C. Only during annual inspection of the engine"
+      ],
+      "correctIndex": 1,
+      "explanation": "Control surface travel (stop) limits are checked against the specified maximum and minimum deflections before flight operations."
+    },
+    {
+      "id": 18,
+      "question": "A castle nut is designed to be secured by what?",
+      "options": [
+        "A. A cotter pin",
+        "B. A lock washer",
+        "C. A jam nut"
+      ],
+      "correctIndex": 0,
+      "explanation": "The slots in a castellated (castle) nut are designed to align with a hole in the bolt so a cotter pin can be inserted to prevent the nut from turning."
+    },
+    {
+      "id": 19,
+      "question": "What tools are used to measure the dihedral angle of a wing?",
+      "options": [
+        "A. A tensiometer and a protractor",
+        "B. A straightedge and an inclinometer",
+        "C. A plumb bob and a turnbuckle"
+      ],
+      "correctIndex": 1,
+      "explanation": "Dihedral is measured by placing a straightedge across wing reference points and reading the angle with an inclinometer."
+    },
+    {
+      "id": 20,
+      "question": "What is the first step to correct the amount of travel of a flap?",
+      "options": [
+        "A. Replace the flap skin",
+        "B. Adjust the aileron rigging",
+        "C. Check the motor and drive assembly"
+      ],
+      "correctIndex": 2,
+      "explanation": "Incorrect flap travel is first traced to the flap motor and drive mechanism before adjusting limit switches or linkages."
+    },
+    {
+      "id": 21,
+      "question": "Which of the following describes proper hardware assembly procedure?",
+      "options": [
+        "A. Always use the longest bolt available",
+        "B. Always add extra washers for safety",
+        "C. Don't use a stack of washers to make up for a bolt with too long a grip length"
+      ],
+      "correctIndex": 2,
+      "explanation": "Using a bolt that is too long and stacking washers to compensate is poor practice; the correct grip-length bolt should be selected instead."
+    },
+    {
+      "id": 22,
+      "question": "Incorrect rigging of the rudder primarily affects which aircraft motion?",
+      "options": [
+        "A. Yaw motion",
+        "B. Pitch motion",
+        "C. Roll motion"
+      ],
+      "correctIndex": 0,
+      "explanation": "The rudder controls yaw about the vertical axis, so rudder rigging errors most directly affect yaw control and response."
+    },
+    {
+      "id": 23,
+      "question": "Which tool is used to check structural/wing symmetry on an aircraft?",
+      "options": [
+        "A. A tensiometer",
+        "B. A surveyor's transit",
+        "C. A torque wrench"
+      ],
+      "correctIndex": 1,
+      "explanation": "A surveyor's transit (or similar sighting instrument) is used to check that the wings and tail are symmetrically positioned about the aircraft's centerline."
+    },
+    {
+      "id": 24,
+      "question": "What do some aircraft use for longitudinal and lateral leveling?",
+      "options": [
+        "A. A tensiometer and turnbuckle",
+        "B. A protractor and torque wrench",
+        "C. A plumb bob and grid plate"
+      ],
+      "correctIndex": 2,
+      "explanation": "A plumb bob suspended over a marked grid plate lets technicians check that the aircraft is level both longitudinally and laterally."
+    },
+    {
+      "id": 25,
+      "question": "On cantilever aircraft, what is adjusted on the rear spar to change the dihedral angle?",
+      "options": [
+        "A. An eccentric bushing",
+        "B. A turnbuckle",
+        "C. A torque tube"
+      ],
+      "correctIndex": 0,
+      "explanation": "An eccentric bushing at the rear spar attachment can be rotated to fine-tune the wing's dihedral angle on cantilever wing designs."
+    },
+    {
+      "id": 26,
+      "question": "What is the component, made from non-metal or soft metal, through which a control cable passes at a bulkhead?",
+      "options": [
+        "A. A turnbuckle",
+        "B. A pulley",
+        "C. A fairlead"
+      ],
+      "correctIndex": 2,
+      "explanation": "A fairlead guides a cable through a structural opening (such as a bulkhead) and is made of a soft material to avoid abrading the cable."
+    },
+    {
+      "id": 27,
+      "question": "What must be considered when using jacks to raise an aircraft?",
+      "options": [
+        "A. Only the ambient temperature",
+        "B. The jack point locations and load limits",
+        "C. Only the hydraulic fluid color"
+      ],
+      "correctIndex": 1,
+      "explanation": "Jacking must use the manufacturer's designated jack points and must not exceed the specified load limit for the jack and structure."
+    },
+    {
+      "id": 28,
+      "question": "Which part of a cable tensiometer connects to the indicator?",
+      "options": [
+        "A. The anvil",
+        "B. The riser",
+        "C. The trigger"
+      ],
+      "correctIndex": 1,
+      "explanation": "The riser is the part of the tensiometer that contacts the cable and transmits the deflection force to the indicator mechanism."
+    },
+    {
+      "id": 29,
+      "question": "A change in direction of a control cable run is typically accomplished by what?",
+      "options": [
+        "A. A fairlead",
+        "B. A pulley",
+        "C. A turnbuckle"
+      ],
+      "correctIndex": 1,
+      "explanation": "Pulleys are used to change the direction of a cable run while allowing the cable to move freely with minimal friction."
+    },
+    {
+      "id": 30,
+      "question": "In which manual would you find the specified control surface travel movements?",
+      "options": [
+        "A. The aircraft maintenance manual",
+        "B. The pilot's operating handbook only",
+        "C. The weight and balance manual"
+      ],
+      "correctIndex": 0,
+      "explanation": "Control surface travel limits and rigging data are specified in the aircraft maintenance manual (AMM)."
+    },
+    {
+      "id": 31,
+      "question": "If the flap drive motor assembly drives the flaps too much or too little, what is the likely cause?",
+      "options": [
+        "A. A limit switch problem",
+        "B. A tensiometer calibration error",
+        "C. A fairlead misalignment"
+      ],
+      "correctIndex": 0,
+      "explanation": "Excessive or insufficient flap travel is commonly traced to misadjusted or faulty limit switches controlling the drive motor."
+    },
+    {
+      "id": 32,
+      "question": "At the manufacturing plant, final assembly of the aircraft typically starts with what?",
+      "options": [
+        "A. The fuselage subassembly",
+        "B. The wing subassembly",
+        "C. The landing gear installation"
+      ],
+      "correctIndex": 0,
+      "explanation": "Final assembly generally begins by bringing together the fuselage subassemblies before mating the wings, empennage, and other major components."
+    },
+    {
+      "id": 33,
+      "question": "Which cable size/type is typically used for trim tabs, engine controls, and indicator controls?",
+      "options": [
+        "A. Extra flexible cable only",
+        "B. Flexible (medium) cable",
+        "C. Non-flexible 1x19 cable"
+      ],
+      "correctIndex": 1,
+      "explanation": "Lighter-duty systems such as trim tabs, engine controls, and indicators commonly use flexible medium-size cable rather than heavy-duty extra-flexible cable."
+    },
+    {
+      "id": 34,
+      "question": "Which patented process uses copper sleeves and can be used up to the full rated strength of a cable looped around a thimble?",
+      "options": [
+        "A. The swaged terminal process",
+        "B. The Nicopress process",
+        "C. The splice-and-serve process"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Nicopress process crimps a copper sleeve around a cable looped through a thimble, achieving the cable's full rated strength."
+    },
+    {
+      "id": 35,
+      "question": "What is the first step in removal of the landing gear?",
+      "options": [
+        "A. Depressurize the hydraulic system",
+        "B. Disconnect the wheel speed sensor",
+        "C. Remove the tire and wheel"
+      ],
+      "correctIndex": 0,
+      "explanation": "Before any landing gear component is disconnected, the hydraulic system must be depressurized to prevent injury or uncontrolled movement."
+    },
+    {
+      "id": 36,
+      "question": "Leveling and fixed-surface alignment checks should be performed in what kind of environment?",
+      "options": [
+        "A. An enclosed area (protected from wind and sun)",
+        "B. An open ramp area",
+        "C. Direct sunlight for best visibility"
+      ],
+      "correctIndex": 0,
+      "explanation": "Leveling and alignment work is done in an enclosed hangar area to avoid wind, temperature, and sunlight effects on the readings."
+    },
+    {
+      "id": 37,
+      "question": "What effect does wash-out have on a wing?",
+      "options": [
+        "A. It increases lift at the tip",
+        "B. It has no effect on lift",
+        "C. It decreases lift (toward the tip)"
+      ],
+      "correctIndex": 2,
+      "explanation": "Because wash-out reduces the angle of incidence toward the tip, it reduces the lift generated by the outer wing sections."
+    },
+    {
+      "id": 38,
+      "question": "What is the purpose of rigging an aircraft?",
+      "options": [
+        "A. To reduce the aircraft's empty weight",
+        "B. To ensure the structure has the proper flight characteristics",
+        "C. To improve cabin pressurization"
+      ],
+      "correctIndex": 1,
+      "explanation": "Rigging aligns the airframe and flight controls so the aircraft exhibits its designed, proper flight characteristics."
+    },
+    {
+      "id": 39,
+      "question": "When rigging the aileron, a control lock is placed between the aileron and flap to hold the aileron in what position?",
+      "options": [
+        "A. Full up position",
+        "B. Full down position",
+        "C. Neutral position"
+      ],
+      "correctIndex": 2,
+      "explanation": "The control lock holds the aileron in its neutral (streamlined) position while rigging measurements and adjustments are made."
+    },
+    {
+      "id": 40,
+      "question": "Where can specified torque values for fasteners be found?",
+      "options": [
+        "A. On the fastener packaging only",
+        "B. In the pilot's operating handbook",
+        "C. In the aircraft maintenance manual"
+      ],
+      "correctIndex": 2,
+      "explanation": "Torque values for specific fasteners and applications are specified in the aircraft maintenance manual."
+    },
+    {
+      "id": 41,
+      "question": "The dihedral angle is formed by the intersection of the plane of the wing (or horizontal stabilizer) and what reference?",
+      "options": [
+        "A. The longitudinal axis",
+        "B. The vertical axis",
+        "C. The lateral axis"
+      ],
+      "correctIndex": 2,
+      "explanation": "Dihedral angle is measured between the wing (or stabilizer) plane and the aircraft's lateral axis (a horizontal reference line)."
+    },
+    {
+      "id": 42,
+      "question": "When a control surface is mounted on a balance stand, a downward movement of the trailing edge below the horizontal position indicates what?",
+      "options": [
+        "A. Underbalance",
+        "B. Overbalance",
+        "C. Perfect static balance"
+      ],
+      "correctIndex": 0,
+      "explanation": "If the trailing edge drops below horizontal on a balance stand, the surface is heavier aft of the hinge line, i.e., underbalanced."
+    },
+    {
+      "id": 43,
+      "question": "What is the first step in the assembly process of the landing gear?",
+      "options": [
+        "A. Install the wheel and tire",
+        "B. Inspect the mounting area",
+        "C. Pressurize the hydraulic system"
+      ],
+      "correctIndex": 1,
+      "explanation": "Before mounting the landing gear, the attachment/mounting area must be inspected to confirm it is airworthy and ready to accept the gear."
+    },
+    {
+      "id": 44,
+      "question": "What component is used in a cable system to adjust cable tension?",
+      "options": [
+        "A. Fairleads",
+        "B. Turnbuckles",
+        "C. Pulleys"
+      ],
+      "correctIndex": 1,
+      "explanation": "Turnbuckles allow technicians to lengthen or shorten a cable assembly slightly, adjusting the tension to the specified value."
+    },
+    {
+      "id": 45,
+      "question": "Which of the following is NOT typically a reason to perform a symmetry check?",
+      "options": [
+        "A. Routine component servicing",
+        "B. Suspected damage from a hard landing",
+        "C. A reported control asymmetry or handling issue"
+      ],
+      "correctIndex": 0,
+      "explanation": "Routine component servicing alone does not normally trigger a symmetry check; symmetry checks are prompted by damage, repairs, or handling concerns."
+    },
+    {
+      "id": 46,
+      "question": "Which document provides the specific location description for placing a spirit level during leveling?",
+      "options": [
+        "A. The Type Certificate Data Sheet (TCDS)",
+        "B. The weight and balance report",
+        "C. The flight manual supplement"
+      ],
+      "correctIndex": 0,
+      "explanation": "The TCDS and associated structural repair/maintenance data specify where leveling points and spirit level locations are on the airframe."
+    },
+    {
+      "id": 47,
+      "question": "Which tool is used to check that the aircraft is level?",
+      "options": [
+        "A. A tensiometer",
+        "B. A torque wrench",
+        "C. A plumb bob (with a spirit level or grid plate)"
+      ],
+      "correctIndex": 2,
+      "explanation": "A plumb bob, often combined with a spirit level or grid plate, is used to confirm the aircraft is longitudinally and laterally level."
+    },
+    {
+      "id": 48,
+      "question": "Where is pertinent rigging information for an aircraft typically found?",
+      "options": [
+        "A. The pilot's logbook",
+        "B. The parts catalog only",
+        "C. The Type Certificate Data Sheet (TCDS) and maintenance manual"
+      ],
+      "correctIndex": 2,
+      "explanation": "Rigging data, leveling points, and control surface travel limits are found in the TCDS and the aircraft's maintenance manual."
+    },
+    {
+      "id": 49,
+      "question": "When the trailing edge moves up above the horizontal line when the surface is balanced at its hinge line, this indicates what?",
+      "options": [
+        "A. Overbalance",
+        "B. Underbalance",
+        "C. Correct static balance"
+      ],
+      "correctIndex": 0,
+      "explanation": "If the trailing edge rises above horizontal, the surface is nose-heavy relative to the hinge, which is called overbalance."
+    },
+    {
+      "id": 50,
+      "question": "The angle between the lateral axis and a line passing through the wing's center (wingtip to wingtip, as viewed from the front) defines what?",
+      "options": [
+        "A. Angle of incidence",
+        "B. Sweep angle",
+        "C. Dihedral"
+      ],
+      "correctIndex": 2,
+      "explanation": "Dihedral is the upward angle of the wings relative to the horizontal (lateral axis) reference line, viewed from the front of the aircraft."
+    },
+    {
+      "id": 51,
+      "question": "Which cable size is commonly used for trim tabs, engine controls, and indicator controls?",
+      "options": [
+        "A. 1x19 cable",
+        "B. 7x19 extra-flexible cable",
+        "C. 7x7 cable"
+      ],
+      "correctIndex": 2,
+      "explanation": "7x7 cable's medium flexibility makes it suitable for lighter-duty applications like trim tabs, engine controls, and indicator systems."
+    },
+    {
+      "id": 52,
+      "question": "A nut classified under medium fit falls under which class?",
+      "options": [
+        "A. Class 1 fit",
+        "B. Class 5 fit",
+        "C. Class 3 fit"
+      ],
+      "correctIndex": 2,
+      "explanation": "Thread fit classifications run from loose (Class 1) to close (Class 4/5), with Class 3 commonly representing a medium fit."
+    },
+    {
+      "id": 53,
+      "question": "Fairleads should never deflect the alignment of a cable more than how many degrees from a straight line?",
+      "options": [
+        "A. 3 degrees",
+        "B. 15 degrees",
+        "C. 45 degrees"
+      ],
+      "correctIndex": 0,
+      "explanation": "Fairleads are intended for only slight cable deflection; standard practice limits this to no more than about 3 degrees from a straight line."
+    },
+    {
+      "id": 54,
+      "question": "What is the first procedure in the disassembly of a stabilizer?",
+      "options": [
+        "A. Disconnect electrical bonding",
+        "B. Observe safety procedures",
+        "C. Remove the fairing"
+      ],
+      "correctIndex": 1,
+      "explanation": "As with most structural disassembly tasks, the first step is to observe the applicable safety procedures before any components are disturbed."
+    },
+    {
+      "id": 55,
+      "question": "Which tool is used to measure the tightness of a bolt or nut?",
+      "options": [
+        "A. A tensiometer",
+        "B. An inclinometer",
+        "C. A torque wrench"
+      ],
+      "correctIndex": 2,
+      "explanation": "A torque wrench measures and applies a specified rotational force (torque) when tightening a bolt or nut."
+    },
+    {
+      "id": 56,
+      "question": "What tool is used to measure control surface deflection angles?",
+      "options": [
+        "A. A universal propeller protractor",
+        "B. A plumb bob",
+        "C. A tensiometer"
+      ],
+      "correctIndex": 0,
+      "explanation": "The universal propeller protractor, despite its name, is commonly used to measure control surface deflection angles during rigging."
+    },
+    {
+      "id": 57,
+      "question": "What is the longitudinal difference in the position of the wings of a biplane called?",
+      "options": [
+        "A. Stagger",
+        "B. Dihedral",
+        "C. Decalage"
+      ],
+      "correctIndex": 0,
+      "explanation": "Stagger describes the fore-and-aft offset between the upper and lower wings of a biplane."
+    },
+    {
+      "id": 58,
+      "question": "Before checking the position or angle of the main component of an aircraft, the aircraft must be what?",
+      "options": [
+        "A. Fueled to capacity",
+        "B. Fully loaded with cargo",
+        "C. Jacked and leveled"
+      ],
+      "correctIndex": 2,
+      "explanation": "Accurate rigging measurements require the aircraft to first be jacked and leveled to a known reference attitude."
+    },
+    {
+      "id": 59,
+      "question": "What do large aircraft incorporate in their control cable systems to automatically maintain a given cable tension?",
+      "options": [
+        "A. Fairleads",
+        "B. Pulleys",
+        "C. Tension regulators"
+      ],
+      "correctIndex": 2,
+      "explanation": "Tension regulators automatically compensate for temperature-induced expansion/contraction of the airframe, keeping cable tension within limits."
+    },
+    {
+      "id": 60,
+      "question": "What tool is used to measure cable tension?",
+      "options": [
+        "A. A tensiometer",
+        "B. A torque wrench",
+        "C. An inclinometer"
+      ],
+      "correctIndex": 0,
+      "explanation": "A tensiometer measures the tension in a control cable by reading the force needed to deflect the cable a set amount."
+    },
+    {
+      "id": 61,
+      "question": "How is a kinked or damaged (impacted) cable typically identified during inspection?",
+      "options": [
+        "A. By measuring its electrical resistance",
+        "B. By rubbing a rag along the cable to catch on broken wire strands",
+        "C. By weighing a sample length"
+      ],
+      "correctIndex": 1,
+      "explanation": "Running a cloth or rag along a cable will snag on broken wires or burrs, helping technicians detect internal damage."
+    },
+    {
+      "id": 62,
+      "question": "What is the first step in rigging the elevator?",
+      "options": [
+        "A. The trim tab is removed",
+        "B. The cable tension is adjusted",
+        "C. Travel is measured"
+      ],
+      "correctIndex": 2,
+      "explanation": "Elevator rigging typically begins with measuring the existing control surface travel before making any adjustments."
+    },
+    {
+      "id": 63,
+      "question": "What should you inspect while rigging the flap system?",
+      "options": [
+        "A. Only the flap paint condition",
+        "B. Only the cabin pressurization system",
+        "C. Whether the motor/drive assembly is moving the flaps too much or too little"
+      ],
+      "correctIndex": 2,
+      "explanation": "Flap rigging checks whether the drive motor and mechanism produce the correct amount of flap travel, neither too much nor too little."
+    },
+    {
+      "id": 64,
+      "question": "What is the difference between the angles of incidence of the upper and lower wings of a biplane called?",
+      "options": [
+        "A. Stagger",
+        "B. Dihedral",
+        "C. Decalage"
+      ],
+      "correctIndex": 2,
+      "explanation": "Decalage refers to the difference in angle of incidence between the upper and lower wings of a biplane."
+    },
+    {
+      "id": 65,
+      "question": "The aircraft is leveled about which axes?",
+      "options": [
+        "A. Laterally and vertically",
+        "B. Longitudinally and vertically only",
+        "C. Laterally and longitudinally"
+      ],
+      "correctIndex": 2,
+      "explanation": "Leveling an aircraft requires it to be level both laterally (wingtip to wingtip) and longitudinally (nose to tail)."
+    },
+    {
+      "id": 66,
+      "question": "Which of the following describes a major part division used during aircraft manufacturing?",
+      "options": [
+        "A. Left wing, right wing, and tail only",
+        "B. Engine, wing, and avionics bay only",
+        "C. Front section, mid-section, and aft section"
+      ],
+      "correctIndex": 2,
+      "explanation": "Large transport aircraft are commonly built and assembled in major fuselage sections such as front, mid, and aft sections."
+    },
+    {
+      "id": 67,
+      "question": "What is used to form the circular shape of a fuselage during manufacturing?",
+      "options": [
+        "A. A torque tube",
+        "B. A fairlead",
+        "C. A mating jig"
+      ],
+      "correctIndex": 2,
+      "explanation": "Jigs (mating/forming jigs) hold frames and formers in their correct circular/contoured positions during fuselage assembly."
+    },
+    {
+      "id": 68,
+      "question": "A method of producing subassemblies of aircraft major parts and then assembling the major parts together is called what?",
+      "options": [
+        "A. Final rigging",
+        "B. Static balancing",
+        "C. Production body break"
+      ],
+      "correctIndex": 2,
+      "explanation": "Production body break describes building the aircraft in separate major subassemblies (sections) that are later joined together."
+    },
+    {
+      "id": 69,
+      "question": "Which of the following correctly describes aircraft rigging?",
+      "options": [
+        "A. It's done whenever there is a fault in the alignment of the aircraft",
+        "B. It's done only once, at the factory",
+        "C. It's done only after an engine change"
+      ],
+      "correctIndex": 0,
+      "explanation": "Rigging is performed as needed, whenever misalignment of structure or controls is identified, not on a one-time or engine-specific basis."
+    },
+    {
+      "id": 70,
+      "question": "A nut classified under loose fit falls under which class?",
+      "options": [
+        "A. Class 1 fit",
+        "B. Class 3 fit",
+        "C. Class 5 fit"
+      ],
+      "correctIndex": 0,
+      "explanation": "Class 1 fit represents the loosest of the standard thread fit classifications."
+    },
+    {
+      "id": 71,
+      "question": "A nut classified under close fit falls under which class?",
+      "options": [
+        "A. Class 4 fit",
+        "B. Class 1 fit",
+        "C. Class 2 fit"
+      ],
+      "correctIndex": 0,
+      "explanation": "Class 4 fit represents a close (tighter) thread fit compared with the looser Class 1-3 fits."
+    },
+    {
+      "id": 72,
+      "question": "Lengthening the rear strut will move the wing toward what condition?",
+      "options": [
+        "A. Wash-in",
+        "B. Wash-out",
+        "C. Increased dihedral"
+      ],
+      "correctIndex": 1,
+      "explanation": "Lengthening the rear strut lowers the trailing edge relative to the front attachment, introducing wash-out at that wing station."
+    },
+    {
+      "id": 73,
+      "question": "Which type of terminal fitting is suitable for use on civil aircraft cables up to and including the full rated cable strength?",
+      "options": [
+        "A. A Nicopress sleeve only",
+        "B. A swaged-type terminal",
+        "C. A simple wire-wrap splice"
+      ],
+      "correctIndex": 1,
+      "explanation": "Swaged terminals are mechanically compressed onto the cable end and are approved for use up to the full rated strength of the cable."
+    },
+    {
+      "id": 74,
+      "question": "When checking a cable system, no more than how many threads should be exposed on either side of a turnbuckle barrel?",
+      "options": [
+        "A. 10 threads",
+        "B. 3 threads",
+        "C. 0 threads"
+      ],
+      "correctIndex": 1,
+      "explanation": "Standard practice limits exposed turnbuckle threads to no more than 3 on either side, ensuring adequate thread engagement for safety."
+    },
+    {
+      "id": 75,
+      "question": "Which of the following comes last when rigging the rudder control system?",
+      "options": [
+        "A. Measuring the cable tension",
+        "B. Locking the rudder in neutral",
+        "C. Connecting the cables to the rudder horn"
+      ],
+      "correctIndex": 0,
+      "explanation": "Cable tension is typically measured and fine-tuned as the final check after the rudder linkage has been connected and roughly set."
+    },
+    {
+      "id": 76,
+      "question": "Lengthening the rear strut will do what to the angle of incidence?",
+      "options": [
+        "A. Increase it",
+        "B. Decrease it",
+        "C. Leave it unchanged"
+      ],
+      "correctIndex": 1,
+      "explanation": "Lengthening the rear strut rotates the wing's trailing edge down, which decreases the wing's angle of incidence."
+    },
+    {
+      "id": 77,
+      "question": "What term describes the effort to maintain balance when a control surface is subjected to movement on the aircraft in flight?",
+      "options": [
+        "A. Dynamic balance",
+        "B. Static balance",
+        "C. Mass balance only"
+      ],
+      "correctIndex": 0,
+      "explanation": "Dynamic balance addresses how a control surface behaves and stays balanced while moving in flight, as opposed to static (at-rest) balance."
+    },
+    {
+      "id": 78,
+      "question": "The incidence angle is usually checked at how many specified positions on the wing to ensure it is free from twist?",
+      "options": [
+        "A. One",
+        "B. Four",
+        "C. Two"
+      ],
+      "correctIndex": 2,
+      "explanation": "Checking the angle of incidence at a minimum of two spanwise positions lets technicians confirm the wing has no unintended twist between them."
+    },
+    {
+      "id": 79,
+      "question": "What is the first step while rigging the aileron?",
+      "options": [
+        "A. Measure the cable tension",
+        "B. Remove the wingtip fairing",
+        "C. Lock the control yoke/control surface in the neutral position"
+      ],
+      "correctIndex": 2,
+      "explanation": "Before measuring or adjusting aileron travel, the cockpit control and the surface itself are locked in the neutral position as a reference."
+    },
+    {
+      "id": 80,
+      "question": "What term describes the tendency of an object to remain stationary when supported from its own center of gravity?",
+      "options": [
+        "A. Static balance",
+        "B. Dynamic balance",
+        "C. Aerodynamic balance"
+      ],
+      "correctIndex": 0,
+      "explanation": "Static balance describes a control surface's tendency to stay put (not rotate) when supported exactly at its center of gravity."
+    },
+    {
+      "id": 81,
+      "question": "What is a check to determine that the wing and tail are symmetrical about the aircraft's longitudinal axis called?",
+      "options": [
+        "A. A rigging check",
+        "B. A symmetry check",
+        "C. A leveling check"
+      ],
+      "correctIndex": 1,
+      "explanation": "A symmetry check confirms that corresponding structures (wings, tail surfaces) are positioned identically on each side of the aircraft's centerline."
+    }
+  ]
+}
