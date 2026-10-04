@@ -1,0 +1,1168 @@
+{
+  "id": "af-2-part-3",
+  "title": "AF-2-part-3",
+  "module": "AF-2-M3,M4",
+  "course": "airframe",
+  "category": "part",
+  "description": "Airframe exam covering composite materials and repair (fibers, resins, layup, curing, honeycomb structures), non-destructive testing methods, corrosion theory and treatment, and transparent plastics, drawn from the AF-2 composites/corrosion/NDT question/answer bank.",
+  "durationMinutes": 150,
+  "totalQuestions": 105,
+  "color": "green",
+  "questions": [
+    {
+      "id": 1,
+      "question": "A unidirectional (tape) reinforcing composite material has its highest strength in what direction?",
+      "options": [
+        "A. Perpendicular to the fiber direction",
+        "B. The fiber direction",
+        "C. Equally in all directions"
+      ],
+      "correctIndex": 1,
+      "explanation": "Unidirectional tape has all its reinforcing fibers aligned one way, so strength is highest along that fiber direction and much lower across it."
+    },
+    {
+      "id": 2,
+      "question": "Which reinforcing fabric is available only as a prepreg tape product (not as a dry woven fabric)?",
+      "options": [
+        "A. Boron",
+        "B. Fiberglass",
+        "C. Aramid"
+      ],
+      "correctIndex": 0,
+      "explanation": "Boron fiber is typically supplied only as a prepreg tape due to its stiffness and the difficulty of weaving it into fabric."
+    },
+    {
+      "id": 3,
+      "question": "Which of the following composite reinforcement fibers has high impact resistance?",
+      "options": [
+        "A. Boron",
+        "B. Carbon/graphite",
+        "C. Aramid (e.g., Kevlar)"
+      ],
+      "correctIndex": 2,
+      "explanation": "Aramid fibers are valued for their high impact and abrasion resistance, often used where toughness is more important than pure stiffness."
+    },
+    {
+      "id": 4,
+      "question": "Which practice does NOT help minimize residual stress in metal during cure of the resin?",
+      "options": [
+        "A. Designing a symmetrical, balanced laminate",
+        "B. Controlling the cure temperature profile",
+        "C. Designing a non-symmetrical (unbalanced) laminate"
+      ],
+      "correctIndex": 2,
+      "explanation": "A non-symmetrical laminate layup tends to warp and induce residual stress during cure; symmetrical, balanced layups help minimize this."
+    },
+    {
+      "id": 5,
+      "question": "Which of the following is NOT an advantage of cleaning a composite/metal surface?",
+      "options": [
+        "A. That cleaning improves bonding/adhesion",
+        "B. That cleaning helps prevent corrosion",
+        "C. That cleaning can be used in place of a paint finish"
+      ],
+      "correctIndex": 2,
+      "explanation": "Cleaning prepares a surface for bonding or painting; it does not substitute for a protective paint finish."
+    },
+    {
+      "id": 6,
+      "question": "Which of the following is NOT required for electrochemical (galvanic) corrosion to form?",
+      "options": [
+        "A. An electrolyte",
+        "B. Dissimilar metals in contact",
+        "C. A specific metal surface finish type"
+      ],
+      "correctIndex": 2,
+      "explanation": "Galvanic corrosion requires dissimilar metals, an electrolyte, and electrical contact; the specific surface finish of the metal is not a fundamental requirement."
+    },
+    {
+      "id": 7,
+      "question": "What is a thin layer of fiberglass used with a repair part to create a clean surface for the bonding process?",
+      "options": [
+        "A. Peel ply",
+        "B. Bleeder ply",
+        "C. Release film"
+      ],
+      "correctIndex": 0,
+      "explanation": "Peel ply is bonded to the laminate surface and peeled away just before final bonding, leaving a clean, textured surface ready for adhesion."
+    },
+    {
+      "id": 8,
+      "question": "What is a cause of delamination in a composite/honeycomb structure?",
+      "options": [
+        "A. Water trapped in the honeycomb core",
+        "B. Excessive cleaning of the surface",
+        "C. Using too little resin color pigment"
+      ],
+      "correctIndex": 0,
+      "explanation": "Water that enters and freezes/expands within the honeycomb core is a common cause of delamination between the skin and core."
+    },
+    {
+      "id": 9,
+      "question": "The recommended time at room temperature to complete layup and compaction of a prepreg is called what?",
+      "options": [
+        "A. Shelf life",
+        "B. Handling life (out-time)",
+        "C. Cure life"
+      ],
+      "correctIndex": 1,
+      "explanation": "Handling life (out-time) is the limited period a prepreg can be worked with at room temperature before it must be cured or returned to cold storage."
+    },
+    {
+      "id": 10,
+      "question": "What type of drill bit is recommended for drilling acrylic plastic?",
+      "options": [
+        "A. A standard twist drill with a 118° included angle",
+        "B. A twist drill ground with a 150° included angle",
+        "C. A spade bit with a 90° point"
+      ],
+      "correctIndex": 1,
+      "explanation": "Acrylic requires a specially ground drill bit with a wider (about 150°) included angle and polished flutes to prevent cracking and overheating."
+    },
+    {
+      "id": 11,
+      "question": "What test is used to determine if a surface has been thoroughly cleaned before bonding?",
+      "options": [
+        "A. The tap test",
+        "B. The water break test",
+        "C. The dye penetrant test"
+      ],
+      "correctIndex": 1,
+      "explanation": "In the water break test, water sheeting evenly across a surface (rather than beading) indicates the surface is clean and free of contaminants."
+    },
+    {
+      "id": 12,
+      "question": "Which fastener type is commonly used for sealing joints in a fuel tank?",
+      "options": [
+        "A. Standard dry solid rivets",
+        "B. Self-tapping sheet metal screws",
+        "C. Interference-fit wet-installed fasteners (e.g., \"E-Z Buck\" style)"
+      ],
+      "correctIndex": 2,
+      "explanation": "Special wet-installed, interference-fit fasteners are used in fuel tank areas to maintain a fuel-tight seal at the joint."
+    },
+    {
+      "id": 13,
+      "question": "Which fiber type is used for composite materials that must operate at very high temperatures?",
+      "options": [
+        "A. Fiberglass",
+        "B. Ceramic fiber",
+        "C. Aramid"
+      ],
+      "correctIndex": 1,
+      "explanation": "Ceramic fibers retain strength at very high temperatures where organic fibers like aramid or standard glass would degrade."
+    },
+    {
+      "id": 14,
+      "question": "What is the most commonly used type of resin in aircraft composite structures?",
+      "options": [
+        "A. Polyester resin",
+        "B. Phenolic resin",
+        "C. Epoxy resin"
+      ],
+      "correctIndex": 2,
+      "explanation": "Epoxy resin is the most widely used matrix resin in aerospace composites due to its strength, durability, and good bonding properties."
+    },
+    {
+      "id": 15,
+      "question": "What tool is used to impregnate resin into dry fabric during a wet layup?",
+      "options": [
+        "A. A paint roller only",
+        "B. A heat gun",
+        "C. A squeegee"
+      ],
+      "correctIndex": 2,
+      "explanation": "A squeegee is used to work and spread resin evenly into the dry fabric plies during a wet layup process."
+    },
+    {
+      "id": 16,
+      "question": "Acetone, toluol, and MEK (methyl ethyl ketone) are characterized by what property?",
+      "options": [
+        "A. High flash point (low flammability)",
+        "B. Non-flammability",
+        "C. Low flash point (highly flammable)"
+      ],
+      "correctIndex": 2,
+      "explanation": "These common composite-shop solvents are highly volatile and flammable, meaning they have a low flash point and require careful handling."
+    },
+    {
+      "id": 17,
+      "question": "Which of the following is a material NOT used for curing composite repairs?",
+      "options": [
+        "A. An oven",
+        "B. A vacuum fixture (used for shaping/clamping, not curing itself)",
+        "C. A heat blanket"
+      ],
+      "correctIndex": 1,
+      "explanation": "A vacuum fixture is used to apply shape and pressure during bonding, not as a curing heat source like an oven or heat blanket."
+    },
+    {
+      "id": 18,
+      "question": "What is the first stage of corrosion removal from a metal surface?",
+      "options": [
+        "A. Applying a conversion coating",
+        "B. Shot peening",
+        "C. Cleaning and paint stripping"
+      ],
+      "correctIndex": 2,
+      "explanation": "Before corrosion can be assessed or treated, the surface must first be cleaned and any paint stripped to expose the base metal."
+    },
+    {
+      "id": 19,
+      "question": "Which of the following is correct about wet layup?",
+      "options": [
+        "A. A dry fabric is impregnated with resin at the time of layup",
+        "B. The fabric is pre-impregnated at the factory",
+        "C. No resin is used in wet layup"
+      ],
+      "correctIndex": 0,
+      "explanation": "In a wet layup, dry reinforcing fabric is saturated with resin on-site as it is laid up, as opposed to using factory pre-impregnated (prepreg) material."
+    },
+    {
+      "id": 20,
+      "question": "Which of the following is correct about a potted repair?",
+      "options": [
+        "A. It is used only for damage larger than 12 inches",
+        "B. It requires complete removal of the honeycomb core across the whole panel",
+        "C. It is used to repair damage up to about 1 inch in size"
+      ],
+      "correctIndex": 2,
+      "explanation": "A potted compound repair is a simple, limited repair method typically reserved for small damage areas, roughly up to 1 inch."
+    },
+    {
+      "id": 21,
+      "question": "Which of the following is NOT correct about composite structures?",
+      "options": [
+        "A. That they can be tailored for directional strength",
+        "B. That they provide a lower strength-to-weight ratio than metal",
+        "C. That they generally resist fatigue well"
+      ],
+      "correctIndex": 1,
+      "explanation": "Composite structures typically offer a higher (not lower) strength-to-weight ratio compared with equivalent metal structures."
+    },
+    {
+      "id": 22,
+      "question": "Which compartment commonly requires neutralizing of acidic residuals?",
+      "options": [
+        "A. The cargo compartment",
+        "B. The avionics bay",
+        "C. The battery compartment"
+      ],
+      "correctIndex": 2,
+      "explanation": "Lead-acid battery compartments accumulate acidic residue/fumes that must be neutralized (e.g., with baking soda) during cleaning and corrosion treatment."
+    },
+    {
+      "id": 23,
+      "question": "Which of the following is NOT a corrosion treatment practice?",
+      "options": [
+        "A. Treating a Ni-Cad (nickel-cadmium) battery compartment with an acid-neutralizing agent meant for lead-acid batteries",
+        "B. Neutralizing acid spills in lead-acid battery compartments with baking soda",
+        "C. Applying protective coatings after cleaning corrosion"
+      ],
+      "correctIndex": 0,
+      "explanation": "Ni-Cad battery compartments require an alkaline electrolyte neutralizer (such as boric acid solution), not the acid-neutralizing treatment used for lead-acid batteries."
+    },
+    {
+      "id": 24,
+      "question": "When comparing carbon fiber to fiberglass, carbon fiber generally has what kind of stiffness and strength?",
+      "options": [
+        "A. Greater",
+        "B. Lesser",
+        "C. Approximately equal"
+      ],
+      "correctIndex": 0,
+      "explanation": "Carbon fiber generally offers greater stiffness and strength compared with fiberglass, though it is more brittle and can be more expensive."
+    },
+    {
+      "id": 25,
+      "question": "What indicates the longitudinal fibers of a fabric and the high-strength direction?",
+      "options": [
+        "A. The fill (weft)",
+        "B. The bias direction",
+        "C. The warp (warp clock reference)"
+      ],
+      "correctIndex": 2,
+      "explanation": "Warp fibers run the length of the fabric roll and represent the primary high-strength direction, referenced using a \"warp clock.\""
+    },
+    {
+      "id": 26,
+      "question": "Why can't carbon fiber face sheets be used directly in contact with an aluminum honeycomb core?",
+      "options": [
+        "A. Because carbon fiber is not strong enough",
+        "B. Because carbon fiber cannot be bonded with adhesive",
+        "C. Because it causes the aluminum to corrode (galvanic corrosion)"
+      ],
+      "correctIndex": 2,
+      "explanation": "Carbon fiber is cathodic relative to aluminum, so direct contact sets up galvanic corrosion that attacks the aluminum core; an isolation layer is required."
+    },
+    {
+      "id": 27,
+      "question": "Which materials are commonly used to repair bonded metal honeycomb structure skins?",
+      "options": [
+        "A. Only fiberglass",
+        "B. Aluminum, steel, and titanium",
+        "C. Only carbon fiber"
+      ],
+      "correctIndex": 1,
+      "explanation": "Metal honeycomb repairs commonly use metallic face sheet materials such as aluminum, steel, or titanium to match the original structure."
+    },
+    {
+      "id": 28,
+      "question": "Which inspection method needs closer examination using tools such as flashlights and magnifying glasses?",
+      "options": [
+        "A. Ultrasonic inspection",
+        "B. Visual inspection",
+        "C. Eddy current inspection"
+      ],
+      "correctIndex": 1,
+      "explanation": "Visual inspection relies on direct observation, aided by tools like flashlights and magnifiers, to detect surface defects."
+    },
+    {
+      "id": 29,
+      "question": "Which of the following is correct about repairing small damage in plastics (such as acrylic)?",
+      "options": [
+        "A. Cracks in plastic never need any repair action",
+        "B. A small crack's growth can be stopped by stop-drilling a small hole at the extreme ends of the crack",
+        "C. Cracks must always be repaired by replacing the entire panel"
+      ],
+      "correctIndex": 1,
+      "explanation": "Stop-drilling a small hole at the tip of a crack relieves stress concentration and halts further crack propagation in plastics like acrylic."
+    },
+    {
+      "id": 30,
+      "question": "Penetrant inspection is generally NOT suitable for use on what kind of materials?",
+      "options": [
+        "A. Non-porous metals",
+        "B. Smooth machined surfaces",
+        "C. Porous materials"
+      ],
+      "correctIndex": 2,
+      "explanation": "Porous materials absorb the penetrant into the material itself rather than just surface defects, making penetrant inspection unreliable on them."
+    },
+    {
+      "id": 31,
+      "question": "Which of the following is NOT correct about carbon fiber?",
+      "options": [
+        "A. That it is electrically non-conductive",
+        "B. That it has high stiffness and strength",
+        "C. That it can cause galvanic corrosion when in contact with aluminum"
+      ],
+      "correctIndex": 0,
+      "explanation": "Carbon fiber is actually electrically conductive, which is part of why it can promote galvanic corrosion when placed in contact with aluminum."
+    },
+    {
+      "id": 32,
+      "question": "Why are composite materials generally not used on the leading edges of an aircraft wing?",
+      "options": [
+        "A. Because composites are too heavy for that location",
+        "B. Because composite materials/structures have lower erosion resistance",
+        "C. Because composites cannot be shaped to an airfoil leading edge"
+      ],
+      "correctIndex": 1,
+      "explanation": "Leading edges are exposed to rain, hail, and debris erosion; composites typically have lower erosion resistance than metal in that highly exposed location."
+    },
+    {
+      "id": 33,
+      "question": "In galvanic corrosion, which metal tends to corrode (is sacrificed)?",
+      "options": [
+        "A. The anode",
+        "B. The cathode",
+        "C. Neither; both corrode equally"
+      ],
+      "correctIndex": 0,
+      "explanation": "In a galvanic cell, the more active (less noble) metal acts as the anode and corrodes, protecting the more noble cathode metal."
+    },
+    {
+      "id": 34,
+      "question": "How should plastic materials typically be cleaned?",
+      "options": [
+        "A. With strong organic solvents",
+        "B. With plenty of water and mild soap",
+        "C. With abrasive cleaning pads"
+      ],
+      "correctIndex": 1,
+      "explanation": "Plastics like acrylic are cleaned with copious water and mild soap to avoid solvent-induced crazing or abrasive scratching."
+    },
+    {
+      "id": 35,
+      "question": "Because acrylic plastic conducts heat poorly, what precaution should be taken when drilling it?",
+      "options": [
+        "A. Drill at the highest possible speed with no cooling",
+        "B. Make provisions for removing the heat generated while drilling",
+        "C. Avoid using any drill bit specifically made for acrylic"
+      ],
+      "correctIndex": 1,
+      "explanation": "Poor heat conduction in acrylic means heat builds up locally during drilling, so cooling/heat removal provisions help prevent cracking or crazing."
+    },
+    {
+      "id": 36,
+      "question": "What tool is used to cut plastic material into curved shapes?",
+      "options": [
+        "A. A hacksaw only",
+        "B. Tin snips",
+        "C. A band saw"
+      ],
+      "correctIndex": 2,
+      "explanation": "A band saw's continuous blade allows controlled curved cuts in plastic sheet material."
+    },
+    {
+      "id": 37,
+      "question": "Which environment tends to increase the rate of corrosion the most?",
+      "options": [
+        "A. Marine (salt-laden) environments",
+        "B. Dry desert environments",
+        "C. Cold, dry arctic environments"
+      ],
+      "correctIndex": 0,
+      "explanation": "Marine environments combine moisture and salt (a strong electrolyte), significantly accelerating corrosion compared with dry climates."
+    },
+    {
+      "id": 38,
+      "question": "A defect such as a bend/crease line caused by the insertion of adhesive paper during handling is classified as what?",
+      "options": [
+        "A. An in-service defect",
+        "B. A manufacturing defect",
+        "C. A design defect"
+      ],
+      "correctIndex": 0,
+      "explanation": "Damage introduced during handling/service (like a crease from inserted material) is classified as an in-service defect rather than one from original manufacturing."
+    },
+    {
+      "id": 39,
+      "question": "What is the maximum time a prepreg can be kept at room temperature before use, often called what term?",
+      "options": [
+        "A. Shelf life",
+        "B. Mechanical life (out-time/handling life)",
+        "C. Pot life"
+      ],
+      "correctIndex": 1,
+      "explanation": "Mechanical/handling life (out-time) is the cumulative time a prepreg can spend at room temperature before its resin properties degrade."
+    },
+    {
+      "id": 40,
+      "question": "What type of repair restores the required strength of a structure but not necessarily its full durability/service life?",
+      "options": [
+        "A. A permanent repair",
+        "B. A cosmetic repair",
+        "C. A temporary repair"
+      ],
+      "correctIndex": 2,
+      "explanation": "A temporary repair restores adequate strength for continued safe operation but is expected to be replaced later with a permanent repair."
+    },
+    {
+      "id": 41,
+      "question": "What is true about using ultrasonic testing to detect a defect in a composite laminate?",
+      "options": [
+        "A. It always requires two technicians on opposite sides of the part",
+        "B. The pulse-echo method using a single transducer is a common technique",
+        "C. It cannot detect internal delamination"
+      ],
+      "correctIndex": 1,
+      "explanation": "Pulse-echo ultrasonic testing, using a single transducer that both sends and receives the sound pulse, is a standard method for detecting internal defects like delamination."
+    },
+    {
+      "id": 42,
+      "question": "Which of the following is NOT a heat-curing tool used in composite repair?",
+      "options": [
+        "A. A vacuum bag (applies pressure, not heat)",
+        "B. A heat blanket",
+        "C. A curing oven"
+      ],
+      "correctIndex": 0,
+      "explanation": "A vacuum bag applies compaction pressure during cure; it is not itself a heat source, unlike heat blankets or curing ovens."
+    },
+    {
+      "id": 43,
+      "question": "What is vacuum fixture molding?",
+      "options": [
+        "A. A process using only mechanical clamps for pressure",
+        "B. A process in which the layup is cured under pressure generated by drawing a vacuum on the repair",
+        "C. A process that eliminates the need for any resin"
+      ],
+      "correctIndex": 1,
+      "explanation": "Vacuum fixture molding uses the pressure differential from a drawn vacuum to compact and cure the composite layup against a form or fixture."
+    },
+    {
+      "id": 44,
+      "question": "Which type of honeycomb core cell shape is used for parts with simple curves?",
+      "options": [
+        "A. Over-expanded (flex-core) core",
+        "B. Rectangular-shaped (standard hexagonal) core",
+        "C. Bell-shaped core"
+      ],
+      "correctIndex": 1,
+      "explanation": "Standard rectangular/hexagonal honeycomb core is suitable for parts with simple, gentle curves, while more flexible core shapes handle complex curvature."
+    },
+    {
+      "id": 45,
+      "question": "Which type of adhesive can typically be kept at room temperature without refrigeration?",
+      "options": [
+        "A. Paste adhesive",
+        "B. Film adhesive (prepreg type)",
+        "C. Pre-catalyzed epoxy film"
+      ],
+      "correctIndex": 0,
+      "explanation": "Unlike many film adhesives that require cold storage, two-part paste adhesives are often formulated to be stored and mixed at room temperature."
+    },
+    {
+      "id": 46,
+      "question": "How do you remove hydraulic fluid, grease, or fuel contamination from aircraft tires?",
+      "options": [
+        "A. Using straight gasoline as a cleaner",
+        "B. Washing with a mild soap solution",
+        "C. Using a wire brush and strong solvent"
+      ],
+      "correctIndex": 1,
+      "explanation": "Tire rubber is sensitive to petroleum solvents, so contamination is removed with a mild soap and water solution rather than harsh solvents."
+    },
+    {
+      "id": 47,
+      "question": "What is the major safety risk associated with radiographic (X-ray) inspection?",
+      "options": [
+        "A. Exposure to radiation",
+        "B. Risk of electrical shock",
+        "C. Risk of chemical burns"
+      ],
+      "correctIndex": 0,
+      "explanation": "Radiographic inspection uses ionizing radiation, so radiation exposure to personnel is the primary safety concern requiring shielding and controlled access."
+    },
+    {
+      "id": 48,
+      "question": "Which of the following is NOT true about tap testing a honeycomb sandwich composite part?",
+      "options": [
+        "A. That a well-bonded, solid structure produces a thud-like (dull) sound",
+        "B. That a disbonded area produces a different, hollow/dead sound",
+        "C. That tap testing is a simple, low-cost inspection method"
+      ],
+      "correctIndex": 0,
+      "explanation": "A well-bonded, solid structure actually produces a clear, sharp (\"ringing\") sound, while a disbonded or delaminated area produces the dull, thud-like sound — the opposite of this statement."
+    },
+    {
+      "id": 49,
+      "question": "Acrylic, the transparent material commonly used for windows and canopies, is also known by what trade name?",
+      "options": [
+        "A. Lexan (polycarbonate)",
+        "B. Mylar",
+        "C. Plexiglass"
+      ],
+      "correctIndex": 2,
+      "explanation": "Acrylic sheet used for aircraft windows and canopies is commonly known by the trade name Plexiglass."
+    },
+    {
+      "id": 50,
+      "question": "Which curing cycle is typically used for prepreg composite materials?",
+      "options": [
+        "A. A room-temperature-only curing cycle",
+        "B. A sub-zero curing cycle",
+        "C. An elevated-temperature curing cycle"
+      ],
+      "correctIndex": 2,
+      "explanation": "Most aerospace prepreg resin systems require elevated temperature (and often pressure) to fully cure and develop their design properties."
+    },
+    {
+      "id": 51,
+      "question": "What material is used to absorb vibration during installation of replacement plastic panels?",
+      "options": [
+        "A. Bare aluminum shims",
+        "B. Cork or gasket material",
+        "C. Loose fitting with no cushioning material"
+      ],
+      "correctIndex": 1,
+      "explanation": "A cushioning material like cork or gasket strip is placed between a rigid plastic panel and its frame to absorb vibration and prevent stress cracking."
+    },
+    {
+      "id": 52,
+      "question": "What is the storage requirement for transparent plastics such as acrylic sheet?",
+      "options": [
+        "A. Store near heat sources for flexibility",
+        "B. No special storage precautions are needed",
+        "C. Store in a cool location (away from heat and direct sun)"
+      ],
+      "correctIndex": 2,
+      "explanation": "Transparent plastics should be stored in a cool location, shielded from heat and UV exposure, to prevent warping, yellowing, or crazing."
+    },
+    {
+      "id": 53,
+      "question": "A composite made of thin face sheets bonded to a thicker honeycomb core is called what type of structure?",
+      "options": [
+        "A. A sandwich structure",
+        "B. A laminate structure",
+        "C. A monolithic structure"
+      ],
+      "correctIndex": 0,
+      "explanation": "This construction, thin skins bonded to a lightweight core, is called sandwich construction, widely used for its high stiffness-to-weight ratio."
+    },
+    {
+      "id": 54,
+      "question": "What is true about bonded metal honeycomb composite repair?",
+      "options": [
+        "A. It is normally an in-situ repair technique that closely restores original structural characteristics using high-temperature cured adhesive, vacuum bag, and pre-cured laminate or metal sheet",
+        "B. It can never be performed on the aircraft (always requires removal)",
+        "C. It never uses adhesive, only mechanical fasteners"
+      ],
+      "correctIndex": 0,
+      "explanation": "Bonded metal honeycomb repairs are typically done in place on the aircraft, using heat, vacuum bagging, and adhesive to closely restore original structural performance."
+    },
+    {
+      "id": 55,
+      "question": "Which of the following is NOT an advantage of metal bonded honeycomb composite construction?",
+      "options": [
+        "A. A lesser strength-to-weight ratio",
+        "B. High stiffness for the weight",
+        "C. Smooth aerodynamic surfaces"
+      ],
+      "correctIndex": 0,
+      "explanation": "Metal bonded honeycomb actually provides a superior (greater, not lesser) strength-to-weight ratio, which is one of its key advantages."
+    },
+    {
+      "id": 56,
+      "question": "What is the purpose of vacuum bagging in a composite repair?",
+      "options": [
+        "A. To add extra resin to the laminate",
+        "B. To remove trapped air between plies and hold the plies together under pressure during cure",
+        "C. To heat the laminate directly"
+      ],
+      "correctIndex": 1,
+      "explanation": "Vacuum bagging draws out trapped air and volatiles while applying consistent compaction pressure, improving laminate quality during cure."
+    },
+    {
+      "id": 57,
+      "question": "Which of the following is NOT correct about ultrasonic testing?",
+      "options": [
+        "A. That it can detect internal delamination and voids",
+        "B. That it uses high-frequency sound waves above the audible range",
+        "C. That ultrasonic sound waves can be transmitted through a vacuum"
+      ],
+      "correctIndex": 2,
+      "explanation": "Sound waves, including ultrasonic waves, require a physical medium to travel and cannot be transmitted through a vacuum, unlike electromagnetic radiation."
+    },
+    {
+      "id": 58,
+      "question": "Anomalies such as porosity, micro-cracking, and delamination resulting from processing discrepancies are classified as what?",
+      "options": [
+        "A. Manufacturing defects",
+        "B. In-service defects",
+        "C. Design defects"
+      ],
+      "correctIndex": 0,
+      "explanation": "Defects traced back to problems during the original fabrication/curing process are classified as manufacturing defects, distinct from in-service damage."
+    },
+    {
+      "id": 59,
+      "question": "What material is used so that prepreg or wet layup plies do not stick to the working surface or caul plate?",
+      "options": [
+        "A. A bleeder ply",
+        "B. A solid (non-perforated) release film",
+        "C. A peel ply"
+      ],
+      "correctIndex": 1,
+      "explanation": "A solid release film prevents the uncured laminate from bonding to the tool surface or caul plate while still allowing it to be removed cleanly after cure."
+    },
+    {
+      "id": 60,
+      "question": "Which of the following metals is arranged in increasing order of cathodic (noble) property?",
+      "options": [
+        "A. Aluminum, copper, gold",
+        "B. Gold, copper, aluminum",
+        "C. Copper, gold, aluminum"
+      ],
+      "correctIndex": 0,
+      "explanation": "On the galvanic series, aluminum is quite anodic (active), copper is more noble, and gold is among the most cathodic (noble) metals, in that increasing order."
+    },
+    {
+      "id": 61,
+      "question": "Which of the following is NOT used for corrosion treatment?",
+      "options": [
+        "A. Baking soda neutralizer",
+        "B. A lead-acid battery (itself a source of corrosive acid, not a treatment)",
+        "C. Corrosion-inhibiting compound"
+      ],
+      "correctIndex": 1,
+      "explanation": "A lead-acid battery is a source of corrosive electrolyte that must be neutralized after a spill; it is not itself a corrosion treatment material."
+    },
+    {
+      "id": 62,
+      "question": "A form of corrosion resulting in general roughening or pitting of a metal surface, often with a powdery deposit of corrosion products, is called what?",
+      "options": [
+        "A. Surface corrosion",
+        "B. Intergranular corrosion",
+        "C. Stress corrosion cracking"
+      ],
+      "correctIndex": 0,
+      "explanation": "Surface corrosion is the common, general attack that roughens or pits a metal surface and leaves a powdery corrosion product (such as aluminum oxide)."
+    },
+    {
+      "id": 63,
+      "question": "Which environmental condition does NOT increase the rate of corrosion?",
+      "options": [
+        "A. A humid, salty environment",
+        "B. A dry environment",
+        "C. An environment with trapped moisture"
+      ],
+      "correctIndex": 1,
+      "explanation": "Dry conditions, lacking the moisture/electrolyte needed for electrochemical reactions, generally do not promote corrosion, unlike humid or salty environments."
+    },
+    {
+      "id": 64,
+      "question": "Which inspection method involves magnetic fields and circulating (induced) currents?",
+      "options": [
+        "A. Dye penetrant inspection",
+        "B. Eddy current inspection",
+        "C. Ultrasonic inspection"
+      ],
+      "correctIndex": 1,
+      "explanation": "Eddy current inspection induces circulating electrical currents in a conductive part using a magnetic field, and changes in those currents reveal flaws."
+    },
+    {
+      "id": 65,
+      "question": "What tool is typically used to cut prepreg and dry composite fabrics?",
+      "options": [
+        "A. A cold chisel",
+        "B. Scissors",
+        "C. A hacksaw"
+      ],
+      "correctIndex": 1,
+      "explanation": "Prepreg and dry fabric plies are commonly trimmed to shape with scissors (or specialized fabric shears/cutters)."
+    },
+    {
+      "id": 66,
+      "question": "Which composite reinforcement material has a distinctive white color appearance?",
+      "options": [
+        "A. Fiberglass",
+        "B. Carbon fiber",
+        "C. Aramid (Kevlar)"
+      ],
+      "correctIndex": 0,
+      "explanation": "Fiberglass reinforcement has a characteristic white or off-white appearance, unlike black carbon fiber or yellow aramid fiber."
+    },
+    {
+      "id": 67,
+      "question": "Which honeycomb core cell size provides better support to the sandwich face sheets?",
+      "options": [
+        "A. A small cell size",
+        "B. A large cell size",
+        "C. Cell size has no effect on face sheet support"
+      ],
+      "correctIndex": 0,
+      "explanation": "Smaller honeycomb cells provide more frequent, closely spaced support points to the thin face sheets, improving their resistance to dimpling or buckling."
+    },
+    {
+      "id": 68,
+      "question": "Which core material is NOT commonly used on commercial transport category aircraft?",
+      "options": [
+        "A. Foam core",
+        "B. Aluminum honeycomb core",
+        "C. Nomex (aramid paper) honeycomb core"
+      ],
+      "correctIndex": 0,
+      "explanation": "While foam cores are used in some general aviation and non-structural applications, aluminum and Nomex honeycomb are far more common in commercial transport structures."
+    },
+    {
+      "id": 69,
+      "question": "A composite containing two or more different types of reinforcing fiber bound in the same matrix is commonly known as what?",
+      "options": [
+        "A. A unidirectional composite",
+        "B. A hybrid composite",
+        "C. A monolithic composite"
+      ],
+      "correctIndex": 1,
+      "explanation": "Hybrid composites combine different fiber types (e.g., carbon and aramid) in one matrix to balance properties such as stiffness and impact resistance."
+    },
+    {
+      "id": 70,
+      "question": "Which of the following is an example of an in-service defect?",
+      "options": [
+        "A. A manufacturing void from the autoclave cycle",
+        "B. Delamination",
+        "C. A resin-rich area from initial layup"
+      ],
+      "correctIndex": 1,
+      "explanation": "Delamination occurring after the part is in use, from impact or moisture ingress for example, is classified as an in-service defect."
+    },
+    {
+      "id": 71,
+      "question": "Envelope bagging is a process in which what happens?",
+      "options": [
+        "A. Only the repair patch is bagged, leaving the rest of the part exposed",
+        "B. The part being repaired is completely enclosed within the vacuum bag",
+        "C. No vacuum is used at all"
+      ],
+      "correctIndex": 1,
+      "explanation": "In envelope bagging, the entire part (not just the local repair area) is enclosed inside the vacuum bag for curing."
+    },
+    {
+      "id": 72,
+      "question": "Which honeycomb core cell configuration is stiffer and stronger?",
+      "options": [
+        "A. Beveled hexagonal (standard hexagonal) cell",
+        "B. Over-expanded (flex-core) cell",
+        "C. Flexible bell-shaped cell"
+      ],
+      "correctIndex": 0,
+      "explanation": "Standard beveled hexagonal cells provide greater inherent stiffness and strength compared with the more flexible over-expanded core designed for curved parts."
+    },
+    {
+      "id": 73,
+      "question": "What color is characteristic of aramid fiber?",
+      "options": [
+        "A. Yellow (gold)",
+        "B. White",
+        "C. Black"
+      ],
+      "correctIndex": 0,
+      "explanation": "Aramid fiber (e.g., Kevlar) has a distinctive yellow/gold color, distinguishing it visually from white fiberglass and black carbon fiber."
+    },
+    {
+      "id": 74,
+      "question": "Resin starvation in a laminate could be a result of what?",
+      "options": [
+        "A. Excessive resin application during layup",
+        "B. Using too much bleeder ply",
+        "C. Insufficient resin application during layup"
+      ],
+      "correctIndex": 2,
+      "explanation": "If not enough resin is applied or too much is removed during cure, the laminate can become resin-starved, leaving dry fibers and reduced strength."
+    },
+    {
+      "id": 75,
+      "question": "What vacuum bagging material is used to collect excess resin and create a path for air to escape from the repair?",
+      "options": [
+        "A. Release film",
+        "B. Bleeder ply",
+        "C. Peel ply"
+      ],
+      "correctIndex": 1,
+      "explanation": "Bleeder ply absorbs excess resin drawn out during cure and provides a path for trapped air/volatiles to escape under vacuum."
+    },
+    {
+      "id": 76,
+      "question": "What is a good example of electrochemical (galvanic) attack?",
+      "options": [
+        "A. Uniform surface oxidation of a single metal",
+        "B. Thermal expansion mismatch cracking",
+        "C. A simple galvanic cell (two dissimilar metals with an electrolyte)"
+      ],
+      "correctIndex": 2,
+      "explanation": "A simple galvanic cell, with two dissimilar metals in electrical contact through an electrolyte, is the classic example of electrochemical (galvanic) corrosion."
+    },
+    {
+      "id": 77,
+      "question": "Which inspection method uses sound wave energy to detect flaws?",
+      "options": [
+        "A. Ultrasonic inspection",
+        "B. Eddy current inspection",
+        "C. Dye penetrant inspection"
+      ],
+      "correctIndex": 0,
+      "explanation": "Ultrasonic inspection uses high-frequency sound waves transmitted through the material to detect internal flaws such as voids and delamination."
+    },
+    {
+      "id": 78,
+      "question": "What is used to apply the necessary pressure to pre-bonded honeycomb repairs?",
+      "options": [
+        "A. A heat gun alone",
+        "B. A paint spray gun",
+        "C. A vacuum fixture (or vacuum bag)"
+      ],
+      "correctIndex": 2,
+      "explanation": "A vacuum fixture (vacuum bag assembly) applies the consistent pressure needed to properly bond pre-bonded honeycomb repair patches."
+    },
+    {
+      "id": 79,
+      "question": "What is used to shorten the curing time of bonded honeycomb repairs from roughly 12 hours down to about 1 hour?",
+      "options": [
+        "A. A hair dryer",
+        "B. Direct sunlight",
+        "C. An infrared heat lamp"
+      ],
+      "correctIndex": 2,
+      "explanation": "Infrared heat lamps accelerate the cure by providing controlled, elevated heat directly to the repair area, dramatically reducing cure time."
+    },
+    {
+      "id": 80,
+      "question": "What hazard is associated with using infrared heat lamps to cure bonded honeycomb repairs?",
+      "options": [
+        "A. A high temperature differential between the repair and surrounding area may cause buckling of the surrounding skin from thermal expansion",
+        "B. The repair area becomes too cold to cure",
+        "C. Infrared lamps cannot cure adhesive at all"
+      ],
+      "correctIndex": 0,
+      "explanation": "Localized intense heating from an IR lamp can create a steep temperature gradient, inducing thermal expansion stresses that buckle the surrounding skin."
+    },
+    {
+      "id": 81,
+      "question": "Why is damage inspection more critical for honeycomb assemblies than for conventional (solid skin) structures?",
+      "options": [
+        "A. Honeycomb is always visually obvious when damaged",
+        "B. Honeycomb structures cannot be damaged at all",
+        "C. Honeycomb assemblies may suffer extensive internal damage without any observable external indication"
+      ],
+      "correctIndex": 2,
+      "explanation": "Because honeycomb core can crush or disbond internally while the outer skin shows little or no visible sign, careful inspection is critical to catch hidden damage."
+    },
+    {
+      "id": 82,
+      "question": "Which honeycomb core cell shape is used to form panels with complex compound curves?",
+      "options": [
+        "A. Bell-shaped (over-expanded/flex-core) cells",
+        "B. Standard rectangular/hexagonal cells",
+        "C. Square cells"
+      ],
+      "correctIndex": 0,
+      "explanation": "Flexible, bell-shaped (over-expanded) core cells can conform to complex, compound-curved panel shapes better than standard hexagonal cells."
+    },
+    {
+      "id": 83,
+      "question": "What is an isotropic material?",
+      "options": [
+        "A. A material that is strong only along one fiber direction",
+        "B. A material whose properties vary by location but not direction",
+        "C. A material that has uniform properties in all directions"
+      ],
+      "correctIndex": 2,
+      "explanation": "Isotropic materials, like most metals, exhibit the same mechanical properties regardless of the direction in which they are tested."
+    },
+    {
+      "id": 84,
+      "question": "A laminate made up of layers of two or more different homogeneous reinforcement materials is called what?",
+      "options": [
+        "A. An inter-ply hybrid laminate",
+        "B. An intra-ply hybrid laminate",
+        "C. A unidirectional laminate"
+      ],
+      "correctIndex": 0,
+      "explanation": "An inter-ply hybrid combines different reinforcement types layer by layer (ply by ply) within the same laminate stack."
+    },
+    {
+      "id": 85,
+      "question": "Which of the following is NOT true about non-woven abrasive materials?",
+      "options": [
+        "A. That they are useful for light surface cleaning and blending",
+        "B. That different grades offer different levels of abrasiveness",
+        "C. That a lacquer-impregnated webbing pad can be used to clean corroded aluminum surfaces (actually a non-impregnated or appropriate abrasive pad should be used, not a lacquer-based one)"
+      ],
+      "correctIndex": 2,
+      "explanation": "Using a lacquer-impregnated pad on corroded aluminum is not correct practice; appropriate non-woven abrasive pads (without lacquer contamination) are used for this cleaning task."
+    },
+    {
+      "id": 86,
+      "question": "When tows of two or more constituent fiber types are mixed within the same fabric layer, this is called what?",
+      "options": [
+        "A. Intra-ply hybridization",
+        "B. Inter-ply hybridization",
+        "C. Unidirectional construction"
+      ],
+      "correctIndex": 0,
+      "explanation": "Intra-ply hybrids blend different fiber types together within a single ply/layer, as opposed to stacking separate plies of different materials (inter-ply)."
+    },
+    {
+      "id": 87,
+      "question": "Which of the following is NOT correct about composite materials?",
+      "options": [
+        "A. That they cannot be damaged by sonic/vibration energy",
+        "B. That they can be damaged by impact",
+        "C. That they can suffer from delamination"
+      ],
+      "correctIndex": 0,
+      "explanation": "Composite materials can in fact be damaged by sonic/vibration energy over time (e.g., disbonding from engine or acoustic vibration); this statement is false."
+    },
+    {
+      "id": 88,
+      "question": "What is the use of a router in honeycomb repair?",
+      "options": [
+        "A. Applying adhesive",
+        "B. Curing the repair",
+        "C. Removing the damaged area"
+      ],
+      "correctIndex": 2,
+      "explanation": "A router is used to precisely trim away damaged skin and core material, creating a clean, properly shaped cavity for the repair."
+    },
+    {
+      "id": 89,
+      "question": "In which direction is a composite material generally strong and stiff?",
+      "options": [
+        "A. Equally in every direction regardless of fiber orientation",
+        "B. In the same direction as the fiber orientation",
+        "C. Only perpendicular to the fiber direction"
+      ],
+      "correctIndex": 1,
+      "explanation": "A composite's strength and stiffness are governed by fiber orientation; it is strongest along the direction the fibers run."
+    },
+    {
+      "id": 90,
+      "question": "What inspection method uses sound wave energy with a frequency above the audible range?",
+      "options": [
+        "A. Eddy current inspection",
+        "B. Ultrasonic inspection",
+        "C. Radiographic inspection"
+      ],
+      "correctIndex": 1,
+      "explanation": "Ultrasonic inspection uses sound frequencies above human hearing (ultrasound) to probe materials for internal defects."
+    },
+    {
+      "id": 91,
+      "question": "Which of the following is an isotropic material?",
+      "options": [
+        "A. Unidirectional carbon fiber composite",
+        "B. Woven fiberglass laminate",
+        "C. Aluminum"
+      ],
+      "correctIndex": 2,
+      "explanation": "Metals such as aluminum are isotropic, having the same properties in all directions, unlike directional fiber-reinforced composites."
+    },
+    {
+      "id": 92,
+      "question": "In honeycomb construction, increasing the core thickness primarily and greatly increases what property?",
+      "options": [
+        "A. Bonding surface area",
+        "B. Fiber orientation accuracy",
+        "C. Stiffness"
+      ],
+      "correctIndex": 2,
+      "explanation": "A thicker honeycomb core increases the overall panel's effective depth, which greatly increases bending stiffness for a given face sheet weight."
+    },
+    {
+      "id": 93,
+      "question": "What is used to neutralize acid deposits in a lead-acid battery compartment?",
+      "options": [
+        "A. Baking soda (sodium bicarbonate) solution",
+        "B. Boric acid solution",
+        "C. Plain water only"
+      ],
+      "correctIndex": 0,
+      "explanation": "Baking soda solution is an alkaline neutralizer used to counteract and clean up acidic electrolyte deposits in lead-acid battery compartments."
+    },
+    {
+      "id": 94,
+      "question": "Which type of tool is NOT recommended for working on carbon fiber composite material?",
+      "options": [
+        "A. An electrical motor-driven tool lacking proper dust/spark control (conductive dust hazard)",
+        "B. A hand-powered cutting tool",
+        "C. A pneumatic tool with dust extraction"
+      ],
+      "correctIndex": 0,
+      "explanation": "Carbon fiber dust is electrically conductive and can pose hazards to unshielded electrical equipment, so uncontrolled electrical power tools are avoided in favor of properly equipped or non-electrical tools."
+    },
+    {
+      "id": 95,
+      "question": "Which materials are used as coatings for sacrificial (galvanic) protection of underlying metal?",
+      "options": [
+        "A. Gold and platinum",
+        "B. Cadmium and zinc",
+        "C. Carbon and ceramic"
+      ],
+      "correctIndex": 1,
+      "explanation": "Cadmium and zinc are more anodic than many structural metals, so they are applied as sacrificial coatings that corrode preferentially, protecting the base metal."
+    },
+    {
+      "id": 96,
+      "question": "What is the most common fastener alloy used with carbon fiber reinforced composite structures?",
+      "options": [
+        "A. Titanium alloy Ti-6Al-4V",
+        "B. Plain carbon steel",
+        "C. Cadmium-plated mild steel"
+      ],
+      "correctIndex": 0,
+      "explanation": "Titanium alloy Ti-6Al-4V is galvanically compatible with carbon fiber and offers high strength, making it the preferred fastener material for CFRP structures."
+    },
+    {
+      "id": 97,
+      "question": "What is a typical curing temperature for many aerospace composite materials?",
+      "options": [
+        "A. 32°F",
+        "B. 1000°F",
+        "C. 250°F"
+      ],
+      "correctIndex": 2,
+      "explanation": "A commonly cited curing temperature for many epoxy prepreg composite systems is around 250°F (roughly 121°C), among other cure schedules used."
+    },
+    {
+      "id": 98,
+      "question": "Which fasteners are similar in design to Hi-Loks and are a natural choice for carbon fiber composite structures?",
+      "options": [
+        "A. Standard solid rivets",
+        "B. Self-tapping sheet metal screws",
+        "C. Eddie-Bolt fasteners"
+      ],
+      "correctIndex": 2,
+      "explanation": "Eddie-Bolt fasteners share the pin-and-collar design philosophy of Hi-Loks, making them well suited for the high-strength, low-clearance needs of composite joints."
+    },
+    {
+      "id": 99,
+      "question": "The strength and stiffness of a composite buildup mainly depends on what?",
+      "options": [
+        "A. The color of the resin used",
+        "B. The brand of fabric used",
+        "C. The orientation sequence of the plies"
+      ],
+      "correctIndex": 2,
+      "explanation": "Laminate strength and stiffness are engineered through the stacking sequence and fiber orientation of each ply in the layup."
+    },
+    {
+      "id": 100,
+      "question": "Which of the following is NOT true about composite materials?",
+      "options": [
+        "A. That each component (fiber and matrix) is merged completely and cannot be identified physically",
+        "B. That the fiber and matrix remain distinguishable constituents",
+        "C. That properties depend on both the fiber and the resin matrix"
+      ],
+      "correctIndex": 0,
+      "explanation": "In a composite, the fiber and matrix remain physically distinct constituents bonded together; they do not merge into a single indistinguishable material."
+    },
+    {
+      "id": 101,
+      "question": "What is the high-strength fiber direction due to the straightness of the fibers in a woven fabric called?",
+      "options": [
+        "A. Warp",
+        "B. Fill (weft)",
+        "C. Bias"
+      ],
+      "correctIndex": 0,
+      "explanation": "Warp fibers run straight along the length of the fabric roll, giving that direction the highest strength due to minimal fiber crimp."
+    },
+    {
+      "id": 102,
+      "question": "What tools are used to impregnate dry fibers with resin during a wet layup?",
+      "options": [
+        "A. A spray gun only",
+        "B. A heat gun only",
+        "C. A brush and a squeegee"
+      ],
+      "correctIndex": 2,
+      "explanation": "A brush is often used to initially wet out the fabric, with a squeegee used afterward to work the resin thoroughly through the plies and remove excess."
+    },
+    {
+      "id": 103,
+      "question": "Which of the following is NOT part of an elevated-temperature curing prepreg process?",
+      "options": [
+        "A. A refrigerator (used for storage, not curing itself)",
+        "B. A curing oven or autoclave",
+        "C. A vacuum bag assembly"
+      ],
+      "correctIndex": 0,
+      "explanation": "A refrigerator is used to store uncured prepreg material before use, not as part of the actual elevated-temperature curing process."
+    },
+    {
+      "id": 104,
+      "question": "Which type of plastic does not soften appreciably under heat but may char and blister at about 400-500°F (240-260°C)?",
+      "options": [
+        "A. Thermoplastic materials",
+        "B. Thermosetting plastics",
+        "C. Elastomeric materials"
+      ],
+      "correctIndex": 1,
+      "explanation": "Thermosetting plastics undergo an irreversible cure and, once set, resist softening under heat, though they will char/blister at high enough temperatures."
+    },
+    {
+      "id": 105,
+      "question": "Which type of plastic softens under heat and can be dissolved in various organic solvents?",
+      "options": [
+        "A. Thermosetting plastic",
+        "B. Thermoplastic",
+        "C. Elastomer only"
+      ],
+      "correctIndex": 1,
+      "explanation": "Thermoplastics can be repeatedly softened by heat and are generally soluble in appropriate organic solvents, unlike cured thermosetting plastics."
+    }
+  ]
+}

@@ -1,0 +1,992 @@
+{
+  "id": "af-2-part-1",
+  "title": "AF-2-part-1",
+  "module": "AF-2-M1",
+  "course": "airframe",
+  "category": "part",
+  "description": "Airframe exam covering wood structures, fabric covering, dope and finishing systems, adhesives, and related repair/inspection criteria, drawn from the AF-2 wood/fabric/finishes question/answer bank.",
+  "durationMinutes": 150,
+  "totalQuestions": 89,
+  "color": "green",
+  "questions": [
+    {
+      "id": 1,
+      "question": "What is true about regulatory minimum standards for aircraft fabric?",
+      "options": [
+        "A. A performance standard does exist (it does not leave fabric unregulated)",
+        "B. No standard exists at all for aircraft fabric",
+        "C. Only foreign regulators set fabric standards"
+      ],
+      "correctIndex": 0,
+      "explanation": "Aircraft fabric is governed by performance-based minimum standards (e.g., TSO requirements), not left completely unregulated."
+    },
+    {
+      "id": 2,
+      "question": "What is a common factor contributing to premature glue deterioration in wood structures?",
+      "options": [
+        "A. Development of fungal growth",
+        "B. Excessive sanding",
+        "C. Use of stainless steel fasteners"
+      ],
+      "correctIndex": 0,
+      "explanation": "Moisture that promotes fungal growth also attacks and weakens glue joints, leading to premature deterioration."
+    },
+    {
+      "id": 3,
+      "question": "Saddle gussets are used to support the ends of what kind of repair?",
+      "options": [
+        "A. A plug patch",
+        "B. A scarf patch",
+        "C. A surface patch"
+      ],
+      "correctIndex": 1,
+      "explanation": "Saddle gussets reinforce and support the ends of a scarf-patch backing strip where the tapered splice meets the original structure."
+    },
+    {
+      "id": 4,
+      "question": "Which of the following wood defects is NOT permitted in aircraft structure?",
+      "options": [
+        "A. Compression failure caused by overstress",
+        "B. Minor pin knots within allowable limits",
+        "C. Slight grain slope within allowable limits"
+      ],
+      "correctIndex": 0,
+      "explanation": "Compression failures from overstress weaken wood fibers unpredictably and are never acceptable in airworthy aircraft wood structure."
+    },
+    {
+      "id": 5,
+      "question": "Which of the following is used to block harmful UV rays in a finishing system?",
+      "options": [
+        "A. A reducer/thinner",
+        "B. A retarder",
+        "C. A filler (pigmented to block UV)"
+      ],
+      "correctIndex": 2,
+      "explanation": "A pigmented filler coat helps block UV radiation from reaching and degrading the underlying fabric or wood."
+    },
+    {
+      "id": 6,
+      "question": "Which repair has its edges beveled at a 12:1 slope?",
+      "options": [
+        "A. A scarf patch",
+        "B. A plug patch",
+        "C. A fabric patch"
+      ],
+      "correctIndex": 0,
+      "explanation": "A scarf patch uses a long, gradual 12:1 bevel so the repair piece blends structurally and aerodynamically with the surrounding skin."
+    },
+    {
+      "id": 7,
+      "question": "A fabric patch repair is generally used on holes not exceeding what size?",
+      "options": [
+        "A. 1 inch in diameter",
+        "B. 6 inches in diameter",
+        "C. 15 inches in diameter"
+      ],
+      "correctIndex": 0,
+      "explanation": "Fabric patches are limited to small holes, typically up to about 1 inch in diameter, beyond which other patch types are required."
+    },
+    {
+      "id": 8,
+      "question": "An inherent disease occurring at the base of a tree is called what?",
+      "options": [
+        "A. Check",
+        "B. Dote (incipient decay)",
+        "C. Shake"
+      ],
+      "correctIndex": 1,
+      "explanation": "Dote is an early stage of decay that can occur inherently near the base of a tree, distinct from mechanical defects like checks or shakes."
+    },
+    {
+      "id": 9,
+      "question": "What is an advantage of fabric as an aircraft covering material?",
+      "options": [
+        "A. It is fireproof",
+        "B. It never requires maintenance",
+        "C. It is light in weight"
+      ],
+      "correctIndex": 2,
+      "explanation": "Fabric coverings are valued primarily for their light weight compared with metal skin, though they have durability and flammability trade-offs."
+    },
+    {
+      "id": 10,
+      "question": "A rupture across the wood fibers indicates what type of defect?",
+      "options": [
+        "A. A check",
+        "B. A ring shake",
+        "C. Compression failure"
+      ],
+      "correctIndex": 2,
+      "explanation": "Compression failure appears as a fiber rupture, often seen as a line running across the grain, and is an unacceptable structural defect."
+    },
+    {
+      "id": 11,
+      "question": "What finish is commonly used for coating and finishing in modern aviation?",
+      "options": [
+        "A. Polyurethane",
+        "B. Shellac",
+        "C. Casein-based paint"
+      ],
+      "correctIndex": 0,
+      "explanation": "Polyurethane finishes are widely used in modern aviation for their durability, chemical resistance, and good appearance."
+    },
+    {
+      "id": 12,
+      "question": "What is used to attach fabric to the airframe structure?",
+      "options": [
+        "A. Fabric cement",
+        "B. Varnish",
+        "C. Primer"
+      ],
+      "correctIndex": 0,
+      "explanation": "Fabric cement bonds the fabric envelope to the structure (ribs, formers) in fabric-covered aircraft construction."
+    },
+    {
+      "id": 13,
+      "question": "If the manufacturer's repair instructions are not available for a wood structure repair, what should be used instead?",
+      "options": [
+        "A. Any convenient automotive repair manual",
+        "B. AC 43.13-1 wood repair guidance",
+        "C. No repair should be attempted under any circumstances"
+      ],
+      "correctIndex": 1,
+      "explanation": "In the absence of manufacturer data, AC 43.13-1 (Acceptable Methods, Techniques, and Practices) provides generally accepted wood repair guidance."
+    },
+    {
+      "id": 14,
+      "question": "A spruce tree will generally not yield usable aircraft wood until it reaches at least what diameter?",
+      "options": [
+        "A. 1 foot",
+        "B. 5 feet",
+        "C. 20 feet"
+      ],
+      "correctIndex": 1,
+      "explanation": "Spruce trees need to grow to a substantial diameter, roughly 5 feet, before the wood is suitable and usable for aircraft construction."
+    },
+    {
+      "id": 15,
+      "question": "Regarding wetting tests used to detect wax presence on wood, what should be avoided?",
+      "options": [
+        "A. Using clean water",
+        "B. Testing multiple spots",
+        "C. Heating the wood"
+      ],
+      "correctIndex": 2,
+      "explanation": "Wetting tests to detect surface wax should be performed without heating the wood, since heat can alter the wax and give a false result."
+    },
+    {
+      "id": 16,
+      "question": "A plug patch should be used only for damage that does NOT involve what?",
+      "options": [
+        "A. Supporting structure underneath the skin (such as a rib or spar)",
+        "B. The fabric surface only",
+        "C. Minor cosmetic surface damage"
+      ],
+      "correctIndex": 0,
+      "explanation": "A plug patch is limited to skin-only damage; if underlying supporting structure is also damaged, a more substantial repair is required."
+    },
+    {
+      "id": 17,
+      "question": "Which type of patch should NOT be used to repair holes in the leading edge of the wing?",
+      "options": [
+        "A. A fabric patch",
+        "B. A plywood doubler repair",
+        "C. A metal skin patch designed for leading edges"
+      ],
+      "correctIndex": 0,
+      "explanation": "Fabric patches are not suitable for leading-edge repairs because of the aerodynamic and structural demands placed on that area; purpose-built repairs are required instead."
+    },
+    {
+      "id": 18,
+      "question": "For small finishing repair work, which application method is typically used?",
+      "options": [
+        "A. Brushing",
+        "B. Spraying with a large production gun",
+        "C. Dip coating"
+      ],
+      "correctIndex": 0,
+      "explanation": "Small touch-up or repair areas are commonly finished by brushing rather than setting up spray equipment."
+    },
+    {
+      "id": 19,
+      "question": "When checking a glue joint last (as a final check), what should be done?",
+      "options": [
+        "A. Soak the wood in water first",
+        "B. Dry the surrounding wood (to avoid a false indication from swelling)",
+        "C. Sand the joint heavily before inspection"
+      ],
+      "correctIndex": 1,
+      "explanation": "Drying the surrounding wood before final inspection avoids misleading swelling that could mask or mimic glue joint defects."
+    },
+    {
+      "id": 20,
+      "question": "Which glue combines high durability with moderate-temperature curing, and offers better wet-weather and UV resistance than other adhesives, making it important in recent aircraft wood construction?",
+      "options": [
+        "A. Casein glue",
+        "B. Resorcinol glue",
+        "C. Hide glue"
+      ],
+      "correctIndex": 1,
+      "explanation": "Resorcinol glue cures at moderate temperatures and provides excellent durability and weather/UV resistance, making it a preferred modern aircraft wood adhesive."
+    },
+    {
+      "id": 21,
+      "question": "Forstner bits bore precise, flat-bottomed holes in wood regardless of their orientation to what?",
+      "options": [
+        "A. The wood grain",
+        "B. The ambient humidity",
+        "C. The tool's RPM setting"
+      ],
+      "correctIndex": 0,
+      "explanation": "Forstner bits can cut clean, flat-bottomed holes at any angle to the wood grain, unlike many other bit types."
+    },
+    {
+      "id": 22,
+      "question": "Sitka spruce grows faster and taller in what type of climate?",
+      "options": [
+        "A. A hot, arid climate",
+        "B. A wet and moderate climate",
+        "C. A cold, dry arctic climate"
+      ],
+      "correctIndex": 1,
+      "explanation": "Sitka spruce thrives and grows most vigorously in wet, moderate (temperate coastal) climates."
+    },
+    {
+      "id": 23,
+      "question": "When a propeller is to be hand-carved, the blank is first marked for the leading and trailing what?",
+      "options": [
+        "A. Bolt hole pattern only",
+        "B. Edge contours (outlines)",
+        "C. Finish color"
+      ],
+      "correctIndex": 1,
+      "explanation": "Before shaping, the leading and trailing edge contour lines are marked on the propeller blank to guide the carving process."
+    },
+    {
+      "id": 24,
+      "question": "What is true about wash primer?",
+      "options": [
+        "A. It must always be sanded before topcoating",
+        "B. It does not need sanding",
+        "C. It cannot be used on metal surfaces"
+      ],
+      "correctIndex": 1,
+      "explanation": "Wash primer is formulated to provide good adhesion without requiring sanding before subsequent coats are applied."
+    },
+    {
+      "id": 25,
+      "question": "What is most commonly used on rib caps after fabric covering is installed to protect and strengthen the fabric attachment area?",
+      "options": [
+        "A. Varnish",
+        "B. Reinforcing tape",
+        "C. Primer"
+      ],
+      "correctIndex": 1,
+      "explanation": "Reinforcing tape is applied over rib caps to protect the fabric and strengthen the area where it is stitched or cemented to the ribs."
+    },
+    {
+      "id": 26,
+      "question": "In an I-spar repair, what is the typical slope used for the reinforcement (splice) plane?",
+      "options": [
+        "A. 12:1",
+        "B. 5:1",
+        "C. 1:1"
+      ],
+      "correctIndex": 1,
+      "explanation": "I-spar splice repairs commonly use a 5:1 taper for the reinforcement plane to gradually transfer load across the splice."
+    },
+    {
+      "id": 27,
+      "question": "Hard knots up to 3/8 inch in diameter are acceptable in aircraft wood if what condition is met?",
+      "options": [
+        "A. They are painted over",
+        "B. They are located at the wing root only",
+        "C. They do not cause grain divergence at the edge of the flanges beyond specified limits"
+      ],
+      "correctIndex": 2,
+      "explanation": "Small hard knots are tolerated only if they don't cause excessive grain deviation around flange edges beyond the allowable limit."
+    },
+    {
+      "id": 28,
+      "question": "Newly developed lacquers that use a catalyst cure in what manner?",
+      "options": [
+        "A. They chemically cure",
+        "B. They cure only by solvent evaporation",
+        "C. They never fully cure"
+      ],
+      "correctIndex": 0,
+      "explanation": "Catalyzed lacquers undergo a chemical curing reaction (cross-linking) rather than curing solely through solvent evaporation."
+    },
+    {
+      "id": 29,
+      "question": "Which of the following statements about wood grain is true?",
+      "options": [
+        "A. Any amount of grain inclination is acceptable",
+        "B. No grain inclination is ever acceptable",
+        "C. Grain inclination is acceptable up to a certain specified limit"
+      ],
+      "correctIndex": 2,
+      "explanation": "Aircraft wood specifications allow a limited degree of grain slope/inclination, beyond which the wood is rejected."
+    },
+    {
+      "id": 30,
+      "question": "When painting a light aircraft, where should you start?",
+      "options": [
+        "A. At all corners and gaps",
+        "B. At the largest flat panel first",
+        "C. At the bottom of the fuselage only"
+      ],
+      "correctIndex": 0,
+      "explanation": "Painting typically begins at corners, edges, and gaps to ensure full coverage in hard-to-reach areas before coating the larger flat surfaces."
+    },
+    {
+      "id": 31,
+      "question": "Which type of patch is used to repair a hole with a diameter up to about 15 times the skin thickness?",
+      "options": [
+        "A. A plug patch",
+        "B. A scarf patch",
+        "C. A splayed patch"
+      ],
+      "correctIndex": 2,
+      "explanation": "A splayed patch, with its tapered edges, is suitable for holes up to roughly 15 times the skin thickness."
+    },
+    {
+      "id": 32,
+      "question": "Which of the following is true about reinforcing tape?",
+      "options": [
+        "A. It must always be shorter than the member it covers",
+        "B. It must be slightly longer than the member it covers",
+        "C. It is applied only to metal structure"
+      ],
+      "correctIndex": 1,
+      "explanation": "Reinforcing tape is cut slightly longer than the rib cap or member it protects, to fully cover the area including some margin."
+    },
+    {
+      "id": 33,
+      "question": "Which of the following is FALSE about surface tape?",
+      "options": [
+        "A. That it reinforces areas subject to abrasion or stress",
+        "B. That it is applied over seams and ribs",
+        "C. That it is applied after the first wet coat of dope"
+      ],
+      "correctIndex": 2,
+      "explanation": "Surface tape is actually applied before the dope coats are built up, not after the first wet coat; it is embedded in the finishing system, not added afterward."
+    },
+    {
+      "id": 34,
+      "question": "Which glue type should be considered obsolete for aircraft construction?",
+      "options": [
+        "A. Resorcinol glue",
+        "B. Casein glue",
+        "C. Epoxy glue"
+      ],
+      "correctIndex": 1,
+      "explanation": "Casein glue, once common, is now considered obsolete for aircraft use due to its poor moisture and durability resistance compared with modern adhesives."
+    },
+    {
+      "id": 35,
+      "question": "What ensures that paint is free of dirt, water, and other contaminants before spraying?",
+      "options": [
+        "A. A heater",
+        "B. A thinner additive",
+        "C. A filter (strainer) in the paint supply line"
+      ],
+      "correctIndex": 2,
+      "explanation": "Straining/filtering paint before spraying removes contaminants like dirt and water that could cause finish defects."
+    },
+    {
+      "id": 36,
+      "question": "Wing spar damage can be spliced at any point EXCEPT where?",
+      "options": [
+        "A. Near the wingtip",
+        "B. Mid-span, away from fittings",
+        "C. At a wing attachment fitting location"
+      ],
+      "correctIndex": 2,
+      "explanation": "Splices are not permitted through highly loaded fitting areas such as wing attachment points, where a splice could compromise the critical joint."
+    },
+    {
+      "id": 37,
+      "question": "The distinction between softwood and hardwood is based on what?",
+      "options": [
+        "A. Color of the wood",
+        "B. Cellular structure",
+        "C. Country of origin"
+      ],
+      "correctIndex": 1,
+      "explanation": "Softwood and hardwood classifications are based on the tree's cellular/botanical structure, not on the actual hardness of the wood."
+    },
+    {
+      "id": 38,
+      "question": "What determines the correct weight (grade) of textile fabric to use on an aircraft?",
+      "options": [
+        "A. Only the paint color desired",
+        "B. Only the cabin size",
+        "C. Both the maximum wing loading and the speed of the aircraft"
+      ],
+      "correctIndex": 2,
+      "explanation": "Fabric weight/grade selection depends on the aircraft's wing loading and speed, which determine the stresses the fabric must withstand."
+    },
+    {
+      "id": 39,
+      "question": "A radial crack that runs across the growth rings is called what?",
+      "options": [
+        "A. A shake",
+        "B. A knot",
+        "C. A check"
+      ],
+      "correctIndex": 2,
+      "explanation": "A check is a lengthwise separation of the wood that runs radially across the growth rings, typically caused by seasoning stresses."
+    },
+    {
+      "id": 40,
+      "question": "The period between applying adhesive and joining the assembly's parts is called what?",
+      "options": [
+        "A. Open assembly time",
+        "B. Closed assembly time",
+        "C. Cure time"
+      ],
+      "correctIndex": 0,
+      "explanation": "Open assembly time is the interval after glue application during which the parts must be brought together before the glue begins to set."
+    },
+    {
+      "id": 41,
+      "question": "Where are aircraft registration (nationality and registration) marks typically located on a fixed-wing aircraft?",
+      "options": [
+        "A. On either the vertical tail surface or the side of the fuselage",
+        "B. On the top of the wing only",
+        "C. On the landing gear doors"
+      ],
+      "correctIndex": 0,
+      "explanation": "FAR Part 45 specifies that registration marks appear on the vertical tail surface or on the sides of the fuselage (or both, depending on configuration)."
+    },
+    {
+      "id": 42,
+      "question": "What is true about wood grain arrangement in aircraft lumber?",
+      "options": [
+        "A. Some inclination of the grain is permitted within specified limits",
+        "B. Grain must run perfectly straight with zero deviation",
+        "C. Grain direction has no bearing on strength"
+      ],
+      "correctIndex": 0,
+      "explanation": "Specifications allow a limited, specified amount of grain slope because perfectly straight grain throughout is impractical, while excessive slope weakens the wood."
+    },
+    {
+      "id": 43,
+      "question": "What is the minimum performance standard issued by the FAA for aircraft parts used on aircraft?",
+      "options": [
+        "A. Service Bulletin (SB)",
+        "B. Airworthiness Directive (AD)",
+        "C. Technical Standard Order (TSO)"
+      ],
+      "correctIndex": 2,
+      "explanation": "A TSO establishes the minimum performance standard a part (such as fabric) must meet to be approved for use on certificated aircraft."
+    },
+    {
+      "id": 44,
+      "question": "What is the reference wood species commonly used for aircraft construction comparisons?",
+      "options": [
+        "A. Sitka spruce",
+        "B. Douglas fir",
+        "C. Balsa wood"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sitka spruce is the benchmark (reference) species against which other acceptable substitute woods are compared for aircraft structural use."
+    },
+    {
+      "id": 45,
+      "question": "On a siphon-feed spray gun, where is the paint cup typically located?",
+      "options": [
+        "A. On top of the gun",
+        "B. Below the gun",
+        "C. Behind the trigger"
+      ],
+      "correctIndex": 1,
+      "explanation": "A siphon (suction-feed) spray gun has its paint cup mounted below the gun body, with atmospheric pressure and airflow drawing paint upward."
+    },
+    {
+      "id": 46,
+      "question": "What is the lightest weight aircraft fabric grade recognized under the applicable FAA TSO?",
+      "options": [
+        "A. TSO-C15 (heavyweight grade)",
+        "B. TSO-C14b (lightweight grade)",
+        "C. TSO-C9"
+      ],
+      "correctIndex": 1,
+      "explanation": "Among the fabric grades specified under the applicable TSO, the lightest weight classification is commonly referenced as TSO-C14b."
+    },
+    {
+      "id": 47,
+      "question": "Which solvent is used to slow drying and help prevent blushing of a finish?",
+      "options": [
+        "A. Acetone",
+        "B. A retarder (not quick-evaporating solvents like ethyl alcohol)",
+        "C. Lacquer thinner (fast type)"
+      ],
+      "correctIndex": 1,
+      "explanation": "A slow-evaporating retarder solvent prevents the rapid cooling that causes moisture condensation (blushing) in the finish film."
+    },
+    {
+      "id": 48,
+      "question": "A defect described as a compression failure running across the grain is called what?",
+      "options": [
+        "A. Cross shake (or compression shake across the grain)",
+        "B. A ring shake",
+        "C. A knot"
+      ],
+      "correctIndex": 0,
+      "explanation": "This type of defect, running across the grain from compression failure, is categorized as a cross/compression shake and is not acceptable."
+    },
+    {
+      "id": 49,
+      "question": "A shake that runs longitudinally and is visible when the wood is cut tangentially through the growth rings is called what?",
+      "options": [
+        "A. Heart shake",
+        "B. Ring shake",
+        "C. Star check"
+      ],
+      "correctIndex": 0,
+      "explanation": "A heart shake radiates outward from near the pith (heart) of the log and becomes visible on longitudinal/tangential cuts."
+    },
+    {
+      "id": 50,
+      "question": "Longitudinal cracks usually occurring between two growth rings are called what?",
+      "options": [
+        "A. Heart shakes",
+        "B. Checks",
+        "C. Ring shakes"
+      ],
+      "correctIndex": 2,
+      "explanation": "Ring shakes are separations that occur along the boundary between two annual growth rings, running longitudinally in the wood."
+    },
+    {
+      "id": 51,
+      "question": "Which type of spray gun does NOT directly use compressed air to atomize the coating material?",
+      "options": [
+        "A. A siphon-feed gun",
+        "B. An airless spray gun",
+        "C. A gravity-feed gun"
+      ],
+      "correctIndex": 1,
+      "explanation": "Airless spray guns atomize paint using high hydraulic fluid pressure rather than compressed air mixing with the paint stream."
+    },
+    {
+      "id": 52,
+      "question": "Discoloration and softening of wood are indicative of what condition?",
+      "options": [
+        "A. A check",
+        "B. A knot",
+        "C. Decay"
+      ],
+      "correctIndex": 2,
+      "explanation": "Decay caused by fungal action typically produces discoloration and a loss of wood hardness (softening)."
+    },
+    {
+      "id": 53,
+      "question": "Which of the following is NOT an attribute of Sitka spruce used for aircraft construction?",
+      "options": [
+        "A. High strength-to-weight ratio",
+        "B. Straight, even grain",
+        "C. Heavy weight"
+      ],
+      "correctIndex": 2,
+      "explanation": "Sitka spruce is prized specifically because it is light in weight relative to its strength; heaviness is not one of its favorable attributes."
+    },
+    {
+      "id": 54,
+      "question": "Advanced decay that permits wood to be crushed into a dry powder is called what?",
+      "options": [
+        "A. Wet rot",
+        "B. Dry rot",
+        "C. Dote"
+      ],
+      "correctIndex": 1,
+      "explanation": "Dry rot is an advanced stage of fungal decay that leaves the wood brittle enough to crumble into a dry powder."
+    },
+    {
+      "id": 55,
+      "question": "Dark discoloration or grey stains running along the grain of wood are indicative of what?",
+      "options": [
+        "A. Water penetration",
+        "B. A hard knot",
+        "C. Normal aging with no concern"
+      ],
+      "correctIndex": 0,
+      "explanation": "Dark streaks or grey staining along the grain typically indicate that moisture has penetrated the wood, a precursor to decay."
+    },
+    {
+      "id": 56,
+      "question": "What is applied to the fabric after the fabric sealer coat has been applied?",
+      "options": [
+        "A. Primer",
+        "B. Filler",
+        "C. Topcoat color only, with no filler needed"
+      ],
+      "correctIndex": 1,
+      "explanation": "After the sealer coat, a filler coat is applied to build up the finishing system and provide UV protection before color coats."
+    },
+    {
+      "id": 57,
+      "question": "Which adhesive is a non-gap-filling type, suitable only where surfaces can be brought into close contact (glue line no more than about 0.005 inch) under adequate pressure?",
+      "options": [
+        "A. Gap-filling (structural) adhesive",
+        "B. Close-contact adhesive",
+        "C. Contact cement"
+      ],
+      "correctIndex": 1,
+      "explanation": "Close-contact adhesives require very tight-fitting joints (glue line ≤ 0.005 in) and adequate clamping pressure, unlike gap-filling adhesives."
+    },
+    {
+      "id": 58,
+      "question": "What type of patch can be used to repair trimmed holes up to a 50-inch perimeter?",
+      "options": [
+        "A. A fabric patch",
+        "B. A plug patch",
+        "C. A surface patch"
+      ],
+      "correctIndex": 2,
+      "explanation": "Surface patches, cemented directly over the damaged area, are approved for larger trimmed holes up to about a 50-inch perimeter."
+    },
+    {
+      "id": 59,
+      "question": "What is a slow-drying solvent that can be mixed with aircraft dope to retard drying on humid days and prevent blushing?",
+      "options": [
+        "A. Acetone",
+        "B. Toluene",
+        "C. Butyl alcohol (butanol)"
+      ],
+      "correctIndex": 2,
+      "explanation": "Butyl alcohol (butanol) slows the dope's drying rate, helping prevent the moisture-related blushing (clouding) effect on humid days."
+    },
+    {
+      "id": 60,
+      "question": "Which type of spray gun is classified as an internal-mix gun?",
+      "options": [
+        "A. An HVLP (High Volume, Low Pressure) spray gun",
+        "B. A basic external-mix touch-up gun",
+        "C. An airless spray gun"
+      ],
+      "correctIndex": 0,
+      "explanation": "HVLP guns commonly use internal-mix nozzles, combining air and fluid inside the nozzle before atomized paint exits, improving transfer efficiency."
+    },
+    {
+      "id": 61,
+      "question": "A knot is described as what, structurally, within a piece of wood?",
+      "options": [
+        "A. A crack caused by drying stress",
+        "B. A type of surface finish defect",
+        "C. A portion of a branch or limb embedded within the body of the tree"
+      ],
+      "correctIndex": 2,
+      "explanation": "A knot forms where a branch was once attached, becoming embedded in the trunk as the tree grew, creating a localized grain disruption."
+    },
+    {
+      "id": 62,
+      "question": "Aircraft decals must not be made of what material?",
+      "options": [
+        "A. Vinyl",
+        "B. Leather",
+        "C. Mylar film"
+      ],
+      "correctIndex": 1,
+      "explanation": "Leather is not an approved material for aircraft decals/markings; modern decals use materials like vinyl or specially formulated films."
+    },
+    {
+      "id": 63,
+      "question": "What is correct about applying pressure to a joint during a glue bond?",
+      "options": [
+        "A. Apply pressure only at the joint edges",
+        "B. Avoid applying any pressure to the joint",
+        "C. Apply even, uniform force/pressure across the joint"
+      ],
+      "correctIndex": 2,
+      "explanation": "Even pressure across the glued joint ensures a uniform, thin, strong glue line without starved or overly thick areas."
+    },
+    {
+      "id": 64,
+      "question": "When Sitka spruce is compared pound-for-pound with aluminum, what is notable?",
+      "options": [
+        "A. It has about twice the tensile strength of aluminum, pound for pound",
+        "B. It is heavier than aluminum for the same strength",
+        "C. It has no measurable tensile strength"
+      ],
+      "correctIndex": 0,
+      "explanation": "On a strength-to-weight basis, Sitka spruce compares very favorably with aluminum, offering roughly twice the tensile strength per unit weight."
+    },
+    {
+      "id": 65,
+      "question": "What transparent protective finish is commonly used for wood?",
+      "options": [
+        "A. Primer (pigmented)",
+        "B. Varnish",
+        "C. Filler (pigmented)"
+      ],
+      "correctIndex": 1,
+      "explanation": "Varnish is a clear, transparent protective finish traditionally used to seal and protect wood structures while showing the grain."
+    },
+    {
+      "id": 66,
+      "question": "A scarf patch has its edges beveled at what slope?",
+      "options": [
+        "A. A 12:1 slope",
+        "B. A 5:1 slope",
+        "C. A 1:1 slope"
+      ],
+      "correctIndex": 0,
+      "explanation": "The long, gradual 12:1 bevel of a scarf patch provides a strong, smooth structural transition between old and new material."
+    },
+    {
+      "id": 67,
+      "question": "What disease develops after a tree has been felled if the timber is exposed to excessive soaking and partial drying?",
+      "options": [
+        "A. Dote",
+        "B. A knot",
+        "C. Decay"
+      ],
+      "correctIndex": 2,
+      "explanation": "Post-felling decay can develop when cut timber undergoes repeated soaking and partial drying cycles, promoting fungal growth."
+    },
+    {
+      "id": 68,
+      "question": "In a splayed patch, the term \"splayed\" describes the edge slope cut at what ratio relative to skin thickness?",
+      "options": [
+        "A. 12:1",
+        "B. 5:1",
+        "C. 1:1"
+      ],
+      "correctIndex": 1,
+      "explanation": "A splayed patch's edges are cut at roughly a 5:1 taper relative to the skin thickness, less gradual than the 12:1 scarf patch slope."
+    },
+    {
+      "id": 69,
+      "question": "Which of the following is correct about wood used for aircraft construction regarding grain limits?",
+      "options": [
+        "A. Spruce grain inclination has no specified limit",
+        "B. The limit of grain inclination for spruce is 1 inch in 15 for Grade A",
+        "C. Grade A spruce allows any slope of grain up to 1 inch in 2"
+      ],
+      "correctIndex": 1,
+      "explanation": "Grade A aircraft spruce specifications limit the slope of grain to no more than 1 inch of deviation in 15 inches of length."
+    },
+    {
+      "id": 70,
+      "question": "Fabric is considered airworthy until it deteriorates to what breaking strength?",
+      "options": [
+        "A. Less than 70 percent of the strength required for new fabric on that aircraft",
+        "B. Less than 90 percent of new fabric strength",
+        "C. Less than 50 percent of new fabric strength"
+      ],
+      "correctIndex": 0,
+      "explanation": "Fabric is condemned once its strength falls below 70 percent of the minimum strength required when new, per standard fabric-testing criteria."
+    },
+    {
+      "id": 71,
+      "question": "Which type of spray gun has its paint cup mounted on top of the gun?",
+      "options": [
+        "A. A siphon-feed spray gun",
+        "B. A pressure-feed spray gun",
+        "C. A gravity-feed spray gun"
+      ],
+      "correctIndex": 2,
+      "explanation": "A gravity-feed gun mounts the paint cup above the gun body so gravity helps feed paint down into the air stream."
+    },
+    {
+      "id": 72,
+      "question": "What provides ventilation to remove condensation at the lower ends of all fabric-covered sections?",
+      "options": [
+        "A. Reinforcing tape",
+        "B. Drain holes (grommeted)",
+        "C. Rib stitching"
+      ],
+      "correctIndex": 1,
+      "explanation": "Grommeted drain holes at low points allow trapped moisture/condensation to escape from fabric-covered structure, preventing corrosion and decay."
+    },
+    {
+      "id": 73,
+      "question": "A fabric patch is used to repair damage up to what size?",
+      "options": [
+        "A. Up to 1 inch in diameter",
+        "B. Up to 15 inches in diameter",
+        "C. Up to 50 inches in perimeter"
+      ],
+      "correctIndex": 0,
+      "explanation": "A basic fabric patch is limited to small damage, typically no more than about 1 inch in diameter."
+    },
+    {
+      "id": 74,
+      "question": "Which of the following is NOT a favorable attribute that makes Sitka spruce suitable for aircraft use?",
+      "options": [
+        "A. Its high strength-to-weight ratio",
+        "B. Its straight, even grain",
+        "C. Its flame resistance"
+      ],
+      "correctIndex": 2,
+      "explanation": "Sitka spruce is not notably flame resistant; its favorable qualities for aircraft use are strength-to-weight ratio and grain quality, not fire resistance."
+    },
+    {
+      "id": 75,
+      "question": "When checking a glue line for condition, what should be done regarding the surrounding wood?",
+      "options": [
+        "A. Wet the surrounding wood to highlight the glue line",
+        "B. Sand away the surrounding wood entirely",
+        "C. Dry the surrounding wood to avoid a false indication caused by wood swelling"
+      ],
+      "correctIndex": 2,
+      "explanation": "Moist, swollen wood can mask or mimic glue line defects, so the surrounding wood should be dried before a reliable inspection."
+    },
+    {
+      "id": 76,
+      "question": "What should satisfactory glue joints in aircraft structure be able to develop?",
+      "options": [
+        "A. Only partial strength under light loads",
+        "B. The full strength of the wood, under all conditions of stress",
+        "C. Strength equal to the adhesive alone, regardless of wood strength"
+      ],
+      "correctIndex": 1,
+      "explanation": "A properly made aircraft glue joint should be at least as strong as the wood itself, so the wood (not the glue line) becomes the limiting factor."
+    },
+    {
+      "id": 77,
+      "question": "What is used to create reinforced drain holes in aircraft fabric?",
+      "options": [
+        "A. Reinforcing tape",
+        "B. Rib lacing cord",
+        "C. Grommets"
+      ],
+      "correctIndex": 2,
+      "explanation": "Grommets reinforce the edges of drain holes cut in the fabric, preventing tearing while allowing moisture to drain."
+    },
+    {
+      "id": 78,
+      "question": "In general, an aircraft is certified to use a certain fabric type based on what factors?",
+      "options": [
+        "A. Its paint color scheme",
+        "B. Its wing loading and its never-exceed speed (VNE)",
+        "C. Its cabin seating capacity"
+      ],
+      "correctIndex": 1,
+      "explanation": "Fabric certification/selection depends on the structural and aerodynamic loads implied by the aircraft's wing loading and VNE."
+    },
+    {
+      "id": 79,
+      "question": "Registration marks on a fixed-wing aircraft are NOT located on which of the following?",
+      "options": [
+        "A. The vertical tail surface",
+        "B. The fuselage sides",
+        "C. The engine"
+      ],
+      "correctIndex": 2,
+      "explanation": "Registration marks go on the airframe's vertical tail or fuselage sides, never on the engine itself."
+    },
+    {
+      "id": 80,
+      "question": "What is a disadvantage of fabric covering compared with metal skin?",
+      "options": [
+        "A. Flammability",
+        "B. Excessive weight",
+        "C. High cost of raw material only"
+      ],
+      "correctIndex": 0,
+      "explanation": "Fabric coverings, especially older types, are more flammable than metal skin, which is a notable disadvantage despite their light weight."
+    },
+    {
+      "id": 81,
+      "question": "The degree of corrosion found on screws removed from an area is indicative of what?",
+      "options": [
+        "A. Water penetration into that area",
+        "B. Normal wear with no concern",
+        "C. Overtightening during installation"
+      ],
+      "correctIndex": 0,
+      "explanation": "Corroded screws are a telltale sign that moisture has been penetrating and sitting in that area of the structure."
+    },
+    {
+      "id": 82,
+      "question": "Per FAR Part 45, which of the following is NOT considered an aircraft marking requirement?",
+      "options": [
+        "A. Nationality and registration marks",
+        "B. Export or special marking requirements where applicable",
+        "C. Weight and balance marking"
+      ],
+      "correctIndex": 2,
+      "explanation": "FAR Part 45 governs identification and registration marking, not weight and balance information, which is covered elsewhere (e.g., Part 23/25 and the POH)."
+    },
+    {
+      "id": 83,
+      "question": "The ability to inspect wood structure and recognize defects cannot be learned solely by what means?",
+      "options": [
+        "A. Hands-on training combined with reference material",
+        "B. Supervised practical inspection experience",
+        "C. Just reading a reference book"
+      ],
+      "correctIndex": 2,
+      "explanation": "Recognizing wood defects reliably requires hands-on experience and training, not just reading about defects in a book."
+    },
+    {
+      "id": 84,
+      "question": "When non-destructive moisture meters are used to check wood moisture content without drilling holes, what is the ideal moisture range?",
+      "options": [
+        "A. 20 to 25 percent",
+        "B. 8 to 12 percent",
+        "C. 0 to 2 percent"
+      ],
+      "correctIndex": 1,
+      "explanation": "Aircraft wood is generally kept in the 8-12 percent moisture content range, which balances strength, stability, and resistance to decay."
+    },
+    {
+      "id": 85,
+      "question": "Which solvent should NOT be used as a dope thinner because its rapid evaporation cools the doped area and causes moisture to collect?",
+      "options": [
+        "A. Acetone",
+        "B. Butyl alcohol",
+        "C. Toluene (as a slow thinner)"
+      ],
+      "correctIndex": 0,
+      "explanation": "Acetone evaporates very quickly, cooling the surface enough to cause condensation (blushing) in the dope film, so it is avoided as a thinner for this purpose."
+    },
+    {
+      "id": 86,
+      "question": "For standard certificated fixed-wing aircraft, registration marks must be at least what height?",
+      "options": [
+        "A. At least 12 inches high",
+        "B. At least 3 inches high",
+        "C. At least 24 inches high"
+      ],
+      "correctIndex": 0,
+      "explanation": "FAR Part 45 requires registration marks on most standard certificated fixed-wing aircraft to be at least 12 inches high."
+    },
+    {
+      "id": 87,
+      "question": "Which of the following is a disadvantage of fabric covering?",
+      "options": [
+        "A. Excessive structural weight",
+        "B. Lack of durability",
+        "C. High radar reflectivity"
+      ],
+      "correctIndex": 1,
+      "explanation": "Fabric coverings are generally less durable and more susceptible to damage/deterioration than metal skins over time."
+    },
+    {
+      "id": 88,
+      "question": "What is the purpose of a primer in a finishing system?",
+      "options": [
+        "A. To provide the final color and gloss",
+        "B. To block all UV light by itself",
+        "C. To provide an anchor point for the finish coats"
+      ],
+      "correctIndex": 2,
+      "explanation": "Primer promotes adhesion, giving subsequent finish coats a solid anchor/bonding surface on the underlying material."
+    },
+    {
+      "id": 89,
+      "question": "What is the single most destructive element that causes polyester fabric to deteriorate?",
+      "options": [
+        "A. High humidity",
+        "B. UV light",
+        "C. Cold temperatures"
+      ],
+      "correctIndex": 1,
+      "explanation": "Ultraviolet light breaks down the polymer structure of polyester aircraft fabric over time, making it the most destructive deterioration factor."
+    }
+  ]
+}

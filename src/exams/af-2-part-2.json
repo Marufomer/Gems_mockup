@@ -1,0 +1,1135 @@
+{
+  "id": "af-2-part-2",
+  "title": "AF-2-part-2",
+  "module": "AF-2-M2",
+  "course": "airframe",
+  "category": "part",
+  "description": "Airframe exam covering welding processes and equipment, sheet metal forming and layout, rivets and riveted joints, and related fastener/material identification, drawn from the AF-2 welding/sheet-metal/rivet question/answer bank.",
+  "durationMinutes": 150,
+  "totalQuestions": 102,
+  "color": "green",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Welding hoses incorporate what device to prevent gas reversal and the advancement of a flashback fire?",
+      "options": [
+        "A. A pressure regulator",
+        "B. A flowmeter",
+        "C. A check valve"
+      ],
+      "correctIndex": 2,
+      "explanation": "Check valves (and flashback arrestors) prevent reverse flow of gas in the hoses, stopping a flashback fire from traveling back toward the cylinders."
+    },
+    {
+      "id": 2,
+      "question": "Damage that does not affect the structural integrity of a component is classified as what?",
+      "options": [
+        "A. Negligible damage",
+        "B. Primary damage",
+        "C. Critical damage"
+      ],
+      "correctIndex": 0,
+      "explanation": "Negligible damage is minor damage that does not compromise the structural strength or airworthiness of the component and may not require repair."
+    },
+    {
+      "id": 3,
+      "question": "What is the last step in a typical metal forming process?",
+      "options": [
+        "A. Draw the correct lines on the flat pattern (before forming) / final forming to shape",
+        "B. Mix the flux",
+        "C. Select the welding rod"
+      ],
+      "correctIndex": 0,
+      "explanation": "Metal forming work concludes with laying out and forming the part to the final lines established on the flat pattern."
+    },
+    {
+      "id": 4,
+      "question": "In gas welding, what is a pressure regulator used for?",
+      "options": [
+        "A. To mix the shielding gas with argon",
+        "B. To store compressed acetylene",
+        "C. To control the lower pressure delivered to the torch"
+      ],
+      "correctIndex": 2,
+      "explanation": "A regulator reduces the high cylinder pressure down to a controlled, lower working pressure delivered to the torch."
+    },
+    {
+      "id": 5,
+      "question": "For 1xxx series aluminum alloys, what does the last two digits of the designation indicate?",
+      "options": [
+        "A. The alloying element added",
+        "B. The temper designation",
+        "C. The minimum percentage of aluminum purity above 99% (hundredths above 99%)"
+      ],
+      "correctIndex": 2,
+      "explanation": "In the 1xxx series, the last two digits indicate the hundredths of a percent of aluminum purity above 99%."
+    },
+    {
+      "id": 6,
+      "question": "Which gas is highly flammable and is used for cutting and welding underwater?",
+      "options": [
+        "A. Nitrogen",
+        "B. Carbon dioxide",
+        "C. Hydrogen"
+      ],
+      "correctIndex": 2,
+      "explanation": "Hydrogen is a highly flammable fuel gas used in underwater cutting/welding because, unlike acetylene, it performs well at the pressures involved."
+    },
+    {
+      "id": 7,
+      "question": "Which joining process is used primarily for electrical connections?",
+      "options": [
+        "A. Brazing",
+        "B. Arc welding",
+        "C. Soldering"
+      ],
+      "correctIndex": 2,
+      "explanation": "Soldering uses a low-melting-point filler metal to join electrical connections without significantly heating or stressing the components."
+    },
+    {
+      "id": 8,
+      "question": "Which type of self-plugging rivet is designed to resist vibration (loosening)?",
+      "options": [
+        "A. A mechanical lock rivet",
+        "B. A solid shank rivet",
+        "C. A friction lock rivet"
+      ],
+      "correctIndex": 0,
+      "explanation": "Mechanical lock blind rivets physically lock the stem in place, resisting the vibration-induced loosening that can affect friction-lock type rivets."
+    },
+    {
+      "id": 9,
+      "question": "Which mechanical property describes a material's resistance to surface damage (indentation, scratching)?",
+      "options": [
+        "A. Hardness",
+        "B. Ductility",
+        "C. Elasticity"
+      ],
+      "correctIndex": 0,
+      "explanation": "Hardness is the property that measures a material's resistance to localized surface damage such as indentation or abrasion."
+    },
+    {
+      "id": 10,
+      "question": "Which weld joint can be performed without the addition of filler material?",
+      "options": [
+        "A. A butt joint on thick material",
+        "B. An edge joint",
+        "C. A T-joint"
+      ],
+      "correctIndex": 1,
+      "explanation": "Thin-material edge joints can often be fusion welded without filler, since the two edges melt together to form the joint."
+    },
+    {
+      "id": 11,
+      "question": "Which welding technique does NOT use inert gas for shielding?",
+      "options": [
+        "A. Electric Resistance Welding (ERW)",
+        "B. GTAW (TIG)",
+        "C. GMAW (MIG)"
+      ],
+      "correctIndex": 0,
+      "explanation": "ERW joins metal using resistance heating and pressure, with no shielding gas involved, unlike GTAW/GMAW which use inert gas shielding."
+    },
+    {
+      "id": 12,
+      "question": "Which of the following is NOT true when repairing aircraft structure?",
+      "options": [
+        "A. That a smaller gauge (thinner) material is preferred for the repair",
+        "B. That repair material should match or exceed original strength",
+        "C. That repairs should restore the original contour"
+      ],
+      "correctIndex": 0,
+      "explanation": "Repairs should generally use material of equal or greater strength/thickness, not a thinner gauge, which would weaken the structure."
+    },
+    {
+      "id": 13,
+      "question": "How many components, excluding the ruler/blade, make up a combination square set?",
+      "options": [
+        "A. 2",
+        "B. 6",
+        "C. 4 (square head, center head, protractor head, and scriber)"
+      ],
+      "correctIndex": 2,
+      "explanation": "A typical combination square set includes the blade plus four other components: square head, center head, protractor head, and scriber."
+    },
+    {
+      "id": 14,
+      "question": "Which of the following is true about setback in sheet metal bending?",
+      "options": [
+        "A. It can be calculated from the material thickness, bend radius, and K-factor",
+        "B. It depends only on the type of metal used",
+        "C. It is always equal to the bend radius"
+      ],
+      "correctIndex": 0,
+      "explanation": "Setback is calculated using the formula SB = K(R + T), which depends on bend radius (R), material thickness (T), and the K-factor for the bend angle."
+    },
+    {
+      "id": 15,
+      "question": "What color is an oxygen hose typically color-coded?",
+      "options": [
+        "A. Green",
+        "B. Red",
+        "C. Blue"
+      ],
+      "correctIndex": 0,
+      "explanation": "Standard color coding uses green for oxygen hoses and red for acetylene/fuel gas hoses to prevent mix-ups."
+    },
+    {
+      "id": 16,
+      "question": "What is argon gas typically used for in welding?",
+      "options": [
+        "A. As the fuel gas",
+        "B. As a cutting gas for oxy-fuel cutting",
+        "C. As a shielding gas"
+      ],
+      "correctIndex": 2,
+      "explanation": "Argon is an inert shielding gas used in processes like GTAW and GMAW to protect the weld pool from atmospheric contamination."
+    },
+    {
+      "id": 17,
+      "question": "In a flush patch repair, what is done?",
+      "options": [
+        "A. A patch is simply riveted over the damage without removing it",
+        "B. The damaged area is left as-is and only painted over",
+        "C. The damaged part is removed and a patch with reinforcement is glued in, giving a smooth exterior surface"
+      ],
+      "correctIndex": 2,
+      "explanation": "A flush patch repair removes the damaged material and bonds in a patch with internal reinforcement so the exterior surface remains smooth and aerodynamic."
+    },
+    {
+      "id": 18,
+      "question": "Which of the following is NOT a correct way to determine proper rivet size?",
+      "options": [
+        "A. Matching rivet diameter to sheet thickness per approved data",
+        "B. Using any rivet that happens to fit in the hole",
+        "C. Referencing the structural repair manual for the specified rivet"
+      ],
+      "correctIndex": 1,
+      "explanation": "Rivet size must be selected per approved data (thickness, load, original rivet size), not simply chosen because it physically fits the hole."
+    },
+    {
+      "id": 19,
+      "question": "Which statement is NOT correct about single-stage and two-stage regulators?",
+      "options": [
+        "A. That a two-stage regulator reduces pressure in two steps",
+        "B. That regulators control the delivery pressure to the torch",
+        "C. That a single-stage regulator is typically used (when in fact two-stage is often preferred for stability)"
+      ],
+      "correctIndex": 2,
+      "explanation": "Two-stage regulators, which reduce pressure in two steps for more stable delivery pressure, are generally preferred over single-stage regulators, contrary to this statement."
+    },
+    {
+      "id": 20,
+      "question": "A \"working\" (loose) rivet is identified by what sign?",
+      "options": [
+        "A. A dark, greasy residue around the rivet head",
+        "B. A shiny, clean rivet head",
+        "C. A slightly oversized rivet head"
+      ],
+      "correctIndex": 0,
+      "explanation": "A working (loose) rivet allows relative motion between the rivet and the sheet, which produces a dark, greasy residue around the rivet head from fretting."
+    },
+    {
+      "id": 21,
+      "question": "What is the purpose of flux in welding?",
+      "options": [
+        "A. To provide shielding (protecting the weld from oxidation/contamination)",
+        "B. To increase the melting point of the base metal",
+        "C. To act as the main structural filler metal"
+      ],
+      "correctIndex": 0,
+      "explanation": "Flux shields the molten weld pool from atmospheric oxygen and contaminants, and can also help dissolve oxides on the metal surface."
+    },
+    {
+      "id": 22,
+      "question": "What is a key difference between GMAW and SMAW?",
+      "options": [
+        "A. SMAW uses a continuous bare wire electrode",
+        "B. GMAW requires a flux-coated stick electrode",
+        "C. GMAW (MIG) uses an uncoated (bare) wire electrode with shielding gas"
+      ],
+      "correctIndex": 2,
+      "explanation": "GMAW uses a continuously fed, uncoated wire electrode shielded by externally supplied gas, unlike SMAW's flux-coated stick electrode."
+    },
+    {
+      "id": 23,
+      "question": "What happens when the bend radius used is less than the minimum allowable radius for a material?",
+      "options": [
+        "A. The part becomes stronger than designed",
+        "B. A crack would develop at the base (heel) of the bend",
+        "C. Nothing; any radius can be used safely"
+      ],
+      "correctIndex": 1,
+      "explanation": "Bending tighter than the minimum allowable radius overstresses the material's outer fibers, leading to cracking at the bend."
+    },
+    {
+      "id": 24,
+      "question": "Which welding process uses a non-consumable electrode?",
+      "options": [
+        "A. SMAW",
+        "B. GTAW (TIG)",
+        "C. GMAW"
+      ],
+      "correctIndex": 1,
+      "explanation": "GTAW uses a non-consumable tungsten electrode to create the arc, with filler metal (if needed) added separately."
+    },
+    {
+      "id": 25,
+      "question": "Which welding position is generally considered the most difficult?",
+      "options": [
+        "A. Overhead",
+        "B. Flat (horizontal)",
+        "C. Vertical"
+      ],
+      "correctIndex": 0,
+      "explanation": "Overhead welding is physically the most difficult position because gravity works against the welder in controlling the molten weld pool."
+    },
+    {
+      "id": 26,
+      "question": "Which of the following is the slowest cooling medium (coolant)?",
+      "options": [
+        "A. Oil quench",
+        "B. Still air",
+        "C. Water quench"
+      ],
+      "correctIndex": 1,
+      "explanation": "Still air provides the slowest cooling rate among common heat-treatment cooling media, compared with oil or water quenching."
+    },
+    {
+      "id": 27,
+      "question": "What type of gas welding flame is produced by burning more acetylene than oxygen?",
+      "options": [
+        "A. A neutral flame",
+        "B. A carburizing (reducing) flame",
+        "C. An oxidizing flame"
+      ],
+      "correctIndex": 1,
+      "explanation": "Excess acetylene relative to oxygen produces a carburizing (reducing) flame, identifiable by its feathery inner cone."
+    },
+    {
+      "id": 28,
+      "question": "Oxy-acetylene gas welding produces a flame temperature of approximately what value?",
+      "options": [
+        "A. 2,000°F",
+        "B. 12,000°F",
+        "C. 6,300°F"
+      ],
+      "correctIndex": 2,
+      "explanation": "The oxy-acetylene neutral flame reaches a temperature of roughly 6,300°F (about 3,480°C), suitable for welding most common metals."
+    },
+    {
+      "id": 29,
+      "question": "What is a key difference between one-stage and two-stage pressure regulators?",
+      "options": [
+        "A. A two-stage regulator provides more stable delivery pressure as cylinder pressure drops, unlike a single-stage design (which the statement incorrectly says lacks pressure identification)",
+        "B. Two-stage regulators have no pressure gauges at all",
+        "C. One-stage regulators are only used for oxygen, never acetylene"
+      ],
+      "correctIndex": 0,
+      "explanation": "Two-stage regulators reduce pressure in two steps, maintaining more consistent delivery pressure as the cylinder empties, compared with a single-stage regulator."
+    },
+    {
+      "id": 30,
+      "question": "Which welding position is generally the most convenient to perform?",
+      "options": [
+        "A. Overhead",
+        "B. Vertical",
+        "C. Flat (horizontal/down-hand)"
+      ],
+      "correctIndex": 2,
+      "explanation": "Flat position welding is the easiest and most convenient because gravity helps keep the molten weld pool in place."
+    },
+    {
+      "id": 31,
+      "question": "A rivet that has retained a greasy residue around its head (indicating looseness) is called what?",
+      "options": [
+        "A. A working rivet",
+        "B. A driven rivet",
+        "C. A blind rivet"
+      ],
+      "correctIndex": 0,
+      "explanation": "A \"working\" rivet moves slightly relative to the sheet, and this fretting motion deposits a greasy, dark residue around the rivet head."
+    },
+    {
+      "id": 32,
+      "question": "Which of the following generally requires more material when forming a bend?",
+      "options": [
+        "A. A tight, closed bend",
+        "B. An open (larger radius/obtuse) bend",
+        "C. No bend requires extra material"
+      ],
+      "correctIndex": 1,
+      "explanation": "An open bend with a larger included angle and radius requires more material in the flat pattern to form than a tighter, closed bend."
+    },
+    {
+      "id": 33,
+      "question": "How is the molten metal shielded in Shielded Metal Arc Welding (SMAW)?",
+      "options": [
+        "A. By a separate externally supplied inert gas",
+        "B. By fumes/gas produced from the flux coating on the electrode as it burns",
+        "C. By submerging the weld in a granular flux bed"
+      ],
+      "correctIndex": 1,
+      "explanation": "SMAW's stick electrode has a flux coating that burns and produces a shielding gas/slag cover, protecting the weld pool without external gas."
+    },
+    {
+      "id": 34,
+      "question": "Which of the following is a flux-covered (coated) electrode welding process?",
+      "options": [
+        "A. GTAW",
+        "B. GMAW",
+        "C. SMAW (stick welding)"
+      ],
+      "correctIndex": 2,
+      "explanation": "SMAW uses a consumable electrode coated in flux, which burns to shield the weld and also forms a protective slag layer."
+    },
+    {
+      "id": 35,
+      "question": "Which welding technique is commonly used for light tubing and sheet metal?",
+      "options": [
+        "A. Backhand welding",
+        "B. Forehand welding",
+        "C. Submerged arc welding"
+      ],
+      "correctIndex": 1,
+      "explanation": "Forehand (leftward) welding, with the torch leading the filler rod, is well suited to thinner materials like light tubing and sheet metal."
+    },
+    {
+      "id": 36,
+      "question": "What metal joining process uses a nonferrous filler metal/alloy with a melting point above 800°F but below that of the base metals being joined?",
+      "options": [
+        "A. Brazing",
+        "B. Soldering",
+        "C. Fusion welding"
+      ],
+      "correctIndex": 0,
+      "explanation": "Brazing joins metals using a filler with a melting point above 800°F (distinguishing it from soldering) but below the base metals' melting point."
+    },
+    {
+      "id": 37,
+      "question": "What does the presence of black (dark, greasy) residue around rivets indicate?",
+      "options": [
+        "A. A properly torqued, tight rivet",
+        "B. Relative motion between the rivet and the adjacent surface (a loose/working rivet)",
+        "C. Normal paint overspray"
+      ],
+      "correctIndex": 1,
+      "explanation": "Dark residue is produced by fretting from relative movement between a loose rivet and the sheet, signaling the rivet needs attention."
+    },
+    {
+      "id": 38,
+      "question": "What types of gases are used in oxy-acetylene welding?",
+      "options": [
+        "A. Oxygen and argon",
+        "B. Nitrogen and hydrogen",
+        "C. Oxygen and acetylene"
+      ],
+      "correctIndex": 2,
+      "explanation": "Oxy-acetylene welding burns acetylene fuel gas with oxygen to produce the high-temperature flame used for welding and cutting."
+    },
+    {
+      "id": 39,
+      "question": "What is the purpose of the sight line, bend line, or brake line marked on sheet metal?",
+      "options": [
+        "A. To mark where to drill rivet holes",
+        "B. To indicate the finished paint boundary",
+        "C. To serve as a guide in bending the work"
+      ],
+      "correctIndex": 2,
+      "explanation": "The sight/bend line is aligned with the brake's nose bar to guide the operator in making the bend at the correct location."
+    },
+    {
+      "id": 40,
+      "question": "Which processes are examples of metal forming operations?",
+      "options": [
+        "A. Only cutting and shearing",
+        "B. Only drilling and reaming",
+        "C. Stretching, shrinking, bumping, and crimping"
+      ],
+      "correctIndex": 2,
+      "explanation": "Metal forming encompasses shaping operations such as stretching, shrinking, bumping, and crimping to form contoured parts."
+    },
+    {
+      "id": 41,
+      "question": "If tubing is damaged in a cluster (where multiple tubes meet), reinforcing the area with formed sheet metal is called what?",
+      "options": [
+        "A. A sleeve splice",
+        "B. A finger patch",
+        "C. A rosette repair"
+      ],
+      "correctIndex": 1,
+      "explanation": "A finger patch uses shaped sheet metal \"fingers\" to wrap around and reinforce a damaged cluster joint where several tubes converge."
+    },
+    {
+      "id": 42,
+      "question": "In oxy-acetylene welding, what is the fuel gas?",
+      "options": [
+        "A. Oxygen",
+        "B. Acetylene",
+        "C. Nitrogen"
+      ],
+      "correctIndex": 1,
+      "explanation": "Acetylene is the fuel gas burned with oxygen to produce the high-temperature flame used in oxy-acetylene welding."
+    },
+    {
+      "id": 43,
+      "question": "How many parts does a combination square have, excluding the ruler (blade)?",
+      "options": [
+        "A. 3 (square head, protractor head, and center head, or similar set)",
+        "B. 1",
+        "C. 6"
+      ],
+      "correctIndex": 0,
+      "explanation": "Depending on the exact set referenced, a combination square typically includes 3 additional heads/components besides the blade itself."
+    },
+    {
+      "id": 44,
+      "question": "Which of the following is NOT correct about sheet metal replacement in repairs?",
+      "options": [
+        "A. That replacement material should match the original alloy and temper where possible",
+        "B. That thickness should meet or exceed the original specification",
+        "C. That a stronger but thinner sheet metal can be substituted for the original"
+      ],
+      "correctIndex": 2,
+      "explanation": "Simply using a thinner, stronger alloy is not an approved substitution method; repairs must follow approved substitution data for thickness and strength."
+    },
+    {
+      "id": 45,
+      "question": "Which welding process uses ionized gas (plasma) as its heat source?",
+      "options": [
+        "A. SMAW",
+        "B. Brazing",
+        "C. PAW (Plasma Arc Welding)"
+      ],
+      "correctIndex": 2,
+      "explanation": "Plasma Arc Welding ionizes a gas to create a high-temperature plasma jet used as the heat source for welding or cutting."
+    },
+    {
+      "id": 46,
+      "question": "What term describes an extension of the flat side of a formed part beyond the bend radius?",
+      "options": [
+        "A. Mold line",
+        "B. Bend tangent line",
+        "C. Sight line"
+      ],
+      "correctIndex": 0,
+      "explanation": "The mold line is the theoretical line formed by extending the flat surfaces of a part to their intersection, used as a dimensional reference."
+    },
+    {
+      "id": 47,
+      "question": "Which of the following is NOT typically classified as an installation tool (for rivets/fasteners)?",
+      "options": [
+        "A. A rivet gun",
+        "B. A bucking bar",
+        "C. A drift punch (used for alignment, not installation)"
+      ],
+      "correctIndex": 2,
+      "explanation": "A drift punch is primarily used to align holes, not to install the rivet itself, unlike a rivet gun or bucking bar."
+    },
+    {
+      "id": 48,
+      "question": "Which of the following is a correct principle of sheet metal repair?",
+      "options": [
+        "A. Maximize weight for extra strength",
+        "B. Ignore the original contour of the part",
+        "C. Minimize added weight while restoring strength"
+      ],
+      "correctIndex": 2,
+      "explanation": "Good repair practice restores the required strength and contour while keeping added weight to a practical minimum."
+    },
+    {
+      "id": 49,
+      "question": "Which of the following is NOT a principle of sheet metal repair?",
+      "options": [
+        "A. Restoring original strength",
+        "B. Maintaining the exact original weight of the part, regardless of strength needs",
+        "C. Restoring original contour"
+      ],
+      "correctIndex": 1,
+      "explanation": "Repairs focus on restoring strength and contour efficiently; preserving the exact original weight is not itself a repair principle, since some added weight is often necessary."
+    },
+    {
+      "id": 50,
+      "question": "In the forming process, what does \"stretching\" refer to?",
+      "options": [
+        "A. Decreasing the area of the material",
+        "B. Keeping the area constant while folding",
+        "C. Increasing the area of the material"
+      ],
+      "correctIndex": 2,
+      "explanation": "Stretching a piece of sheet metal increases its surface area as the material is drawn thinner over a form."
+    },
+    {
+      "id": 51,
+      "question": "Which of the following is incorrect about preparing a flat pattern layout?",
+      "options": [
+        "A. That it is a three-dimensional drawing",
+        "B. That it shows bend lines and sight lines",
+        "C. That it accounts for bend allowance"
+      ],
+      "correctIndex": 0,
+      "explanation": "A flat pattern layout is a two-dimensional drawing of the unformed part, not a three-dimensional drawing."
+    },
+    {
+      "id": 52,
+      "question": "What machine is commonly used for bending sheet metal along straight lines?",
+      "options": [
+        "A. A shrinker/stretcher",
+        "B. A cornice brake",
+        "C. A slip roll former"
+      ],
+      "correctIndex": 1,
+      "explanation": "A cornice brake (leaf brake) clamps sheet metal and folds it along a straight line to form bends."
+    },
+    {
+      "id": 53,
+      "question": "What is the generally accepted maximum safe working pressure for standard welding hoses?",
+      "options": [
+        "A. 15 PSI",
+        "B. 100 PSI",
+        "C. 250 PSI"
+      ],
+      "correctIndex": 0,
+      "explanation": "Standard oxy-acetylene welding hoses are rated for relatively low working pressures, commonly cited around 15 PSI for the acetylene side."
+    },
+    {
+      "id": 54,
+      "question": "A flame that makes a hissing sound, with an inner core that is somewhat pointed and purplish at the tip, describes what type of flame?",
+      "options": [
+        "A. An oxidizing flame",
+        "B. A carburizing flame",
+        "C. A neutral flame"
+      ],
+      "correctIndex": 0,
+      "explanation": "An oxidizing flame (excess oxygen) burns hotter with a hissing sound and a shorter, more pointed purplish-tipped inner cone."
+    },
+    {
+      "id": 55,
+      "question": "In the SAE four-digit numerical index system for steel alloys, what do the last two digits identify?",
+      "options": [
+        "A. The alloying element type",
+        "B. The carbon content (percentage, in hundredths)",
+        "C. The manufacturing process used"
+      ],
+      "correctIndex": 1,
+      "explanation": "The last two digits of the SAE steel designation indicate the approximate carbon content in hundredths of a percent."
+    },
+    {
+      "id": 56,
+      "question": "Given the rivet identification MS20426 AD 5-7, what does the final digit '7' indicate?",
+      "options": [
+        "A. The rivet length (in sixteenths of an inch)",
+        "B. The rivet diameter",
+        "C. The rivet head style"
+      ],
+      "correctIndex": 0,
+      "explanation": "In standard rivet callouts, the number after the dash indicates the rivet length in sixteenths of an inch; here, 7 means 7/16 inch."
+    },
+    {
+      "id": 57,
+      "question": "Which type of rivet is typically used on the upper surface of a wing or stabilizer (where a smooth aerodynamic surface is needed but access from behind is limited)?",
+      "options": [
+        "A. A universal head solid rivet",
+        "B. A countersunk head solid rivet accessed from both sides",
+        "C. A blind (pull-type) rivet"
+      ],
+      "correctIndex": 2,
+      "explanation": "Blind rivets can be installed from one side only, making them practical for upper wing/stabilizer skins where access to the back side is restricted — though flush solid rivets remain common where both-side access exists."
+    },
+    {
+      "id": 58,
+      "question": "Which statement is WRONG about the LBW (Laser Beam Welding) process?",
+      "options": [
+        "A. That it can produce very precise, narrow welds",
+        "B. That it uses a focused beam of light as the heat source",
+        "C. That it uses argon gas for shielding (it does not inherently require this)"
+      ],
+      "correctIndex": 2,
+      "explanation": "LBW's defining feature is a focused laser beam as the heat source; it does not inherently rely on argon shielding gas the way GTAW/GMAW do."
+    },
+    {
+      "id": 59,
+      "question": "In an inner stringer/spline repair, what type of weld joins the inner and outer tubes by welding around a hole drilled in the outer tube?",
+      "options": [
+        "A. A fillet weld",
+        "B. A butt weld",
+        "C. A rosette weld"
+      ],
+      "correctIndex": 2,
+      "explanation": "A rosette weld is made by welding around a drilled hole in the outer tube, fusing it to the inner tube beneath, common in tubing cluster repairs."
+    },
+    {
+      "id": 60,
+      "question": "Which type of welding is performed inside a vacuum chamber?",
+      "options": [
+        "A. SMAW",
+        "B. Oxy-acetylene welding",
+        "C. EBW (Electron Beam Welding)"
+      ],
+      "correctIndex": 2,
+      "explanation": "Electron Beam Welding is performed in a vacuum chamber so the electron beam is not scattered by air molecules."
+    },
+    {
+      "id": 61,
+      "question": "Which type of welding process has more versatile applications beyond just welding (e.g., cutting, drilling, marking)?",
+      "options": [
+        "A. SMAW",
+        "B. LBW (Laser Beam Welding)",
+        "C. Brazing"
+      ],
+      "correctIndex": 1,
+      "explanation": "Laser beam welding equipment can also be used for precision cutting, drilling, and marking, giving it versatility beyond welding alone."
+    },
+    {
+      "id": 62,
+      "question": "Which of the following is NOT true about GTAW?",
+      "options": [
+        "A. That it uses a non-consumable tungsten electrode",
+        "B. That it produces high-quality, precise welds",
+        "C. That a consumable tungsten rod is used as the electrode"
+      ],
+      "correctIndex": 2,
+      "explanation": "GTAW's tungsten electrode is non-consumable; it does not melt into the weld, so describing it as a \"consumable tungsten rod\" is incorrect."
+    },
+    {
+      "id": 63,
+      "question": "Which type of welding is commonly used to join sheet metal during manufacturing (e.g., spot welds)?",
+      "options": [
+        "A. Oxy-acetylene welding",
+        "B. Electrical Resistance Welding (ERW)",
+        "C. Brazing"
+      ],
+      "correctIndex": 1,
+      "explanation": "Electrical Resistance Welding (including spot welding) is widely used in manufacturing to join sheet metal quickly and efficiently."
+    },
+    {
+      "id": 64,
+      "question": "In bending a U-channel, what is the first step in the process?",
+      "options": [
+        "A. Mark the sight lines",
+        "B. Cut the part to final length",
+        "C. Determine the correct bend radius"
+      ],
+      "correctIndex": 2,
+      "explanation": "Before laying out bend lines or forming, the correct minimum bend radius for the material and thickness must first be determined."
+    },
+    {
+      "id": 65,
+      "question": "What is the layout line marked on metal being formed, used as a guide for positioning the bend in the brake, called?",
+      "options": [
+        "A. The mold line",
+        "B. The bend tangent line",
+        "C. The sight line"
+      ],
+      "correctIndex": 2,
+      "explanation": "The sight line is the layout mark aligned with the brake's bending edge to position the part correctly for the bend."
+    },
+    {
+      "id": 66,
+      "question": "What is the location where the metal starts to curve, and where it stops curving, called?",
+      "options": [
+        "A. The mold line",
+        "B. The sight line",
+        "C. The bend tangent line(s)"
+      ],
+      "correctIndex": 2,
+      "explanation": "Bend tangent lines mark the beginning and end points of the curved (bend) portion of the material."
+    },
+    {
+      "id": 67,
+      "question": "What is the distance the brake's jaws must be set back from the mold line to form a bend called?",
+      "options": [
+        "A. Bend allowance (BA)",
+        "B. Setback (SB)",
+        "C. Total developed width (TDW)"
+      ],
+      "correctIndex": 1,
+      "explanation": "Setback is the distance measured from the mold line to the bend tangent line, accounting for the bend radius and material thickness."
+    },
+    {
+      "id": 68,
+      "question": "Which oxy-acetylene flame has a short, sharp inner core?",
+      "options": [
+        "A. The carburizing flame",
+        "B. The oxidizing flame",
+        "C. The neutral flame"
+      ],
+      "correctIndex": 1,
+      "explanation": "An oxidizing flame (excess oxygen) has a shorter, sharper, more pointed inner cone compared with the softer neutral flame."
+    },
+    {
+      "id": 69,
+      "question": "Which weld joint can be made without filler material?",
+      "options": [
+        "A. A butt joint in thicker material",
+        "B. An edge joint",
+        "C. A lap joint requiring full penetration"
+      ],
+      "correctIndex": 1,
+      "explanation": "Thin-gauge edge joints can often be welded by simply fusing the two edges together without adding separate filler metal."
+    },
+    {
+      "id": 70,
+      "question": "Which welding process does not use inert gas for shielding?",
+      "options": [
+        "A. EBW (Electron Beam Welding)",
+        "B. GTAW",
+        "C. GMAW"
+      ],
+      "correctIndex": 0,
+      "explanation": "EBW is performed in a vacuum rather than relying on inert shielding gas, unlike GTAW and GMAW."
+    },
+    {
+      "id": 71,
+      "question": "Which welding process does not use a consumable electrode?",
+      "options": [
+        "A. EBW (Electron Beam Welding)",
+        "B. SMAW",
+        "C. GMAW"
+      ],
+      "correctIndex": 0,
+      "explanation": "EBW uses an electron beam (not a consumable wire or rod electrode) as the heat source, similar in this respect to GTAW's non-consumable tungsten."
+    },
+    {
+      "id": 72,
+      "question": "In which welding-related process is the joint made without melting the base metal?",
+      "options": [
+        "A. ERW (specifically resistance processes that rely more on pressure/heat without full fusion in some variants)",
+        "B. Oxy-acetylene fusion welding",
+        "C. GTAW fusion welding"
+      ],
+      "correctIndex": 0,
+      "explanation": "Certain resistance welding variants rely primarily on heat and pressure rather than fully melting the base metal, distinguishing them from fusion welding processes."
+    },
+    {
+      "id": 73,
+      "question": "What is the purpose of beveling the edges of thicker material before welding?",
+      "options": [
+        "A. To ensure adequate penetration of the weld",
+        "B. To reduce the amount of filler metal needed",
+        "C. To eliminate the need for a backing strip"
+      ],
+      "correctIndex": 0,
+      "explanation": "Beveling opens up a groove so the weld can achieve full, adequate penetration through thicker material."
+    },
+    {
+      "id": 74,
+      "question": "When a sheet metal part has intersecting bend radii, relief holes are drilled at the intersection of the inside bend tangent lines. What diameter are these holes?",
+      "options": [
+        "A. Approximately twice the bend radius",
+        "B. Approximately half the bend radius",
+        "C. Exactly equal to the material thickness"
+      ],
+      "correctIndex": 0,
+      "explanation": "Relief holes at intersecting bend lines are sized at roughly twice the bend radius to prevent material buildup and cracking at the intersection."
+    },
+    {
+      "id": 75,
+      "question": "Which type of rivet is most commonly used in aircraft structural construction?",
+      "options": [
+        "A. The blind rivet",
+        "B. The split rivet",
+        "C. The solid shank rivet"
+      ],
+      "correctIndex": 2,
+      "explanation": "Solid shank (driven) rivets are the predominant rivet type used in primary aircraft structure due to their strength and reliability."
+    },
+    {
+      "id": 76,
+      "question": "What is the width of material measured around all the bends, from edge to edge, called?",
+      "options": [
+        "A. Setback",
+        "B. Bend allowance",
+        "C. Total developed width (TDW)"
+      ],
+      "correctIndex": 2,
+      "explanation": "Total developed width is the overall flat-pattern width needed to form a part, accounting for all bends and allowances along the cross-section."
+    },
+    {
+      "id": 77,
+      "question": "What type of cut do yellow-handled aviation snips typically make?",
+      "options": [
+        "A. Left curved cuts only",
+        "B. Straight cuts",
+        "C. Right curved cuts only"
+      ],
+      "correctIndex": 1,
+      "explanation": "Color-coded aviation snips use yellow handles for straight-cutting snips, green for right-curve cuts, and red for left-curve cuts."
+    },
+    {
+      "id": 78,
+      "question": "Which metal burns readily, especially in small particles or dust form, and poses a significant fire hazard during machining?",
+      "options": [
+        "A. Magnesium",
+        "B. Stainless steel",
+        "C. Titanium (relatively less so than magnesium)"
+      ],
+      "correctIndex": 0,
+      "explanation": "Magnesium is highly flammable, particularly as fine chips, shavings, or dust, requiring special fire precautions during machining."
+    },
+    {
+      "id": 79,
+      "question": "What term describes the outside dimensions of a formed sheet metal part?",
+      "options": [
+        "A. Bend allowance",
+        "B. Setback",
+        "C. Base measurement (mold-line dimensions)"
+      ],
+      "correctIndex": 2,
+      "explanation": "The outside (mold-line) dimensions describing the overall size of a formed part are referred to as its base measurement."
+    },
+    {
+      "id": 80,
+      "question": "What tool is used to transfer a measurement from a device to a scale (or vice versa) to determine its value?",
+      "options": [
+        "A. Dividers",
+        "B. A micrometer only",
+        "C. A protractor"
+      ],
+      "correctIndex": 0,
+      "explanation": "Dividers are used to step off or transfer a distance from one location (such as a drawing or part) to a scale for measurement."
+    },
+    {
+      "id": 81,
+      "question": "What term refers to the curved section of material within the bend area of a formed part?",
+      "options": [
+        "A. Bend allowance (BA)",
+        "B. Setback (SB)",
+        "C. Mold line"
+      ],
+      "correctIndex": 0,
+      "explanation": "Bend allowance is the length of material consumed by the curved portion of the bend, used in calculating the flat pattern layout."
+    },
+    {
+      "id": 82,
+      "question": "What is the minimum spacing typically required between flush head rivets?",
+      "options": [
+        "A. Not less than 4 times the rivet diameter",
+        "B. Not less than 1 times the rivet diameter",
+        "C. Not less than 10 times the rivet diameter"
+      ],
+      "correctIndex": 0,
+      "explanation": "Standard rivet spacing practice requires a minimum of about 4 times the rivet shank diameter between adjacent rivets to maintain joint strength."
+    },
+    {
+      "id": 83,
+      "question": "Given the rivet identification MS20426 AD 5-7, what does the '5' indicate?",
+      "options": [
+        "A. The rivet length",
+        "B. The rivet diameter (in thirty-seconds of an inch)",
+        "C. The rivet head angle"
+      ],
+      "correctIndex": 1,
+      "explanation": "In standard rivet part numbers, the digit before the dash indicates the shank diameter in thirty-seconds of an inch; here 5 means 5/32 inch."
+    },
+    {
+      "id": 84,
+      "question": "Which of the following is NOT correct regarding replacement rivets?",
+      "options": [
+        "A. That the replacement rivet should match or exceed the original's strength",
+        "B. That rivet material compatibility with the parent metal should be considered",
+        "C. That a rivet with less strength can be used under any condition as long as it fits"
+      ],
+      "correctIndex": 2,
+      "explanation": "A weaker rivet cannot simply be substituted regardless of condition; replacement rivets must meet or exceed the strength of the original per approved data."
+    },
+    {
+      "id": 85,
+      "question": "What tool is used for cutting irregular lines on the inside of a sheet without cutting through to the edge?",
+      "options": [
+        "A. A scroll shear (nibbler)",
+        "B. Straight tin snips",
+        "C. A cornice brake"
+      ],
+      "correctIndex": 0,
+      "explanation": "A scroll shear (or nibbler) can start a cut away from any edge and follow irregular, curved lines within the sheet."
+    },
+    {
+      "id": 86,
+      "question": "Which tool is used for bending operations that require forming thicker skins and more complex parts?",
+      "options": [
+        "A. A press brake",
+        "B. Hand seamers",
+        "C. A slip roll former"
+      ],
+      "correctIndex": 0,
+      "explanation": "Press brakes apply much higher forming force than hand tools, making them suitable for thicker material and more complex bend geometry."
+    },
+    {
+      "id": 87,
+      "question": "What is Alclad?",
+      "options": [
+        "A. A chromium plating applied to steel fasteners",
+        "B. A type of anodizing process for titanium",
+        "C. A pure aluminum coating rolled onto the surface of an aluminum alloy, which may then be heat-treated"
+      ],
+      "correctIndex": 2,
+      "explanation": "Alclad bonds a thin layer of pure, corrosion-resistant aluminum onto an aluminum alloy core, protecting the stronger but more corrosion-prone alloy beneath."
+    },
+    {
+      "id": 88,
+      "question": "What is the formula used to calculate setback in sheet metal bending?",
+      "options": [
+        "A. SB = R - T",
+        "B. SB = K(R + T)",
+        "C. SB = (R x T) / K"
+      ],
+      "correctIndex": 1,
+      "explanation": "Setback is calculated as SB = K(R + T), where K is the K-factor for the bend angle, R is bend radius, and T is material thickness."
+    },
+    {
+      "id": 89,
+      "question": "Which material normally contains over 2 percent carbon along with some silicon?",
+      "options": [
+        "A. Mild steel",
+        "B. Stainless steel",
+        "C. Cast iron"
+      ],
+      "correctIndex": 2,
+      "explanation": "Cast iron is distinguished from steel by its higher carbon content, typically above 2 percent, along with silicon."
+    },
+    {
+      "id": 90,
+      "question": "In the heat treatment of aluminum, the gradual increase in hardness and strength that reaches maximum values after several days is called what?",
+      "options": [
+        "A. Age hardening (natural aging)",
+        "B. Quenching",
+        "C. Annealing"
+      ],
+      "correctIndex": 0,
+      "explanation": "Age hardening (natural aging) is the gradual precipitation-hardening process that continues over days after quenching, increasing strength and hardness."
+    },
+    {
+      "id": 91,
+      "question": "What is true about a properly installed rivet regarding sealing?",
+      "options": [
+        "A. It is always airtight and watertight",
+        "B. It is watertight but not airtight",
+        "C. It is neither airtight nor watertight by itself"
+      ],
+      "correctIndex": 2,
+      "explanation": "A standard rivet joint is mechanically strong but does not inherently seal against air or water; sealant must be added where sealing is required."
+    },
+    {
+      "id": 92,
+      "question": "What tool is used for enlarging holes and finishing them smooth?",
+      "options": [
+        "A. Drift punches",
+        "B. Scroll shears",
+        "C. Reamers"
+      ],
+      "correctIndex": 2,
+      "explanation": "Reamers are precision tools used to enlarge an existing hole to an exact size while leaving a smooth finish."
+    },
+    {
+      "id": 93,
+      "question": "What is the term for the maximum permissible time between heating and quenching in heat treatment?",
+      "options": [
+        "A. Soak time",
+        "B. Lag time",
+        "C. Age time"
+      ],
+      "correctIndex": 1,
+      "explanation": "Lag time is the maximum allowable delay between removing a part from the furnace and quenching it, to ensure proper heat treatment results."
+    },
+    {
+      "id": 94,
+      "question": "In the SAE four-digit numerical index system for steel alloys, what do the first two digits identify?",
+      "options": [
+        "A. The carbon content",
+        "B. The steel (alloy) type",
+        "C. The heat treatment temperature"
+      ],
+      "correctIndex": 1,
+      "explanation": "The first two digits of the SAE steel designation identify the basic alloy type/series (e.g., plain carbon, nickel steel, chromium steel)."
+    },
+    {
+      "id": 95,
+      "question": "What kind of load are rivets primarily designed to withstand?",
+      "options": [
+        "A. Tension load",
+        "B. Shear load",
+        "C. Torsional load"
+      ],
+      "correctIndex": 1,
+      "explanation": "Rivets are primarily designed to carry shear loads across the joint, transferring load between the connected sheets."
+    },
+    {
+      "id": 96,
+      "question": "In sheet metal forming, what does \"shrinking\" mean?",
+      "options": [
+        "A. Reducing the area of the material",
+        "B. Increasing the area of the material",
+        "C. Keeping the material area unchanged"
+      ],
+      "correctIndex": 0,
+      "explanation": "Shrinking reduces the surface area of a piece of sheet metal, typically to form a concave contour."
+    },
+    {
+      "id": 97,
+      "question": "When a sheet metal part has intersecting bend radii, holes are drilled/punched to remove material at the intersection. What are these holes called?",
+      "options": [
+        "A. Lightening holes",
+        "B. Relief holes",
+        "C. Rivet holes"
+      ],
+      "correctIndex": 1,
+      "explanation": "Relief holes remove material at the intersection of bend tangent lines, preventing material pile-up and cracking where bends cross."
+    },
+    {
+      "id": 98,
+      "question": "In the SAE classification of steel, what does the designation 1030 indicate?",
+      "options": [
+        "A. A chromium-molybdenum steel with 3.0% chromium",
+        "B. A plain carbon steel with about 0.3% carbon",
+        "C. A stainless steel with 10% nickel"
+      ],
+      "correctIndex": 1,
+      "explanation": "SAE 1030 indicates a plain carbon steel (10xx series) with approximately 0.30% carbon content."
+    },
+    {
+      "id": 99,
+      "question": "What chart can be used to determine bend deduction or setback and the total developed width (TDW) of a flat pattern when inside bend radius, bend angle, and material thickness are known?",
+      "options": [
+        "A. A torque chart",
+        "B. A hardness conversion chart",
+        "C. A J-chart (bend allowance/setback chart)"
+      ],
+      "correctIndex": 2,
+      "explanation": "A J-chart (bend chart) provides setback and bend allowance values based on known radius, angle, and thickness, speeding up flat pattern layout."
+    },
+    {
+      "id": 100,
+      "question": "Which tool can be used to make curved cuts in sheet metal?",
+      "options": [
+        "A. A straight-cutting squaring shear",
+        "B. A throatless shear",
+        "C. A cornice brake"
+      ],
+      "correctIndex": 1,
+      "explanation": "A throatless (throttle) shear allows the operator to rotate and feed the sheet, enabling curved as well as straight cuts."
+    },
+    {
+      "id": 101,
+      "question": "What tool is used to remove a burr from the edge of a sheet or from a drilled hole?",
+      "options": [
+        "A. A deburring tool",
+        "B. A reamer only",
+        "C. A scroll shear"
+      ],
+      "correctIndex": 0,
+      "explanation": "A deburring tool is specifically designed to remove sharp burrs left on sheet edges or hole edges after cutting or drilling."
+    },
+    {
+      "id": 102,
+      "question": "The bend radius necessary to bend a part safely depends mainly on what factors?",
+      "options": [
+        "A. Material thickness and temper (and material type)",
+        "B. The color of the part",
+        "C. The brand of the brake used"
+      ],
+      "correctIndex": 0,
+      "explanation": "The minimum safe bend radius is determined primarily by the material's thickness and temper/hardness, which govern how much it can be bent before cracking."
+    }
+  ]
+}
