@@ -1,0 +1,1278 @@
+{
+  "id": "af-3",
+  "title": "AF-3",
+  "module": "AF-3-M1,M2",
+  "course": "airframe",
+  "category": "part",
+  "description": "Airframe exam covering aircraft hydraulic and pneumatic systems: pumps, reservoirs, accumulators, valves, actuators, seals, fluids, filtration, and related system components and maintenance practices, drawn from the AF-3 hydraulics/pneumatics question/answer bank.",
+  "durationMinutes": 150,
+  "totalQuestions": 115,
+  "color": "green",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which of the following is NOT a cause of hydraulic pressure drop?",
+      "options": [
+        "A. A leaking seal in an actuator",
+        "B. A loosened actuator mounting bolt on the structure",
+        "C. A failing pump"
+      ],
+      "correctIndex": 1,
+      "explanation": "A loose structural mounting bolt does not itself cause a loss of hydraulic fluid or pressure; pressure drops come from leaks, pump problems, or internal bypass, not structural attachment issues."
+    },
+    {
+      "id": 2,
+      "question": "What is the function of the accumulator in a hydraulic system?",
+      "options": [
+        "A. It filters contaminants from the fluid",
+        "B. It cools the hydraulic fluid",
+        "C. It stores hydraulic pressure using a charge of compressed air"
+      ],
+      "correctIndex": 2,
+      "explanation": "An accumulator stores hydraulic energy by compressing a charge of air (or nitrogen) against the hydraulic fluid, releasing it to smooth pressure surges or provide reserve pressure."
+    },
+    {
+      "id": 3,
+      "question": "What is a disadvantage of a dry-type (air) pump?",
+      "options": [
+        "A. It cannot build sufficient pressure",
+        "B. It can easily be damaged by any contaminants",
+        "C. It requires liquid lubrication at all times"
+      ],
+      "correctIndex": 1,
+      "explanation": "Dry air pumps rely on close-tolerance carbon vanes without liquid lubrication, so they are especially vulnerable to damage from contaminants."
+    },
+    {
+      "id": 4,
+      "question": "To check for a leak in a hydraulic system, the system is typically pressurized to what level?",
+      "options": [
+        "A. Maximum (rated) system pressure",
+        "B. Zero pressure",
+        "C. Half of normal operating pressure"
+      ],
+      "correctIndex": 0,
+      "explanation": "Leak checks are performed with the system pressurized to its maximum rated pressure, since leaks may not be apparent at lower pressures."
+    },
+    {
+      "id": 5,
+      "question": "What valve changes the fluid path between normal and emergency/standby hydraulic systems?",
+      "options": [
+        "A. A priority valve",
+        "B. A shuttle valve",
+        "C. A sequence valve"
+      ],
+      "correctIndex": 1,
+      "explanation": "A shuttle valve automatically shifts to admit fluid from whichever source (normal or emergency/standby) has priority or is pressurized."
+    },
+    {
+      "id": 6,
+      "question": "Which type of check valve is used for high-volume, low-pressure requirements?",
+      "options": [
+        "A. A flapper check valve",
+        "B. A ball check valve",
+        "C. A poppet check valve"
+      ],
+      "correctIndex": 0,
+      "explanation": "Flapper check valves use a hinged flap suited to high flow volumes at relatively low pressure, unlike the tighter-sealing ball/poppet types used at higher pressure."
+    },
+    {
+      "id": 7,
+      "question": "Where does standby hydraulic pressure on an aircraft typically come from?",
+      "options": [
+        "A. The engine-driven pump only",
+        "B. The air compressor",
+        "C. The Electric Motor-Driven Pump (EMDP)"
+      ],
+      "correctIndex": 2,
+      "explanation": "Standby hydraulic power is commonly supplied by an electric motor-driven pump (EMDP) that can operate independently of the engines."
+    },
+    {
+      "id": 8,
+      "question": "What indicates the level (degree) of filtration in a Cuno (edge) filter?",
+      "options": [
+        "A. The color of the filter housing",
+        "B. The size/thickness of the spacers between the discs",
+        "C. The number of bolts holding the filter together"
+      ],
+      "correctIndex": 1,
+      "explanation": "In a Cuno-type edge filter, the thickness of the spacers between the stacked discs determines the gap size, and thus the filtration level."
+    },
+    {
+      "id": 9,
+      "question": "What is the power source for a Ram Air Turbine (RAT)?",
+      "options": [
+        "A. An electric motor",
+        "B. A turbine blade driven by airflow (ram air)",
+        "C. Engine bleed air"
+      ],
+      "correctIndex": 1,
+      "explanation": "A RAT is a small turbine extended into the airstream; the airflow spins its turbine blades to generate hydraulic or electrical power."
+    },
+    {
+      "id": 10,
+      "question": "A T-seal combined with a sandwich tension ring is known as what?",
+      "options": [
+        "A. A duplex seal",
+        "B. A chevron seal",
+        "C. A wiper seal"
+      ],
+      "correctIndex": 0,
+      "explanation": "This particular seal configuration, combining a T-shaped seal with a reinforcing tension ring, is known as a duplex seal."
+    },
+    {
+      "id": 11,
+      "question": "How is pressure restored when hydraulic system pressure is lost (momentarily)?",
+      "options": [
+        "A. By the compressed air charge in the accumulator discharging to supplement pressure",
+        "B. By the reservoir sight glass",
+        "C. By the thermal relief valve"
+      ],
+      "correctIndex": 0,
+      "explanation": "The precharged accumulator can discharge its stored energy to help maintain pressure momentarily when the pump output drops or is interrupted."
+    },
+    {
+      "id": 12,
+      "question": "Before measuring the initial air charge pressure in an accumulator, what must be done?",
+      "options": [
+        "A. The reservoir must be drained completely",
+        "B. The hydraulic fluid pressure must first be released",
+        "C. The engine must be running"
+      ],
+      "correctIndex": 1,
+      "explanation": "Fluid pressure must be released (bled off) from the accumulator before checking the air precharge, otherwise the fluid pressure would give a false reading."
+    },
+    {
+      "id": 13,
+      "question": "Which of the following is NOT a purpose of the hydraulic reservoir?",
+      "options": [
+        "A. Absorbing pressure surges",
+        "B. Storing a supply of hydraulic fluid",
+        "C. Allowing fluid to expand/contract with temperature"
+      ],
+      "correctIndex": 0,
+      "explanation": "Absorbing pressure surges is the function of the accumulator, not the reservoir, which primarily stores and conditions fluid for the pump."
+    },
+    {
+      "id": 14,
+      "question": "When a Power Transfer Unit (PTU) is pressurized in the hydraulic system, where does the moved fluid come from?",
+      "options": [
+        "A. The System A reservoir only",
+        "B. The standby reservoir",
+        "C. The System B reservoir"
+      ],
+      "correctIndex": 2,
+      "explanation": "On a typical PTU arrangement, System A pressure drives a motor that pumps System B fluid, drawn from the System B reservoir, without mixing the two fluids."
+    },
+    {
+      "id": 15,
+      "question": "When the pneumatic (air) system is pressurized, the air pressure is distributed to which hydraulic systems?",
+      "options": [
+        "A. System A, System B, and the standby system",
+        "B. Only System A",
+        "C. Only the standby system"
+      ],
+      "correctIndex": 0,
+      "explanation": "Pressurized air (from the engine-driven compressors or similar source) is used to pressurize the reservoirs for System A, System B, and the standby system."
+    },
+    {
+      "id": 16,
+      "question": "Where does the air used in a low-pressure pneumatic system typically come from?",
+      "options": [
+        "A. An electrically driven vane pump (air compressor)",
+        "B. Engine bleed air only",
+        "C. The hydraulic accumulator"
+      ],
+      "correctIndex": 0,
+      "explanation": "Some low-pressure pneumatic systems use an electrically driven vane-type air pump/compressor rather than relying solely on engine bleed air."
+    },
+    {
+      "id": 17,
+      "question": "An accumulator was precharged to 1,000 psi; after the hydraulic system is filled and pressurized to 3,000 psi, what is the accumulator pressure?",
+      "options": [
+        "A. 3,000 psi (equal to system pressure)",
+        "B. 1,000 psi (unchanged)",
+        "C. 4,000 psi (sum of both pressures)"
+      ],
+      "correctIndex": 0,
+      "explanation": "Once fluid pressure exceeds the air precharge, the accumulator pressure equalizes with system hydraulic pressure, so it reads approximately 3,000 psi."
+    },
+    {
+      "id": 18,
+      "question": "How many hydraulic reservoirs does a Boeing 737 typically have?",
+      "options": [
+        "A. 2",
+        "B. 3",
+        "C. 4"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Boeing 737 hydraulic system uses three reservoirs, corresponding to System A, System B, and the standby system."
+    },
+    {
+      "id": 19,
+      "question": "How do you know the Power Transfer Unit (PTU) is operating?",
+      "options": [
+        "A. A dedicated PTU warning light illuminates",
+        "B. An audible PTU chime sounds",
+        "C. There is normally no direct cockpit indication; it is inferred from system pressure/behavior"
+      ],
+      "correctIndex": 2,
+      "explanation": "On many aircraft, PTU operation has no dedicated direct indication; crews infer its operation from hydraulic system pressure indications and sounds."
+    },
+    {
+      "id": 20,
+      "question": "What component is used in hydraulic systems where it is necessary to lower normal system operating pressure by a specified amount?",
+      "options": [
+        "A. A pressure reducer",
+        "B. A relief valve",
+        "C. An accumulator"
+      ],
+      "correctIndex": 0,
+      "explanation": "A pressure reducer valve steps down system pressure to a lower, specified value needed by a particular subsystem or actuator."
+    },
+    {
+      "id": 21,
+      "question": "Non-contaminated (mineral-base) hydraulic fluid is typically dyed what color?",
+      "options": [
+        "A. Blue (or red, depending on specification, but mineral-base is commonly identified by its dye)",
+        "B. Green",
+        "C. Black"
+      ],
+      "correctIndex": 0,
+      "explanation": "Standard mineral-base hydraulic fluids used in many aircraft are dyed a distinct color (such as blue/red per specification) to aid identification and prevent mixing fluid types."
+    },
+    {
+      "id": 22,
+      "question": "Which accumulator air valve type has no additional locking/security feature?",
+      "options": [
+        "A. A valve with a locking wire/safety feature",
+        "B. AN812-8R",
+        "C. A valve with a tamper-evident cap"
+      ],
+      "correctIndex": 1,
+      "explanation": "The AN812-8R type air charging valve lacks a built-in locking/security feature compared with other valve designs that include such provisions."
+    },
+    {
+      "id": 23,
+      "question": "What is the disadvantage of using an electrical (electromechanical) landing gear actuation system?",
+      "options": [
+        "A. It cannot retract the gear",
+        "B. Its relatively heavy weight",
+        "C. It cannot be used on any aircraft"
+      ],
+      "correctIndex": 1,
+      "explanation": "Electromechanical landing gear systems, with their motors and gearboxes, tend to be heavier than comparable hydraulic actuation for the same load capacity."
+    },
+    {
+      "id": 24,
+      "question": "What is the advantage of using a hydraulic power pack (self-contained unit) for landing gear/flaps?",
+      "options": [
+        "A. It eliminates the need for any pump",
+        "B. It saves weight by eliminating long fluid lines to a central system",
+        "C. It requires no reservoir"
+      ],
+      "correctIndex": 1,
+      "explanation": "A self-contained power pack integrates pump, reservoir, and valves locally, saving the weight of long plumbing runs from a central hydraulic system."
+    },
+    {
+      "id": 25,
+      "question": "What is true about petroleum-based hydraulic fluid?",
+      "options": [
+        "A. It is always fire-resistant",
+        "B. It cannot be mixed with any seal material",
+        "C. It is always flammable"
+      ],
+      "correctIndex": 2,
+      "explanation": "Petroleum-base (mineral oil) hydraulic fluid is flammable, which is why fire-resistant synthetic or phosphate-ester fluids are used in some applications."
+    },
+    {
+      "id": 26,
+      "question": "How do you vary the output pressure of a constant displacement pump?",
+      "options": [
+        "A. Using a pressure regulator",
+        "B. Using a reservoir baffle",
+        "C. Using a standpipe"
+      ],
+      "correctIndex": 0,
+      "explanation": "A constant displacement pump always moves the same volume per revolution, so a separate pressure regulator is needed to control and limit system pressure."
+    },
+    {
+      "id": 27,
+      "question": "What is the purpose of a priority valve in a hydraulic system?",
+      "options": [
+        "A. To filter contaminants from the fluid",
+        "B. To allow continuous pressure to essential/priority systems, cutting off non-essential ones first if pressure drops",
+        "C. To recharge the accumulator"
+      ],
+      "correctIndex": 1,
+      "explanation": "A priority valve ensures that if system pressure drops, critical (priority) subsystems continue receiving pressure while less critical ones are shut off first."
+    },
+    {
+      "id": 28,
+      "question": "What is the air compressor used for in a pneumatic/hydraulic reservoir system?",
+      "options": [
+        "A. To cool the hydraulic fluid",
+        "B. To filter the hydraulic fluid",
+        "C. To replace air (or fluid) pressure lost due to leakage or normal operation"
+      ],
+      "correctIndex": 2,
+      "explanation": "An air compressor replenishes pressurizing air lost through normal leakage or system operation, maintaining the required reservoir/system pressure."
+    },
+    {
+      "id": 29,
+      "question": "How do you purge trapped air from the hydraulic reservoir/system?",
+      "options": [
+        "A. By cycling the hydraulic component (actuator) several times",
+        "B. By heating the fluid",
+        "C. By adding more air to the accumulator"
+      ],
+      "correctIndex": 0,
+      "explanation": "Repeatedly cycling an actuator or component helps work trapped air bubbles out of the fluid and up to the reservoir where they can be vented."
+    },
+    {
+      "id": 30,
+      "question": "When removing and assembling a flexible hydraulic hose, what precaution should be taken?",
+      "options": [
+        "A. Use a single wrench with maximum force",
+        "B. Use two spanners (wrenches) to prevent twisting of the hose",
+        "C. Heat the hose fittings before removal"
+      ],
+      "correctIndex": 1,
+      "explanation": "Using two wrenches, one to hold the fitting and one to turn the nut, prevents the flexible hose itself from being twisted during installation or removal."
+    },
+    {
+      "id": 31,
+      "question": "Which of the following is NOT typically included in an electromechanical (electronic) landing gear system?",
+      "options": [
+        "A. A hydraulic pressure regulator",
+        "B. An electric motor/actuator",
+        "C. A gearbox/screw jack mechanism"
+      ],
+      "correctIndex": 0,
+      "explanation": "A hydraulic pressure regulator belongs to a hydraulic system, not an electromechanical landing gear system, which uses motors and mechanical gearing instead."
+    },
+    {
+      "id": 32,
+      "question": "What is an advantage of a hydraulic system compared with other power transmission methods?",
+      "options": [
+        "A. It requires no fluid",
+        "B. It is relatively easy to maintain and troubleshoot",
+        "C. It operates without any seals"
+      ],
+      "correctIndex": 1,
+      "explanation": "Hydraulic systems are valued partly for being comparatively straightforward to inspect, troubleshoot, and maintain using pressure/flow diagnostics."
+    },
+    {
+      "id": 33,
+      "question": "Which of the following is NOT typically used for a heavy landing gear system requiring high force?",
+      "options": [
+        "A. An engine-driven hydraulic pump",
+        "B. An electric motor pump alone",
+        "C. A hydraulic power pack"
+      ],
+      "correctIndex": 1,
+      "explanation": "Electric motor-driven pumps alone generally lack the power density for heavy landing gear loads, which is why engine-driven hydraulic pumps or power packs are used instead."
+    },
+    {
+      "id": 34,
+      "question": "Where does a hand pump draw its hydraulic fluid from?",
+      "options": [
+        "A. The bottom of the reservoir",
+        "B. The top of the reservoir",
+        "C. Directly from the accumulator only"
+      ],
+      "correctIndex": 0,
+      "explanation": "Like other system pumps, a hand pump draws fluid from the bottom of the reservoir to ensure it has priority access to available fluid."
+    },
+    {
+      "id": 35,
+      "question": "When checking accumulator air pressure, what must be done first?",
+      "options": [
+        "A. First release the hydraulic system (fluid) pressure",
+        "B. First pressurize the system to maximum",
+        "C. First remove the reservoir"
+      ],
+      "correctIndex": 0,
+      "explanation": "Fluid pressure must be bled off first so that only the air precharge pressure is being measured, giving an accurate reading."
+    },
+    {
+      "id": 36,
+      "question": "In a closed-center hydraulic system, what is true about the fluid?",
+      "options": [
+        "A. The fluid has no pressure until an actuator is selected",
+        "B. There is no accumulator in a closed system",
+        "C. The fluid is under pressure at all times (even with actuators idle)"
+      ],
+      "correctIndex": 2,
+      "explanation": "A closed-center system maintains full system pressure continuously via a variable-displacement pump, unlike an open-center system where pressure exists only during actuation."
+    },
+    {
+      "id": 37,
+      "question": "What does a red indicator (button/pop-up) on a hydraulic filter typically mean?",
+      "options": [
+        "A. The filter is clean and new",
+        "B. The fluid level is low",
+        "C. The filter element is clogged"
+      ],
+      "correctIndex": 2,
+      "explanation": "A red pop-up indicator (bypass/clog indicator) signals that the filter element has become clogged and needs servicing."
+    },
+    {
+      "id": 38,
+      "question": "If two actuators in the same system require different operating pressures, what component is used?",
+      "options": [
+        "A. A pressure reducer",
+        "B. A thermal relief valve",
+        "C. A standpipe"
+      ],
+      "correctIndex": 0,
+      "explanation": "A pressure reducer steps main system pressure down to the lower value required by a specific actuator or subsystem."
+    },
+    {
+      "id": 39,
+      "question": "What does internal leakage in a hydraulic component/system typically cause?",
+      "options": [
+        "A. Increased (high) fluid temperature",
+        "B. Decreased fluid temperature",
+        "C. No measurable effect"
+      ],
+      "correctIndex": 0,
+      "explanation": "Fluid forced through small internal leak paths under pressure generates heat through friction, raising the fluid's temperature."
+    },
+    {
+      "id": 40,
+      "question": "What is characteristic of solenoid-operated hydraulic valves in a fail-safe design?",
+      "options": [
+        "A. They are always open with no electrical control",
+        "B. They are energized to open and spring-close (fail closed) when de-energized",
+        "C. They cannot be electrically controlled at all"
+      ],
+      "correctIndex": 1,
+      "explanation": "Many solenoid valves are designed fail-safe so that loss of electrical power causes them to close (de-energized-closed), preventing uncommanded operation."
+    },
+    {
+      "id": 41,
+      "question": "What is commonly checked regarding the accumulator during maintenance?",
+      "options": [
+        "A. The accumulator's air precharge pressure",
+        "B. The accumulator's paint color",
+        "C. The accumulator's serial number only"
+      ],
+      "correctIndex": 0,
+      "explanation": "A key accumulator maintenance check is verifying the air precharge pressure is correct, since it must be checked periodically and after fluid pressure is released."
+    },
+    {
+      "id": 42,
+      "question": "Which type of hydraulic fluid has good inherent lubricating properties?",
+      "options": [
+        "A. Phosphate-ester (synthetic) fluid",
+        "B. Mineral-base fluid",
+        "C. Water-based fluid"
+      ],
+      "correctIndex": 1,
+      "explanation": "Mineral-base (petroleum) hydraulic fluids generally provide good natural lubrication for pump and valve components, compared with some synthetic fire-resistant fluids."
+    },
+    {
+      "id": 43,
+      "question": "What is the purpose of a standpipe in a hydraulic reservoir?",
+      "options": [
+        "A. To prevent drawing all the fluid from the reservoir (leaving a reserve)",
+        "B. To filter incoming fluid",
+        "C. To pressurize the reservoir"
+      ],
+      "correctIndex": 0,
+      "explanation": "A standpipe is positioned above the reservoir bottom so normal system draw cannot empty the reservoir completely, preserving a reserve supply for emergency use."
+    },
+    {
+      "id": 44,
+      "question": "What is the Ram Air Turbine (RAT) used for?",
+      "options": [
+        "A. Cooling the engines",
+        "B. Charging the main battery",
+        "C. Providing flight control power if normal hydraulic power is lost"
+      ],
+      "correctIndex": 2,
+      "explanation": "A RAT deploys into the airstream to generate emergency hydraulic (and/or electrical) power for essential flight controls when normal power sources fail."
+    },
+    {
+      "id": 45,
+      "question": "What happens to hydraulic fluid when it overheats?",
+      "options": [
+        "A. It becomes more alkaline and more lubricating",
+        "B. Its acidity increases (it breaks down chemically)",
+        "C. It becomes incompressible permanently"
+      ],
+      "correctIndex": 1,
+      "explanation": "Overheated hydraulic fluid undergoes chemical breakdown, increasing acidity and degrading its properties, including lubrication and seal compatibility."
+    },
+    {
+      "id": 46,
+      "question": "On the Boeing 737, which hydraulic system typically powers the electric (ELEC) landing gear/flap related functions referenced in training material?",
+      "options": [
+        "A. System B",
+        "B. System A",
+        "C. The standby system"
+      ],
+      "correctIndex": 0,
+      "explanation": "In common 737 hydraulic system descriptions, certain electrically-related/backup functions are associated with System B as referenced in training material."
+    },
+    {
+      "id": 47,
+      "question": "On the Boeing 737, which pumps draw fluid from the standpipe of System A's reservoir?",
+      "options": [
+        "A. System A EDP, System B EDP, and the EMDP (as applicable per system design)",
+        "B. Only the System A EDP",
+        "C. Only the standby pump"
+      ],
+      "correctIndex": 0,
+      "explanation": "Per 737 system design, multiple pumps draw from the standpipe region of the System A reservoir so that a reserve volume remains available even if other pumps draw down the reservoir."
+    },
+    {
+      "id": 48,
+      "question": "What provides constant delivery output management in a hydraulic system using a constant-delivery pump?",
+      "options": [
+        "A. A standpipe and a baffle",
+        "B. An accumulator and a cut-out (unloading) valve",
+        "C. A thermal relief valve alone"
+      ],
+      "correctIndex": 1,
+      "explanation": "With a constant delivery pump, an accumulator combined with a cut-out valve unloads the pump once system pressure is reached, maintaining pressure without constant full-flow pumping."
+    },
+    {
+      "id": 49,
+      "question": "Two hydraulic lines run to an actuating unit, one for pressure and one for return. What valve controls this flow?",
+      "options": [
+        "A. A selector valve",
+        "B. A shuttle valve",
+        "C. A sequence valve"
+      ],
+      "correctIndex": 0,
+      "explanation": "A selector (directional control) valve directs pressurized fluid to one line while connecting the opposite line to return, controlling actuator direction."
+    },
+    {
+      "id": 50,
+      "question": "What type of seal material is compatible with vegetable-base hydraulic fluid?",
+      "options": [
+        "A. Synthetic nitrile (Buna-N)",
+        "B. Natural rubber",
+        "C. Butyl rubber"
+      ],
+      "correctIndex": 1,
+      "explanation": "Vegetable-base hydraulic fluid is compatible with natural rubber seals, whereas synthetic seal materials like Buna-N are used with mineral-base fluids."
+    },
+    {
+      "id": 51,
+      "question": "What is the purpose of a standpipe (restated in terms of reserve)?",
+      "options": [
+        "A. To add pressure to the reservoir",
+        "B. To cool the fluid before it reaches the pump",
+        "C. To keep a reserve of fluid remaining in the reservoir for emergency use"
+      ],
+      "correctIndex": 2,
+      "explanation": "The standpipe's elevated intake ensures that normal system pumps cannot draw the reservoir completely empty, preserving fluid for emergency pump use."
+    },
+    {
+      "id": 52,
+      "question": "Which of the following is true about the hydraulic accumulator?",
+      "options": [
+        "A. It absorbs pressure surges in the system",
+        "B. It filters fluid contaminants",
+        "C. It cools the fluid"
+      ],
+      "correctIndex": 0,
+      "explanation": "One of the accumulator's key functions is damping/absorbing pressure surges caused by pump pulsations or sudden valve movements."
+    },
+    {
+      "id": 53,
+      "question": "What is the purpose of the baffle inside a hydraulic reservoir?",
+      "options": [
+        "A. Filtering the fluid",
+        "B. Heating the fluid",
+        "C. Preventing fluid vortices (swirling) at the pump outlet"
+      ],
+      "correctIndex": 2,
+      "explanation": "A baffle plate disrupts swirling fluid motion inside the reservoir, preventing vortices that could otherwise draw air into the pump supply line."
+    },
+    {
+      "id": 54,
+      "question": "What type of filters are used on turbine-powered aircraft fuel systems?",
+      "options": [
+        "A. Micronic filters",
+        "B. Edge-type (Cuno) filters only",
+        "C. Screen filters only"
+      ],
+      "correctIndex": 0,
+      "explanation": "Fine micronic filter elements are used in turbine engine fuel systems to protect closely toleranced fuel control and injector components from small particulates."
+    },
+    {
+      "id": 55,
+      "question": "The design of hydraulic aspirators (jet pumps/ejectors) is related to which principle?",
+      "options": [
+        "A. Pascal's law",
+        "B. Bernoulli's principle",
+        "C. Boyle's law"
+      ],
+      "correctIndex": 1,
+      "explanation": "Aspirators use a venturi effect based on Bernoulli's principle, where accelerated fluid flow creates a lower pressure region that draws in additional fluid."
+    },
+    {
+      "id": 56,
+      "question": "How are small leaks detected in a pneumatic system?",
+      "options": [
+        "A. Using a dye penetrant kit",
+        "B. Using an ultrasonic leak detector only",
+        "C. Using a soap and water solution and watching for bubbles"
+      ],
+      "correctIndex": 2,
+      "explanation": "A soap-and-water solution brushed on fittings will bubble at the location of even small air leaks in a pressurized pneumatic system."
+    },
+    {
+      "id": 57,
+      "question": "Where is the hydraulic system's overheat switch typically located?",
+      "options": [
+        "A. In the case drain line",
+        "B. At the reservoir filler cap",
+        "C. On the accumulator air valve"
+      ],
+      "correctIndex": 0,
+      "explanation": "An overheat sensing switch is commonly placed in the pump's case drain line, where it can detect excessive internal pump temperature caused by internal leakage/wear."
+    },
+    {
+      "id": 58,
+      "question": "What is the purpose of a thermal relief valve in a hydraulic system?",
+      "options": [
+        "A. To cool the fluid actively",
+        "B. To relieve excessive pressure caused by thermal expansion of trapped fluid",
+        "C. To filter the fluid"
+      ],
+      "correctIndex": 1,
+      "explanation": "A thermal relief valve opens to relieve pressure buildup when trapped fluid expands due to temperature rise, protecting lines and components from overpressure."
+    },
+    {
+      "id": 59,
+      "question": "Where is the heat exchanger of a hydraulic system commonly located?",
+      "options": [
+        "A. Inside the cockpit",
+        "B. Inside the accumulator",
+        "C. Inside the main fuel tank"
+      ],
+      "correctIndex": 2,
+      "explanation": "Hydraulic heat exchangers are often submerged in the aircraft's fuel tank, using the relatively cool fuel as a heat sink to cool returning hydraulic fluid."
+    },
+    {
+      "id": 60,
+      "question": "Which filter type uses metal discs stacked together for filtration?",
+      "options": [
+        "A. A micronic filter",
+        "B. A Cuno (edge-type) filter",
+        "C. A screen filter"
+      ],
+      "correctIndex": 1,
+      "explanation": "A Cuno filter uses a stack of thin metal discs with precisely sized spacers, and contamination is cleaned off the stacked disc edges by a scraper mechanism."
+    },
+    {
+      "id": 61,
+      "question": "Hand pumps used in hydraulic systems are normally what type?",
+      "options": [
+        "A. Single-acting only",
+        "B. Non-positive displacement",
+        "C. Double-acting (pumping fluid on both strokes)"
+      ],
+      "correctIndex": 2,
+      "explanation": "Hand pumps are typically double-acting, delivering fluid on both the forward and return strokes of the pump handle for greater efficiency."
+    },
+    {
+      "id": 62,
+      "question": "On the Boeing 737, when does the PTU (Power Transfer Unit) operate automatically?",
+      "options": [
+        "A. When the landing gear is retracted",
+        "B. When System B's engine-driven pump (EDP) pressure fails/drops",
+        "C. When the flaps are extended"
+      ],
+      "correctIndex": 1,
+      "explanation": "The PTU automatically activates to supply System B hydraulic pressure using System A power when the System B EDP output pressure is low or has failed."
+    },
+    {
+      "id": 63,
+      "question": "A linear hydraulic actuator with different-diameter rods extending from both sides of the piston is called what?",
+      "options": [
+        "A. An unbalanced actuator",
+        "B. A balanced actuator",
+        "C. A tandem actuator"
+      ],
+      "correctIndex": 1,
+      "explanation": "A balanced actuator has rods of differing diameter on each side, intended to produce more equal force or stroke behavior in both directions of travel."
+    },
+    {
+      "id": 64,
+      "question": "What components typically make up a hydraulic power pack?",
+      "options": [
+        "A. Only a pump and an actuator",
+        "B. Only a reservoir and accumulator",
+        "C. A pump, reservoir, selector valve, and filter"
+      ],
+      "correctIndex": 2,
+      "explanation": "A self-contained hydraulic power pack bundles a pump, reservoir, selector/control valve, and filter into one compact unit."
+    },
+    {
+      "id": 65,
+      "question": "What is true about wet pumps versus dry pumps?",
+      "options": [
+        "A. Both wet and dry pumps are made entirely of carbon",
+        "B. Dry pumps are made with carbon vanes/components, while wet pumps are made of steel and are lubricated by the fluid they pump",
+        "C. Dry pumps require fluid lubrication like wet pumps"
+      ],
+      "correctIndex": 1,
+      "explanation": "Dry air pumps use self-lubricating carbon vanes (no oil lubrication), whereas wet pumps use steel components lubricated by the fluid or oil passing through them."
+    },
+    {
+      "id": 66,
+      "question": "The standpipe of a hydraulic reservoir is connected to (serves) which type of pump?",
+      "options": [
+        "A. The hand pump only",
+        "B. The air compressor",
+        "C. The engine-driven pump"
+      ],
+      "correctIndex": 2,
+      "explanation": "The standpipe arrangement typically supplies the engine-driven pump's normal intake, reserving the lower fluid volume below the standpipe for emergency pumps."
+    },
+    {
+      "id": 67,
+      "question": "Which part of a hydraulic filter assembly is fixed to the aircraft structure?",
+      "options": [
+        "A. The filter head",
+        "B. The filter bowl/element housing",
+        "C. The filter bypass indicator button"
+      ],
+      "correctIndex": 0,
+      "explanation": "The filter head is permanently mounted to the aircraft structure and plumbing, while the bowl/element can be removed for element replacement."
+    },
+    {
+      "id": 68,
+      "question": "What is true about an open-center hydraulic system regarding pressure regulation?",
+      "options": [
+        "A. It does not require a pressure regulator (the constant-flow pump simply circulates fluid at low pressure when idle)",
+        "B. It requires multiple pressure regulators",
+        "C. It cannot operate without an accumulator"
+      ],
+      "correctIndex": 0,
+      "explanation": "Open-center systems continuously circulate fluid through the selector valves at low pressure when idle, so a separate pressure regulator isn't needed the way it is for closed-center systems."
+    },
+    {
+      "id": 69,
+      "question": "What is used to control the rate of movement of a piston inside a cylinder?",
+      "options": [
+        "A. A restrictor (flow control) valve",
+        "B. A pressure reducer",
+        "C. A thermal relief valve"
+      ],
+      "correctIndex": 0,
+      "explanation": "A restrictor valve limits the fluid flow rate into or out of a cylinder, thereby controlling the speed at which the piston moves."
+    },
+    {
+      "id": 70,
+      "question": "What is used to return the fluid/piston position in a single-acting actuator?",
+      "options": [
+        "A. A spring",
+        "B. A second pressure line",
+        "C. A pressure reducer"
+      ],
+      "correctIndex": 0,
+      "explanation": "Single-acting actuators are powered in one direction by fluid pressure and returned to their starting position by a spring (or external load) rather than fluid pressure."
+    },
+    {
+      "id": 71,
+      "question": "What does Pascal's law regarding pressure in a confined fluid state?",
+      "options": [
+        "A. Pressure decreases uniformly with distance from the pump",
+        "B. In an enclosed system, pressure is transmitted equally and acts at right angles to the container walls",
+        "C. Pressure only acts in the direction of fluid flow"
+      ],
+      "correctIndex": 1,
+      "explanation": "Pascal's law states that pressure applied to a confined, incompressible fluid is transmitted undiminished and acts equally in all directions, perpendicular to any surface it contacts."
+    },
+    {
+      "id": 72,
+      "question": "What instrument provides pressure reading for both the cockpit and maintenance technicians when filling the reservoir?",
+      "options": [
+        "A. A thermometer",
+        "B. A flowmeter",
+        "C. A hydraulic pressure gauge"
+      ],
+      "correctIndex": 2,
+      "explanation": "A hydraulic system pressure gauge, visible to both flight crew and maintenance personnel, indicates system pressure during normal operation and servicing."
+    },
+    {
+      "id": 73,
+      "question": "What type of valve is used on a filter assembly to allow fluid to bypass a clogged element?",
+      "options": [
+        "A. A pressure relief (bypass) valve",
+        "B. A thermal relief valve",
+        "C. A sequence valve"
+      ],
+      "correctIndex": 0,
+      "explanation": "A bypass/relief valve built into the filter housing opens if the element becomes clogged, allowing fluid to continue flowing (unfiltered) rather than starving the system."
+    },
+    {
+      "id": 74,
+      "question": "What fraction of an accumulator's internal volume is typically occupied by air (precharge)?",
+      "options": [
+        "A. About 9/10",
+        "B. About 1/3",
+        "C. About 1/10"
+      ],
+      "correctIndex": 1,
+      "explanation": "A commonly cited precharge configuration fills roughly one-third of the accumulator volume with compressed air/nitrogen before fluid is introduced."
+    },
+    {
+      "id": 75,
+      "question": "Where is a flap overload (relief) valve typically located in the hydraulic lines?",
+      "options": [
+        "A. In the landing gear up-line",
+        "B. In the brake system line",
+        "C. In the flap-down line"
+      ],
+      "correctIndex": 2,
+      "explanation": "A flap overload relief valve is placed in the flap-down pressure line to protect the flap surfaces and mechanism from excessive aerodynamic loading."
+    },
+    {
+      "id": 76,
+      "question": "What type of hydraulic fluid is typically dyed blue?",
+      "options": [
+        "A. Mineral-base fluid",
+        "B. Synthetic phosphate-ester fluid",
+        "C. Vegetable-base fluid"
+      ],
+      "correctIndex": 2,
+      "explanation": "Dye color conventions vary by specification, but vegetable-base hydraulic fluid is commonly identified with a blue dye to distinguish it from other fluid types."
+    },
+    {
+      "id": 77,
+      "question": "What is true about hydraulic fluid use on a given aircraft?",
+      "options": [
+        "A. Any available hydraulic fluid can be substituted freely",
+        "B. Fluid type never matters as long as it's a liquid",
+        "C. Only the specified fluid type for that aircraft/system should be used"
+      ],
+      "correctIndex": 2,
+      "explanation": "Mixing incompatible hydraulic fluid types can damage seals and degrade system performance, so only the fluid specified for that aircraft/system must be used."
+    },
+    {
+      "id": 78,
+      "question": "What is inspected regarding the accumulator during a routine check?",
+      "options": [
+        "A. That the paint finish is glossy",
+        "B. That the mounting bracket is painted red",
+        "C. That the air precharge is correctly charged to specification"
+      ],
+      "correctIndex": 2,
+      "explanation": "A key accumulator inspection item is confirming the air precharge pressure is correctly set per the applicable specification."
+    },
+    {
+      "id": 79,
+      "question": "What indication shows that the hydraulic reservoir needs servicing (fluid added)?",
+      "options": [
+        "A. The sight glass (fluid level indicator)",
+        "B. The overheat switch",
+        "C. The accumulator precharge valve"
+      ],
+      "correctIndex": 0,
+      "explanation": "A sight glass on the reservoir lets maintenance personnel visually check the fluid level to determine if servicing (topping off) is needed."
+    },
+    {
+      "id": 80,
+      "question": "A Chevron seal is what type of seal?",
+      "options": [
+        "A. A bidirectional seal",
+        "B. A one-way (directional) seal",
+        "C. A static O-ring type seal only"
+      ],
+      "correctIndex": 1,
+      "explanation": "Chevron (V-ring) seals are designed as one-way seals, sealing effectively against pressure from one direction due to their V-shaped lip design."
+    },
+    {
+      "id": 81,
+      "question": "Which seal materials are commonly used with phosphate-ester (fire-resistant synthetic) hydraulic fluid?",
+      "options": [
+        "A. Natural rubber",
+        "B. Standard nitrile (Buna-N)",
+        "C. Butyl rubber and ethylene propylene"
+      ],
+      "correctIndex": 2,
+      "explanation": "Butyl rubber and ethylene propylene seal materials are compatible with phosphate-ester fluids, which attack and swell standard nitrile or natural rubber seals."
+    },
+    {
+      "id": 82,
+      "question": "How can pressure be restored in a hydraulic system experiencing a momentary pressure loss?",
+      "options": [
+        "A. By opening the reservoir filler cap",
+        "B. By activating the thermal relief valve",
+        "C. By the compressed air stored in the accumulator discharging into the system"
+      ],
+      "correctIndex": 2,
+      "explanation": "The accumulator's stored, compressed-air-backed fluid can discharge into the system to help restore pressure momentarily during a brief pump interruption."
+    },
+    {
+      "id": 83,
+      "question": "Which of the following is a medium-pressure air source used on aircraft?",
+      "options": [
+        "A. Jet engine bleed air (from the engine compressor)",
+        "B. A fully charged high-pressure air bottle",
+        "C. A low-pressure electric vane pump"
+      ],
+      "correctIndex": 0,
+      "explanation": "Engine bleed air, tapped from the compressor section, is typically considered a medium-pressure pneumatic source compared with stored high-pressure bottles or low-pressure electric pumps."
+    },
+    {
+      "id": 84,
+      "question": "What does a normal hydraulic system pressure indicator typically show?",
+      "options": [
+        "A. Only the fluid temperature",
+        "B. Both the pressure source status and the hydraulic system operating pressure",
+        "C. Only the fluid color"
+      ],
+      "correctIndex": 1,
+      "explanation": "Cockpit hydraulic indications typically combine a readout of system pressure along with status of the pressure source (pump) operation."
+    },
+    {
+      "id": 85,
+      "question": "What is the function of a pressure control relay (switch) in a hydraulic pump circuit?",
+      "options": [
+        "A. It always keeps the pump running regardless of pressure",
+        "B. It has no connection to pump operation",
+        "C. It de-energizes to allow (or control) pump operation as pressure conditions require"
+      ],
+      "correctIndex": 2,
+      "explanation": "A pressure control relay/switch senses system pressure and controls (energizes or de-energizes) the pump circuit to maintain pressure within the desired range."
+    },
+    {
+      "id": 86,
+      "question": "Why are hydraulic reservoirs pressurized on many aircraft?",
+      "options": [
+        "A. To cool the fluid",
+        "B. To color the fluid for identification",
+        "C. To minimize the possibility of pump cavitation"
+      ],
+      "correctIndex": 2,
+      "explanation": "Pressurizing the reservoir ensures positive fluid flow to the pump inlet at altitude and under various flight conditions, helping prevent pump cavitation."
+    },
+    {
+      "id": 87,
+      "question": "Why do we purge a hydraulic system?",
+      "options": [
+        "A. To remove contamination (air and/or debris) from the fluid",
+        "B. To add more fluid color dye",
+        "C. To increase system pressure"
+      ],
+      "correctIndex": 0,
+      "explanation": "Purging flushes trapped air and contamination out of the hydraulic system, restoring proper fluid condition and system performance."
+    },
+    {
+      "id": 88,
+      "question": "What is the temperature at which a substance gives off vapor in sufficient quantity to ignite and continue burning, called?",
+      "options": [
+        "A. Fire point",
+        "B. Flash point",
+        "C. Autoignition point"
+      ],
+      "correctIndex": 0,
+      "explanation": "The fire point is the temperature at which vapors ignite and sustain continuous burning, distinct from the (usually lower) flash point where vapors will briefly ignite but not necessarily sustain combustion."
+    },
+    {
+      "id": 89,
+      "question": "What component is used to change hydraulic pressure into linear motion?",
+      "options": [
+        "A. A selector valve",
+        "B. An actuator (cylinder)",
+        "C. An accumulator"
+      ],
+      "correctIndex": 1,
+      "explanation": "A hydraulic actuator (cylinder) converts fluid pressure energy into linear mechanical motion of its piston/rod."
+    },
+    {
+      "id": 90,
+      "question": "What is a high-pressure air source used for a pneumatic system?",
+      "options": [
+        "A. A multi-piston air compressor",
+        "B. A single vane pump",
+        "C. An accumulator"
+      ],
+      "correctIndex": 0,
+      "explanation": "Multi-piston compressors can build and maintain the higher pressures required for high-pressure pneumatic systems, such as those used for emergency brakes or gear extension."
+    },
+    {
+      "id": 91,
+      "question": "What component is used to prevent extrusion of O-rings under high pressure?",
+      "options": [
+        "A. Backup rings",
+        "B. Chevron seals",
+        "C. Wiper seals"
+      ],
+      "correctIndex": 0,
+      "explanation": "Backup rings are placed adjacent to an O-ring to support it and prevent it from being extruded into the clearance gap under high pressure."
+    },
+    {
+      "id": 92,
+      "question": "What is true about the charging valve and check/control valve of a pressurized air bottle?",
+      "options": [
+        "A. Both valves serve the same function and are interchangeable",
+        "B. Neither valve is needed if the bottle is welded shut",
+        "C. The charging valve is used to put air into the bottle, while the check/control valve acts as a shutoff"
+      ],
+      "correctIndex": 2,
+      "explanation": "The charging valve allows the bottle to be filled with air, while a separate check/control valve manages shutoff and controlled release of the stored air."
+    },
+    {
+      "id": 93,
+      "question": "What valve shuts off flow in a line in case of a possible pressure buildup from a line failure (excessive flow)?",
+      "options": [
+        "A. A thermal relief valve",
+        "B. A fuse (hydraulic fuse)",
+        "C. A shuttle valve"
+      ],
+      "correctIndex": 1,
+      "explanation": "A hydraulic fuse senses abnormally high flow (as from a burst line) and shuts off flow to limit fluid loss and prevent further pressure/flow buildup."
+    },
+    {
+      "id": 94,
+      "question": "What is the typical pressure range considered \"high pressure\" in aircraft hydraulic/pneumatic systems?",
+      "options": [
+        "A. 1,000 to 3,000 psi",
+        "B. 0 to 100 psi",
+        "C. 100 to 300 psi"
+      ],
+      "correctIndex": 0,
+      "explanation": "High-pressure aircraft hydraulic systems commonly operate in the 1,000 to 3,000 psi range, as opposed to lower pressure auxiliary or pneumatic systems."
+    },
+    {
+      "id": 95,
+      "question": "What seals are used in a cylinder assembly having a moving piston inside?",
+      "options": [
+        "A. Packings",
+        "B. Gaskets",
+        "C. Washers"
+      ],
+      "correctIndex": 0,
+      "explanation": "Dynamic seals used around a moving piston within a cylinder bore are generally referred to as packings, as distinct from static gaskets."
+    },
+    {
+      "id": 96,
+      "question": "Why is a pneumatic system generally less efficient than a hydraulic system?",
+      "options": [
+        "A. Pneumatic systems use heavier components",
+        "B. Air is subject to moisture contamination, and one system uses compressible air while the other uses (essentially) incompressible hydraulic fluid",
+        "C. Pneumatic systems cannot be regulated at all"
+      ],
+      "correctIndex": 1,
+      "explanation": "Compressible air (versus incompressible hydraulic fluid) and susceptibility to moisture contamination make pneumatic systems generally less efficient and precise than hydraulic systems."
+    },
+    {
+      "id": 97,
+      "question": "Which statement is true about an open-center hydraulic system?",
+      "options": [
+        "A. It always maintains full system pressure even when idle",
+        "B. It has no pump at all",
+        "C. It has fluid flow but no significant pressure buildup when the actuating mechanisms are idle"
+      ],
+      "correctIndex": 2,
+      "explanation": "In an open-center system, fluid circulates continuously at low pressure through idle selector valves, building pressure only when an actuator is selected."
+    },
+    {
+      "id": 98,
+      "question": "What is true about open-center versus closed-center selector/directional control valves?",
+      "options": [
+        "A. In a closed-center system, the selector/directional control valves are arranged in parallel and the system uses a pressure regulator/compensator",
+        "B. In a closed-center system, valves are arranged in series with no regulator",
+        "C. Open-center and closed-center systems are functionally identical"
+      ],
+      "correctIndex": 0,
+      "explanation": "Closed-center systems arrange valves in parallel off a common pressure manifold maintained by a variable-displacement (compensated) pump acting as the regulator."
+    },
+    {
+      "id": 99,
+      "question": "What is the purpose of pressurizing the hydraulic reservoir?",
+      "options": [
+        "A. To give a positive flow of fluid to the pump inlet",
+        "B. To cool the hydraulic fluid",
+        "C. To dye the fluid a specific color"
+      ],
+      "correctIndex": 0,
+      "explanation": "A pressurized reservoir pushes fluid positively toward the pump inlet, helping prevent cavitation, especially at altitude or during maneuvering."
+    },
+    {
+      "id": 100,
+      "question": "While assembling and disassembling a hydraulic unit, what should be done regarding seals?",
+      "options": [
+        "A. Reuse the old seals to save cost",
+        "B. Coat old seals with paint before reinstalling",
+        "C. Replace O-rings and chevron seals with new ones"
+      ],
+      "correctIndex": 2,
+      "explanation": "Dynamic seals such as O-rings and chevron seals should always be replaced with new ones whenever a hydraulic unit is disassembled, rather than reused."
+    },
+    {
+      "id": 101,
+      "question": "What is a consequence of applying too much torque to fittings in a pneumatic system?",
+      "options": [
+        "A. Improved sealing with no downside",
+        "B. Reduced system pressure capability only",
+        "C. Damage to metal fittings and seals"
+      ],
+      "correctIndex": 2,
+      "explanation": "Over-torquing pneumatic fittings can crack or distort metal parts and damage seals, leading to leaks or component failure rather than better sealing."
+    },
+    {
+      "id": 102,
+      "question": "What is required during inspection of a hydraulic system for a complete evaluation?",
+      "options": [
+        "A. An operational (functional) check, in addition to visual inspection",
+        "B. Only a visual inspection with no function check",
+        "C. Only a check of the fluid color"
+      ],
+      "correctIndex": 0,
+      "explanation": "A thorough hydraulic system inspection requires an operational check (cycling components, checking pressures) in addition to a visual inspection for leaks and damage."
+    },
+    {
+      "id": 103,
+      "question": "Which type of pump is used for high-volume output?",
+      "options": [
+        "A. A piston-type pump only",
+        "B. A vane-type pump",
+        "C. A gear pump only"
+      ],
+      "correctIndex": 1,
+      "explanation": "Vane-type pumps are commonly selected where relatively high flow volume is the priority, compared with gear or piston pumps optimized differently."
+    },
+    {
+      "id": 104,
+      "question": "What is true about the difference between a sequence valve and a priority valve?",
+      "options": [
+        "A. Both are operated electrically",
+        "B. Both perform an identical function",
+        "C. A sequence valve is operated mechanically, while a priority valve is operated hydraulically"
+      ],
+      "correctIndex": 2,
+      "explanation": "A sequence valve typically uses a mechanical trigger (such as a plunger contacted by a moving part) to time operations, while a priority valve senses and responds to hydraulic pressure."
+    },
+    {
+      "id": 105,
+      "question": "What can cause a lack of (insufficient) pressure in a hydraulic system?",
+      "options": [
+        "A. A sheared pump drive shaft/coupling",
+        "B. An overcharged accumulator",
+        "C. A fully serviced reservoir"
+      ],
+      "correctIndex": 0,
+      "explanation": "A sheared pump drive (shear section/coupling) disconnects the pump from its drive source, resulting in no pump output and a loss of system pressure."
+    },
+    {
+      "id": 106,
+      "question": "Where does the head pressure for fluid-pressurized reservoirs come from?",
+      "options": [
+        "A. From the cabin pressurization system only",
+        "B. From the pump outlet (a bleed of pump discharge pressure)",
+        "C. From the landing gear hydraulic lines"
+      ],
+      "correctIndex": 1,
+      "explanation": "Some fluid-pressurized reservoir designs bleed a portion of pump discharge (outlet) pressure to pressurize the reservoir itself."
+    },
+    {
+      "id": 107,
+      "question": "Which type of pump delivers a medium volume of flow at medium pressure?",
+      "options": [
+        "A. A vane pump (for high volume)",
+        "B. A piston pump (for high pressure)",
+        "C. A gear pump"
+      ],
+      "correctIndex": 2,
+      "explanation": "Gear pumps are generally characterized as medium-volume, medium-pressure pumps, positioned between high-volume vane pumps and high-pressure piston pumps in typical applications."
+    },
+    {
+      "id": 108,
+      "question": "Why is it important to plug/cap pneumatic lines and units during maintenance?",
+      "options": [
+        "A. To maintain system pressure while disconnected",
+        "B. To prevent corrosion of external paint",
+        "C. To protect the system from contamination"
+      ],
+      "correctIndex": 2,
+      "explanation": "Capping open lines and ports keeps dirt, moisture, and debris from entering the pneumatic system while components are disconnected for maintenance."
+    },
+    {
+      "id": 109,
+      "question": "During removal and installation of pneumatic lines and units, what must be done first?",
+      "options": [
+        "A. Depressurize the system",
+        "B. Pressurize the system to maximum",
+        "C. Disconnect the battery only"
+      ],
+      "correctIndex": 0,
+      "explanation": "Before disconnecting any pneumatic line or unit, the system must be depressurized to prevent injury from sudden release of stored air pressure."
+    },
+    {
+      "id": 110,
+      "question": "What components are required to make up a simple hydraulic system?",
+      "options": [
+        "A. A pump, reservoir, selector valve, and actuator",
+        "B. Only a pump and reservoir",
+        "C. Only an actuator and filter"
+      ],
+      "correctIndex": 0,
+      "explanation": "At minimum, a basic hydraulic system needs a reservoir (fluid supply), pump (pressure source), selector valve (directional control), and actuator (output device)."
+    },
+    {
+      "id": 111,
+      "question": "What is low-pressure pneumatic power commonly used for on aircraft?",
+      "options": [
+        "A. Landing gear extension on large transport aircraft",
+        "B. Primary flight control actuation on large transport aircraft",
+        "C. Gyro instruments"
+      ],
+      "correctIndex": 2,
+      "explanation": "Low-pressure pneumatic (vacuum/pressure) systems are classically used to spin gyroscopic flight instruments, especially on older or simpler aircraft."
+    },
+    {
+      "id": 112,
+      "question": "Which valve directs pressurized fluid to one end of an actuating cylinder while simultaneously directing return fluid from the other end back to the reservoir?",
+      "options": [
+        "A. A selector (directional control) valve",
+        "B. A shuttle valve",
+        "C. A sequence valve"
+      ],
+      "correctIndex": 0,
+      "explanation": "The selector valve's core function is to route pressure fluid to one side of an actuator while opening the opposite side's path back to the reservoir, controlling direction of movement."
+    },
+    {
+      "id": 113,
+      "question": "Where is the engine-driven hydraulic pump typically located?",
+      "options": [
+        "A. Mounted on (relative to) the engine, often on its accessory gearbox",
+        "B. In the wing root, far from the engine",
+        "C. In the cockpit instrument panel"
+      ],
+      "correctIndex": 0,
+      "explanation": "Engine-driven pumps (EDPs) are mounted directly on the engine's accessory drive gearbox so they are mechanically driven whenever the engine is running."
+    },
+    {
+      "id": 114,
+      "question": "In which type of pneumatic system is pressure stored in bottles?",
+      "options": [
+        "A. A low-pressure pneumatic system",
+        "B. A high-pressure pneumatic system",
+        "C. An open-center hydraulic system"
+      ],
+      "correctIndex": 1,
+      "explanation": "High-pressure pneumatic systems store compressed air in bottles (cylinders) for use in functions like emergency brakes, gear extension, or engine starting."
+    },
+    {
+      "id": 115,
+      "question": "Which of the following components is unique to pneumatic systems (not typically found in hydraulic systems)?",
+      "options": [
+        "A. Oil separators",
+        "B. Reservoirs",
+        "C. Pressure gauges"
+      ],
+      "correctIndex": 0,
+      "explanation": "Pneumatic systems that use oil-lubricated compressors require oil separators to remove entrained lubricating oil from the compressed air, a component not needed in typical hydraulic systems."
+    }
+  ]
+}
