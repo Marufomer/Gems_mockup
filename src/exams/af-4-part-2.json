@@ -1,0 +1,805 @@
+{
+  "id": "af-4-part-2",
+  "title": "AF-4-part-2",
+  "module": "AF-4-M2",
+  "course": "airframe",
+  "category": "part",
+  "description": "Airframe exam covering flight control systems: powered and manual controls, artificial feel, spoilers, flaps/slats, stall warning and protection, trim systems, yaw damper, and fly-by-wire/light control electronics, drawn from the AF-4 flight control systems question/answer bank.",
+  "durationMinutes": 150,
+  "totalQuestions": 72,
+  "color": "green",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which component changes hydraulic motion into rotary motion?",
+      "options": [
+        "A. A linear actuator",
+        "B. A servo valve",
+        "C. A hydraulic motor"
+      ],
+      "correctIndex": 2,
+      "explanation": "A hydraulic motor converts fluid flow/pressure into continuous rotary mechanical motion, unlike a linear actuator which produces straight-line motion."
+    },
+    {
+      "id": 2,
+      "question": "The stall prevention system is prevented from activating by what input?",
+      "options": [
+        "A. Weight-on-wheels (ground) sensing",
+        "B. Airspeed sensing",
+        "C. Flap position sensing"
+      ],
+      "correctIndex": 0,
+      "explanation": "Weight-on-wheels sensing inhibits stall protection system activation while the aircraft is on the ground, since stall warning is only relevant in flight."
+    },
+    {
+      "id": 3,
+      "question": "Which valve transfers fluid to a hydraulic cylinder at a pressure proportional to an electrical signal it receives (based on position/velocity)?",
+      "options": [
+        "A. A servo valve",
+        "B. A priority valve",
+        "C. A sequence valve"
+      ],
+      "correctIndex": 0,
+      "explanation": "A servo valve precisely meters hydraulic flow/pressure to an actuator in proportion to an electrical command signal, enabling accurate closed-loop control."
+    },
+    {
+      "id": 4,
+      "question": "Which of the following is a known limitation (problem) of a spring-type artificial feel system?",
+      "options": [
+        "A. It provides no feel at any speed",
+        "B. It cannot be adjusted at all",
+        "C. It is not as effective at higher airspeeds"
+      ],
+      "correctIndex": 2,
+      "explanation": "A simple spring feel system provides a relatively constant force gradient, which doesn't properly scale with the increased aerodynamic loads felt at higher airspeeds."
+    },
+    {
+      "id": 5,
+      "question": "Which component controls hydraulic fluid flow in the Power Control Actuator (PCA) in response to spoiler commands?",
+      "options": [
+        "A. The sequence valve",
+        "B. The Electro-Hydraulic Servo Valve (EHSV)",
+        "C. The priority valve"
+      ],
+      "correctIndex": 1,
+      "explanation": "The EHSV converts the electrical spoiler command signal into a proportional hydraulic flow to drive the power control actuator."
+    },
+    {
+      "id": 6,
+      "question": "Which mechanism, located between the pilot's and copilot's controls, isolates the two and gives priority to the pilot's command if a jam occurs?",
+      "options": [
+        "A. A servo valve",
+        "B. A disconnect (pitch/roll) mechanism",
+        "C. A trim actuator"
+      ],
+      "correctIndex": 1,
+      "explanation": "A disconnect mechanism (such as a breakout/shear device) allows the controls to be mechanically separated if one side jams, letting the unaffected pilot retain control."
+    },
+    {
+      "id": 7,
+      "question": "Which type of flight control system requires an artificial feel system?",
+      "options": [
+        "A. A simple manually reversible control system",
+        "B. A spring-tab assisted control system",
+        "C. A fully powered (hydraulically actuated) control system"
+      ],
+      "correctIndex": 2,
+      "explanation": "Fully powered controls remove direct aerodynamic feedback to the pilot, so an artificial feel system must simulate realistic control forces."
+    },
+    {
+      "id": 8,
+      "question": "What is the purpose of a counterweight on the control column?",
+      "options": [
+        "A. To reduce pilot-induced oscillation",
+        "B. To increase control surface travel",
+        "C. To provide hydraulic boost"
+      ],
+      "correctIndex": 0,
+      "explanation": "A mass-balance counterweight on the control column helps dampen unwanted oscillatory motion, reducing the tendency for pilot-induced oscillation."
+    },
+    {
+      "id": 9,
+      "question": "Which device is located between the system (normal) hydraulic pressure and the hand pump in a flight control system?",
+      "options": [
+        "A. A servo valve",
+        "B. An EHSV",
+        "C. A cylinder/throttle (check or selector) valve"
+      ],
+      "correctIndex": 2,
+      "explanation": "A throttle/check valve arrangement isolates the hand pump circuit from normal system pressure, preventing backflow or cross-feed between the two sources."
+    },
+    {
+      "id": 10,
+      "question": "What is the purpose of the stick shaker?",
+      "options": [
+        "A. To vibrate the control column, warning the pilot of an impending stall",
+        "B. To automatically push the nose down during a stall",
+        "C. To trim the aircraft automatically"
+      ],
+      "correctIndex": 0,
+      "explanation": "The stick shaker uses an eccentric motor to vibrate the control column, giving the pilot a strong tactile warning as the aircraft approaches a stall."
+    },
+    {
+      "id": 11,
+      "question": "What can cause excessive resistance to control wheel rotation?",
+      "options": [
+        "A. Cable tension that is too low",
+        "B. A worn pulley bearing only",
+        "C. Cable tension that is too high"
+      ],
+      "correctIndex": 2,
+      "explanation": "Overly tight control cables increase friction throughout the system, producing noticeably higher resistance to control wheel movement."
+    },
+    {
+      "id": 12,
+      "question": "What is true about the stick pusher?",
+      "options": [
+        "A. It only vibrates the control column",
+        "B. It pushes the control column forward when a stall identification condition is sensed",
+        "C. It only operates on the ground"
+      ],
+      "correctIndex": 1,
+      "explanation": "Unlike the stick shaker (which only warns), the stick pusher actively moves the control column forward to reduce angle of attack and help prevent an actual stall."
+    },
+    {
+      "id": 13,
+      "question": "How is a rudder trim tab typically actuated on large aircraft?",
+      "options": [
+        "A. Only via direct pilot foot force",
+        "B. Only via engine bleed air pressure",
+        "C. Via mechanical linkage or electrical control from the cockpit trim control"
+      ],
+      "correctIndex": 2,
+      "explanation": "On large aircraft, rudder trim tabs are commonly adjusted through mechanical linkages driven by an electric trim actuator, controlled from the cockpit."
+    },
+    {
+      "id": 14,
+      "question": "If the rudder pedals exhibit high resistance to movement, what is a likely cause?",
+      "options": [
+        "A. The rudder trim tab is disconnected",
+        "B. The rudder pedal linkage/system requires lubrication",
+        "C. The yaw damper has failed"
+      ],
+      "correctIndex": 1,
+      "explanation": "Dry or worn linkage components in the rudder pedal system commonly cause stiff, high-resistance pedal movement, often resolved by proper lubrication."
+    },
+    {
+      "id": 15,
+      "question": "Which of the following is NOT true about spring-type artificial feel?",
+      "options": [
+        "A. That the feel force is constant throughout the airspeed range",
+        "B. That it uses a spring to generate resistance to control input",
+        "C. That it is a relatively simple mechanical system"
+      ],
+      "correctIndex": 0,
+      "explanation": "A basic spring feel system produces a force that does not vary properly with airspeed; it does not provide a speed-appropriate (increasing) feel, contrary to this statement."
+    },
+    {
+      "id": 16,
+      "question": "Which component converts the pilot's manual control input into an analog electrical signal and sends it to the ACE (Actuator Control Electronics)?",
+      "options": [
+        "A. The EHSV",
+        "B. The stick shaker motor",
+        "C. Force and position transducers"
+      ],
+      "correctIndex": 2,
+      "explanation": "Force and position transducers on the pilot's controls sense control input and convert it into an analog electrical signal for processing by the ACE."
+    },
+    {
+      "id": 17,
+      "question": "If there is lost (free) motion between the control wheel and the control surface, what is a likely cause?",
+      "options": [
+        "A. Cable tension that is too low",
+        "B. Cable tension that is too high",
+        "C. A damaged hydraulic actuator seal"
+      ],
+      "correctIndex": 0,
+      "explanation": "Slack, under-tensioned cables allow play (lost motion) between the cockpit control and the connected surface before the cable takes up and transmits movement."
+    },
+    {
+      "id": 18,
+      "question": "What mechanism does an aircraft use to reduce the risk of overstressing a control surface through excessive, abrupt control movement at high speed?",
+      "options": [
+        "A. An artificial feel device",
+        "B. A sequence valve",
+        "C. A squat switch"
+      ],
+      "correctIndex": 0,
+      "explanation": "Artificial feel devices increase the force required to move controls as airspeed increases, discouraging abrupt large inputs that could overstress the structure."
+    },
+    {
+      "id": 19,
+      "question": "Which component in the spoiler control system can be commanded by the spoiler control module?",
+      "options": [
+        "A. The power control actuator (PCA)",
+        "B. The stick shaker motor",
+        "C. The rudder trim actuator"
+      ],
+      "correctIndex": 0,
+      "explanation": "The spoiler control module sends commands to the power control actuators, which physically raise or lower the spoiler panels."
+    },
+    {
+      "id": 20,
+      "question": "What should be inspected while rigging the flap system?",
+      "options": [
+        "A. The differential movement of the flap relative to the control lever position",
+        "B. Only the paint finish of the flap",
+        "C. Only the flap's weight"
+      ],
+      "correctIndex": 0,
+      "explanation": "Flap rigging checks that flap surface position correctly corresponds (differentially, as applicable) to the cockpit control lever position throughout its range."
+    },
+    {
+      "id": 21,
+      "question": "Where are primary control surface travel stops typically located?",
+      "options": [
+        "A. Only in the cockpit",
+        "B. Only on the autopilot computer",
+        "C. On the control surface (or its mechanism) itself"
+      ],
+      "correctIndex": 2,
+      "explanation": "Primary stops are built into the control surface mechanism to physically limit its range of travel to the designed maximum deflection."
+    },
+    {
+      "id": 22,
+      "question": "What is the typical flap/slat position during the landing phase?",
+      "options": [
+        "A. Fully retracted",
+        "B. Fully extended",
+        "C. Mid-range only"
+      ],
+      "correctIndex": 1,
+      "explanation": "Flaps and slats are extended to their maximum (landing) position during approach and landing to maximize lift and allow a lower approach speed."
+    },
+    {
+      "id": 23,
+      "question": "During operation of the stall protection system, what do the stall sensors take into account?",
+      "options": [
+        "A. The color of the cockpit warning lights",
+        "B. The position of the flaps and slats",
+        "C. The cabin pressurization setting"
+      ],
+      "correctIndex": 1,
+      "explanation": "Stall warning angle-of-attack thresholds are adjusted based on flap/slat configuration, since the stall angle changes with high-lift device position."
+    },
+    {
+      "id": 24,
+      "question": "What is used to remove induced loads from the control stick (counteracting its own weight/inertia)?",
+      "options": [
+        "A. A forward counterweight",
+        "B. A rearward ballast only",
+        "C. A hydraulic accumulator"
+      ],
+      "correctIndex": 0,
+      "explanation": "A counterweight positioned to offset the control stick's own mass helps prevent unwanted induced forces or oscillations from affecting pilot feel."
+    },
+    {
+      "id": 25,
+      "question": "What raises and lowers the spoilers?",
+      "options": [
+        "A. Power control actuators",
+        "B. The stick shaker motor",
+        "C. The rudder trim actuator"
+      ],
+      "correctIndex": 0,
+      "explanation": "Power control actuators (PCAs), commanded by the spoiler control system, physically move the spoiler panels up and down."
+    },
+    {
+      "id": 26,
+      "question": "In a hydromechanical flight control system, which of the following components belongs to the hydraulic (rather than mechanical) part?",
+      "options": [
+        "A. The servo valve",
+        "B. The control cable",
+        "C. The bell crank"
+      ],
+      "correctIndex": 0,
+      "explanation": "The servo valve is part of the hydraulic power circuit, converting a mechanical or electrical input into controlled hydraulic flow, unlike purely mechanical linkage components."
+    },
+    {
+      "id": 27,
+      "question": "A Mach trim activity light on the pilot's instrument panel flashing intermittently indicates what?",
+      "options": [
+        "A. That the autopilot has disconnected",
+        "B. That the yaw damper has failed",
+        "C. That a trimming demand currently exists"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Mach trim light flashes to show the system is actively commanding a trim change to compensate for Mach-related pitch trim shifts."
+    },
+    {
+      "id": 28,
+      "question": "What disables (inhibits) the stall warning system while the aircraft is on the ground?",
+      "options": [
+        "A. The yaw damper computer",
+        "B. The landing gear (squat/weight-on-wheels) switch",
+        "C. The Mach trim computer"
+      ],
+      "correctIndex": 1,
+      "explanation": "The landing gear squat switch senses ground contact and inhibits stall warning activation, since stall protection is only relevant in flight."
+    },
+    {
+      "id": 29,
+      "question": "Which flight control system component is used to detect actuator movement?",
+      "options": [
+        "A. A servo valve",
+        "B. A bell crank",
+        "C. A sensor (position sensor/transducer)"
+      ],
+      "correctIndex": 2,
+      "explanation": "Position sensors (transducers) detect and report actuator movement/position for feedback to the control system."
+    },
+    {
+      "id": 30,
+      "question": "What happens when both the spoiler (speed brake) lever and the brake lever conditions are in the \"up/applied\" position on landing?",
+      "options": [
+        "A. Only the flight spoilers deploy",
+        "B. Only the ground spoilers deploy",
+        "C. Both the flight spoilers and ground spoilers deploy (are up)"
+      ],
+      "correctIndex": 2,
+      "explanation": "On landing rollout, both flight spoilers (already deployed) and ground spoilers (triggered by wheel spin-up/brake application) extend together to kill lift and aid braking."
+    },
+    {
+      "id": 31,
+      "question": "By what mechanism are slats typically operated on a transport aircraft?",
+      "options": [
+        "A. Via mechanical linkage to a hydraulic Power Control Unit (PCU)",
+        "B. Via direct pilot cable pull with no hydraulics",
+        "C. Via pneumatic bellows only"
+      ],
+      "correctIndex": 0,
+      "explanation": "Slats are commonly driven by a hydraulic PCU connected through mechanical linkages (torque tubes, drive mechanisms) to each slat panel."
+    },
+    {
+      "id": 32,
+      "question": "What automatic flight control function counteracts the rolling and yawing motion produced by Dutch roll?",
+      "options": [
+        "A. The Mach trim system",
+        "B. The stick shaker",
+        "C. The yaw damper"
+      ],
+      "correctIndex": 2,
+      "explanation": "The yaw damper senses and automatically counters the oscillatory yaw-roll coupling characteristic of Dutch roll, improving ride quality and stability."
+    },
+    {
+      "id": 33,
+      "question": "In a mechanical artificial feel system, the amount of feel force is determined by what?",
+      "options": [
+        "A. The color of the control cables",
+        "B. The relative position of a fulcrum (lever ratio)",
+        "C. The fuel quantity remaining"
+      ],
+      "correctIndex": 1,
+      "explanation": "Mechanical feel systems often use a movable fulcrum or linkage ratio, adjusted (e.g., by airspeed) to vary the mechanical advantage and resulting feel force."
+    },
+    {
+      "id": 34,
+      "question": "During a roll, the down-going wing's spoiler position is typically what?",
+      "options": [
+        "A. Down (fully retracted)",
+        "B. Up (deployed, to reduce lift on that wing and assist the roll)",
+        "C. Locked in neutral"
+      ],
+      "correctIndex": 1,
+      "explanation": "On the down-going wing, spoilers can deploy upward to reduce lift and drag-assist the roll, complementing aileron deflection."
+    },
+    {
+      "id": 35,
+      "question": "What type of signal is sent from the position and force transducers to the ACE (Actuator Control Electronics)?",
+      "options": [
+        "A. A digital signal",
+        "B. A hydraulic pressure signal",
+        "C. An analog electrical signal"
+      ],
+      "correctIndex": 2,
+      "explanation": "Position and force transducers typically output an analog electrical signal representing the pilot's input, which the ACE then processes (and may digitize) for the flight control computers."
+    },
+    {
+      "id": 36,
+      "question": "Which unit initiates a warning or control column movement during stall detection?",
+      "options": [
+        "A. The Stall Warning Computer",
+        "B. The Mach trim computer",
+        "C. The yaw damper computer"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Stall Warning Computer processes angle-of-attack and configuration data to trigger stick shaker and/or stick pusher activation when a stall condition is detected."
+    },
+    {
+      "id": 37,
+      "question": "What device converts control wheel motion into an electrical signal?",
+      "options": [
+        "A. An LVDT",
+        "B. An RVDT (Rotary Variable Differential Transformer)",
+        "C. A tensiometer"
+      ],
+      "correctIndex": 1,
+      "explanation": "An RVDT senses the rotational (angular) movement of the control wheel and converts it into a proportional electrical signal for the flight control system."
+    },
+    {
+      "id": 38,
+      "question": "Which unit interfaces with the pilot's control transducers and controls primary flight control system actuation?",
+      "options": [
+        "A. The Primary Flight Computer (PFC) output stage only",
+        "B. The Actuator Control Electronics (ACE)",
+        "C. The Mach trim computer"
+      ],
+      "correctIndex": 1,
+      "explanation": "The ACE receives transducer signals representing pilot input and converts/relays them to drive the primary flight control actuators."
+    },
+    {
+      "id": 39,
+      "question": "A jumpy or binding feel in the elevator controls is often caused by what?",
+      "options": [
+        "A. Over-lubricated cables",
+        "B. A properly rigged system",
+        "C. Hinge wear/looseness (hinge \"loss\")"
+      ],
+      "correctIndex": 2,
+      "explanation": "Worn or loose hinges on the elevator can introduce binding or jumpy feel as the control surface moves unevenly through its hinge line."
+    },
+    {
+      "id": 40,
+      "question": "What happens to the Mach trim function if the aircraft altitude is below approximately 9,000 feet?",
+      "options": [
+        "A. The system operates at double sensitivity",
+        "B. The system switches to manual-only mode",
+        "C. The system becomes inactive"
+      ],
+      "correctIndex": 2,
+      "explanation": "Mach trim compensation is only relevant at higher altitudes/Mach numbers; below a certain altitude threshold (such as ~9,000 ft), the function is deactivated."
+    },
+    {
+      "id": 41,
+      "question": "The spoiler control module passes its commands to which component?",
+      "options": [
+        "A. The Mach trim computer",
+        "B. The Power Control Actuator (PCA)",
+        "C. The yaw damper"
+      ],
+      "correctIndex": 1,
+      "explanation": "Spoiler control modules send their output commands directly to the power control actuators that move the spoiler surfaces."
+    },
+    {
+      "id": 42,
+      "question": "What function reduces structural load from wind gusts/bending by actively adjusting control surfaces during maneuvering?",
+      "options": [
+        "A. Mach trim",
+        "B. Yaw damping",
+        "C. Active (maneuver) load control"
+      ],
+      "correctIndex": 2,
+      "explanation": "Active load control/alleviation systems actively deflect ailerons or spoilers to redistribute aerodynamic load and reduce wing bending during maneuvers or gusts."
+    },
+    {
+      "id": 43,
+      "question": "What is a disadvantage of fly-by-cable (conventional cable-based) systems?",
+      "options": [
+        "A. They require adjustment to compensate for temperature-related cable expansion/contraction",
+        "B. They cannot transmit any pilot input",
+        "C. They are immune to all wear"
+      ],
+      "correctIndex": 0,
+      "explanation": "Cable-based control systems are affected by thermal expansion and contraction, requiring rigging adjustments (such as tension regulators) to compensate."
+    },
+    {
+      "id": 44,
+      "question": "What is an advantage of fly-by-light over fly-by-wire and fly-by-cable systems?",
+      "options": [
+        "A. Lower manufacturing cost",
+        "B. No need for any sensors",
+        "C. High immunity to electromagnetic interference/lightning effects"
+      ],
+      "correctIndex": 2,
+      "explanation": "Fiber-optic (fly-by-light) signal transmission is inherently immune to electromagnetic interference and lightning-induced effects that can affect electrical wiring."
+    },
+    {
+      "id": 45,
+      "question": "Dutch roll is an aircraft motion consisting of an out-of-phase combination of what two motions?",
+      "options": [
+        "A. Pitch and yaw",
+        "B. Roll and pitch",
+        "C. Yaw and roll"
+      ],
+      "correctIndex": 2,
+      "explanation": "Dutch roll is a coupled oscillation combining yawing and rolling motion that occurs out of phase with each other, often damped by a yaw damper system."
+    },
+    {
+      "id": 46,
+      "question": "What is a pogo rod?",
+      "options": [
+        "A. A rigid, non-flexing linkage rod",
+        "B. A spring rod that can extend or shorten when force is applied",
+        "C. A hydraulic accumulator piston"
+      ],
+      "correctIndex": 1,
+      "explanation": "A pogo rod incorporates a spring element, allowing it to extend or compress under load, used in certain control linkage or feel system applications."
+    },
+    {
+      "id": 47,
+      "question": "Spoiler control modules receive the command signal and command which component to raise the spoilers?",
+      "options": [
+        "A. The ACE",
+        "B. The power control actuators",
+        "C. The yaw damper computer"
+      ],
+      "correctIndex": 1,
+      "explanation": "Once the spoiler control module processes the command, it directs the power control actuators to physically raise (deploy) the spoiler panels."
+    },
+    {
+      "id": 48,
+      "question": "What function monitors the position of flaps, slats, and Krueger flaps and delays the initiation of stall warning accordingly?",
+      "options": [
+        "A. Modulation (of the stall warning angle-of-attack threshold)",
+        "B. Mach trim",
+        "C. Yaw damping"
+      ],
+      "correctIndex": 0,
+      "explanation": "The stall warning system modulates (adjusts) its triggering angle of attack based on high-lift device position, since the stall angle changes with configuration."
+    },
+    {
+      "id": 49,
+      "question": "During high-speed flight, which spoilers are typically extended for speed brake use?",
+      "options": [
+        "A. Only the inboard spoilers",
+        "B. Only the outboard spoilers",
+        "C. All spoilers, inboard and outboard, fully"
+      ],
+      "correctIndex": 0,
+      "explanation": "At high speed, only the inboard spoiler panels are typically used for speed braking, since deploying outboard panels at high speed could cause excessive structural loads or control issues."
+    },
+    {
+      "id": 50,
+      "question": "What is done to correct incorrect aileron travel?",
+      "options": [
+        "A. Replace the ailerons entirely",
+        "B. Adjust the rudder trim tab",
+        "C. Adjust the control rods"
+      ],
+      "correctIndex": 2,
+      "explanation": "Aileron travel is corrected by adjusting the length/position of the linkage control rods connecting the cockpit controls to the aileron mechanism."
+    },
+    {
+      "id": 51,
+      "question": "What is done to correct incorrect rudder travel?",
+      "options": [
+        "A. Replace the vertical stabilizer",
+        "B. Adjust the elevator trim tab",
+        "C. Adjust the bell crank stops or cable tension"
+      ],
+      "correctIndex": 2,
+      "explanation": "Rudder travel errors are corrected by adjusting the bell crank travel stops and/or the cable tension in the rudder control system."
+    },
+    {
+      "id": 52,
+      "question": "What is an electrically driven, out-of-balance rotor that shakes the control column when a stall warning condition is detected?",
+      "options": [
+        "A. The stick pusher",
+        "B. The stick shaker",
+        "C. The Mach trim motor"
+      ],
+      "correctIndex": 1,
+      "explanation": "The stick shaker uses an eccentric (out-of-balance) rotating mass driven by an electric motor to vibrate the control column as a tactile stall warning."
+    },
+    {
+      "id": 53,
+      "question": "When the speed brake lever is moved up (armed/deployed), what happens?",
+      "options": [
+        "A. It retracts the landing gear",
+        "B. It extends the flaps",
+        "C. It moves the flight spoilers up"
+      ],
+      "correctIndex": 2,
+      "explanation": "Raising the speed brake lever commands the flight spoiler panels to deploy upward, increasing drag and reducing lift."
+    },
+    {
+      "id": 54,
+      "question": "What is true about spoilers?",
+      "options": [
+        "A. Spoilers are only used on the ground",
+        "B. Flight spoilers are used in flight (for roll assistance and speed braking)",
+        "C. Spoilers cannot be used during flight at all"
+      ],
+      "correctIndex": 1,
+      "explanation": "Flight spoilers can be used in flight both to assist roll control and as speed brakes, in addition to ground spoiler functions during landing rollout."
+    },
+    {
+      "id": 55,
+      "question": "Which of the following is NOT provided by the stall protection system during the various phases of approach to a stall?",
+      "options": [
+        "A. Modal suppression",
+        "B. Stick shaker activation",
+        "C. Stick pusher activation"
+      ],
+      "correctIndex": 0,
+      "explanation": "Stall protection systems typically provide warning (stick shaker) and, if needed, recovery assistance (stick pusher); \"modal suppression\" is not a standard stall protection function."
+    },
+    {
+      "id": 56,
+      "question": "What kind of signal is transmitted from the Actuator Control Electronics (ACE) to the Primary Flight Computer (PFC)?",
+      "options": [
+        "A. A digital signal",
+        "B. An analog signal",
+        "C. A purely mechanical signal"
+      ],
+      "correctIndex": 0,
+      "explanation": "The ACE converts the analog transducer inputs into a digital signal format for transmission to and processing by the Primary Flight Computers."
+    },
+    {
+      "id": 57,
+      "question": "Spoilers are secondary control surfaces used to do what?",
+      "options": [
+        "A. Increase the camber of the wing",
+        "B. Provide pitch trim",
+        "C. Reduce the lift on a wing"
+      ],
+      "correctIndex": 2,
+      "explanation": "Spoilers disrupt (spoil) airflow over the wing, reducing lift, which is used for roll assistance, speed braking, and ground lift dumping."
+    },
+    {
+      "id": 58,
+      "question": "What is the role of the Primary Flight Computer (PFC)?",
+      "options": [
+        "A. To store maintenance logbook entries",
+        "B. To control the cabin pressurization system",
+        "C. To calculate control surface commands using pilot input (and other data)"
+      ],
+      "correctIndex": 2,
+      "explanation": "The PFC processes pilot control inputs along with aircraft state data to calculate and issue the appropriate control surface deflection commands."
+    },
+    {
+      "id": 59,
+      "question": "The leading edge device surfaces are fully retracted during what flight phase, and extended during what phase to increase lift?",
+      "options": [
+        "A. Retracted during takeoff, extended during cruise",
+        "B. Retracted during cruise, extended during takeoff (and landing)",
+        "C. Retracted during landing, extended during cruise"
+      ],
+      "correctIndex": 1,
+      "explanation": "Leading edge devices (slats) are retracted for low-drag cruise flight and extended during takeoff and landing to increase lift at lower speeds."
+    },
+    {
+      "id": 60,
+      "question": "When is the brake pedal used as a rudder pedal (in terms of its pivot/sequence)?",
+      "options": [
+        "A. Only when the parking brake is set",
+        "B. When pressed from the bottom in sequence (the lower portion acts as the rudder pedal, pressed first/primarily for rudder input)",
+        "C. Only during taxi above 50 mph"
+      ],
+      "correctIndex": 1,
+      "explanation": "The rudder pedal assembly is designed so that pressing the pedal (bottom portion) provides rudder input, while pressing further forward at the top applies the wheel brakes."
+    },
+    {
+      "id": 61,
+      "question": "What is the purpose of trim tabs?",
+      "options": [
+        "A. To increase control surface weight",
+        "B. To provide emergency hydraulic power",
+        "C. To reduce the manual control force (power/effort) required by the pilot"
+      ],
+      "correctIndex": 2,
+      "explanation": "Trim tabs aerodynamically offset the hinge moment of the primary control surface, relieving the pilot of continuously held control force in steady flight."
+    },
+    {
+      "id": 62,
+      "question": "Which condition could cause a configuration warning (horn/light)?",
+      "options": [
+        "A. The aircraft being in cruise flight with autopilot engaged",
+        "B. The aircraft being on the ground with an unsafe takeoff configuration (e.g., flaps/trim/gear not set correctly)",
+        "C. The aircraft being fully fueled"
+      ],
+      "correctIndex": 1,
+      "explanation": "Configuration warning systems alert the crew (typically while on the ground, during the takeoff roll) if flaps, trim, or other settings are not properly configured for takeoff."
+    },
+    {
+      "id": 63,
+      "question": "What is the purpose of artificial feel in a powered flight control system?",
+      "options": [
+        "A. To reduce the weight of the control system",
+        "B. To eliminate the need for any hydraulic power",
+        "C. To provide the pilot with a natural, speed-appropriate resistance to control input"
+      ],
+      "correctIndex": 2,
+      "explanation": "Artificial feel systems simulate the natural aerodynamic resistance a pilot would otherwise feel through unboosted controls, which is lost in a fully powered system."
+    },
+    {
+      "id": 64,
+      "question": "What is the difference between power-assisted and fully powered flight control systems?",
+      "options": [
+        "A. In a power-assisted system, the pilot feels no forces at all",
+        "B. In a power-assisted system, the pilot still feels some actual aerodynamic forces directly through the controls",
+        "C. Fully powered systems always use artificial feel while power-assisted systems never do"
+      ],
+      "correctIndex": 1,
+      "explanation": "Power-assisted systems blend hydraulic boost with some direct aerodynamic feedback reaching the pilot, whereas fully powered systems isolate the pilot entirely, requiring artificial feel."
+    },
+    {
+      "id": 65,
+      "question": "What is the purpose of aileron back-drive actuators?",
+      "options": [
+        "A. To synchronize the control wheel position with autopilot commands",
+        "B. To provide primary hydraulic power to the ailerons",
+        "C. To warn of an approaching stall"
+      ],
+      "correctIndex": 0,
+      "explanation": "Back-drive actuators move the cockpit control wheel to match autopilot-commanded aileron movement, so the control wheel visually/physically tracks what the autopilot is doing."
+    },
+    {
+      "id": 66,
+      "question": "Which component changes the control command signals to digital format and sends them to the Primary Flight Computers (PFCs)?",
+      "options": [
+        "A. The Actuator Control Electronics (ACE)",
+        "B. The force transducer alone",
+        "C. The stick shaker motor"
+      ],
+      "correctIndex": 0,
+      "explanation": "The ACE processes the raw analog transducer signals and converts them into digital format before relaying the commands to the PFCs."
+    },
+    {
+      "id": 67,
+      "question": "If the rudder pedals do not hold their neutral position when the rudder is streamlined, what is the needed corrective action?",
+      "options": [
+        "A. Replace the rudder trim tab",
+        "B. Re-rig the rudder cables",
+        "C. Increase hydraulic system pressure"
+      ],
+      "correctIndex": 1,
+      "explanation": "A rudder pedal that doesn't settle to neutral when the rudder is centered typically indicates a rigging error, corrected by re-rigging the rudder cable system."
+    },
+    {
+      "id": 68,
+      "question": "During inspection and troubleshooting of the rudder control system, what is a probable cause of excessive resistance to rudder pedal movement?",
+      "options": [
+        "A. Cable tension that is too low",
+        "B. Cable tension that is too high",
+        "C. A disconnected rudder trim actuator"
+      ],
+      "correctIndex": 1,
+      "explanation": "Overly tight rudder cables increase friction throughout the linkage, producing noticeably stiffer, harder-to-move rudder pedals."
+    },
+    {
+      "id": 69,
+      "question": "During inspection of the aileron system, what is a probable cause of lost motion between the control wheel and the aileron?",
+      "options": [
+        "A. Cable tension that is too low",
+        "B. Cable tension that is too high",
+        "C. A worn stick shaker motor"
+      ],
+      "correctIndex": 0,
+      "explanation": "Slack (low-tension) aileron cables allow free play between the control wheel and the aileron surface before the cable takes up and transmits motion."
+    },
+    {
+      "id": 70,
+      "question": "What is the effect if the aileron bell crank stops are not properly adjusted?",
+      "options": [
+        "A. Incorrect aileron travel (too much or too little deflection)",
+        "B. No effect on aileron operation",
+        "C. Automatic correction by the yaw damper"
+      ],
+      "correctIndex": 0,
+      "explanation": "Bell crank stops define the mechanical limits of aileron travel; if misadjusted, the aileron will deflect more or less than its designed range."
+    },
+    {
+      "id": 71,
+      "question": "Which type of stall warning system is commonly used on light aircraft?",
+      "options": [
+        "A. A full digital fly-by-wire stall protection computer",
+        "B. A pneumatic (reed horn) stall warning system",
+        "C. A radar-based stall detection system"
+      ],
+      "correctIndex": 1,
+      "explanation": "Many light aircraft use a simple pneumatic stall warning device, where airflow over a wing-mounted sensor activates a horn as the stall angle is approached."
+    },
+    {
+      "id": 72,
+      "question": "Which of the following is NOT one of the functions performed by the stall protection system?",
+      "options": [
+        "A. Activating the stick shaker",
+        "B. Operation of the spoilers",
+        "C. Activating the stick pusher"
+      ],
+      "correctIndex": 1,
+      "explanation": "Spoiler operation is handled by the separate spoiler control system, not by the stall protection system, which focuses on stall warning and recovery assistance (shaker/pusher)."
+    }
+  ]
+}
