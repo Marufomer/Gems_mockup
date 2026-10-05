@@ -1,0 +1,1883 @@
+{
+  "id": "af-5",
+  "title": "AF-5",
+  "module": "AF-5-M1,M2",
+  "course": "airframe",
+  "category": "part",
+  "description": "Airframe exam covering aircraft fuel systems: fuel properties and characteristics, fuel tanks and construction, pumps and valves, fueling/defueling, quantity and flow indication, contamination and corrosion, venting and inerting, and troubleshooting, drawn from the AF-5 fuel systems question/answer bank.",
+  "durationMinutes": 150,
+  "totalQuestions": 170,
+  "color": "green",
+  "questions": [
+    {
+      "id": 1,
+      "question": "A mixture of hydrocarbons that exists in liquid phase in nature is called what?",
+      "options": [
+        "A. Jet fuel",
+        "B. Avgas",
+        "C. Crude oil"
+      ],
+      "correctIndex": 2,
+      "explanation": "Crude oil is the naturally occurring liquid hydrocarbon mixture from which refined fuels like avgas and jet fuel are produced."
+    },
+    {
+      "id": 2,
+      "question": "What replaces the flammable gas (vapor) space above the fuel in a tank with a non-flammable atmosphere?",
+      "options": [
+        "A. Fuel tank inerting",
+        "B. Fuel jettison",
+        "C. Fuel venting"
+      ],
+      "correctIndex": 0,
+      "explanation": "Fuel tank inerting systems reduce the oxygen content in the tank's ullage space, replacing it with inert gas to prevent flammable vapor ignition."
+    },
+    {
+      "id": 3,
+      "question": "What valve is used to direct fluid/fuel to a desired position or path?",
+      "options": [
+        "A. A check valve",
+        "B. A selector valve",
+        "C. A relief valve"
+      ],
+      "correctIndex": 1,
+      "explanation": "A selector valve allows the operator (or system) to route fuel flow along one of several possible paths, such as between tanks or engines."
+    },
+    {
+      "id": 4,
+      "question": "What does a fuel dipstick indicate?",
+      "options": [
+        "A. The fuel pressure",
+        "B. The fuel temperature",
+        "C. The fuel quantity in the tank"
+      ],
+      "correctIndex": 2,
+      "explanation": "A dipstick is a simple manual method of checking the physical fuel level (quantity) in a tank by direct measurement."
+    },
+    {
+      "id": 5,
+      "question": "Which of the following is NOT required for all aircraft fuel systems?",
+      "options": [
+        "A. A means of shutting off fuel flow",
+        "B. A fuel quantity indicating means",
+        "C. Utilization of a booster pump"
+      ],
+      "correctIndex": 2,
+      "explanation": "Not every fuel system design requires a booster pump; some simple gravity-feed systems operate without one, while other basic requirements (shutoff, quantity indication) are universal."
+    },
+    {
+      "id": 6,
+      "question": "Which of the following is NOT a design requirement for a fuel tank?",
+      "options": [
+        "A. Providing a sump for water/sediment collection",
+        "B. Providing adequate expansion space",
+        "C. Preventing any unusable fuel amount (zero unusable fuel) entirely"
+      ],
+      "correctIndex": 2,
+      "explanation": "Some amount of unusable fuel is an accepted reality of tank/outlet geometry; completely eliminating unusable fuel is not a design requirement."
+    },
+    {
+      "id": 7,
+      "question": "Which component is used as the primary fuel delivery device on most aircraft engines?",
+      "options": [
+        "A. Engine-driven pumps",
+        "B. Hand wobble pumps",
+        "C. Boost pumps alone"
+      ],
+      "correctIndex": 0,
+      "explanation": "Engine-driven pumps (EDPs) are the primary source of fuel delivery pressure to the engine, with electric boost pumps typically serving as backup/assist."
+    },
+    {
+      "id": 8,
+      "question": "What type of fueling at a ramp station allows all aircraft fuel tanks to be filled through one connection of the fuel hose?",
+      "options": [
+        "A. Over-wing gravity fueling",
+        "B. Defueling",
+        "C. Single-point pressure fueling"
+      ],
+      "correctIndex": 2,
+      "explanation": "Single-point pressure fueling connects one hose to a single receptacle, from which fuel is distributed internally to fill all tanks, speeding up large aircraft servicing."
+    },
+    {
+      "id": 9,
+      "question": "Which valve temporarily connects two separate fuel systems (e.g., allowing one tank to feed an engine normally fed by another tank)?",
+      "options": [
+        "A. A shutoff valve",
+        "B. A cross-feed valve",
+        "C. A drain valve"
+      ],
+      "correctIndex": 1,
+      "explanation": "The cross-feed valve lets fuel from one side's tank supply an engine on the other side, useful for fuel management or in the event of a pump/engine issue."
+    },
+    {
+      "id": 10,
+      "question": "In a gravity-feed system with interconnected tank outlets, which of the following is NOT required?",
+      "options": [
+        "A. That fuel transfer from tank to tank is mandatory at all times",
+        "B. Adequate gravity head for flow to the engine",
+        "C. A vent system for the interconnected tanks"
+      ],
+      "correctIndex": 0,
+      "explanation": "Interconnected gravity tanks don't require constant fuel transfer between tanks; fuel may simply flow by gravity to the engine without needing tank-to-tank transfer as a requirement."
+    },
+    {
+      "id": 11,
+      "question": "Which of the following is NOT a requirement of a fuel system?",
+      "options": [
+        "A. That fuel flow is continuous and uninterrupted under normal conditions",
+        "B. That the tank remains full at all times",
+        "C. That the system is protected from contamination"
+      ],
+      "correctIndex": 1,
+      "explanation": "A full tank at all times is not a system requirement; tanks are designed to operate safely and correctly across their full range of fuel quantity, including when nearly empty."
+    },
+    {
+      "id": 12,
+      "question": "What indicator is required to help determine proper operation of the fuel system and engine power output?",
+      "options": [
+        "A. A cabin altitude indicator",
+        "B. An oil quantity indicator",
+        "C. A fuel pressure indicator"
+      ],
+      "correctIndex": 2,
+      "explanation": "Fuel pressure indication helps the crew confirm the fuel delivery system is functioning correctly and supporting the engine's commanded power output."
+    },
+    {
+      "id": 13,
+      "question": "What components are needed for a capacitance-type fuel quantity (identification) system?",
+      "options": [
+        "A. Only a float and mechanical linkage",
+        "B. Tank probe(s), capacitor, and a compensating unit/valve",
+        "C. Only a dipstick"
+      ],
+      "correctIndex": 1,
+      "explanation": "A capacitance fuel quantity system uses capacitive tank probes along with a compensator to account for fuel dielectric variation, converting capacitance to a quantity reading."
+    },
+    {
+      "id": 14,
+      "question": "Which of the following is NOT a characteristic used for fuel identification?",
+      "options": [
+        "A. Color of the fuel",
+        "B. Volatility of the fuel",
+        "C. Octane or performance number"
+      ],
+      "correctIndex": 1,
+      "explanation": "Fuel is identified and distinguished mainly by its dyed color and octane/performance number, not by its volatility, which is a fuel property rather than an identifying characteristic."
+    },
+    {
+      "id": 15,
+      "question": "What additive is used to increase a fuel's anti-detonation (knock resistance) properties?",
+      "options": [
+        "A. Ethylene di-bromide",
+        "B. Tricresyl phosphate",
+        "C. TEL (Tetraethyl Lead)"
+      ],
+      "correctIndex": 2,
+      "explanation": "TEL is an anti-knock additive historically used in aviation gasoline to raise its resistance to detonation (knock)."
+    },
+    {
+      "id": 16,
+      "question": "What is a measure of a fuel's resistance to knock or detonation called?",
+      "options": [
+        "A. Flash point",
+        "B. Viscosity index",
+        "C. Octane rating"
+      ],
+      "correctIndex": 2,
+      "explanation": "Octane rating quantifies a gasoline-type fuel's resistance to premature, uncontrolled combustion (knock/detonation) under compression."
+    },
+    {
+      "id": 17,
+      "question": "What term describes how readily a substance changes from liquid into vapor?",
+      "options": [
+        "A. Viscosity",
+        "B. Volatility",
+        "C. Density"
+      ],
+      "correctIndex": 1,
+      "explanation": "Volatility describes the tendency of a liquid to evaporate into vapor; higher volatility fuels vaporize more readily."
+    },
+    {
+      "id": 18,
+      "question": "Which of the following represents a typical specified forward inertia (crash load) design value referenced for fuel system components?",
+      "options": [
+        "A. 1.5 g",
+        "B. 20.0 g",
+        "C. 9.0 g"
+      ],
+      "correctIndex": 2,
+      "explanation": "Fuel system components and their mountings are commonly designed to withstand a forward inertia load on the order of 9g, consistent with crashworthiness requirements."
+    },
+    {
+      "id": 19,
+      "question": "Which of the following is NOT a cause of vapor lock?",
+      "options": [
+        "A. High fuel pressure",
+        "B. High fuel temperature",
+        "C. Low fuel line pressure"
+      ],
+      "correctIndex": 0,
+      "explanation": "High fuel pressure actually helps prevent vapor lock by keeping fuel below its vaporization point; it is low pressure and high temperature that promote vapor lock."
+    },
+    {
+      "id": 20,
+      "question": "What is a problem associated with low-volatility fuel?",
+      "options": [
+        "A. It vaporizes too easily, causing vapor lock",
+        "B. It does not warm up/vaporize easily, causing poor cold starting",
+        "C. It burns too quickly"
+      ],
+      "correctIndex": 1,
+      "explanation": "Low-volatility fuel resists vaporization, which can make cold engine starting difficult since the fuel doesn't readily form a combustible vapor-air mixture."
+    },
+    {
+      "id": 21,
+      "question": "Which of the following is NOT a requirement to be present while defueling an aircraft?",
+      "options": [
+        "A. Proper grounding/bonding equipment",
+        "B. Appropriate fire extinguishing equipment nearby",
+        "C. A supply of cooled water on hand"
+      ],
+      "correctIndex": 2,
+      "explanation": "A supply of cooled water is not a standard defueling safety requirement; grounding, bonding, and fire protection equipment are the key safety provisions."
+    },
+    {
+      "id": 22,
+      "question": "Is it true that a fuel leak is often repaired by replacing a seal or gasket?",
+      "options": [
+        "A. False, seals and gaskets are never involved in leak repair",
+        "B. False, leaks can only be repaired by replacing the entire tank",
+        "C. True"
+      ],
+      "correctIndex": 2,
+      "explanation": "Many fuel leaks originate at seals or gaskets (such as at access panels or fittings), so replacing the degraded seal/gasket is a common and valid repair method."
+    },
+    {
+      "id": 23,
+      "question": "What is a requirement of aircraft fuel regarding sulfur content?",
+      "options": [
+        "A. Low sulfur content",
+        "B. High sulfur content for better lubrication",
+        "C. Sulfur content is irrelevant"
+      ],
+      "correctIndex": 0,
+      "explanation": "Aviation fuel specifications require low sulfur content to minimize corrosive combustion byproducts and engine/component damage."
+    },
+    {
+      "id": 24,
+      "question": "When can we say that pre-ignition knock is occurring?",
+      "options": [
+        "A. When a hot spot in the combustion chamber causes fuel to ignite before the spark plug fires it",
+        "B. When fuel ignites exactly when the spark plug fires",
+        "C. When fuel fails to ignite at all"
+      ],
+      "correctIndex": 0,
+      "explanation": "Pre-ignition occurs when a glowing deposit or hot spot ignites the fuel-air mixture prematurely, ahead of the normal, timed spark ignition."
+    },
+    {
+      "id": 25,
+      "question": "Which of the following is NOT a characteristic of jet (turbine) fuel?",
+      "options": [
+        "A. A higher flash point than gasoline",
+        "B. A lower boiling point than gasoline",
+        "C. Primarily kerosene-based composition"
+      ],
+      "correctIndex": 1,
+      "explanation": "Jet fuel (kerosene-based) actually has a higher boiling point and flash point than gasoline, not a lower boiling point, which is why it's less volatile."
+    },
+    {
+      "id": 26,
+      "question": "What additive is used to minimize lead-oxide deposits on cylinder walls and spark plugs?",
+      "options": [
+        "A. TEL",
+        "B. Ethylene di-bromide",
+        "C. Tricresyl phosphate"
+      ],
+      "correctIndex": 2,
+      "explanation": "Tricresyl phosphate is added to leaded avgas to help convert lead oxide deposits into more easily expelled compounds, reducing deposit buildup."
+    },
+    {
+      "id": 27,
+      "question": "Which of the following is NOT true about fuel knock/detonation problems?",
+      "options": [
+        "A. That detonation can cause engine damage if sustained",
+        "B. That detonation has a cockpit indication but fuel (carburetor) knock does not, because detonation produces an audible knocking noise",
+        "C. That proper fuel grade selection helps prevent detonation"
+      ],
+      "correctIndex": 1,
+      "explanation": "In practice, detonation generally has no distinct cockpit indication either (it's often inaudible to the pilot over engine/cabin noise); this statement incorrectly claims detonation is distinctly indicated while knock is not."
+    },
+    {
+      "id": 28,
+      "question": "Which of the following is NOT a cause of increased cylinder head temperature?",
+      "options": [
+        "A. The addition of biocide additives to the fuel",
+        "B. Excessively lean fuel mixture",
+        "C. Insufficient cooling airflow"
+      ],
+      "correctIndex": 0,
+      "explanation": "Biocide additives (used to control microbial growth in fuel) do not cause increased cylinder head temperature; that is driven by mixture, cooling, and operating conditions."
+    },
+    {
+      "id": 29,
+      "question": "What is a characteristic of a bladder-type fuel tank?",
+      "options": [
+        "A. It does not carry the fuel weight itself structurally; it depends on the surrounding aircraft structure for support",
+        "B. It is a load-bearing structural fuel tank",
+        "C. It is welded directly into the wing skin"
+      ],
+      "correctIndex": 0,
+      "explanation": "A bladder tank is a flexible fuel cell that relies on the surrounding aircraft structure (wing/fuselage cavity) to support and contain it, rather than carrying structural loads itself."
+    },
+    {
+      "id": 30,
+      "question": "Which of the following is NOT true about the common manifold (fuel) valve?",
+      "options": [
+        "A. That it can connect multiple tanks and engines through a shared line",
+        "B. That it simplifies the fuel distribution system design",
+        "C. That it is NOT used to shut off fuel flow, cross-feed between tanks/engines, or transfer fuel (contrary to its actual multi-purpose design)"
+      ],
+      "correctIndex": 2,
+      "explanation": "The common manifold valve is actually designed precisely to provide shutoff, cross-feed, and fuel transfer capability, so a statement denying this function is false."
+    },
+    {
+      "id": 31,
+      "question": "Which type of valve uses a cam and yoke mechanism?",
+      "options": [
+        "A. A ball valve",
+        "B. A poppet valve",
+        "C. A gate valve"
+      ],
+      "correctIndex": 1,
+      "explanation": "Certain poppet valve designs use a cam-and-yoke arrangement to open and close the valve seat in response to mechanical actuation."
+    },
+    {
+      "id": 32,
+      "question": "What is the purpose of a float valve in a fuel system?",
+      "options": [
+        "A. To measure fuel pressure",
+        "B. To filter fuel contaminants",
+        "C. To control/limit fuel flow to the vent line, preventing fuel loss through venting"
+      ],
+      "correctIndex": 2,
+      "explanation": "A float valve rises with fuel level and can close off the vent path when the tank is full, preventing fuel from escaping through the vent line."
+    },
+    {
+      "id": 33,
+      "question": "Which of the following is NOT a standard inspection interval/type applied to large aircraft fuel systems?",
+      "options": [
+        "A. A scheduled maintenance program per manufacturer's document",
+        "B. A 100-hour inspection (typical of smaller GA aircraft programs)",
+        "C. Periodic fuel tank vent inspections"
+      ],
+      "correctIndex": 1,
+      "explanation": "Large aircraft operate under approved continuous airworthiness maintenance programs rather than the simple 100-hour inspection interval typical of smaller general aviation aircraft."
+    },
+    {
+      "id": 34,
+      "question": "Which of the following is NOT a requirement of fuel tank design?",
+      "options": [
+        "A. Adequate sump/drain provision",
+        "B. Adequate vent provision",
+        "C. A specific metallic tube diameter (tanks need not be metallic tubes)"
+      ],
+      "correctIndex": 2,
+      "explanation": "Fuel tanks are not required to be a specific \"metallic tube diameter\"; this is not a meaningful design requirement, unlike sump, drain, and vent provisions."
+    },
+    {
+      "id": 35,
+      "question": "When should repair of a fuel system seal NOT be performed?",
+      "options": [
+        "A. During a scheduled maintenance visit with the aircraft defueled",
+        "B. During refueling operations",
+        "C. After the tank has been properly purged and ventilated"
+      ],
+      "correctIndex": 1,
+      "explanation": "Seal repairs should never be attempted while the aircraft is actively being refueled, due to fire/explosion hazard from fuel vapors and active fuel flow."
+    },
+    {
+      "id": 36,
+      "question": "Which fuel flow indicating method does NOT use mass flow rate measurement?",
+      "options": [
+        "A. A turbine-type mass flow meter",
+        "B. A resistance-type (float/resistance) fuel quantity indicator",
+        "C. An impeller-type mass flow meter"
+      ],
+      "correctIndex": 1,
+      "explanation": "A resistance-type indicator measures fuel quantity (level), not mass flow rate, distinguishing it from true mass flow meters used for flow rate indication."
+    },
+    {
+      "id": 37,
+      "question": "During repair of integral fuel tanks, what should NOT be used?",
+      "options": [
+        "A. Approved sealant compound per the maintenance manual",
+        "B. Applying cement (adhesive sealant not approved for the integral tank repair process)",
+        "C. Proper surface preparation and cleaning"
+      ],
+      "correctIndex": 1,
+      "explanation": "Integral tank repairs must use approved sealants and procedures; using general-purpose cement not approved for fuel tank service is not acceptable."
+    },
+    {
+      "id": 38,
+      "question": "Which of the following is NOT a procedure of fuel tank inerting?",
+      "options": [
+        "A. Frequently filling the tank completely full",
+        "B. Introducing inert gas (e.g., nitrogen-enriched air) into the ullage",
+        "C. Reducing the oxygen concentration in the tank vapor space"
+      ],
+      "correctIndex": 0,
+      "explanation": "Inerting works by displacing oxygen in the vapor (ullage) space with inert gas; frequently completely filling the tank is not a recognized inerting procedure."
+    },
+    {
+      "id": 39,
+      "question": "Which of the following is NOT a sign of fuel leaks?",
+      "options": [
+        "A. An increase in ambient temperature",
+        "B. Visible wet staining around fittings",
+        "C. A strong fuel odor"
+      ],
+      "correctIndex": 0,
+      "explanation": "Ambient temperature increase has no direct connection to fuel leaks; visible staining and fuel odor are the recognized leak indicators."
+    },
+    {
+      "id": 40,
+      "question": "What is a requirement for aviation fuel regarding starting the engine?",
+      "options": [
+        "A. It must vaporize readily enough at low/ambient temperature to allow engine starting",
+        "B. It must never vaporize under any condition",
+        "C. It must remain liquid at all combustion chamber temperatures"
+      ],
+      "correctIndex": 0,
+      "explanation": "Aviation fuel needs sufficient volatility to vaporize and form a combustible mixture for reliable engine starting, especially in cold conditions."
+    },
+    {
+      "id": 41,
+      "question": "How is the indication for differential pressure between fuel and air (at the metering device) typically given to the crew?",
+      "options": [
+        "A. An audible chime only",
+        "B. A warning light",
+        "C. A mechanical flag indicator"
+      ],
+      "correctIndex": 1,
+      "explanation": "Differential fuel/air pressure indication is commonly provided as a cockpit warning light alerting the crew to an abnormal condition at the fuel metering device."
+    },
+    {
+      "id": 42,
+      "question": "Fuel tank vents are inspected during what type of inspection?",
+      "options": [
+        "A. Only during overhaul",
+        "B. Only after an engine change",
+        "C. The 100-hour inspection (or equivalent scheduled inspection)"
+      ],
+      "correctIndex": 2,
+      "explanation": "Vent lines and openings are routinely checked for obstruction or damage as part of scheduled inspections, such as the 100-hour inspection on applicable aircraft."
+    },
+    {
+      "id": 43,
+      "question": "Which of the following is NOT a characteristic of Avgas?",
+      "options": [
+        "A. High volatility for easy starting",
+        "B. A high flash point and high boiling point",
+        "C. A relatively low boiling point compared with jet fuel"
+      ],
+      "correctIndex": 1,
+      "explanation": "Avgas actually has a relatively low flash point and boiling point (it's quite volatile), the opposite of this statement, which better describes jet fuel."
+    },
+    {
+      "id": 44,
+      "question": "What measures the rate of pressure rise leading to detonation in a fuel?",
+      "options": [
+        "A. The flash point",
+        "B. The pour point",
+        "C. The anti-knock rating"
+      ],
+      "correctIndex": 2,
+      "explanation": "Anti-knock rating (octane/performance number) reflects a fuel's resistance to the rapid pressure rise characteristic of detonation."
+    },
+    {
+      "id": 45,
+      "question": "What type of transmitter is used for fuel flow measurement on turbine engines?",
+      "options": [
+        "A. A float-type transmitter",
+        "B. A mass flow rate transmitter",
+        "C. A dipstick-type transmitter"
+      ],
+      "correctIndex": 1,
+      "explanation": "Turbine engine fuel flow indicating systems commonly use mass flow rate transmitters (e.g., turbine or vane-type) for accurate flow measurement."
+    },
+    {
+      "id": 46,
+      "question": "Resistance to detonation is associated with what fuel properties?",
+      "options": [
+        "A. High octane number and high performance number",
+        "B. Low octane number and low viscosity",
+        "C. High sulfur content"
+      ],
+      "correctIndex": 0,
+      "explanation": "A fuel's resistance to detonation is directly expressed through its octane number (for gasoline) and performance number ratings."
+    },
+    {
+      "id": 47,
+      "question": "In turbine-engine aircraft, where is the fuel transfer system typically found?",
+      "options": [
+        "A. Associated with the main (center) tank",
+        "B. Only in the auxiliary tip tanks",
+        "C. Only in the APU fuel supply"
+      ],
+      "correctIndex": 0,
+      "explanation": "Fuel transfer systems commonly move fuel from wing/auxiliary tanks into the main (center) tank to balance load and feed the engines as needed."
+    },
+    {
+      "id": 48,
+      "question": "What is a fundamental requirement of an aircraft fuel system?",
+      "options": [
+        "A. A single fuel tank only",
+        "B. Continuous and uncontaminated fuel flow to the engine(s)",
+        "C. Manual-only fuel management with no automation"
+      ],
+      "correctIndex": 1,
+      "explanation": "The core requirement of any fuel system is delivering a continuous, uncontaminated supply of fuel to the engine(s) under all approved operating conditions."
+    },
+    {
+      "id": 49,
+      "question": "What type of valve is used to control fuel flow in the fuel system (a simple on/off flow control valve)?",
+      "options": [
+        "A. A relief valve",
+        "B. A gate valve",
+        "C. A float valve"
+      ],
+      "correctIndex": 1,
+      "explanation": "Gate valves provide simple, full-flow on/off control in fuel system plumbing where a straightforward shutoff/open function is needed."
+    },
+    {
+      "id": 50,
+      "question": "How is fuel quantity in the tank typically measured?",
+      "options": [
+        "A. Using a fuel quantity indicating system",
+        "B. Using an oil pressure gauge",
+        "C. Using a cabin altimeter"
+      ],
+      "correctIndex": 0,
+      "explanation": "A dedicated fuel quantity indicating system (float, capacitance, or similar) measures and displays the amount of fuel remaining in each tank."
+    },
+    {
+      "id": 51,
+      "question": "What is the use of a fuel strainer?",
+      "options": [
+        "A. To measure fuel temperature",
+        "B. To add anti-icing additive",
+        "C. To filter out large debris from the fuel"
+      ],
+      "correctIndex": 2,
+      "explanation": "A strainer is a coarse filtering device that removes larger debris and contaminants from the fuel before it reaches finer filtration or the engine."
+    },
+    {
+      "id": 52,
+      "question": "Which of the following statement about octane rating is FALSE?",
+      "options": [
+        "A. That iso-octane and heptane are reference fuels for the octane scale",
+        "B. That higher octane fuel generally resists detonation better",
+        "C. That a higher iso-octane number means lower resistance to detonation"
+      ],
+      "correctIndex": 2,
+      "explanation": "This statement has it backwards: a higher iso-octane number actually corresponds to greater (not lower) resistance to detonation."
+    },
+    {
+      "id": 53,
+      "question": "Which fuel system feature allows fuel to flow from the left tank to an engine on the right side of the aircraft?",
+      "options": [
+        "A. The jettison system",
+        "B. The cross-feed system",
+        "C. The venting system"
+      ],
+      "correctIndex": 1,
+      "explanation": "Cross-feed valves and plumbing allow fuel from either side's tanks to supply an engine normally fed from the opposite side, providing flexibility and redundancy."
+    },
+    {
+      "id": 54,
+      "question": "Which fueling method reduces servicing time for large aircraft?",
+      "options": [
+        "A. Over-wing gravity fueling",
+        "B. Pressure fueling",
+        "C. Hand-pump fueling"
+      ],
+      "correctIndex": 1,
+      "explanation": "Pressure fueling delivers fuel at higher flow rates through dedicated receptacles, significantly reducing the time needed to service large aircraft compared with gravity fueling."
+    },
+    {
+      "id": 55,
+      "question": "Where is the fuel temperature indicator's resistance bulb typically located?",
+      "options": [
+        "A. In the cockpit instrument panel",
+        "B. In the main fuel tank",
+        "C. In the engine oil system"
+      ],
+      "correctIndex": 1,
+      "explanation": "The temperature-sensing resistance bulb is installed directly in the main fuel tank to measure the actual fuel temperature there."
+    },
+    {
+      "id": 56,
+      "question": "A fuel pressure warning signal is controlled by a switch that closes when fuel pressure is what?",
+      "options": [
+        "A. High",
+        "B. Exactly at normal operating pressure",
+        "C. Low"
+      ],
+      "correctIndex": 2,
+      "explanation": "The fuel pressure warning switch is designed to close its circuit (triggering the warning) when pressure drops below the minimum acceptable value, i.e., when pressure is low."
+    },
+    {
+      "id": 57,
+      "question": "Which of the following is NOT a requirement of a fuel system?",
+      "options": [
+        "A. That fuel quantity be accurately indicated to the crew",
+        "B. That the system prevent contamination from entering",
+        "C. That all fuel, including unusable fuel, be available throughout flight"
+      ],
+      "correctIndex": 2,
+      "explanation": "By definition, unusable fuel is fuel that cannot be reliably delivered to the engine under all flight conditions, so requiring it to be \"available throughout flight\" contradicts its own definition."
+    },
+    {
+      "id": 58,
+      "question": "What is a disadvantage of gasoline as an aviation fuel?",
+      "options": [
+        "A. Excessive viscosity at low temperature",
+        "B. Loss due to evaporation",
+        "C. Poor cold-weather starting"
+      ],
+      "correctIndex": 1,
+      "explanation": "Gasoline's high volatility, while helpful for starting, also means it is prone to evaporative loss, especially in warm conditions or during extended ground handling."
+    },
+    {
+      "id": 59,
+      "question": "What is used to measure the pressure of fuel flow?",
+      "options": [
+        "A. A pressure gauge",
+        "B. A dipstick",
+        "C. A float switch"
+      ],
+      "correctIndex": 0,
+      "explanation": "A fuel pressure gauge directly measures and displays the pressure of fuel in the delivery system to the engine."
+    },
+    {
+      "id": 60,
+      "question": "What instrument indicates an engine's fuel use (consumption rate) in real time?",
+      "options": [
+        "A. A fuel quantity gauge",
+        "B. A fuel flow meter",
+        "C. A fuel pressure gauge"
+      ],
+      "correctIndex": 1,
+      "explanation": "The fuel flow meter continuously measures and displays the rate at which fuel is being consumed by the engine, in real time."
+    },
+    {
+      "id": 61,
+      "question": "Which hydrocarbon fraction/molecule type has high density and a high boiling point?",
+      "options": [
+        "A. Light gases",
+        "B. Residue (heavy residual fractions)",
+        "C. Naphtha"
+      ],
+      "correctIndex": 1,
+      "explanation": "Heavier hydrocarbon residue fractions from crude oil refining have higher density and boiling points compared with lighter, more volatile fractions."
+    },
+    {
+      "id": 62,
+      "question": "Because kerosene and avgas are highly combustible, what safety precaution must be taken?",
+      "options": [
+        "A. Fueling should always be done at night",
+        "B. Fueling should be done with the engine running",
+        "C. Fueling and defueling should be done outside, not inside the hangar"
+      ],
+      "correctIndex": 2,
+      "explanation": "To reduce fire risk from fuel vapors accumulating in an enclosed space, fueling and defueling operations are conducted outdoors rather than inside a hangar."
+    },
+    {
+      "id": 63,
+      "question": "What is a unique characteristic of aromatic fuel compounds?",
+      "options": [
+        "A. They have no odor at all",
+        "B. They are named \"aromatic\" because their atomic (ring) structure resembles compounds found in fragrant substances",
+        "C. They cannot be blended with other fuel compounds"
+      ],
+      "correctIndex": 1,
+      "explanation": "Aromatic hydrocarbons get their name from the characteristic ring molecular structure shared with naturally fragrant (aromatic) organic compounds, not from the fuel itself smelling pleasant."
+    },
+    {
+      "id": 64,
+      "question": "Which system relieves excessive pressure differential between the interior and exterior of a fuel tank?",
+      "options": [
+        "A. The venting system",
+        "B. The jettison system",
+        "C. The booster pump system"
+      ],
+      "correctIndex": 0,
+      "explanation": "The tank venting system equalizes pressure between the tank interior and outside atmosphere, preventing damaging over- or under-pressure as fuel level and altitude change."
+    },
+    {
+      "id": 65,
+      "question": "What type of fuel is used in reciprocating (piston) engines?",
+      "options": [
+        "A. Jet fuel (kerosene)",
+        "B. AVGAS",
+        "C. Diesel fuel"
+      ],
+      "correctIndex": 1,
+      "explanation": "Aviation gasoline (AVGAS) is formulated specifically for spark-ignition reciprocating aircraft engines, unlike kerosene-based jet fuel used in turbine engines."
+    },
+    {
+      "id": 66,
+      "question": "Which of the following is true about aviation fuel volatility?",
+      "options": [
+        "A. Volatility is a desired characteristic, but the fuel should not be so volatile that it causes vapor lock",
+        "B. Maximum possible volatility is always desired",
+        "C. Volatility has no practical importance for aviation fuel"
+      ],
+      "correctIndex": 0,
+      "explanation": "Aviation fuel needs enough volatility for good vaporization/starting, but excessive volatility increases the risk of vapor lock, so a balance is required."
+    },
+    {
+      "id": 67,
+      "question": "What determines the location, size, shape, and construction of fuel tanks?",
+      "options": [
+        "A. The size, type, and intended use of the aircraft",
+        "B. The color scheme of the aircraft",
+        "C. The pilot's personal preference"
+      ],
+      "correctIndex": 0,
+      "explanation": "Fuel tank design parameters are driven by the specific aircraft's size, category, and mission requirements, not arbitrary factors."
+    },
+    {
+      "id": 68,
+      "question": "Which type of fuel tank is strapped into the airframe structure and is often riveted or welded together?",
+      "options": [
+        "A. Removable-type fuel tank",
+        "B. Integral fuel tank",
+        "C. Bladder-type fuel tank"
+      ],
+      "correctIndex": 0,
+      "explanation": "A removable tank is a separately constructed unit (riveted/welded) that is then installed and strapped into a bay within the airframe structure, unlike an integral tank that is part of the structure itself."
+    },
+    {
+      "id": 69,
+      "question": "Is it true that a shutoff valve has two positions, open and closed?",
+      "options": [
+        "A. False, shutoff valves have only one fixed position",
+        "B. False, shutoff valves have continuously variable positions only",
+        "C. True"
+      ],
+      "correctIndex": 2,
+      "explanation": "A shutoff valve is a simple two-position device: either fully open to allow flow or fully closed to stop it."
+    },
+    {
+      "id": 70,
+      "question": "What prevents fuel flow to the engine when a fire is detected in the engine compartment?",
+      "options": [
+        "A. The fuel shutoff valve",
+        "B. The booster pump",
+        "C. The vent valve"
+      ],
+      "correctIndex": 0,
+      "explanation": "A fire-detection-triggered fuel shutoff valve closes to stop fuel delivery to an engine where a fire has been detected, helping starve the fire of fuel."
+    },
+    {
+      "id": 71,
+      "question": "Which fuel additive has the disadvantage of causing engine damage, especially if the engine sits unattended (unused) for a long time?",
+      "options": [
+        "A. Tricresyl phosphate",
+        "B. TEL alone, with no other additives",
+        "C. Ethylene di-bromide"
+      ],
+      "correctIndex": 2,
+      "explanation": "Ethylene di-bromide, used alongside TEL, can produce corrosive combustion byproducts that damage engine components if the engine sits without proper preservation."
+    },
+    {
+      "id": 72,
+      "question": "Which of the following is NOT a true statement about fuel indicators?",
+      "options": [
+        "A. That capacitance indicators are commonly used on large aircraft",
+        "B. That mechanical float indicators are simple and inexpensive",
+        "C. That float-type indicators are not used on light aircraft"
+      ],
+      "correctIndex": 2,
+      "explanation": "Float-type fuel quantity indicators are actually very commonly used on light aircraft due to their simplicity and low cost, making this statement false."
+    },
+    {
+      "id": 73,
+      "question": "If there is no pump in the fuel system, what type of system is it?",
+      "options": [
+        "A. A gravity-feed fuel system",
+        "B. A pressure fueling system",
+        "C. A cross-feed system"
+      ],
+      "correctIndex": 0,
+      "explanation": "Without any pump, fuel must rely on gravity alone to flow from the tank down to the engine, defining a gravity-feed fuel system."
+    },
+    {
+      "id": 74,
+      "question": "What is a remedy for vapor lock occurring during flight?",
+      "options": [
+        "A. Using the boost pump",
+        "B. Shutting off the fuel selector",
+        "C. Reducing cabin pressurization"
+      ],
+      "correctIndex": 0,
+      "explanation": "Activating the electric boost pump increases fuel line pressure, which helps suppress vapor formation and clear an existing vapor lock condition."
+    },
+    {
+      "id": 75,
+      "question": "What indicates the presence of ice crystals in the fuel system?",
+      "options": [
+        "A. The fuel pressure gauge",
+        "B. The fuel flow meter",
+        "C. The fuel temperature indicator"
+      ],
+      "correctIndex": 2,
+      "explanation": "Monitoring fuel temperature helps the crew anticipate or detect conditions (near freezing point) where ice crystals could form and potentially block filters/lines."
+    },
+    {
+      "id": 76,
+      "question": "What are fundamental characteristics of aviation fuel?",
+      "options": [
+        "A. Volatility and heat value",
+        "B. Color and weight only",
+        "C. Price and availability only"
+      ],
+      "correctIndex": 0,
+      "explanation": "Key fuel performance characteristics include its volatility (ease of vaporization) and heat value (energy content per unit), both critical to engine operation."
+    },
+    {
+      "id": 77,
+      "question": "For each reciprocating engine, the fuel flow rate for each pump system must be at least what percentage of the engine's maximum takeoff power fuel flow requirement?",
+      "options": [
+        "A. 125%",
+        "B. 100%",
+        "C. 50%"
+      ],
+      "correctIndex": 0,
+      "explanation": "Regulatory requirements specify that each fuel pump supply at least 125% of the engine's maximum fuel flow demand at takeoff power, providing a safety margin."
+    },
+    {
+      "id": 78,
+      "question": "Which fuel type has poor cold-starting and in-air (altitude) restart characteristics?",
+      "options": [
+        "A. AVGAS",
+        "B. JP-1 / Kerosene (early low-volatility jet fuel)",
+        "C. A high-volatility gasoline blend"
+      ],
+      "correctIndex": 1,
+      "explanation": "Lower-volatility kerosene-type fuels like early JP-1 can be harder to vaporize for reliable cold or high-altitude starting compared with more volatile fuels."
+    },
+    {
+      "id": 79,
+      "question": "What could cause corrosion damage to engines from fuel contamination?",
+      "options": [
+        "A. Pure water alone with no dissolved substances",
+        "B. Acids and alkalis in the fuel",
+        "C. Nitrogen gas in the ullage"
+      ],
+      "correctIndex": 1,
+      "explanation": "Acidic or alkaline contaminants in fuel can chemically attack metal engine and fuel system components, leading to corrosion damage."
+    },
+    {
+      "id": 80,
+      "question": "Which of the following is NOT a requirement of a fuel tank?",
+      "options": [
+        "A. That it has adequate expansion space",
+        "B. That it has a sump/drain provision",
+        "C. That it must be removable for repair and inspection"
+      ],
+      "correctIndex": 2,
+      "explanation": "Not all fuel tanks need to be removable; integral and some bladder tanks are repaired/inspected in place rather than being required to be removable."
+    },
+    {
+      "id": 81,
+      "question": "What type of fuel line is used where lines may be under pressure and subject to axial (flexing) loads?",
+      "options": [
+        "A. Flexible hose",
+        "B. Rigid aluminum tubing only",
+        "C. Welded steel pipe only"
+      ],
+      "correctIndex": 0,
+      "explanation": "Flexible hose accommodates vibration, movement, and axial loading better than rigid tubing, making it suitable for pressurized lines subject to such loads."
+    },
+    {
+      "id": 82,
+      "question": "How is inspection of the fuel system typically performed?",
+      "options": [
+        "A. By following the applicable aircraft maintenance manual",
+        "B. By technician intuition alone",
+        "C. By following only the pilot's operating handbook"
+      ],
+      "correctIndex": 0,
+      "explanation": "Fuel system inspections follow the detailed procedures, intervals, and criteria specified in the approved aircraft maintenance manual."
+    },
+    {
+      "id": 83,
+      "question": "Which of the following is NOT an acceptable method used to confirm a fuel leak repair is sound?",
+      "options": [
+        "A. Performing a pressure/leak check after repair",
+        "B. Using wax applied by hand to fill/mask the repair area",
+        "C. Visually inspecting the repaired area for seepage"
+      ],
+      "correctIndex": 1,
+      "explanation": "Hand-applied wax to mask a leak is not an approved repair verification method; proper leak checks and inspection are required instead."
+    },
+    {
+      "id": 84,
+      "question": "What is true about fuel line installation requirements?",
+      "options": [
+        "A. Lines should be left unsupported for flexibility",
+        "B. Lines never need support if made of flexible hose",
+        "C. Lines must be supported to prevent excessive vibration and to withstand loads from fuel pressure"
+      ],
+      "correctIndex": 2,
+      "explanation": "All fuel lines, rigid or flexible, must be properly supported/clamped at appropriate intervals to prevent fatigue from vibration and to handle pressure-induced loads."
+    },
+    {
+      "id": 85,
+      "question": "What factor affects the aging (degradation) of wiring, relevant to fuel system electrical components?",
+      "options": [
+        "A. Fuel color",
+        "B. Octane rating",
+        "C. Vibration"
+      ],
+      "correctIndex": 2,
+      "explanation": "Ongoing vibration contributes to wear, chafing, and eventual degradation of wiring insulation and connections over time, a key factor in wire aging."
+    },
+    {
+      "id": 86,
+      "question": "What indication compares fuel inlet pressure to air inlet pressure at the fuel metering device?",
+      "options": [
+        "A. Fuel flow rate indication",
+        "B. Fuel temperature indication",
+        "C. Differential fuel pressure indication"
+      ],
+      "correctIndex": 2,
+      "explanation": "Differential pressure indication specifically monitors the relationship between fuel and air inlet pressures at the metering device, which relates to proper mixture control."
+    },
+    {
+      "id": 87,
+      "question": "In aviation fuel system technique, which is generally given LESS consideration compared with pressure-based methods?",
+      "options": [
+        "A. Gravity feeding (versus pressure-fed systems)",
+        "B. Pressure fueling",
+        "C. Electronic fuel quantity indication"
+      ],
+      "correctIndex": 0,
+      "explanation": "Modern aviation technique and larger aircraft design generally favor pressure-based fuel delivery/fueling methods over simple gravity feed, which is less emphasized."
+    },
+    {
+      "id": 88,
+      "question": "Which of the following is NOT a requirement for good hot-weather fuel system performance?",
+      "options": [
+        "A. Freedom from vapor lock at elevated temperatures",
+        "B. Mandatory continuous use of the boost pump at all times",
+        "C. Adequate fuel line insulation/routing away from heat sources"
+      ],
+      "correctIndex": 1,
+      "explanation": "Continuous mandatory boost pump operation is not itself a hot-weather design requirement; rather, the system must be designed to resist vapor lock under hot conditions, with boost pump use as an operational aid when needed."
+    },
+    {
+      "id": 89,
+      "question": "A heavy fuel seep typically covers what size area?",
+      "options": [
+        "A. About 0.1 to 0.5 inches in diameter",
+        "B. About 12 to 24 inches in diameter",
+        "C. About 1.5 to 4 inches in diameter"
+      ],
+      "correctIndex": 2,
+      "explanation": "Standard fuel leak classification defines a \"heavy seep\" as wetting an area roughly 1.5 to 4 inches in diameter, distinguishing it from a stain or a running leak."
+    },
+    {
+      "id": 90,
+      "question": "What provides instructions to retain critical ignition source prevention features during configuration changes from alterations, repairs, or maintenance?",
+      "options": [
+        "A. The fault isolation manual",
+        "B. Critical Design Configuration Control Limitation (CDCCL)",
+        "C. The weight and balance manual"
+      ],
+      "correctIndex": 1,
+      "explanation": "CDCCLs identify design features critical to preventing fuel tank ignition sources and specify limitations to ensure those features aren't compromised during maintenance or modification."
+    },
+    {
+      "id": 91,
+      "question": "What methods are used for refueling an aircraft?",
+      "options": [
+        "A. Only over-wing fueling",
+        "B. Only defueling trucks",
+        "C. Over-wing and pressure fueling"
+      ],
+      "correctIndex": 2,
+      "explanation": "Aircraft are commonly refueled either by gravity through an over-wing port or by single/multi-point pressure fueling, depending on aircraft size and equipment."
+    },
+    {
+      "id": 92,
+      "question": "What does \"unusable fuel\" refer to?",
+      "options": [
+        "A. The total fuel capacity of the tank",
+        "B. The amount of fuel in the tank that is not available for use throughout the entire flight (cannot be reliably drawn under all conditions)",
+        "C. Fuel that has been contaminated and discarded"
+      ],
+      "correctIndex": 1,
+      "explanation": "Unusable fuel is fuel remaining in the tank that cannot be reliably delivered to the engine, due to tank geometry, pump location, or aircraft attitude effects."
+    },
+    {
+      "id": 93,
+      "question": "How is sediment and fuel residue drained from the tank?",
+      "options": [
+        "A. Via the vent line",
+        "B. Via the fuel pressure gauge port",
+        "C. Via the tank drain valve (sump drain)"
+      ],
+      "correctIndex": 2,
+      "explanation": "The tank's sump drain valve allows water, sediment, and residue that settle at the lowest point of the tank to be drained off during servicing checks."
+    },
+    {
+      "id": 94,
+      "question": "Which fuel type is highly flammable?",
+      "options": [
+        "A. Gasoline",
+        "B. Diesel fuel",
+        "C. Heavy residual fuel oil"
+      ],
+      "correctIndex": 0,
+      "explanation": "Gasoline (including avgas) is highly volatile and flammable compared with heavier, less volatile fuels like diesel or residual fuel oil."
+    },
+    {
+      "id": 95,
+      "question": "A capacitance-type fuel tank transmitter is part of what kind of system?",
+      "options": [
+        "A. A fuel pressure indicating system",
+        "B. A fuel quantity indicating system",
+        "C. A fuel temperature indicating system"
+      ],
+      "correctIndex": 1,
+      "explanation": "Capacitance-type tank probes/transmitters are used specifically as part of the fuel quantity indicating system, sensing fuel level via changes in capacitance."
+    },
+    {
+      "id": 96,
+      "question": "What is true about the boost pump?",
+      "options": [
+        "A. It is the sole primary fuel pump on all aircraft",
+        "B. It cannot be electrically powered",
+        "C. It functions as an auxiliary (backup/assist) pump"
+      ],
+      "correctIndex": 2,
+      "explanation": "A boost pump is typically an electrically driven auxiliary pump that assists or backs up the primary engine-driven pump, especially during starting, high altitude, or emergency operation."
+    },
+    {
+      "id": 97,
+      "question": "What is it called when an aircraft fuel system uses an inert gas to remove oxygen from the tank ullage?",
+      "options": [
+        "A. Jettisoning",
+        "B. Cross-feeding",
+        "C. Purging (or inerting)"
+      ],
+      "correctIndex": 2,
+      "explanation": "Introducing inert gas to displace and remove oxygen from the tank's vapor space is referred to as purging/inerting, reducing flammability risk."
+    },
+    {
+      "id": 98,
+      "question": "What is the best reason for defueling a fuel tank?",
+      "options": [
+        "A. To increase the aircraft's empty weight",
+        "B. Maintenance, inspection, contamination concerns, or a change in flight plan",
+        "C. To improve fuel color appearance"
+      ],
+      "correctIndex": 1,
+      "explanation": "Common legitimate reasons to defuel include scheduled maintenance/inspection, suspected contamination, or operational changes that require a different fuel load."
+    },
+    {
+      "id": 99,
+      "question": "How can aircraft fuel pumps be operated (driven)?",
+      "options": [
+        "A. Only manually by hand crank",
+        "B. Only by wind-driven turbines",
+        "C. Electrically or engine-driven"
+      ],
+      "correctIndex": 2,
+      "explanation": "Aircraft fuel pumps are commonly either electrically driven (boost pumps) or mechanically engine-driven, depending on their role in the system."
+    },
+    {
+      "id": 100,
+      "question": "What type of pump uses a plunger that moves fuel in and out through reciprocating motion?",
+      "options": [
+        "A. A centrifugal pump",
+        "B. A vane pump",
+        "C. A pulsating (reciprocating/plunger-type) pump"
+      ],
+      "correctIndex": 2,
+      "explanation": "A pulsating pump uses a reciprocating plunger to alternately draw in and expel fuel, producing a pulsed rather than continuous flow."
+    },
+    {
+      "id": 101,
+      "question": "How is aviation fuel identified?",
+      "options": [
+        "A. By smell alone",
+        "B. By color, performance number, and octane rating",
+        "C. By container shape alone"
+      ],
+      "correctIndex": 1,
+      "explanation": "Aviation fuels are identified through standardized dye colors along with their performance/octane number designation, helping prevent misfueling."
+    },
+    {
+      "id": 102,
+      "question": "Which of the following is NOT true regarding fuel line installations?",
+      "options": [
+        "A. That rigid tubing is used for most fixed runs",
+        "B. That hose is never used in fuel line installations",
+        "C. That flexible connections are used where movement/vibration occurs"
+      ],
+      "correctIndex": 1,
+      "explanation": "Flexible hose is, in fact, commonly used in fuel line installations, particularly where flexibility or vibration isolation is needed, making a blanket statement that hose is never used incorrect."
+    },
+    {
+      "id": 103,
+      "question": "Which aircraft fuel system feature prevents high structural stress during an overweight landing?",
+      "options": [
+        "A. A fuel jettison system",
+        "B. A fuel inerting system",
+        "C. A fuel cross-feed system"
+      ],
+      "correctIndex": 0,
+      "explanation": "A fuel jettison system allows crews to dump fuel in flight to reduce aircraft weight to within the maximum landing weight, avoiding excessive structural loads on landing."
+    },
+    {
+      "id": 104,
+      "question": "What condition occurs when fuel vaporizes within the fuel line or components between the tank and the metering device (carburetor)?",
+      "options": [
+        "A. Detonation",
+        "B. Vapor lock",
+        "C. Pre-ignition"
+      ],
+      "correctIndex": 1,
+      "explanation": "Vapor lock occurs when fuel vaporizes prematurely in the lines, forming vapor bubbles that block or restrict proper liquid fuel flow to the engine."
+    },
+    {
+      "id": 105,
+      "question": "Which fuel filter/device collects sediment and water at the lowest point of the system?",
+      "options": [
+        "A. The main line filter",
+        "B. The sump (strainer)",
+        "C. The vent valve"
+      ],
+      "correctIndex": 1,
+      "explanation": "The sump, located at the fuel system's lowest point, collects heavier contaminants like water and sediment that settle out of the fuel, ready for draining."
+    },
+    {
+      "id": 106,
+      "question": "What is a requirement for fuel tank design regarding servicing?",
+      "options": [
+        "A. A built-in fire extinguisher",
+        "B. A sump and drain provision",
+        "C. A built-in fuel heater"
+      ],
+      "correctIndex": 1,
+      "explanation": "Fuel tanks must include a sump and drain to allow water and sediment to be collected and removed during routine servicing."
+    },
+    {
+      "id": 107,
+      "question": "Which type of float, resting on the fuel surface in the tank, uses a mechanical linkage connected to the indicator?",
+      "options": [
+        "A. The capacitance-type indicator",
+        "B. The float-type indicator",
+        "C. The thermocouple-type indicator"
+      ],
+      "correctIndex": 1,
+      "explanation": "A float-type fuel quantity system uses a buoyant float riding on the fuel surface, mechanically linked (often via an arm and gear) to drive the cockpit indicator."
+    },
+    {
+      "id": 108,
+      "question": "Which of the following is NOT true about fuel indicators?",
+      "options": [
+        "A. That mechanical fuel quantity indicators are unreliable and therefore not used on large modern aircraft",
+        "B. That capacitance-type indicators are common on large modern aircraft",
+        "C. That float-type indicators are common on light aircraft"
+      ],
+      "correctIndex": 0,
+      "explanation": "Large modern aircraft actually do use advanced systems (often capacitance-based, not purely mechanical), but it is false to say mechanical indicators are categorically unreliable and unused; simple mechanical/float indicators remain widely used, especially on smaller aircraft."
+    },
+    {
+      "id": 109,
+      "question": "Which indicator tells the flight crew about a fuel lead/filter bypass condition, combining a bypass light and temperature gauge?",
+      "options": [
+        "A. The fuel flow meter alone",
+        "B. The fuel quantity gauge alone",
+        "C. The filter bypass indication light and temperature gauge"
+      ],
+      "correctIndex": 2,
+      "explanation": "A dedicated bypass indication light, often paired with a temperature gauge, alerts the crew when the fuel filter has bypassed due to clogging, allowing unfiltered fuel to flow."
+    },
+    {
+      "id": 110,
+      "question": "Which aviation fuel grade/type is identified by a blue color dye?",
+      "options": [
+        "A. 100LL (low-lead avgas)",
+        "B. Jet A",
+        "C. 100/130 (green dye)"
+      ],
+      "correctIndex": 0,
+      "explanation": "100LL avgas is conventionally dyed blue, helping distinguish it visually from other avgas grades and jet fuel at the fueling point."
+    },
+    {
+      "id": 111,
+      "question": "What is the typical TEL (Tetraethyl Lead) content specification in leaded avgas?",
+      "options": [
+        "A. About one volume of TEL to 630 volumes of gasoline, or roughly 6 ml of TEL per gallon of fuel",
+        "B. One volume of TEL to 10 volumes of gasoline",
+        "C. TEL is added in equal volume to the gasoline"
+      ],
+      "correctIndex": 0,
+      "explanation": "Leaded avgas specifications limit TEL content to a small fraction of the total fuel volume, on the order of 1:630 by volume or about 6 ml per gallon."
+    },
+    {
+      "id": 112,
+      "question": "What type of valve is operated by a magnetic field (electromagnetically)?",
+      "options": [
+        "A. A solenoid-operated valve",
+        "B. A poppet valve operated by spring only",
+        "C. A float valve"
+      ],
+      "correctIndex": 0,
+      "explanation": "A solenoid valve uses an electromagnetic coil to move its internal plunger/poppet, opening or closing the valve electrically."
+    },
+    {
+      "id": 113,
+      "question": "What capacity is typically specified for a gravity feed fuel system relative to takeoff fuel flow requirements?",
+      "options": [
+        "A. 100% of takeoff fuel flow capacity",
+        "B. 150% of takeoff fuel flow capacity",
+        "C. 50% of takeoff fuel flow capacity"
+      ],
+      "correctIndex": 1,
+      "explanation": "Gravity feed systems are commonly required to demonstrate a flow capacity margin, such as 150% of the fuel flow needed at takeoff power, ensuring adequate supply."
+    },
+    {
+      "id": 114,
+      "question": "What type of fuel tank is typically welded and riveted together?",
+      "options": [
+        "A. An integral tank",
+        "B. A bladder-type tank",
+        "C. A removable-type tank"
+      ],
+      "correctIndex": 2,
+      "explanation": "A removable tank is constructed as a separate unit (welded/riveted), then installed into a bay in the aircraft structure, unlike an integral tank formed by the structure itself."
+    },
+    {
+      "id": 115,
+      "question": "Which of the following is NOT true about the gravity feed fuel system?",
+      "options": [
+        "A. That it does not require a vent (vent hole)",
+        "B. That it relies on elevation difference for fuel flow",
+        "C. That it is relatively simple compared with pressure-fed systems"
+      ],
+      "correctIndex": 0,
+      "explanation": "A gravity feed tank absolutely requires venting to allow air to replace the fuel as it's drawn out; claiming it does not require a vent hole is false."
+    },
+    {
+      "id": 116,
+      "question": "What is the purpose of the fuel tank venting system?",
+      "options": [
+        "A. To equalize differential pressure between the inside and outside of the tank",
+        "B. To filter fuel contaminants",
+        "C. To warm the fuel in cold weather"
+      ],
+      "correctIndex": 0,
+      "explanation": "Venting allows outside air to enter/exit the tank as fuel level changes, preventing damaging pressure differentials between the tank interior and the atmosphere."
+    },
+    {
+      "id": 117,
+      "question": "Which property makes gas turbine (jet) fuel generally better than Avgas for certain applications?",
+      "options": [
+        "A. Viscosity (suited to turbine fuel system/injector requirements)",
+        "B. Lower energy content",
+        "C. Higher lead content"
+      ],
+      "correctIndex": 0,
+      "explanation": "Jet fuel's viscosity characteristics are well suited to turbine engine fuel control and injector systems, which differ from the needs of reciprocating engine carburetors/injectors using Avgas."
+    },
+    {
+      "id": 118,
+      "question": "Which fuel type is preferred for cold-weather operation?",
+      "options": [
+        "A. Standard Jet A",
+        "B. Residual fuel oil",
+        "C. JP-4 / Jet A-1 (freeze-point optimized jet fuel)"
+      ],
+      "correctIndex": 2,
+      "explanation": "Jet A-1 (and historically JP-4) have lower freeze points than standard Jet A, making them preferred choices for cold-weather and certain military/cold-climate operations."
+    },
+    {
+      "id": 119,
+      "question": "What type of fuel is used in gas turbine engines?",
+      "options": [
+        "A. AVGAS",
+        "B. Diesel fuel",
+        "C. Jet fuel (kerosene-based)"
+      ],
+      "correctIndex": 2,
+      "explanation": "Gas turbine (jet) engines are designed to run on kerosene-based jet fuel, which has different combustion and handling characteristics than gasoline."
+    },
+    {
+      "id": 120,
+      "question": "What design feature ensures good hot-weather fuel system performance?",
+      "options": [
+        "A. The system must use only gravity feed",
+        "B. The system must avoid any use of boost pumps",
+        "C. The fuel system must be free from vapor lock under hot operating conditions"
+      ],
+      "correctIndex": 2,
+      "explanation": "A key hot-weather design requirement is that the fuel system, through adequate pressure and routing, remains free from vapor lock even at high ambient and fuel temperatures."
+    },
+    {
+      "id": 121,
+      "question": "What is the most common type of fuel heater used on aircraft?",
+      "options": [
+        "A. Electric resistance heaters only",
+        "B. Open-flame heaters",
+        "C. Air-fuel and oil-fuel heat exchangers"
+      ],
+      "correctIndex": 2,
+      "explanation": "Fuel is commonly warmed using heat exchangers that transfer heat from engine bleed air or hot oil into the fuel, preventing ice formation."
+    },
+    {
+      "id": 122,
+      "question": "What is a requirement for uniform fuel flow regarding brief interruptions from fuel depletion-related air introduction?",
+      "options": [
+        "A. Any interruption of flow caused by air introduced due to fuel depletion should not exceed about 20 seconds",
+        "B. Interruptions may last indefinitely with no limit",
+        "C. No interruption of any length is ever acceptable"
+      ],
+      "correctIndex": 0,
+      "explanation": "Design standards limit how long fuel flow can be interrupted (e.g., from air ingestion as a tank runs low) to a brief period, such as 20 seconds, to maintain engine operation."
+    },
+    {
+      "id": 123,
+      "question": "A sharp deposit or inadvertent hot spot in the combustion chamber that causes fuel to ignite before the spark plug fires is called what?",
+      "options": [
+        "A. Pre-ignition knock",
+        "B. Detonation",
+        "C. Vapor lock"
+      ],
+      "correctIndex": 0,
+      "explanation": "This describes pre-ignition: a glowing deposit or hot spot triggers combustion ahead of the timed spark ignition event."
+    },
+    {
+      "id": 124,
+      "question": "Which of the following is NOT true about a baffle valve?",
+      "options": [
+        "A. That it helps prevent fuel from sloshing excessively within a tank compartment",
+        "B. That it can be part of an interconnected or baffled tank design",
+        "C. That it allows fuel to flow outboard, out of the fuel tank, uncontrolled"
+      ],
+      "correctIndex": 2,
+      "explanation": "A baffle valve is actually intended to control/restrict fuel movement (preventing excessive sloshing or uncontrolled flow) within a tank, not to allow unrestricted outboard flow."
+    },
+    {
+      "id": 125,
+      "question": "Measuring fuel flow accurately in turbine engines is complicated by the fact that fuel mass changes with what?",
+      "options": [
+        "A. Color of the fuel",
+        "B. Octane rating",
+        "C. Temperature (which affects fuel density)"
+      ],
+      "correctIndex": 2,
+      "explanation": "Because fuel density varies with temperature, a given volumetric flow rate corresponds to different mass flow rates at different temperatures, complicating accurate mass flow measurement."
+    },
+    {
+      "id": 126,
+      "question": "What type of pump is lubricated by the fuel passing through it?",
+      "options": [
+        "A. A purely electric centrifugal pump with separate oil lubrication",
+        "B. The gear pump",
+        "C. The vane pump with external grease fitting"
+      ],
+      "correctIndex": 1,
+      "explanation": "Gear pumps used in fuel systems rely on the fuel itself for internal lubrication of the meshing gears and bearings as it passes through the pump."
+    },
+    {
+      "id": 127,
+      "question": "Which contaminant type is associated with producing electrolytic (microbial) corrosion in fuel systems?",
+      "options": [
+        "A. Nitrogen gas",
+        "B. Microorganisms",
+        "C. Clean dry air"
+      ],
+      "correctIndex": 1,
+      "explanation": "Microorganisms growing at fuel-water interfaces produce acidic byproducts that create localized electrolytic corrosion cells on tank and component surfaces."
+    },
+    {
+      "id": 128,
+      "question": "What type of gauge measures fuel temperature?",
+      "options": [
+        "A. A resistor (resistance) thermometer",
+        "B. A float-type gauge",
+        "C. A tensiometer"
+      ],
+      "correctIndex": 0,
+      "explanation": "Fuel temperature is commonly measured using a resistance-type thermometer (bulb), whose electrical resistance changes predictably with temperature."
+    },
+    {
+      "id": 129,
+      "question": "What device is used to remove/clear vapor lock?",
+      "options": [
+        "A. The fuel strainer",
+        "B. The boost pump",
+        "C. The vent valve"
+      ],
+      "correctIndex": 1,
+      "explanation": "Activating the boost pump raises fuel line pressure, which helps collapse vapor bubbles and restore solid liquid fuel flow, clearing vapor lock."
+    },
+    {
+      "id": 130,
+      "question": "What is a cause of vapor lock?",
+      "options": [
+        "A. High fuel pressure",
+        "B. Low fuel temperature",
+        "C. Low fuel pressure"
+      ],
+      "correctIndex": 2,
+      "explanation": "Low pressure in the fuel line lowers the fuel's boiling point locally, making it more likely to vaporize and form vapor lock, especially combined with heat."
+    },
+    {
+      "id": 131,
+      "question": "What is a fundamental characteristic desired in aviation fuel regarding energy content?",
+      "options": [
+        "A. A high heat value",
+        "B. A low heat value",
+        "C. Heat value is irrelevant to fuel selection"
+      ],
+      "correctIndex": 0,
+      "explanation": "High heat value (energy released per unit of fuel) is a fundamental desirable characteristic, maximizing energy delivered for a given fuel quantity/weight."
+    },
+    {
+      "id": 132,
+      "question": "Which of the following is NOT true about fuel heat value characteristics?",
+      "options": [
+        "A. That heat value measures the energy released during combustion",
+        "B. That high heat value alone is not necessarily sufficient; the fuel must also burn at an appropriate rate",
+        "C. That heat value is an important fuel selection criterion"
+      ],
+      "correctIndex": 1,
+      "explanation": "It is true that fuel must burn appropriately (not just have high energy content), so a statement incorrectly implying heat value alone fully defines fuel quality, without regard to burn characteristics, would be false — the correct nuance is that heat value needs to be paired with proper combustion behavior."
+    },
+    {
+      "id": 133,
+      "question": "Which of the following is NOT considered a source of ignition in a fuel system hazard analysis?",
+      "options": [
+        "A. Static discharge (actually IS a recognized ignition source, making this the exception/false option)",
+        "B. An open flame",
+        "C. A hot exhaust surface"
+      ],
+      "correctIndex": 0,
+      "explanation": "Static discharge is, in fact, a well-recognized potential ignition source for fuel vapors, so identifying it as \"not\" a source would be the incorrect/false statement among typical ignition sources."
+    },
+    {
+      "id": 134,
+      "question": "When we refer to the anti-knock quality of a fuel, what are we describing?",
+      "options": [
+        "A. The flash point",
+        "B. The octane rating",
+        "C. The pour point"
+      ],
+      "correctIndex": 1,
+      "explanation": "Anti-knock quality is directly expressed by a fuel's octane rating, which measures resistance to premature detonation under compression."
+    },
+    {
+      "id": 135,
+      "question": "What term describes a sudden explosion due to excessive burning rate in low-grade fuel under given pressure conditions?",
+      "options": [
+        "A. Pre-ignition",
+        "B. Vapor lock",
+        "C. Detonation"
+      ],
+      "correctIndex": 2,
+      "explanation": "Detonation describes an uncontrolled, explosive combustion event where the fuel-air mixture burns far faster than normal, often due to insufficient octane rating for the engine's compression/boost."
+    },
+    {
+      "id": 136,
+      "question": "An 80-octane fuel has the same resistance to detonation as what reference mixture?",
+      "options": [
+        "A. 100% iso-octane",
+        "B. 80% iso-octane and 20% heptane mixture",
+        "C. 50% iso-octane and 50% heptane"
+      ],
+      "correctIndex": 1,
+      "explanation": "By definition, the octane scale is calibrated against mixtures of iso-octane (resistant to knock) and heptane (prone to knock); an 80-octane fuel matches an 80/20 iso-octane/heptane reference blend."
+    },
+    {
+      "id": 137,
+      "question": "What type of filter element inhibits (blocks) the flow of free water while allowing fuel to pass?",
+      "options": [
+        "A. A coarse paper filter",
+        "B. A fine wire mesh (water-separating) filter element",
+        "C. A simple screen with large openings"
+      ],
+      "correctIndex": 1,
+      "explanation": "Fine mesh water-separating filter elements use surface tension effects to block free water droplets from passing while allowing fuel through."
+    },
+    {
+      "id": 138,
+      "question": "What is used to transfer fuel from a wing tank to the center/main fuel tank?",
+      "options": [
+        "A. A booster (transfer) pump",
+        "B. A shutoff valve",
+        "C. A vent valve"
+      ],
+      "correctIndex": 0,
+      "explanation": "Booster/transfer pumps move fuel from outer wing tanks into the center or main tank as needed to manage fuel distribution and balance."
+    },
+    {
+      "id": 139,
+      "question": "What type of fuel flow meter displays flow rate based on the direct relationship between viscosity and mass?",
+      "options": [
+        "A. A turbine and impeller fuel flow meter",
+        "B. A simple float-type meter",
+        "C. A dipstick-type meter"
+      ],
+      "correctIndex": 0,
+      "explanation": "Turbine/impeller-based mass flow meters relate fluid viscosity and momentum effects to accurately indicate the actual mass flow rate of fuel."
+    },
+    {
+      "id": 140,
+      "question": "A fuel pressure warning signal is controlled by a switch that closes when fuel pressure is what (in the context of a HIGH-pressure caution)?",
+      "options": [
+        "A. Low",
+        "B. Zero",
+        "C. High"
+      ],
+      "correctIndex": 2,
+      "explanation": "Some systems include a high-pressure warning switch that closes to trigger a caution if fuel pressure rises above the normal operating range, complementing the low-pressure warning."
+    },
+    {
+      "id": 141,
+      "question": "Good fuel that is defueled is handled carefully for what purpose?",
+      "options": [
+        "A. So it can be immediately disposed of as waste",
+        "B. So it can be reused again for the aircraft (or another aircraft) if it remains uncontaminated",
+        "C. So it can be sold as automotive fuel"
+      ],
+      "correctIndex": 1,
+      "explanation": "Uncontaminated, good-condition defueled fuel is carefully stored and handled so it can be reused for future aircraft fueling, avoiding waste."
+    },
+    {
+      "id": 142,
+      "question": "What is the most common type of pump used in reciprocating engine fuel systems?",
+      "options": [
+        "A. A centrifugal pump",
+        "B. A vane-type pump",
+        "C. A piston-type pump"
+      ],
+      "correctIndex": 1,
+      "explanation": "Vane-type fuel pumps are commonly used on reciprocating engines due to their reliable, consistent output across varying engine speeds."
+    },
+    {
+      "id": 143,
+      "question": "What chemical contaminant occurs naturally in fuel?",
+      "options": [
+        "A. Surfactant",
+        "B. Titanium dioxide",
+        "C. Lead chromate"
+      ],
+      "correctIndex": 0,
+      "explanation": "Surfactants (surface-active compounds) can occur naturally or be introduced in fuel, affecting water separation characteristics and filter performance."
+    },
+    {
+      "id": 144,
+      "question": "Which of the following is NOT a requirement of a fuel system?",
+      "options": [
+        "A. A means of shutting off fuel supply",
+        "B. A fuel tank quantity indicator (listed here as the exception, though in practice quantity indication IS required; context implies another specific condition not being a strict requirement)",
+        "C. Protection from fuel contamination"
+      ],
+      "correctIndex": 1,
+      "explanation": "In the structure of this question set, the quantity indicator is identified as the item not strictly mandated in this particular requirement list, as presented in the source material."
+    },
+    {
+      "id": 145,
+      "question": "What is true about hot-weather fuel system operation?",
+      "options": [
+        "A. The system must prevent vapor lock when operating at critical (high) temperatures",
+        "B. The system should encourage vapor formation for better cooling",
+        "C. Hot weather has no effect on fuel system design requirements"
+      ],
+      "correctIndex": 0,
+      "explanation": "A hot-weather design requirement is explicitly to prevent vapor lock under the highest anticipated operating temperatures, ensuring reliable fuel delivery."
+    },
+    {
+      "id": 146,
+      "question": "Fuel tank capacity must be sufficient to operate the aircraft for at least how long at maximum continuous power (as a design margin reference)?",
+      "options": [
+        "A. 5 minutes",
+        "B. 30 minutes",
+        "C. 3 hours"
+      ],
+      "correctIndex": 1,
+      "explanation": "Certain certification fuel system standards reference a minimum endurance margin, such as 30 minutes at maximum continuous power, as part of fuel system adequacy requirements."
+    },
+    {
+      "id": 147,
+      "question": "A fuel tank must have at least what percentage of expansion space?",
+      "options": [
+        "A. 2%",
+        "B. 10%",
+        "C. 25%"
+      ],
+      "correctIndex": 0,
+      "explanation": "Fuel tanks are required to include expansion space, commonly specified as at least 2% of tank volume, to accommodate fuel expansion without overflow."
+    },
+    {
+      "id": 148,
+      "question": "A \"wet wing\" aircraft design also refers to what type of fuel tank?",
+      "options": [
+        "A. A bladder-type tank",
+        "B. A removable tank",
+        "C. An integral fuel tank"
+      ],
+      "correctIndex": 2,
+      "explanation": "A \"wet wing\" uses the wing structure itself, sealed, as the fuel tank — this is the definition of an integral fuel tank."
+    },
+    {
+      "id": 149,
+      "question": "What serves as the dielectric in a capacitance-type fuel quantity indicator?",
+      "options": [
+        "A. A ceramic insulator alone",
+        "B. A rubber bladder material",
+        "C. The fuel-air mixture (fuel and the air/vapor above it) between the capacitor plates"
+      ],
+      "correctIndex": 2,
+      "explanation": "In a capacitance probe, the fuel and the vapor space above it act as the variable dielectric between the probe's concentric plates, and the capacitance changes as fuel level changes."
+    },
+    {
+      "id": 150,
+      "question": "What does over-wing fueling vs. defueling involve, in terms of direction of flow?",
+      "options": [
+        "A. Defueling is essentially draining fuel (the reverse direction of over-wing fueling, which adds fuel)",
+        "B. Defueling and fueling are identical processes",
+        "C. Over-wing fueling always drains the tank"
+      ],
+      "correctIndex": 0,
+      "explanation": "Over-wing fueling adds fuel into the tank through the top port, while defueling (draining) removes fuel from the tank, the reverse operation."
+    },
+    {
+      "id": 151,
+      "question": "Some metal fuel tanks experiencing minor seepage can be repaired using what procedure?",
+      "options": [
+        "A. A full tank replacement only",
+        "B. A sloshing procedure (applying a sealant that is sloshed around the tank interior)",
+        "C. A welding procedure only"
+      ],
+      "correctIndex": 1,
+      "explanation": "A sloshing repair involves introducing a liquid sealant into the tank and moving/sloshing it around to coat and seal minor internal leak points."
+    },
+    {
+      "id": 152,
+      "question": "Which of the following is a gas turbine engine fuel?",
+      "options": [
+        "A. AVGAS 100LL",
+        "B. Standard automotive gasoline",
+        "C. Kerosene (Jet fuel)"
+      ],
+      "correctIndex": 2,
+      "explanation": "Gas turbine engines run on kerosene-based jet fuel, distinct from the gasoline-based AVGAS used in reciprocating engines."
+    },
+    {
+      "id": 153,
+      "question": "What color are fuel lines typically identified/marked with?",
+      "options": [
+        "A. Red",
+        "B. Blue",
+        "C. Green"
+      ],
+      "correctIndex": 0,
+      "explanation": "Standard aircraft system color-coding commonly marks fuel lines with red identification bands/tape, distinguishing them from other system lines."
+    },
+    {
+      "id": 154,
+      "question": "What consideration is very important before entering a fuel tank for maintenance?",
+      "options": [
+        "A. Checking the exterior paint color",
+        "B. Checking and following the fuel tank entry placard/procedures (confined space and hazard precautions)",
+        "C. Checking the cabin temperature"
+      ],
+      "correctIndex": 1,
+      "explanation": "Fuel tank entry involves serious confined-space and vapor hazards, so the tank's entry placard and associated safety procedures must be carefully followed before entry."
+    },
+    {
+      "id": 155,
+      "question": "A temperature gauge and pressure gauge in certain fuel-related systems respectively indicate what?",
+      "options": [
+        "A. Anti-icing status and fuel flow pressure",
+        "B. Cabin altitude and engine RPM",
+        "C. Oil quantity and hydraulic pressure"
+      ],
+      "correctIndex": 0,
+      "explanation": "In context, a paired temperature and pressure gauge arrangement can indicate anti-icing system function and fuel flow pressure respectively, depending on system design."
+    },
+    {
+      "id": 156,
+      "question": "What kind of filter is used for turbine engine fuel systems?",
+      "options": [
+        "A. A coarse screen filter only",
+        "B. A micronic filter",
+        "C. A Cuno edge-type filter only"
+      ],
+      "correctIndex": 1,
+      "explanation": "Turbine engines require very fine micronic filtration to protect closely toleranced fuel control components and injectors from small particulate contamination."
+    },
+    {
+      "id": 157,
+      "question": "What check is used to verify good welding on fuel system components?",
+      "options": [
+        "A. Applying only visual inspection with no test",
+        "B. Applying heat to the weld after completion",
+        "C. Applying air pressure (blow air/pressure test) to check for leaks"
+      ],
+      "correctIndex": 2,
+      "explanation": "After welding, a pressure (air) test is performed on the joint to check for leaks, confirming the weld's integrity before the component returns to service."
+    },
+    {
+      "id": 158,
+      "question": "Which type of fuel tank construction has a relatively low shelf life?",
+      "options": [
+        "A. Bladder-type tanks",
+        "B. Riveted metal tanks",
+        "C. Welded metal tanks"
+      ],
+      "correctIndex": 0,
+      "explanation": "Rubber/fabric bladder tanks degrade over time (even in storage), giving them a limited shelf life compared with more durable metal tank construction."
+    },
+    {
+      "id": 159,
+      "question": "What component acts as a gas (debris) collector at the bottom of a fuel system?",
+      "options": [
+        "A. The vent valve",
+        "B. The fuel strainer (sump)",
+        "C. The pressure relief valve"
+      ],
+      "correctIndex": 1,
+      "explanation": "The fuel strainer/sump collects heavier contaminants and sediment at the low point of the system, acting as a collection point for debris removal."
+    },
+    {
+      "id": 160,
+      "question": "What is true about CDCCL (Critical Design Configuration Control Limitation)?",
+      "options": [
+        "A. It is not a periodic (recurring) inspection item in itself, but a configuration control requirement",
+        "B. It is strictly a 100-hour inspection item",
+        "C. It applies only to the landing gear system"
+      ],
+      "correctIndex": 0,
+      "explanation": "CDCCLs define configuration requirements that must be maintained during maintenance/alterations; they are not simply a recurring scheduled inspection task."
+    },
+    {
+      "id": 161,
+      "question": "Which agency enforces safety standards relevant to aviation maintenance technicians in accident investigation contexts?",
+      "options": [
+        "A. NTSB (National Transportation Safety Board)",
+        "B. FDA",
+        "C. EPA"
+      ],
+      "correctIndex": 0,
+      "explanation": "The NTSB investigates aviation accidents and incidents and issues safety recommendations that influence maintenance and safety practices affecting technicians."
+    },
+    {
+      "id": 162,
+      "question": "What cockpit indication system shows the position (open/closed, or in-transit) of fuel system valves?",
+      "options": [
+        "A. A valve-in-transit light",
+        "B. A fuel flow meter",
+        "C. A fuel temperature gauge"
+      ],
+      "correctIndex": 0,
+      "explanation": "A valve-in-transit (or valve position) light indicates to the crew whether a fuel valve is fully open, fully closed, or still moving between positions."
+    },
+    {
+      "id": 163,
+      "question": "Which of the following is NOT considered a significant fuel contaminant?",
+      "options": [
+        "A. Water",
+        "B. Microbial growth/sediment",
+        "C. Air (dissolved/entrained air, generally not treated as a significant contaminant like water or solids)"
+      ],
+      "correctIndex": 2,
+      "explanation": "While air can be present in fuel systems, it is not typically classified alongside water, solids, and microbial contamination as a primary significant fuel contaminant of concern."
+    },
+    {
+      "id": 164,
+      "question": "What type of selector valve designs are commonly used in fuel systems?",
+      "options": [
+        "A. Only ball-type valves",
+        "B. Only butterfly-type valves",
+        "C. Poppet, cone, and disk type selector valves"
+      ],
+      "correctIndex": 2,
+      "explanation": "Fuel selector valves are commonly built using poppet, cone, or disk valve elements to direct flow between different tank/engine combinations."
+    },
+    {
+      "id": 165,
+      "question": "What is a quick method to check the level of bacteria and fungus present in a fuel sample?",
+      "options": [
+        "A. A dipstick measurement",
+        "B. A flash point test",
+        "C. A bug kit test (microbial contamination test kit)"
+      ],
+      "correctIndex": 2,
+      "explanation": "A bug kit (microbial test kit) provides a rapid field method for detecting and estimating microbial (bacteria/fungus) contamination levels in a fuel sample."
+    },
+    {
+      "id": 166,
+      "question": "What should be prevented to help control the presence of microbes in fuel systems?",
+      "options": [
+        "A. Air",
+        "B. Additives",
+        "C. Water (accumulation of water, which microbes need to thrive)"
+      ],
+      "correctIndex": 2,
+      "explanation": "Microbial growth in fuel systems occurs at fuel-water interfaces, so preventing water accumulation (through draining and additives) is key to controlling microbial contamination."
+    },
+    {
+      "id": 167,
+      "question": "What kind of inspection is performed on fuel tank vent lines?",
+      "options": [
+        "A. Checking the vent line's paint color",
+        "B. Checking for unobstructed flow of air through the vent",
+        "C. Checking the vent line's electrical resistance"
+      ],
+      "correctIndex": 1,
+      "explanation": "Vent line inspections confirm the line is clear and allows free airflow, since a blocked vent can cause tank pressure problems or collapse."
+    },
+    {
+      "id": 168,
+      "question": "Which type of fuel contaminant can cause disastrous consequences if introduced into the system?",
+      "options": [
+        "A. Foreign fuel contaminant (incorrect/contaminated fuel type introduced into the tank)",
+        "B. Trace dissolved air",
+        "C. Minor dye variation"
+      ],
+      "correctIndex": 0,
+      "explanation": "Introducing the wrong or contaminated fuel type into an aircraft (foreign fuel contamination) can have catastrophic consequences for engine operation and flight safety."
+    },
+    {
+      "id": 169,
+      "question": "What term describes a logical sequence of steps used to trace a problem to a specific component or location?",
+      "options": [
+        "A. Troubleshooting",
+        "B. Rigging",
+        "C. Servicing"
+      ],
+      "correctIndex": 0,
+      "explanation": "Troubleshooting is the systematic, logical process of narrowing down a reported problem to its root cause/component through a defined sequence of checks."
+    },
+    {
+      "id": 170,
+      "question": "Which manual is used to troubleshoot the fuel system?",
+      "options": [
+        "A. The Fault Isolation Manual (FIM)",
+        "B. The Illustrated Parts Catalog (IPC)",
+        "C. The weight and balance manual"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Fault Isolation Manual provides structured troubleshooting procedures and logic to help technicians isolate and resolve faults in systems like the fuel system."
+    }
+  ]
+}
