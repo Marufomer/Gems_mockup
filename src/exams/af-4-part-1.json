@@ -1,0 +1,860 @@
+{
+  "id": "af-4-part-1",
+  "title": "AF-4-part-1",
+  "module": "AF-4-M1",
+  "course": "airframe",
+  "category": "part",
+  "description": "Airframe exam covering landing gear systems: shock struts, retraction/extension, brakes and brake systems, steering, tires and wheels, and related components and inspection practices, drawn from the AF-4 landing gear question/answer bank.",
+  "durationMinutes": 150,
+  "totalQuestions": 77,
+  "color": "green",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which hydraulic configuration on light aircraft is easy to service?",
+      "options": [
+        "A. A fully centralized multi-system network",
+        "B. A triple-redundant system",
+        "C. A power pack (self-contained unit)"
+      ],
+      "correctIndex": 2,
+      "explanation": "A self-contained power pack bundles the pump, reservoir, and valves into one compact unit, making it simpler to service on light aircraft."
+    },
+    {
+      "id": 2,
+      "question": "What should be installed when removing the landing gear?",
+      "options": [
+        "A. A tow bar",
+        "B. A chock on the nose wheel only",
+        "C. A down-lock (ground safety) pin"
+      ],
+      "correctIndex": 2,
+      "explanation": "Before removing or working on the landing gear, a down-lock/ground safety pin is installed to mechanically prevent accidental retraction."
+    },
+    {
+      "id": 3,
+      "question": "What does an isolated (independent) hydraulic brake system have?",
+      "options": [
+        "A. Independent brakes, separate from the main aircraft hydraulic system",
+        "B. Shared pressure with flight controls only",
+        "C. No accumulator at all"
+      ],
+      "correctIndex": 0,
+      "explanation": "An isolated/independent brake system has its own self-contained hydraulic supply (reservoir, master cylinders) separate from the main aircraft hydraulic system."
+    },
+    {
+      "id": 4,
+      "question": "What does \"positive locking\" refer to with respect to landing gear?",
+      "options": [
+        "A. An electrical interlock only",
+        "B. A hydraulic pressure switch",
+        "C. A ground landing gear lock (mechanical down-lock device)"
+      ],
+      "correctIndex": 2,
+      "explanation": "Positive locking refers to a mechanical ground lock that physically secures the landing gear in the down position, independent of hydraulic pressure."
+    },
+    {
+      "id": 5,
+      "question": "Which type of landing gear absorbs landing energy primarily through a flexing metal element?",
+      "options": [
+        "A. Spring (leaf/tube) gear",
+        "B. Oleo-pneumatic gear",
+        "C. Bungee cord gear"
+      ],
+      "correctIndex": 0,
+      "explanation": "Spring-type gear (such as a tapered spring steel or composite leg) absorbs and dissipates landing shock through the flexing of the spring material itself."
+    },
+    {
+      "id": 6,
+      "question": "What is the purpose of a tire chine?",
+      "options": [
+        "A. To deflect water sideways, away from the engine/airframe",
+        "B. To increase tire traction on dry runways",
+        "C. To reduce tire weight"
+      ],
+      "correctIndex": 0,
+      "explanation": "Chine tires have a molded deflector rib that throws water and slush sideways during takeoff/landing, helping protect aft-mounted engines from spray ingestion."
+    },
+    {
+      "id": 7,
+      "question": "Which landing gear arrangement has the two main gear positioned forward of the aircraft's center of gravity?",
+      "options": [
+        "A. Tricycle gear",
+        "B. Conventional (tailwheel) gear",
+        "C. Tandem gear"
+      ],
+      "correctIndex": 1,
+      "explanation": "In conventional (tailwheel) gear arrangements, the main wheels sit forward of the CG, with a small tailwheel supporting the rear of the aircraft."
+    },
+    {
+      "id": 8,
+      "question": "Overinflated aircraft tires may cause what type of damage?",
+      "options": [
+        "A. Excessive wear on the shoulders of the tread",
+        "B. Sidewall cracking only",
+        "C. Excessive wear in the center of the tread"
+      ],
+      "correctIndex": 2,
+      "explanation": "An overinflated tire bulges in the center of its contact patch, concentrating wear and causing premature tread wear specifically down the center."
+    },
+    {
+      "id": 9,
+      "question": "Which of the following correctly describes a trunnion?",
+      "options": [
+        "A. A hydraulic valve that controls gear sequencing",
+        "B. A tire bead seating ring",
+        "C. A fixed structural extension with bearing surfaces that allows the entire landing gear assembly to pivot/move"
+      ],
+      "correctIndex": 2,
+      "explanation": "The trunnion is a structural pivot point, fixed to the aircraft, with bearings that let the landing gear leg rotate for retraction/extension."
+    },
+    {
+      "id": 10,
+      "question": "A power-boost brake system is typically used on aircraft that are...",
+      "options": [
+        "A. Too slow and too light to need hydraulic brakes at all",
+        "B. Only used on ultralight gliders",
+        "C. Too fast and too heavy for simple master-cylinder-only brakes (yet not large enough for a full power brake system)"
+      ],
+      "correctIndex": 2,
+      "explanation": "Power-boost brakes add hydraulic assistance to pilot-applied pedal force for aircraft whose speed/weight exceeds what simple mechanical/hydraulic master cylinders alone can handle."
+    },
+    {
+      "id": 11,
+      "question": "Why does a metering pin in an oleo strut have a tapered shape?",
+      "options": [
+        "A. To reduce the weight of the pin",
+        "B. To gradually increase resistance to fluid flow as the strut compresses",
+        "C. To allow easier manufacturing only"
+      ],
+      "correctIndex": 1,
+      "explanation": "The tapered metering pin varies the size of the orifice it passes through as the strut compresses, progressively increasing flow resistance (and damping) through the stroke."
+    },
+    {
+      "id": 12,
+      "question": "What is the purpose of the torque link (torque arm/scissor link) on a landing gear strut?",
+      "options": [
+        "A. To align the wheel (keep the lower sliding cylinder from rotating relative to the upper cylinder)",
+        "B. To absorb all vertical landing shock",
+        "C. To steer the nose wheel electrically"
+      ],
+      "correctIndex": 0,
+      "explanation": "Torque links connect the upper and lower strut cylinders, preventing the lower (axle) cylinder from rotating out of alignment while still allowing the strut to extend/compress."
+    },
+    {
+      "id": 13,
+      "question": "Which of the following is NOT considered a landing gear safety device?",
+      "options": [
+        "A. A towing lug",
+        "B. A ground lock pin",
+        "C. A squat (weight-on-wheels) switch"
+      ],
+      "correctIndex": 0,
+      "explanation": "A towing lug is a structural attachment point for ground handling, not a safety device meant to prevent inadvertent gear retraction or indicate gear status."
+    },
+    {
+      "id": 14,
+      "question": "What is the purpose of shimmy dampers on landing gear?",
+      "options": [
+        "A. To absorb vertical landing impact",
+        "B. To steer the nose wheel",
+        "C. To reduce wheel vibration (shimmy) at high speed"
+      ],
+      "correctIndex": 2,
+      "explanation": "Shimmy dampers resist the rapid side-to-side oscillation (shimmy) that can occur in a free-castering wheel at higher taxi/rollout speeds."
+    },
+    {
+      "id": 15,
+      "question": "Differential braking is used as an additional form of directional control when...",
+      "options": [
+        "A. The normal nose wheel steering system has failed",
+        "B. The aircraft is parked",
+        "C. The flaps are fully extended"
+      ],
+      "correctIndex": 0,
+      "explanation": "If nose wheel steering fails, applying brakes differentially (more on one main wheel than the other) can help the pilot maintain or change direction during taxi/rollout."
+    },
+    {
+      "id": 16,
+      "question": "Which valve relieves tire and wheel pressure if the tire/wheel assembly is exposed to overinflation or overheating?",
+      "options": [
+        "A. A compensator valve",
+        "B. A pressure relief (fuse/thermal) plug/valve",
+        "C. A metering pin"
+      ],
+      "correctIndex": 1,
+      "explanation": "A thermal/pressure relief plug melts or vents at a set pressure/temperature, safely deflating an overinflated or overheated tire before it can burst violently."
+    },
+    {
+      "id": 17,
+      "question": "What keeps the hydraulic pressure of the brakes and steering systems maintained separately in some designs?",
+      "options": [
+        "A. A single shared reservoir with no separation",
+        "B. A shimmy damper",
+        "C. An accumulator and compensator arrangement"
+      ],
+      "correctIndex": 2,
+      "explanation": "Dedicated accumulators and compensator valves allow brake and steering hydraulic pressures to be independently maintained without interfering with each other."
+    },
+    {
+      "id": 18,
+      "question": "During tire inspection, if the measured result falls within the operational range shown on the service chart, what should be done?",
+      "options": [
+        "A. Replace the tire immediately regardless of chart result",
+        "B. Deflate the tire to zero pressure",
+        "C. Continue normal operation"
+      ],
+      "correctIndex": 2,
+      "explanation": "If wear or damage measurements fall within acceptable limits per the service chart, the tire remains airworthy and operation continues normally."
+    },
+    {
+      "id": 19,
+      "question": "The pilot has full (differential) control of the brakes for taxiing and towing when...",
+      "options": [
+        "A. Wheel speed exceeds 100 mph",
+        "B. Wheel speed is less than about 20 mph",
+        "C. The parking brake is set"
+      ],
+      "correctIndex": 1,
+      "explanation": "At low taxi/towing speeds (roughly under 20 mph), differential and full brake authority is typically available to the pilot for maneuvering."
+    },
+    {
+      "id": 20,
+      "question": "What is a disadvantage of using carbon brake/wheel assemblies?",
+      "options": [
+        "A. Their excessive weight compared with steel brakes",
+        "B. Their high manufacturing cost",
+        "C. Their poor heat tolerance"
+      ],
+      "correctIndex": 1,
+      "explanation": "Carbon brakes, while lighter and more heat-tolerant than steel, are considerably more expensive to manufacture."
+    },
+    {
+      "id": 21,
+      "question": "How do non-shock-absorbing (rigid) landing gear designs dissipate impact energy?",
+      "options": [
+        "A. By venting energy through hydraulic fluid heating",
+        "B. By transferring impact energy into the overall airframe structure over time, rather than at a single instant",
+        "C. By compressing an internal spring"
+      ],
+      "correctIndex": 1,
+      "explanation": "Rigid (non-absorbing) gear relies on the overall airframe's flexibility to spread out and absorb impact energy over the structure, rather than a dedicated shock-absorbing strut."
+    },
+    {
+      "id": 22,
+      "question": "What is the purpose of the compensator (compensating) port in a brake master cylinder?",
+      "options": [
+        "A. To regulate antiskid braking",
+        "B. To provide emergency brake pressure",
+        "C. To allow fluid to move between the reservoir and master cylinder as fluid volume changes with temperature"
+      ],
+      "correctIndex": 2,
+      "explanation": "The compensator port lets fluid expand into or contract from the reservoir as temperature changes, preventing pressure buildup in the brake line when the brakes are released."
+    },
+    {
+      "id": 23,
+      "question": "What stabilizes the landing gear longitudinally (fore and aft)?",
+      "options": [
+        "A. A side strut",
+        "B. A torque link",
+        "C. A drag strut (brace)"
+      ],
+      "correctIndex": 2,
+      "explanation": "The drag strut (or drag brace) resists fore-and-aft loads on the landing gear leg, providing longitudinal stability, while side struts handle lateral loads."
+    },
+    {
+      "id": 24,
+      "question": "What is used to regulate the flow of hydraulic fluid as the landing gear strut is compressed?",
+      "options": [
+        "A. The torque link",
+        "B. The metering pin",
+        "C. The drag strut"
+      ],
+      "correctIndex": 1,
+      "explanation": "The metering pin, moving through a variable orifice as the strut compresses, regulates oil flow and controls the shock strut's damping characteristics."
+    },
+    {
+      "id": 25,
+      "question": "What is used to reduce brake system pressure while increasing fluid volume delivered to the brakes?",
+      "options": [
+        "A. A compensator",
+        "B. A metering pin",
+        "C. A brake (de)booster"
+      ],
+      "correctIndex": 2,
+      "explanation": "A brake debooster reduces high system pressure to a lower, safer brake pressure while delivering a larger volume of fluid, matching brake piston requirements."
+    },
+    {
+      "id": 26,
+      "question": "Where are the brakes of a landing gear typically mounted?",
+      "options": [
+        "A. On the wheel (on a flange associated with the wheel/axle assembly)",
+        "B. On the drag strut",
+        "C. On the trunnion"
+      ],
+      "correctIndex": 0,
+      "explanation": "Brake assemblies are mounted on or around the wheel, commonly attached to a flange on the axle/torque plate associated with the wheel assembly."
+    },
+    {
+      "id": 27,
+      "question": "What is checked during inspection of control cables?",
+      "options": [
+        "A. Only the cable color coding",
+        "B. Only the cable's manufacturing date stamp",
+        "C. Safetying and proper tightening/tension"
+      ],
+      "correctIndex": 2,
+      "explanation": "Cable inspections check for proper tension (safetying) and tightness of connections, along with wear, corrosion, and broken strands."
+    },
+    {
+      "id": 28,
+      "question": "A \"spongy\" (soft, mushy) brake pedal feel typically indicates what?",
+      "options": [
+        "A. Overfilled brake fluid reservoir",
+        "B. Worn brake linings only",
+        "C. Air trapped in the hydraulic brake system"
+      ],
+      "correctIndex": 2,
+      "explanation": "Air trapped in the brake hydraulic lines compresses under pedal pressure, producing a soft, spongy pedal feel instead of firm, immediate braking response."
+    },
+    {
+      "id": 29,
+      "question": "What does the compensator port do in an independent master cylinder brake system?",
+      "options": [
+        "A. Permits fluid to flow toward or away from the reservoir as fluid volume changes with temperature",
+        "B. Boosts brake pressure using engine power",
+        "C. Locks the brakes when parked"
+      ],
+      "correctIndex": 0,
+      "explanation": "The compensator port equalizes fluid volume between the master cylinder and reservoir as temperature-driven expansion or contraction occurs, preventing residual pressure."
+    },
+    {
+      "id": 30,
+      "question": "Other than the steering tiller, what other cockpit control is used to steer the nose gear?",
+      "options": [
+        "A. The throttle levers",
+        "B. The flap handle",
+        "C. The rudder pedals"
+      ],
+      "correctIndex": 2,
+      "explanation": "On many aircraft, rudder pedal inputs are mechanically or hydraulically linked to provide limited nose wheel steering, in addition to a dedicated tiller for tighter ground maneuvering."
+    },
+    {
+      "id": 31,
+      "question": "Multiple-disc brakes are typically used in conjunction with what type of system?",
+      "options": [
+        "A. A simple mechanical cable brake system",
+        "B. No hydraulic system at all",
+        "C. A power-boost master cylinder brake system"
+      ],
+      "correctIndex": 2,
+      "explanation": "Multiple-disc brake assemblies, which handle higher loads, are commonly paired with power-boost (hydraulically assisted) master cylinder systems."
+    },
+    {
+      "id": 32,
+      "question": "If the piston return spring malfunctions in a brake master cylinder, what happens?",
+      "options": [
+        "A. The brakes will apply with double force",
+        "B. The reservoir will overfill immediately",
+        "C. The piston will not retract fully back to its released position"
+      ],
+      "correctIndex": 2,
+      "explanation": "A failed return spring prevents the master cylinder piston from fully returning after brake release, which can cause dragging brakes or incomplete fluid return."
+    },
+    {
+      "id": 33,
+      "question": "During brake inspection and repair, what is a correct consideration regarding mismatched components?",
+      "options": [
+        "A. Any lining material can be used regardless of thickness",
+        "B. Brake linings never need inspection",
+        "C. Brake lining material/thickness must match the approved specification for that brake assembly"
+      ],
+      "correctIndex": 2,
+      "explanation": "Using a mismatched or incorrect brake lining (wrong thickness/material) compared with the approved specification can lead to improper brake performance or premature failure."
+    },
+    {
+      "id": 34,
+      "question": "What is the most common bleeding method used for a power brake system?",
+      "options": [
+        "A. Bleeding from bottom to top",
+        "B. Bleeding from top to bottom",
+        "C. No bleeding is ever required"
+      ],
+      "correctIndex": 1,
+      "explanation": "Power brake systems are commonly bled starting from the top (master cylinder/reservoir end) working down toward the brake unit to purge trapped air effectively."
+    },
+    {
+      "id": 35,
+      "question": "What is true when removing an aircraft wheel and brake assembly?",
+      "options": [
+        "A. The shimmy damper must always be removed first",
+        "B. The brake hose assembly must be disconnected",
+        "C. The tire must be fully inflated during removal"
+      ],
+      "correctIndex": 1,
+      "explanation": "Removing a wheel and brake assembly requires disconnecting the brake hose (fluid line) from the brake unit before the wheel can be taken off the axle."
+    },
+    {
+      "id": 36,
+      "question": "What is a means of reducing parasite drag related to the landing gear?",
+      "options": [
+        "A. Using retractable landing gear",
+        "B. Using larger tires",
+        "C. Adding more struts"
+      ],
+      "correctIndex": 0,
+      "explanation": "Retracting the landing gear into the airframe during flight removes it from the airstream, significantly reducing parasite drag compared with fixed gear."
+    },
+    {
+      "id": 37,
+      "question": "The steering tiller is used to steer the aircraft from where?",
+      "options": [
+        "A. The ground crew's tow vehicle only",
+        "B. The wheel well",
+        "C. The flight deck (cockpit)"
+      ],
+      "correctIndex": 2,
+      "explanation": "The tiller is a cockpit control, typically on the side console, used by the pilot to steer the nose wheel during ground operations, especially tight turns."
+    },
+    {
+      "id": 38,
+      "question": "What device locks the landing gear control lever whenever the aircraft is on the ground?",
+      "options": [
+        "A. A metering pin",
+        "B. A torque link",
+        "C. A landing gear safety (squat) switch"
+      ],
+      "correctIndex": 2,
+      "explanation": "The squat (weight-on-wheels) switch senses ground contact and mechanically/electrically locks out the gear control lever to prevent inadvertent retraction on the ground."
+    },
+    {
+      "id": 39,
+      "question": "What returns the brake pressure plate to its released position when the brake is released?",
+      "options": [
+        "A. The compensator port",
+        "B. The metering pin",
+        "C. A return spring"
+      ],
+      "correctIndex": 2,
+      "explanation": "A return spring pulls the brake pressure plate/piston back when hydraulic pressure is removed, releasing the brake and restoring clearance."
+    },
+    {
+      "id": 40,
+      "question": "The brake and steering systems are typically mounted, respectively, on which wheel assemblies?",
+      "options": [
+        "A. The nose wheel (brakes) and main wheels (steering)",
+        "B. The main wheels (brakes) and the auxiliary/nose wheel (steering)",
+        "C. Both systems share the same single wheel"
+      ],
+      "correctIndex": 1,
+      "explanation": "Brakes are mounted on the main landing gear wheels, while steering is applied through the nose (auxiliary) landing gear."
+    },
+    {
+      "id": 41,
+      "question": "What is true when removing an aircraft tire?",
+      "options": [
+        "A. The brake hose must always be cut",
+        "B. The shimmy damper should be disconnected (if applicable to that gear leg)",
+        "C. The axle nut should never be loosened"
+      ],
+      "correctIndex": 1,
+      "explanation": "Depending on the gear design, the shimmy damper linkage may need to be disconnected to allow removal of the wheel/tire assembly from the strut."
+    },
+    {
+      "id": 42,
+      "question": "What describes a brake system that has its own dedicated hydraulic fluid supply?",
+      "options": [
+        "A. A power brake actuating system using the main aircraft hydraulics",
+        "B. A pneumatic brake system",
+        "C. An independent brake system"
+      ],
+      "correctIndex": 2,
+      "explanation": "An independent brake system carries its own self-contained fluid reservoir, separate from the main aircraft hydraulic system that powers other functions."
+    },
+    {
+      "id": 43,
+      "question": "During taxiing with a spring-oleo type shock strut, shock/vibration is dampened primarily by what?",
+      "options": [
+        "A. Hydraulic fluid metering alone",
+        "B. The spring (mechanical flexing element)",
+        "C. Compressed air/nitrogen alone"
+      ],
+      "correctIndex": 1,
+      "explanation": "In a spring-oleo design, the mechanical spring element provides the primary damping/absorption of shocks and vibration during ground operations."
+    },
+    {
+      "id": 44,
+      "question": "Which component keeps the steering system under continuous pressure for shimmy damping?",
+      "options": [
+        "A. A compensator (pressure-maintaining unit)",
+        "B. A sequence valve",
+        "C. A squat switch"
+      ],
+      "correctIndex": 0,
+      "explanation": "A compensator unit maintains a steady preload/pressure in the steering/shimmy damper circuit, ensuring continuous damping action."
+    },
+    {
+      "id": 45,
+      "question": "The plies in radial tires are laid at approximately what angle to the direction of tire rotation?",
+      "options": [
+        "A. 15 degrees",
+        "B. 90 degrees",
+        "C. 45 degrees"
+      ],
+      "correctIndex": 1,
+      "explanation": "Radial tire construction lays the cord plies at approximately 90 degrees to the direction of rotation (radially across the tire), distinguishing it from bias-ply construction."
+    },
+    {
+      "id": 46,
+      "question": "How are landing gear positions (up/down) typically sensed for cockpit indication?",
+      "options": [
+        "A. Using thermocouples",
+        "B. Using proximity switches",
+        "C. Using accelerometers"
+      ],
+      "correctIndex": 1,
+      "explanation": "Proximity switches sense the physical position of the gear (extended/retracted) and feed signals to the cockpit indicating system."
+    },
+    {
+      "id": 47,
+      "question": "What is the name of the hydraulically operated valve that prevents the landing gear actuator from lowering the main gear before the wheel well doors are open?",
+      "options": [
+        "A. A compensator valve",
+        "B. A priority (sequencing) valve",
+        "C. A metering pin"
+      ],
+      "correctIndex": 1,
+      "explanation": "A priority/sequence valve ensures the gear doors open first before allowing gear extension, maintaining the correct order of operations."
+    },
+    {
+      "id": 48,
+      "question": "What does pulling a manual landing gear extension handle do?",
+      "options": [
+        "A. Immediately retracts the gear",
+        "B. Releases the gear's mechanical uplock, allowing it to free-fall and lock down",
+        "C. Activates the antiskid system"
+      ],
+      "correctIndex": 1,
+      "explanation": "The manual extension handle mechanically releases the uplock so gravity (and sometimes airflow) can lower and lock the gear in an emergency, independent of hydraulics."
+    },
+    {
+      "id": 49,
+      "question": "Which component is regarded as the \"brain\" of the antiskid braking system?",
+      "options": [
+        "A. The brake master cylinder",
+        "B. The antiskid control unit (computer)",
+        "C. The wheel speed tire"
+      ],
+      "correctIndex": 1,
+      "explanation": "The antiskid control unit processes wheel speed sensor data and commands brake pressure modulation to prevent skidding, acting as the system's central controller."
+    },
+    {
+      "id": 50,
+      "question": "In which type of wheel construction is an O-ring used between the wheel halves?",
+      "options": [
+        "A. Split-type wheels",
+        "B. One-piece (solid) wheels",
+        "C. Demountable rim wheels only"
+      ],
+      "correctIndex": 0,
+      "explanation": "Split-type wheels bolt two halves together around the tire bead, and an O-ring seal between the halves maintains an airtight seal."
+    },
+    {
+      "id": 51,
+      "question": "On which half of a split-type wheel are the brakes typically fitted?",
+      "options": [
+        "A. The inboard half",
+        "B. The outboard half",
+        "C. Both halves equally"
+      ],
+      "correctIndex": 0,
+      "explanation": "Brake components are mounted on the inboard half of a split wheel, facing the aircraft centerline where the brake mechanism attaches to the axle/torque plate."
+    },
+    {
+      "id": 52,
+      "question": "What is the role of the sequence valve in a landing gear system?",
+      "options": [
+        "A. To ensure proper operation of the landing gear and doors in the correct order",
+        "B. To regulate tire pressure",
+        "C. To cool the brakes"
+      ],
+      "correctIndex": 0,
+      "explanation": "A sequence valve times hydraulic flow so that, for example, gear doors open before the gear itself moves, ensuring correct mechanical sequencing."
+    },
+    {
+      "id": 53,
+      "question": "What is an advantage of conventional (tailwheel) landing gear?",
+      "options": [
+        "A. Easier ground visibility over the nose",
+        "B. Better suitability for rough, unimproved surface operation",
+        "C. Simpler braking requirements"
+      ],
+      "correctIndex": 1,
+      "explanation": "Conventional gear's design, with larger main wheels well forward and a small tailwheel, tends to handle rough or soft unimproved surfaces better than tricycle gear."
+    },
+    {
+      "id": 54,
+      "question": "During brake inspection and repair, which of the following describes a correct maintenance consideration (as opposed to a mismatch)?",
+      "options": [
+        "A. Linings never wear and never need inspection",
+        "B. Lining wear should be checked against specified limits before continued use",
+        "C. Any lining thickness is acceptable regardless of specification"
+      ],
+      "correctIndex": 1,
+      "explanation": "Routine brake inspection includes checking lining wear against the manufacturer's specified limits to determine if replacement is needed."
+    },
+    {
+      "id": 55,
+      "question": "Which type of brake design uses a drum with an internal expanding tube?",
+      "options": [
+        "A. An expander-tube brake",
+        "B. A disc brake",
+        "C. A caliper brake"
+      ],
+      "correctIndex": 0,
+      "explanation": "Expander-tube brakes use a flexible tube inside a drum that expands under hydraulic pressure, pressing brake blocks against the drum to create braking force."
+    },
+    {
+      "id": 56,
+      "question": "Which type of landing gear design dissipates landing energy primarily into the atmosphere (as heat)?",
+      "options": [
+        "A. The rigid, non-absorbing type",
+        "B. The spring-only type",
+        "C. The oleo-pneumatic (air/oil) shock strut type"
+      ],
+      "correctIndex": 2,
+      "explanation": "Oleo-pneumatic struts force hydraulic fluid through a metering orifice, converting kinetic landing energy into heat that dissipates into the surrounding air."
+    },
+    {
+      "id": 57,
+      "question": "What landing gear device is used for water surface operations?",
+      "options": [
+        "A. Skis",
+        "B. Floats (pontoons)",
+        "C. Tundra tires"
+      ],
+      "correctIndex": 1,
+      "explanation": "Floats (pontoons) replace or supplement conventional landing gear to allow an aircraft to operate from water surfaces."
+    },
+    {
+      "id": 58,
+      "question": "Why is it necessary to lubricate wheel bearings immediately after cleaning and inspection?",
+      "options": [
+        "A. To add weight for balance",
+        "B. To prevent corrosion of the freshly cleaned bearing surfaces",
+        "C. To change the bearing's color for inspection"
+      ],
+      "correctIndex": 1,
+      "explanation": "Freshly cleaned bearings are stripped of protective lubricant and are vulnerable to rapid corrosion if not promptly relubricated."
+    },
+    {
+      "id": 59,
+      "question": "Which component aligns the nose gear (centers it) before it retracts into the wheel well?",
+      "options": [
+        "A. A torque link",
+        "B. A centering cam (device)",
+        "C. A drag strut"
+      ],
+      "correctIndex": 1,
+      "explanation": "A centering cam mechanically straightens (centers) the nose wheel as the strut extends, ensuring it fits properly into the wheel well upon retraction."
+    },
+    {
+      "id": 60,
+      "question": "What is the function of the metering pin in an oleo shock strut?",
+      "options": [
+        "A. To control the flow of hydraulic fluid as the strut is compressed",
+        "B. To lock the gear in the extended position",
+        "C. To sense wheel speed"
+      ],
+      "correctIndex": 0,
+      "explanation": "The metering pin passes through the orifice as the strut compresses, progressively restricting oil flow and controlling the damping force throughout the stroke."
+    },
+    {
+      "id": 61,
+      "question": "What is the name of the part at the lower end of the strut (lower cylinder) that provides for installation of the aircraft wheel?",
+      "options": [
+        "A. The axle",
+        "B. The trunnion",
+        "C. The drag strut"
+      ],
+      "correctIndex": 0,
+      "explanation": "The axle is the stub shaft at the bottom of the landing gear leg onto which the wheel and tire assembly is mounted."
+    },
+    {
+      "id": 62,
+      "question": "Why are large airplanes often equipped with carbon disc brakes?",
+      "options": [
+        "A. Because carbon brakes offer light weight and extended service life compared with steel brakes",
+        "B. Because carbon brakes are cheaper to manufacture than steel brakes",
+        "C. Because carbon brakes require no maintenance at all"
+      ],
+      "correctIndex": 0,
+      "explanation": "Carbon brakes are favored on large aircraft because they are lighter and last longer (higher heat capacity, slower wear) than equivalent steel brake stacks."
+    },
+    {
+      "id": 63,
+      "question": "Which component is attached to the aircraft structure and allows the landing gear to pivot?",
+      "options": [
+        "A. The axle",
+        "B. The trunnion",
+        "C. The torque link"
+      ],
+      "correctIndex": 1,
+      "explanation": "The trunnion is the fixed pivot attachment point on the aircraft structure around which the landing gear leg rotates during retraction and extension."
+    },
+    {
+      "id": 64,
+      "question": "Which part of a tire is subject to wear from contact with the runway?",
+      "options": [
+        "A. The tread",
+        "B. The bead",
+        "C. The sidewall ply cords"
+      ],
+      "correctIndex": 0,
+      "explanation": "The tread is the outer rubber surface designed to contact the runway, and it is the part that wears down with use."
+    },
+    {
+      "id": 65,
+      "question": "What part of a tire provides the anchor point that seats the tire onto the wheel rim?",
+      "options": [
+        "A. The bead",
+        "B. The tread",
+        "C. The sidewall"
+      ],
+      "correctIndex": 0,
+      "explanation": "The bead is the reinforced edge of the tire that seats against the wheel rim, anchoring the tire securely and maintaining an airtight seal."
+    },
+    {
+      "id": 66,
+      "question": "Which valve is mechanically operated to control the landing gear and its doors in the correct sequence?",
+      "options": [
+        "A. The priority valve",
+        "B. The compensator valve",
+        "C. The sequence valve"
+      ],
+      "correctIndex": 2,
+      "explanation": "A mechanically actuated sequence valve ensures gear and door movements occur in the proper order during retraction/extension."
+    },
+    {
+      "id": 67,
+      "question": "What is an example of a brake master cylinder design that uses an external (remote) reservoir?",
+      "options": [
+        "A. A fully integral master cylinder with no reservoir",
+        "B. The Goodyear-type master cylinder (with remote reservoir)",
+        "C. A power-boost-only design with no master cylinder"
+      ],
+      "correctIndex": 1,
+      "explanation": "Some master cylinder designs, such as certain Goodyear units, use a separate external reservoir connected by a line rather than an integral built-in reservoir."
+    },
+    {
+      "id": 68,
+      "question": "For light aircraft, how does the pilot typically operate landing gear retraction and extension?",
+      "options": [
+        "A. Only through a fully automatic computer system",
+        "B. Only via voice command",
+        "C. Manually, operating a lever"
+      ],
+      "correctIndex": 2,
+      "explanation": "Many light aircraft use a simple mechanical or hydraulic system operated by the pilot moving a gear lever manually, rather than a complex automated system."
+    },
+    {
+      "id": 69,
+      "question": "What are systems called that use the aircraft's main hydraulic system as the power source to apply the brakes?",
+      "options": [
+        "A. Power brake actuating systems",
+        "B. Independent brake systems",
+        "C. Pneumatic brake systems"
+      ],
+      "correctIndex": 0,
+      "explanation": "Power brake systems tap into the aircraft's main hydraulic system pressure (rather than a dedicated independent reservoir) to actuate the brakes."
+    },
+    {
+      "id": 70,
+      "question": "When differential brakes are applied, which landing gear is used to steer the aircraft?",
+      "options": [
+        "A. The main landing gear",
+        "B. The nose landing gear",
+        "C. The tailwheel"
+      ],
+      "correctIndex": 0,
+      "explanation": "Differential braking applies more braking force to one main gear wheel than the other, creating a turning moment to help steer the aircraft."
+    },
+    {
+      "id": 71,
+      "question": "If the landing gear wheels converge toward each other at the front when viewed from above (along the longitudinal axis), this condition is called what?",
+      "options": [
+        "A. Toe-out",
+        "B. Toe-in",
+        "C. Camber"
+      ],
+      "correctIndex": 1,
+      "explanation": "Toe-in describes wheels angled so their leading edges point slightly inward toward each other, as opposed to toe-out where they point outward."
+    },
+    {
+      "id": 72,
+      "question": "Which type of tire has an inner liner (built into the tire itself rather than using a separate tube)?",
+      "options": [
+        "A. Tube type",
+        "B. Tubeless type",
+        "C. Bias-ply tube type only"
+      ],
+      "correctIndex": 1,
+      "explanation": "Tubeless tires incorporate an air-impermeable inner liner molded into the tire, eliminating the need for a separate inner tube."
+    },
+    {
+      "id": 73,
+      "question": "Which tire tread design is the most common on aircraft?",
+      "options": [
+        "A. Rib tread (longitudinal ribs)",
+        "B. Block (diamond) tread",
+        "C. Smooth (no tread) design"
+      ],
+      "correctIndex": 0,
+      "explanation": "Rib tread, with continuous circumferential grooves, is the most common aircraft tire tread pattern, providing good directional stability and wet traction."
+    },
+    {
+      "id": 74,
+      "question": "Overinflated aircraft tires may cause what condition?",
+      "options": [
+        "A. Excessive sidewall flexing",
+        "B. Premature (center) tread wear",
+        "C. Reduced landing speed capability"
+      ],
+      "correctIndex": 1,
+      "explanation": "Overinflation causes the tire to bulge, concentrating contact pressure (and therefore wear) in the center of the tread, leading to premature wear there."
+    },
+    {
+      "id": 75,
+      "question": "During approach for landing, hydraulic pressure is initially fed to what component?",
+      "options": [
+        "A. The landing gear door actuator",
+        "B. The brake master cylinder",
+        "C. The flap actuator only"
+      ],
+      "correctIndex": 0,
+      "explanation": "Gear extension sequencing typically opens the gear doors first by feeding pressure to the door actuator before the gear leg itself is lowered."
+    },
+    {
+      "id": 76,
+      "question": "How is the landing gear down-and-locked position typically indicated in the cockpit?",
+      "options": [
+        "A. A green light illuminates",
+        "B. A red light illuminates",
+        "C. An amber light flashes"
+      ],
+      "correctIndex": 0,
+      "explanation": "Standard cockpit indication uses a green light (per gear) to show that the landing gear is fully extended and mechanically locked down."
+    },
+    {
+      "id": 77,
+      "question": "Which type of brake system is typically used on medium-sized airplanes?",
+      "options": [
+        "A. A simple mechanical cable brake system only",
+        "B. A full independent power brake system identical to large transports",
+        "C. A power-boost brake system"
+      ],
+      "correctIndex": 2,
+      "explanation": "Medium-sized aircraft commonly use power-boost brake systems, which add hydraulic assistance to pedal input without the full complexity of large transport power brake systems."
+    }
+  ]
+}
