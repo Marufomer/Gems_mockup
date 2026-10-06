@@ -1,0 +1,915 @@
+{
+  "id": "af-7",
+  "title": "AF-7",
+  "module": "AF-7-M1,M2,M3",
+  "course": "airframe",
+  "category": "part",
+  "description": "Airframe exam covering ice and rain protection systems (pneumatic boots, thermal/thermo-electric anti-ice, windshield systems), water and waste systems (potable water, vacuum/liquid toilets, waste servicing), and cabin equipment/safety (seats, life vests, escape slides, crash axe, insulation), drawn from the AF-7 question/answer bank.",
+  "durationMinutes": 150,
+  "totalQuestions": 82,
+  "color": "green",
+  "questions": [
+    {
+      "id": 1,
+      "question": "What is the function of the converter in an electrical windshield wiper system?",
+      "options": [
+        "A. To convert AC power into DC power",
+        "B. To convert hydraulic pressure into electrical signal",
+        "C. To convert rotary motion into reciprocating (back-and-forth) motion"
+      ],
+      "correctIndex": 2,
+      "explanation": "A converter mechanism in the wiper motor assembly changes the motor's continuous rotary output into the back-and-forth reciprocating motion needed to sweep the wiper blade."
+    },
+    {
+      "id": 2,
+      "question": "What is the purpose of the Wing Anti-Ice (WAI) pressure sensor feedback to the ACIP (Anti-ice Control and Indication Panel) computer card?",
+      "options": [
+        "A. To measure fuel flow",
+        "B. To measure cabin altitude",
+        "C. For control and indication purposes"
+      ],
+      "correctIndex": 2,
+      "explanation": "The WAI pressure sensor feeds back actual duct pressure to the ACIP computer, which uses this for both automatic control logic and crew indication of system status."
+    },
+    {
+      "id": 3,
+      "question": "What are the main systems and subsystems that make up the water and waste system?",
+      "options": [
+        "A. Potable water system, waste water system, and toilet system",
+        "B. Fuel system, hydraulic system, and pneumatic system",
+        "C. Oxygen system, fire protection system, and avionics cooling system"
+      ],
+      "correctIndex": 0,
+      "explanation": "The aircraft water and waste system is commonly organized into potable (drinking/washing) water, waste water, and toilet subsystems."
+    },
+    {
+      "id": 4,
+      "question": "What is the minimum altitude above which the waste system's vacuum blower typically does not need to operate?",
+      "options": [
+        "A. 2,000 ft",
+        "B. 40,000 ft",
+        "C. 16,000 ft"
+      ],
+      "correctIndex": 2,
+      "explanation": "At sufficient cruise altitude, the large pressure differential between the cabin and outside air alone is enough to operate the vacuum toilet system, so above roughly 16,000 ft the blower may not need to run."
+    },
+    {
+      "id": 5,
+      "question": "Which component draws air from the waste system and removes it from the aircraft?",
+      "options": [
+        "A. The vacuum pump (blower)",
+        "B. The potable water pump",
+        "C. The heat exchanger"
+      ],
+      "correctIndex": 0,
+      "explanation": "A vacuum pump/blower creates the suction used in vacuum toilet systems and expels the resulting air overboard."
+    },
+    {
+      "id": 6,
+      "question": "What type of ice prevention method do aircraft with leading-edge slats commonly use?",
+      "options": [
+        "A. An electro-mechanical boot system",
+        "B. A pneumatic (bleed-air thermal) anti-ice system",
+        "C. A chemical fluid anti-ice system"
+      ],
+      "correctIndex": 1,
+      "explanation": "Slatted leading edges on larger aircraft commonly use hot bleed air routed through pneumatic ducting for thermal anti-icing of the slat leading edge."
+    },
+    {
+      "id": 7,
+      "question": "Which type of ice forms when water droplets spread across the entire surface and slowly freeze into a smooth sheet?",
+      "options": [
+        "A. Rime ice",
+        "B. Frost",
+        "C. Clear ice"
+      ],
+      "correctIndex": 2,
+      "explanation": "Clear ice forms when larger supercooled droplets spread out and freeze slowly and uniformly, producing a smooth, dense, transparent ice layer."
+    },
+    {
+      "id": 8,
+      "question": "Which component supports the reading light, air vent, and call button above each passenger seat?",
+      "options": [
+        "A. The Passenger Service Unit (PSU)",
+        "B. The overhead stowage bin",
+        "C. The seat track"
+      ],
+      "correctIndex": 0,
+      "explanation": "The PSU, mounted in the overhead panel above each seat row, houses the individual passenger reading light, air vent, call button, and oxygen mask compartment."
+    },
+    {
+      "id": 9,
+      "question": "Which of the following safety items is issued individually to each occupant, rather than shared?",
+      "options": [
+        "A. The life vest",
+        "B. The escape slide",
+        "C. The crash axe"
+      ],
+      "correctIndex": 0,
+      "explanation": "Each passenger and crew member is provided their own individual life vest, unlike shared equipment such as escape slides or the crash axe."
+    },
+    {
+      "id": 10,
+      "question": "How is ice formation on a propeller's leading edge typically prevented?",
+      "options": [
+        "A. Using a thermal-electric (electrically heated) system",
+        "B. Using a chemical fluid spray system",
+        "C. Using a mechanical scraper system"
+      ],
+      "correctIndex": 0,
+      "explanation": "Propeller anti-ice commonly uses electrically heated elements bonded to the blade leading edge/boots, supplied via slip rings, to prevent ice accumulation."
+    },
+    {
+      "id": 11,
+      "question": "Which of the following is NOT a cause of corrosion?",
+      "options": [
+        "A. Moisture trapped against bare metal",
+        "B. Primer and paint (these protect against corrosion rather than cause it)",
+        "C. Dissimilar metal contact (galvanic corrosion)"
+      ],
+      "correctIndex": 1,
+      "explanation": "Primer and paint are protective coatings applied specifically to prevent corrosion, not causes of it."
+    },
+    {
+      "id": 12,
+      "question": "What keeps pneumatic de-ice boots pulled tight against the wing surface when the system is off (not inflating)?",
+      "options": [
+        "A. The vacuum pump (maintaining a slight vacuum/suction on the boots)",
+        "B. The heating element",
+        "C. The timer control unit"
+      ],
+      "correctIndex": 0,
+      "explanation": "When not actively inflating, a vacuum is applied to the boots to hold them snugly against the wing surface, reducing drag and preventing flutter."
+    },
+    {
+      "id": 13,
+      "question": "Which of the following is NOT typically part of a crew (pilot/first officer) seat assembly?",
+      "options": [
+        "A. Seat belt/harness",
+        "B. Seat height and fore-aft adjustment",
+        "C. A foldable tray table (a passenger seat feature)"
+      ],
+      "correctIndex": 2,
+      "explanation": "Foldable tray tables are a passenger seat feature; crew seats are instead equipped with harnesses, adjustment mechanisms, and other flight-deck-specific features."
+    },
+    {
+      "id": 14,
+      "question": "Which type of ice is hard, heavy, and tenacious (difficult to remove)?",
+      "options": [
+        "A. Rime ice",
+        "B. Frost",
+        "C. Glaze or clear ice"
+      ],
+      "correctIndex": 2,
+      "explanation": "Clear (glaze) ice is dense and adheres strongly to the airframe, making it the hardest and heaviest type of ice to remove, unlike the more brittle, easily shed rime ice."
+    },
+    {
+      "id": 15,
+      "question": "Before entering known icing conditions, what action is commonly taken regarding anti-icing boots?",
+      "options": [
+        "A. Boots are typically turned on/activated (or pre-inflated per procedure) ahead of ice accumulation",
+        "B. Boots are completely removed",
+        "C. Boots are deflated and locked"
+      ],
+      "correctIndex": 0,
+      "explanation": "Pilots typically activate the pneumatic de-ice/anti-ice boot system per the flight manual procedure before or upon entering icing conditions, rather than waiting for significant ice buildup."
+    },
+    {
+      "id": 16,
+      "question": "What does the OVHT (overheat) warning light on the annunciator panel indicate when illuminated (in the context of anti-ice)?",
+      "options": [
+        "A. That wing (or related duct) temperature has exceeded its allowable limit",
+        "B. That the cabin is over-pressurized",
+        "C. That the battery is overcharging"
+      ],
+      "correctIndex": 0,
+      "explanation": "An OVHT light for the anti-ice system signals that bleed air duct or wing leading edge temperature has exceeded safe limits, often due to a duct leak or stuck valve."
+    },
+    {
+      "id": 17,
+      "question": "Which unit can be set to automatically cycle the inflation/deflation of all de-ice boots periodically, relieving the crew of manual activation?",
+      "options": [
+        "A. The vacuum pump alone",
+        "B. The pressure relief valve",
+        "C. A timer or control unit"
+      ],
+      "correctIndex": 2,
+      "explanation": "A timer/control unit automates the de-ice boot cycle, periodically inflating and deflating the boots on a set schedule without requiring repeated manual crew input."
+    },
+    {
+      "id": 18,
+      "question": "Which component connects the de-icer boot to the suction (vacuum) side through a check valve?",
+      "options": [
+        "A. The deflate valve",
+        "B. The inflate valve",
+        "C. The pressure relief valve"
+      ],
+      "correctIndex": 0,
+      "explanation": "The deflate valve routes the boot to the vacuum (suction) side of the system through a check valve, holding the boot flat against the wing between inflation cycles."
+    },
+    {
+      "id": 19,
+      "question": "How is a life vest typically inflated?",
+      "options": [
+        "A. By blowing into a built-in tube only, with no automatic feature",
+        "B. By connecting it to the aircraft's pneumatic system",
+        "C. By pulling the inflation handle, which triggers an automatic CO2 cartridge"
+      ],
+      "correctIndex": 2,
+      "explanation": "Pulling the inflation handle punctures a CO2 cartridge, automatically and rapidly inflating the life vest; a manual oral inflation tube is also typically provided as backup."
+    },
+    {
+      "id": 20,
+      "question": "Operation of the Wing Anti-Ice (WAI) system is NOT directly tied to which of the following?",
+      "options": [
+        "A. Engine bleed air availability",
+        "B. Temperature/icing condition sensing",
+        "C. Weight-on-wheels (ground/air logic unrelated to WAI activation)"
+      ],
+      "correctIndex": 2,
+      "explanation": "WAI operation depends on bleed air supply and icing detection, not on a weight-on-wheels/air signal, which is unrelated to its control logic."
+    },
+    {
+      "id": 21,
+      "question": "Which of the following is NOT a safety measure for maintenance personnel working on the water and waste system?",
+      "options": [
+        "A. Guarding against biological/chemical contamination exposure",
+        "B. Guarding against pressure/vacuum system hazards",
+        "C. Guarding against psychological hazard (not a standard safety consideration for this system)"
+      ],
+      "correctIndex": 2,
+      "explanation": "Standard precautions for water/waste system maintenance focus on biological, chemical, and mechanical/pressure hazards, not a \"psychological hazard,\" which isn't a recognized category here."
+    },
+    {
+      "id": 22,
+      "question": "What causes icing to form in the atmosphere?",
+      "options": [
+        "A. Coldness (freezing temperatures) acting on moisture present in the air",
+        "B. Excess carbon dioxide in the air",
+        "C. High wind speed alone"
+      ],
+      "correctIndex": 0,
+      "explanation": "Ice forms when sufficiently cold temperatures act on airborne moisture (supercooled water droplets or water vapor), causing it to freeze."
+    },
+    {
+      "id": 23,
+      "question": "Supercooled water in the atmosphere exists in what physical form?",
+      "options": [
+        "A. Solid ice crystals",
+        "B. Vapor only",
+        "C. Liquid (remaining liquid below its normal freezing point until disturbed)"
+      ],
+      "correctIndex": 2,
+      "explanation": "Supercooled water droplets remain in liquid form even at temperatures below 0°C until they contact a surface or nucleus, triggering rapid freezing."
+    },
+    {
+      "id": 24,
+      "question": "What is a typical de-icing system used on propellers?",
+      "options": [
+        "A. A pneumatic inflatable boot",
+        "B. An electrically heated boot",
+        "C. A chemical fluid weeping system only"
+      ],
+      "correctIndex": 1,
+      "explanation": "Propeller de-ice commonly uses electrically heated rubber boots bonded to the blade leading edge, powered through slip rings on the propeller hub."
+    },
+    {
+      "id": 25,
+      "question": "In a coin tap test on a waste system line, what does a sharp, ringing sound indicate?",
+      "options": [
+        "A. That there is no waste blockage in that section",
+        "B. That there is a severe blockage",
+        "C. That the line is disconnected"
+      ],
+      "correctIndex": 0,
+      "explanation": "A sharp, ringing (clear) sound when tapping the line indicates the section is clear and unobstructed, as opposed to the dull, muffled sound of a blocked section."
+    },
+    {
+      "id": 26,
+      "question": "What is the use of an insulation blanket inside the fuselage?",
+      "options": [
+        "A. To filter cabin air",
+        "B. To help make the passenger and crew compartment soundproof (and thermally insulated)",
+        "C. To store emergency oxygen"
+      ],
+      "correctIndex": 1,
+      "explanation": "Insulation blankets installed between the fuselage skin and interior lining reduce noise transmission and help with thermal insulation for cabin comfort."
+    },
+    {
+      "id": 27,
+      "question": "What is the function of the waste tank quantity indication system?",
+      "options": [
+        "A. To show cabin altitude",
+        "B. To show the level of waste in the waste tank",
+        "C. To show fuel quantity"
+      ],
+      "correctIndex": 1,
+      "explanation": "A dedicated quantity indicating system monitors and displays how full the waste tank is, helping ground crew determine when servicing is needed."
+    },
+    {
+      "id": 28,
+      "question": "Which type of toilet assembly is removed from the aircraft entirely and emptied at an MRO-approved disposal site?",
+      "options": [
+        "A. The removable toilet assembly",
+        "B. The vacuum toilet assembly (serviced in place)",
+        "C. The recirculating toilet assembly"
+      ],
+      "correctIndex": 0,
+      "explanation": "A removable toilet assembly design allows the entire unit (or its waste tank) to be taken off the aircraft and emptied/serviced at an approved facility, rather than being drained in place."
+    },
+    {
+      "id": 29,
+      "question": "Which type of ice forms when water droplets are small, such as those found in stratiform clouds?",
+      "options": [
+        "A. Rime ice",
+        "B. Clear (glaze) ice",
+        "C. Frost"
+      ],
+      "correctIndex": 0,
+      "explanation": "Small supercooled droplets, typical of stratiform clouds, freeze almost instantly on contact, trapping air and forming the rough, opaque, brittle rime ice."
+    },
+    {
+      "id": 30,
+      "question": "Which of the following is NOT correct about a dry-type engine-driven air pump?",
+      "options": [
+        "A. That it uses carbon vanes requiring no fluid lubrication",
+        "B. That it requires an oil separator (that is a feature of wet-type pumps, not dry-type)",
+        "C. That it is more susceptible to contamination damage"
+      ],
+      "correctIndex": 1,
+      "explanation": "Dry-type pumps use self-lubricating carbon vanes and do not use oil, so they have no need for an oil separator, unlike wet-type pumps which are lubricated by oil."
+    },
+    {
+      "id": 31,
+      "question": "Which of the following is NOT correct regarding a wet-type engine-driven air pump?",
+      "options": [
+        "A. That it uses oil for lubrication",
+        "B. That there is no such thing as a wet-type engine-driven air pump (this is false; wet-type pumps do exist)",
+        "C. That it requires an oil separator in its output line"
+      ],
+      "correctIndex": 1,
+      "explanation": "Wet-type engine-driven air pumps absolutely do exist and are lubricated by engine oil, making a claim that they don't exist incorrect."
+    },
+    {
+      "id": 32,
+      "question": "What would indicate that a vacuum toilet's flush valve is stuck open?",
+      "options": [
+        "A. A sharp, clear coin-tap sound",
+        "B. An unusually low waste tank reading",
+        "C. Leaking of water (or waste) into the vacuum system"
+      ],
+      "correctIndex": 2,
+      "explanation": "A flush valve stuck open allows fluid to continuously leak past it into the vacuum lines, which can be detected as unwanted moisture/waste intrusion into the vacuum system."
+    },
+    {
+      "id": 33,
+      "question": "Which of the following is NOT typically part of a passenger seat?",
+      "options": [
+        "A. A seat belt",
+        "B. A fold-down tray table",
+        "C. Adjustable seat height (not a common passenger seat feature, unlike crew seats)"
+      ],
+      "correctIndex": 2,
+      "explanation": "Unlike crew seats, passenger seats generally do not have adjustable height; they include simpler features like belts and tray tables instead."
+    },
+    {
+      "id": 34,
+      "question": "Which of the following is NOT drained overboard via drain masts?",
+      "options": [
+        "A. Human waste or waste water from toilets (handled by the separate waste/vacuum system, not simple drain masts)",
+        "B. Galley sink water",
+        "C. Condensation/clean water drains"
+      ],
+      "correctIndex": 0,
+      "explanation": "Drain masts handle relatively clean liquid drainage (galley water, condensation); toilet waste is handled through the dedicated vacuum waste system, not simple overboard drain masts."
+    },
+    {
+      "id": 35,
+      "question": "Where is the cargo hold typically located on commercial airliners?",
+      "options": [
+        "A. In the tail cone only",
+        "B. On top of the fuselage",
+        "C. In the lower deck (belly) of the fuselage"
+      ],
+      "correctIndex": 2,
+      "explanation": "Cargo compartments on most commercial transport aircraft are located in the lower deck, below the passenger cabin floor."
+    },
+    {
+      "id": 36,
+      "question": "Which of the following is correct about the crash axe?",
+      "options": [
+        "A. It is required on all aircraft regardless of size",
+        "B. It is optional equipment on every aircraft type",
+        "C. It is required by regulation on airplanes with a maximum approved passenger seating configuration of more than nine seats"
+      ],
+      "correctIndex": 2,
+      "explanation": "Regulations mandate carriage of a crash axe on larger aircraft (more than nine passenger seats), reflecting the need for emergency access/egress tools on bigger transport-category airplanes."
+    },
+    {
+      "id": 37,
+      "question": "Which of the following window anti-ice systems is NOT typically used on aircraft?",
+      "options": [
+        "A. An electrically heated (resistance) anti-ice system",
+        "B. An electromagnetic anti-ice system",
+        "C. A hot air (bleed air) anti-ice system"
+      ],
+      "correctIndex": 1,
+      "explanation": "Windshields are commonly anti-iced using electrical heating elements or hot air, not an \"electromagnetic\" system, which is not a standard window anti-ice method."
+    },
+    {
+      "id": 38,
+      "question": "What is used to remove air from the waste tank and blow it overboard?",
+      "options": [
+        "A. The potable water pump",
+        "B. The vacuum blower",
+        "C. The heat exchanger"
+      ],
+      "correctIndex": 1,
+      "explanation": "The vacuum blower draws air through the waste system and expels it overboard, maintaining the vacuum needed for toilet operation."
+    },
+    {
+      "id": 39,
+      "question": "How is potable water typically delivered to different access points (faucets, toilets) throughout the aircraft?",
+      "options": [
+        "A. Using compressed air to pressurize the water system",
+        "B. Using gravity alone from an overhead tank",
+        "C. Using a vacuum to draw water through the lines"
+      ],
+      "correctIndex": 0,
+      "explanation": "Potable water systems typically use compressed air pressure in the water tank to push water through the distribution lines to sinks and other outlets."
+    },
+    {
+      "id": 40,
+      "question": "For an aircraft's potable water system, what is an optional means of pressurizing the system?",
+      "options": [
+        "A. A fuel pump",
+        "B. A hydraulic pump",
+        "C. An air compressor"
+      ],
+      "correctIndex": 2,
+      "explanation": "Some potable water systems use a dedicated small air compressor as an optional/alternate means of maintaining tank pressurization, in addition to or instead of engine bleed air."
+    },
+    {
+      "id": 41,
+      "question": "Which type of engine-driven air pump requires an oil separator?",
+      "options": [
+        "A. The dry-type pump",
+        "B. The wet-type pump",
+        "C. Neither type requires one"
+      ],
+      "correctIndex": 1,
+      "explanation": "Wet-type pumps are lubricated with oil that mixes with the output air, so an oil separator is needed downstream to remove entrained oil before the air is used."
+    },
+    {
+      "id": 42,
+      "question": "What material is the insulation blanket typically made of?",
+      "options": [
+        "A. Solid rubber",
+        "B. Pure aluminum foil only",
+        "C. Fiberglass"
+      ],
+      "correctIndex": 2,
+      "explanation": "Fiberglass batting is a common material used in aircraft insulation blankets, chosen for its lightweight thermal and acoustic insulating properties."
+    },
+    {
+      "id": 43,
+      "question": "Which of the following is NOT correct about crew seats?",
+      "options": [
+        "A. That crew seats include a harness/restraint system",
+        "B. That the pilot and first officer seats are interchangeable (in practice they are typically not freely interchangeable due to control/mounting differences)",
+        "C. That crew seats have fore-aft and vertical adjustment"
+      ],
+      "correctIndex": 1,
+      "explanation": "Pilot and first officer seats, while similar, are often not simply interchangeable due to differences in mounting position, control access, or other design specifics."
+    },
+    {
+      "id": 44,
+      "question": "Which icing condition detecting system works on a differential (comparative) sensing principle?",
+      "options": [
+        "A. A simple single-point ice light",
+        "B. A temperature/moisture probe system",
+        "C. A visual ice detection placard"
+      ],
+      "correctIndex": 1,
+      "explanation": "Differential-type ice detection systems compare parameters (such as heated vs. unheated probe readings) to determine when icing conditions exist."
+    },
+    {
+      "id": 45,
+      "question": "Which of the following is NOT true about the Boeing 737-700/800 composite water tank?",
+      "options": [
+        "A. That damage can be seen easily (composite tank damage is often not readily visible, requiring specific inspection methods)",
+        "B. That it is made of composite material",
+        "C. That it holds potable water for the aircraft"
+      ],
+      "correctIndex": 0,
+      "explanation": "Composite tank damage (such as delamination or cracking) is often not easily visible externally, contrary to this statement, requiring careful inspection techniques to detect."
+    },
+    {
+      "id": 46,
+      "question": "Why should windshield wipers never be operated on a dry windshield?",
+      "options": [
+        "A. Because it drains the battery excessively",
+        "B. Because it may cause scratches to the windshield surface",
+        "C. Because it causes the wiper motor to overheat immediately"
+      ],
+      "correctIndex": 1,
+      "explanation": "Operating wipers without adequate moisture/lubrication on the glass can grind dust and grit against the surface, causing scratches and damage to the windshield."
+    },
+    {
+      "id": 47,
+      "question": "What is installed at entryways, galleys, and lavatories to provide a non-skid, waterproof surface?",
+      "options": [
+        "A. Carpets",
+        "B. Insulation blankets",
+        "C. Mats"
+      ],
+      "correctIndex": 2,
+      "explanation": "Non-skid, waterproof mats are used in high-moisture, high-traffic areas like entryways, galleys, and lavatories, where standard carpet would be unsuitable."
+    },
+    {
+      "id": 48,
+      "question": "What provides a comfortable, soundproof floor covering in the passenger cabin?",
+      "options": [
+        "A. Carpets",
+        "B. Mats",
+        "C. Bare aluminum flooring"
+      ],
+      "correctIndex": 0,
+      "explanation": "Carpeting is used throughout the main passenger cabin to provide comfort, aesthetics, and some sound dampening, as opposed to the non-skid mats used in wet areas."
+    },
+    {
+      "id": 49,
+      "question": "Why do only aircraft with large turbine engines typically use a thermal pneumatic anti-ice system?",
+      "options": [
+        "A. Because aircraft with smaller engines cannot supply the required quantity of hot bleed air",
+        "B. Because smaller engines produce too much bleed air",
+        "C. Because thermal pneumatic systems are too lightweight for large aircraft"
+      ],
+      "correctIndex": 0,
+      "explanation": "Thermal pneumatic anti-ice demands a substantial volume of hot bleed air, which only larger turbine engines can reliably supply; smaller engines lack sufficient bleed air capacity."
+    },
+    {
+      "id": 50,
+      "question": "How is gray water (sink/galley waste water) typically removed from the aircraft?",
+      "options": [
+        "A. Through the drain mast via the waste service panel area",
+        "B. Through the vacuum toilet system directly",
+        "C. Through the fuel jettison system"
+      ],
+      "correctIndex": 0,
+      "explanation": "Gray water from sinks and galleys drains overboard through dedicated drain masts, separate from the toilet waste system, often serviced near the same waste service panel area."
+    },
+    {
+      "id": 51,
+      "question": "After de-icing, what is the ACIPS (anti-ice/ice protection system) pressure-related indication used for?",
+      "options": [
+        "A. Control valve operation and indication light status",
+        "B. Measuring cabin altitude",
+        "C. Measuring fuel flow"
+      ],
+      "correctIndex": 0,
+      "explanation": "ACIPS pressure monitoring supports both automatic control valve operation and provides the crew with an indication (light) of the system's operating status."
+    },
+    {
+      "id": 52,
+      "question": "In a liquid-type toilet system, where does waste collect?",
+      "options": [
+        "A. It collects into a bowl with chemical/liquid flush solution",
+        "B. It is immediately vented overboard",
+        "C. It is converted to vapor instantly"
+      ],
+      "correctIndex": 0,
+      "explanation": "A liquid-type (recirculating) toilet system collects waste into a bowl using a liquid flush solution that is recirculated, as opposed to a vacuum system's suction-based design."
+    },
+    {
+      "id": 53,
+      "question": "What is true about crew seats regarding stowage?",
+      "options": [
+        "A. They are typically foldable (to allow entry/exit and stowage flexibility)",
+        "B. They are permanently fixed and cannot move at all",
+        "C. They have no adjustment capability whatsoever"
+      ],
+      "correctIndex": 0,
+      "explanation": "Crew seats, especially flight attendant jump seats, are commonly designed to fold up against the bulkhead when not in use, saving space."
+    },
+    {
+      "id": 54,
+      "question": "What is the purpose of the escape strap near an overwing exit?",
+      "options": [
+        "A. To secure cargo in the hold",
+        "B. To allow passengers to move safely over the wing to the trailing edge for evacuation",
+        "C. To tie down the escape slide"
+      ],
+      "correctIndex": 1,
+      "explanation": "An escape strap provides a handhold/guide allowing evacuating passengers to safely traverse the wing surface toward the trailing edge exit point during an emergency."
+    },
+    {
+      "id": 55,
+      "question": "In small (regional/light) range aircraft, what type of lavatory waste system is commonly used?",
+      "options": [
+        "A. A full vacuum system identical to large transport aircraft",
+        "B. A self-contained waste system",
+        "C. A gray-water recirculation system"
+      ],
+      "correctIndex": 1,
+      "explanation": "Smaller aircraft often use simpler, self-contained lavatory waste systems rather than the more complex vacuum systems found on larger transport aircraft."
+    },
+    {
+      "id": 56,
+      "question": "What may NOT be the correct remedy for de-ice boots that inflate only partially?",
+      "options": [
+        "A. Checking for a kinked or restricted air supply tube",
+        "B. Checking the inflation valve operation",
+        "C. Checking for electrical cross-wiring (a pneumatic boot issue is unlikely to stem from electrical wiring)"
+      ],
+      "correctIndex": 2,
+      "explanation": "Partial boot inflation in a pneumatic system is more likely caused by air supply/tube or valve issues, not electrical cross-wiring, which would be unrelated to a pneumatic system fault."
+    },
+    {
+      "id": 57,
+      "question": "What method could be used to isolate a blockage in waste drain lines?",
+      "options": [
+        "A. A pressure decay test only",
+        "B. An ohmmeter continuity test",
+        "C. The coin tap test"
+      ],
+      "correctIndex": 2,
+      "explanation": "Tapping along the line with a coin and listening for a change from a clear ring to a dull thud helps technicians pinpoint the location of an internal blockage."
+    },
+    {
+      "id": 58,
+      "question": "What material is the Boeing 737-700/800 potable water tank made of?",
+      "options": [
+        "A. Solid aluminum",
+        "B. Stainless steel",
+        "C. Composite material"
+      ],
+      "correctIndex": 2,
+      "explanation": "The 737-700/800 potable water tank is constructed of composite material, offering weight savings over traditional metal tank construction."
+    },
+    {
+      "id": 59,
+      "question": "Which of the following is NOT correct about escape slides?",
+      "options": [
+        "A. That they are stowed at aircraft exit doors",
+        "B. That they are provided for each passenger under each seat (this is false; escape slides are provided at exits, not individually under every seat)",
+        "C. That they can double as life rafts on overwater flights"
+      ],
+      "correctIndex": 1,
+      "explanation": "Escape slides are installed at designated exits, not individually under every passenger seat; life vests, not slides, are what's commonly provided per passenger."
+    },
+    {
+      "id": 60,
+      "question": "Which piece of equipment is installed on the lower inboard face of each entry and service door?",
+      "options": [
+        "A. The escape slide (slide/raft assembly)",
+        "B. The crash axe",
+        "C. The fire extinguisher"
+      ],
+      "correctIndex": 0,
+      "explanation": "Escape slide packs are mounted on the inside lower portion of entry/service doors, ready to deploy automatically or manually during an emergency evacuation."
+    },
+    {
+      "id": 61,
+      "question": "Where is the escape slide stowed?",
+      "options": [
+        "A. Inside a compartment on (or built into) the aircraft exit door",
+        "B. In the overhead bin above each row",
+        "C. In the cargo hold"
+      ],
+      "correctIndex": 0,
+      "explanation": "The escape slide pack is housed in a dedicated compartment integrated with the exit door itself, allowing immediate deployment when the door is opened in an emergency."
+    },
+    {
+      "id": 62,
+      "question": "How does a thermo-electrical anti-ice system work?",
+      "options": [
+        "A. Compressed air directly melts the ice chemically",
+        "B. Electric current passes through a conductive heating element, which heats the protected surface",
+        "C. A vacuum pulls ice off the surface mechanically"
+      ],
+      "correctIndex": 1,
+      "explanation": "Thermo-electric anti-ice elements use electrical resistance heating, passing current through a conductive film or wire element embedded in or on the protected surface to generate heat."
+    },
+    {
+      "id": 63,
+      "question": "Which toilet type uses a single collection tank shared by a number of toilets?",
+      "options": [
+        "A. The vacuum toilet type",
+        "B. The chemical bucket type",
+        "C. The portable bag type"
+      ],
+      "correctIndex": 0,
+      "explanation": "Vacuum toilet systems typically route waste from multiple lavatories through common vacuum lines into a single shared collection (waste) tank."
+    },
+    {
+      "id": 64,
+      "question": "What heating elements are commonly used in heated windshields?",
+      "options": [
+        "A. Open flame elements",
+        "B. Compressed hot gas coils",
+        "C. Resistance wires or a laminated conductive film"
+      ],
+      "correctIndex": 2,
+      "explanation": "Aircraft heated windshields commonly embed either fine resistance wires or a thin, transparent conductive film laminated within the glass/acrylic layers to provide heat."
+    },
+    {
+      "id": 65,
+      "question": "Which of the following is NOT correct about the potable water system?",
+      "options": [
+        "A. That it supplies water to lavatory sinks",
+        "B. That the water system supplies water to the cockpit windshield (this is incorrect; windshield anti-ice/rain removal uses separate systems, not potable water)",
+        "C. That it supplies water to galley faucets"
+      ],
+      "correctIndex": 1,
+      "explanation": "The potable water system serves drinking/washing needs at sinks and galleys; it is not connected to the cockpit windshield, which uses separate rain/anti-ice systems."
+    },
+    {
+      "id": 66,
+      "question": "What type of ice protection system do general aviation (GA) and turboprop commuter aircraft often use?",
+      "options": [
+        "A. A full thermal bleed air anti-ice system",
+        "B. An electromagnetic impulse system exclusively",
+        "C. A pneumatic (inflatable boot) de-icing system"
+      ],
+      "correctIndex": 2,
+      "explanation": "Smaller GA and commuter turboprop aircraft commonly use pneumatic de-ice boots, which are simpler and require less bleed air than large thermal pneumatic systems."
+    },
+    {
+      "id": 67,
+      "question": "Where is the insulation blanket typically installed in the fuselage?",
+      "options": [
+        "A. On the exterior paint surface",
+        "B. Inside the fuel tanks",
+        "C. Between the interior linings and the fuselage skin"
+      ],
+      "correctIndex": 2,
+      "explanation": "Insulation blankets are installed in the space between the fuselage's structural skin and the interior cabin lining panels, providing thermal and acoustic insulation."
+    },
+    {
+      "id": 68,
+      "question": "Where is the crash axe typically located on the aircraft?",
+      "options": [
+        "A. In the flight deck or in/near the most rearward galley area",
+        "B. In the cargo hold",
+        "C. Attached to each passenger seat"
+      ],
+      "correctIndex": 0,
+      "explanation": "Crash axes are commonly stowed either in the cockpit or near the aft galley, locations accessible to crew for emergency structural access needs."
+    },
+    {
+      "id": 69,
+      "question": "What does the inertial reel assembly on a crew harness allow?",
+      "options": [
+        "A. The seat to recline automatically",
+        "B. The harness to inflate like a life vest",
+        "C. The pilot to move forward freely without needing to operate a release lever, while still locking under sudden deceleration"
+      ],
+      "correctIndex": 2,
+      "explanation": "An inertial reel allows normal, free forward movement of the shoulder harness webbing during routine operation, but it locks automatically under rapid deceleration (as in a sudden stop), providing crash protection."
+    },
+    {
+      "id": 70,
+      "question": "Which of the following is NOT required when designing an anti-icing and rain protection system?",
+      "options": [
+        "A. Corrosion resistance (not a defining design requirement specific to anti-ice/rain protection function itself)",
+        "B. Adequate heating/clearing capacity for icing conditions",
+        "C. Reliable operation across the flight envelope"
+      ],
+      "correctIndex": 0,
+      "explanation": "While materials used should reasonably resist corrosion in general aircraft design, corrosion resistance is not singled out as a specific functional design requirement unique to the anti-icing/rain protection system's purpose."
+    },
+    {
+      "id": 71,
+      "question": "Which of the following is NOT part of passenger seat features?",
+      "options": [
+        "A. A seat belt",
+        "B. A fold-down tray table",
+        "C. Lumbar adjustment (a more advanced/crew seat feature, not standard on basic passenger seats)"
+      ],
+      "correctIndex": 2,
+      "explanation": "Lumbar support adjustment is a more sophisticated seating feature not typically found on standard passenger seats, which focus on simpler belt and tray table provisions."
+    },
+    {
+      "id": 72,
+      "question": "What holds the flight crew seats to the aircraft seat tracks?",
+      "options": [
+        "A. A simple bolt through the floor",
+        "B. A bogie unit (roller/track engagement mechanism)",
+        "C. Velcro strips"
+      ],
+      "correctIndex": 1,
+      "explanation": "A bogie (roller) unit engages the seat track, allowing the crew seat to slide for adjustment while remaining securely locked to the track at the selected position."
+    },
+    {
+      "id": 73,
+      "question": "How many bogie units are typically used for each flight deck crew seat?",
+      "options": [
+        "A. 4",
+        "B. 1",
+        "C. 8"
+      ],
+      "correctIndex": 0,
+      "explanation": "Flight deck crew seats commonly use four bogie units (two front, two rear) engaging the seat tracks, providing secure, stable attachment and adjustment capability."
+    },
+    {
+      "id": 74,
+      "question": "Which of the following is NOT considered an adverse effect of ice and rain conditions on an aircraft?",
+      "options": [
+        "A. Reduced lift and increased drag from ice accumulation",
+        "B. Loss of electrical power (not a direct, typical adverse effect of ice/rain itself)",
+        "C. Impaired visibility through windshields from rain/ice"
+      ],
+      "correctIndex": 1,
+      "explanation": "Ice and rain primarily affect aerodynamic performance and visibility; loss of electrical power is not a typical direct adverse effect attributed specifically to icing/rain conditions."
+    },
+    {
+      "id": 75,
+      "question": "What does a dull, muffled sound during a coin tap test on a waste line indicate?",
+      "options": [
+        "A. That the section is completely clear",
+        "B. That the section has a waste buildup or blockage",
+        "C. That the line has been disconnected"
+      ],
+      "correctIndex": 1,
+      "explanation": "A dull, muffled tapping sound suggests the line's interior has waste buildup or an obstruction, dampening the normally sharp ringing sound of a clear line."
+    },
+    {
+      "id": 76,
+      "question": "What is used in the cargo hold floor to enable pallets and containers to be positioned manually?",
+      "options": [
+        "A. A hydraulic lift system only",
+        "B. A conveyor belt powered exclusively by motors",
+        "C. A roller system"
+      ],
+      "correctIndex": 2,
+      "explanation": "Roller systems embedded in the cargo floor let ground personnel manually slide and position pallets/containers with reduced effort, without requiring powered conveyance in many designs."
+    },
+    {
+      "id": 77,
+      "question": "A de-icer boot may inflate only partially because of what cause?",
+      "options": [
+        "A. A kinked tube (restricting air supply to the boot)",
+        "B. Excessive vacuum pump capacity",
+        "C. Too much electrical power to the system"
+      ],
+      "correctIndex": 0,
+      "explanation": "A kinked or pinched supply tube restricts airflow to the boot, preventing it from fully inflating during the de-ice cycle."
+    },
+    {
+      "id": 78,
+      "question": "What does a hissing noise during a toilet flush typically indicate?",
+      "options": [
+        "A. That the toilet is functioning perfectly normally",
+        "B. That the waste tank is completely empty",
+        "C. That the flush valve failed to close correctly, allowing continued air/vacuum leakage"
+      ],
+      "correctIndex": 2,
+      "explanation": "A persistent hissing sound after flushing suggests the flush valve isn't sealing properly, allowing continuous air leakage through the vacuum system."
+    },
+    {
+      "id": 79,
+      "question": "Which of the following is NOT true about life vests?",
+      "options": [
+        "A. That it is stowed under or near each passenger seat",
+        "B. That it is manually inflated by pulling a handle",
+        "C. That it is shared between passengers (each passenger has their own individual life vest)"
+      ],
+      "correctIndex": 2,
+      "explanation": "Life vests are individually provided, one per occupant, stowed at or near their seat; they are not meant to be shared between passengers."
+    },
+    {
+      "id": 80,
+      "question": "Which window anti-icing system type is NOT approved for flight into known icing conditions?",
+      "options": [
+        "A. An electrically heated windshield system",
+        "B. A pneumatic (boot-type) windshield de-ice system (not typically used/approved for windshields in known icing)",
+        "C. A hot air blown windshield system"
+      ],
+      "correctIndex": 1,
+      "explanation": "Windshields rely on electrical heating or hot air systems for anti-ice certification in known icing conditions; a pneumatic boot-type system is not a standard or approved windshield anti-ice method."
+    },
+    {
+      "id": 81,
+      "question": "Which of the following is NOT part of standard passenger seat adjustment features?",
+      "options": [
+        "A. Seat recline adjustment",
+        "B. Vertical and horizontal seat position adjustment (not a standard passenger seat feature, more typical of crew seats)",
+        "C. Tray table position"
+      ],
+      "correctIndex": 1,
+      "explanation": "Passenger seats typically offer recline and tray table features but not full vertical/horizontal track adjustment, which is reserved for crew seating positions."
+    },
+    {
+      "id": 82,
+      "question": "What is a requirement for an aircraft seat belt?",
+      "options": [
+        "A. It must be made of pure cotton fabric only",
+        "B. It must automatically release during any turbulence",
+        "C. Sufficient strength to hold a person weighing 170 lbs (77.1 kg) safely under various directions of aircraft motion"
+      ],
+      "correctIndex": 2,
+      "explanation": "Seat belt design standards specify a minimum restraint strength (such as safely holding a 170 lb occupant) under the range of accelerations expected during flight, including emergency conditions."
+    }
+  ]
+}
