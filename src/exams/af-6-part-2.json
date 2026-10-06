@@ -1,0 +1,1322 @@
+{
+  "id": "af-6-part-2",
+  "title": "AF-6-part-2",
+  "module": "AF-6-M2,M3",
+  "course": "airframe",
+  "category": "part",
+  "description": "Airframe exam covering aircraft pressurization and oxygen systems: outflow/relief/dump valves, pressurization control modes, cabin altitude and differential pressure, oxygen storage and regulator types, and related safety and maintenance considerations, drawn from the AF-6 pressurization/oxygen systems question/answer bank.",
+  "durationMinutes": 150,
+  "totalQuestions": 119,
+  "color": "green",
+  "questions": [
+    {
+      "id": 1,
+      "question": "What is a disadvantage of using turbocharger/supercharger-based cabin pressurization (rather than clean bleed air)?",
+      "options": [
+        "A. Excessive cabin cooling",
+        "B. Risk of contamination (exhaust gases or oil) entering the cabin air supply",
+        "C. Inability to pressurize at all"
+      ],
+      "correctIndex": 1,
+      "explanation": "Turbocharger/supercharger-sourced air can carry contaminants such as oil fumes or exhaust gases, posing a cabin air quality and safety risk compared with dedicated clean bleed air."
+    },
+    {
+      "id": 2,
+      "question": "How many fail-safe provisions/systems are typically designed into an aircraft pressurization system?",
+      "options": [
+        "A. Three",
+        "B. One",
+        "C. Five"
+      ],
+      "correctIndex": 0,
+      "explanation": "Pressurization systems are commonly designed with multiple (often three) layers of fail-safe protection, such as automatic, standby, and manual/relief valve backups."
+    },
+    {
+      "id": 3,
+      "question": "What provides automatic control of pressurization using an alternate input source when the primary system fails?",
+      "options": [
+        "A. Standby mode",
+        "B. Manual mode",
+        "C. Ground mode"
+      ],
+      "correctIndex": 0,
+      "explanation": "The standby mode automatically takes over pressurization control, using backup sensors/logic, if the primary automatic controller fails."
+    },
+    {
+      "id": 4,
+      "question": "What instrument indicates the rate of cabin pressure change?",
+      "options": [
+        "A. The cabin vertical speed indicator",
+        "B. The cabin altitude indicator",
+        "C. The differential pressure gauge"
+      ],
+      "correctIndex": 0,
+      "explanation": "A cabin vertical speed (rate of climb/descent) indicator shows how quickly the cabin's equivalent altitude is changing, in feet per minute."
+    },
+    {
+      "id": 5,
+      "question": "What does the dump valve do during descent or after landing?",
+      "options": [
+        "A. It opens and releases cabin pressure to the atmosphere",
+        "B. It closes to seal the cabin completely",
+        "C. It regulates cabin temperature"
+      ],
+      "correctIndex": 0,
+      "explanation": "The dump valve, when activated, fully opens to quickly vent remaining cabin pressure to ambient, typically used during descent/landing or emergencies."
+    },
+    {
+      "id": 6,
+      "question": "What is the purpose of the aircraft cabin pressurizing system?",
+      "options": [
+        "A. To increase aircraft speed",
+        "B. To make the cabin environment comfortable and safe for occupants at altitude",
+        "C. To reduce aircraft weight"
+      ],
+      "correctIndex": 1,
+      "explanation": "Cabin pressurization maintains a physiologically comfortable and safe cabin altitude, allowing passengers and crew to function normally despite high cruise altitudes."
+    },
+    {
+      "id": 7,
+      "question": "Below what altitude is additional (supplemental) oxygen generally not required for occupants?",
+      "options": [
+        "A. 5,000 ft",
+        "B. 15,000 ft (varies by specific regulation, but commonly referenced threshold)",
+        "C. 25,000 ft"
+      ],
+      "correctIndex": 1,
+      "explanation": "Regulatory thresholds specify altitudes above which supplemental oxygen becomes mandatory; below the specified altitude (commonly cited around this range), it is typically not required."
+    },
+    {
+      "id": 8,
+      "question": "What prevents cabin altitude from becoming higher (cabin pressure lower) than the aircraft's actual altitude?",
+      "options": [
+        "A. The negative pressure relief valve",
+        "B. The positive pressure relief valve",
+        "C. The dump valve"
+      ],
+      "correctIndex": 0,
+      "explanation": "A negative relief valve opens if outside pressure exceeds cabin pressure (e.g., during rapid descent), preventing the cabin from being at a lower pressure than ambient, which could otherwise damage the structure inward."
+    },
+    {
+      "id": 9,
+      "question": "Which component prevents overpressurization of the oxygen system after the oxygen has been regulated?",
+      "options": [
+        "A. The reducer valve",
+        "B. The safety (pressure) relief valve",
+        "C. The diluter-demand regulator"
+      ],
+      "correctIndex": 1,
+      "explanation": "A safety relief valve downstream of the pressure reducer protects the lower-pressure portion of the oxygen system from overpressure if the reducer fails."
+    },
+    {
+      "id": 10,
+      "question": "During which phase of flight is the negative pressure relief valve primarily relied upon?",
+      "options": [
+        "A. Descent",
+        "B. Climb",
+        "C. Cruise"
+      ],
+      "correctIndex": 0,
+      "explanation": "Rapid descent can cause outside pressure to rise faster than cabin pressure can equalize, making the negative relief valve important during this phase to prevent reverse pressure differential damage."
+    },
+    {
+      "id": 11,
+      "question": "Which component is used to cool pressurized (bleed) air before it enters the cabin?",
+      "options": [
+        "A. The outflow valve",
+        "B. The reducer valve",
+        "C. The heat exchanger"
+      ],
+      "correctIndex": 2,
+      "explanation": "A heat exchanger removes heat from hot bleed air using ram air cooling, preparing the air for cabin distribution at an appropriate temperature."
+    },
+    {
+      "id": 12,
+      "question": "Which of the following is NOT a component of a typical isobaric (constant-altitude) pressurization control system?",
+      "options": [
+        "A. An eccentric cam valve",
+        "B. The outflow valve",
+        "C. The cabin pressure controller"
+      ],
+      "correctIndex": 0,
+      "explanation": "An eccentric cam valve is not a standard isobaric pressurization system component; the system is built around the outflow valve and pressure controller instead."
+    },
+    {
+      "id": 13,
+      "question": "During what phase of flight is the outflow valve normally closed?",
+      "options": [
+        "A. Cruise flight",
+        "B. The takeoff roll",
+        "C. Initial climb"
+      ],
+      "correctIndex": 1,
+      "explanation": "During the takeoff roll, the outflow valve is commanded closed in preparation for pressurization to begin as the aircraft lifts off and climbs."
+    },
+    {
+      "id": 14,
+      "question": "Which of the following is NOT used to equalize cabin pressure to ambient pressure during landing?",
+      "options": [
+        "A. Landing mode / ground logic",
+        "B. Takeoff mode (a different operating mode, not used for landing equalization)",
+        "C. The outflow valve opening fully"
+      ],
+      "correctIndex": 1,
+      "explanation": "Takeoff mode configures the system for departure, not for equalizing pressure during landing; a separate landing/ground logic handles that function."
+    },
+    {
+      "id": 15,
+      "question": "Which oxygen storage method contains the largest amount of oxygen per equal unit (volume/weight)?",
+      "options": [
+        "A. Gaseous oxygen (compressed)",
+        "B. Liquid oxygen",
+        "C. Solid chemical oxygen generator"
+      ],
+      "correctIndex": 1,
+      "explanation": "Liquid oxygen is far more energy-dense (more oxygen molecules per unit volume/weight) than compressed gaseous oxygen, though it requires cryogenic storage."
+    },
+    {
+      "id": 16,
+      "question": "Which of the following requires human intervention to operate?",
+      "options": [
+        "A. The outflow valve (in automatic mode)",
+        "B. The dump valve",
+        "C. The safety relief valve"
+      ],
+      "correctIndex": 1,
+      "explanation": "Unlike automatically operating valves, a dump valve is typically manually activated by the crew when rapid depressurization is desired."
+    },
+    {
+      "id": 17,
+      "question": "In turbine-engine aircraft, where does the pressurization air come from?",
+      "options": [
+        "A. A dedicated electric air compressor only",
+        "B. Ram air only",
+        "C. Engine bleed air"
+      ],
+      "correctIndex": 2,
+      "explanation": "Turbine engines readily supply high-pressure, high-temperature bleed air from the compressor section, which is tapped and conditioned for cabin pressurization."
+    },
+    {
+      "id": 18,
+      "question": "At approximately what cabin altitude does the cabin altitude warning (red) light typically extinguish once pressure is restored?",
+      "options": [
+        "A. 8,500 ft",
+        "B. 15,000 ft",
+        "C. 2,000 ft"
+      ],
+      "correctIndex": 0,
+      "explanation": "As cabin altitude descends back below the warning threshold (commonly around 8,500-10,000 ft depending on aircraft type), the cabin altitude warning light extinguishes."
+    },
+    {
+      "id": 19,
+      "question": "In all-pneumatic cabin pressure regulator and outflow valve systems, which line serves as a pressure sensing/reference connection related to venting?",
+      "options": [
+        "A. The dump valve connection/line",
+        "B. The fuel line",
+        "C. The hydraulic return line"
+      ],
+      "correctIndex": 0,
+      "explanation": "The dump valve's associated sensing connection feeds pressure reference information used by the pneumatic regulator logic in older all-pneumatic systems."
+    },
+    {
+      "id": 20,
+      "question": "Cabin pressure expressed in real time is most directly represented by what measurement?",
+      "options": [
+        "A. Engine RPM",
+        "B. Barometric (absolute) pressure within the cabin",
+        "C. Fuel flow rate"
+      ],
+      "correctIndex": 1,
+      "explanation": "Cabin pressure is fundamentally a barometric pressure measurement, which is then converted into the more intuitive cabin altitude readout for crew display."
+    },
+    {
+      "id": 21,
+      "question": "What is the main difference between pressure demand and diluter demand oxygen systems?",
+      "options": [
+        "A. A diluter demand system delivers oxygen at higher pressure",
+        "B. A pressure demand system can deliver oxygen at higher pressure than a diluter demand system",
+        "C. There is no functional difference"
+      ],
+      "correctIndex": 1,
+      "explanation": "Pressure demand regulators can supply oxygen under positive pressure (useful at very high altitudes), unlike diluter demand regulators, which mix oxygen with cabin air at closer to ambient pressure."
+    },
+    {
+      "id": 22,
+      "question": "What color is the overpressure discharge (blowout) disk typically marked or made from?",
+      "options": [
+        "A. Red metal disk",
+        "B. Green plastic disk",
+        "C. Blue rubber disk"
+      ],
+      "correctIndex": 1,
+      "explanation": "A green plastic/colored discharge indicator disk is commonly used so maintenance personnel can easily see if an oxygen system has discharged due to overpressure."
+    },
+    {
+      "id": 23,
+      "question": "At high altitude, how does fuel consumption typically compare with lower altitude flight, for the same aircraft/power setting?",
+      "options": [
+        "A. More",
+        "B. Unaffected by altitude",
+        "C. Less (more fuel-efficient at altitude, generally)"
+      ],
+      "correctIndex": 2,
+      "explanation": "Aircraft generally achieve better fuel efficiency at higher cruise altitudes due to reduced air density and drag, within their designed flight envelope."
+    },
+    {
+      "id": 24,
+      "question": "How is ground pressurization and leakage of the fuselage typically checked?",
+      "options": [
+        "A. With a static (ground) pressure test",
+        "B. By flying a test flight only",
+        "C. By weighing the aircraft"
+      ],
+      "correctIndex": 0,
+      "explanation": "A static pressure test conducted on the ground pressurizes the fuselage to check for leaks and verify seal integrity, without needing an actual flight."
+    },
+    {
+      "id": 25,
+      "question": "What drives the compressor in a turbine-engine-based pressurization system (such as a bootstrap air cycle system)?",
+      "options": [
+        "A. A separate electric motor only",
+        "B. The landing gear wheel rotation",
+        "C. Engine bleed air driving a turbine, which in turn drives the compressor"
+      ],
+      "correctIndex": 2,
+      "explanation": "In a bootstrap air cycle system, hot engine bleed air expands through a turbine, and that turbine's rotation mechanically drives an attached compressor."
+    },
+    {
+      "id": 26,
+      "question": "What is a disadvantage of a jet pump (ejector) based air system on an aircraft?",
+      "options": [
+        "A. It cannot move air at all",
+        "B. It requires no bleed air",
+        "C. Its relatively low efficiency in managing environmental volume/pressure compared with other methods"
+      ],
+      "correctIndex": 2,
+      "explanation": "Jet pump (venturi-based ejector) systems, while simple, are relatively inefficient at managing larger air volumes/pressures compared with dedicated compressors or valves."
+    },
+    {
+      "id": 27,
+      "question": "Which pressure-controlling valve/component is used to make a smooth transition from unpressurized to pressurized cabin operation during takeoff?",
+      "options": [
+        "A. The dump valve",
+        "B. The throttle position switch (sensing takeoff power application)",
+        "C. The safety relief valve"
+      ],
+      "correctIndex": 1,
+      "explanation": "A throttle position switch senses when takeoff power is applied, triggering the pressurization system to begin its smooth transition into pressurized operation."
+    },
+    {
+      "id": 28,
+      "question": "Which air system utilizes the Venturi effect?",
+      "options": [
+        "A. The outflow valve",
+        "B. The safety relief valve",
+        "C. The jet pump (flow multiplier)"
+      ],
+      "correctIndex": 2,
+      "explanation": "A jet pump/flow multiplier uses the Venturi effect, where a high-velocity jet of air entrains and multiplies the flow of additional air drawn alongside it."
+    },
+    {
+      "id": 29,
+      "question": "If the oxygen reducer (pressure-reducing) valve fails, what maintains safe downstream pressure?",
+      "options": [
+        "A. The diluter-demand regulator",
+        "B. The relief valve",
+        "C. The orifice"
+      ],
+      "correctIndex": 1,
+      "explanation": "A relief valve downstream of the reducer provides backup protection, venting excess pressure if the reducer valve fails and allows pressure to rise too high."
+    },
+    {
+      "id": 30,
+      "question": "Which type of oxygen system is least complicated and requires the least maintenance?",
+      "options": [
+        "A. The liquid oxygen system",
+        "B. The gaseous cylinder system",
+        "C. The chemical (solid-state) oxygen generator"
+      ],
+      "correctIndex": 2,
+      "explanation": "Chemical oxygen generators have no moving parts, pressure vessels, or plumbing to maintain, making them simple, low-maintenance (though single-use) oxygen sources."
+    },
+    {
+      "id": 31,
+      "question": "What device reduces oxygen pressure from a high storage pressure down to a lower usable pressure?",
+      "options": [
+        "A. The reducer (pressure-reducing) valve",
+        "B. The relief valve",
+        "C. The orifice alone"
+      ],
+      "correctIndex": 0,
+      "explanation": "The reducer valve steps down the high pressure of stored oxygen (in the cylinder) to a safer, lower working pressure for distribution to the system."
+    },
+    {
+      "id": 32,
+      "question": "An oxygen cylinder is generally considered empty/needing service when its pressure drops to approximately what value?",
+      "options": [
+        "A. 1,000 psi",
+        "B. 50 psi",
+        "C. 0 psi exactly, with no margin"
+      ],
+      "correctIndex": 1,
+      "explanation": "A residual minimum pressure, such as around 50 psi, is typically used as the threshold indicating the cylinder needs recharging, even though it isn't literally at zero."
+    },
+    {
+      "id": 33,
+      "question": "What indicates the pressure remaining in a portable oxygen cylinder?",
+      "options": [
+        "A. A pressure gauge mounted on the portable cylinder",
+        "B. The cabin altitude indicator",
+        "C. The outflow valve position"
+      ],
+      "correctIndex": 0,
+      "explanation": "A portable oxygen cylinder includes its own integral pressure gauge, allowing a direct check of remaining oxygen pressure/quantity."
+    },
+    {
+      "id": 34,
+      "question": "Which component, controlled by the landing gear squat switch, is commanded to open when the aircraft is on the ground?",
+      "options": [
+        "A. The safety relief valve",
+        "B. The dump valve",
+        "C. The reducer valve"
+      ],
+      "correctIndex": 1,
+      "explanation": "The squat switch signals ground status, commanding the dump valve open to ensure the cabin is unpressurized/depressurized while on the ground."
+    },
+    {
+      "id": 35,
+      "question": "How is the serviceability of an oxygen cylinder's pressure system typically verified during a leak/burst test?",
+      "options": [
+        "A. By testing (submerging/checking) with water to observe for bubbles or verify integrity",
+        "B. By painting the cylinder",
+        "C. By weighing it only"
+      ],
+      "correctIndex": 0,
+      "explanation": "A water bath/immersion test can be used to check for leaks (bubbles) or to conduct hydrostatic testing to verify the cylinder's structural serviceability."
+    },
+    {
+      "id": 36,
+      "question": "Which component removes (releases) all positive cabin pressure, such as for ground maintenance or emergency use?",
+      "options": [
+        "A. The dump valve",
+        "B. The outflow valve alone in normal mode",
+        "C. The reducer valve"
+      ],
+      "correctIndex": 0,
+      "explanation": "Activating the dump valve releases all remaining positive cabin pressure quickly, bringing the cabin to ambient pressure."
+    },
+    {
+      "id": 37,
+      "question": "What is the primary function of the outflow valve?",
+      "options": [
+        "A. To supply bleed air into the cabin",
+        "B. To maintain the desired cabin pressure by controlling how much air exits the cabin",
+        "C. To cool the cabin air"
+      ],
+      "correctIndex": 1,
+      "explanation": "The outflow valve modulates the rate at which pressurized air is allowed to escape the cabin overboard, thereby controlling and maintaining the desired cabin pressure."
+    },
+    {
+      "id": 38,
+      "question": "Which cockpit indicators are typically part of the cabin pressurization display?",
+      "options": [
+        "A. Engine RPM, EGT, and oil pressure",
+        "B. Airspeed, heading, and altitude only",
+        "C. Cabin altitude, cabin rate of climb, and differential pressure"
+      ],
+      "correctIndex": 2,
+      "explanation": "Standard pressurization instrumentation displays cabin altitude, the rate of cabin altitude change, and the pressure differential between cabin and ambient."
+    },
+    {
+      "id": 39,
+      "question": "How is pressurization control fundamentally achieved?",
+      "options": [
+        "A. By controlling engine RPM directly",
+        "B. By controlling the amount of air going out of the airplane (via the outflow valve)",
+        "C. By controlling landing gear position"
+      ],
+      "correctIndex": 1,
+      "explanation": "Because bleed air continuously enters the cabin, pressurization is managed by metering how much air is allowed to exit through the outflow valve."
+    },
+    {
+      "id": 40,
+      "question": "Where is the BITE (Built-In Test Equipment) function for pressurization typically accessed?",
+      "options": [
+        "A. On the landing gear control panel",
+        "B. On the cabin pressure controller",
+        "C. On the fuel panel"
+      ],
+      "correctIndex": 1,
+      "explanation": "The cabin pressure controller incorporates its own BITE test function, allowing technicians to run diagnostic checks directly from that unit."
+    },
+    {
+      "id": 41,
+      "question": "What does it mean when \"ALTN\" (alternate) is displayed/indicated on the pressurization system?",
+      "options": [
+        "A. That the normal (primary) mode is faulty and the system has switched to alternate/standby control",
+        "B. That the aircraft is above its maximum altitude",
+        "C. That the oxygen system has discharged"
+      ],
+      "correctIndex": 0,
+      "explanation": "An ALTN indication shows that the primary automatic pressurization controller has a fault, and the system has transferred control to its backup/alternate controller."
+    },
+    {
+      "id": 42,
+      "question": "Which type of oxygen system does not shut off (stop producing oxygen) before it is fully expended?",
+      "options": [
+        "A. The gaseous cylinder system",
+        "B. The liquid oxygen system",
+        "C. The solid chemical oxygen generator"
+      ],
+      "correctIndex": 2,
+      "explanation": "Once activated, a chemical oxygen generator undergoes a continuous exothermic reaction producing oxygen until the chemical core is fully consumed; it cannot be shut off early."
+    },
+    {
+      "id": 43,
+      "question": "What does the discharge indicator disk on an oxygen bottle (cylinder) reveal?",
+      "options": [
+        "A. That the cylinder is fully charged",
+        "B. That the cylinder needs painting",
+        "C. That overpressure relief has occurred (the disk has ruptured)"
+      ],
+      "correctIndex": 2,
+      "explanation": "A ruptured (discharged) green disk visually indicates the cylinder's thermal/overpressure relief device has activated, releasing pressure due to an overpressure condition."
+    },
+    {
+      "id": 44,
+      "question": "What primary control does setting the cabin pressure (selecting a target cabin altitude) affect?",
+      "options": [
+        "A. The engine throttle setting",
+        "B. The outflow valve's operation/position",
+        "C. The landing gear extension"
+      ],
+      "correctIndex": 1,
+      "explanation": "Selecting a target cabin pressure/altitude directly commands the outflow valve's modulation to achieve and hold that pressure."
+    },
+    {
+      "id": 45,
+      "question": "Pressure measured along a scale that has zero value at a complete vacuum is called what?",
+      "options": [
+        "A. Gauge pressure",
+        "B. Absolute pressure",
+        "C. Differential pressure"
+      ],
+      "correctIndex": 1,
+      "explanation": "Absolute pressure references true zero (a perfect vacuum), unlike gauge pressure, which references ambient atmospheric pressure as its zero point."
+    },
+    {
+      "id": 46,
+      "question": "What is the typical high storage pressure range for gaseous (compressed) aviation oxygen cylinders?",
+      "options": [
+        "A. About 1,800 to 2,000 psi",
+        "B. About 50 to 100 psi",
+        "C. About 10,000 to 12,000 psi"
+      ],
+      "correctIndex": 0,
+      "explanation": "Gaseous oxygen storage cylinders for aviation use are commonly charged to a high pressure range around 1,800 to 2,000 psi."
+    },
+    {
+      "id": 47,
+      "question": "What are the typical operating modes of a cabin pressurization controller?",
+      "options": [
+        "A. Unpressurized, isobaric, and differential (constant differential) modes",
+        "B. Takeoff, cruise, and landing only",
+        "C. Auto, manual, and emergency only"
+      ],
+      "correctIndex": 0,
+      "explanation": "A pressurization controller typically cycles through unpressurized (ground), isobaric (constant cabin altitude), and differential (constant differential pressure) modes as the flight progresses."
+    },
+    {
+      "id": 48,
+      "question": "During ground operation, how is the cabin pressurization system kept depressurized (open)?",
+      "options": [
+        "A. By a landing-gear-operated (squat/WOW) switch",
+        "B. By a manual pilot switch only, with no automatic logic",
+        "C. By a fuel quantity sensor"
+      ],
+      "correctIndex": 0,
+      "explanation": "A landing gear (weight-on-wheels) operated switch signals ground status, which the pressurization system uses to keep the outflow/dump valve open while on the ground."
+    },
+    {
+      "id": 49,
+      "question": "Continuous flow oxygen delivery is most commonly used for what purpose?",
+      "options": [
+        "A. Passenger oxygen systems",
+        "B. Flight crew (cockpit) oxygen systems",
+        "C. Portable walk-around bottles for crew"
+      ],
+      "correctIndex": 0,
+      "explanation": "Continuous flow regulators are simpler and adequate for passengers' intermittent, shorter-duration use, making them the common choice for passenger oxygen masks."
+    },
+    {
+      "id": 50,
+      "question": "Which oxygen storage type is NOT well suited for typical commercial airline use?",
+      "options": [
+        "A. Gaseous (compressed) oxygen",
+        "B. Liquid oxygen",
+        "C. Solid chemical oxygen generators"
+      ],
+      "correctIndex": 1,
+      "explanation": "Liquid oxygen requires cryogenic handling and specialized ground support infrastructure, making it less practical for routine commercial airline operations compared with gaseous or chemical systems."
+    },
+    {
+      "id": 51,
+      "question": "What happens to the outflow valve and dump (blow) switch when the aircraft is on the ground after landing?",
+      "options": [
+        "A. They open to allow remaining cabin pressure to vent out to ambient",
+        "B. They close to seal the cabin",
+        "C. They have no function on the ground"
+      ],
+      "correctIndex": 0,
+      "explanation": "On the ground, the outflow valve and dump switch function together to open fully, releasing any remaining cabin pressure to equalize with outside ambient pressure."
+    },
+    {
+      "id": 52,
+      "question": "During which flight phase is the cabin altitude typically lower than the airport field altitude?",
+      "options": [
+        "A. The takeoff roll (cabin already slightly pressurized/sealed ahead of climb)",
+        "B. Cruise",
+        "C. Final approach"
+      ],
+      "correctIndex": 0,
+      "explanation": "As the pressurization system begins sealing the cabin in preparation for climb during the takeoff roll, the cabin can briefly register an altitude slightly lower than the actual field elevation."
+    },
+    {
+      "id": 53,
+      "question": "What is the purpose of sealant and grommets used in fuselage construction?",
+      "options": [
+        "A. To reduce aircraft weight significantly",
+        "B. To improve paint adhesion",
+        "C. To make the aircraft structure airtight"
+      ],
+      "correctIndex": 2,
+      "explanation": "Sealant and grommets close gaps around fasteners, wiring pass-throughs, and joints, helping maintain the airtight integrity needed for cabin pressurization."
+    },
+    {
+      "id": 54,
+      "question": "How is pressurization typically managed on modern aircraft?",
+      "options": [
+        "A. Only manually, with no automatic function",
+        "B. Fully automatically, with manual backup available",
+        "C. Only by ground crew before each flight"
+      ],
+      "correctIndex": 1,
+      "explanation": "Modern pressurization systems operate fully automatically during normal flight, computing and adjusting outflow valve position continuously, with manual control as a backup."
+    },
+    {
+      "id": 55,
+      "question": "What term describes the rate at which cabin altitude changes?",
+      "options": [
+        "A. Differential pressure",
+        "B. Cabin rate of change (cabin climb/descent rate)",
+        "C. Absolute pressure"
+      ],
+      "correctIndex": 1,
+      "explanation": "Cabin rate of change describes how quickly the cabin's equivalent altitude is rising or falling, analogous to the aircraft's own vertical speed."
+    },
+    {
+      "id": 56,
+      "question": "What does a rate of climb/descent (vertical speed) indicator show?",
+      "options": [
+        "A. Vertical speed in feet per minute",
+        "B. Airspeed in knots",
+        "C. Altitude in feet"
+      ],
+      "correctIndex": 0,
+      "explanation": "A vertical speed indicator displays the rate of altitude change, expressed in feet per minute, whether for the aircraft itself or, separately, for cabin altitude."
+    },
+    {
+      "id": 57,
+      "question": "Which of the following is FALSE regarding cabin rate of climb?",
+      "options": [
+        "A. That cabin pressure increases as cabin rate of climb occurs (actually, cabin pressure decreases as cabin altitude climbs)",
+        "B. That cabin rate of climb is measured in feet per minute",
+        "C. That excessive cabin rate of climb can cause passenger discomfort"
+      ],
+      "correctIndex": 0,
+      "explanation": "As cabin altitude climbs (a positive cabin rate of climb), cabin pressure actually decreases, not increases, making this statement false."
+    },
+    {
+      "id": 58,
+      "question": "Which pressurization mode allows the crew to control the outflow valve directly?",
+      "options": [
+        "A. Manual mode",
+        "B. Automatic (isobaric) mode",
+        "C. Standby mode"
+      ],
+      "correctIndex": 0,
+      "explanation": "In manual mode, the crew directly commands outflow valve position using a cockpit control, bypassing the automatic controller logic."
+    },
+    {
+      "id": 59,
+      "question": "What does it mean if cabin differential pressure is not maintained within limits?",
+      "options": [
+        "A. The differential pressure relief valve has opened, releasing excess pressure",
+        "B. The aircraft has exceeded maximum speed",
+        "C. The landing gear has failed to retract"
+      ],
+      "correctIndex": 0,
+      "explanation": "If differential pressure exceeds its safe limit, the differential pressure relief valve opens automatically to vent excess pressure and protect the structure."
+    },
+    {
+      "id": 60,
+      "question": "What pressure range does the oxygen pressure-reducing valve typically reduce storage pressure down to?",
+      "options": [
+        "A. About 1,800 to 2,000 psi",
+        "B. About 60 to 80 psi",
+        "C. About 5 to 10 psi"
+      ],
+      "correctIndex": 1,
+      "explanation": "The reducer valve steps high-pressure storage oxygen (around 1,800-2,000 psi) down to a lower working pressure, commonly in the range of about 60-80 psi, for system distribution."
+    },
+    {
+      "id": 61,
+      "question": "During what pressurization mode is cabin pressure maintained at a constant (specific) cabin altitude even as flight altitude changes (within a range)?",
+      "options": [
+        "A. Differential mode",
+        "B. Isobaric mode",
+        "C. Unpressurized mode"
+      ],
+      "correctIndex": 1,
+      "explanation": "Isobaric mode holds the cabin at a fixed selected altitude (constant pressure) as the aircraft climbs or descends through a range of altitudes, until differential limits are reached."
+    },
+    {
+      "id": 62,
+      "question": "What happens when a specific cabin altitude is selected on the cabin altitude selector?",
+      "options": [
+        "A. It controls isobaric (constant cabin altitude) operation at that selected value",
+        "B. It immediately opens the dump valve",
+        "C. It shuts down the pressurization system"
+      ],
+      "correctIndex": 0,
+      "explanation": "Selecting a cabin altitude sets the target value the system will hold constant during isobaric mode operation as the aircraft changes actual altitude."
+    },
+    {
+      "id": 63,
+      "question": "Is it true that the rate of cabin climb controls the rate of cabin pressure change?",
+      "options": [
+        "A. False; they are entirely unrelated",
+        "B. False; cabin rate of climb only matters on the ground",
+        "C. True"
+      ],
+      "correctIndex": 2,
+      "explanation": "Cabin rate of climb and cabin pressure change rate are directly related; as commanded cabin climb rate increases, cabin pressure falls proportionally faster."
+    },
+    {
+      "id": 64,
+      "question": "What is the purpose of barometric correction in the pressurization system?",
+      "options": [
+        "A. To correct engine fuel flow for altitude",
+        "B. To correct the landing field altitude setting for the actual barometric pressure condition at the destination",
+        "C. To correct the outflow valve's manufacturing tolerance"
+      ],
+      "correctIndex": 1,
+      "explanation": "Barometric correction adjusts the system's landing altitude reference to account for actual local barometric pressure at the destination airport, ensuring accurate cabin pressure scheduling for landing."
+    },
+    {
+      "id": 65,
+      "question": "Which of the following is NOT an input to the cabin pressure regulator/controller?",
+      "options": [
+        "A. Aircraft altitude (the regulator primarily uses cabin pressure/altitude and landing field data, not raw aircraft altitude as a direct control input)",
+        "B. Landing field elevation",
+        "C. Cabin pressure/altitude"
+      ],
+      "correctIndex": 0,
+      "explanation": "The pressure controller's core logic is based on cabin pressure/altitude feedback and landing field elevation setting, rather than directly using the aircraft's own altitude as a primary control input."
+    },
+    {
+      "id": 66,
+      "question": "Which of the following is true regarding continuous flow oxygen systems?",
+      "options": [
+        "A. It is used exclusively for flight crew",
+        "B. It delivers oxygen only on demand (inhale-triggered)",
+        "C. It is used in the passenger oxygen system"
+      ],
+      "correctIndex": 2,
+      "explanation": "Continuous flow oxygen delivery, simpler and less precise than demand systems, is the standard choice for passenger oxygen masks in an emergency."
+    },
+    {
+      "id": 67,
+      "question": "Why is an oxygen system installed on a pressurized aircraft, even though the cabin is normally pressurized?",
+      "options": [
+        "A. To increase cabin humidity",
+        "B. As a precaution and for first-aid purposes, in case of a pressurization failure or decompression",
+        "C. To cool the cabin air"
+      ],
+      "correctIndex": 1,
+      "explanation": "Oxygen systems provide essential backup protection in case the pressurization system fails or a rapid decompression occurs, as well as for medical/first-aid use."
+    },
+    {
+      "id": 68,
+      "question": "Which of the following is a continuous-supply type of oxygen source?",
+      "options": [
+        "A. The diluter-demand regulator type",
+        "B. The solid chemical generator type",
+        "C. The pressure-demand regulator type"
+      ],
+      "correctIndex": 1,
+      "explanation": "A chemical oxygen generator, once activated, provides a continuous (non-demand) flow of oxygen until its chemical reaction is complete."
+    },
+    {
+      "id": 69,
+      "question": "What term expresses cabin pressure in terms of the equivalent altitude above sea level the pressure corresponds to?",
+      "options": [
+        "A. Flight altitude",
+        "B. Cabin altitude",
+        "C. Density altitude"
+      ],
+      "correctIndex": 1,
+      "explanation": "Cabin altitude converts the actual cabin air pressure into the equivalent standard atmosphere altitude that would produce that same pressure, giving an intuitive reference."
+    },
+    {
+      "id": 70,
+      "question": "What is the ratio (or difference) between inside and outside air pressures called?",
+      "options": [
+        "A. Absolute pressure",
+        "B. Gauge pressure",
+        "C. Differential pressure"
+      ],
+      "correctIndex": 2,
+      "explanation": "Differential pressure specifically refers to the difference between cabin (inside) pressure and ambient (outside) pressure, a key parameter in pressurization design and limits."
+    },
+    {
+      "id": 71,
+      "question": "In a diluter-demand oxygen regulator, when does the demand valve operate (admit oxygen)?",
+      "options": [
+        "A. Continuously, regardless of breathing",
+        "B. When the user inhales (breathes in)",
+        "C. Only when the cabin depressurizes completely"
+      ],
+      "correctIndex": 1,
+      "explanation": "A demand-type regulator only releases oxygen into the mask when the user actually inhales, conserving oxygen compared with a continuous flow system."
+    },
+    {
+      "id": 72,
+      "question": "If the cabin pressure altitude is the same as the aircraft's actual altitude, what flight mode is this known as?",
+      "options": [
+        "A. Isobaric mode",
+        "B. Unpressurized mode",
+        "C. Differential mode"
+      ],
+      "correctIndex": 1,
+      "explanation": "When cabin altitude tracks exactly with aircraft altitude (no pressure differential being maintained), the system is operating in unpressurized mode."
+    },
+    {
+      "id": 73,
+      "question": "In the aircraft oxygen system, what color is the discharge indicator typically?",
+      "options": [
+        "A. Red",
+        "B. Green",
+        "C. Blue"
+      ],
+      "correctIndex": 1,
+      "explanation": "A green discharge indicator (disk/pin) is the standard color used to show whether the oxygen system's overpressure relief has activated."
+    },
+    {
+      "id": 74,
+      "question": "What is the maximum cabin altitude that can typically be selected using the cabin altitude selector on a pressurized aircraft?",
+      "options": [
+        "A. 10,000 ft",
+        "B. 2,000 ft",
+        "C. 25,000 ft"
+      ],
+      "correctIndex": 0,
+      "explanation": "Pressurization systems are designed so the maximum selectable cabin altitude does not exceed about 10,000 ft, consistent with regulatory cabin altitude limits."
+    },
+    {
+      "id": 75,
+      "question": "Which button scrolls up through the menu options during a BITE test?",
+      "options": [
+        "A. The up button",
+        "B. The down button",
+        "C. The enter button"
+      ],
+      "correctIndex": 0,
+      "explanation": "Standard BITE interface controls include dedicated up/down buttons for navigating through test menus and results."
+    },
+    {
+      "id": 76,
+      "question": "What is the typical operating range of cabin differential pressure on a pressurized transport aircraft?",
+      "options": [
+        "A. About 0.1 to 0.5 psi",
+        "B. About 3.5 to 9 psi",
+        "C. About 20 to 30 psi"
+      ],
+      "correctIndex": 1,
+      "explanation": "Transport category aircraft are commonly designed for maximum cabin differential pressures in the range of roughly 3.5 to 9 psi, depending on the specific aircraft type."
+    },
+    {
+      "id": 77,
+      "question": "What type of oxygen is typically used for the flight deck (crew) oxygen system?",
+      "options": [
+        "A. Liquid oxygen",
+        "B. Solid chemical oxygen only",
+        "C. Gaseous oxygen"
+      ],
+      "correctIndex": 2,
+      "explanation": "Flight crew oxygen systems commonly use stored high-pressure gaseous oxygen, supplying quick-donning masks with a demand or pressure-demand regulator."
+    },
+    {
+      "id": 78,
+      "question": "What term describes a measure of pressure in a container or line as compared to ambient pressure?",
+      "options": [
+        "A. Absolute pressure",
+        "B. Differential pressure (specifically cabin-to-ambient)",
+        "C. Gauge pressure"
+      ],
+      "correctIndex": 2,
+      "explanation": "Gauge pressure is referenced to local ambient (atmospheric) pressure as its zero point, as opposed to absolute pressure, which is referenced to a true vacuum."
+    },
+    {
+      "id": 79,
+      "question": "What factor affects the severity of impairment caused by oxygen deficiency (hypoxia)?",
+      "options": [
+        "A. The duration of the oxygen deficiency",
+        "B. The color of the cabin interior",
+        "C. The brand of the oxygen mask"
+      ],
+      "correctIndex": 0,
+      "explanation": "How long the body is deprived of adequate oxygen is a key factor (along with altitude) determining the severity of hypoxia's physiological effects."
+    },
+    {
+      "id": 80,
+      "question": "To which area is gaseous oxygen typically NOT supplied?",
+      "options": [
+        "A. The lavatory",
+        "B. The flight deck",
+        "C. Passenger seating areas (via drop-down masks)"
+      ],
+      "correctIndex": 0,
+      "explanation": "Standard gaseous oxygen distribution serves the flight deck and passenger seating areas; lavatories are not typically equipped with the main gaseous oxygen distribution supply (though they may have their own separate emergency provision in some designs)."
+    },
+    {
+      "id": 81,
+      "question": "When ambient/system temperature increases, what happens to the oxygen level reading in a fixed-volume storage system?",
+      "options": [
+        "A. The pressure gauge reading increases even though the actual oxygen quantity (mass) remains the same",
+        "B. The oxygen level (quantity) itself increases",
+        "C. The oxygen level (quantity) itself decreases"
+      ],
+      "correctIndex": 0,
+      "explanation": "Gas pressure is temperature-dependent (per the gas laws); as temperature rises, pressure gauge readings rise even though the actual mass of oxygen stored hasn't changed."
+    },
+    {
+      "id": 82,
+      "question": "What two pressures are compared in the sensing function of the cabin pressure control system?",
+      "options": [
+        "A. Cabin pressure and atmospheric (ambient) pressure",
+        "B. Fuel pressure and oil pressure",
+        "C. Hydraulic pressure and pneumatic pressure"
+      ],
+      "correctIndex": 0,
+      "explanation": "The pressurization controller continuously compares cabin pressure against outside atmospheric pressure to determine the appropriate outflow valve position."
+    },
+    {
+      "id": 83,
+      "question": "At cruise altitude, which mode of pressurization control is typically used?",
+      "options": [
+        "A. Unpressurized mode",
+        "B. Ground mode",
+        "C. Constant differential (differential pressure) mode"
+      ],
+      "correctIndex": 2,
+      "explanation": "Once the maximum isobaric cabin altitude limit is reached during climb, the system transitions to constant differential mode, maintaining a fixed pressure differential through cruise."
+    },
+    {
+      "id": 84,
+      "question": "At approximately what aircraft altitude does the pressurization system typically toggle/transition its outflow valve control logic?",
+      "options": [
+        "A. Around 1,000 ft",
+        "B. Around 14,500 ft",
+        "C. Around 45,000 ft"
+      ],
+      "correctIndex": 1,
+      "explanation": "Certain pressurization control logic references specific altitude thresholds (such as around 14,500 ft) for mode transitions or valve scheduling, depending on the aircraft type."
+    },
+    {
+      "id": 85,
+      "question": "Which of the following is NOT used as an input to the cabin pressure control system?",
+      "options": [
+        "A. Cabin altitude/pressure",
+        "B. Aircraft airspeed",
+        "C. Landing field elevation"
+      ],
+      "correctIndex": 1,
+      "explanation": "Airspeed is not a direct input the pressurization controller uses; it relies on cabin pressure, landing field altitude, and rate settings instead."
+    },
+    {
+      "id": 86,
+      "question": "What happens once the maximum cabin differential pressure limit is reached?",
+      "options": [
+        "A. The outflow valve closes completely and stays closed",
+        "B. The system maintains that maximum differential pressure as the aircraft continues to climb",
+        "C. Cabin altitude begins to climb at the same rate as the aircraft"
+      ],
+      "correctIndex": 1,
+      "explanation": "Once differential pressure reaches its design maximum, the controller holds that value steady, allowing cabin altitude to continue rising slowly in proportion to further aircraft climb."
+    },
+    {
+      "id": 87,
+      "question": "When does the outflow valve remain fully open, with no pressure buildup occurring?",
+      "options": [
+        "A. In unpressurized mode",
+        "B. In isobaric mode",
+        "C. In constant differential mode"
+      ],
+      "correctIndex": 0,
+      "explanation": "In unpressurized mode, the outflow valve stays open, allowing cabin pressure to simply track ambient pressure with no differential maintained."
+    },
+    {
+      "id": 88,
+      "question": "What component is used when differential pressure cannot otherwise be maintained and must be actively controlled?",
+      "options": [
+        "A. The outflow valve",
+        "B. The reducer valve",
+        "C. The dump valve alone, as a steady-state control"
+      ],
+      "correctIndex": 0,
+      "explanation": "The outflow valve is the primary, continuously modulated component used to actively control and maintain the proper cabin differential pressure."
+    },
+    {
+      "id": 89,
+      "question": "At what altitude does a diluter-demand oxygen regulator typically begin delivering 100% oxygen (no dilution with cabin air)?",
+      "options": [
+        "A. Above approximately 5,000 ft",
+        "B. Above approximately 35,000 ft",
+        "C. Above approximately 50,000 ft"
+      ],
+      "correctIndex": 1,
+      "explanation": "As altitude (and thus available oxygen partial pressure) decreases, the diluter-demand regulator progressively reduces air dilution, delivering 100% oxygen above roughly 35,000 ft."
+    },
+    {
+      "id": 90,
+      "question": "What is the term for pressure testing the fuselage for air leakage while the aircraft is stationary on the ground?",
+      "options": [
+        "A. A flutter test",
+        "B. A vibration test",
+        "C. A static pressure test (sometimes loosely called ground/dynamic depending on terminology)"
+      ],
+      "correctIndex": 2,
+      "explanation": "A static pressure/leak test pressurizes the parked, stationary aircraft to check for leaks, verifying the integrity of seals and structure before return to service."
+    },
+    {
+      "id": 91,
+      "question": "The demand-type oxygen system is specifically designed for use by whom?",
+      "options": [
+        "A. Cockpit (flight) crew",
+        "B. Passengers only",
+        "C. Ground maintenance personnel only"
+      ],
+      "correctIndex": 0,
+      "explanation": "Demand-type oxygen regulators, which conserve oxygen by only delivering it on inhalation, are typically provided for flight crew who may need extended oxygen use."
+    },
+    {
+      "id": 92,
+      "question": "When the external (ambient) pressure decreases to within about 0.25 psi of the selected flight altitude's target pressure, what flight phase is this generally associated with?",
+      "options": [
+        "A. Taxi",
+        "B. Cruise (reaching the target cruise differential pressure)",
+        "C. Engine start"
+      ],
+      "correctIndex": 1,
+      "explanation": "As the aircraft approaches its selected cruise altitude, the differential pressure converges toward the target cruise value, consistent with the transition into cruise flight."
+    },
+    {
+      "id": 93,
+      "question": "What action causes a drop-down passenger oxygen mask to start oxygen flow?",
+      "options": [
+        "A. Pulling the mask (toward the face), which activates the flow lanyard/valve",
+        "B. Simply touching the mask",
+        "C. Pressing a separate button on the seatback"
+      ],
+      "correctIndex": 0,
+      "explanation": "Passenger drop-down masks are designed so that pulling the mask toward the face tugs a lanyard that opens the flow valve, starting oxygen delivery."
+    },
+    {
+      "id": 94,
+      "question": "What determines the maximum allowable cabin differential pressure for an aircraft?",
+      "options": [
+        "A. Passenger comfort preference alone",
+        "B. Fuel capacity",
+        "C. Structural integrity considerations (fuselage design strength)"
+      ],
+      "correctIndex": 2,
+      "explanation": "Maximum differential pressure is set by the fuselage's structural design limits, ensuring the pressurized shell isn't overstressed."
+    },
+    {
+      "id": 95,
+      "question": "In hotter weather, how does the pressure gauge reading of an oxygen bottle typically compare with a cooler day, for the same actual oxygen quantity?",
+      "options": [
+        "A. Lower",
+        "B. Higher",
+        "C. Unchanged"
+      ],
+      "correctIndex": 1,
+      "explanation": "Higher ambient temperature increases the gas pressure reading for a fixed quantity of stored oxygen (per the ideal gas law), even though the actual oxygen mass is unchanged."
+    },
+    {
+      "id": 96,
+      "question": "Setting the target cabin pressure directly affects which component's operation?",
+      "options": [
+        "A. The outflow valve",
+        "B. The dump valve only",
+        "C. The reducer valve"
+      ],
+      "correctIndex": 0,
+      "explanation": "The pressurization controller translates the selected cabin pressure/altitude target into commands that position the outflow valve accordingly."
+    },
+    {
+      "id": 97,
+      "question": "When repairing/servicing an oxygen system, what receives maximum attention?",
+      "options": [
+        "A. The paint finish of fittings",
+        "B. Cleanliness of components (to avoid oxygen-fire hazards from oil/grease contamination)",
+        "C. The color of the tubing"
+      ],
+      "correctIndex": 1,
+      "explanation": "Oxygen systems demand strict cleanliness because oil, grease, or other contaminants can spontaneously ignite in the presence of high-pressure oxygen, so cleanliness is a top safety priority during repair."
+    },
+    {
+      "id": 98,
+      "question": "Which component found on/associated with the outflow valve is used to help clear smoke from the cabin or cockpit?",
+      "options": [
+        "A. The dump valve",
+        "B. The safety relief valve",
+        "C. The reducer valve"
+      ],
+      "correctIndex": 0,
+      "explanation": "The dump valve, often integrated near the outflow valve, can be activated to rapidly vent cabin air (and smoke) to help clear a smoke-filled cabin or cockpit."
+    },
+    {
+      "id": 99,
+      "question": "What does the quantity of bleed air directed into the cabin depend on?",
+      "options": [
+        "A. The color of the cabin interior",
+        "B. The number of passengers on board",
+        "C. The landing gear position"
+      ],
+      "correctIndex": 1,
+      "explanation": "Fresh air ventilation requirements scale with occupancy, so the bleed/fresh air quantity supplied is set based on the number of passengers to be carried."
+    },
+    {
+      "id": 100,
+      "question": "What limits the flow of oxygen reaching the mask in a continuous flow system?",
+      "options": [
+        "A. The reducer valve alone",
+        "B. The dump valve",
+        "C. An orifice (calibrated restrictor)"
+      ],
+      "correctIndex": 2,
+      "explanation": "A calibrated orifice meters and limits the continuous oxygen flow rate delivered to each passenger mask, matching flow to altitude-appropriate requirements."
+    },
+    {
+      "id": 101,
+      "question": "Which of the following is NOT one of the standard operating modes in a pressurization system?",
+      "options": [
+        "A. Isobaric mode",
+        "B. Ground mode is not typically listed as a distinct pressurization \"mode\" alongside unpressurized/isobaric/differential (it is more of a system state controlled by the squat switch)",
+        "C. Differential (constant differential) mode"
+      ],
+      "correctIndex": 1,
+      "explanation": "While the system behaves differently on the ground (outflow/dump valve open via the squat switch), \"ground mode\" is not usually classified as one of the formal pressurization control modes alongside unpressurized, isobaric, and differential."
+    },
+    {
+      "id": 102,
+      "question": "Which of the following units is an electronic control unit (an ESD-sensitive device) in the pressurization system?",
+      "options": [
+        "A. The outflow valve mechanism itself",
+        "B. The cabin pressure controller",
+        "C. The dump valve mechanism itself"
+      ],
+      "correctIndex": 1,
+      "explanation": "The cabin pressure controller is the electronic \"brain\" of the system and, being electronic, is sensitive to electrostatic discharge (ESD) during handling."
+    },
+    {
+      "id": 103,
+      "question": "What is the purpose of the discharge indication disk on an oxygen bottle?",
+      "options": [
+        "A. To indicate the oxygen purity level",
+        "B. To show if overpressure has occurred in the system (the disk ruptures to relieve pressure and signal the event)",
+        "C. To indicate the bottle's manufacturing date"
+      ],
+      "correctIndex": 1,
+      "explanation": "The discharge disk ruptures if the bottle experiences overpressure, both relieving the excess pressure and providing a visual indication that this event occurred."
+    },
+    {
+      "id": 104,
+      "question": "When cabin altitude exceeds roughly 35,000 ft equivalent, what component closes the diluter path in the regulator to supply 100% oxygen?",
+      "options": [
+        "A. An aneroid (altitude-sensing) mechanism",
+        "B. The reducer valve",
+        "C. The dump valve"
+      ],
+      "correctIndex": 0,
+      "explanation": "An aneroid capsule within the diluter-demand regulator senses the reduced ambient pressure (high cabin altitude) and mechanically shuts off the dilution air path, ensuring 100% oxygen delivery."
+    },
+    {
+      "id": 105,
+      "question": "The cabin is normally pressurized to maintain cabin air pressure equivalent to approximately what altitude?",
+      "options": [
+        "A. 8,000 ft",
+        "B. 2,000 ft",
+        "C. 20,000 ft"
+      ],
+      "correctIndex": 0,
+      "explanation": "Standard cabin pressurization design targets maintaining a cabin altitude of about 8,000 ft or lower during normal cruise, balancing structural limits with occupant comfort/safety."
+    },
+    {
+      "id": 106,
+      "question": "Which component can be operated both automatically and manually?",
+      "options": [
+        "A. The outflow valve",
+        "B. The discharge disk",
+        "C. The aneroid"
+      ],
+      "correctIndex": 0,
+      "explanation": "The outflow valve is designed to be positioned automatically by the controller in normal operation, but it can also be manually controlled by the crew if needed."
+    },
+    {
+      "id": 107,
+      "question": "What is the lowest cabin altitude that can typically be selected/leveled on a pressurization system?",
+      "options": [
+        "A. About 10,000 ft above sea level",
+        "B. About 1,000 ft below sea level",
+        "C. About 0 ft (sea level) exactly, with no negative capability"
+      ],
+      "correctIndex": 1,
+      "explanation": "Pressurization systems commonly allow selecting a cabin altitude slightly below sea level (such as around -1,000 ft) to accommodate airports at low or below-sea-level elevations."
+    },
+    {
+      "id": 108,
+      "question": "What does a cabin pressurization (static/ground) test check?",
+      "options": [
+        "A. The accuracy of the fuel gauges",
+        "B. The integrity and sealing of the fuselage",
+        "C. The alignment of the landing gear"
+      ],
+      "correctIndex": 1,
+      "explanation": "This ground test verifies that the fuselage structure and its seals can hold pressure properly, confirming there are no significant leaks before flight."
+    },
+    {
+      "id": 109,
+      "question": "The position of which component can be observed/monitored from the cockpit?",
+      "options": [
+        "A. The dump valve's internal seal wear",
+        "B. The outflow valve (position indication)",
+        "C. The reducer valve's internal spring tension"
+      ],
+      "correctIndex": 1,
+      "explanation": "Cockpit instrumentation (or synoptic displays on modern aircraft) can show outflow valve position, giving the crew visibility into the pressurization system's status."
+    },
+    {
+      "id": 110,
+      "question": "Which statement is true regarding the pressure demand type of oxygen system?",
+      "options": [
+        "A. It supplies oxygen at a lower pressure than diluter demand",
+        "B. It supplies oxygen to the mask at a higher pressure than a diluter demand type system",
+        "C. It cannot be used by flight crew"
+      ],
+      "correctIndex": 1,
+      "explanation": "Pressure demand regulators can deliver oxygen under positive pressure into the mask, providing effective oxygenation at very high cabin altitudes, unlike the lower-pressure diluter demand type."
+    },
+    {
+      "id": 111,
+      "question": "A contaminated oxygen system is normally purged using what?",
+      "options": [
+        "A. Compressed shop air",
+        "B. Nitrogen gas",
+        "C. Oxygen itself (flushing the system with clean oxygen)"
+      ],
+      "correctIndex": 2,
+      "explanation": "Purging a contaminated oxygen system is done using clean oxygen to flush out contaminants, since introducing other gases (like shop air, which can carry oil/moisture) could worsen contamination risk."
+    },
+    {
+      "id": 112,
+      "question": "What component prevents the aircraft cabin pressure from becoming greater (in the reverse sense) than ambient, i.e., prevents cabin pressure from dropping below outside pressure?",
+      "options": [
+        "A. The negative pressure relief valve",
+        "B. The positive pressure relief valve",
+        "C. The reducer valve"
+      ],
+      "correctIndex": 0,
+      "explanation": "The negative relief valve opens if outside (ambient) pressure exceeds cabin pressure, preventing a damaging reverse (negative) pressure differential on the fuselage."
+    },
+    {
+      "id": 113,
+      "question": "What is the expected purity level of aviation (breathing) oxygen?",
+      "options": [
+        "A. 80%",
+        "B. 50%",
+        "C. 99.5%"
+      ],
+      "correctIndex": 2,
+      "explanation": "Aviation breathing oxygen specifications require very high purity, typically around 99.5% or greater, to ensure safe and effective physiological performance."
+    },
+    {
+      "id": 114,
+      "question": "If cabin pressure varies at an equal rate with ambient pressure (maintaining a fixed differential), the aircraft is operating in what mode?",
+      "options": [
+        "A. Isobaric mode",
+        "B. Unpressurized mode",
+        "C. Constant differential mode"
+      ],
+      "correctIndex": 2,
+      "explanation": "When cabin pressure changes in lockstep with ambient pressure, maintaining a fixed pressure difference, the system is in constant (steady) differential pressure mode."
+    },
+    {
+      "id": 115,
+      "question": "During ground operation of the pressurization system, what controls the outflow/dump valve to be held open?",
+      "options": [
+        "A. The throttle position switch",
+        "B. The WOW (weight-on-wheels) switch",
+        "C. The cabin altitude selector"
+      ],
+      "correctIndex": 1,
+      "explanation": "The WOW switch senses that the aircraft is on the ground and holds the relevant valve(s) open to keep the cabin unpressurized during ground operations."
+    },
+    {
+      "id": 116,
+      "question": "In an all-pneumatic cabin pressure regulator and outflow valve system, which is a pressure sense line connection?",
+      "options": [
+        "A. The fuel vent line",
+        "B. The dump valve connection",
+        "C. The hydraulic return line"
+      ],
+      "correctIndex": 1,
+      "explanation": "In older, fully pneumatic pressurization control designs, the dump valve's sensing connection provides the pressure reference signal used by the regulating logic."
+    },
+    {
+      "id": 117,
+      "question": "Which valve ensures the structural integrity of the aircraft is protected if pressurization control is lost (preventing overpressure)?",
+      "options": [
+        "A. The negative pressure relief valve",
+        "B. The positive pressure relief valve",
+        "C. The reducer valve"
+      ],
+      "correctIndex": 1,
+      "explanation": "A positive pressure relief valve opens automatically if cabin pressure rises too high (exceeding the maximum differential), protecting the fuselage structure from overpressure damage."
+    },
+    {
+      "id": 118,
+      "question": "In a demand regulator, which component meters/delivers 100% oxygen above approximately 34,000 feet?",
+      "options": [
+        "A. The reducer valve",
+        "B. The diluter-demand regulator (via its altitude-sensing aneroid mechanism)",
+        "C. The dump valve"
+      ],
+      "correctIndex": 1,
+      "explanation": "The diluter-demand regulator's internal aneroid mechanism progressively shuts off cabin air dilution as altitude increases, delivering 100% oxygen above roughly 34,000 ft."
+    },
+    {
+      "id": 119,
+      "question": "Why is a continuous flow oxygen system considered a wasteful design?",
+      "options": [
+        "A. Because it uses too little oxygen to be effective",
+        "B. Because it requires electrical power to operate",
+        "C. Because oxygen is wasted (continues flowing) even if the user is not actively consuming/inhaling it"
+      ],
+      "correctIndex": 2,
+      "explanation": "Unlike demand systems that release oxygen only on inhalation, continuous flow systems release a steady stream regardless of the user's breathing cycle, wasting oxygen during exhalation."
+    }
+  ]
+}

@@ -1,0 +1,1245 @@
+{
+  "id": "af-6-part-1",
+  "title": "AF-6-part-1",
+  "module": "AF-6-M1",
+  "course": "airframe",
+  "category": "part",
+  "description": "Airframe exam covering aircraft air conditioning and pressurization: vapor cycle and air cycle cooling, bleed air control valves, cabin pressurization and ventilation, temperature control, ozone/CO hazards, and related components and BITE testing, drawn from the AF-6 air conditioning/pressurization question/answer bank.",
+  "durationMinutes": 150,
+  "totalQuestions": 112,
+  "color": "green",
+  "questions": [
+    {
+      "id": 1,
+      "question": "In modern transport category aircraft, what is used to remove water from the conditioned air?",
+      "options": [
+        "A. A water separator",
+        "B. A desiccant bag only",
+        "C. A sight glass"
+      ],
+      "correctIndex": 0,
+      "explanation": "A water separator extracts moisture condensed out of the cooled, compressed air before it is delivered to the cabin, preventing fog and ice formation downstream."
+    },
+    {
+      "id": 2,
+      "question": "What is considered the \"heart\" of a vapor cycle air conditioning system?",
+      "options": [
+        "A. The compressor",
+        "B. The condenser",
+        "C. The evaporator"
+      ],
+      "correctIndex": 0,
+      "explanation": "The compressor drives the refrigerant cycle by compressing low-pressure vapor into high-pressure vapor, powering the entire vapor cycle process."
+    },
+    {
+      "id": 3,
+      "question": "In which of the following does ventilation NOT take place?",
+      "options": [
+        "A. The flight deck",
+        "B. Cabin pressurization (pressurization itself is a separate function from ventilation)",
+        "C. The passenger cabin"
+      ],
+      "correctIndex": 1,
+      "explanation": "Cabin pressurization refers to maintaining cabin pressure via the outflow valve, a distinct function from ventilation, which concerns airflow/exchange of air."
+    },
+    {
+      "id": 4,
+      "question": "How is a compressor isolation valve typically positioned to isolate (shut off) the compressor?",
+      "options": [
+        "A. Fully open",
+        "B. Fully closed and/or front-seated",
+        "C. Half-open"
+      ],
+      "correctIndex": 1,
+      "explanation": "To isolate the compressor from the system, its isolation valve is closed, often described as being \"front-seated\" to fully block flow."
+    },
+    {
+      "id": 5,
+      "question": "Which air conditioning system supplies fresh air to the cabin both in flight and on the ground?",
+      "options": [
+        "A. A system that only works in flight",
+        "B. A system that only works on the ground",
+        "C. The air (vapor) cycle system combined with ground-operable features"
+      ],
+      "correctIndex": 2,
+      "explanation": "Modern aircraft air conditioning (air cycle, sometimes assisted by vapor cycle) is designed to provide fresh conditioned air both in flight and while on the ground using engine or APU bleed air."
+    },
+    {
+      "id": 6,
+      "question": "If a \"NO GO\" light illuminates during a CTL (Controller) BITE test, what action is typically indicated?",
+      "options": [
+        "A. Replace the unit",
+        "B. Ignore the result and continue",
+        "C. Recalibrate the altimeter"
+      ],
+      "correctIndex": 0,
+      "explanation": "A NO GO result on a BITE (Built-In Test Equipment) check indicates the component has failed self-test and should be replaced."
+    },
+    {
+      "id": 7,
+      "question": "What is the temporary physical and mental impairment caused by a lack of oxygen called?",
+      "options": [
+        "A. Hypoxia",
+        "B. Hypoxemia-induced euphoria only",
+        "C. Decompression sickness"
+      ],
+      "correctIndex": 0,
+      "explanation": "Hypoxia is the condition resulting from insufficient oxygen reaching body tissues, causing impaired physical and mental function."
+    },
+    {
+      "id": 8,
+      "question": "Which components in the vapor cycle cooling system separate the high-pressure side from the low-pressure side?",
+      "options": [
+        "A. The compressor and the receiver drier",
+        "B. The sight glass and the thermal expansion valve",
+        "C. The condenser and the evaporator"
+      ],
+      "correctIndex": 2,
+      "explanation": "The compressor and expansion valve create the pressure differential, with the condenser operating on the high side and the evaporator on the low side of the refrigerant cycle."
+    },
+    {
+      "id": 9,
+      "question": "How do superchargers differ from turbochargers?",
+      "options": [
+        "A. Superchargers use exhaust gas, while turbochargers are mechanically driven",
+        "B. Superchargers are driven by engine accessories (mechanically), while turbochargers are driven by exhaust gas",
+        "C. There is no functional difference between them"
+      ],
+      "correctIndex": 1,
+      "explanation": "Superchargers are mechanically linked to the engine (gear or belt driven), whereas turbochargers use a turbine spun by the engine's exhaust gas flow."
+    },
+    {
+      "id": 10,
+      "question": "What is the purpose of the low limit valve in an air cycle cooling system?",
+      "options": [
+        "A. To increase cabin pressure",
+        "B. To control the temperature of the cabin (preventing excessively low temperatures)",
+        "C. To filter cabin air"
+      ],
+      "correctIndex": 1,
+      "explanation": "The low limit valve prevents the air cycle system's output from becoming too cold, protecting against icing and maintaining an acceptable minimum cabin temperature."
+    },
+    {
+      "id": 11,
+      "question": "Which of the following cooling systems is an \"open\" type cooling system?",
+      "options": [
+        "A. The vapor cycle cooling system",
+        "B. The air cycle cooling system",
+        "C. A sealed refrigerant loop system"
+      ],
+      "correctIndex": 1,
+      "explanation": "The air cycle system uses outside (bleed) air that passes through once and is then delivered to the cabin, making it an open-cycle system, unlike the closed-loop vapor cycle."
+    },
+    {
+      "id": 12,
+      "question": "At the inlet of the evaporator in a vapor cycle cooling system, what is the state of the refrigerant?",
+      "options": [
+        "A. A high-pressure, high-temperature liquid",
+        "B. A low-pressure, low-temperature vapor (just past the expansion valve, partly vapor/liquid)",
+        "C. A high-pressure vapor"
+      ],
+      "correctIndex": 1,
+      "explanation": "After passing through the expansion valve, the refrigerant enters the evaporator as a low-pressure, low-temperature fluid ready to absorb heat and evaporate."
+    },
+    {
+      "id": 13,
+      "question": "Which valve shuts off and controls the flow of bleed air to the airplane's air conditioning system?",
+      "options": [
+        "A. The outflow valve",
+        "B. The thermal expansion valve",
+        "C. The flow control and shutoff valve"
+      ],
+      "correctIndex": 2,
+      "explanation": "The flow control and shutoff valve regulates and, when needed, completely stops the supply of bleed air entering the aircraft's pneumatic/air conditioning system."
+    },
+    {
+      "id": 14,
+      "question": "Which component in the vapor cycle system dumps heat to the surrounding air?",
+      "options": [
+        "A. The evaporator",
+        "B. The receiver drier",
+        "C. The condenser"
+      ],
+      "correctIndex": 2,
+      "explanation": "The condenser releases the heat absorbed by the refrigerant (from the evaporator) into the surrounding ambient air as the refrigerant condenses back to liquid."
+    },
+    {
+      "id": 15,
+      "question": "Which of the following is NOT a function of the Pressure Regulator and Shutoff Valve (PRSOV)?",
+      "options": [
+        "A. Regulating bleed air pressure to a set value",
+        "B. Shutting off bleed air flow when commanded",
+        "C. Preventing reverse flow (that is a check valve's function, not the PRSOV's primary role)"
+      ],
+      "correctIndex": 2,
+      "explanation": "The PRSOV regulates downstream bleed pressure and provides shutoff capability; preventing reverse flow is typically handled by a separate check valve, not the PRSOV itself."
+    },
+    {
+      "id": 16,
+      "question": "Which of the following is NOT a function of the Trim Pressure Regulator and Shutoff Valve?",
+      "options": [
+        "A. Regulating trim air pressure",
+        "B. Controlling zone temperature (this is handled by the zone temperature control system, not the trim air PRSOV itself)",
+        "C. Providing shutoff of trim air flow"
+      ],
+      "correctIndex": 1,
+      "explanation": "The trim air PRSOV regulates and shuts off trim air pressure/flow; actual zone temperature control logic is handled by the temperature control system, which commands the trim valves."
+    },
+    {
+      "id": 17,
+      "question": "What type of cooling does the condenser in a vapor cycle system typically use?",
+      "options": [
+        "A. Air-to-liquid cooling",
+        "B. Liquid-to-liquid cooling",
+        "C. Air-to-air cooling"
+      ],
+      "correctIndex": 2,
+      "explanation": "The condenser typically transfers heat from the refrigerant to a flow of ambient (ram) air, making it an air-to-air heat exchanger process."
+    },
+    {
+      "id": 18,
+      "question": "In air conditioning systems, what is the system called that reuses cabin air by returning it to the pack/mix manifold?",
+      "options": [
+        "A. Ventilation",
+        "B. Bleed air supply",
+        "C. Recirculation"
+      ],
+      "correctIndex": 2,
+      "explanation": "The recirculation system draws a portion of cabin air back through filters and mixes it with fresh conditioned air, rather than discharging it all overboard."
+    },
+    {
+      "id": 19,
+      "question": "What is the increase in temperature caused by the compression of air at high speed (ram air) called?",
+      "options": [
+        "A. Latent heat",
+        "B. Ram rise",
+        "C. Super heat"
+      ],
+      "correctIndex": 1,
+      "explanation": "Ram rise refers to the temperature increase of air as its kinetic energy (from high-speed impact/compression) is converted to heat."
+    },
+    {
+      "id": 20,
+      "question": "What is incorporated at various points along air ducts carrying hot air to allow for thermal expansion?",
+      "options": [
+        "A. An expansion bellows",
+        "B. A fixed rigid coupling",
+        "C. A sight glass"
+      ],
+      "correctIndex": 0,
+      "explanation": "Expansion bellows (flexible duct sections) accommodate the thermal expansion and contraction of hot air ducts as temperature changes."
+    },
+    {
+      "id": 21,
+      "question": "In an air conditioning ventilation system, what is used to pull or move air through the system?",
+      "options": [
+        "A. A compressor",
+        "B. A condenser",
+        "C. A fan"
+      ],
+      "correctIndex": 2,
+      "explanation": "Ventilation fans provide the airflow needed to circulate and move air through cabin ducting, especially when ram air alone is insufficient (such as on the ground)."
+    },
+    {
+      "id": 22,
+      "question": "On the Boeing 737, the passenger compartment air BITE test result is shown on which indicator?",
+      "options": [
+        "A. The right GO/NO GO light",
+        "B. The left GO/NO GO light",
+        "C. A center amber light"
+      ],
+      "correctIndex": 0,
+      "explanation": "On the 737's CTC (Cabin Temperature Controller) BITE panel, the passenger compartment test result is displayed via the right GO/NO GO light, as distinct from the flight compartment's left light."
+    },
+    {
+      "id": 23,
+      "question": "A calorie is the amount of heat energy required to raise the temperature of how much water by how much?",
+      "options": [
+        "A. 1 gram of water by 1°C",
+        "B. 1 kilogram of water by 10°C",
+        "C. 1 liter of water by 100°C"
+      ],
+      "correctIndex": 0,
+      "explanation": "By definition, one calorie is the heat energy needed to raise the temperature of 1 gram of water by 1 degree Celsius."
+    },
+    {
+      "id": 24,
+      "question": "In the vapor cycle, which component changes the liquid refrigerant into a low-temperature, low-pressure state before the evaporator?",
+      "options": [
+        "A. The thermal expansion valve",
+        "B. The compressor",
+        "C. The condenser"
+      ],
+      "correctIndex": 0,
+      "explanation": "The thermal expansion valve drops the refrigerant's pressure (and correspondingly its temperature) as it passes from the high side to the low side, just before entering the evaporator."
+    },
+    {
+      "id": 25,
+      "question": "In which atmospheric layer do most commercial aircraft typically fly?",
+      "options": [
+        "A. The troposphere",
+        "B. The stratosphere",
+        "C. The mesosphere"
+      ],
+      "correctIndex": 1,
+      "explanation": "Commercial jet aircraft commonly cruise in the lower stratosphere, above most weather, which resides in the troposphere below."
+    },
+    {
+      "id": 26,
+      "question": "What is heat energy used to change the state of a substance without raising its temperature called?",
+      "options": [
+        "A. Sensible heat",
+        "B. Latent heat",
+        "C. Super heat"
+      ],
+      "correctIndex": 1,
+      "explanation": "Latent heat is absorbed or released during a phase change (e.g., liquid to vapor) without any change in the substance's temperature during that transition."
+    },
+    {
+      "id": 27,
+      "question": "Which valve maintains cabin pressurization at the desired rate/level?",
+      "options": [
+        "A. The thermal expansion valve",
+        "B. The outflow valve",
+        "C. The PRSOV"
+      ],
+      "correctIndex": 1,
+      "explanation": "The outflow valve controls the rate at which cabin air is released overboard, thereby regulating and maintaining the desired cabin pressure/pressurization schedule."
+    },
+    {
+      "id": 28,
+      "question": "What helps maintain proper cabin pressurization overall?",
+      "options": [
+        "A. The recirculation fan alone",
+        "B. The pressurization control system",
+        "C. The sight glass"
+      ],
+      "correctIndex": 1,
+      "explanation": "The pressurization control system (automatic controller plus the outflow valve and sensors) actively manages and maintains the desired cabin pressure schedule."
+    },
+    {
+      "id": 29,
+      "question": "On the flight compartment BITE test, the result is shown on which indicator?",
+      "options": [
+        "A. The left GO/NO GO light",
+        "B. The right GO/NO GO light",
+        "C. A separate amber caution light"
+      ],
+      "correctIndex": 0,
+      "explanation": "The flight compartment (cockpit) BITE test result is displayed on the left GO/NO GO light on the CTC BITE panel, distinct from the passenger compartment's right light."
+    },
+    {
+      "id": 30,
+      "question": "On the ground, when there is a lack of cold ram air, what compensates for this to provide airflow?",
+      "options": [
+        "A. The fan of the air cycle machine (ACM)",
+        "B. The condenser",
+        "C. The outflow valve"
+      ],
+      "correctIndex": 0,
+      "explanation": "On the ground, with little or no ram airflow, the ACM's integral fan provides the needed airflow through the heat exchangers to maintain cooling."
+    },
+    {
+      "id": 31,
+      "question": "Which of the following is a true statement about the vapor cycle air conditioning system?",
+      "options": [
+        "A. Condensation takes place in the evaporator",
+        "B. Evaporation takes place in the condenser",
+        "C. Condensation of the refrigerant takes place in the condenser"
+      ],
+      "correctIndex": 2,
+      "explanation": "In the vapor cycle, the refrigerant releases heat and condenses from vapor to liquid in the condenser, while it absorbs heat and evaporates in the evaporator."
+    },
+    {
+      "id": 32,
+      "question": "What is the rate at which atmospheric temperature decreases with increasing altitude called?",
+      "options": [
+        "A. The dew point gradient",
+        "B. The pressure gradient",
+        "C. The (adiabatic) lapse rate"
+      ],
+      "correctIndex": 2,
+      "explanation": "The lapse rate describes how temperature falls as altitude increases in the atmosphere, commonly referenced in standard atmosphere models."
+    },
+    {
+      "id": 33,
+      "question": "Which heating system type is associated with the risk of carbon monoxide contamination?",
+      "options": [
+        "A. An electric resistance heater",
+        "B. A shrouded exhaust heater",
+        "C. A bleed air heater"
+      ],
+      "correctIndex": 1,
+      "explanation": "Exhaust shroud heaters, which warm air by passing it near the engine exhaust, carry a risk of carbon monoxide leaking into the cabin air supply if the exhaust system develops a crack or leak."
+    },
+    {
+      "id": 34,
+      "question": "What is control of the temperature in a specific area/zone of the aircraft called?",
+      "options": [
+        "A. Cabin altitude control",
+        "B. Ozone conversion",
+        "C. Zone temperature control"
+      ],
+      "correctIndex": 2,
+      "explanation": "Zone temperature control allows different areas (zones) of the cabin/flight deck to be independently maintained at their own selected temperatures."
+    },
+    {
+      "id": 35,
+      "question": "When a substance changes state from liquid to gas, its ability to further increase in temperature (beyond the boiling point, while remaining vapor) is called what?",
+      "options": [
+        "A. Latent heat",
+        "B. Sensible heat only in liquid form",
+        "C. Super heat"
+      ],
+      "correctIndex": 2,
+      "explanation": "Superheat refers to the temperature rise of a vapor above its saturation (boiling) point, after the phase change to gas has completed."
+    },
+    {
+      "id": 36,
+      "question": "What is the typical pack discharge overheat switch trip temperature?",
+      "options": [
+        "A. 250°F",
+        "B. 100°F",
+        "C. 500°F"
+      ],
+      "correctIndex": 0,
+      "explanation": "A commonly referenced pack discharge overheat protection setpoint is around 250°F, triggering shutdown to protect downstream components from excessive heat."
+    },
+    {
+      "id": 37,
+      "question": "The boiling point of a substance is not a fixed temperature; it changes with what?",
+      "options": [
+        "A. Color",
+        "B. Density alone, independent of pressure",
+        "C. Pressure"
+      ],
+      "correctIndex": 2,
+      "explanation": "A substance's boiling point varies with the surrounding pressure; lower pressure reduces the boiling point, and higher pressure raises it."
+    },
+    {
+      "id": 38,
+      "question": "What system recycles roughly 50% of cabin air for ventilation purposes?",
+      "options": [
+        "A. The ozone converter",
+        "B. The recirculation system",
+        "C. The outflow valve"
+      ],
+      "correctIndex": 1,
+      "explanation": "Recirculation systems commonly blend a significant portion (such as around 50%) of filtered cabin air back into the supply, reducing the demand for fresh bleed air."
+    },
+    {
+      "id": 39,
+      "question": "Where does the condenser in a vapor cycle system draw its cooling air from?",
+      "options": [
+        "A. Ambient (outside) air",
+        "B. Cabin return air only",
+        "C. Engine bleed air"
+      ],
+      "correctIndex": 0,
+      "explanation": "The condenser rejects heat to a flow of cooling air, typically drawn from the ambient (ram/outside) airstream."
+    },
+    {
+      "id": 40,
+      "question": "Which heating system type uses aircraft fuel directly as its heat source?",
+      "options": [
+        "A. An electric heater",
+        "B. A bleed air heater",
+        "C. A combustion heater"
+      ],
+      "correctIndex": 2,
+      "explanation": "Combustion heaters burn a small amount of aircraft fuel to generate heat, which is then used to warm cabin air, distinct from bleed-air-based heating."
+    },
+    {
+      "id": 41,
+      "question": "What system deals with controlling cabin air pressure, temperature, and ventilation collectively?",
+      "options": [
+        "A. Cabin atmosphere control",
+        "B. Fuel system control",
+        "C. Landing gear control"
+      ],
+      "correctIndex": 0,
+      "explanation": "Cabin atmosphere control encompasses the integrated management of pressurization, temperature, and ventilation to maintain a comfortable, safe cabin environment."
+    },
+    {
+      "id": 42,
+      "question": "Which system uses a closed loop for its conditioned air/refrigerant circuit?",
+      "options": [
+        "A. The air cycle air conditioning system",
+        "B. The bleed air ventilation system",
+        "C. The vapor cycle air conditioning system"
+      ],
+      "correctIndex": 2,
+      "explanation": "The vapor cycle system circulates a sealed refrigerant in a closed loop (compressor-condenser-expansion valve-evaporator), unlike the open-loop air cycle system."
+    },
+    {
+      "id": 43,
+      "question": "After a substance changes state into vapor, the further rise in temperature of that vapor above the boiling point is called what?",
+      "options": [
+        "A. Latent heat",
+        "B. Sub-cooling",
+        "C. Super heat"
+      ],
+      "correctIndex": 2,
+      "explanation": "Once a substance has fully vaporized, any additional temperature rise above the boiling point is termed superheat."
+    },
+    {
+      "id": 44,
+      "question": "Which component of the vapor cycle system serves as the boundary between the low side and high side of the refrigerant circuit?",
+      "options": [
+        "A. The compressor",
+        "B. The sight glass",
+        "C. The receiver drier"
+      ],
+      "correctIndex": 0,
+      "explanation": "The compressor marks the transition point from low-pressure refrigerant (entering) to high-pressure refrigerant (leaving), forming the boundary between low and high sides."
+    },
+    {
+      "id": 45,
+      "question": "What position allows access to a component for servicing, such as a valve positioned for maintenance?",
+      "options": [
+        "A. The intermediate position",
+        "B. The fully open position only",
+        "C. The fully closed position only"
+      ],
+      "correctIndex": 0,
+      "explanation": "Certain valves or components have a designated intermediate position that provides clearance or access specifically for maintenance servicing."
+    },
+    {
+      "id": 46,
+      "question": "What controls the amount of hot (bleed) air that bypasses the air cycle machine?",
+      "options": [
+        "A. The outflow valve",
+        "B. The PRSOV",
+        "C. The temperature control valve"
+      ],
+      "correctIndex": 2,
+      "explanation": "The temperature control valve meters how much hot bypass air mixes with cold ACM output air, achieving the commanded final air temperature."
+    },
+    {
+      "id": 47,
+      "question": "What is correct about the receiver drier in a vapor cycle system?",
+      "options": [
+        "A. It compresses the refrigerant vapor",
+        "B. It controls cabin pressure",
+        "C. It acts as a reservoir (and moisture-absorbing filter) for the vapor cycle system"
+      ],
+      "correctIndex": 2,
+      "explanation": "The receiver drier stores liquid refrigerant as a reservoir for system demand changes and contains a desiccant to absorb any residual moisture from the refrigerant."
+    },
+    {
+      "id": 48,
+      "question": "Which of the following is an incorrect (wrong) statement about the vapor cycle cooling system?",
+      "options": [
+        "A. That refrigerant evaporates in the evaporator",
+        "B. That Freon condenses in the evaporator (it actually evaporates there; condensation occurs in the condenser)",
+        "C. That refrigerant condenses in the condenser"
+      ],
+      "correctIndex": 1,
+      "explanation": "This statement reverses the actual process: refrigerant evaporates in the evaporator (absorbing heat) and condenses in the condenser (releasing heat), not the other way around."
+    },
+    {
+      "id": 49,
+      "question": "What is used to express cabin altitude in real time to the crew?",
+      "options": [
+        "A. A thermometer",
+        "B. A cabin altitude indicator referenced to a barometric pressure setting",
+        "C. A fuel flow gauge"
+      ],
+      "correctIndex": 1,
+      "explanation": "Cabin altitude is displayed using an indicator that converts measured cabin pressure into an equivalent altitude value, referenced against standard barometric pressure."
+    },
+    {
+      "id": 50,
+      "question": "Which valve allows the airflow system to get rid of smoke in the cabin quickly?",
+      "options": [
+        "A. The dump valve",
+        "B. The sight glass",
+        "C. The PRSOV"
+      ],
+      "correctIndex": 0,
+      "explanation": "A dump valve can be opened to rapidly vent cabin air (and any smoke) overboard, helping clear smoke from the cabin in an emergency."
+    },
+    {
+      "id": 51,
+      "question": "What valve in the pack temperature control system is used to control the pack outlet temperature?",
+      "options": [
+        "A. The Turbine Bypass Valve (TBV)",
+        "B. The outflow valve",
+        "C. The receiver drier"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Turbine Bypass Valve regulates how much air bypasses the ACM turbine (cooling) section, directly controlling the pack's final outlet air temperature."
+    },
+    {
+      "id": 52,
+      "question": "What shape of duct is most commonly used for air supply ducting?",
+      "options": [
+        "A. Square",
+        "B. Circular",
+        "C. Triangular"
+      ],
+      "correctIndex": 1,
+      "explanation": "Circular ducting is the most common shape for air supply ducts, offering efficient airflow and ease of manufacture/joining compared with other shapes."
+    },
+    {
+      "id": 53,
+      "question": "Where is the BITE test for the air conditioning system typically performed on the Boeing 737?",
+      "options": [
+        "A. On the CTC (Cabin Temperature Controller) panel",
+        "B. On the flight data recorder panel",
+        "C. On the weather radar panel"
+      ],
+      "correctIndex": 0,
+      "explanation": "The 737's Cabin Temperature Controller (CTC) includes a built-in BITE test function, accessed directly on the CTC panel."
+    },
+    {
+      "id": 54,
+      "question": "In which component can the refrigerant level be checked via a viewing window?",
+      "options": [
+        "A. The evaporator core",
+        "B. The sight glass on the receiver drier",
+        "C. The compressor housing"
+      ],
+      "correctIndex": 1,
+      "explanation": "The sight glass, mounted on the receiver drier, allows a technician to visually check the refrigerant level/condition (clear vs. bubbly) in the system."
+    },
+    {
+      "id": 55,
+      "question": "When liquid refrigerant is introduced into the low (suction) side, what component does it negatively affect?",
+      "options": [
+        "A. The condenser",
+        "B. The receiver drier",
+        "C. The compressor"
+      ],
+      "correctIndex": 2,
+      "explanation": "Liquid refrigerant entering the compressor's suction side (rather than vapor) can cause \"slugging,\" potentially damaging the compressor, since compressors are designed to handle vapor, not liquid."
+    },
+    {
+      "id": 56,
+      "question": "Equipment cooling systems remove heat primarily from which areas?",
+      "options": [
+        "A. The passenger cabin seating area",
+        "B. Electronic/electrical equipment bays",
+        "C. The cargo hold only"
+      ],
+      "correctIndex": 1,
+      "explanation": "Dedicated equipment cooling systems are designed to remove heat generated by avionics and electronic equipment, which is especially heat-sensitive."
+    },
+    {
+      "id": 57,
+      "question": "A calorie (or similarly defined heat unit) is the amount of heat energy needed to raise the temperature of water by approximately how many degrees in the related definition?",
+      "options": [
+        "A. 100°",
+        "B. 1000°",
+        "C. 4° (consistent with the calorie/joule-based definitions referenced)"
+      ],
+      "correctIndex": 2,
+      "explanation": "Depending on the specific unit definition referenced in training material, a small, defined temperature rise (on the order of a few degrees) corresponds to the basic heat energy unit being described."
+    },
+    {
+      "id": 58,
+      "question": "What component captures moisture in the system (e.g., to protect refrigerant purity)?",
+      "options": [
+        "A. A thermal expansion valve",
+        "B. A sight glass",
+        "C. A desiccant"
+      ],
+      "correctIndex": 2,
+      "explanation": "A desiccant material, typically contained in the receiver drier, absorbs residual moisture from the refrigerant to prevent ice formation and system damage."
+    },
+    {
+      "id": 59,
+      "question": "Regarding ventilation, pressure, and temperature control, which operating mode is commonly referenced for normal automatic operation?",
+      "options": [
+        "A. Auto (automatic control) mode",
+        "B. Manual override mode only",
+        "C. Test mode only"
+      ],
+      "correctIndex": 0,
+      "explanation": "Cabin environmental systems are typically operated in an automatic control mode for normal flight, with manual modes available as backup."
+    },
+    {
+      "id": 60,
+      "question": "What factor affects the extent of impairment caused by a deficiency of oxygen (hypoxia)?",
+      "options": [
+        "A. The color of the cabin lighting",
+        "B. The type of fuel being used",
+        "C. The duration of the oxygen deficiency"
+      ],
+      "correctIndex": 2,
+      "explanation": "The severity of hypoxia's effects depends significantly on how long the body is deprived of adequate oxygen, along with altitude and individual factors."
+    },
+    {
+      "id": 61,
+      "question": "What device compresses fuel and air and delivers the mixture to the engine (used on some reciprocating engines)?",
+      "options": [
+        "A. A turbocharger",
+        "B. A condenser",
+        "C. A supercharger"
+      ],
+      "correctIndex": 2,
+      "explanation": "A supercharger, mechanically driven by the engine, compresses the incoming fuel-air mixture before it enters the engine's cylinders, boosting power."
+    },
+    {
+      "id": 62,
+      "question": "Air kept in a liquid state at room temperature in a storage bottle is maintained at what condition?",
+      "options": [
+        "A. Low pressure",
+        "B. A vacuum",
+        "C. High pressure"
+      ],
+      "correctIndex": 2,
+      "explanation": "Keeping a normally gaseous substance in liquid form at room temperature requires storing it under high pressure."
+    },
+    {
+      "id": 63,
+      "question": "What is the state of refrigerant at the inlet of the condenser?",
+      "options": [
+        "A. Low-pressure vapor",
+        "B. High-pressure vapor",
+        "C. Low-pressure liquid"
+      ],
+      "correctIndex": 1,
+      "explanation": "After compression, the refrigerant enters the condenser as a hot, high-pressure vapor, ready to release heat and condense into liquid."
+    },
+    {
+      "id": 64,
+      "question": "What does the quantity of fresh air in an air cycle conditioning system depend on?",
+      "options": [
+        "A. The color of the cabin interior",
+        "B. The setting of the temperature control valve (which governs mixed air proportions and flow)",
+        "C. The fuel type being used"
+      ],
+      "correctIndex": 1,
+      "explanation": "The temperature control valve's position affects how much conditioned (and effectively fresh) air flows into the cabin as part of achieving the commanded temperature."
+    },
+    {
+      "id": 65,
+      "question": "Which type of heater is prone to introducing carbon monoxide contamination?",
+      "options": [
+        "A. The electric cabin heater",
+        "B. The exhaust (shroud) heater",
+        "C. The bleed air heater"
+      ],
+      "correctIndex": 1,
+      "explanation": "Exhaust heaters that warm air using heat from the engine exhaust carry inherent risk of CO contamination if the exhaust shroud develops a leak or crack."
+    },
+    {
+      "id": 66,
+      "question": "What type of duct material is used when duct air temperature exceeds about 200°C?",
+      "options": [
+        "A. Aluminum alloy",
+        "B. PVC plastic",
+        "C. Stainless steel"
+      ],
+      "correctIndex": 2,
+      "explanation": "At very high bleed air temperatures (above roughly 200°C), stainless steel ducting is used for its heat resistance, rather than aluminum or plastic materials."
+    },
+    {
+      "id": 67,
+      "question": "What does an aircraft pressure (hull) test consist of?",
+      "options": [
+        "A. A leak and sealing check",
+        "B. A weight and balance check",
+        "C. A fuel flow check"
+      ],
+      "correctIndex": 0,
+      "explanation": "A pressure test verifies the airframe's ability to hold pressurization by checking for leaks and confirming the integrity of seals around doors, windows, and fuselage joints."
+    },
+    {
+      "id": 68,
+      "question": "The maximum cabin differential pressure limit that preflight checks depend on relates primarily to what concern?",
+      "options": [
+        "A. Fuel economy",
+        "B. Engine thrust output",
+        "C. Structural integrity of the pressurized fuselage"
+      ],
+      "correctIndex": 2,
+      "explanation": "Maximum differential pressure limits exist to protect the fuselage structure from being overstressed by excessive pressure difference between cabin and ambient air."
+    },
+    {
+      "id": 69,
+      "question": "What is the ability of a turbine to be driven by the output of its own compressor (which is in turn driven by that same turbine) called?",
+      "options": [
+        "A. Ram rise effect",
+        "B. Super heat effect",
+        "C. Bootstrap (effect/cycle)"
+      ],
+      "correctIndex": 2,
+      "explanation": "The bootstrap air cycle system uses a turbine-compressor combination where the compressor (driven by the turbine) further compresses air before it is expanded through the turbine, creating additional cooling."
+    },
+    {
+      "id": 70,
+      "question": "What is the purpose of the recirculation system?",
+      "options": [
+        "A. To limit the amount of engine bleed air required by reusing filtered cabin air",
+        "B. To increase cabin pressure beyond normal limits",
+        "C. To heat the cabin using engine exhaust"
+      ],
+      "correctIndex": 0,
+      "explanation": "By recirculating filtered cabin air back into the supply, the recirculation system reduces how much fresh engine bleed air is needed, saving fuel/engine performance."
+    },
+    {
+      "id": 71,
+      "question": "In which atmospheric layer does most \"bad weather\" (typical weather phenomena) occur?",
+      "options": [
+        "A. The stratosphere",
+        "B. The troposphere",
+        "C. The thermosphere"
+      ],
+      "correctIndex": 1,
+      "explanation": "Virtually all everyday weather (clouds, storms, precipitation) occurs within the troposphere, the lowest atmospheric layer."
+    },
+    {
+      "id": 72,
+      "question": "What reduces the pressure of the refrigerant (Freon) prior to it entering the evaporator?",
+      "options": [
+        "A. The compressor",
+        "B. The thermal expansion valve",
+        "C. The condenser"
+      ],
+      "correctIndex": 1,
+      "explanation": "The thermal expansion valve drops refrigerant pressure (and temperature) just before the evaporator, enabling it to absorb heat efficiently as it evaporates."
+    },
+    {
+      "id": 73,
+      "question": "If an overheat condition is sensed in the air conditioning pack, what is typically shut off?",
+      "options": [
+        "A. The pack output (bleed air flow to that pack)",
+        "B. The cabin lighting",
+        "C. The fuel supply to the engine"
+      ],
+      "correctIndex": 0,
+      "explanation": "An overheat sensor triggers shutoff of the affected pack's air output to protect downstream ducting and components from thermal damage."
+    },
+    {
+      "id": 74,
+      "question": "Which of the following does the CTC BITE test check?",
+      "options": [
+        "A. The landing gear position sensor",
+        "B. The fuel quantity sensor",
+        "C. The compartment temperature sensor"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Cabin Temperature Controller's BITE function checks the temperature sensors and related components within the cabin temperature control system."
+    },
+    {
+      "id": 75,
+      "question": "How does a low-flow ventilation system move air when ram air alone is insufficient?",
+      "options": [
+        "A. Using a compressor from the vapor cycle system",
+        "B. Using a fan",
+        "C. Using the outflow valve"
+      ],
+      "correctIndex": 1,
+      "explanation": "A ventilation fan provides the necessary airflow through ducting when natural ram air pressure is too low, such as during ground operations or low-speed flight."
+    },
+    {
+      "id": 76,
+      "question": "Which button/control is found on the CTC BITE panel?",
+      "options": [
+        "A. A fuel selector switch",
+        "B. A landing gear selector switch",
+        "C. A test selector switch"
+      ],
+      "correctIndex": 2,
+      "explanation": "The CTC BITE panel includes a test selector switch allowing the technician to choose and initiate specific self-test sequences."
+    },
+    {
+      "id": 77,
+      "question": "What is incorporated at various points in the duct system to permit the duct to expand as temperature increases?",
+      "options": [
+        "A. A rigid clamp",
+        "B. A thermal (expansion) bellows",
+        "C. A sight glass"
+      ],
+      "correctIndex": 1,
+      "explanation": "Thermal/expansion bellows allow ducting sections to expand and contract with temperature changes without stressing or cracking the duct joints."
+    },
+    {
+      "id": 78,
+      "question": "Where does cooling (heat absorption from the air) take place in the vapor cycle system?",
+      "options": [
+        "A. In the condenser",
+        "B. In the evaporator",
+        "C. In the compressor"
+      ],
+      "correctIndex": 1,
+      "explanation": "The evaporator is where the refrigerant absorbs heat from the passing air (cooling it) as the refrigerant itself evaporates from liquid to vapor."
+    },
+    {
+      "id": 79,
+      "question": "Which of the following is NOT correct about the receiver drier?",
+      "options": [
+        "A. That it separates the low and high (pressure) sides of the system (that is actually the compressor's role, not the receiver drier's)",
+        "B. That it stores liquid refrigerant as a reservoir",
+        "C. That it contains a desiccant to remove moisture"
+      ],
+      "correctIndex": 0,
+      "explanation": "The receiver drier stores refrigerant and removes moisture, but it does not itself act as the boundary between the low and high pressure sides; that function belongs to the compressor (and expansion valve)."
+    },
+    {
+      "id": 80,
+      "question": "What does the amount of fresh air provided for air conditioning depend on?",
+      "options": [
+        "A. The color of the cabin seats",
+        "B. The number of passengers on board",
+        "C. The fuel type"
+      ],
+      "correctIndex": 1,
+      "explanation": "Fresh air supply requirements scale with the number of occupants, since more people generate more CO2 and require a proportionally greater air exchange rate."
+    },
+    {
+      "id": 81,
+      "question": "What is the function of an ozone converter in the air conditioning system?",
+      "options": [
+        "A. It converts oxygen into ozone",
+        "B. It filters out carbon dioxide",
+        "C. It converts ozone into oxygen"
+      ],
+      "correctIndex": 2,
+      "explanation": "An ozone converter uses a catalyst to chemically convert harmful ozone (present at high cruise altitudes) into ordinary oxygen before it reaches the cabin."
+    },
+    {
+      "id": 82,
+      "question": "What type of bearing is commonly used on the Air Cycle Machine (ACM)?",
+      "options": [
+        "A. A ball bearing with grease lubrication",
+        "B. An air bearing",
+        "C. A roller bearing with oil bath lubrication"
+      ],
+      "correctIndex": 1,
+      "explanation": "ACMs commonly use air bearings, which are lubricated by a thin film of air rather than oil or grease, suited to their very high rotational speeds."
+    },
+    {
+      "id": 83,
+      "question": "In a CTC BITE test, what should be done before pressing the test switch?",
+      "options": [
+        "A. Ensure proper initial conditions, then push the test (selector) switch to begin the sequence",
+        "B. Shut down all aircraft electrical power",
+        "C. Disconnect the battery"
+      ],
+      "correctIndex": 0,
+      "explanation": "The BITE test procedure requires the technician to set up appropriate conditions and then press/push the designated test switch to initiate the self-test sequence."
+    },
+    {
+      "id": 84,
+      "question": "Above what altitude is the air generally too thin and cold for normal unaided breathing?",
+      "options": [
+        "A. 2,000 feet",
+        "B. 10,000 feet",
+        "C. 50,000 feet"
+      ],
+      "correctIndex": 1,
+      "explanation": "Above approximately 10,000 feet, reduced atmospheric oxygen partial pressure makes normal unassisted breathing inadequate for sustained normal function, necessitating pressurization or supplemental oxygen."
+    },
+    {
+      "id": 85,
+      "question": "Which user system utilizes engine bleed air for anti-icing purposes?",
+      "options": [
+        "A. TAI (Thermal Anti-Ice)",
+        "B. The vapor cycle system",
+        "C. The recirculation system"
+      ],
+      "correctIndex": 0,
+      "explanation": "Thermal Anti-Ice (TAI) systems use hot engine bleed air routed to wing and engine inlet leading edges to prevent ice formation."
+    },
+    {
+      "id": 86,
+      "question": "When does the temperature control system typically operate (become active)?",
+      "options": [
+        "A. When the air conditioning pack is ON",
+        "B. Only when the aircraft is on the ground",
+        "C. Only during descent"
+      ],
+      "correctIndex": 0,
+      "explanation": "The temperature control system is active whenever the associated air conditioning pack is turned on and supplying conditioned air."
+    },
+    {
+      "id": 87,
+      "question": "Where is the outlet of the ventilation (exhaust) system typically found?",
+      "options": [
+        "A. In the cockpit overhead panel",
+        "B. Near the outflow valve(s)",
+        "C. At the wingtip"
+      ],
+      "correctIndex": 1,
+      "explanation": "Cabin air exiting the ventilation system typically flows out near the outflow valve location, from where it is eventually discharged overboard to control cabin pressure."
+    },
+    {
+      "id": 88,
+      "question": "The sight glass used to check refrigerant level is a part of which component?",
+      "options": [
+        "A. The evaporator",
+        "B. The receiver drier",
+        "C. The compressor"
+      ],
+      "correctIndex": 1,
+      "explanation": "The sight glass is typically mounted directly on or near the receiver drier, allowing visual inspection of the refrigerant charge level and condition."
+    },
+    {
+      "id": 89,
+      "question": "Which refrigerant type is considered less harmful to the ozone layer?",
+      "options": [
+        "A. R134A",
+        "B. R12 (Freon)",
+        "C. R22"
+      ],
+      "correctIndex": 0,
+      "explanation": "R134A was developed as an ozone-friendly alternative to older refrigerants like R12, which contain ozone-depleting chlorine compounds."
+    },
+    {
+      "id": 90,
+      "question": "How long is an ozone converter typically rated to operate before requiring replacement/servicing?",
+      "options": [
+        "A. About 12,000 hours",
+        "B. About 100 hours",
+        "C. About 1,000,000 hours"
+      ],
+      "correctIndex": 0,
+      "explanation": "Ozone converter catalytic elements have a finite effective service life, commonly cited around 12,000 flight hours, after which their conversion efficiency degrades."
+    },
+    {
+      "id": 91,
+      "question": "What is an advantage of the air cycle system over the vapor cycle system?",
+      "options": [
+        "A. It uses no moving parts at all",
+        "B. It helps to maintain cabin pressurization as part of its operation (using the same bleed air source)",
+        "C. It requires no bleed air"
+      ],
+      "correctIndex": 1,
+      "explanation": "Because the air cycle system uses engine bleed air that also serves pressurization needs, it inherently supports maintaining cabin pressurization, an advantage over a standalone vapor cycle unit."
+    },
+    {
+      "id": 92,
+      "question": "What component heats the air going to the turbine in certain air cycle system configurations?",
+      "options": [
+        "A. The outflow valve",
+        "B. A reheater",
+        "C. The receiver drier"
+      ],
+      "correctIndex": 1,
+      "explanation": "A reheater exchanges heat between the warmer bleed air and the cooler turbine discharge air, preconditioning air before it enters the expansion turbine to prevent ice formation."
+    },
+    {
+      "id": 93,
+      "question": "On the B737 air plant, what happens when the Low Limit Control Valve (LLCV) senses a temperature less than 35°F?",
+      "options": [
+        "A. The LLCV shuts off all bleed air",
+        "B. The LLCV adds heat to the water separator (to prevent freezing)",
+        "C. The LLCV increases cabin pressure"
+      ],
+      "correctIndex": 1,
+      "explanation": "If the sensed temperature drops below 35°F, the LLCV modulates to add warmth, preventing ice formation in the water separator that could block airflow."
+    },
+    {
+      "id": 94,
+      "question": "Plastic ducts in air conditioning systems are used for applications limited to what temperature range?",
+      "options": [
+        "A. Temperatures not exceeding normal room temperature",
+        "B. Temperatures up to 500°F",
+        "C. Any temperature, including engine bleed air temperatures"
+      ],
+      "correctIndex": 0,
+      "explanation": "Plastic ducting can only tolerate relatively low (room) temperatures and is used accordingly, while hot bleed air ducting requires metal (often stainless steel) construction."
+    },
+    {
+      "id": 95,
+      "question": "If a drop of liquid Freon lands on the skin, what happens?",
+      "options": [
+        "A. It can cause a burn-like injury because it freezes the skin on contact",
+        "B. It causes no reaction at all",
+        "C. It instantly evaporates with no sensation"
+      ],
+      "correctIndex": 0,
+      "explanation": "Liquid refrigerant evaporates rapidly and absorbs heat so quickly from the skin that it can cause frostbite-like burns on contact."
+    },
+    {
+      "id": 96,
+      "question": "The heat exchanger in the air cycle system cools bleed air using a cross-flow of what cooling medium?",
+      "options": [
+        "A. Cabin exhaust air only",
+        "B. Ram air",
+        "C. Hydraulic fluid"
+      ],
+      "correctIndex": 1,
+      "explanation": "Primary and secondary heat exchangers in the air cycle system use ram air flowing across the bleed air passages to remove heat before further processing."
+    },
+    {
+      "id": 97,
+      "question": "Which of the following is NOT part of the Air Cycle Machine (ACM)?",
+      "options": [
+        "A. An air valve (a separate pneumatic system component, not an internal ACM part)",
+        "B. The compressor section",
+        "C. The turbine section"
+      ],
+      "correctIndex": 0,
+      "explanation": "The ACM itself consists of integrated compressor, turbine, and fan sections on a common shaft; a standalone air valve is a separate pneumatic system component, not part of the ACM assembly."
+    },
+    {
+      "id": 98,
+      "question": "Air temperature decreases due to low-pressure air flowing out of which ACM component?",
+      "options": [
+        "A. The compressor",
+        "B. The fan",
+        "C. The turbine"
+      ],
+      "correctIndex": 2,
+      "explanation": "As air expands through the ACM's turbine section, its pressure and temperature both drop significantly, producing the cold air delivered to the cabin."
+    },
+    {
+      "id": 99,
+      "question": "Which chemical compound is known to destroy the ozone layer?",
+      "options": [
+        "A. Freon (R12)",
+        "B. Nitrogen",
+        "C. Carbon dioxide"
+      ],
+      "correctIndex": 0,
+      "explanation": "R12 (a chlorofluorocarbon refrigerant) releases chlorine compounds that catalytically destroy stratospheric ozone, leading to its phase-out in favor of less harmful refrigerants."
+    },
+    {
+      "id": 100,
+      "question": "Whenever a duct is angled, provisions are made for the end force that tends to push the duct sections apart. What external device accomplishes this?",
+      "options": [
+        "A. A simple hose clamp",
+        "B. A sight glass",
+        "C. A swinging support (or tie rod/brace arrangement)"
+      ],
+      "correctIndex": 2,
+      "explanation": "At angled duct joints, swinging supports or external braces resist the axial force trying to separate the duct sections, maintaining joint integrity."
+    },
+    {
+      "id": 101,
+      "question": "What method of heat transfer occurs through vertical currents within a liquid (or gas)?",
+      "options": [
+        "A. Conduction",
+        "B. Convection",
+        "C. Radiation"
+      ],
+      "correctIndex": 1,
+      "explanation": "Convection transfers heat through the bulk movement (currents) of a fluid, such as rising warm air or liquid, as opposed to conduction (through direct contact) or radiation."
+    },
+    {
+      "id": 102,
+      "question": "In which atmospheric layer does the actual temperature-versus-height relationship vary significantly from day to day depending on weather conditions?",
+      "options": [
+        "A. The stratosphere",
+        "B. The ionosphere",
+        "C. The troposphere"
+      ],
+      "correctIndex": 2,
+      "explanation": "Because weather phenomena occur in the troposphere, actual temperature lapse rates there vary daily, unlike the more stable, predictable stratosphere above."
+    },
+    {
+      "id": 103,
+      "question": "The temperature in the aircraft cabin should generally be maintained within what range?",
+      "options": [
+        "A. 40°F to 50°F",
+        "B. 100°F to 110°F",
+        "C. 70°F to 80°F"
+      ],
+      "correctIndex": 2,
+      "explanation": "Cabin temperature control systems typically target a comfortable range, commonly cited as approximately 70°F to 80°F, for passenger and crew comfort."
+    },
+    {
+      "id": 104,
+      "question": "Which switch is located on the air conditioning control panel?",
+      "options": [
+        "A. The landing gear switch",
+        "B. The Pack ON/OFF switch",
+        "C. The fuel cutoff switch"
+      ],
+      "correctIndex": 1,
+      "explanation": "The air conditioning panel includes a Pack ON/OFF switch (per pack), allowing the crew to control each air conditioning pack's operation."
+    },
+    {
+      "id": 105,
+      "question": "The recirculation fan provides air to what area?",
+      "options": [
+        "A. Only the cockpit",
+        "B. Individual passengers (via the cabin distribution/mix manifold serving passenger outlets)",
+        "C. Only the cargo hold"
+      ],
+      "correctIndex": 1,
+      "explanation": "Recirculated, filtered cabin air mixed with fresh air is distributed through overhead outlets to individual passengers via the cabin air distribution system."
+    },
+    {
+      "id": 106,
+      "question": "If a significant concentration of ozone were introduced into the cabin (e.g., converter failure), what could passengers and crew experience?",
+      "options": [
+        "A. Improved breathing and no symptoms",
+        "B. Chest pain, coughing, and headache",
+        "C. Only mild skin tingling"
+      ],
+      "correctIndex": 1,
+      "explanation": "Ozone is a respiratory irritant; exposure to elevated cabin ozone concentrations can cause chest pain, coughing, headache, and other respiratory symptoms."
+    },
+    {
+      "id": 107,
+      "question": "Which of the following is NOT a function of the Pressure Regulator and Shutoff Valve (PRSOV)?",
+      "options": [
+        "A. Regulating cabin temperature (temperature control is handled by separate temperature control valves, not the bleed air PRSOV)",
+        "B. Regulating bleed air pressure",
+        "C. Shutting off bleed air supply"
+      ],
+      "correctIndex": 0,
+      "explanation": "The PRSOV's role is to regulate and shut off bleed air pressure/flow at the source; cabin zone temperature is regulated separately by dedicated temperature control valves."
+    },
+    {
+      "id": 108,
+      "question": "What is required for a system that uses electricity along with pneumatic operation?",
+      "options": [
+        "A. Only electrical power is ever needed",
+        "B. Only pneumatic power is ever needed",
+        "C. Both pneumatic (air) power and electrical power are needed for that system to function"
+      ],
+      "correctIndex": 2,
+      "explanation": "An electro-pneumatic system relies on electrical signals/power to control pneumatically powered components, so both forms of energy are required for proper operation."
+    },
+    {
+      "id": 109,
+      "question": "In the vapor cycle cooling system, if ice forms or flow becomes blocked, what is the likely underlying cause?",
+      "options": [
+        "A. Excess refrigerant charge",
+        "B. Low ambient temperature alone",
+        "C. Water (moisture) present in the refrigerant system"
+      ],
+      "correctIndex": 2,
+      "explanation": "Moisture trapped in the refrigerant system can freeze at the expansion valve or other restriction points, forming ice that blocks refrigerant flow."
+    },
+    {
+      "id": 110,
+      "question": "On the CTC BITE display, what indicates that the components are serviceable?",
+      "options": [
+        "A. A red light illuminates",
+        "B. A green GO light illuminates",
+        "C. No light illuminates at all"
+      ],
+      "correctIndex": 1,
+      "explanation": "A green GO indication confirms the tested components passed self-test and are serviceable, as opposed to a NO GO (fail) indication."
+    },
+    {
+      "id": 111,
+      "question": "Which of the following is NOT a source of air for the air conditioning system?",
+      "options": [
+        "A. A storage bottle (not a continuous source for normal cabin conditioning)",
+        "B. Engine bleed air",
+        "C. APU bleed air"
+      ],
+      "correctIndex": 0,
+      "explanation": "Normal cabin air conditioning relies on continuous engine or APU bleed air sources, not a finite stored air bottle, which serves other functions like emergency pneumatics."
+    },
+    {
+      "id": 112,
+      "question": "What colorless, odorless gas has a cumulative toxic effect when inhaled over time?",
+      "options": [
+        "A. Nitrogen",
+        "B. Carbon monoxide (CO)",
+        "C. Oxygen"
+      ],
+      "correctIndex": 1,
+      "explanation": "Carbon monoxide is colorless and odorless, and because it binds to hemoglobin more readily than oxygen, its toxic effects accumulate with continued exposure."
+    }
+  ]
+}
