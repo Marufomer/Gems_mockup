@@ -992,9 +992,9 @@
       "id": 90,
       "question": "What is the term for pressure testing the fuselage for air leakage while the aircraft is stationary on the ground?",
       "options": [
-        "A. A flutter test",
+        "A. A static pressure test",
         "B. A vibration test",
-        "C. A static pressure test (sometimes loosely called ground/dynamic depending on terminology)"
+        "C. A dynamic pressure test"
       ],
       "correctIndex": 2,
       "explanation": "A static pressure/leak test pressurizes the parked, stationary aircraft to check for leaks, verifying the integrity of seals and structure before return to service."
