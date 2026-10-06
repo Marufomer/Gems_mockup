@@ -1114,7 +1114,7 @@
       "question": "Which of the following is NOT one of the standard operating modes in a pressurization system?",
       "options": [
         "A. Isobaric mode",
-        "B. Ground mode is not typically listed as a distinct pressurization \"mode\" alongside unpressurized/isobaric/differential (it is more of a system state controlled by the squat switch)",
+        "B. Ground mode ",
         "C. Differential (constant differential) mode"
       ],
       "correctIndex": 1,
