@@ -90,11 +90,11 @@
       "id": 8,
       "question": "Which components in the vapor cycle cooling system separate the high-pressure side from the low-pressure side?",
       "options": [
-        "A. The compressor and the receiver drier",
+        "A. The compressor and the thermal expansion valve",
         "B. The sight glass and the thermal expansion valve",
         "C. The condenser and the evaporator"
       ],
-      "correctIndex": 2,
+      "correctIndex": 0,
       "explanation": "The compressor and expansion valve create the pressure differential, with the condenser operating on the high side and the evaporator on the low side of the refrigerant cycle."
     },
     {
