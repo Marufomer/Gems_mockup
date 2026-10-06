@@ -124,7 +124,7 @@
       "question": "Which of the following is NOT a cause of corrosion?",
       "options": [
         "A. Moisture trapped against bare metal",
-        "B. Primer and paint (these protect against corrosion rather than cause it)",
+        "B. Primer and paint ",
         "C. Dissimilar metal contact (galvanic corrosion)"
       ],
       "correctIndex": 1,
@@ -134,7 +134,7 @@
       "id": 12,
       "question": "What keeps pneumatic de-ice boots pulled tight against the wing surface when the system is off (not inflating)?",
       "options": [
-        "A. The vacuum pump (maintaining a slight vacuum/suction on the boots)",
+        "A. The vacuum pump ",
         "B. The heating element",
         "C. The timer control unit"
       ],
@@ -147,7 +147,7 @@
       "options": [
         "A. Seat belt/harness",
         "B. Seat height and fore-aft adjustment",
-        "C. A foldable tray table (a passenger seat feature)"
+        "C. A foldable tray table"
       ],
       "correctIndex": 2,
       "explanation": "Foldable tray tables are a passenger seat feature; crew seats are instead equipped with harnesses, adjustment mechanisms, and other flight-deck-specific features."
@@ -224,7 +224,7 @@
       "options": [
         "A. Engine bleed air availability",
         "B. Temperature/icing condition sensing",
-        "C. Weight-on-wheels (ground/air logic unrelated to WAI activation)"
+        "C. Weight-on-air "
       ],
       "correctIndex": 2,
       "explanation": "WAI operation depends on bleed air supply and icing detection, not on a weight-on-wheels/air signal, which is unrelated to its control logic."
@@ -235,7 +235,7 @@
       "options": [
         "A. Guarding against biological/chemical contamination exposure",
         "B. Guarding against pressure/vacuum system hazards",
-        "C. Guarding against psychological hazard (not a standard safety consideration for this system)"
+        "C. Guarding against psychological hazard "
       ],
       "correctIndex": 2,
       "explanation": "Standard precautions for water/waste system maintenance focus on biological, chemical, and mechanical/pressure hazards, not a \"psychological hazard,\" which isn't a recognized category here."
@@ -257,7 +257,7 @@
       "options": [
         "A. Solid ice crystals",
         "B. Vapor only",
-        "C. Liquid (remaining liquid below its normal freezing point until disturbed)"
+        "C. Liquid "
       ],
       "correctIndex": 2,
       "explanation": "Supercooled water droplets remain in liquid form even at temperatures below 0°C until they contact a surface or nucleus, triggering rapid freezing."
@@ -333,7 +333,7 @@
       "question": "Which of the following is NOT correct about a dry-type engine-driven air pump?",
       "options": [
         "A. That it uses carbon vanes requiring no fluid lubrication",
-        "B. That it requires an oil separator (that is a feature of wet-type pumps, not dry-type)",
+        "B. That it requires an oil separator ",
         "C. That it is more susceptible to contamination damage"
       ],
       "correctIndex": 1,
@@ -344,7 +344,7 @@
       "question": "Which of the following is NOT correct regarding a wet-type engine-driven air pump?",
       "options": [
         "A. That it uses oil for lubrication",
-        "B. That there is no such thing as a wet-type engine-driven air pump (this is false; wet-type pumps do exist)",
+        "B. That there is no such thing as a wet-type engine-driven air pump ",
         "C. That it requires an oil separator in its output line"
       ],
       "correctIndex": 1,
@@ -367,7 +367,7 @@
       "options": [
         "A. A seat belt",
         "B. A fold-down tray table",
-        "C. Adjustable seat height (not a common passenger seat feature, unlike crew seats)"
+        "C. Adjustable seat height "
       ],
       "correctIndex": 2,
       "explanation": "Unlike crew seats, passenger seats generally do not have adjustable height; they include simpler features like belts and tray tables instead."
@@ -376,7 +376,7 @@
       "id": 34,
       "question": "Which of the following is NOT drained overboard via drain masts?",
       "options": [
-        "A. Human waste or waste water from toilets (handled by the separate waste/vacuum system, not simple drain masts)",
+        "A. Human waste or waste water from toilets ",
         "B. Galley sink water",
         "C. Condensation/clean water drains"
       ],
@@ -476,7 +476,7 @@
       "question": "Which of the following is NOT correct about crew seats?",
       "options": [
         "A. That crew seats include a harness/restraint system",
-        "B. That the pilot and first officer seats are interchangeable (in practice they are typically not freely interchangeable due to control/mounting differences)",
+        "B. That the pilot and first officer seats are interchangeable ",
         "C. That crew seats have fore-aft and vertical adjustment"
       ],
       "correctIndex": 1,
@@ -497,7 +497,7 @@
       "id": 45,
       "question": "Which of the following is NOT true about the Boeing 737-700/800 composite water tank?",
       "options": [
-        "A. That damage can be seen easily (composite tank damage is often not readily visible, requiring specific inspection methods)",
+        "A. That damage can be seen easily ",
         "B. That it is made of composite material",
         "C. That it holds potable water for the aircraft"
       ],
@@ -585,7 +585,7 @@
       "id": 53,
       "question": "What is true about crew seats regarding stowage?",
       "options": [
-        "A. They are typically foldable (to allow entry/exit and stowage flexibility)",
+        "A. They are typically foldable ",
         "B. They are permanently fixed and cannot move at all",
         "C. They have no adjustment capability whatsoever"
       ],
@@ -620,7 +620,7 @@
       "options": [
         "A. Checking for a kinked or restricted air supply tube",
         "B. Checking the inflation valve operation",
-        "C. Checking for electrical cross-wiring (a pneumatic boot issue is unlikely to stem from electrical wiring)"
+        "C. Checking for electrical cross-wiring "
       ],
       "correctIndex": 2,
       "explanation": "Partial boot inflation in a pneumatic system is more likely caused by air supply/tube or valve issues, not electrical cross-wiring, which would be unrelated to a pneumatic system fault."
@@ -652,7 +652,7 @@
       "question": "Which of the following is NOT correct about escape slides?",
       "options": [
         "A. That they are stowed at aircraft exit doors",
-        "B. That they are provided for each passenger under each seat (this is false; escape slides are provided at exits, not individually under every seat)",
+        "B. That they are provided for each passenger under each seat ",
         "C. That they can double as life rafts on overwater flights"
       ],
       "correctIndex": 1,
@@ -718,7 +718,7 @@
       "question": "Which of the following is NOT correct about the potable water system?",
       "options": [
         "A. That it supplies water to lavatory sinks",
-        "B. That the water system supplies water to the cockpit windshield (this is incorrect; windshield anti-ice/rain removal uses separate systems, not potable water)",
+        "B. That the water system supplies water to the cockpit windshield ",
         "C. That it supplies water to galley faucets"
       ],
       "correctIndex": 1,
@@ -772,7 +772,7 @@
       "id": 70,
       "question": "Which of the following is NOT required when designing an anti-icing and rain protection system?",
       "options": [
-        "A. Corrosion resistance (not a defining design requirement specific to anti-ice/rain protection function itself)",
+        "A. Corrosion resistance ",
         "B. Adequate heating/clearing capacity for icing conditions",
         "C. Reliable operation across the flight envelope"
       ],
@@ -785,7 +785,7 @@
       "options": [
         "A. A seat belt",
         "B. A fold-down tray table",
-        "C. Lumbar adjustment (a more advanced/crew seat feature, not standard on basic passenger seats)"
+        "C. Lumbar adjustment "
       ],
       "correctIndex": 2,
       "explanation": "Lumbar support adjustment is a more sophisticated seating feature not typically found on standard passenger seats, which focus on simpler belt and tray table provisions."
@@ -795,7 +795,7 @@
       "question": "What holds the flight crew seats to the aircraft seat tracks?",
       "options": [
         "A. A simple bolt through the floor",
-        "B. A bogie unit (roller/track engagement mechanism)",
+        "B. A bogie unit ",
         "C. Velcro strips"
       ],
       "correctIndex": 1,
@@ -817,7 +817,7 @@
       "question": "Which of the following is NOT considered an adverse effect of ice and rain conditions on an aircraft?",
       "options": [
         "A. Reduced lift and increased drag from ice accumulation",
-        "B. Loss of electrical power (not a direct, typical adverse effect of ice/rain itself)",
+        "B. Loss of electrical power",
         "C. Impaired visibility through windshields from rain/ice"
       ],
       "correctIndex": 1,
@@ -849,7 +849,7 @@
       "id": 77,
       "question": "A de-icer boot may inflate only partially because of what cause?",
       "options": [
-        "A. A kinked tube (restricting air supply to the boot)",
+        "A. A kinked tube ",
         "B. Excessive vacuum pump capacity",
         "C. Too much electrical power to the system"
       ],
@@ -873,7 +873,7 @@
       "options": [
         "A. That it is stowed under or near each passenger seat",
         "B. That it is manually inflated by pulling a handle",
-        "C. That it is shared between passengers (each passenger has their own individual life vest)"
+        "C. That it is shared between passengers "
       ],
       "correctIndex": 2,
       "explanation": "Life vests are individually provided, one per occupant, stowed at or near their seat; they are not meant to be shared between passengers."
@@ -883,7 +883,7 @@
       "question": "Which window anti-icing system type is NOT approved for flight into known icing conditions?",
       "options": [
         "A. An electrically heated windshield system",
-        "B. A pneumatic (boot-type) windshield de-ice system (not typically used/approved for windshields in known icing)",
+        "B. A pneumatic (boot-type) windshield de-ice system ",
         "C. A hot air blown windshield system"
       ],
       "correctIndex": 1,
@@ -894,7 +894,7 @@
       "question": "Which of the following is NOT part of standard passenger seat adjustment features?",
       "options": [
         "A. Seat recline adjustment",
-        "B. Vertical and horizontal seat position adjustment (not a standard passenger seat feature, more typical of crew seats)",
+        "B. Vertical and horizontal seat position adjustment ",
         "C. Tray table position"
       ],
       "correctIndex": 1,
