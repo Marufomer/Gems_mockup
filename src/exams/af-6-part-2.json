@@ -1232,13 +1232,13 @@
     },
     {
       "id": 112,
-      "question": "What component prevents the aircraft cabin pressure from becoming greater (in the reverse sense) than ambient, i.e., prevents cabin pressure from dropping below outside pressure?",
+      "question": "What component prevents the aircraft cabin pressure from becoming greater (in the reverse sense) than ambient",
       "options": [
         "A. The negative pressure relief valve",
         "B. The positive pressure relief valve",
         "C. The reducer valve"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "explanation": "The negative relief valve opens if outside (ambient) pressure exceeds cabin pressure, preventing a damaging reverse (negative) pressure differential on the fuselage."
     },
     {
