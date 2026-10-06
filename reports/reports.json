@@ -192,5 +192,17 @@
     "message": "",
     "reportedAt": "2026-09-30T11:17:38.385Z",
     "status": "pending"
+  },
+  {
+    "id": "rep_1791293633816_0izl6u",
+    "examId": "af-6-part-2",
+    "examTitle": "AF-6-part-2",
+    "questionId": "112",
+    "questionNumber": 112,
+    "question": "What component prevents the aircraft cabin pressure from becoming greater (in the reverse sense) than ambient, i.e., prevents cabin pressure from dropping below outside pressure?",
+    "reason": "Wrong answer",
+    "message": "",
+    "reportedAt": "2026-10-06T13:33:53.816Z",
+    "status": "pending"
   }
 ]
