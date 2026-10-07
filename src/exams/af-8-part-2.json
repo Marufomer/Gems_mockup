@@ -1,0 +1,1124 @@
+{
+  "id": "af-8-part-2",
+  "title": "AF-8-part-2",
+  "module": "AF-8-M2,M3",
+  "course": "airframe",
+  "category": "part",
+  "description": "Airframe exam covering ground handling and servicing (towing, jacking, hoisting, mooring/tie-down, marshaling, fueling, oxygen servicing, hydraulic servicing), NDT and inspection programs, and maintenance documentation/publications, drawn from the AF-8 ground handling and documentation question/answer bank.",
+  "durationMinutes": 150,
+  "totalQuestions": 101,
+  "color": "green",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Inspection using a borescope is essentially what type of inspection?",
+      "options": [
+        "A. A magnetic particle inspection",
+        "B. A visual inspection",
+        "C. An ultrasonic inspection"
+      ],
+      "correctIndex": 1,
+      "explanation": "A borescope lets a technician directly view internal components, making it fundamentally a visual inspection method, just conducted through a small access port."
+    },
+    {
+      "id": 2,
+      "question": "To help prevent Foreign Object Damage (FOD), what area must be kept clear?",
+      "options": [
+        "A. The area behind the exhaust only",
+        "B. The area above the wing only",
+        "C. The area in front of the jet engine inlet"
+      ],
+      "correctIndex": 2,
+      "explanation": "Loose debris can be ingested into a running jet engine's inlet, so the area directly in front of it must be kept clear of FOD hazards."
+    },
+    {
+      "id": 3,
+      "question": "What is mooring?",
+      "options": [
+        "A. The process of towing an aircraft to the hangar",
+        "B. The process of raising an aircraft on jacks",
+        "C. The process of securing an aircraft to the ground"
+      ],
+      "correctIndex": 2,
+      "explanation": "Mooring (tying down) secures a parked aircraft to ground anchor points using ropes/chains to prevent movement, especially in high winds."
+    },
+    {
+      "id": 4,
+      "question": "In eddy current inspection, what do the induced eddy currents do?",
+      "options": [
+        "A. Create their own magnetic field that opposes the original field's current",
+        "B. Create no field at all",
+        "C. Directly melt the surface of the part"
+      ],
+      "correctIndex": 0,
+      "explanation": "Eddy currents induced in the part generate their own opposing magnetic field, and changes in this interaction (caused by flaws) are what the inspection detects."
+    },
+    {
+      "id": 5,
+      "question": "Which NDT method poses the most significant health hazard to personnel?",
+      "options": [
+        "A. X-ray (radiographic) inspection",
+        "B. Dye penetrant inspection",
+        "C. Magnetic particle inspection"
+      ],
+      "correctIndex": 0,
+      "explanation": "Radiographic inspection uses ionizing radiation, posing a health hazard that the other common NDT methods do not share, requiring strict radiation safety controls."
+    },
+    {
+      "id": 6,
+      "question": "Most aircraft have jack pads located at the jack points for what purpose?",
+      "options": [
+        "A. Proper aircraft load distribution during jacking",
+        "B. Decoration only",
+        "C. Improving aerodynamic smoothness"
+      ],
+      "correctIndex": 0,
+      "explanation": "Jack pads are specifically located and designed to distribute the jacking load properly into the aircraft structure, preventing localized damage."
+    },
+    {
+      "id": 7,
+      "question": "Can aircraft wheel chocks be chained together?",
+      "options": [
+        "A. Yes, some aircraft chocks can be chained together to give a more secure hold",
+        "B. No, chocks must never be connected to each other",
+        "C. Chaining chocks together is prohibited by all manufacturers"
+      ],
+      "correctIndex": 0,
+      "explanation": "Certain chock designs allow chaining pairs together, providing a more secure, less likely to shift, hold against the wheels."
+    },
+    {
+      "id": 8,
+      "question": "A flashing green light signal from the control tower instructs the pilot to do what?",
+      "options": [
+        "A. Cleared to taxi",
+        "B. Stop",
+        "C. Return to starting point"
+      ],
+      "correctIndex": 0,
+      "explanation": "Standard light gun signals use flashing green, when directed at an aircraft on the ground, to indicate clearance to taxi."
+    },
+    {
+      "id": 9,
+      "question": "How many jack points (places) are typically provided on an aircraft for jacking purposes?",
+      "options": [
+        "A. Exactly one",
+        "B. At least three",
+        "C. At least ten"
+      ],
+      "correctIndex": 1,
+      "explanation": "Aircraft are designed with at least three defined jack points (commonly a nose/tail point and two wing points) to provide stable support during jacking."
+    },
+    {
+      "id": 10,
+      "question": "What does the selection of a ground hoist depend on?",
+      "options": [
+        "A. The lifting load, locational constraints, speed of operation, and power (AC/DC) availability",
+        "B. Only the color of the aircraft",
+        "C. Only the time of day"
+      ],
+      "correctIndex": 0,
+      "explanation": "Choosing the right hoist for a maintenance task requires matching its capacity, positioning constraints, operating speed, and power source to the job's needs."
+    },
+    {
+      "id": 11,
+      "question": "What ground support equipment supplies compressed air for starting a gas turbine engine?",
+      "options": [
+        "A. An air start unit",
+        "B. A ground power unit",
+        "C. An air conditioning unit"
+      ],
+      "correctIndex": 0,
+      "explanation": "An air start unit (ASU) supplies high-pressure compressed air used to motor/spin the turbine engine for starting, as distinct from a ground power unit, which supplies electrical power."
+    },
+    {
+      "id": 12,
+      "question": "Which of the following is NOT one of the three recognized principles of extinguishing a fire?",
+      "options": [
+        "A. Heating (adding heat is not a fire-extinguishing principle)",
+        "B. Displacing/removing the oxygen",
+        "C. Separating the fuel from the oxygen"
+      ],
+      "correctIndex": 0,
+      "explanation": "The recognized fire-extinguishing principles are cooling/removing heat, smothering (removing oxygen), and starving (removing fuel); adding heat is the opposite of extinguishing a fire."
+    },
+    {
+      "id": 13,
+      "question": "When possible, in which direction should large airplanes be positioned for parking (relative to wind)?",
+      "options": [
+        "A. Into the wind",
+        "B. 90 degrees to the wind",
+        "C. With a tailwind"
+      ],
+      "correctIndex": 0,
+      "explanation": "Positioning a parked large airplane headed into the prevailing wind minimizes wind loads on the structure and control surfaces, reducing the risk of wind damage."
+    },
+    {
+      "id": 14,
+      "question": "Which of the following is NOT typically considered a movable obstruction to be cleared from an aircraft's taxi route?",
+      "options": [
+        "A. Servicing platforms and passenger steps",
+        "B. The terminal building (a fixed structure, not something moved out of the way)",
+        "C. Vehicles and other servicing equipment"
+      ],
+      "correctIndex": 1,
+      "explanation": "Movable obstructions like service equipment, steps, and vehicles must be cleared from the taxi route, but a terminal building is a fixed structure that the taxi route is planned around, not something relocated."
+    },
+    {
+      "id": 15,
+      "question": "Which of the following is NOT true regarding taxiing an aircraft?",
+      "options": [
+        "A. That it may be performed only by rated pilots and technicians",
+        "B. That the radio must be tuned to ground control frequency",
+        "C. That taxi lights can be used when the radio is available"
+      ],
+      "correctIndex": 0,
+      "explanation": "Taxiing authority is generally limited to qualified, rated pilots (and in some contexts specially authorized personnel), but restricting it strictly to \"rated pilots and technicians only\" as a blanket rule is not an accurate statement of taxi authorization practice."
+    },
+    {
+      "id": 16,
+      "question": "What does magnetic particle (flux) inspection detect?",
+      "options": [
+        "A. Invisible cracks and other defects in ferromagnetic materials",
+        "B. Internal flaws in any non-metallic material",
+        "C. Fuel contamination in tanks"
+      ],
+      "correctIndex": 0,
+      "explanation": "Magnetic particle inspection uses magnetic flux leakage at a defect to attract iron particles, revealing cracks and flaws specifically in ferromagnetic (magnetic) materials."
+    },
+    {
+      "id": 17,
+      "question": "What two main materials does Dye Penetrant Inspection (DPI) use?",
+      "options": [
+        "A. Magnetic powder and oil",
+        "B. Dye penetrant and developer",
+        "C. Couplant and transducer gel"
+      ],
+      "correctIndex": 1,
+      "explanation": "DPI applies a penetrant dye that seeps into surface defects, followed by a developer that draws the dye back out to form a visible indication."
+    },
+    {
+      "id": 18,
+      "question": "Which of the following is NOT a proper aircraft taxiing procedure?",
+      "options": [
+        "A. That the pilot should maintain positive control of the aircraft at all times",
+        "B. That emergency doors should be open during taxi",
+        "C. That taxi speed should be appropriate for conditions"
+      ],
+      "correctIndex": 1,
+      "explanation": "Emergency doors should remain closed and secured during taxi operations; leaving them open is not a proper or safe taxiing procedure."
+    },
+    {
+      "id": 19,
+      "question": "On what basis are aircraft inspection programs typically scheduled?",
+      "options": [
+        "A. Flight hours only",
+        "B. All of the above: flight hours, operating cycles, and/or calendar months",
+        "C. Operating cycles only"
+      ],
+      "correctIndex": 1,
+      "explanation": "Inspection programs can be scheduled using flight hours, operating cycles, calendar time, or a combination of these, depending on the applicable program."
+    },
+    {
+      "id": 20,
+      "question": "Which of the following is NOT the responsibility of the aircraft owner or operator?",
+      "options": [
+        "A. Keeping the aircraft in an airworthy condition",
+        "B. Returning the aircraft to service after a 100-hour inspection (this is the inspecting mechanic's responsibility, not the owner's)",
+        "C. Keeping maintenance records"
+      ],
+      "correctIndex": 1,
+      "explanation": "While owners/operators must keep the aircraft airworthy and maintain records, actually certifying and returning the aircraft to service after a 100-hour inspection is the responsibility of the certificated mechanic who performed it."
+    },
+    {
+      "id": 21,
+      "question": "The altimeter system must be inspected and tested at what maximum interval?",
+      "options": [
+        "A. 3 months",
+        "B. 6 months",
+        "C. 24 months"
+      ],
+      "correctIndex": 2,
+      "explanation": "Under 14 CFR 91.411, the altimeter and related static system must be tested and inspected within the preceding 24 calendar months for IFR flight."
+    },
+    {
+      "id": 22,
+      "question": "Checking the fuel tank for fuel quantity is categorized under which inspection?",
+      "options": [
+        "A. The preflight inspection",
+        "B. The annual inspection only",
+        "C. The C check only"
+      ],
+      "correctIndex": 0,
+      "explanation": "Verifying fuel quantity before flight is a basic, routine item performed during the preflight inspection, not reserved for less frequent inspections."
+    },
+    {
+      "id": 23,
+      "question": "Which of the following individuals is NOT authorized to perform an annual inspection?",
+      "options": [
+        "A. A certificated technician holding an A&P license and Inspection Authorization",
+        "B. A person holding an Inspection Authorization",
+        "C. A manufacturer's representative (without separate A&P/IA certification)"
+      ],
+      "correctIndex": 2,
+      "explanation": "Authority to perform an annual inspection requires A&P certification plus Inspection Authorization (IA); simply being a manufacturer's representative does not by itself confer this authority."
+    },
+    {
+      "id": 24,
+      "question": "What term describes the general wear and tear of an aircraft during its service life?",
+      "options": [
+        "A. Corrosion",
+        "B. Burnishing",
+        "C. Attrition"
+      ],
+      "correctIndex": 2,
+      "explanation": "Attrition describes the gradual, expected wear an aircraft experiences through normal operational use over time."
+    },
+    {
+      "id": 25,
+      "question": "Which of the following should NOT be performed during the preflight inspection?",
+      "options": [
+        "A. Checking fuel tanks for quantity",
+        "B. Checking oil tanks for quantity",
+        "C. Replacing time-due (life-limited) components"
+      ],
+      "correctIndex": 2,
+      "explanation": "Replacing time-due components is a maintenance action requiring proper documentation and certification, not something performed as part of a routine pilot preflight inspection."
+    },
+    {
+      "id": 26,
+      "question": "An annual inspection completed on September 14, 2004 will remain valid until what date?",
+      "options": [
+        "A. Midnight of September 30, 2005",
+        "B. Midnight of September 14, 2005",
+        "C. After 100 hours of flight"
+      ],
+      "correctIndex": 0,
+      "explanation": "Annual inspections remain valid through the end of the 12th month following completion, specifically until midnight on the last day of that month, regardless of the exact day it was completed."
+    },
+    {
+      "id": 27,
+      "question": "Which of the following is the most detailed, comprehensive type of inspection?",
+      "options": [
+        "A. A D check",
+        "B. A conformity inspection",
+        "C. A continuous inspection program check"
+      ],
+      "correctIndex": 0,
+      "explanation": "The D check is the most extensive, in-depth heavy maintenance inspection in the airline check cycle (A, B, C, D), involving substantial disassembly and inspection."
+    },
+    {
+      "id": 28,
+      "question": "Which of the following typically calls for a conformity inspection?",
+      "options": [
+        "A. Only major alterations",
+        "B. All of the above: major alterations, minor alterations, and pre-purchase inspections",
+        "C. Only pre-purchase inspections"
+      ],
+      "correctIndex": 1,
+      "explanation": "A conformity inspection, confirming the aircraft matches its approved data/configuration, can be called for in connection with alterations (major or minor) or as part of a pre-purchase evaluation."
+    },
+    {
+      "id": 29,
+      "question": "Why is a conditional inspection not a scheduled (fixed-interval) inspection?",
+      "options": [
+        "A. Because it is performed very frequently on a fixed schedule",
+        "B. Because the operating conditions that trigger the need for it cannot be forecasted or predicted in advance",
+        "C. Because it is prohibited by regulation"
+      ],
+      "correctIndex": 1,
+      "explanation": "Conditional inspections are triggered by specific events or conditions (such as a hard landing or exposure to unusual stress) that cannot be predicted on a calendar or hour-based schedule in advance."
+    },
+    {
+      "id": 30,
+      "question": "Which non-destructive inspection method requires the use of a couplant?",
+      "options": [
+        "A. Eddy current inspection",
+        "B. Magnetic particle inspection",
+        "C. Ultrasonic inspection"
+      ],
+      "correctIndex": 2,
+      "explanation": "Ultrasonic inspection requires a couplant between the transducer and the part to efficiently transmit sound waves into the material being tested."
+    },
+    {
+      "id": 31,
+      "question": "Compliance with Airworthiness Directives (ADs) is:",
+      "options": [
+        "A. Not mandatory",
+        "B. Mandatory only if issued by the manufacturer",
+        "C. Mandatory"
+      ],
+      "correctIndex": 2,
+      "explanation": "Airworthiness Directives are legally enforceable FAA regulations addressing unsafe conditions, and compliance is mandatory for affected aircraft."
+    },
+    {
+      "id": 32,
+      "question": "To prevent overlooking an inspection item, use of what is recommended?",
+      "options": [
+        "A. A service bulletin",
+        "B. A checklist",
+        "C. A sales catalog"
+      ],
+      "correctIndex": 1,
+      "explanation": "A detailed checklist systematically guides the inspector through every required item, reducing the chance that something gets overlooked."
+    },
+    {
+      "id": 33,
+      "question": "Keeping maintenance records for future reference is the responsibility of whom?",
+      "options": [
+        "A. The aircraft owner",
+        "B. The FAA",
+        "C. The original manufacturer"
+      ],
+      "correctIndex": 0,
+      "explanation": "The aircraft owner bears responsibility for retaining and maintaining the required maintenance records for the life of the aircraft (or as specified)."
+    },
+    {
+      "id": 34,
+      "question": "Which publication is used to find the applicable part number for every item on an aircraft?",
+      "options": [
+        "A. The maintenance manual",
+        "B. The Illustrated Parts Catalogue (IPC)",
+        "C. The overhaul manual"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Illustrated Parts Catalogue provides detailed illustrations and corresponding part numbers for every component, making it the go-to reference for part identification."
+    },
+    {
+      "id": 35,
+      "question": "An FAA Form 337 is used to record and document what?",
+      "options": [
+        "A. Routine preventive maintenance",
+        "B. Major repairs and major alterations",
+        "C. Minor repairs and minor alterations"
+      ],
+      "correctIndex": 1,
+      "explanation": "FAA Form 337 is specifically required to document major repairs and major alterations performed on an aircraft, airframe, engine, propeller, or appliance."
+    },
+    {
+      "id": 36,
+      "question": "An inspection that does not involve anything other than optical aids is known as what?",
+      "options": [
+        "A. A visual inspection",
+        "B. A dye penetrant inspection",
+        "C. An ultrasonic inspection"
+      ],
+      "correctIndex": 0,
+      "explanation": "Visual inspection relies solely on the unaided eye or simple optical aids (magnifying glass, borescope lens, etc.), without chemical or electronic test methods."
+    },
+    {
+      "id": 37,
+      "question": "Which of the following materials cannot be tested using magnetic particle inspection?",
+      "options": [
+        "A. Only aluminum",
+        "B. All of the above: copper, aluminum, and lead (none are ferromagnetic)",
+        "C. Only lead"
+      ],
+      "correctIndex": 1,
+      "explanation": "Magnetic particle inspection only works on ferromagnetic materials; copper, aluminum, and lead are all non-ferromagnetic and cannot be inspected using this method."
+    },
+    {
+      "id": 38,
+      "question": "An ATC transponder must be inspected at what maximum interval?",
+      "options": [
+        "A. 24 months",
+        "B. 12 months",
+        "C. 1 month"
+      ],
+      "correctIndex": 0,
+      "explanation": "Under 14 CFR 91.413, the ATC transponder system must be tested and inspected within the preceding 24 calendar months."
+    },
+    {
+      "id": 39,
+      "question": "Which of the following should NOT be performed during the preflight inspection?",
+      "options": [
+        "A. Checking the altimeter (its required inspection/test interval is handled separately, not as a daily preflight task)",
+        "B. Checking fuel tanks for quantity",
+        "C. Checking oil tanks for quantity"
+      ],
+      "correctIndex": 0,
+      "explanation": "The altimeter's formal certified test/inspection occurs on a 24-month regulatory interval, not as part of the routine daily preflight inspection."
+    },
+    {
+      "id": 40,
+      "question": "When towing a large aircraft, a qualified person should be positioned where?",
+      "options": [
+        "A. In the cargo hold",
+        "B. At the wingtip only, with no one in the cockpit",
+        "C. In the cockpit, to operate the brakes"
+      ],
+      "correctIndex": 2,
+      "explanation": "During towing of large aircraft, a qualified person is stationed in the cockpit specifically to apply the brakes if needed, such as during an emergency stop."
+    },
+    {
+      "id": 41,
+      "question": "When an aircraft is being marshaled, where should the marshaller be positioned relative to the pilot?",
+      "options": [
+        "A. Directly behind the aircraft",
+        "B. To the left of the aircraft, within the pilot's view",
+        "C. Underneath the aircraft"
+      ],
+      "correctIndex": 1,
+      "explanation": "The marshaller positions themselves where the pilot has a clear line of sight, typically ahead and to the left side of the aircraft from the pilot's perspective."
+    },
+    {
+      "id": 42,
+      "question": "Before starting an aircraft engine, why is the aircraft typically positioned with its nose into the prevailing wind?",
+      "options": [
+        "A. To ensure adequate airflow over the engine for cooling purposes",
+        "B. To reduce taxi distance",
+        "C. To improve radio reception"
+      ],
+      "correctIndex": 0,
+      "explanation": "Heading into the wind during engine start and ground run-up provides consistent airflow through the engine cowling/inlet, aiding proper cooling."
+    },
+    {
+      "id": 43,
+      "question": "Which of the following is NOT true about servicing a hydraulic reservoir?",
+      "options": [
+        "A. That reservoirs which are air-pressurized must be bled off before servicing",
+        "B. That hydraulic system pressure should be put on before removing the filters",
+        "C. That the correct fluid type can be determined by the container or by its color"
+      ],
+      "correctIndex": 1,
+      "explanation": "System pressure should be relieved (bled off), not applied, before removing filters or opening the reservoir for servicing, to prevent injury and fluid loss."
+    },
+    {
+      "id": 44,
+      "question": "What is a ground hydraulic power unit also commonly called?",
+      "options": [
+        "A. A power cart",
+        "B. A hydraulic mule",
+        "C. A ground power unit (GPU)"
+      ],
+      "correctIndex": 1,
+      "explanation": "A self-contained ground hydraulic test/power cart is commonly nicknamed a \"hydraulic mule\" in maintenance terminology."
+    },
+    {
+      "id": 45,
+      "question": "What is the normal source of AC power for the airplane's electrical system when the airplane is on the ground?",
+      "options": [
+        "A. The battery alone",
+        "B. The APU generator exclusively, with no other option",
+        "C. External (ground) power"
+      ],
+      "correctIndex": 2,
+      "explanation": "While parked, aircraft commonly use external ground power carts to supply AC power, conserving the battery and avoiding unnecessary APU/engine operation."
+    },
+    {
+      "id": 46,
+      "question": "What measure is taken to prevent aircraft movement and possible damage during parking in high winds?",
+      "options": [
+        "A. Jacking the aircraft",
+        "B. Mooring (tying down the aircraft)",
+        "C. Hoisting the aircraft"
+      ],
+      "correctIndex": 1,
+      "explanation": "Mooring the aircraft with ropes/chains to ground tie-down points secures it against movement from high winds while parked."
+    },
+    {
+      "id": 47,
+      "question": "When possible, in which direction should large airplanes be headed, relative to the prevailing wind, for proper tie-down?",
+      "options": [
+        "A. Into the wind",
+        "B. With the wind at the tail",
+        "C. Perpendicular to the wind"
+      ],
+      "correctIndex": 0,
+      "explanation": "Positioning a tied-down airplane headed into the wind minimizes aerodynamic loads on the structure and control surfaces from gusting wind."
+    },
+    {
+      "id": 48,
+      "question": "What problem results from having a tie-down rope with too much slack?",
+      "options": [
+        "A. It causes the aircraft to jerk against the rope",
+        "B. It causes the rope to overheat",
+        "C. It causes excessive tension that can snap the rope immediately"
+      ],
+      "correctIndex": 0,
+      "explanation": "Excess slack allows the aircraft to move before the rope takes up tension, creating sudden jerking loads on the tie-down points and rope as it snaps taut."
+    },
+    {
+      "id": 49,
+      "question": "Other than placing the aircraft in a warm hangar, what is another method of removing frost from an aircraft?",
+      "options": [
+        "A. Using a frost remover or deicing fluid",
+        "B. Using compressed air only",
+        "C. Using a heat gun applied directly to the windshield"
+      ],
+      "correctIndex": 0,
+      "explanation": "Deicing/frost removal fluid chemically melts and prevents frost accumulation, offering an alternative to the time and space required to use a heated hangar."
+    },
+    {
+      "id": 50,
+      "question": "Where should an aircraft's Airworthiness Certificate be kept?",
+      "options": [
+        "A. In the owner's home filing cabinet",
+        "B. On board the aircraft, displayed at the cabin or flight deck entrance",
+        "C. At the FAA regional office"
+      ],
+      "correctIndex": 1,
+      "explanation": "Regulations require the Airworthiness Certificate to be carried aboard the aircraft and displayed where it is legible to passengers or crew, typically near the entrance."
+    },
+    {
+      "id": 51,
+      "question": "Which of the following operations may produce potentially explosive vapors in a fuel tank?",
+      "options": [
+        "A. Defueling",
+        "B. Routine fuel quantity gauging",
+        "C. Closing the fuel cap"
+      ],
+      "correctIndex": 0,
+      "explanation": "Defueling, especially as a tank empties, can generate a fuel-air vapor mixture inside the tank that is within the explosive range, requiring careful safety precautions."
+    },
+    {
+      "id": 52,
+      "question": "What should always be stenciled or painted adjacent to the fueling port on an aircraft?",
+      "options": [
+        "A. The aircraft's registration number",
+        "B. The maximum takeoff weight",
+        "C. The type and grade of fuel required"
+      ],
+      "correctIndex": 2,
+      "explanation": "Fuel type/grade markings near the fueling port help prevent misfueling by clearly indicating which fuel the aircraft requires."
+    },
+    {
+      "id": 53,
+      "question": "Who issues service bulletins?",
+      "options": [
+        "A. The FAA exclusively",
+        "B. Aircraft manufacturers",
+        "C. Individual mechanics"
+      ],
+      "correctIndex": 1,
+      "explanation": "Service bulletins are issued by the aircraft (or component) manufacturer to communicate recommended or required service actions, improvements, or inspections."
+    },
+    {
+      "id": 54,
+      "question": "What is the major publication usually used in the hangar for aircraft maintenance?",
+      "options": [
+        "A. The pilot's operating handbook",
+        "B. The weight and balance manual",
+        "C. The Aircraft Maintenance Manual (AMM)"
+      ],
+      "correctIndex": 2,
+      "explanation": "The AMM is the primary, detailed reference used by maintenance technicians in the hangar for performing maintenance tasks on the aircraft."
+    },
+    {
+      "id": 55,
+      "question": "Major alterations and repairs are recorded using what document?",
+      "options": [
+        "A. FAA Form 337",
+        "B. A simple logbook entry only",
+        "C. A service bulletin"
+      ],
+      "correctIndex": 0,
+      "explanation": "FAA Form 337 is the standard form used to document and gain approval for major repairs and major alterations performed on certificated aircraft."
+    },
+    {
+      "id": 56,
+      "question": "In the ATA 100 chapter number 52-11-02, what do the three number groups represent, respectively?",
+      "options": [
+        "A. Manufacturer, model, and serial number",
+        "B. Date, time, and location",
+        "C. System, subsystem, and unit"
+      ],
+      "correctIndex": 2,
+      "explanation": "ATA 100/iSpec 2200 numbering breaks documentation into chapter (system), section (subsystem), and subject (unit) levels, such as 52 (doors), 11 (subsystem), 02 (specific unit/topic)."
+    },
+    {
+      "id": 57,
+      "question": "Temporary maintenance records are retained for how long after the work is performed, or until the work is repeated or superseded?",
+      "options": [
+        "A. 5 years",
+        "B. 1 year",
+        "C. 10 years"
+      ],
+      "correctIndex": 1,
+      "explanation": "Temporary maintenance records are kept for a minimum of 1 year after the work is performed, or until the work is repeated/superseded, whichever comes first."
+    },
+    {
+      "id": 58,
+      "question": "Which document thoroughly lists the specifications, conditions, and limitations under which airworthiness requirements were met for a specified product?",
+      "options": [
+        "A. The Illustrated Parts Catalogue",
+        "B. The Service Bulletin index",
+        "C. The Type Certificate Data Sheet (TCDS)"
+      ],
+      "correctIndex": 2,
+      "explanation": "The TCDS is the official document detailing the approved design, limitations, and conditions under which a product's type certificate was issued."
+    },
+    {
+      "id": 59,
+      "question": "Which of the following is commonly used for tie-down of light aircraft?",
+      "options": [
+        "A. Steel cable exclusively",
+        "B. Welded chain exclusively",
+        "C. Rope"
+      ],
+      "correctIndex": 2,
+      "explanation": "Rope is a common, practical tie-down material for light aircraft, providing adequate strength while being easy to handle and tension at tie-down points."
+    },
+    {
+      "id": 60,
+      "question": "Most aircraft have a jack ___ located at the jack points for proper aircraft load distribution.",
+      "options": [
+        "A. Collar",
+        "B. Bracket",
+        "C. Pad"
+      ],
+      "correctIndex": 2,
+      "explanation": "A jack pad at each jacking point ensures the jacking load is distributed properly into the aircraft structure rather than concentrated at a single point."
+    },
+    {
+      "id": 61,
+      "question": "Jacking one wheel of a lighter aircraft is typically done with what equipment?",
+      "options": [
+        "A. Heavy-duty tripod jacks",
+        "B. A full hydraulic hoist system",
+        "C. Low single-base jacks"
+      ],
+      "correctIndex": 2,
+      "explanation": "Smaller, lighter aircraft can have a single wheel raised using a simple low single-base jack, appropriate for their lower weight and jacking loads."
+    },
+    {
+      "id": 62,
+      "question": "When raising an aircraft using three jacks, how should the jacks be operated?",
+      "options": [
+        "A. Only one jack should be raised at a time, fully, before the next",
+        "B. They should be raised together (in coordination)",
+        "C. In any order, with no coordination required"
+      ],
+      "correctIndex": 1,
+      "explanation": "To avoid placing uneven stress on the airframe, all jacks must be raised together/in coordinated fashion rather than one at a time to full height."
+    },
+    {
+      "id": 63,
+      "question": "When hoisting an aircraft, which of the following is most applicable?",
+      "options": [
+        "A. Follow the manufacturer's recommendations in detail",
+        "B. Use any available hoist regardless of rated capacity",
+        "C. Hoist as quickly as possible to save time"
+      ],
+      "correctIndex": 0,
+      "explanation": "Hoisting is a high-risk operation requiring strict adherence to the specific aircraft manufacturer's detailed procedures and equipment recommendations."
+    },
+    {
+      "id": 64,
+      "question": "What are external devices placed in the landing gear retraction mechanism to keep the gear down called?",
+      "options": [
+        "A. Wheel chocks",
+        "B. Ground locks",
+        "C. Tie-down devices"
+      ],
+      "correctIndex": 1,
+      "explanation": "Ground locks (gear pins) are inserted into the retraction mechanism to mechanically prevent inadvertent gear retraction while the aircraft is on the ground."
+    },
+    {
+      "id": 65,
+      "question": "Which of the following typically have red streamers attached to them?",
+      "options": [
+        "A. Wheel chocks",
+        "B. Ground locks",
+        "C. Tie-down devices"
+      ],
+      "correctIndex": 1,
+      "explanation": "Ground locks are fitted with highly visible red streamers/flags, serving as a reminder to remove them before flight."
+    },
+    {
+      "id": 66,
+      "question": "What measure is taken to prevent aircraft movement and possible damage during parking in high winds?",
+      "options": [
+        "A. Jacking",
+        "B. Hoisting",
+        "C. Mooring"
+      ],
+      "correctIndex": 2,
+      "explanation": "Mooring (tying the aircraft down to ground anchors) is the standard measure used to secure a parked aircraft against high-wind movement."
+    },
+    {
+      "id": 67,
+      "question": "Which of the following is NOT a type of knot commonly used for aircraft tie-down?",
+      "options": [
+        "A. Bowline",
+        "B. Square knot",
+        "C. Lock pin (this is a mechanical device, not a knot)"
+      ],
+      "correctIndex": 2,
+      "explanation": "Bowline and square knots are genuine knot types used for tie-down; a \"lock pin\" is a mechanical hardware item, not a knot."
+    },
+    {
+      "id": 68,
+      "question": "Jacking one wheel of a lighter aircraft is done with what type of jack?",
+      "options": [
+        "A. Heavy-duty jacks",
+        "B. Wooden supports",
+        "C. Low single-base jacks"
+      ],
+      "correctIndex": 2,
+      "explanation": "Lighter aircraft wheel jacking commonly uses a simple, low single-base jack appropriate to the lower loads involved."
+    },
+    {
+      "id": 69,
+      "question": "During jacking, what is the purpose of the jack pads?",
+      "options": [
+        "A. To raise the aircraft by themselves",
+        "B. To ensure proper aircraft load distribution",
+        "C. To prevent the aircraft from sliding sideways only"
+      ],
+      "correctIndex": 1,
+      "explanation": "Jack pads spread the jacking load evenly into the structure at the designated jack points, preventing localized structural damage."
+    },
+    {
+      "id": 70,
+      "question": "During towing of an aircraft, who is responsible for obeying an emergency stop instruction?",
+      "options": [
+        "A. The wing walkers only",
+        "B. A qualified person at the tail only",
+        "C. The towing vehicle driver"
+      ],
+      "correctIndex": 2,
+      "explanation": "Ultimately, the towing vehicle driver controls the tow and must respond immediately to any emergency stop instruction given by the ground crew."
+    },
+    {
+      "id": 71,
+      "question": "When towing a large aircraft, what is required regarding personnel?",
+      "options": [
+        "A. Only the driver is needed, with no other personnel required",
+        "B. Persons should be stationed at the nose, each wingtip, and the empennage at all times",
+        "C. Only one wing walker is sufficient"
+      ],
+      "correctIndex": 1,
+      "explanation": "Large aircraft towing requires multiple observers (wing walkers, tail watcher, nose person) stationed around the aircraft to watch for obstructions and hazards throughout the tow."
+    },
+    {
+      "id": 72,
+      "question": "What type of hardware comes equipped with the tow bar to prevent damage to the aircraft during high-stress application?",
+      "options": [
+        "A. A shear bolt (or shear pin)",
+        "B. Tie-down chains",
+        "C. A hoisting bar"
+      ],
+      "correctIndex": 0,
+      "explanation": "A shear bolt/pin is designed to break under excessive towing force, protecting the aircraft's nose gear structure from damage before more serious harm occurs."
+    },
+    {
+      "id": 73,
+      "question": "Which standard taxi light signal means \"stop\"?",
+      "options": [
+        "A. Flashing red",
+        "B. Steady red",
+        "C. Flashing white"
+      ],
+      "correctIndex": 1,
+      "explanation": "A steady red light signal from the control tower directed at an aircraft on the ground instructs the pilot to stop immediately."
+    },
+    {
+      "id": 74,
+      "question": "If a radial engine has been shut down for more than 30 minutes, the propeller should be rotated by hand through several revolutions in order to do what?",
+      "options": [
+        "A. Check for fuel leaks",
+        "B. Detect a hydraulic lock (oil pooled in a lower cylinder)",
+        "C. Prime the engine for starting"
+      ],
+      "correctIndex": 1,
+      "explanation": "Rotating the prop by hand after a radial engine has sat helps detect a hydraulic lock, where oil has pooled in a lower cylinder, which could cause serious damage if the starter were engaged with the lock present."
+    },
+    {
+      "id": 75,
+      "question": "How many persons are required to start an engine by hand cranking?",
+      "options": [
+        "A. 1",
+        "B. 2",
+        "C. 3"
+      ],
+      "correctIndex": 1,
+      "explanation": "Hand-cranking a propeller engine safely requires two people: one to turn the propeller and one in the cockpit to handle the controls/switches and communicate."
+    },
+    {
+      "id": 76,
+      "question": "In addition to servicing and operating hydraulic units, what else can a hydraulic mule be used for?",
+      "options": [
+        "A. Heating hydraulic fluid as its primary design function",
+        "B. Jacking an aircraft (in some configurations with appropriate attachments)",
+        "C. Draining the aircraft's fuel system"
+      ],
+      "correctIndex": 1,
+      "explanation": "Certain hydraulic power units/mules can be configured to provide hydraulic power for jacking operations, in addition to their main servicing role."
+    },
+    {
+      "id": 77,
+      "question": "Which fueling method decreases refueling time, limits contamination, and reduces the chance of static electricity igniting the fuel?",
+      "options": [
+        "A. Single-point (pressure) fueling",
+        "B. Over-the-wing fueling",
+        "C. Under-the-wing gravity fueling"
+      ],
+      "correctIndex": 0,
+      "explanation": "Single-point pressure fueling uses a sealed, bonded connection and faster flow rates, reducing fueling time, contamination exposure, and static buildup compared with open gravity fueling methods."
+    },
+    {
+      "id": 78,
+      "question": "Which of the following is NOT true about aircraft oxygen servicing?",
+      "options": [
+        "A. That only oxygen marked \"Aviator's Breathing Oxygen\" meeting the appropriate federal specification should be used",
+        "B. That oxygen servicing of aircraft is to be accomplished inside hangars",
+        "C. That medical oxygen, although pure, can contain water that freezes at the cold temperatures found at altitude"
+      ],
+      "correctIndex": 1,
+      "explanation": "Oxygen servicing should be performed outdoors, away from enclosed hangar spaces, due to fire/explosion risk; performing it inside hangars is not correct practice."
+    },
+    {
+      "id": 79,
+      "question": "What is an APU (Auxiliary Power Unit)?",
+      "options": [
+        "A. A small turbine engine that provides electrical power and pneumatic (bleed air) power",
+        "B. A large hydraulic reservoir",
+        "C. A dedicated fuel storage tank"
+      ],
+      "correctIndex": 0,
+      "explanation": "The APU is a small turbine engine, typically mounted in the tail, that supplies electrical and pneumatic power to the aircraft, especially useful on the ground without the main engines running."
+    },
+    {
+      "id": 80,
+      "question": "What safety action/document should be reviewed when maintaining a hazardous material/component?",
+      "options": [
+        "A. The Illustrated Parts Catalogue",
+        "B. The weight and balance report",
+        "C. The Material Safety Data Sheet (MSDS)"
+      ],
+      "correctIndex": 2,
+      "explanation": "An MSDS provides critical safety information (hazards, handling, first aid) for hazardous materials and components encountered during maintenance."
+    },
+    {
+      "id": 81,
+      "question": "Whose responsibility is it to inform the authority that aircraft records are lost and to research for replacement records?",
+      "options": [
+        "A. The owner or operator",
+        "B. The FAA inspector assigned to the airport",
+        "C. The original manufacturer exclusively"
+      ],
+      "correctIndex": 0,
+      "explanation": "The aircraft owner/operator bears responsibility for notifying appropriate authorities of lost records and taking steps to reconstruct or research replacement documentation."
+    },
+    {
+      "id": 82,
+      "question": "Which parts of the aircraft should be covered when it is parked on the ground for an extended period?",
+      "options": [
+        "A. The engine intake and exhaust",
+        "B. The landing gear struts",
+        "C. The wingtips"
+      ],
+      "correctIndex": 0,
+      "explanation": "Covering the engine intake and exhaust openings during extended ground parking helps keep out debris, moisture, insects, and small animals."
+    },
+    {
+      "id": 83,
+      "question": "Which of the following is true regarding the overall (general) maintenance manual's content?",
+      "options": [
+        "A. That it includes every single fastener regardless of cost",
+        "B. That it excludes all electrical components entirely",
+        "C. That the overall maintenance manual generally does not include inexpensive components such as switches and relays"
+      ],
+      "correctIndex": 2,
+      "explanation": "General maintenance manuals typically focus on significant systems and components; very low-cost, simple items like individual switches or relays are often not individually detailed."
+    },
+    {
+      "id": 84,
+      "question": "Where is the fault isolation procedure for troubleshooting typically found?",
+      "options": [
+        "A. The Illustrated Parts Catalogue",
+        "B. The weight and balance manual",
+        "C. The Fault Isolation Manual (FIM)"
+      ],
+      "correctIndex": 2,
+      "explanation": "The FIM provides structured, step-by-step fault isolation procedures to help technicians diagnose and resolve reported discrepancies."
+    },
+    {
+      "id": 85,
+      "question": "FAA Form 337 is used to document what?",
+      "options": [
+        "A. Routine preventive maintenance only",
+        "B. Flight crew duty time",
+        "C. Major repairs and alterations"
+      ],
+      "correctIndex": 2,
+      "explanation": "FAA Form 337 specifically documents and supports approval of major repairs and major alterations to an aircraft, engine, propeller, or appliance."
+    },
+    {
+      "id": 86,
+      "question": "Pneumatic power on the ground is commonly used for what purpose?",
+      "options": [
+        "A. Powering the aircraft's radios",
+        "B. Heating and cooling equipment used on the ground",
+        "C. Charging the aircraft battery"
+      ],
+      "correctIndex": 1,
+      "explanation": "Ground pneumatic power/air sources can be used to run ground air conditioning (heating/cooling) carts servicing the parked aircraft, among other pneumatic needs."
+    },
+    {
+      "id": 87,
+      "question": "For a 100-hour inspection return-to-service entry, what key piece of information must be recorded?",
+      "options": [
+        "A. The ambient temperature at the time of inspection",
+        "B. The date the inspection was completed, in the aircraft maintenance record",
+        "C. The names of all passengers on the previous flight"
+      ],
+      "correctIndex": 1,
+      "explanation": "Among other required return-to-service information, the date of the 100-hour inspection completion must be properly recorded in the aircraft's maintenance record."
+    },
+    {
+      "id": 88,
+      "question": "What does a flashing red light signal from the tower instruct an aircraft on the ground to do?",
+      "options": [
+        "A. Stop immediately and hold position",
+        "B. Proceed to take off immediately",
+        "C. Taxi clear of the runway in use"
+      ],
+      "correctIndex": 2,
+      "explanation": "A flashing red light signal directed at an aircraft on the ground/taxiway instructs the pilot to taxi clear of the runway currently in use."
+    },
+    {
+      "id": 89,
+      "question": "What does a steady red light signal from the tower instruct an aircraft to do?",
+      "options": [
+        "A. Stop",
+        "B. Taxi",
+        "C. Return to the starting point"
+      ],
+      "correctIndex": 0,
+      "explanation": "A steady red light is the standard light-gun signal instructing an aircraft (in the air or on the ground) to stop."
+    },
+    {
+      "id": 90,
+      "question": "What is the best measure to help ensure aircraft safety during extended storage?",
+      "options": [
+        "A. Leaving the aircraft outside uncovered",
+        "B. Keeping the aircraft inside a hangar",
+        "C. Parking the aircraft on grass"
+      ],
+      "correctIndex": 1,
+      "explanation": "Storing an aircraft inside a hangar provides the best protection from weather, wildlife, and other hazards that could affect its airworthiness."
+    },
+    {
+      "id": 91,
+      "question": "Which of the following is NOT true regarding oxygen servicing location?",
+      "options": [
+        "A. That oxygen servicing should be performed outdoors, away from ignition sources",
+        "B. That oxygen is serviced inside the hangar",
+        "C. That proper grounding/bonding should be used during oxygen servicing"
+      ],
+      "correctIndex": 1,
+      "explanation": "Oxygen servicing should be performed outdoors rather than inside an enclosed hangar, due to the fire/explosion hazard associated with high-pressure oxygen and potential ignition sources."
+    },
+    {
+      "id": 92,
+      "question": "What publication is issued by the FAA when an unsafe condition exists on an aircraft, engine, or component?",
+      "options": [
+        "A. A Service Bulletin (SB)",
+        "B. An Airworthiness Directive (AD)",
+        "C. A Type Certificate Data Sheet (TCDS)"
+      ],
+      "correctIndex": 1,
+      "explanation": "The FAA issues Airworthiness Directives specifically to mandate corrective action when an unsafe condition is identified on affected products."
+    },
+    {
+      "id": 93,
+      "question": "Whose responsibility is it to maintain the record of compliance with an AD or manufacturer's Service Bulletin?",
+      "options": [
+        "A. The FAA exclusively",
+        "B. The manufacturer exclusively",
+        "C. The owner or operator"
+      ],
+      "correctIndex": 2,
+      "explanation": "Maintaining accurate records of AD and SB compliance is the responsibility of the aircraft owner/operator, as part of overall recordkeeping duties."
+    },
+    {
+      "id": 94,
+      "question": "Pilots are entirely responsible for the aircraft until the engine is stopped, but during ground movement, they must be assisted by whom?",
+      "options": [
+        "A. A flight line signalman (marshaller)",
+        "B. The cabin crew",
+        "C. Ground air traffic control exclusively, with no ground personnel"
+      ],
+      "correctIndex": 0,
+      "explanation": "While taxiing and maneuvering on the ground, pilots rely on a flight line signalman/marshaller to help guide the aircraft safely, given limited visibility from the cockpit."
+    },
+    {
+      "id": 95,
+      "question": "During towing, who is responsible for stopping the aircraft in an emergency?",
+      "options": [
+        "A. The tractor (tow vehicle) driver",
+        "B. The wing walker only",
+        "C. The marshaller only, with no driver involvement"
+      ],
+      "correctIndex": 0,
+      "explanation": "The tow tractor driver controls the aircraft's movement and braking during towing and is responsible for executing an emergency stop when instructed."
+    },
+    {
+      "id": 96,
+      "question": "Who is responsible for the maintenance records when a particular piece of work is performed?",
+      "options": [
+        "A. The aircraft owner exclusively, regardless of who did the work",
+        "B. The FAA",
+        "C. The A&P mechanic (or appropriately certificated person) performing the work"
+      ],
+      "correctIndex": 2,
+      "explanation": "The certificated individual who actually performs the maintenance is responsible for making the proper maintenance record entry for that specific work."
+    },
+    {
+      "id": 97,
+      "question": "How does the importance of publications, forms, and manuals compare with that of tools, equipment, and apparatus in maintenance operations?",
+      "options": [
+        "A. They are equally important",
+        "B. Publications are far less important than tools",
+        "C. Tools are far less important than publications"
+      ],
+      "correctIndex": 0,
+      "explanation": "Accurate technical publications and documentation are considered just as essential to proper maintenance as the physical tools and equipment used to perform the work."
+    },
+    {
+      "id": 98,
+      "question": "For a 100-hour inspection return-to-service entry, what information is required?",
+      "options": [
+        "A. The type of inspection, total time in service, a certification statement, date, and signature",
+        "B. Only the signature of the pilot-in-command",
+        "C. Only the aircraft's registration number"
+      ],
+      "correctIndex": 0,
+      "explanation": "A proper return-to-service entry must include the type of inspection performed, total aircraft time, a certification statement, the date, and the signature of the person approving the return to service."
+    },
+    {
+      "id": 99,
+      "question": "In the ATA 100 numbering format xx-xx-xx, what do the three number groups represent?",
+      "options": [
+        "A. Year, month, and day",
+        "B. Manufacturer, model, and variant",
+        "C. Chapter, section, and subject"
+      ],
+      "correctIndex": 2,
+      "explanation": "ATA 100/iSpec 2200 chapter numbering breaks documentation hierarchically into chapter, section, and subject levels for consistent cross-industry reference."
+    },
+    {
+      "id": 100,
+      "question": "ATA Spec 100 and ATA Spec 2100 evolved into what single combined document?",
+      "options": [
+        "A. ATA Spec 300",
+        "B. ATA Spec 42",
+        "C. ATA iSpec 2200"
+      ],
+      "correctIndex": 2,
+      "explanation": "The earlier ATA Spec 100 (content standard) and ATA Spec 2100 (digital data standard) were combined and evolved into the unified ATA iSpec 2200 standard."
+    },
+    {
+      "id": 101,
+      "question": "Which document must be displayed inside the aircraft?",
+      "options": [
+        "A. The Service Bulletin index",
+        "B. The Airworthiness Certificate",
+        "C. The Illustrated Parts Catalogue"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Airworthiness Certificate must be carried aboard and displayed in a conspicuous location inside the aircraft, such as near the cabin or flight deck entrance."
+    }
+  ]
+}

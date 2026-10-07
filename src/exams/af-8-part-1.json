@@ -1,0 +1,816 @@
+{
+  "id": "af-8-part-1",
+  "title": "AF-8-part-1",
+  "module": "AF-8-M1,M2",
+  "course": "airframe",
+  "category": "part",
+  "description": "Airframe exam covering aircraft inspection types and programs (preflight, 100-hour, annual, progressive, continuous, special), inspection phases and process, non-destructive testing (NDT) methods, and maintenance documentation and records, drawn from the AF-8 inspection and documentation question/answer bank.",
+  "durationMinutes": 150,
+  "totalQuestions": 73,
+  "color": "green",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Checking the engine compartment for loose wires and fittings is normally done during which inspection?",
+      "options": [
+        "A. The 100-hour inspection only",
+        "B. The preflight inspection",
+        "C. The annual inspection only"
+      ],
+      "correctIndex": 1,
+      "explanation": "A visual check of the engine compartment for loose wires, fittings, and obvious discrepancies is a standard part of the routine preflight inspection before each flight."
+    },
+    {
+      "id": 2,
+      "question": "What type of inspection is performed on aircraft operated for flight instruction or hire, but is not itself FAA-mandated by name?",
+      "options": [
+        "A. A 100-hour inspection",
+        "B. A 50-hour inspection",
+        "C. An annual inspection"
+      ],
+      "correctIndex": 1,
+      "explanation": "Some operators voluntarily schedule interim checks, such as a 50-hour inspection, between the FAA-mandated 100-hour/annual inspections, even though it is not itself a regulatory requirement."
+    },
+    {
+      "id": 3,
+      "question": "Which of the following statements is NOT true regarding sources that can initiate an aircraft inspection?",
+      "options": [
+        "A. That aircrew reports cannot be used to initiate an inspection",
+        "B. That a scheduled maintenance program can initiate an inspection",
+        "C. That a discrepancy found during a walk-around can initiate an inspection"
+      ],
+      "correctIndex": 0,
+      "explanation": "Aircrew (pilot) reports of discrepancies are a legitimate and common trigger for initiating an aircraft inspection, so claiming they cannot be used is false."
+    },
+    {
+      "id": 4,
+      "question": "Which of the following is true regarding the annual inspection?",
+      "options": [
+        "A. It can be performed by any licensed pilot",
+        "B. It requires only an A&P certificate with no additional authorization",
+        "C. It requires both an A&P certificate and Inspection Authorization (IA) to perform"
+      ],
+      "correctIndex": 2,
+      "explanation": "An annual inspection must be conducted by a mechanic holding both an A&P certificate and an Inspection Authorization (IA), a higher level of certification than a standard A&P alone."
+    },
+    {
+      "id": 5,
+      "question": "What is the statement, notation, and signature made in the maintenance record after an inspection or repair called?",
+      "options": [
+        "A. Issuing a ferry permit",
+        "B. Approving the aircraft for return to service",
+        "C. Filing an FAA Form 337"
+      ],
+      "correctIndex": 1,
+      "explanation": "The maintenance record entry and signature certifying the work is complete and the aircraft is airworthy is referred to as approving the aircraft for return to service."
+    },
+    {
+      "id": 6,
+      "question": "Which inspection phase starts with a conformity inspection?",
+      "options": [
+        "A. The return to service phase",
+        "B. The pre-inspection phase",
+        "C. The \"Look\" phase"
+      ],
+      "correctIndex": 2,
+      "explanation": "The \"Look\" (inspection) phase begins with a conformity check, comparing the aircraft's actual condition and configuration against its approved data."
+    },
+    {
+      "id": 7,
+      "question": "What type of inspection is required following an overweight landing, lightning strike, fire, or flood damage?",
+      "options": [
+        "A. A 100-hour inspection",
+        "B. A progressive inspection",
+        "C. A special inspection"
+      ],
+      "correctIndex": 2,
+      "explanation": "Unusual or potentially damaging events such as overweight landings, lightning strikes, fire, or flood call for a special (unscheduled) inspection targeted at assessing that specific damage."
+    },
+    {
+      "id": 8,
+      "question": "The continuous airworthiness inspection program is designed primarily for what category of aircraft?",
+      "options": [
+        "A. Single-seat light sport aircraft",
+        "B. Large aircraft",
+        "C. Amateur-built experimental aircraft"
+      ],
+      "correctIndex": 1,
+      "explanation": "Continuous airworthiness maintenance/inspection programs are typically developed for large aircraft operated under programs such as those used by air carriers, rather than simple small aircraft."
+    },
+    {
+      "id": 9,
+      "question": "To whom does the owner of an aircraft apply for authorization of a progressive inspection program?",
+      "options": [
+        "A. The concerned FAA Flight Standards District Office (FSDO)",
+        "B. The aircraft manufacturer directly",
+        "C. The local airport authority"
+      ],
+      "correctIndex": 0,
+      "explanation": "Approval for a progressive inspection program is obtained through the FAA Flight Standards District Office (FSDO) responsible for that aircraft/operator."
+    },
+    {
+      "id": 10,
+      "question": "What type of inspection is required on an aircraft that may have flown through severe turbulence?",
+      "options": [
+        "A. A routine preflight inspection only",
+        "B. A special inspection",
+        "C. No inspection is required"
+      ],
+      "correctIndex": 1,
+      "explanation": "Flight through severe turbulence can impose unusual structural loads, warranting a special inspection to check for resulting damage before further flight."
+    },
+    {
+      "id": 11,
+      "question": "What is an inspection accomplished before the first flight of each day called?",
+      "options": [
+        "A. The 100-hour inspection",
+        "B. The preflight inspection",
+        "C. The annual inspection"
+      ],
+      "correctIndex": 1,
+      "explanation": "A preflight inspection is conducted before the first flight each day to verify the aircraft is in a condition safe for flight."
+    },
+    {
+      "id": 12,
+      "question": "What is a maintenance activity performed to detect any defects or malfunctions on an aircraft before they become serious called?",
+      "options": [
+        "A. Overhaul",
+        "B. Inspection",
+        "C. Alteration"
+      ],
+      "correctIndex": 1,
+      "explanation": "Inspection is the proactive maintenance activity specifically aimed at finding defects or malfunctions early, before they develop into more serious problems."
+    },
+    {
+      "id": 13,
+      "question": "Which of the following can NOT be a cause for initiating an aircraft inspection?",
+      "options": [
+        "A. A pilot report of unusual vibration",
+        "B. Flying the aircraft in rainy conditions",
+        "C. A scheduled inspection interval being reached"
+      ],
+      "correctIndex": 1,
+      "explanation": "Simply flying in rain is a normal operating condition and not, by itself, a trigger for initiating a special inspection, unlike a pilot discrepancy report or a scheduled interval."
+    },
+    {
+      "id": 14,
+      "question": "What term describes the general wear and tear of an aircraft during its service life?",
+      "options": [
+        "A. Corrosion",
+        "B. Burnishing",
+        "C. Attrition"
+      ],
+      "correctIndex": 2,
+      "explanation": "Attrition refers to the gradual wear and degradation an aircraft experiences simply through normal operational use over its service life."
+    },
+    {
+      "id": 15,
+      "question": "By how many hours may a 100-hour inspection be exceeded, if necessary, to fly the aircraft to a place where the inspection can be performed?",
+      "options": [
+        "A. 10 hours",
+        "B. 25 hours",
+        "C. 50 hours"
+      ],
+      "correctIndex": 0,
+      "explanation": "Regulations allow a 100-hour inspection to be exceeded by up to 10 hours solely for the purpose of flying to a location where the inspection can be performed, with that excess time counted toward the next inspection interval."
+    },
+    {
+      "id": 16,
+      "question": "What is required to fly an aircraft after its annual inspection has expired, to a place where the inspection can be performed?",
+      "options": [
+        "A. Nothing; it can be flown normally",
+        "B. A special flight (ferry) permit from the FAA",
+        "C. Only a logbook entry by the owner"
+      ],
+      "correctIndex": 1,
+      "explanation": "An aircraft with an expired annual inspection is not airworthy for normal flight and requires a special flight/ferry permit issued by the FAA to be legally flown to a inspection location."
+    },
+    {
+      "id": 17,
+      "question": "Inspection and maintenance program requirements can depend on seating capacity for which category of operation?",
+      "options": [
+        "A. Private, non-commercial aircraft only",
+        "B. Air taxi and commercial operator aircraft",
+        "C. Experimental amateur-built aircraft only"
+      ],
+      "correctIndex": 1,
+      "explanation": "For air taxi and commercial operations, applicable inspection program requirements can vary based on the aircraft's passenger seating capacity, as specified in the regulations governing those operations."
+    },
+    {
+      "id": 18,
+      "question": "Which inspection phase determines the actual condition of the aircraft and its components?",
+      "options": [
+        "A. The functional check phase",
+        "B. The \"Look\" phase",
+        "C. The operational check phase"
+      ],
+      "correctIndex": 1,
+      "explanation": "The \"Look\" phase of inspection is where the technician visually and physically examines the aircraft and its components to assess their actual condition."
+    },
+    {
+      "id": 19,
+      "question": "Which type of inspection program is similar to a progressive inspection but is typically used on large turbine-powered aircraft?",
+      "options": [
+        "A. A 100-hour inspection program",
+        "B. A preflight inspection program",
+        "C. A continuous inspection program"
+      ],
+      "correctIndex": 2,
+      "explanation": "Continuous inspection programs break maintenance into smaller recurring tasks spread over time, similar in concept to progressive inspection, but are the structure commonly used for large turbine aircraft."
+    },
+    {
+      "id": 20,
+      "question": "Who is responsible for having all non-airworthy defects repaired before flying an airplane?",
+      "options": [
+        "A. The FAA inspector",
+        "B. The airport manager",
+        "C. The aircraft owner or operator"
+      ],
+      "correctIndex": 2,
+      "explanation": "Ultimate responsibility for ensuring an aircraft is airworthy, including having known defects repaired before flight, rests with the aircraft's owner or operator."
+    },
+    {
+      "id": 21,
+      "question": "Which appendix of FAR Part 43 covers the minimum inspection requirements for an aircraft (the annual/100-hour inspection checklist items)?",
+      "options": [
+        "A. Appendix D",
+        "B. Appendix A",
+        "C. Appendix B"
+      ],
+      "correctIndex": 0,
+      "explanation": "14 CFR Part 43, Appendix D specifies the scope and detail of items that must be checked during an annual or 100-hour inspection."
+    },
+    {
+      "id": 22,
+      "question": "Which of the following is true regarding the relationship between annual and 100-hour inspections?",
+      "options": [
+        "A. A 100-hour inspection is valid in place of an annual inspection",
+        "B. An annual inspection is valid in place of a 100-hour inspection",
+        "C. Neither can substitute for the other under any circumstance"
+      ],
+      "correctIndex": 1,
+      "explanation": "Because the annual inspection is more comprehensive (requiring IA certification), it satisfies the 100-hour inspection requirement as well, but not vice versa."
+    },
+    {
+      "id": 23,
+      "question": "An annual inspection completed on September 1, 2021 would remain valid until what date/time?",
+      "options": [
+        "A. Midnight, September 1, 2022",
+        "B. Midnight, September 30, 2022",
+        "C. Midnight, August 31, 2022"
+      ],
+      "correctIndex": 1,
+      "explanation": "Annual inspections are valid through the end of the 12th month following completion, specifically until midnight on the last day of that month one year later."
+    },
+    {
+      "id": 24,
+      "question": "Checking the inflation of tires must be done during which inspection?",
+      "options": [
+        "A. Only the annual inspection",
+        "B. Only the 100-hour inspection",
+        "C. The preflight inspection"
+      ],
+      "correctIndex": 2,
+      "explanation": "Tire inflation is a basic visual/physical check expected to be performed as part of the routine preflight inspection before each flight."
+    },
+    {
+      "id": 25,
+      "question": "What is a comprehensive and complete inspection that can be performed by a certified A&P technician with no additional requirement (such as Inspection Authorization)?",
+      "options": [
+        "A. The annual inspection",
+        "B. The 100-hour inspection",
+        "C. The progressive inspection"
+      ],
+      "correctIndex": 1,
+      "explanation": "Unlike the annual inspection, which requires Inspection Authorization, the 100-hour inspection can be performed and signed off by a standard certificated A&P mechanic."
+    },
+    {
+      "id": 26,
+      "question": "What type of inspection records the absorption of rays onto a film sensitive to X-rays?",
+      "options": [
+        "A. Eddy current inspection",
+        "B. Dye penetrant inspection",
+        "C. Radiography"
+      ],
+      "correctIndex": 2,
+      "explanation": "Radiographic inspection exposes film to X-rays (or gamma rays) passing through the part, with the resulting image revealing internal flaws based on differential ray absorption."
+    },
+    {
+      "id": 27,
+      "question": "What color indication shows a defect when a dye penetrant inspection is viewed under visible (white) light?",
+      "options": [
+        "A. Greenish yellow",
+        "B. Bright red",
+        "C. Blue"
+      ],
+      "correctIndex": 1,
+      "explanation": "Visible dye penetrant systems use a red dye that bleeds out of a defect and shows as a bright red indication under normal white light viewing."
+    },
+    {
+      "id": 28,
+      "question": "Around the hangar aircraft maintenance area, which NDT (non-destructive testing) method requires serious safety precautions?",
+      "options": [
+        "A. Dye penetrant inspection",
+        "B. Magnetic particle inspection",
+        "C. X-ray (radiographic) inspection"
+      ],
+      "correctIndex": 2,
+      "explanation": "Radiographic (X-ray) inspection involves ionizing radiation, requiring strict safety precautions such as area control, shielding, and radiation monitoring, unlike the other common NDT methods."
+    },
+    {
+      "id": 29,
+      "question": "Which type of NDT inspection requires the use of a couplant?",
+      "options": [
+        "A. Ultrasonic inspection",
+        "B. Magnetic particle inspection",
+        "C. Dye penetrant inspection"
+      ],
+      "correctIndex": 0,
+      "explanation": "Ultrasonic inspection uses a couplant (such as gel or water) between the transducer and the part surface to ensure efficient transmission of sound waves into the material."
+    },
+    {
+      "id": 30,
+      "question": "Which type of NDT inspection is well suited to detecting flaws open to the surface?",
+      "options": [
+        "A. Radiographic inspection",
+        "B. Ultrasonic inspection",
+        "C. Magnetic particle inspection"
+      ],
+      "correctIndex": 2,
+      "explanation": "Magnetic particle inspection is particularly effective at revealing surface and near-surface cracks/flaws in ferromagnetic materials, as particles accumulate at the flux leakage from a defect."
+    },
+    {
+      "id": 31,
+      "question": "What method is used to inspect the internal parts of an engine during an engine check without disassembly?",
+      "options": [
+        "A. Dye penetrant inspection",
+        "B. Borescope inspection",
+        "C. Eddy current inspection"
+      ],
+      "correctIndex": 1,
+      "explanation": "A borescope allows a technician to visually inspect internal engine components (such as turbine blades) through small access ports, without needing to disassemble the engine."
+    },
+    {
+      "id": 32,
+      "question": "Which type of NDT inspection uses a magnetic field intersecting a circulating (induced) current?",
+      "options": [
+        "A. Ultrasonic inspection",
+        "B. Eddy current inspection",
+        "C. Radiographic inspection"
+      ],
+      "correctIndex": 1,
+      "explanation": "Eddy current inspection induces circulating electrical currents in a conductive part via a magnetic field; changes in those currents, caused by flaws, are detected by the probe."
+    },
+    {
+      "id": 33,
+      "question": "What color result is seen when using dye penetrant inspection under UV (black) light?",
+      "options": [
+        "A. Greenish yellow (fluorescent)",
+        "B. Bright red",
+        "C. Deep blue"
+      ],
+      "correctIndex": 0,
+      "explanation": "Fluorescent dye penetrant systems glow a bright greenish-yellow color under ultraviolet/black light, making defect indications highly visible in a darkened area."
+    },
+    {
+      "id": 34,
+      "question": "Which NDT method uses high-frequency sound waves to detect internal flaws?",
+      "options": [
+        "A. Ultrasonic inspection",
+        "B. Magnetic particle inspection",
+        "C. Dye penetrant inspection"
+      ],
+      "correctIndex": 0,
+      "explanation": "Ultrasonic inspection transmits high-frequency sound waves through a material and analyzes reflected echoes to detect internal defects such as voids or cracks."
+    },
+    {
+      "id": 35,
+      "question": "A \"D\" check is best described as what type of inspection program?",
+      "options": [
+        "A. A simple preflight inspection",
+        "B. A 100-hour inspection",
+        "C. A continuous inspection (as part of a long-term scheduled maintenance program)"
+      ],
+      "correctIndex": 2,
+      "explanation": "The D check, the most extensive airline heavy maintenance check, is part of a continuous (ongoing, scheduled) inspection program structure rather than a single standalone event type."
+    },
+    {
+      "id": 36,
+      "question": "Which routine inspection can be performed by the copilot or pilot before flight?",
+      "options": [
+        "A. The annual inspection",
+        "B. The 100-hour inspection",
+        "C. The walk-around inspection"
+      ],
+      "correctIndex": 2,
+      "explanation": "A walk-around inspection, a basic visual check of the aircraft exterior, is commonly performed by the pilot or copilot as part of preflight duties."
+    },
+    {
+      "id": 37,
+      "question": "Preflight and walk-around inspections are also commonly known as what?",
+      "options": [
+        "A. An annual inspection",
+        "B. A progressive inspection",
+        "C. A daily inspection"
+      ],
+      "correctIndex": 2,
+      "explanation": "The routine preflight/walk-around check performed before the first flight of the day is often referred to as the daily inspection."
+    },
+    {
+      "id": 38,
+      "question": "Who is responsible for making the maintenance record entry after a 100-hour or annual inspection?",
+      "options": [
+        "A. The aircraft owner personally, regardless of certification",
+        "B. Air traffic control",
+        "C. The person approving or disapproving the aircraft for return to service"
+      ],
+      "correctIndex": 2,
+      "explanation": "The certificated individual who performed or supervised the inspection is responsible for the maintenance record entry documenting approval (or disapproval) for return to service."
+    },
+    {
+      "id": 39,
+      "question": "If a 100-hour inspection must be exceeded by 6 hours to reach a place where the inspection can be performed, what is the next inspection interval based on?",
+      "options": [
+        "A. 100 hours from the flight that exceeded the limit",
+        "B. 106 hours from the original due time",
+        "C. 94 hours (counting back from the time the 100-hour inspection was actually due)"
+      ],
+      "correctIndex": 2,
+      "explanation": "When the 10-hour allowance is used (here, 6 of the 10 hours), the next 100-hour interval is calculated from the time the inspection was originally due, resulting in a shorter interval (100 minus the 6 hours used, i.e., 94 hours) until the next inspection is due."
+    },
+    {
+      "id": 40,
+      "question": "Who is responsible for the overall airworthiness of an aircraft?",
+      "options": [
+        "A. The FAA exclusively",
+        "B. The owner or operator",
+        "C. The maintenance technician exclusively"
+      ],
+      "correctIndex": 1,
+      "explanation": "While mechanics perform inspections and repairs, ultimate responsibility for maintaining an aircraft's airworthiness rests with its owner or operator."
+    },
+    {
+      "id": 41,
+      "question": "Who must conduct an annual inspection?",
+      "options": [
+        "A. An A&P technician holding Inspection Authorization (IA)",
+        "B. Any licensed private pilot",
+        "C. Any A&P technician, without IA"
+      ],
+      "correctIndex": 0,
+      "explanation": "The annual inspection specifically requires a mechanic who holds both an A&P certificate and Inspection Authorization, distinguishing it from the 100-hour inspection requirement."
+    },
+    {
+      "id": 42,
+      "question": "Which aviation regulation part specifies inspection requirements referenced for large aircraft or multiengine operations in this context?",
+      "options": [
+        "A. Part 61",
+        "B. Part 91",
+        "C. Part 1"
+      ],
+      "correctIndex": 1,
+      "explanation": "General operating and flight rules, including various inspection program requirements applicable to different aircraft categories including large/multiengine aircraft, are found under 14 CFR Part 91."
+    },
+    {
+      "id": 43,
+      "question": "Which inspection phase includes completing the work order?",
+      "options": [
+        "A. The pre-inspection phase",
+        "B. The look phase",
+        "C. The return to service phase"
+      ],
+      "correctIndex": 0,
+      "explanation": "The pre-inspection phase involves administrative preparation, including completing the work order and gathering necessary documentation before the physical inspection begins."
+    },
+    {
+      "id": 44,
+      "question": "What is the correct sequence of inspection process steps?",
+      "options": [
+        "A. Functional test, look, repair",
+        "B. Look, service and repair, functional test",
+        "C. Repair, look, service"
+      ],
+      "correctIndex": 1,
+      "explanation": "A logical inspection sequence begins with visually assessing (looking at) the aircraft's condition, followed by any needed servicing/repair, and concluding with functional testing to confirm proper operation."
+    },
+    {
+      "id": 45,
+      "question": "What is the correct sequence of these inspection phases: repair, functional test, and return to service?",
+      "options": [
+        "A. Repair, functional test, return to service (in that order)",
+        "B. Functional test, repair, return to service",
+        "C. Return to service, repair, functional test"
+      ],
+      "correctIndex": 0,
+      "explanation": "After identifying and completing necessary repairs, a functional test verifies proper operation before the aircraft is formally approved and returned to service."
+    },
+    {
+      "id": 46,
+      "question": "Which inspection phase consists of preparing the maintenance record, gathering tools, and similar preparatory tasks?",
+      "options": [
+        "A. The look phase",
+        "B. The functional check phase",
+        "C. The pre-inspection phase"
+      ],
+      "correctIndex": 2,
+      "explanation": "The pre-inspection phase covers administrative and logistical preparation—paperwork, tool staging, and planning—before the hands-on inspection work begins."
+    },
+    {
+      "id": 47,
+      "question": "What type of inspection breaks the annual inspection into segments accomplished over time, in order to reduce aircraft downtime?",
+      "options": [
+        "A. A special inspection",
+        "B. A progressive inspection",
+        "C. A continuous inspection"
+      ],
+      "correctIndex": 1,
+      "explanation": "Progressive inspection programs divide the comprehensive annual-equivalent inspection into smaller, scheduled segments, reducing the amount of time the aircraft is out of service at once."
+    },
+    {
+      "id": 48,
+      "question": "During a 100-hour inspection, if a defect is found, what must the person disapproving the aircraft for return to service do?",
+      "options": [
+        "A. Report/record the reason for disapproval in the maintenance record",
+        "B. Simply ground the aircraft with no documentation",
+        "C. Repair the defect themselves regardless of certification"
+      ],
+      "correctIndex": 0,
+      "explanation": "The inspector disapproving return to service must document the specific reason(s) for disapproval in the maintenance record, giving the owner/operator clear information on what must be corrected."
+    },
+    {
+      "id": 49,
+      "question": "How often is an annual inspection required?",
+      "options": [
+        "A. Every 6 months",
+        "B. Every 12 months",
+        "C. Every 24 months"
+      ],
+      "correctIndex": 1,
+      "explanation": "Federal aviation regulations require most aircraft to undergo an annual inspection at intervals not exceeding 12 calendar months."
+    },
+    {
+      "id": 50,
+      "question": "A progressive inspection program must be completed within what time period?",
+      "options": [
+        "A. 12 months",
+        "B. 6 months",
+        "C. 24 months"
+      ],
+      "correctIndex": 0,
+      "explanation": "A progressive inspection program's segmented tasks must collectively cover the full inspection scope and be completed within a 12-month cycle."
+    },
+    {
+      "id": 51,
+      "question": "Before an aircraft can be returned to service, what must be done to determine whether a system operates within limits?",
+      "options": [
+        "A. A weight and balance recalculation",
+        "B. A fuel quality test",
+        "C. A functional check"
+      ],
+      "correctIndex": 2,
+      "explanation": "A functional check verifies that a repaired or inspected system actually operates correctly and within its specified limits before the aircraft is returned to service."
+    },
+    {
+      "id": 52,
+      "question": "What ensures that an aircraft is properly inspected with no items overlooked?",
+      "options": [
+        "A. A logbook entry alone",
+        "B. A checklist",
+        "C. A work order number alone"
+      ],
+      "correctIndex": 1,
+      "explanation": "Using a detailed checklist during inspection helps ensure every required item is systematically checked, reducing the risk of something being missed."
+    },
+    {
+      "id": 53,
+      "question": "In magnetic particle inspection, which type of magnetization is used to detect a defect running circumferentially around a cylinder?",
+      "options": [
+        "A. Circular magnetization",
+        "B. No magnetization is needed",
+        "C. Longitudinal magnetization"
+      ],
+      "correctIndex": 2,
+      "explanation": "To detect circumferential (around-the-cylinder) defects, the magnetic field must run longitudinally (along the length) of the part, since defects show up best when oriented across the magnetic flux lines."
+    },
+    {
+      "id": 54,
+      "question": "In magnetic particle inspection, which type of magnetization is used to detect a longitudinal defect running along a cylinder?",
+      "options": [
+        "A. Longitudinal magnetization",
+        "B. No magnetization is needed",
+        "C. Circular magnetization"
+      ],
+      "correctIndex": 2,
+      "explanation": "To detect defects running lengthwise along a cylinder, circular magnetization (field running around the circumference) is used, since the defect must lie across the magnetic flux lines to be detected."
+    },
+    {
+      "id": 55,
+      "question": "What are Engineering Orders (EO)?",
+      "options": [
+        "A. Official paperwork issued by engineering, approved by QA, and usually implemented through the Production Planning and Control (PP&C) organization",
+        "B. Informal notes made by a mechanic with no approval needed",
+        "C. Pilot reports logged after each flight"
+      ],
+      "correctIndex": 0,
+      "explanation": "Engineering Orders are formal, QA-approved engineering documents that direct specific maintenance/modification actions, typically routed through production planning and control for implementation."
+    },
+    {
+      "id": 56,
+      "question": "After maintenance and/or inspection, and before an aircraft can be returned to service, what should the technician conduct?",
+      "options": [
+        "A. Only a visual walk-around",
+        "B. Only a logbook entry",
+        "C. Operational checks"
+      ],
+      "correctIndex": 2,
+      "explanation": "Before returning an aircraft to service, the technician should conduct operational checks to confirm that repaired or inspected systems function correctly."
+    },
+    {
+      "id": 57,
+      "question": "What is a primary function of Technical Publications within an organization?",
+      "options": [
+        "A. To establish and maintain a complete, up-to-date library system for all documents needed for Maintenance & Engineering (M&E) operations",
+        "B. To design new aircraft structures",
+        "C. To train new pilots"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Technical Publications function ensures that current, accurate maintenance documentation (manuals, bulletins, ADs) is maintained and readily accessible to support maintenance and engineering operations."
+    },
+    {
+      "id": 58,
+      "question": "Each time a life-limited part is removed from a type-certificated product, what must happen to its tag or record?",
+      "options": [
+        "A. No documentation update is required",
+        "B. A new tag/record must be created, or the existing tag/record must be updated with the current life status",
+        "C. The part's history can simply be discarded"
+      ],
+      "correctIndex": 1,
+      "explanation": "Life-limited parts require continuous tracking, so removal triggers either creation of a new tag/record or an update to the existing one reflecting accumulated life/cycles."
+    },
+    {
+      "id": 59,
+      "question": "Which of the following is NOT true about temporary maintenance records?",
+      "options": [
+        "A. That they are kept by the owner until the recorded work is repeated or superseded",
+        "B. That they may be discarded after 1 year has elapsed since the work was performed",
+        "C. That they are not recorded at all"
+      ],
+      "correctIndex": 2,
+      "explanation": "Temporary records absolutely are recorded and retained (at least until superseded or a defined time period passes); claiming they are \"not recorded at all\" is false."
+    },
+    {
+      "id": 60,
+      "question": "Which of the following is NOT a way that aircraft documentation digital data can be made available?",
+      "options": [
+        "A. Hardcopy format (hardcopy is physical, not digital, data)",
+        "B. CD/DVD",
+        "C. Server access or the Internet"
+      ],
+      "correctIndex": 0,
+      "explanation": "Hardcopy (printed paper) format is a physical medium, not a digital data delivery method, distinguishing it from CD/DVD or server/internet-based digital access."
+    },
+    {
+      "id": 61,
+      "question": "A preflight inspection is a required inspection to determine the condition of the aircraft for the flight to be conducted, and is the responsibility of whom?",
+      "options": [
+        "A. The maintenance technician exclusively",
+        "B. The pilot-in-command",
+        "C. The airline dispatcher"
+      ],
+      "correctIndex": 1,
+      "explanation": "Regulations place responsibility for the preflight inspection and determination of the aircraft's airworthiness for that flight on the pilot-in-command."
+    },
+    {
+      "id": 62,
+      "question": "An entire progressive inspection must be completed within how many calendar months?",
+      "options": [
+        "A. 12 calendar months",
+        "B. 6 calendar months",
+        "C. 24 calendar months"
+      ],
+      "correctIndex": 0,
+      "explanation": "Like the annual inspection it replaces in segmented form, a progressive inspection program's full cycle must be completed within 12 calendar months."
+    },
+    {
+      "id": 63,
+      "question": "Which of the following is correct regarding inspection substitution?",
+      "options": [
+        "A. An annual inspection is valid in place of a 100-hour inspection",
+        "B. A 100-hour inspection is valid in place of an annual inspection",
+        "C. A daily inspection is valid in place of a 100-hour inspection"
+      ],
+      "correctIndex": 0,
+      "explanation": "Because the annual inspection requirement is more stringent (requiring IA certification), completing it satisfies the 100-hour inspection requirement as well."
+    },
+    {
+      "id": 64,
+      "question": "The task cards produced by the airframe manufacturer are usually designed for what purpose?",
+      "options": [
+        "A. One action only (a single discrete task per card)",
+        "B. Multiple unrelated tasks combined on one card",
+        "C. General reference only, with no specific task"
+      ],
+      "correctIndex": 0,
+      "explanation": "Manufacturer task cards are typically structured to document one specific maintenance action per card, keeping each task clearly defined and traceable."
+    },
+    {
+      "id": 65,
+      "question": "What is a logbook used to record?",
+      "options": [
+        "A. Only the pilot's flight hours",
+        "B. Only fuel purchases",
+        "C. The time in service, maintenance, alterations, inspections, and AD compliance for the airframe and its associated components/appliances"
+      ],
+      "correctIndex": 2,
+      "explanation": "Aircraft logbooks serve as the historical record of time in service, all maintenance actions, alterations, inspections performed, and compliance with Airworthiness Directives."
+    },
+    {
+      "id": 66,
+      "question": "If a major repair or major alteration is performed on an aircraft, how must it be returned to service?",
+      "options": [
+        "A. By a simple logbook entry with no specific form",
+        "B. By a verbal statement to the FAA only",
+        "C. By use of an FAA Form 337"
+      ],
+      "correctIndex": 2,
+      "explanation": "Major repairs and alterations require documentation on FAA Form 337 (Major Repair and Alteration form) as part of properly returning the aircraft to service."
+    },
+    {
+      "id": 67,
+      "question": "What type of inspection is performed on aircraft operated for flight instruction or hire that is not itself FAA-mandated by that specific name?",
+      "options": [
+        "A. A 40-hour inspection",
+        "B. A 100-hour inspection",
+        "C. An annual inspection"
+      ],
+      "correctIndex": 0,
+      "explanation": "Similar to the 50-hour interim check concept, some operators schedule a non-mandatory interim inspection (such as a 40-hour check) between required inspections, as an added precaution for hard-used training aircraft."
+    },
+    {
+      "id": 68,
+      "question": "What sources can outside documents used in aircraft maintenance come from?",
+      "options": [
+        "A. Only the FAA directly",
+        "B. Only the original aircraft purchaser",
+        "C. Airframe and engine manufacturers, vendors/manufacturers of installed equipment, and the owner"
+      ],
+      "correctIndex": 2,
+      "explanation": "Maintenance-relevant documentation comes from multiple outside sources, including airframe/engine OEMs, equipment vendors, and information supplied by the aircraft owner."
+    },
+    {
+      "id": 69,
+      "question": "Which of the following is a comprehensive and complete inspection that can be performed by a certificated A&P mechanic?",
+      "options": [
+        "A. The 100-hour inspection",
+        "B. The annual inspection (requires IA)",
+        "C. The progressive inspection authorization review"
+      ],
+      "correctIndex": 0,
+      "explanation": "The 100-hour inspection, while comprehensive, can be signed off by a standard A&P mechanic, unlike the annual inspection which requires Inspection Authorization."
+    },
+    {
+      "id": 70,
+      "question": "Which inspection is detailed to the same scope/content as an annual inspection?",
+      "options": [
+        "A. The preflight inspection",
+        "B. The 100-hour inspection",
+        "C. The daily walk-around"
+      ],
+      "correctIndex": 1,
+      "explanation": "A 100-hour inspection uses the same scope and checklist items (per FAR 43 Appendix D) as an annual inspection; the key difference is who is authorized to perform/sign it off."
+    },
+    {
+      "id": 71,
+      "question": "A basic preflight inspection and walk-around is also known as what?",
+      "options": [
+        "A. A Daily Inspection",
+        "B. An Annual Inspection",
+        "C. A Progressive Inspection"
+      ],
+      "correctIndex": 0,
+      "explanation": "The routine check performed before the first flight each day, including a walk-around, is commonly termed a Daily Inspection."
+    },
+    {
+      "id": 72,
+      "question": "When does the pre-inspection phase begin?",
+      "options": [
+        "A. When the aircraft engine is started for a test flight",
+        "B. When the owner of the aircraft requests the service of a shop to perform an inspection, including completing a work order and documentation",
+        "C. Only after the inspection has been fully completed"
+      ],
+      "correctIndex": 1,
+      "explanation": "The pre-inspection phase starts at the point the owner initiates the inspection request, kicking off administrative steps like work order creation before any physical work begins."
+    },
+    {
+      "id": 73,
+      "question": "What does the documentation abbreviation \"AC\" stand for?",
+      "options": [
+        "A. Airworthiness Certificate",
+        "B. Aircraft Configuration",
+        "C. Advisory Circulars"
+      ],
+      "correctIndex": 2,
+      "explanation": "In the context of FAA documentation, \"AC\" commonly refers to Advisory Circulars, which provide guidance material on various aviation topics."
+    }
+  ]
+}
