@@ -1,0 +1,314 @@
+{
+  "id": "af-school-final-b257",
+  "title": "AF-School-final(B257)",
+  "module": "AF-School-final",
+  "course": "airframe",
+  "category": "school_final",
+  "description": "Airframe school final practice exam covering identification marking, composite/wood/sheet-metal repair, weight and balance, pressurization, hydraulics/pneumatics, landing gear, and fuel systems.",
+  "durationMinutes": 90,
+  "totalQuestions": 43,
+  "color": "green",
+  "questions": [
+    {
+      "id": "b257-q1",
+      "question": "On aircraft nationality and registration marking, what is the required width of the symbols 'I' (letter) and '1' (numeral), relative to the height of the marking?",
+      "options": ["2/3 of the height, same as all other characters", "1/6 of the height", "Equal to the height (square proportion)"],
+      "correctIndex": 1,
+      "explanation": "The letter 'I' and the numeral '1' are exceptions to the standard 2/3-height-width rule for identification marks — their stroke/overall width only needs to be 1/6 of the character height."
+    },
+    {
+      "id": "b257-q2",
+      "question": "For a scarf patch repair on sheet metal skin, the taper length of the bevel should not be less than how many times the skin thickness?",
+      "options": ["3 times the skin thickness", "10 times the skin thickness", "50 times the skin thickness"],
+      "correctIndex": 1,
+      "explanation": "A scarf patch repair requires a shallow taper to restore strength through the bonded/overlapped area; the taper length must not be less than 10 times the skin thickness."
+    },
+    {
+      "id": "b257-q3",
+      "question": "What is 'ram rise' in relation to outside air temperature measurement?",
+      "options": ["The temperature increase caused by air being compressed (rammed) due to the aircraft's forward speed", "A decrease in temperature due to altitude gain", "A calibration error in the temperature probe"],
+      "correctIndex": 0,
+      "explanation": "Ram rise is the rise in indicated air temperature caused by adiabatic compression of air as it is rammed into the temperature probe at airspeed — it must be subtracted to get true outside air temperature."
+    },
+    {
+      "id": "b257-q4",
+      "question": "When bleeding a conventional aircraft brake system, fluid and trapped air are typically bled in which direction?",
+      "options": ["From the bottom of the system upward only", "From top to bottom (top-down) through the system", "Air cannot be bled from brake systems"],
+      "correctIndex": 1,
+      "explanation": "On many aircraft brake systems the bleeding procedure works from the top of the system down to the wheel cylinder/caliper, forcing trapped air down and out through the bleed point."
+    },
+    {
+      "id": "b257-q5",
+      "question": "What best describes the 'wet lay-up' method of composite fabrication?",
+      "options": ["Pre-impregnated (prepreg) fabric is cured directly from a freezer", "Dry fabric is impregnated with resin by hand as each ply is applied", "Fabric is bonded using only heat with no resin at all"],
+      "correctIndex": 1,
+      "explanation": "In a wet lay-up, dry reinforcing fabric is impregnated with resin on-site as each ply is laid up, as opposed to using pre-impregnated (prepreg) material."
+    },
+    {
+      "id": "b257-q6",
+      "question": "In the ATA 100 chapter numbering system, what does the chapter block 001–099 generally cover?",
+      "options": ["Airframe structural repair chapters only", "General information and aircraft systems chapters", "Powerplant chapters exclusively"],
+      "correctIndex": 1,
+      "explanation": "Chapters in the 001–099 block of the ATA numbering system describe general aircraft information and the various aircraft systems (as opposed to the structures and powerplant blocks)."
+    },
+    {
+      "id": "b257-q7",
+      "question": "Which of the following is NOT a purpose of cabin pressurization?",
+      "options": ["To maintain a cabin altitude lower than the aircraft's actual flight altitude", "To equalize cabin pressure with the ambient (outside) pressure", "To provide a physiologically comfortable environment for occupants at high altitude"],
+      "correctIndex": 1,
+      "explanation": "The purpose of pressurization is to keep the cabin at a pressure higher than the ambient outside pressure, not to equalize with it — equalizing with ambient would defeat the purpose of the system."
+    },
+    {
+      "id": "b257-q8",
+      "question": "What is an advantage of using cable (as opposed to rigid rods) in a flight control system?",
+      "options": ["High strength for its weight, and the ability to be routed around corners/pulleys", "It never requires tension adjustment", "It eliminates the need for pulleys and fairleads"],
+      "correctIndex": 0,
+      "explanation": "Control cable offers high tensile strength relative to its weight and can be routed through pulleys and fairleads around structure, which rigid push-pull rods cannot do as easily."
+    },
+    {
+      "id": "b257-q9",
+      "question": "What is the recommended way to clean plastic (acrylic) windows and windshields?",
+      "options": ["Wash with plenty of water and a mild soap, using a soft cloth or bare hands", "Scrub with a dry, stiff-bristle brush", "Clean with gasoline or lacquer thinner"],
+      "correctIndex": 0,
+      "explanation": "Plastic/acrylic transparencies should be washed with plenty of water and a mild soap (never dry-wiped or cleaned with solvents), to avoid scratching or crazing the surface."
+    },
+    {
+      "id": "b257-q10",
+      "question": "A hydrostatic test of an oxygen cylinder (bottle) is commonly performed using which medium?",
+      "options": ["Compressed air only", "Water (water-jacket method)", "Nitrogen gas"],
+      "correctIndex": 1,
+      "explanation": "Oxygen cylinders are hydrostatically tested using water (often the water-jacket method), which measures the cylinder's expansion under pressure to verify its structural integrity."
+    },
+    {
+      "id": "b257-q11",
+      "question": "What does the cabin pressurization system maintain in order to protect the fuselage structure from excessive loads?",
+      "options": ["A fixed cabin altitude of sea level at all times", "A controlled differential pressure between the cabin and the outside ambient pressure", "Equal pressure on both sides of the fuselage skin at all times"],
+      "correctIndex": 1,
+      "explanation": "The system maintains a controlled (limited) differential pressure between the inside of the cabin and the outside ambient pressure, preventing structural overload while keeping the cabin altitude low."
+    },
+    {
+      "id": "b257-q12",
+      "question": "Among other data, what does the Type Certificate Data Sheet (TCDS) specify for an aircraft?",
+      "options": ["The location of the leveling points used to level the aircraft", "The daily flight schedule of the aircraft", "The pilot's personal logbook requirements"],
+      "correctIndex": 0,
+      "explanation": "The TCDS includes leveling information, specifying where the leveling means (points) are located on the aircraft, along with other required design and limits data."
+    },
+    {
+      "id": "b257-q13",
+      "question": "What is a TSO (Technical Standard Order)?",
+      "options": ["A minimum performance standard for a specified article, issued by the regulatory authority", "A type of maintenance logbook entry", "A private manufacturer's internal quality memo"],
+      "correctIndex": 0,
+      "explanation": "A TSO is a minimum performance standard issued by the regulatory authority (e.g., the FAA) for specified materials, parts, processes, and appliances used on civil aircraft."
+    },
+    {
+      "id": "b257-q14",
+      "question": "What is a 'loading graph' used for in weight and balance?",
+      "options": ["To determine the moment for a given item weight graphically, without doing the multiplication by hand", "To record the aircraft's maintenance history", "To plot the aircraft's airspeed versus altitude"],
+      "correctIndex": 0,
+      "explanation": "A loading graph is a chart that lets a technician read the moment (or moment/1000) for a given weight placed at a given station directly off the graph, instead of calculating weight × arm by hand."
+    },
+    {
+      "id": "b257-q15",
+      "question": "What is the function of a restrictor (flow control) valve in a hydraulic system?",
+      "options": ["To control/limit the rate of fluid flow in one or both directions", "To store hydraulic fluid under pressure", "To filter contaminants out of the hydraulic fluid"],
+      "correctIndex": 0,
+      "explanation": "A restrictor valve controls (restricts) the rate of fluid flow through a line, which in turn controls the speed of operation of the actuator it feeds."
+    },
+    {
+      "id": "b257-q16",
+      "question": "What is the function of a check valve in a hydraulic or pneumatic system?",
+      "options": ["To allow fluid/air flow in one direction only and block flow in the reverse direction", "To mix two different fluids together", "To measure the pressure of the system"],
+      "correctIndex": 0,
+      "explanation": "A check valve is a one-way valve: it permits flow in one direction and blocks flow in the opposite direction, protecting components and maintaining system pressure."
+    },
+    {
+      "id": "b257-q17",
+      "question": "What does a fuel pressure gauge measure?",
+      "options": ["The pressure of the fuel in the fuel system (e.g., at the engine inlet)", "The quantity of fuel remaining in the tank", "The temperature of the fuel"],
+      "correctIndex": 0,
+      "explanation": "A fuel pressure gauge indicates the pressure of the fuel being delivered through the fuel system, which is used to verify the fuel pump/system is operating correctly."
+    },
+    {
+      "id": "b257-q18",
+      "question": "An aircraft has a total weight of 1218 lbs. The distance between the datum and the main landing gear (MLG) is 7.5 in, and the tail landing gear is 67.5 in from the datum. What is the CG location?",
+      "options": ["19.7 in aft of datum", "7.5 in aft of datum", "67.5 in aft of datum"],
+      "correctIndex": 0,
+      "explanation": "Using the weighing/reaction data for datum, MLG, and tail gear distances with the total weight, the computed center of gravity works out to 19.7 in aft of the datum."
+    },
+    {
+      "id": "b257-q19",
+      "question": "During certain fuel system checks, the fuel quantity remaining in the tank should not be less than what amount?",
+      "options": ["1 quart", "1 gallon", "5 gallons"],
+      "correctIndex": 0,
+      "explanation": "A minimum of 1 quart of fuel is commonly specified as the amount that must remain in the tank for the check/test to be considered valid."
+    },
+    {
+      "id": "b257-q20",
+      "question": "Which of the following is NOT an accepted method of inspecting a wood aircraft structure for deterioration?",
+      "options": ["Sounding the wood by tapping and listening for a dull thud", "Reading a textbook", "Probing with an awl or ice pick to check for softness"],
+      "correctIndex": 1,
+      "explanation": "Wood inspection relies on physical, hands-on methods such as sounding, probing, and visual/moisture checks — simply reading a textbook is not an accepted inspection method."
+    },
+    {
+      "id": "b257-q21",
+      "question": "Portable electronic load cells (weighing scales) can be used to weigh:",
+      "options": ["Light aircraft only", "Large aircraft only", "Both light and large aircraft"],
+      "correctIndex": 2,
+      "explanation": "Portable electronic load cells are versatile and rated for a wide range of capacities, making them suitable for weighing both light general aviation aircraft and large transport aircraft."
+    },
+    {
+      "id": "b257-q22",
+      "question": "What type of structural icing is opaque, rough, and white in appearance?",
+      "options": ["Clear (glaze) ice", "Rime ice", "Frost"],
+      "correctIndex": 1,
+      "explanation": "Rime ice forms a rough, opaque, milky-white deposit caused by rapid freezing of small supercooled water droplets, unlike the smooth, transparent appearance of clear/glaze ice."
+    },
+    {
+      "id": "b257-q23",
+      "question": "What is the 'mold line' of an aircraft structure?",
+      "options": ["The line describing the original, unflawed contour of the structure's outer surface", "The line marking where corrosion has formed", "The centerline of a rivet pattern"],
+      "correctIndex": 0,
+      "explanation": "The mold line is the line that defines the original (undamaged) outer contour or shape of a structure, used as a reference when forming or repairing skin."
+    },
+    {
+      "id": "b257-q24",
+      "question": "A bend in sheet metal where the angle between the two legs is less than 90° is called:",
+      "options": ["An open bend", "A closed bend", "A neutral bend"],
+      "correctIndex": 1,
+      "explanation": "When the included angle between the legs of a bend is less than 90°, the bend is classified as a closed bend; more than 90° is an open bend."
+    },
+    {
+      "id": "b257-q25",
+      "question": "In sheet metal layout, the 'flange' generally refers to:",
+      "options": ["The longer leg of a formed angle", "The shorter leg/length of a formed angle", "The bend radius itself"],
+      "correctIndex": 1,
+      "explanation": "The flange is typically the shorter leg of a bent/formed angle, as distinguished from the longer leg or web of the part."
+    },
+    {
+      "id": "b257-q26",
+      "question": "The 'setback' dimension used in sheet metal bend layout is calculated from which factors?",
+      "options": ["K-factor, material thickness, and bend radius", "Rivet spacing and edge distance only", "Material color and alloy designation"],
+      "correctIndex": 0,
+      "explanation": "Setback is calculated using the bend radius and material thickness together with the K-factor (which accounts for the bend angle), to locate the mold line/bend lines correctly."
+    },
+    {
+      "id": "b257-q27",
+      "question": "Which of the following fasteners should NOT be used when repairing a wood wing spar?",
+      "options": ["Nails and screws", "Glued splice plates", "Properly torqued through-bolts specified in the repair data"],
+      "correctIndex": 0,
+      "explanation": "Nails and screws do not provide adequate, reliable load transfer in primary wood structure like a spar, so they are not approved for structural wood spar repairs."
+    },
+    {
+      "id": "b257-q28",
+      "question": "Fungal deterioration that breaks down wood fibers, reducing strength, is known as:",
+      "options": ["Decay", "Delamination", "Corrosion"],
+      "correctIndex": 0,
+      "explanation": "Decay is deterioration of wood caused by fungi, which attack and break down the wood fibers, significantly weakening the structure."
+    },
+    {
+      "id": "b257-q29",
+      "question": "What color is fiberglass reinforcing cloth typically?",
+      "options": ["White", "Black", "Yellow"],
+      "correctIndex": 0,
+      "explanation": "Fiberglass cloth is characteristically white in color, which helps distinguish it visually from carbon fiber (black) and aramid/Kevlar (yellow) fabrics."
+    },
+    {
+      "id": "b257-q30",
+      "question": "What color is 100LL aviation gasoline dyed?",
+      "options": ["Red", "Blue", "Green"],
+      "correctIndex": 1,
+      "explanation": "100LL (low-lead) aviation gasoline is dyed blue, which is the standard color code used to help prevent misfueling."
+    },
+    {
+      "id": "b257-q31",
+      "question": "A desiccant (moisture-indicating) cartridge that still shows blue indicates:",
+      "options": ["The desiccant is saturated and must be replaced", "The desiccant is not contaminated (still dry/effective)", "The cartridge has failed and must be discarded"],
+      "correctIndex": 1,
+      "explanation": "Silica-gel type desiccant indicators are blue when dry/effective and turn pink when saturated with moisture, so a blue indication means the desiccant is not yet contaminated."
+    },
+    {
+      "id": "b257-q32",
+      "question": "What chart is used to determine whether an aircraft's CG falls within allowable limits for a given weight?",
+      "options": ["The CG limit envelope", "The airspeed indicator placard", "The fuel consumption chart"],
+      "correctIndex": 0,
+      "explanation": "The CG limit (moment) envelope is a graph that plots allowable CG range against aircraft weight, used to confirm the loaded CG is within safe limits."
+    },
+    {
+      "id": "b257-q33",
+      "question": "What is 'tare weight' in aircraft weighing, and how is it used?",
+      "options": ["The weight of chocks, jacks, or blocks used during weighing, which is subtracted from the scale reading", "The total weight of the aircraft including all fuel and cargo", "The weight limit stamped on the data plate"],
+      "correctIndex": 0,
+      "explanation": "Tare weight is the weight of items such as chocks or jack pads that are on the scale along with the aircraft during weighing; it must be subtracted from the scale reading to get the true aircraft weight."
+    },
+    {
+      "id": "b257-q34",
+      "question": "What is the first step when rigging a flight control surface?",
+      "options": ["Lock the control surface and the cockpit control in the neutral position", "Disconnect all control cables from the surface", "Apply full control deflection in both directions"],
+      "correctIndex": 0,
+      "explanation": "Rigging begins by locking both the control surface and the corresponding cockpit control in the neutral position, establishing a fixed reference before adjusting cables/rods."
+    },
+    {
+      "id": "b257-q35",
+      "question": "If passengers shift toward the rear (aft) of the cabin, how does the aircraft's center of gravity shift?",
+      "options": ["Forward", "Aft", "It does not change"],
+      "correctIndex": 1,
+      "explanation": "Moving weight aft in the cabin moves the overall center of gravity aft as well, since CG shifts in the direction of the weight that is moved."
+    },
+    {
+      "id": "b257-q36",
+      "question": "Which type of trim tab moves in the same direction as the control surface it is attached to?",
+      "options": ["Anti-servo tab", "Servo tab", "Balance tab"],
+      "correctIndex": 0,
+      "explanation": "An anti-servo tab moves in the same direction as the control surface (increasing the force the pilot must apply), unlike a servo tab, which moves opposite to aid control movement."
+    },
+    {
+      "id": "b257-q37",
+      "question": "What is a hydraulic 'power pack'?",
+      "options": ["A self-contained unit combining a pump, reservoir, and control valves to supply hydraulic power", "A spare battery pack used for emergency lighting", "A set of replacement O-rings for hydraulic fittings"],
+      "correctIndex": 0,
+      "explanation": "A power pack is a compact, self-contained hydraulic power source combining the pump, reservoir, and necessary control valves, often used on small aircraft in place of a central hydraulic system."
+    },
+    {
+      "id": "b257-q38",
+      "question": "A pneumatic system supplying roughly 1000–3000 psi is commonly used on an aircraft as a backup source for:",
+      "options": ["Cabin lighting", "Extending the landing gear", "Operating the radios"],
+      "correctIndex": 1,
+      "explanation": "High-pressure pneumatic (compressed air/nitrogen) bottles in this pressure range are commonly provided as an emergency backup system for extending the landing gear if normal hydraulic power is lost."
+    },
+    {
+      "id": "b257-q39",
+      "question": "What is a 'sight glass' used for on a hydraulic reservoir?",
+      "options": ["To visually check the hydraulic fluid level", "To filter particles from the fluid", "To relieve excess system pressure"],
+      "correctIndex": 0,
+      "explanation": "A sight glass is a small transparent window on the reservoir that allows a technician to visually check the fluid level without opening the reservoir."
+    },
+    {
+      "id": "b257-q40",
+      "question": "What is another name for the tape used to cover and protect seams/stitching on a fabric-covered aircraft surface?",
+      "options": ["Finishing tape", "Masking tape", "Duct tape"],
+      "correctIndex": 0,
+      "explanation": "Finishing tape is applied over rib stitching and seams on fabric-covered surfaces to protect them and provide a smooth, finished appearance."
+    },
+    {
+      "id": "b257-q41",
+      "question": "In a landing gear shock strut, the kinetic energy of landing impact is primarily dissipated as what form of energy?",
+      "options": ["Heat", "Sound only", "Light"],
+      "correctIndex": 0,
+      "explanation": "As hydraulic fluid is forced through a metering orifice in the shock strut, the landing impact energy is converted into heat, which is dissipated by the strut."
+    },
+    {
+      "id": "b257-q42",
+      "question": "Which type of aircraft brake system uses a comparatively large volume of hydraulic fluid?",
+      "options": ["Power brake system", "Simple expander-tube brake only", "Parking brake valve alone"],
+      "correctIndex": 0,
+      "explanation": "Power brake systems, which use engine- or motor-driven hydraulic pressure (rather than simple pedal-applied pressure), require and use a larger volume of hydraulic fluid than simple brake systems."
+    },
+    {
+      "id": "b257-q43",
+      "question": "Which of the following statements about composite materials is NOT true?",
+      "options": ["A composite is made of two or more distinct materials that work together", "The individual components of a composite are dissolved and merged into one another", "A composite typically consists of a reinforcing fiber and a resin matrix"],
+      "correctIndex": 1,
+      "explanation": "In a composite, the reinforcement and matrix retain their own separate identities and properties — they are combined, not dissolved and merged into a single new material, so this statement is false."
+    }
+  ]
+}
