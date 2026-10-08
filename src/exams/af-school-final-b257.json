@@ -19,9 +19,9 @@
     {
       "id": "b257-q2",
       "question": "For a scarf patch repair on sheet metal skin, the taper length of the bevel should not be less than how many times the skin thickness?",
-      "options": ["3 times the skin thickness", "10 times the skin thickness", "50 times the skin thickness"],
+      "options": ["3 times the skin thickness", "100 times the skin thickness", "50 times the skin thickness"],
       "correctIndex": 1,
-      "explanation": "A scarf patch repair requires a shallow taper to restore strength through the bonded/overlapped area; the taper length must not be less than 10 times the skin thickness."
+      "explanation": "A scarf patch repair requires a shallow taper to restore strength through the bonded/overlapped area; the taper length must not be less than 100 times the skin thickness."
     },
     {
       "id": "b257-q3",
