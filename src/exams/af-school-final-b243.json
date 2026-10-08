@@ -1,0 +1,805 @@
+{
+  "id": "af-school-final-b243",
+  "title": "AF-School-final(B243)",
+  "module": "AF-School-final",
+  "course": "airframe",
+  "category": "school_final",
+  "description": "Airframe comprehensive school-final exam spanning multiple modules: structures and sheet metal repair, composites, hydraulics/pneumatics, landing gear, flight controls, air conditioning/pressurization, fuel systems, fire protection, weight and balance, rigging, and aircraft inspection/documentation, drawn from the AF School-Final (B-243) question/answer bank.",
+  "durationMinutes": 150,
+  "totalQuestions": 72,
+  "color": "amber",
+  "questions": [
+    {
+      "id": 1,
+      "question": "When considering weight needed forward and aft of the aircraft for balance purposes, which occupant's position is a key variable load?",
+      "options": [
+        "A. The ground crew chief",
+        "B. The air traffic controller",
+        "C. The pilot"
+      ],
+      "correctIndex": 2,
+      "explanation": "The pilot's weight and seating position is one of the key variable loads considered when computing the aircraft's forward/aft balance."
+    },
+    {
+      "id": 2,
+      "question": "In a mechanical feel system, what counters the upward movement of the servo valve?",
+      "options": [
+        "A. Static pressure alone",
+        "B. Pitot (dynamic) pressure",
+        "C. Cabin pressure"
+      ],
+      "correctIndex": 1,
+      "explanation": "In certain mechanical feel system designs, pitot (airspeed-related) pressure acts against the servo valve's movement, providing speed-appropriate resistance."
+    },
+    {
+      "id": 3,
+      "question": "What shows fuel flow in the fuel system?",
+      "options": [
+        "A. The fuel quantity indicating system",
+        "B. The fuel flow indication system",
+        "C. The fuel pressure warning light"
+      ],
+      "correctIndex": 1,
+      "explanation": "A dedicated fuel flow indication system measures and displays the real-time rate of fuel consumption to the crew."
+    },
+    {
+      "id": 4,
+      "question": "Cowl plates/cowl flaps are typically made of what material?",
+      "options": [
+        "A. Solid rubber",
+        "B. Untreated plywood",
+        "C. Aluminum alloy"
+      ],
+      "correctIndex": 2,
+      "explanation": "Engine cowl plates and cowl flaps are commonly constructed of lightweight, heat-tolerant aluminum alloy."
+    },
+    {
+      "id": 5,
+      "question": "Cabin pressure, expressed in terms of altitude, is measured by what instrument?",
+      "options": [
+        "A. A tensiometer",
+        "B. An altimeter (cabin altitude indicator)",
+        "C. A tachometer"
+      ],
+      "correctIndex": 1,
+      "explanation": "Cabin pressure is converted into an equivalent altitude reading and displayed using a cabin altimeter."
+    },
+    {
+      "id": 6,
+      "question": "What is a function of wash primer, and what does it not require?",
+      "options": [
+        "A. It passivates (prepares) the surface and does not require sanding before further coating",
+        "B. It provides the final gloss color and must always be sanded",
+        "C. It replaces the need for any topcoat"
+      ],
+      "correctIndex": 0,
+      "explanation": "Wash primer chemically treats (passivates) bare metal to improve corrosion resistance and paint adhesion, and is formulated so it does not need sanding before subsequent coats."
+    },
+    {
+      "id": 7,
+      "question": "Acetone, MEK (methyl ethyl ketone), and similar solvents are characterized by what property?",
+      "options": [
+        "A. High flash point, non-flammable liquids",
+        "B. Low flash point (highly flammable) liquids",
+        "C. Non-volatile liquids"
+      ],
+      "correctIndex": 1,
+      "explanation": "These common shop solvents are volatile and highly flammable, meaning they have a low flash point requiring careful handling."
+    },
+    {
+      "id": 8,
+      "question": "In sheet metal repair, which of the following is NOT a preferred practice?",
+      "options": [
+        "A. Matching the original material thickness",
+        "B. Restoring the original contour",
+        "C. Making a weld repair too strong (over-strengthened relative to the surrounding structure)"
+      ],
+      "correctIndex": 2,
+      "explanation": "An overly strong (stiff) weld repair can create a hard spot that concentrates stress in the surrounding, more flexible structure, making it an undesirable repair practice."
+    },
+    {
+      "id": 9,
+      "question": "Aircraft windows and canopies are commonly made from what material?",
+      "options": [
+        "A. Acrylic",
+        "B. Tempered glass only",
+        "C. Polycarbonate exclusively, with no acrylic use"
+      ],
+      "correctIndex": 0,
+      "explanation": "Acrylic (often known by trade names like Plexiglass) is the common transparent material used for aircraft windows and canopies."
+    },
+    {
+      "id": 10,
+      "question": "What comes first when installing a landing gear?",
+      "options": [
+        "A. Installing the wheel and tire",
+        "B. Connecting the hydraulic lines",
+        "C. Inspecting the mounting area"
+      ],
+      "correctIndex": 2,
+      "explanation": "Before installing the landing gear, the mounting structure/area must first be inspected to confirm it is in proper condition to accept the gear."
+    },
+    {
+      "id": 11,
+      "question": "Which document provides the range (limits) of control surface travel?",
+      "options": [
+        "A. The weight and balance report",
+        "B. The Aircraft Maintenance Manual (AMM)",
+        "C. The pilot's operating handbook"
+      ],
+      "correctIndex": 1,
+      "explanation": "The AMM specifies the approved control surface travel ranges and rigging data used during inspection and maintenance."
+    },
+    {
+      "id": 12,
+      "question": "Which valve is used to control the pack (air conditioning) outlet temperature?",
+      "options": [
+        "A. The outflow valve",
+        "B. The priority valve",
+        "C. The Turbine Bypass Valve (TBV)"
+      ],
+      "correctIndex": 2,
+      "explanation": "The TBV regulates how much air bypasses the ACM turbine section, directly controlling the pack's final outlet temperature."
+    },
+    {
+      "id": 13,
+      "question": "What happens when the low limit control valve senses a temperature greater than 35°F?",
+      "options": [
+        "A. It does not add heat; the low limit control valve adds heat only when temperature is at or below 35°F to the water separator",
+        "B. It always adds heat regardless of temperature",
+        "C. It shuts off all bleed air"
+      ],
+      "correctIndex": 0,
+      "explanation": "The low limit control valve adds heat to protect the water separator from freezing only when sensed temperature drops to or below about 35°F; above that, no extra heat is needed."
+    },
+    {
+      "id": 14,
+      "question": "A fairlead should never deflect a control cable from a straight line by more than what angle?",
+      "options": [
+        "A. 15 degrees",
+        "B. 45 degrees",
+        "C. 3 degrees"
+      ],
+      "correctIndex": 2,
+      "explanation": "Standard practice limits fairlead-induced cable deflection to no more than about 3 degrees from a straight line, minimizing wear and friction."
+    },
+    {
+      "id": 15,
+      "question": "A turnbuckle should never have exposed threads on either side of the barrel exceeding how many threads?",
+      "options": [
+        "A. 10",
+        "B. 0",
+        "C. 3"
+      ],
+      "correctIndex": 2,
+      "explanation": "Standard rigging practice limits visible/exposed turnbuckle threads to no more than 3 on either side of the barrel, ensuring adequate thread engagement."
+    },
+    {
+      "id": 16,
+      "question": "If total moment is 128,000 and weight is 3,200, what is the CG location?",
+      "options": [
+        "A. 25",
+        "B. 40",
+        "C. 60"
+      ],
+      "correctIndex": 1,
+      "explanation": "CG = total moment / total weight = 128,000 / 3,200 = 40, giving the center of gravity location in the units used for the moment/weight calculation."
+    },
+    {
+      "id": 17,
+      "question": "What causes blisters or bubbles in a paint finish?",
+      "options": [
+        "A. Using too thin a paint",
+        "B. Oil or water contamination in the spray gun's air line",
+        "C. Allowing too long a drying time between coats"
+      ],
+      "correctIndex": 1,
+      "explanation": "Moisture or oil carried in the compressed air supply to the spray gun can become trapped under the paint film, forming blisters or bubbles as it tries to escape."
+    },
+    {
+      "id": 18,
+      "question": "An airworthiness certificate must conform to what?",
+      "options": [
+        "A. The pilot's personal preferences",
+        "B. The airline's internal schedule",
+        "C. The type of certificate (type certificate) issued for that aircraft"
+      ],
+      "correctIndex": 2,
+      "explanation": "The airworthiness certificate is tied to and must conform to the aircraft's type certificate and its approved configuration."
+    },
+    {
+      "id": 19,
+      "question": "Which of the following correctly matches an inspection finding with its repair action?",
+      "options": [
+        "A. A leaking packing seal is repaired by repainting the surface",
+        "B. A leaking packing seal is repaired by adding more lubricant only",
+        "C. A leaking packing seal is repaired by replacing the packing"
+      ],
+      "correctIndex": 2,
+      "explanation": "A worn or leaking packing (dynamic seal) is properly corrected by replacing the packing itself, not by cosmetic or unrelated fixes."
+    },
+    {
+      "id": 20,
+      "question": "What is a hybrid composite?",
+      "options": [
+        "A. A composite using only one fiber type throughout",
+        "B. A composite with no resin matrix at all",
+        "C. A combination of two different reinforcement fiber types in the same matrix"
+      ],
+      "correctIndex": 2,
+      "explanation": "A hybrid composite blends two (or more) distinct reinforcement fiber types (such as carbon and aramid) within a single shared resin matrix."
+    },
+    {
+      "id": 21,
+      "question": "What type of seal is a Chevron seal?",
+      "options": [
+        "A. A bidirectional seal",
+        "B. A one-way (directional) seal",
+        "C. A static gasket only"
+      ],
+      "correctIndex": 1,
+      "explanation": "Chevron (V-ring) seals are designed to seal effectively in one direction, due to their V-shaped lip geometry."
+    },
+    {
+      "id": 22,
+      "question": "What color is an oxygen hose typically coded?",
+      "options": [
+        "A. Red",
+        "B. Green",
+        "C. Blue"
+      ],
+      "correctIndex": 1,
+      "explanation": "Oxygen system hoses are conventionally color-coded green, distinguishing them from other system lines such as fuel (red) or hydraulic lines."
+    },
+    {
+      "id": 23,
+      "question": "An oxygen pressure regulator typically has two indicators: one showing cylinder pressure, and what else?",
+      "options": [
+        "A. One showing working (delivery) pressure",
+        "B. One showing cabin altitude",
+        "C. One showing fuel flow"
+      ],
+      "correctIndex": 0,
+      "explanation": "The second gauge on an oxygen regulator shows the reduced working/delivery pressure supplied downstream, as distinct from the raw cylinder storage pressure."
+    },
+    {
+      "id": 24,
+      "question": "Which of the following is NOT true about the receiver drier in a vapor cycle system?",
+      "options": [
+        "A. That it separates the high and low pressure sections of the system (that is the compressor's role, not the receiver drier's)",
+        "B. That it stores liquid refrigerant as a reservoir",
+        "C. That it contains a desiccant to remove moisture"
+      ],
+      "correctIndex": 0,
+      "explanation": "The receiver drier stores refrigerant and removes moisture but does not itself act as the boundary between high and low pressure sides; the compressor performs that function."
+    },
+    {
+      "id": 25,
+      "question": "Which component separates the high-pressure and low-pressure sides of a vapor cycle system?",
+      "options": [
+        "A. The compressor",
+        "B. The receiver drier",
+        "C. The sight glass"
+      ],
+      "correctIndex": 0,
+      "explanation": "The compressor marks the transition point between the low-pressure refrigerant entering and the high-pressure refrigerant leaving, forming the system's pressure boundary."
+    },
+    {
+      "id": 26,
+      "question": "Which of the following is NOT considered a source of ignition?",
+      "options": [
+        "A. Static discharge (this is actually a recognized ignition source, making it the exception/false choice)",
+        "B. An open flame",
+        "C. A hot exhaust surface"
+      ],
+      "correctIndex": 0,
+      "explanation": "Static discharge is, in fact, a well-recognized potential ignition source for flammable vapors, so identifying it as \"not\" a source is the false/exception statement among typical ignition sources."
+    },
+    {
+      "id": 27,
+      "question": "What does CDCCL (Critical Design Configuration Control Limitation) provide?",
+      "options": [
+        "A. A schedule for routine 100-hour inspections",
+        "B. A list of approved paint colors",
+        "C. Instructions to retain the critical ignition source prevention feature during configuration changes caused by alterations, repairs, or maintenance actions"
+      ],
+      "correctIndex": 2,
+      "explanation": "CDCCLs identify design features critical to preventing fuel tank ignition sources and specify limitations ensuring those features aren't compromised by maintenance, repairs, or alterations."
+    },
+    {
+      "id": 28,
+      "question": "What does pulling a manual gear extension handle do?",
+      "options": [
+        "A. Releases the gear's mechanical uplock",
+        "B. Immediately retracts the gear",
+        "C. Activates the antiskid system"
+      ],
+      "correctIndex": 0,
+      "explanation": "The manual extension handle releases the mechanical uplock, allowing the landing gear to free-fall and lock down independent of hydraulic power."
+    },
+    {
+      "id": 29,
+      "question": "When ice is detected by the aircraft's ice detection system, what happens?",
+      "options": [
+        "A. The aircraft automatically descends",
+        "B. An annunciator light comes on to alert the crew",
+        "C. The autopilot disconnects immediately"
+      ],
+      "correctIndex": 1,
+      "explanation": "Ice detection systems alert the crew through an annunciator light, prompting them to activate the appropriate anti-ice/de-ice systems."
+    },
+    {
+      "id": 30,
+      "question": "Which of the following is NOT a purpose of the outflow valve?",
+      "options": [
+        "A. Introducing outside air into the cabin",
+        "B. Maintaining desired cabin pressure",
+        "C. Allowing air to exit the cabin at a controlled rate"
+      ],
+      "correctIndex": 0,
+      "explanation": "The outflow valve controls air leaving the cabin to regulate pressure; it does not introduce outside air into the cabin, which is the function of the bleed air/pack supply system."
+    },
+    {
+      "id": 31,
+      "question": "What is used to reduce the curing time of a bonded honeycomb repair from about 12 hours down to about 1 hour?",
+      "options": [
+        "A. An infrared heat lamp",
+        "B. A hair dryer",
+        "C. Direct sunlight"
+      ],
+      "correctIndex": 0,
+      "explanation": "Infrared heat lamps deliver concentrated, controlled heat to the repair area, dramatically shortening the cure time compared with ambient/room-temperature curing."
+    },
+    {
+      "id": 32,
+      "question": "Which of the following is NOT drained overboard through drain masts?",
+      "options": [
+        "A. Waste water from the toilet (handled by the dedicated vacuum waste system, not simple drain masts)",
+        "B. Galley sink water",
+        "C. Condensation drainage"
+      ],
+      "correctIndex": 0,
+      "explanation": "Toilet waste is handled through the separate vacuum waste system, while drain masts handle relatively clean water such as galley sink drainage and condensation."
+    },
+    {
+      "id": 33,
+      "question": "While checking the accumulator, what do you usually check regarding the system?",
+      "options": [
+        "A. The accumulator's paint finish",
+        "B. The accumulator's serial number only",
+        "C. The accumulator's air (gas) precharge pressure"
+      ],
+      "correctIndex": 2,
+      "explanation": "A key accumulator check is verifying that its air/gas precharge pressure is correctly set to specification."
+    },
+    {
+      "id": 34,
+      "question": "Which type of system commonly uses a vane-type pump?",
+      "options": [
+        "A. A high-pressure system exclusively",
+        "B. A low-pressure system",
+        "C. A system with no pump at all"
+      ],
+      "correctIndex": 1,
+      "explanation": "Vane-type pumps are commonly used in relatively low-pressure, higher-volume applications compared with piston-type pumps used for higher pressure needs."
+    },
+    {
+      "id": 35,
+      "question": "In sheet metal repair, why is making a repair \"too strong\" not desirable?",
+      "options": [
+        "A. Because an overly strong (stiff) repair is undesirable, as it can create a hard spot that concentrates stress in the surrounding structure",
+        "B. Because it always costs less to make repairs weaker",
+        "C. Because strong repairs always weigh less"
+      ],
+      "correctIndex": 0,
+      "explanation": "A repair that is excessively stiff/strong compared with the surrounding structure can create a stress concentration point, potentially causing fatigue cracking nearby."
+    },
+    {
+      "id": 36,
+      "question": "How do you confirm the CG is in the correct (safe) position across its expected range of loading?",
+      "options": [
+        "A. By performing an adverse-loaded CG check",
+        "B. By performing a simple visual inspection only",
+        "C. By checking the tire pressure"
+      ],
+      "correctIndex": 0,
+      "explanation": "An adverse-loaded CG check loads the aircraft to its extreme forward and aft limits to confirm the CG stays within approved bounds under worst-case loading scenarios."
+    },
+    {
+      "id": 37,
+      "question": "When the airplane's external pressure decreases to within about 0.25 psi of the selected flight altitude's target differential, what flight phase is this generally associated with?",
+      "options": [
+        "A. Taxi",
+        "B. Engine start",
+        "C. Cruise"
+      ],
+      "correctIndex": 2,
+      "explanation": "As the aircraft approaches its target cruise differential pressure during climb, this condition is associated with reaching and settling into the cruise flight phase."
+    },
+    {
+      "id": 38,
+      "question": "Which type of stall warning system is commonly used on light aircraft?",
+      "options": [
+        "A. A pneumatic stall warning system",
+        "B. A full digital fly-by-wire stall protection computer",
+        "C. A radar-based stall detection system"
+      ],
+      "correctIndex": 0,
+      "explanation": "Many light aircraft use a simple pneumatic (reed horn) stall warning device triggered by airflow changes as the stall angle of attack is approached."
+    },
+    {
+      "id": 39,
+      "question": "Leading edge (LE) device surfaces are fully retracted during which phase, and extended during which phase to increase lift?",
+      "options": [
+        "A. Retracted during takeoff, extended during cruise",
+        "B. Retracted during cruise, extended during takeoff (and landing)",
+        "C. Retracted during landing, extended during cruise"
+      ],
+      "correctIndex": 1,
+      "explanation": "Leading edge devices (slats) stay retracted for low-drag cruise flight and are extended during takeoff and landing to increase lift at lower airspeeds."
+    },
+    {
+      "id": 40,
+      "question": "What is the width of material measured around all the bends, from edge to edge, called?",
+      "options": [
+        "A. Setback",
+        "B. Bend allowance",
+        "C. Total developed width"
+      ],
+      "correctIndex": 2,
+      "explanation": "Total developed width is the overall flat-pattern width required to form a part, accounting for all bends along its cross-section."
+    },
+    {
+      "id": 41,
+      "question": "What type of de-icing system do GA (general aviation) and turboprop commuter-type aircraft often use?",
+      "options": [
+        "A. A full thermal pneumatic bleed air system",
+        "B. A pneumatic de-icing system (inflatable boots)",
+        "C. An electromagnetic impulse system exclusively"
+      ],
+      "correctIndex": 1,
+      "explanation": "GA and smaller turboprop commuter aircraft commonly use pneumatic de-ice boots, which are simpler and require less bleed air than large thermal anti-ice systems."
+    },
+    {
+      "id": 42,
+      "question": "Which of the following is NOT a purpose of cabin pressurization?",
+      "options": [
+        "A. Maintaining a comfortable, physiologically safe cabin altitude",
+        "B. Equalizing cabin pressure exactly with ambient (outside) pressure",
+        "C. Allowing occupants to function normally at high cruise altitude"
+      ],
+      "correctIndex": 1,
+      "explanation": "Pressurization exists specifically to maintain a cabin pressure higher than (not equal to) the thin ambient air at altitude; equalizing with ambient pressure is the opposite of pressurization's purpose."
+    },
+    {
+      "id": 43,
+      "question": "Which document helps determine and verify control surface travel limits?",
+      "options": [
+        "A. The weight and balance report",
+        "B. The Aircraft Maintenance Manual (AMM)",
+        "C. The pilot's operating handbook"
+      ],
+      "correctIndex": 1,
+      "explanation": "The AMM specifies the approved control surface travel limits and provides the rigging procedures used to verify and adjust them."
+    },
+    {
+      "id": 44,
+      "question": "A tire chine, mounted on the wheel, is used for what purpose?",
+      "options": [
+        "A. To increase tire traction on dry pavement",
+        "B. To deflect runway water sideways, away from the aircraft/engines",
+        "C. To reduce tire weight"
+      ],
+      "correctIndex": 1,
+      "explanation": "Chine tires have a molded deflector rib that throws water sideways during takeoff/landing roll, helping protect aft-mounted engines from water spray ingestion."
+    },
+    {
+      "id": 45,
+      "question": "Which brake system typically requires a large volume of hydraulic fluid?",
+      "options": [
+        "A. The power brake actuating system",
+        "B. A simple master-cylinder-only brake system",
+        "C. A mechanical cable brake system"
+      ],
+      "correctIndex": 0,
+      "explanation": "Power brake systems, which handle larger aircraft and higher brake forces, require a greater volume of hydraulic fluid delivery compared with simple master cylinder systems."
+    },
+    {
+      "id": 46,
+      "question": "In a mechanical Q-feel (artificial feel) system, what determines the amount of force the pilot feels?",
+      "options": [
+        "A. The relative position of a fulcrum (lever ratio)",
+        "B. The color of the control cables",
+        "C. The fuel quantity remaining"
+      ],
+      "correctIndex": 0,
+      "explanation": "Mechanical feel systems often use a movable fulcrum or linkage ratio, adjusted according to flight conditions (such as airspeed), to vary the force transmitted to the pilot."
+    },
+    {
+      "id": 47,
+      "question": "Which of the following is NOT considered a source of ignition?",
+      "options": [
+        "A. Static discharge (actually a recognized ignition source, making it the false/exception choice)",
+        "B. A spark from damaged wiring",
+        "C. A hot surface from an overheated component"
+      ],
+      "correctIndex": 0,
+      "explanation": "Static discharge is indeed a recognized potential ignition source for flammable vapors, so a statement excluding it as a source would be the false one among the choices."
+    },
+    {
+      "id": 48,
+      "question": "What is a thin layer of fiberglass cured with a composite repair part to create a clean surface for bonding purposes called?",
+      "options": [
+        "A. Peel ply",
+        "B. Bleeder ply",
+        "C. Release film"
+      ],
+      "correctIndex": 0,
+      "explanation": "Peel ply is bonded onto the laminate and peeled away just before final bonding, leaving behind a clean, properly textured surface ready for adhesion."
+    },
+    {
+      "id": 49,
+      "question": "What describes the construction of a duplex seal?",
+      "options": [
+        "A. A single O-ring with no backup",
+        "B. A simple flat gasket",
+        "C. A T-seal with a backup of two Teflon rings"
+      ],
+      "correctIndex": 2,
+      "explanation": "A duplex seal combines a T-shaped seal element with two supporting Teflon backup rings, providing a robust, durable sealing arrangement for demanding applications."
+    },
+    {
+      "id": 50,
+      "question": "At what pressure does a typical high-pressure hydraulic system normally operate?",
+      "options": [
+        "A. 300 psi",
+        "B. 3,000 psi",
+        "C. 30,000 psi"
+      ],
+      "correctIndex": 1,
+      "explanation": "Many aircraft high-pressure hydraulic systems are designed to operate at approximately 3,000 psi, a common standard for transport category aircraft."
+    },
+    {
+      "id": 51,
+      "question": "For a constant-delivery hydraulic pump, what components manage system pressure without continuous full-flow output?",
+      "options": [
+        "A. A cut-out valve and an accumulator",
+        "B. A standpipe and a baffle",
+        "C. A thermal relief valve alone"
+      ],
+      "correctIndex": 0,
+      "explanation": "With a constant delivery pump, a cut-out (unloading) valve combined with an accumulator allows the pump to unload once system pressure is reached, avoiding wasted continuous full-flow pumping."
+    },
+    {
+      "id": 52,
+      "question": "What are the components of a simple hydraulic power pack?",
+      "options": [
+        "A. Only a pump and an actuator",
+        "B. Only a reservoir and accumulator",
+        "C. A pump, reservoir, selector valve, and filter"
+      ],
+      "correctIndex": 2,
+      "explanation": "A self-contained power pack bundles a pump, reservoir, selector/control valve, and filter together into one compact unit."
+    },
+    {
+      "id": 53,
+      "question": "When does the Turbine Bypass Valve (TBV) operate?",
+      "options": [
+        "A. Only when the aircraft is on the ground",
+        "B. When the air conditioning pack is ON",
+        "C. Only during descent"
+      ],
+      "correctIndex": 1,
+      "explanation": "The TBV is active whenever its associated air conditioning pack is operating, modulating bypass air to control pack outlet temperature."
+    },
+    {
+      "id": 54,
+      "question": "Who is ultimately responsible for setting and enforcing airworthiness regulations?",
+      "options": [
+        "A. A single global authority with no national variation",
+        "B. All aviation authorities around the world (each country's regulatory body)",
+        "C. Individual aircraft manufacturers exclusively"
+      ],
+      "correctIndex": 1,
+      "explanation": "Each country's aviation authority (such as the FAA, EASA, etc.) is responsible for establishing and enforcing airworthiness regulations within its jurisdiction."
+    },
+    {
+      "id": 55,
+      "question": "What is the difference between a power-assisted brake system and a full power brake system?",
+      "options": [
+        "A. In a power brake system, the pilot feels the full braking load directly",
+        "B. In a power-assisted system, the pilot still feels some of the actual braking load/force",
+        "C. There is no difference between the two systems"
+      ],
+      "correctIndex": 1,
+      "explanation": "Power-assisted brakes blend hydraulic boost with some direct pilot-felt force, whereas a full power brake system isolates the pilot from direct brake force feedback entirely."
+    },
+    {
+      "id": 56,
+      "question": "Which component attaches the landing gear to the airframe and allows it to pivot for retraction/extension?",
+      "options": [
+        "A. The axle",
+        "B. The trunnion",
+        "C. The torque link"
+      ],
+      "correctIndex": 1,
+      "explanation": "The trunnion is the structural pivot attachment point on the airframe around which the landing gear leg rotates during retraction and extension."
+    },
+    {
+      "id": 57,
+      "question": "Inspection of wood structure to recognize defects cannot be adequately learned by what means alone?",
+      "options": [
+        "A. Hands-on training combined with reference material",
+        "B. Just reading a textbook",
+        "C. Supervised practical inspection experience"
+      ],
+      "correctIndex": 1,
+      "explanation": "Reliably recognizing wood defects requires hands-on experience and training, not simply reading about defects in a textbook."
+    },
+    {
+      "id": 58,
+      "question": "What does the \"Look\" phase of inspection involve?",
+      "options": [
+        "A. Completing paperwork and work orders only",
+        "B. Running a full functional test of all systems",
+        "C. Visual inspection and touching (tactile) examination of the aircraft/components"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Look phase is the hands-on, sensory examination stage of inspection, where the technician visually and physically (by touch) assesses the condition of the aircraft."
+    },
+    {
+      "id": 59,
+      "question": "What inspection program divides the full inspection into smaller parts to reduce aircraft ground time?",
+      "options": [
+        "A. A special inspection",
+        "B. A continuous inspection program check",
+        "C. A progressive inspection"
+      ],
+      "correctIndex": 2,
+      "explanation": "Progressive inspection breaks the comprehensive annual-equivalent inspection scope into smaller segments performed over time, minimizing how long the aircraft is out of service at any one point."
+    },
+    {
+      "id": 60,
+      "question": "A defect such as insertion of backing paper and separation of films within a laminate is classified as what type of defect?",
+      "options": [
+        "A. An in-service defect",
+        "B. A design defect",
+        "C. A manufacturing defect"
+      ],
+      "correctIndex": 2,
+      "explanation": "Defects traced to problems during original fabrication (such as improperly inserted backing material or film separation) are classified as manufacturing defects."
+    },
+    {
+      "id": 61,
+      "question": "What does envelope bagging refer to in composite repair?",
+      "options": [
+        "A. Bagging only the local repair patch area",
+        "B. No vacuum bag is used at all",
+        "C. Complete enclosure of the workpiece within the vacuum bag"
+      ],
+      "correctIndex": 2,
+      "explanation": "Envelope bagging fully encloses the entire part (not just the repair patch) inside the vacuum bag assembly for curing."
+    },
+    {
+      "id": 62,
+      "question": "Which toilet system type is removed from the aircraft and emptied/dumped at an approved disposal area?",
+      "options": [
+        "A. The vacuum toilet type (serviced in place)",
+        "B. The recirculating toilet type",
+        "C. The removable toilet type"
+      ],
+      "correctIndex": 2,
+      "explanation": "A removable toilet assembly can be taken off the aircraft entirely and emptied/serviced at an approved disposal facility, unlike systems serviced in place."
+    },
+    {
+      "id": 63,
+      "question": "What is the dangerous possibility of exposure associated with radiographic (X-ray) inspection?",
+      "options": [
+        "A. Radiation exposure",
+        "B. Chemical burns",
+        "C. Electrical shock"
+      ],
+      "correctIndex": 0,
+      "explanation": "Radiographic inspection uses ionizing radiation, making radiation exposure to personnel the primary safety hazard requiring shielding and controlled access."
+    },
+    {
+      "id": 64,
+      "question": "For how long should the fuel tank be able to provide fuel at maximum continuous power, per certain certification reference standards?",
+      "options": [
+        "A. 30 minutes",
+        "B. 5 minutes",
+        "C. 3 hours"
+      ],
+      "correctIndex": 0,
+      "explanation": "Certain fuel system adequacy standards reference a minimum endurance margin, such as 30 minutes at maximum continuous power, as part of required fuel system capability."
+    },
+    {
+      "id": 65,
+      "question": "What speeds up the preflight weight and balance computation?",
+      "options": [
+        "A. The loading graph method",
+        "B. The long-hand computational method",
+        "C. Re-weighing the aircraft before every flight"
+      ],
+      "correctIndex": 0,
+      "explanation": "The loading graph method lets pilots quickly read weight and moment/CG values from a chart, speeding up preflight calculations compared with manual computation."
+    },
+    {
+      "id": 66,
+      "question": "In an aircraft, which unit works as a small turbine that provides electrical power and pneumatic power, especially on the ground?",
+      "options": [
+        "A. The RAT (Ram Air Turbine)",
+        "B. The EDP (Engine-Driven Pump)",
+        "C. The APU (Auxiliary Power Unit)"
+      ],
+      "correctIndex": 2,
+      "explanation": "The APU is a small turbine engine, typically in the tail, supplying electrical and pneumatic power without needing the main engines running, especially useful on the ground."
+    },
+    {
+      "id": 67,
+      "question": "In an aircraft's zonal numbering system, what does Zone 400 typically represent?",
+      "options": [
+        "A. Engine",
+        "B. Wings",
+        "C. Empennage"
+      ],
+      "correctIndex": 0,
+      "explanation": "In the standard ATA/manufacturer zonal numbering convention, the 400-series zone numbers are commonly assigned to the power plant/engine area."
+    },
+    {
+      "id": 68,
+      "question": "What is the last part of rigging the elevator?",
+      "options": [
+        "A. The trim tab is removed",
+        "B. The cable tension is disconnected",
+        "C. The travel is measured (as a final confirming check)"
+      ],
+      "correctIndex": 2,
+      "explanation": "Elevator rigging concludes with measuring the control surface travel to confirm it falls within the specified limits after adjustments are made."
+    },
+    {
+      "id": 69,
+      "question": "What type of medium-flexible cable is used for engine, trim tab, and indicator controls?",
+      "options": [
+        "A. 1x19 cable",
+        "B. 7x19 extra-flexible cable",
+        "C. 7x7 cable"
+      ],
+      "correctIndex": 2,
+      "explanation": "7x7 cable's medium flexibility makes it well suited to lighter-duty applications such as engine controls, trim tabs, and indicator systems."
+    },
+    {
+      "id": 70,
+      "question": "What is used when alterations and repairs have moved the Empty Weight CG (EWCG) out of its limits, typically made of lead and painted red?",
+      "options": [
+        "A. Temporary ballast",
+        "B. A tare weight adjustment",
+        "C. Permanent ballast"
+      ],
+      "correctIndex": 2,
+      "explanation": "Permanent ballast (lead blocks painted red for identification) is installed to bring the empty weight CG back within its approved limits after an alteration shifts it out of range."
+    },
+    {
+      "id": 71,
+      "question": "Which of the following is a requirement for aviation fuel regarding sulfur content?",
+      "options": [
+        "A. High sulfur content for better lubrication",
+        "B. Low sulfur content",
+        "C. Sulfur content is irrelevant to fuel quality"
+      ],
+      "correctIndex": 1,
+      "explanation": "Aviation fuel specifications call for low sulfur content to minimize corrosive combustion byproducts and reduce engine/component damage."
+    },
+    {
+      "id": 72,
+      "question": "Which type of landing gear arrangement is best suited for applying hard braking without the aircraft nosing over?",
+      "options": [
+        "A. Conventional (tailwheel) gear type",
+        "B. Tricycle gear type",
+        "C. Tandem gear type"
+      ],
+      "correctIndex": 1,
+      "explanation": "With tricycle gear, the center of gravity sits forward of the main wheels, allowing heavy braking without the risk of the aircraft tipping forward onto its nose."
+    }
+  ]
+}
