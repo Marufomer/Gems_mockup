@@ -1,0 +1,223 @@
+{
+  "id": "af-school-final-b261",
+  "title": "AF-School-final(B261)",
+  "module": "AF-School-final",
+  "course": "airframe",
+  "category": "school_final",
+  "description": "Airframe school final practice exam covering pressurization systems, sheet-metal and wood structure, fasteners, flight control rigging, hydraulics, fuel systems, and inspection/regulatory requirements.",
+  "durationMinutes": 70,
+  "totalQuestions": 30,
+  "color": "green",
+  "questions": [
+    {
+      "id": "b261-q1",
+      "question": "Which of the following is NOT a primary purpose of cabin pressurization at high altitude?",
+      "options": ["Maintaining a physiologically safe cabin altitude for occupants", "Cabin noise insulation", "Reducing the effects of hypoxia at cruise altitude"],
+      "correctIndex": 1,
+      "explanation": "Pressurization exists to keep cabin altitude low enough for occupant safety and comfort; noise insulation is a separate function (handled by soundproofing materials), not a purpose of the pressurization system itself."
+    },
+    {
+      "id": "b261-q2",
+      "question": "Which property of a material describes its ability to resist surface damage such as scratching, abrasion, or penetration?",
+      "options": ["Hardness", "Ductility", "Elasticity"],
+      "correctIndex": 0,
+      "explanation": "Hardness is the property that measures a material's resistance to localized surface damage like scratching, denting, or abrasion."
+    },
+    {
+      "id": "b261-q3",
+      "question": "Which of the following is NOT a purpose of the BITE (Built-In Test Equipment) function in a cabin pressure control system?",
+      "options": ["Detecting faults in the pressure controller and related sensors", "Temperature check at all altitudes", "Allowing maintenance personnel to verify system operation on the ground"],
+      "correctIndex": 1,
+      "explanation": "BITE is designed to self-test and detect faults within the pressurization control system; it is not intended to perform a general cabin temperature check at all altitudes, which is a function of the environmental control/temperature control system."
+    },
+    {
+      "id": "b261-q4",
+      "question": "The rate of change of cabin pressure (climb/descent) is indicated to the crew by the:",
+      "options": ["Cabin altimeter", "Cabin rate of change indicator (cabin vertical speed indicator)", "Cabin differential pressure gauge"],
+      "correctIndex": 1,
+      "explanation": "The cabin vertical speed indicator (cabin rate-of-climb/descent indicator) shows how quickly cabin pressure altitude is changing, similar to how an aircraft VSI shows altitude change rate."
+    },
+    {
+      "id": "b261-q5",
+      "question": "If a leak is found at a fuel system component joint, what is a correct corrective action?",
+      "options": ["Apply additional sealant over the leak without disturbing the joint", "Torque the assembly bolts evenly to the specified value", "Increase fuel system pressure to force the leak closed"],
+      "correctIndex": 1,
+      "explanation": "A leak at a joint is often due to uneven or insufficient bolt torque; evenly torquing the assembly bolts to the specified value is the correct corrective action rather than masking the leak with sealant."
+    },
+    {
+      "id": "b261-q6",
+      "question": "What is the best combination of reasons to defuel an aircraft?",
+      "options": ["Maintenance inspection, fuel contamination, and a change of flight plan", "Only to reduce aircraft weight for towing", "Only when the aircraft will be stored for more than a year"],
+      "correctIndex": 0,
+      "explanation": "Aircraft are commonly defueled for maintenance inspections requiring an empty tank, to remove contaminated fuel, or because a change in the flight plan means the loaded fuel is no longer appropriate."
+    },
+    {
+      "id": "b261-q7",
+      "question": "Which weather/cabin condition tends to cause a person's nasal cavity to become dry?",
+      "options": ["High humidity", "Less humidity (low humidity)", "High cabin pressure differential"],
+      "correctIndex": 1,
+      "explanation": "Low humidity, common in pressurized cabin air at altitude, dries out the mucous membranes of the nasal cavity."
+    },
+    {
+      "id": "b261-q8",
+      "question": "On many pressurization systems, what is entered to allow the automatic system to schedule cabin pressure correctly for the trip?",
+      "options": ["The flight plan (cruise altitude/destination elevation) into the automatic pressurization controller", "The aircraft's registration number", "The pilot's certificate number"],
+      "correctIndex": 0,
+      "explanation": "The automatic cabin pressurization controller uses flight plan data, such as cruise altitude and destination field elevation, to schedule the cabin pressure profile for the flight automatically."
+    },
+    {
+      "id": "b261-q9",
+      "question": "The extension of the flat side of a formed part beyond the bend radius is called the:",
+      "options": ["Mold line", "Setback", "Bend tangent line"],
+      "correctIndex": 0,
+      "explanation": "The mold line is the extension of the flat surfaces of a part beyond the radius, representing the theoretical sharp-cornered shape of the part before the bend radius was formed."
+    },
+    {
+      "id": "b261-q10",
+      "question": "Which of the following is a reusable temporary sheet metal fastener used to hold parts in alignment during assembly?",
+      "options": ["Solid rivet", "Cleco fastener", "Blind (pop) rivet"],
+      "correctIndex": 1,
+      "explanation": "A Cleco fastener is a reusable temporary spring-loaded fastener used to clamp sheet metal parts together through rivet holes during assembly, then removed and reused elsewhere."
+    },
+    {
+      "id": "b261-q11",
+      "question": "With a control cable system correctly rigged, the flight control surface should reach its mechanical stop:",
+      "options": ["Prior to the flight deck (cockpit) control reaching its stop", "At the exact same instant as the flight deck control", "Only after the flight deck control has reached its stop"],
+      "correctIndex": 0,
+      "explanation": "Correct rigging requires the control surface to contact its own stop slightly before the cockpit control reaches its stop, ensuring cable tension (not the cockpit control stop) limits surface travel."
+    },
+    {
+      "id": "b261-q12",
+      "question": "Airworthiness of an aircraft requires that the aircraft must conform to its:",
+      "options": ["Type certificate (and be in condition for safe operation)", "Owner's personal preference for configuration", "Most recent paint scheme approval"],
+      "correctIndex": 0,
+      "explanation": "An aircraft is airworthy when it conforms to its type certificate (including applicable airworthiness directives and approved alterations) and is in a condition for safe operation."
+    },
+    {
+      "id": "b261-q13",
+      "question": "Which flight control tab assists the pilot only at high airspeeds?",
+      "options": ["Spring tab", "Trim tab", "Ground-adjustable tab"],
+      "correctIndex": 0,
+      "explanation": "A spring tab is designed to assist control movement primarily at high airspeeds, where aerodynamic loads are high, by deflecting under a spring arrangement to reduce pilot effort."
+    },
+    {
+      "id": "b261-q14",
+      "question": "Aircraft that carry passengers along with crew must have seats that comply with which type of regulation?",
+      "options": ["Crashworthiness regulations", "Noise certification regulations", "Fuel efficiency regulations"],
+      "correctIndex": 0,
+      "explanation": "Passenger and crew seats must meet crashworthiness requirements, which address occupant protection and seat/restraint structural performance in the event of an accident."
+    },
+    {
+      "id": "b261-q15",
+      "question": "The overall purpose of aircraft inspection is to ensure that:",
+      "options": ["The paint and interior look new", "The whole aircraft is airworthy", "The aircraft meets the owner's personal preferences"],
+      "correctIndex": 1,
+      "explanation": "Inspections exist to verify that the entire aircraft remains airworthy — safe and conforming to its approved design — not merely to check cosmetic condition."
+    },
+    {
+      "id": "b261-q16",
+      "question": "For wood classified as Class A (highest strength grade), what is the maximum allowable grain inclination?",
+      "options": ["1:15", "1:12", "1:10"],
+      "correctIndex": 0,
+      "explanation": "Class A wood (the highest quality grade) permits a grain slope no steeper than 1 in 15, reflecting its stricter strength requirements compared to lower grades."
+    },
+    {
+      "id": "b261-q17",
+      "question": "For wood classified as Class B, what is the maximum allowable grain inclination?",
+      "options": ["1:15", "1:12", "1:8"],
+      "correctIndex": 1,
+      "explanation": "Class B wood allows a slightly steeper maximum grain slope of 1 in 12, reflecting its somewhat lower strength grade compared to Class A."
+    },
+    {
+      "id": "b261-q18",
+      "question": "What is typically used to create a reinforced drain hole in sheet metal or fabric structure?",
+      "options": ["Grommets", "Rivets", "Hose clamps"],
+      "correctIndex": 0,
+      "explanation": "Grommets are installed in drain holes to reinforce the edge of the hole and prevent chafing, cracking, or tearing of the surrounding material."
+    },
+    {
+      "id": "b261-q19",
+      "question": "On fixed-wing aircraft, nationality and registration marks are located:",
+      "options": ["On the vertical tail surfaces or the sides of the fuselage", "On the top of the wing only", "On the landing gear doors"],
+      "correctIndex": 0,
+      "explanation": "Fixed-wing aircraft display their registration marks on the vertical tail surfaces (such as the rudder/fin) or on the sides of the fuselage, per standard marking location requirements."
+    },
+    {
+      "id": "b261-q20",
+      "question": "Who is responsible for updating the aircraft's weight and balance record after a major repair or alteration?",
+      "options": ["The repairman who performed the work", "The aircraft's insurance company", "The local airport authority"],
+      "correctIndex": 0,
+      "explanation": "The person (repairman/mechanic) who performs the major repair or alteration is responsible for updating the weight and balance record to reflect any resulting change in weight or CG."
+    },
+    {
+      "id": "b261-q21",
+      "question": "An uneven (unbalanced) quantity of fuel between wing tanks primarily affects which aspect of the aircraft's flight characteristics?",
+      "options": ["Lateral stability", "Engine fuel pressure only", "Directional (yaw) trim only, with no effect on roll"],
+      "correctIndex": 0,
+      "explanation": "Unequal fuel load between left and right tanks creates a lateral weight imbalance, which affects the aircraft's lateral (roll) stability and requires aileron/roll trim correction."
+    },
+    {
+      "id": "b261-q22",
+      "question": "What landing gear component is attached to the aircraft structure in such a way that the gear can pivot from the extended (vertical) position used for landing/taxi to the stowed position used in flight?",
+      "options": ["Trunnion", "Drag brace", "Torque link"],
+      "correctIndex": 0,
+      "explanation": "The trunnion is the pivot mounting that attaches the landing gear leg to the aircraft structure, allowing it to rotate between the extended position and the retracted/stowed position."
+    },
+    {
+      "id": "b261-q23",
+      "question": "Which hydraulic valve directs pressurized fluid to one end of an actuating cylinder while simultaneously directing return fluid from the other end back to the reservoir?",
+      "options": ["Selector valve", "Relief valve", "Check valve"],
+      "correctIndex": 0,
+      "explanation": "A selector valve directs pressurized fluid to one side of a double-acting actuator while simultaneously opening a return path from the opposite side back to the reservoir, allowing the actuator to move in the selected direction."
+    },
+    {
+      "id": "b261-q24",
+      "question": "Which component is used to prevent the extrusion of an O-ring seal under high hydraulic pressure?",
+      "options": ["Backup rings", "Wiper seals", "Quad rings"],
+      "correctIndex": 0,
+      "explanation": "Backup rings are installed alongside an O-ring to fill the extrusion gap and prevent the O-ring material from being forced (extruded) into that gap under high pressure."
+    },
+    {
+      "id": "b261-q25",
+      "question": "What term describes the seals used in an assembly consisting of a cylinder with a moving piston inside it?",
+      "options": ["Packing", "Gasket", "Firesleeve"],
+      "correctIndex": 0,
+      "explanation": "Seals used between a moving piston and cylinder bore are generally referred to as packing, as distinguished from gaskets, which seal between two stationary mating surfaces."
+    },
+    {
+      "id": "b261-q26",
+      "question": "When removing and installing (torquing) a fitting on a flexible hydraulic hose, what should be done?",
+      "options": ["Use two wrenches/spanners to prevent the hose from twisting", "Apply heat to loosen the fitting before removal", "Always cut the hose rather than unscrewing the fitting"],
+      "correctIndex": 0,
+      "explanation": "Using two wrenches — one to hold the hose fitting and one to turn the connecting nut — prevents the flexible hose itself from twisting as the fitting is tightened or loosened."
+    },
+    {
+      "id": "b261-q27",
+      "question": "Which of the following is NOT considered a source of ignition?",
+      "options": ["Static discharge (via a properly installed static discharger/wick)", "An arcing electrical connection", "A hot exhaust surface"],
+      "correctIndex": 0,
+      "explanation": "Static dischargers (static wicks) are specifically designed to safely bleed off static electricity into the air, preventing the buildup that could otherwise create a spark — so a properly functioning static discharge is not itself a source of ignition."
+    },
+    {
+      "id": "b261-q28",
+      "question": "An aircraft owner may apply for authorization of a progressive inspection program to:",
+      "options": ["The concerned FAA Flight Standards District Office (FSDO)", "The aircraft manufacturer directly", "The nearest airline maintenance base"],
+      "correctIndex": 0,
+      "explanation": "Authorization for a progressive inspection program is requested from and approved by the responsible FAA Flight Standards District Office (FSDO) with jurisdiction over the aircraft."
+    },
+    {
+      "id": "b261-q29",
+      "question": "What is required to legally fly an aircraft whose annual inspection has expired, to a location where the inspection can be performed?",
+      "options": ["A special flight permit (ferry permit) issued by the FAA", "Verbal permission from any certificated mechanic", "Nothing additional is required as long as the flight is short"],
+      "correctIndex": 0,
+      "explanation": "An aircraft with an expired annual inspection is not airworthy for normal flight, so a special flight (ferry) permit must be obtained from the FAA to legally fly it to a location where the inspection can be completed."
+    },
+    {
+      "id": "b261-q30",
+      "question": "Which nondestructive inspection method uses high-frequency sound waves to detect flaws within a material?",
+      "options": ["Ultrasonic inspection", "Dye penetrant inspection", "Magnetic particle inspection"],
+      "correctIndex": 0,
+      "explanation": "Ultrasonic inspection uses high-frequency sound waves transmitted into the material; reflections from internal flaws or back surfaces are analyzed to detect subsurface defects."
+    }
+  ]
+}
