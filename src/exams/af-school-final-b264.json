@@ -1,0 +1,673 @@
+{
+  "id": "af-school-final-b264",
+  "title": "AF-School-final(B264)",
+  "module": "AF-School-final",
+  "course": "airframe",
+  "category": "school_final",
+  "description": "Airframe school-final exam (batch 264) covering structures, wood and fabric, welding and sheet metal, composites, weight and balance, landing gear, fuel, air conditioning, pneumatics and pressurization.",
+  "durationMinutes": 150,
+  "totalQuestions": 60,
+  "color": "amber",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which rivet type is used on the upper surface of a wing and stabilizer?",
+      "options": [
+        "A. Universal head rivet only",
+        "B. Blind pull rivet only",
+        "C. Flat head rivet"
+      ],
+      "correctIndex": 2,
+      "explanation": "The source identifies the flat head rivet for the upper wing and stabilizer surfaces, where a low profile is wanted."
+    },
+    {
+      "id": 2,
+      "question": "What do cyclic temperature variation and humidity cause in a wood structure?",
+      "options": [
+        "A. Improved bond strength",
+        "B. Increased wood hardness",
+        "C. Glue joint deterioration"
+      ],
+      "correctIndex": 2,
+      "explanation": "Repeated swings in temperature and moisture make the wood swell and shrink, stressing and eventually breaking down the glue joints."
+    },
+    {
+      "id": 3,
+      "question": "What does a blue stain in wood indicate?",
+      "options": [
+        "A. Fresh, high-quality heartwood",
+        "B. A sapwood defect (fungal stain in the sapwood)",
+        "C. Excess resin in the wood"
+      ],
+      "correctIndex": 1,
+      "explanation": "Blue stain is a discoloration of the sapwood caused by fungus, and it is treated as a wood defect to evaluate."
+    },
+    {
+      "id": 4,
+      "question": "Who issues the Type Certificate Data Sheet (TCDS)?",
+      "options": [
+        "A. The aircraft owner",
+        "B. The airline operator",
+        "C. The FAA"
+      ],
+      "correctIndex": 2,
+      "explanation": "The TCDS is issued by the aviation authority (the FAA) and records the approved specifications and limitations of the type design."
+    },
+    {
+      "id": 5,
+      "question": "What kind of item is a CDCCL (Critical Design Configuration Control Limitation)?",
+      "options": [
+        "A. A non-routine item (a configuration control requirement, not a periodic inspection)",
+        "B. A routine daily inspection item",
+        "C. A monthly lubrication task"
+      ],
+      "correctIndex": 0,
+      "explanation": "A CDCCL is a configuration control limitation that must be preserved during maintenance or alterations; it is not a routine periodic inspection."
+    },
+    {
+      "id": 6,
+      "question": "Which type of structural load, other than tension and compression, acts on aircraft structure?",
+      "options": [
+        "A. Magnetism",
+        "B. Evaporation",
+        "C. Bending"
+      ],
+      "correctIndex": 2,
+      "explanation": "Besides tension and compression, aircraft structures also carry bending, shear, and torsion loads. Bending is the one named in the source."
+    },
+    {
+      "id": 7,
+      "question": "How long should reinforcing tape be relative to the fabric member it covers?",
+      "options": [
+        "A. Slightly more than (longer or wider than) the member it covers",
+        "B. Exactly the same size with no overlap",
+        "C. Much shorter than the member"
+      ],
+      "correctIndex": 0,
+      "explanation": "Reinforcing tape is cut slightly larger than the rib cap or member so that it fully covers and protects the attachment area."
+    },
+    {
+      "id": 8,
+      "question": "What is used to attach fabric to the aircraft structure?",
+      "options": [
+        "A. Welding",
+        "B. Fabric cement",
+        "C. Rivets only"
+      ],
+      "correctIndex": 1,
+      "explanation": "Fabric cement bonds the fabric covering to the airframe structure, usually reinforced with stitching and tape."
+    },
+    {
+      "id": 9,
+      "question": "What happens when air enters an insulation blanket?",
+      "options": [
+        "A. It decreases the insulation efficiency",
+        "B. It increases the insulation efficiency",
+        "C. It has no effect on insulation"
+      ],
+      "correctIndex": 0,
+      "explanation": "Air movement or moisture inside the blanket reduces its ability to resist heat and sound transfer."
+    },
+    {
+      "id": 10,
+      "question": "Which of the following is NOT an input to the weight and balance analysis in a computer?",
+      "options": [
+        "A. Weight of each item",
+        "B. Arm (station) of each item",
+        "C. Moment (it is calculated from weight and arm, not entered)"
+      ],
+      "correctIndex": 2,
+      "explanation": "A weight and balance program takes weights and arms as inputs and calculates the moments from them."
+    },
+    {
+      "id": 11,
+      "question": "A 50 kg weight is added aft of the CG. What happens to the CG?",
+      "options": [
+        "A. The CG moves aft",
+        "B. The CG moves forward",
+        "C. The CG does not change"
+      ],
+      "correctIndex": 0,
+      "explanation": "Adding weight behind the existing CG increases the aft moment, which shifts the overall CG rearward."
+    },
+    {
+      "id": 12,
+      "question": "Which welding process uses a non-consumable electrode?",
+      "options": [
+        "A. SMAW",
+        "B. GTAW",
+        "C. GMAW"
+      ],
+      "correctIndex": 1,
+      "explanation": "GTAW (TIG) uses a non-consumable tungsten electrode, with filler metal added separately if needed."
+    },
+    {
+      "id": 13,
+      "question": "What is the formula for the CG location?",
+      "options": [
+        "A. CG = total weight / total moment",
+        "B. CG = total weight x total moment",
+        "C. CG = total moment / total weight"
+      ],
+      "correctIndex": 2,
+      "explanation": "The CG location is found by dividing the sum of all moments by the sum of all weights."
+    },
+    {
+      "id": 14,
+      "question": "What type of load acts on the upper surface of a wing in flight?",
+      "options": [
+        "A. Tension",
+        "B. Torsion only",
+        "C. Compression"
+      ],
+      "correctIndex": 2,
+      "explanation": "As the wing bends upward under lift, its upper skin is compressed while the lower skin is stretched in tension."
+    },
+    {
+      "id": 15,
+      "question": "In a vapor cycle cooling system, which component raises refrigerant from low pressure and temperature to high pressure and temperature?",
+      "options": [
+        "A. The compressor",
+        "B. The condenser",
+        "C. The evaporator"
+      ],
+      "correctIndex": 0,
+      "explanation": "The compressor compresses the refrigerant vapor, raising both its pressure and temperature."
+    },
+    {
+      "id": 16,
+      "question": "In a vapor cycle cooling system, which component changes the refrigerant vapor into liquid?",
+      "options": [
+        "A. The evaporator",
+        "B. The compressor",
+        "C. The condenser"
+      ],
+      "correctIndex": 2,
+      "explanation": "The condenser removes heat from the high-pressure vapor so that it condenses into a liquid."
+    },
+    {
+      "id": 17,
+      "question": "In a vapor cycle cooling system, which component rejects heat to the surroundings?",
+      "options": [
+        "A. The evaporator",
+        "B. The receiver drier",
+        "C. The condenser"
+      ],
+      "correctIndex": 2,
+      "explanation": "The condenser releases the heat absorbed by the refrigerant to the surrounding air."
+    },
+    {
+      "id": 18,
+      "question": "What type of ducts are used to supply conditioned air in the cabin?",
+      "options": [
+        "A. Hot stainless steel ducts only",
+        "B. Plastic ducts (rigid or flexible)",
+        "C. Open fabric tubes"
+      ],
+      "correctIndex": 1,
+      "explanation": "Conditioned air at moderate temperature can be carried in plastic ducting, which can be rigid or flexible."
+    },
+    {
+      "id": 19,
+      "question": "What is the clamp with two wood blocks used in wood bonding called?",
+      "options": [
+        "A. A bleeder",
+        "B. A fairlead",
+        "C. A caul"
+      ],
+      "correctIndex": 2,
+      "explanation": "A caul is a clamping aid, usually a pair of wood blocks, used to spread pressure evenly over a glue joint."
+    },
+    {
+      "id": 20,
+      "question": "What flame results from burning more acetylene than oxygen?",
+      "options": [
+        "A. An oxidizing flame",
+        "B. A carburizing flame",
+        "C. A neutral flame"
+      ],
+      "correctIndex": 1,
+      "explanation": "Excess acetylene produces a carburizing (reducing) flame with a feathery inner cone."
+    },
+    {
+      "id": 21,
+      "question": "What is a disadvantage of AVGAS?",
+      "options": [
+        "A. Loss due to evaporation",
+        "B. Poor knock resistance",
+        "C. Very high freezing point"
+      ],
+      "correctIndex": 0,
+      "explanation": "AVGAS is highly volatile, so it is easily lost through evaporation."
+    },
+    {
+      "id": 22,
+      "question": "What property makes turbine fuel different from AVGAS?",
+      "options": [
+        "A. A lower flash point",
+        "B. Higher volatility",
+        "C. A higher boiling point"
+      ],
+      "correctIndex": 2,
+      "explanation": "Kerosene-type turbine fuel has a higher boiling point and flash point than gasoline, so it evaporates less."
+    },
+    {
+      "id": 23,
+      "question": "How is a CG problem fixed?",
+      "options": [
+        "A. By adding more fuel only",
+        "B. By shifting cargo and other loads",
+        "C. By lowering the flaps"
+      ],
+      "correctIndex": 1,
+      "explanation": "A CG outside limits is corrected by repositioning cargo, baggage, and other loads."
+    },
+    {
+      "id": 24,
+      "question": "What is the purpose of the torque link on a landing gear strut?",
+      "options": [
+        "A. To keep the wheel aligned by stopping the lower cylinder from rotating relative to the upper cylinder",
+        "B. To absorb all vertical landing shock",
+        "C. To lock the gear down"
+      ],
+      "correctIndex": 0,
+      "explanation": "Torque links connect the upper and lower strut cylinders so that the wheel stays aligned while the strut compresses and extends."
+    },
+    {
+      "id": 25,
+      "question": "What is the purpose of the chine on an aircraft tire?",
+      "options": [
+        "A. To increase tire traction on dry runways",
+        "B. To reduce tire weight",
+        "C. To divert water sideways"
+      ],
+      "correctIndex": 2,
+      "explanation": "A chine is a molded deflector that throws runway water to the side, protecting the engines and airframe from spray."
+    },
+    {
+      "id": 26,
+      "question": "How does landing gear cushion (dump) the landing impact?",
+      "options": [
+        "A. By increasing the impact time",
+        "B. By decreasing the impact time",
+        "C. By making the gear rigid"
+      ],
+      "correctIndex": 0,
+      "explanation": "Spreading the impact over a longer time lowers the peak force transmitted to the airframe."
+    },
+    {
+      "id": 27,
+      "question": "What is a means of reducing parasite drag from the landing gear?",
+      "options": [
+        "A. Retractable landing gear",
+        "B. Larger wheels",
+        "C. Fixed streamlined struts only"
+      ],
+      "correctIndex": 0,
+      "explanation": "Retracting the gear into the airframe in flight removes it from the airstream and cuts parasite drag."
+    },
+    {
+      "id": 28,
+      "question": "Which landing gear type dissipates landing energy into the atmosphere?",
+      "options": [
+        "A. Rigid gear",
+        "B. Spring oleo type",
+        "C. Bungee gear"
+      ],
+      "correctIndex": 1,
+      "explanation": "In the source's answer, the spring oleo strut forces fluid through an orifice, turning the landing energy into heat that is released to the air."
+    },
+    {
+      "id": 29,
+      "question": "Which statement about knock and detonation is wrong?",
+      "options": [
+        "A. That detonation has a cockpit indication but knock does not",
+        "B. That detonation can damage the engine",
+        "C. That fuel octane rating affects knock resistance"
+      ],
+      "correctIndex": 0,
+      "explanation": "The source marks this statement as the incorrect one among the choices."
+    },
+    {
+      "id": 30,
+      "question": "Which material are SAE 4130 landing gear structural parts made from?",
+      "options": [
+        "A. Cast iron",
+        "B. Chrome molybdenum steel",
+        "C. Aluminum alloy 2024"
+      ],
+      "correctIndex": 1,
+      "explanation": "SAE 4130 is a chromium-molybdenum alloy steel widely used for strong, weldable aircraft structure."
+    },
+    {
+      "id": 31,
+      "question": "What is the effect of ice accumulation on an aircraft?",
+      "options": [
+        "A. It increases lift and reduces drag",
+        "B. It reduces lift and increases drag",
+        "C. It has no effect on performance"
+      ],
+      "correctIndex": 1,
+      "explanation": "Ice disturbs airflow over the wing, lowering lift and raising drag, and it adds weight."
+    },
+    {
+      "id": 32,
+      "question": "What type of waste disposal system is used on light aircraft?",
+      "options": [
+        "A. A self-contained system",
+        "B. A full vacuum system",
+        "C. A gray water recirculation system"
+      ],
+      "correctIndex": 0,
+      "explanation": "Small aircraft typically use a simple self-contained lavatory instead of a central vacuum system."
+    },
+    {
+      "id": 33,
+      "question": "Why is a 25-hour inspection of the fuel system performed?",
+      "options": [
+        "A. It is required for all aircraft after every flight",
+        "B. It is critical for a new aircraft and engine",
+        "C. It is only done at overhaul"
+      ],
+      "correctIndex": 1,
+      "explanation": "A 25-hour check of the fuel system is emphasized for new aircraft and engines, when early leaks and loose fittings are most likely."
+    },
+    {
+      "id": 34,
+      "question": "If the top of a wheel tilts outboard (away from the aircraft), what is it called?",
+      "options": [
+        "A. Positive camber",
+        "B. Negative camber",
+        "C. Toe-in"
+      ],
+      "correctIndex": 0,
+      "explanation": "Positive camber means the top of the wheel leans outward; negative camber means it leans inward."
+    },
+    {
+      "id": 35,
+      "question": "Which two alignments are very important for the wings of an airplane?",
+      "options": [
+        "A. Angle of incidence and dihedral angle",
+        "B. Sweep angle and aspect ratio",
+        "C. Chord and span"
+      ],
+      "correctIndex": 0,
+      "explanation": "Wing rigging focuses on angle of incidence and dihedral because both strongly affect flight characteristics."
+    },
+    {
+      "id": 36,
+      "question": "What is a composite that contains two or more different reinforcing materials in the same matrix commonly known as?",
+      "options": [
+        "A. A hybrid composite",
+        "B. A unidirectional composite",
+        "C. A monolithic composite"
+      ],
+      "correctIndex": 0,
+      "explanation": "Mixing different reinforcement fibers within one resin matrix is called a hybrid composite."
+    },
+    {
+      "id": 37,
+      "question": "Which honeycomb core cell size provides better support for sandwich face sheets?",
+      "options": [
+        "A. Large cell size",
+        "B. Cell size has no effect",
+        "C. Small cell size"
+      ],
+      "correctIndex": 2,
+      "explanation": "Smaller cells support the thin face sheets at closer intervals and resist dimpling better."
+    },
+    {
+      "id": 38,
+      "question": "What is a composite made of thin metal sheets bonded to a thick honeycomb core called?",
+      "options": [
+        "A. A laminate",
+        "B. A sandwich structure",
+        "C. A monolithic structure"
+      ],
+      "correctIndex": 1,
+      "explanation": "Thin skins bonded to a thick lightweight core form a sandwich construction."
+    },
+    {
+      "id": 39,
+      "question": "Which core cell shape is used to make panels with complex curves?",
+      "options": [
+        "A. Standard rectangular",
+        "B. Square",
+        "C. Bell shaped"
+      ],
+      "correctIndex": 2,
+      "explanation": "Bell-shaped (flexible) cells let the core bend into compound curves."
+    },
+    {
+      "id": 40,
+      "question": "What is used to impregnate dry fibers with resin for a wet layup?",
+      "options": [
+        "A. A heat gun",
+        "B. A squeegee",
+        "C. A drill"
+      ],
+      "correctIndex": 1,
+      "explanation": "A squeegee works the resin through the dry fabric and removes the excess."
+    },
+    {
+      "id": 41,
+      "question": "Which reinforcing fiber has high impact resistance?",
+      "options": [
+        "A. Aramid",
+        "B. Boron",
+        "C. Carbon"
+      ],
+      "correctIndex": 0,
+      "explanation": "Aramid fiber is known for its toughness and high impact resistance."
+    },
+    {
+      "id": 42,
+      "question": "What tool is used to remove a burr from the edge of a sheet or to deburr a hole?",
+      "options": [
+        "A. A reamer only",
+        "B. A burring (deburring) tool",
+        "C. A scroll shear"
+      ],
+      "correctIndex": 1,
+      "explanation": "A deburring tool is made to take burrs off sheet edges and drilled holes."
+    },
+    {
+      "id": 43,
+      "question": "When a sheet metal part has intersecting bend radii, what should be done?",
+      "options": [
+        "A. Remove material (drill relief holes at the intersection)",
+        "B. Bend both radii without any relief",
+        "C. Weld the corner"
+      ],
+      "correctIndex": 0,
+      "explanation": "Material must be removed, usually by relief holes, so the metal does not pile up or crack where the bends meet."
+    },
+    {
+      "id": 44,
+      "question": "How is rivet spacing (pitch) measured?",
+      "options": [
+        "A. From edge to edge of the rivet heads",
+        "B. Between the centerlines of rivets in the same row",
+        "C. From the sheet edge to the nearest rivet"
+      ],
+      "correctIndex": 1,
+      "explanation": "Rivet pitch is the distance between the centerlines of adjacent rivets in the same row."
+    },
+    {
+      "id": 45,
+      "question": "What is the consequence of too much torque in a pneumatic system?",
+      "options": [
+        "A. Better sealing with no downside",
+        "B. Lower system pressure only",
+        "C. Damage to the metal fittings and seals"
+      ],
+      "correctIndex": 2,
+      "explanation": "Over-torquing can crack or distort fittings and damage seals, which causes leaks."
+    },
+    {
+      "id": 46,
+      "question": "What is a high-pressure air source for a pneumatic system?",
+      "options": [
+        "A. A single vane pump",
+        "B. A multi-piston compressor",
+        "C. An accumulator"
+      ],
+      "correctIndex": 1,
+      "explanation": "Multi-piston compressors can build the high pressures needed for high-pressure pneumatic systems."
+    },
+    {
+      "id": 47,
+      "question": "What is the RAT (Ram Air Turbine) used for?",
+      "options": [
+        "A. Flight control power if the hydraulic system fails",
+        "B. Cooling the cabin",
+        "C. Charging the passenger oxygen system"
+      ],
+      "correctIndex": 0,
+      "explanation": "The RAT drops into the airstream and supplies emergency hydraulic or electrical power for essential flight controls."
+    },
+    {
+      "id": 48,
+      "question": "Which fastener is commonly used to obtain a flush surface in a fuel tank?",
+      "options": [
+        "A. Standard solid rivet",
+        "B. E-Z Buck",
+        "C. Self-tapping screw"
+      ],
+      "correctIndex": 1,
+      "explanation": "The source names E-Z Buck as the fastener used for a flush surface in fuel tank areas."
+    },
+    {
+      "id": 49,
+      "question": "Which component in the spoiler control system can be commanded by the spoiler control module?",
+      "options": [
+        "A. The power control actuator",
+        "B. The stick shaker",
+        "C. The rudder trim actuator"
+      ],
+      "correctIndex": 0,
+      "explanation": "The spoiler control module sends its commands to the power control actuators, which move the spoilers."
+    },
+    {
+      "id": 50,
+      "question": "Which glue, when exposed to moist conditions with swell and shrink stress, deteriorates and eventually fails, and is obsolete for aircraft repair?",
+      "options": [
+        "A. Resorcinol glue",
+        "B. Urea formaldehyde adhesive",
+        "C. Epoxy adhesive"
+      ],
+      "correctIndex": 1,
+      "explanation": "Urea formaldehyde breaks down under moisture and cycling stress, so it is considered obsolete for aircraft repair."
+    },
+    {
+      "id": 51,
+      "question": "On the Boeing 737, which pumps take fluid from the standpipe for System A and System B?",
+      "options": [
+        "A. System A EDP, System B EDP, and the EMDP",
+        "B. Only the System A EDP",
+        "C. Only the standby pump"
+      ],
+      "correctIndex": 0,
+      "explanation": "The source states that both engine-driven pumps and the electric motor-driven pump draw from the standpipe."
+    },
+    {
+      "id": 52,
+      "question": "Which unit aligns the nose gear before it retracts?",
+      "options": [
+        "A. The centering cam",
+        "B. The torque link",
+        "C. The drag strut"
+      ],
+      "correctIndex": 0,
+      "explanation": "A centering cam straightens the nose wheel as the strut extends so it fits the wheel well on retraction."
+    },
+    {
+      "id": 53,
+      "question": "Which bleeding method is most used for a power brake system?",
+      "options": [
+        "A. Bottom to top",
+        "B. Top to bottom",
+        "C. No bleeding is required"
+      ],
+      "correctIndex": 1,
+      "explanation": "The source gives top-to-bottom as the usual way to bleed a power brake system."
+    },
+    {
+      "id": 54,
+      "question": "How is a landing gear down-and-locked position shown in the cockpit?",
+      "options": [
+        "A. A green light",
+        "B. A red light",
+        "C. A flashing amber light"
+      ],
+      "correctIndex": 0,
+      "explanation": "A green light for each gear shows it is down and locked."
+    },
+    {
+      "id": 55,
+      "question": "What does a red light in the landing gear indication mean?",
+      "options": [
+        "A. The gear is in transit",
+        "B. The gear is down and locked",
+        "C. The gear is fully retracted and locked"
+      ],
+      "correctIndex": 0,
+      "explanation": "A red (unsafe) light is shown while the gear is moving between positions or not locked."
+    },
+    {
+      "id": 56,
+      "question": "Which unit interfaces with the pilot control transducers and controls primary flight control actuation?",
+      "options": [
+        "A. The yaw damper",
+        "B. The stick shaker",
+        "C. The Actuator Control Electronics (ACE)"
+      ],
+      "correctIndex": 2,
+      "explanation": "The ACE receives the pilot input signals and drives the primary flight control actuators."
+    },
+    {
+      "id": 57,
+      "question": "What types of selector valve are there?",
+      "options": [
+        "A. Poppet, cone, and disk",
+        "B. Only ball valves",
+        "C. Only butterfly valves"
+      ],
+      "correctIndex": 0,
+      "explanation": "Selector valves are commonly built with poppet, cone, or disk elements."
+    },
+    {
+      "id": 58,
+      "question": "What is the lowest cabin altitude that can be selected for pressurization?",
+      "options": [
+        "A. 1,000 ft below sea level",
+        "B. Sea level only",
+        "C. 2,000 ft above sea level"
+      ],
+      "correctIndex": 0,
+      "explanation": "The source gives 1,000 ft below sea level as the lowest selectable altitude."
+    },
+    {
+      "id": 59,
+      "question": "What happens when the maximum differential pressure is reached?",
+      "options": [
+        "A. The system maintains the maximum differential pressure",
+        "B. The cabin dumps all pressure",
+        "C. The outflow valve closes completely"
+      ],
+      "correctIndex": 0,
+      "explanation": "At the limit, the controller holds the maximum differential pressure while the aircraft continues to climb."
+    },
+    {
+      "id": 60,
+      "question": "At what cabin altitude does the cabin altitude red light go off?",
+      "options": [
+        "A. 15,000 ft",
+        "B. 8,500 ft",
+        "C. 2,000 ft"
+      ],
+      "correctIndex": 1,
+      "explanation": "The source gives 8,500 ft as the point at which the warning light goes out as cabin altitude returns below it."
+    }
+  ]
+}
