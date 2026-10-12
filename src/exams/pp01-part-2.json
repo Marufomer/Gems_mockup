@@ -1,0 +1,948 @@
+{
+  "id": "pp01-part-2",
+  "title": "PP01-part-2",
+  "module": "PP-M2",
+  "course": "powerplant",
+  "category": "part",
+  "description": "Powerplant Module 2 (PP01 M2) practice exam covering gas turbine engine fundamentals: thrust principles, compressors, combustion sections, turbines, APU, intakes/nozzles, and basic thermodynamics.",
+  "durationMinutes": 130,
+  "totalQuestions": 85,
+  "color": "orange",
+  "questions": [
+    {
+      "id": "pp01p2-q1",
+      "question": "Which of the following is a correct statement about an APU (Auxiliary Power Unit)?",
+      "options": [
+        "It is only usable while the aircraft is airborne",
+        "It can supply hydraulic power to the aircraft at low altitude",
+        "It can only supply electrical power, never hydraulic power"
+      ],
+      "correctIndex": 1,
+      "explanation": "An APU can supply pneumatic, electrical, and in some installations hydraulic power to the aircraft, including hydraulic power usable at low altitude on the ground or shortly after takeoff."
+    },
+    {
+      "id": "pp01p2-q2",
+      "question": "Pipes routed around (near) engines are generally made of:",
+      "options": [
+        "Aluminum alloy",
+        "Stainless steel",
+        "PVC plastic"
+      ],
+      "correctIndex": 1,
+      "explanation": "Lines routed close to engines must withstand high heat, so they are generally made of stainless steel rather than aluminum or plastic, which cannot tolerate the temperatures involved."
+    },
+    {
+      "id": "pp01p2-q3",
+      "question": "In a single-spool axial compressor engine, the turbine and compressor are connected through:",
+      "options": [
+        "Two independent shafts with no mechanical link",
+        "A reduction gearbox between turbine and compressor",
+        "A single shaft, rotating as a single unit"
+      ],
+      "correctIndex": 2,
+      "explanation": "In a single-spool engine, the compressor and its driving turbine are mounted on one common shaft and rotate together as a single unit."
+    },
+    {
+      "id": "pp01p2-q4",
+      "question": "Which type of load is described as 'radial'?",
+      "options": [
+        "A load that acts only at the shaft's ends",
+        "A load that acts perpendicular to the shaft",
+        "A load that acts parallel to the shaft"
+      ],
+      "correctIndex": 1,
+      "explanation": "A radial load acts perpendicular to the axis of rotation of a shaft, as opposed to a thrust (axial) load, which acts parallel to the shaft."
+    },
+    {
+      "id": "pp01p2-q5",
+      "question": "What is a 'cruise power rating'?",
+      "options": [
+        "The single highest power setting approved, usable only for a few minutes at takeoff",
+        "An approved engine power setting intended for sustained use during normal cruise flight",
+        "A power setting used only during engine ground runs"
+      ],
+      "correctIndex": 1,
+      "explanation": "A cruise power rating is an approved power setting for an engine intended to be used for extended periods during normal cruise flight, as opposed to time-limited takeoff or maximum continuous ratings."
+    },
+    {
+      "id": "pp01p2-q6",
+      "question": "On front-fan turbofan engines, reversed thrust is obtained by:",
+      "options": [
+        "Reversing the hot core exhaust stream only",
+        "Shutting the engine down and relying on aerodynamic drag",
+        "Reversing the cold (fan) bypass stream"
+      ],
+      "correctIndex": 2,
+      "explanation": "On most front-fan turbofan engines, thrust reversal works by redirecting the cold fan bypass airstream forward, since it makes up the majority of the engine's total thrust."
+    },
+    {
+      "id": "pp01p2-q7",
+      "question": "The principle of jet propulsion is based on the fact that:",
+      "options": [
+        "Every action has an equal and opposite reaction",
+        "Force equals mass times acceleration only",
+        "Pressure is inversely proportional to volume at constant temperature"
+      ],
+      "correctIndex": 0,
+      "explanation": "Jet propulsion relies on Newton's third law: accelerating a mass of gas rearward (the action) produces an equal and opposite forward reaction (thrust) on the engine."
+    },
+    {
+      "id": "pp01p2-q8",
+      "question": "Most aircraft that produce exhaust gas at subsonic velocity use which type of nozzle?",
+      "options": [
+        "A convergent-divergent exhaust nozzle",
+        "A fully divergent exhaust nozzle",
+        "A convergent exhaust nozzle"
+      ],
+      "correctIndex": 2,
+      "explanation": "A simple convergent nozzle is sufficient to accelerate exhaust gas up to subsonic (or just sonic) velocities, which covers most subsonic civil aircraft."
+    },
+    {
+      "id": "pp01p2-q9",
+      "question": "A turbine used to drive a propeller (or rotor) while not being mechanically connected to the compressor is called a:",
+      "options": [
+        "Compressor turbine",
+        "Power turbine stage of a single-shaft engine",
+        "Free turbine"
+      ],
+      "correctIndex": 2,
+      "explanation": "A free turbine is mechanically independent of the gas generator's compressor-turbine shaft, driven purely by the gas flow, and is used to drive the propeller or rotor through its own shaft."
+    },
+    {
+      "id": "pp01p2-q10",
+      "question": "What is the ultimate limiting factor of a gas turbine engine's performance?",
+      "options": [
+        "Compressor inlet pressure",
+        "Fuel flow rate",
+        "Turbine inlet temperature"
+      ],
+      "correctIndex": 2,
+      "explanation": "Turbine inlet temperature is the ultimate limiting factor for a gas turbine engine, since turbine blade materials can only withstand a certain maximum temperature before damage occurs."
+    },
+    {
+      "id": "pp01p2-q11",
+      "question": "Which unit in a gas turbine engine aids in guiding the airflow during low-thrust engine operation?",
+      "options": [
+        "Exhaust cone",
+        "Accessory gearbox",
+        "Inlet guide vane"
+      ],
+      "correctIndex": 2,
+      "explanation": "Inlet guide vanes direct airflow onto the first-stage compressor rotor blades at the correct angle, which is especially important for stable operation at low thrust/low RPM."
+    },
+    {
+      "id": "pp01p2-q12",
+      "question": "A bell-mouth compressor inlet is typically used on engines intended for:",
+      "options": [
+        "Low speed (ground test/stationary) applications",
+        "High supersonic flight",
+        "High-altitude cruise only"
+      ],
+      "correctIndex": 0,
+      "explanation": "A bell-mouth inlet gives very efficient, low-loss airflow into the compressor, but it is only practical at low airspeeds, such as during ground testing, since it is not suited to high-speed flight."
+    },
+    {
+      "id": "pp01p2-q13",
+      "question": "What is the basic equation used to describe thrust?",
+      "options": [
+        "Thrust = pressure x area only",
+        "Thrust = volume x density",
+        "Thrust = mass x acceleration"
+      ],
+      "correctIndex": 2,
+      "explanation": "Thrust is fundamentally a force, so it follows Newton's second law in the basic form Thrust = mass x acceleration (of the air/gas being accelerated through the engine)."
+    },
+    {
+      "id": "pp01p2-q14",
+      "question": "On a high-bypass turbofan engine, the accessory gearbox is normally located:",
+      "options": [
+        "On the fan (N1) shaft housing",
+        "Inside the exhaust nozzle",
+        "On the HP (high pressure) compressor housing"
+      ],
+      "correctIndex": 2,
+      "explanation": "The accessory gearbox on a high-bypass engine is typically mounted on and driven from the HP compressor spool, which turns at the highest and most stable speed."
+    },
+    {
+      "id": "pp01p2-q15",
+      "question": "A divergent intake duct is one that is:",
+      "options": [
+        "Divergent (increasing in area) from front to rear",
+        "Constant in cross-sectional area throughout",
+        "Convergent (decreasing in area) from front to rear"
+      ],
+      "correctIndex": 0,
+      "explanation": "A divergent intake increases in cross-sectional area from the front (inlet) to the rear (compressor face), which is typically used to help decelerate and pressurize incoming subsonic air."
+    },
+    {
+      "id": "pp01p2-q16",
+      "question": "The efficiency of a gas turbine engine would be greatest at:",
+      "options": [
+        "Hot temperatures",
+        "Any temperature, since temperature has no effect",
+        "Cold temperatures"
+      ],
+      "correctIndex": 2,
+      "explanation": "Cold, dense inlet air increases mass airflow and allows a greater temperature rise across the engine for a given turbine inlet temperature limit, improving overall efficiency."
+    },
+    {
+      "id": "pp01p2-q17",
+      "question": "The basic gas turbine engine is divided into a cold section and a hot section. The hot section includes:",
+      "options": [
+        "The combustor, turbine, and exhaust",
+        "The inlet, fan, and compressor",
+        "Only the compressor and inlet duct"
+      ],
+      "correctIndex": 0,
+      "explanation": "The hot section of a gas turbine engine comprises the components that handle the high-temperature combustion gases: the combustor (combustion chamber), the turbine, and the exhaust section."
+    },
+    {
+      "id": "pp01p2-q18",
+      "question": "A turbojet engine runs smoother than a piston engine primarily because:",
+      "options": [
+        "It burns a different type of fuel",
+        "It has no reciprocating parts",
+        "It operates at a lower RPM"
+      ],
+      "correctIndex": 1,
+      "explanation": "A turbojet's rotating components (compressor, turbine, shaft) turn continuously in one direction with no reciprocating (back-and-forth) motion, unlike a piston engine, which produces inherent vibration from reciprocating parts."
+    },
+    {
+      "id": "pp01p2-q19",
+      "question": "Bernoulli's Theorem states that at any point in a flow of gas:",
+      "options": [
+        "The static pressure always increases",
+        "The velocity always remains constant",
+        "The total energy remains constant"
+      ],
+      "correctIndex": 2,
+      "explanation": "Bernoulli's Theorem states that, for a given flow, the total energy (the sum of pressure energy, kinetic energy, and potential energy) remains constant along the flow, even as individual components trade off against each other."
+    },
+    {
+      "id": "pp01p2-q20",
+      "question": "A method of producing thrust in which an engine turns a propeller — a rotating airfoil producing lift along a horizontal plane — is termed:",
+      "options": [
+        "Ram effect",
+        "Aerodynamic action",
+        "Jet reaction"
+      ],
+      "correctIndex": 1,
+      "explanation": "Propeller thrust is produced by aerodynamic action: the rotating propeller blades act as airfoils generating lift oriented along the aircraft's line of flight (thrust), rather than by direct jet reaction."
+    },
+    {
+      "id": "pp01p2-q21",
+      "question": "What is the standard sea level atmospheric pressure?",
+      "options": [
+        "14.2 inches of mercury (Hg)",
+        "29.92 inches of mercury (Hg)",
+        "33.9 inches of mercury (Hg)"
+      ],
+      "correctIndex": 1,
+      "explanation": "Standard sea level pressure under the International Standard Atmosphere is defined as 29.92 inches of mercury (Hg), equivalent to 1013.25 hPa."
+    },
+    {
+      "id": "pp01p2-q22",
+      "question": "Taking a mass of air, burning it, and exhausting it at high velocity to produce thrust describes:",
+      "options": [
+        "Aerodynamic action",
+        "Jet reaction",
+        "Ram effect"
+      ],
+      "correctIndex": 1,
+      "explanation": "Jet reaction is the thrust-producing principle where a mass of air is taken in, heated by combustion, and exhausted at high velocity, producing thrust by reaction to the accelerated mass."
+    },
+    {
+      "id": "pp01p2-q23",
+      "question": "Which one of the following is NOT true about drains in a gas turbine engine?",
+      "options": [
+        "Drains are used to remove only fuels from the combustion chamber",
+        "Drains make sure fluid contact with hot engine areas",
+        "Drains are used to detect component seal failures"
+      ],
+      "correctIndex": 1,
+      "explanation": "Drains exist specifically to keep leaked fuel/oil AWAY from hot engine areas (preventing fire hazards), so a statement claiming drains ensure fluid contact with hot areas is false."
+    },
+    {
+      "id": "pp01p2-q24",
+      "question": "In a turbojet engine, combustion occurs at:",
+      "options": [
+        "Constant pressure",
+        "Constant velocity",
+        "Constant volume"
+      ],
+      "correctIndex": 0,
+      "explanation": "Combustion in a gas turbine engine's combustor occurs continuously at essentially constant pressure, unlike the constant-volume combustion of the Otto cycle in a piston engine."
+    },
+    {
+      "id": "pp01p2-q25",
+      "question": "In a free turbine arrangement:",
+      "options": [
+        "There is no mechanical connection with the compressor",
+        "There is a direct drive with a free-wheel unit",
+        "There is a clutch between the compressor and power output shaft"
+      ],
+      "correctIndex": 0,
+      "explanation": "A free turbine is driven purely by the gas flow from the gas generator section and has no mechanical (shaft) connection to the compressor — it is aerodynamically coupled only."
+    },
+    {
+      "id": "pp01p2-q26",
+      "question": "Secondary air in the combustion chamber is used for:",
+      "options": [
+        "Cooling",
+        "Combustion",
+        "Increasing axial velocity of gases"
+      ],
+      "correctIndex": 0,
+      "explanation": "The majority of air entering the combustion chamber (secondary/dilution air) bypasses the primary combustion zone and is used to cool the flame tube walls and dilute/cool the gases before they reach the turbine."
+    },
+    {
+      "id": "pp01p2-q27",
+      "question": "On a triple-spool engine, the first stage of turbines (counting from the front) drives:",
+      "options": [
+        "The HP compressor",
+        "The IP compressor",
+        "The LP compressor"
+      ],
+      "correctIndex": 0,
+      "explanation": "On a triple-spool engine, the HP turbine (the first turbine stage the hot gases reach) drives the HP compressor, since they share the innermost, highest-speed shaft."
+    },
+    {
+      "id": "pp01p2-q28",
+      "question": "What component creates a vortex (swirling motion) in a gas turbine flame tube?",
+      "options": [
+        "Cascade vanes",
+        "A tertiary hole",
+        "Swirl vanes"
+      ],
+      "correctIndex": 2,
+      "explanation": "Swirl vanes at the fuel nozzle/flame tube head create a vortex in the airflow, which stabilizes the flame and promotes thorough mixing of fuel and air for efficient combustion."
+    },
+    {
+      "id": "pp01p2-q29",
+      "question": "Full reverse thrust is approximately:",
+      "options": [
+        "95% of forward thrust",
+        "50% of forward thrust",
+        "75% of forward thrust"
+      ],
+      "correctIndex": 1,
+      "explanation": "Full reverse thrust on a typical turbofan engine is roughly 50% of the available forward thrust, due to the inherent inefficiency of redirecting the airflow."
+    },
+    {
+      "id": "pp01p2-q30",
+      "question": "Which law relates to the kinetic, pressure, and potential energy in a fluid flow?",
+      "options": [
+        "Newton's laws",
+        "Charles's law",
+        "Bernoulli's theorem"
+      ],
+      "correctIndex": 2,
+      "explanation": "Bernoulli's theorem specifically relates the kinetic, pressure, and potential energy components of a flowing fluid, showing that their sum (total energy) stays constant."
+    },
+    {
+      "id": "pp01p2-q31",
+      "question": "On a dual-spool engine, the first stage of turbines (from the front) drives:",
+      "options": [
+        "The HP compressor",
+        "The IP compressor",
+        "The LP compressor"
+      ],
+      "correctIndex": 0,
+      "explanation": "On a dual-spool engine, the HP turbine (the first stage the gas reaches) drives the HP compressor on the same high-speed shaft, while a later turbine stage drives the LP compressor/fan."
+    },
+    {
+      "id": "pp01p2-q32",
+      "question": "Engine vibration mounts are used for:",
+      "options": [
+        "Preventing engine vibration loads from being transmitted to the airframe structure",
+        "Reducing fuel consumption",
+        "Increasing the transmission of engine loads into the airframe"
+      ],
+      "correctIndex": 0,
+      "explanation": "Vibration (engine) mounts isolate and dampen engine vibration so that it is not directly transmitted into the surrounding airframe structure, improving comfort and reducing structural fatigue."
+    },
+    {
+      "id": "pp01p2-q33",
+      "question": "Ram effect is defined as:",
+      "options": [
+        "The effect of RPM on a stationary engine",
+        "The pressure rise because of forward speed",
+        "The effect of EGT on a stationary engine"
+      ],
+      "correctIndex": 1,
+      "explanation": "Ram effect is the rise in inlet air pressure caused by the forward speed of the aircraft ramming air into the intake, which increases as airspeed increases."
+    },
+    {
+      "id": "pp01p2-q34",
+      "question": "Intake air turbulence:",
+      "options": [
+        "Has little effect on the efficiency of the compressor",
+        "Increases the efficiency of the compressor",
+        "Decreases the efficiency of the compressor"
+      ],
+      "correctIndex": 2,
+      "explanation": "Turbulent, uneven airflow entering the compressor disrupts the smooth, uniform flow the compressor blades are designed for, reducing compressor efficiency."
+    },
+    {
+      "id": "pp01p2-q35",
+      "question": "The load compressor of an APU is:",
+      "options": [
+        "A compressor that provides pneumatic power for normal engine operation",
+        "A compressor that provides pneumatic power for the APU itself",
+        "A compressor that provides pneumatic power for the aircraft"
+      ],
+      "correctIndex": 2,
+      "explanation": "The APU's load compressor is a separate compressor stage dedicated to supplying pneumatic (bleed air) power to the aircraft systems, distinct from the compressor stage that supports the APU's own gas generator."
+    },
+    {
+      "id": "pp01p2-q36",
+      "question": "The working fluid of a gas turbine engine is:",
+      "options": [
+        "Kerosene",
+        "Gasoline",
+        "Air"
+      ],
+      "correctIndex": 2,
+      "explanation": "Air is the working fluid of a gas turbine engine — it is compressed, heated by burning fuel, and expanded through the turbine and nozzle to produce thrust/power; fuel is the energy source added to it, not the working fluid itself."
+    },
+    {
+      "id": "pp01p2-q37",
+      "question": "The density of a gas may be expressed as:",
+      "options": [
+        "Volume / weight",
+        "Weight / volume",
+        "Pressure / volume"
+      ],
+      "correctIndex": 1,
+      "explanation": "Density is defined as weight (or mass) per unit volume, so for a gas it is expressed as weight divided by volume."
+    },
+    {
+      "id": "pp01p2-q38",
+      "question": "The thrust a turbojet or turbofan engine produces when the aircraft is not moving is called:",
+      "options": [
+        "Net thrust",
+        "Gross thrust",
+        "Idle thrust"
+      ],
+      "correctIndex": 1,
+      "explanation": "When the aircraft is stationary, there is no inlet (ram) momentum to subtract, so the thrust produced is referred to as gross thrust; net thrust applies once the aircraft (and inlet momentum) is factored in."
+    },
+    {
+      "id": "pp01p2-q39",
+      "question": "Thrust will:",
+      "options": [
+        "Increase at low temperatures",
+        "Decrease at low temperatures",
+        "Increase at high temperatures"
+      ],
+      "correctIndex": 0,
+      "explanation": "Colder, denser air increases mass airflow through the engine for a given RPM, which increases the thrust the engine can produce — so thrust increases at lower outside air temperatures."
+    },
+    {
+      "id": "pp01p2-q40",
+      "question": "Using standard atmospheric conditions, the standard sea level temperature is:",
+      "options": [
+        "59 degrees F (15 degrees C)",
+        "70 degrees F (21 degrees C)",
+        "32 degrees F (0 degrees C)"
+      ],
+      "correctIndex": 0,
+      "explanation": "The International Standard Atmosphere defines standard sea level temperature as 59 degrees Fahrenheit (15 degrees Celsius)."
+    },
+    {
+      "id": "pp01p2-q41",
+      "question": "In a twin-spool compressor system, the accessory gearbox is driven by the:",
+      "options": [
+        "N2 (HP) compressor shaft",
+        "N1 (LP/fan) compressor shaft",
+        "An independent electric motor"
+      ],
+      "correctIndex": 0,
+      "explanation": "In a twin-spool engine, the accessory gearbox is normally driven from the N2 (HP) shaft, which runs at the highest, most consistent speed."
+    },
+    {
+      "id": "pp01p2-q42",
+      "question": "____ are used for applications where an absolute minimum of leakage is allowed.",
+      "options": [
+        "Carbon seals",
+        "Labyrinth seals",
+        "Felt seals"
+      ],
+      "correctIndex": 0,
+      "explanation": "Carbon seals provide a very tight, low-leakage seal and are used in applications (such as oil sumps/bearing chambers) requiring an absolute minimum of leakage, unlike labyrinth seals, which allow a controlled, small amount of leakage by design."
+    },
+    {
+      "id": "pp01p2-q43",
+      "question": "What is the difference between net thrust and gross thrust?",
+      "options": [
+        "Net thrust and gross thrust are identical at all airspeeds",
+        "Gross thrust accounts for inlet momentum while net thrust does not",
+        "Net thrust considers the momentum of air entering and leaving the engine, while gross thrust considers the inlet momentum to be zero"
+      ],
+      "correctIndex": 2,
+      "explanation": "Gross thrust is calculated from the exhaust momentum alone (treating inlet momentum as zero), while net thrust properly subtracts the momentum of the incoming air (ram drag) from the exhaust momentum."
+    },
+    {
+      "id": "pp01p2-q44",
+      "question": "The 'core engine' or 'gas generator' is made up of which of the following components?",
+      "options": [
+        "Turbine, combustion chamber, compressor",
+        "Propeller, reduction gearbox, and compressor",
+        "Fan, nacelle, and exhaust nozzle only"
+      ],
+      "correctIndex": 0,
+      "explanation": "The core engine (gas generator) consists of the compressor, combustion chamber, and the turbine(s) that drive the compressor — the essential components that generate hot, high-energy gas."
+    },
+    {
+      "id": "pp01p2-q45",
+      "question": "Anti-icing of jet engine air inlets is commonly accomplished by:",
+      "options": [
+        "Electrical heating elements inside the inlet guide vanes",
+        "Engine bleed air ducted through the critical areas",
+        "Spraying anti-icing fluid onto the inlet lip"
+      ],
+      "correctIndex": 1,
+      "explanation": "Most turbine engine inlet anti-icing systems work by ducting hot compressor bleed air through passages in the inlet lip and other critical areas to prevent ice formation."
+    },
+    {
+      "id": "pp01p2-q46",
+      "question": "A well-designed engine intake takes advantage of forward speed by:",
+      "options": [
+        "Converting pressure energy of the air into kinetic energy",
+        "Converting velocity energy into kinetic energy",
+        "Converting kinetic energy into pressure energy"
+      ],
+      "correctIndex": 2,
+      "explanation": "As air slows down passing through a well-designed intake, its kinetic (velocity) energy is converted into pressure energy, raising the pressure of the air reaching the compressor face."
+    },
+    {
+      "id": "pp01p2-q47",
+      "question": "Of the following, which engine type would most likely have a noise suppression unit installed?",
+      "options": [
+        "Turbojet",
+        "Turboprop",
+        "Turboshaft"
+      ],
+      "correctIndex": 0,
+      "explanation": "A pure turbojet produces a high-velocity exhaust jet, which is the primary source of jet noise, making noise suppression units most associated with turbojet installations."
+    },
+    {
+      "id": "pp01p2-q48",
+      "question": "What is the most significant advantage of a convergent-divergent exhaust nozzle?",
+      "options": [
+        "It is effective at high Mach numbers",
+        "It performs best only at low altitude",
+        "It is effective only at low Mach numbers"
+      ],
+      "correctIndex": 0,
+      "explanation": "A convergent-divergent nozzle allows exhaust gas to accelerate beyond the speed of sound, making it advantageous for engines operating at high Mach numbers (supersonic exhaust velocities)."
+    },
+    {
+      "id": "pp01p2-q49",
+      "question": "Which type of combustor makes the most efficient use of the limited space available in a gas turbine engine?",
+      "options": [
+        "Annular combustor",
+        "Can-type combustor",
+        "Can-annular combustor"
+      ],
+      "correctIndex": 0,
+      "explanation": "The annular combustor forms a single continuous ring around the engine shaft, making the most efficient use of available space compared to the separate can-type or hybrid can-annular designs."
+    },
+    {
+      "id": "pp01p2-q50",
+      "question": "The fan speed of a twin-spool axial compressor engine is the same as the:",
+      "options": [
+        "Forward turbine wheel speed of the HP spool",
+        "High pressure compressor",
+        "Low pressure compressor"
+      ],
+      "correctIndex": 2,
+      "explanation": "The fan is mounted on the same shaft as the LP (low pressure) compressor, so fan speed and LP compressor speed are identical."
+    },
+    {
+      "id": "pp01p2-q51",
+      "question": "A gas turbine engine releases the energy in its fuel through a constant-pressure thermodynamic cycle called the:",
+      "options": [
+        "Carnot cycle",
+        "Brayton cycle",
+        "Otto cycle"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Brayton cycle is the constant-pressure thermodynamic cycle that describes how a gas turbine engine compresses, heats (burns fuel), and expands its working fluid."
+    },
+    {
+      "id": "pp01p2-q52",
+      "question": "What purpose do the diffuser vanes of a centrifugal compressor serve?",
+      "options": [
+        "To increase the air velocity",
+        "To convert kinetic energy into pressure energy",
+        "To convert pressure energy into kinetic energy"
+      ],
+      "correctIndex": 1,
+      "explanation": "The diffuser section, with its diverging passages, slows the high-velocity air leaving the impeller, converting its kinetic energy into additional pressure energy."
+    },
+    {
+      "id": "pp01p2-q53",
+      "question": "When the major components of an engine can be removed and replaced without disturbing the rest of the engine, this is termed:",
+      "options": [
+        "Integrated design",
+        "Modular construction",
+        "Overhaul construction"
+      ],
+      "correctIndex": 1,
+      "explanation": "Modular construction allows major engine sections (fan, compressor, combustor, turbine modules) to be removed and replaced independently, without having to disassemble the entire engine."
+    },
+    {
+      "id": "pp01p2-q54",
+      "question": "What are the three main types of turbine blades?",
+      "options": [
+        "Reaction, converging, and diverging",
+        "Impulse, vector, and impulse-vector",
+        "Impulse, reaction, and impulse-reaction"
+      ],
+      "correctIndex": 2,
+      "explanation": "Turbine blades are classified as impulse (extracting energy from gas velocity through directional change), reaction (extracting energy from gas expansion across the blade), or a combination, impulse-reaction."
+    },
+    {
+      "id": "pp01p2-q55",
+      "question": "The primary purpose of an aircraft APU is to:",
+      "options": [
+        "Provide propulsive thrust for flight",
+        "Support the main engines during cruise flight",
+        "Provide power to start the main engines (and supply ground power)"
+      ],
+      "correctIndex": 2,
+      "explanation": "An APU's primary purpose is to provide electrical and pneumatic power on the ground — including pneumatic power to start the main engines — independent of ground support equipment."
+    },
+    {
+      "id": "pp01p2-q56",
+      "question": "What term is used to describe a permanent and cumulative deformation/elongation of turbine blades?",
+      "options": [
+        "Creep",
+        "Distortion",
+        "Stretch"
+      ],
+      "correctIndex": 0,
+      "explanation": "Creep is the term for the slow, permanent, cumulative stretching/deformation of turbine blades caused by sustained high temperature and centrifugal stress over time."
+    },
+    {
+      "id": "pp01p2-q57",
+      "question": "In a gas turbine engine's turbine section, as gases pass through:",
+      "options": [
+        "Temperature decreases along with pressure and velocity",
+        "Velocity increases and pressure decreases",
+        "Velocity decreases and pressure increases"
+      ],
+      "correctIndex": 1,
+      "explanation": "As gas expands through the turbine, it is accelerated (velocity increases) while giving up pressure energy to turn the turbine (pressure decreases) — the opposite of what happens in the compressor."
+    },
+    {
+      "id": "pp01p2-q58",
+      "question": "As the inlet temperature of a turbine engine increases, the amount of thrust produced will:",
+      "options": [
+        "Reach a maximum and then stay constant",
+        "Increase",
+        "Decrease"
+      ],
+      "correctIndex": 2,
+      "explanation": "Hotter (less dense) inlet air reduces mass airflow through the engine for a given RPM, which reduces the thrust the engine can produce."
+    },
+    {
+      "id": "pp01p2-q59",
+      "question": "Which one of the following types of engine is air-independent?",
+      "options": [
+        "Rocket engine",
+        "Turbojet engine",
+        "Pulse jet engine"
+      ],
+      "correctIndex": 0,
+      "explanation": "A rocket engine carries its own oxidizer onboard and does not need to draw in outside air to support combustion, making it air-independent, unlike jet engines which rely on atmospheric air."
+    },
+    {
+      "id": "pp01p2-q60",
+      "question": "Which one of the following types of engine is air-dependent?",
+      "options": [
+        "Neither engine type depends on air",
+        "Rocket engine",
+        "Ram jet engine"
+      ],
+      "correctIndex": 2,
+      "explanation": "A ramjet engine relies entirely on forward speed to ram atmospheric air into the engine for combustion, making it air-dependent (and unable to operate without airflow, unlike a rocket)."
+    },
+    {
+      "id": "pp01p2-q61",
+      "question": "What units in a gas turbine engine aid in stabilization of the compressor during low-thrust engine operations?",
+      "options": [
+        "Inlet guide vanes",
+        "Stator vanes",
+        "Bleed air valves"
+      ],
+      "correctIndex": 0,
+      "explanation": "Inlet guide vanes direct airflow onto the compressor's first rotor stage at the correct angle, which is particularly important for stable compressor operation at low thrust/low RPM."
+    },
+    {
+      "id": "pp01p2-q62",
+      "question": "To ensure an engine maintains self-sustaining speed as air density changes:",
+      "options": [
+        "Idle speed increases as density decreases",
+        "Idle speed remains the same regardless of density",
+        "Idle speed increases as density increases"
+      ],
+      "correctIndex": 0,
+      "explanation": "As air density decreases (for example, at altitude), idle RPM must be increased to maintain enough mass airflow for the engine to sustain stable combustion and self-sustaining speed."
+    },
+    {
+      "id": "pp01p2-q63",
+      "question": "What is the primary factor that controls the pressure ratio of an axial-flow compressor?",
+      "options": [
+        "The number of stages in the compressor",
+        "Compressor inlet pressure",
+        "Compressor inlet temperature"
+      ],
+      "correctIndex": 0,
+      "explanation": "The overall pressure ratio of an axial-flow compressor is primarily determined by the number of compression stages it has, since each stage contributes its own pressure rise."
+    },
+    {
+      "id": "pp01p2-q64",
+      "question": "What are the two major components of a centrifugal compressor?",
+      "options": [
+        "Stator and rotor",
+        "Compressor and turbine",
+        "Impeller and diffuser"
+      ],
+      "correctIndex": 2,
+      "explanation": "A centrifugal compressor's two major components are the impeller, which accelerates the air outward, and the diffuser, which converts that velocity into pressure."
+    },
+    {
+      "id": "pp01p2-q65",
+      "question": "Which shaft transfers torque from the main engine shaft to the intermediate (transfer) gearbox?",
+      "options": [
+        "The accessory shaft",
+        "The power takeoff shaft",
+        "The radial shaft"
+      ],
+      "correctIndex": 2,
+      "explanation": "A radial drive shaft runs from the main engine shaft out to the transfer/intermediate gearbox, transferring torque to drive the external accessory gearbox."
+    },
+    {
+      "id": "pp01p2-q66",
+      "question": "Acoustic blankets are installed on an engine to:",
+      "options": [
+        "Increase thermal efficiency",
+        "Aid the streamlining of the engine",
+        "Reduce noise levels"
+      ],
+      "correctIndex": 2,
+      "explanation": "Acoustic blankets are sound-absorbing insulation installed around the engine (often in the nacelle) specifically to reduce the noise radiated from the engine."
+    },
+    {
+      "id": "pp01p2-q67",
+      "question": "How does the net thrust of a turbine engine vary with an increase in flight altitude?",
+      "options": [
+        "It increases",
+        "It decreases",
+        "It remains the same"
+      ],
+      "correctIndex": 1,
+      "explanation": "As altitude increases, air density decreases, reducing mass airflow through the engine, which causes net thrust to decrease with increasing altitude."
+    },
+    {
+      "id": "pp01p2-q68",
+      "question": "What is the function of the stator vane assembly at the discharge end of a typical axial-flow compressor?",
+      "options": [
+        "To directly inject fuel into the airflow",
+        "To increase air swirling motion into the combustion chambers",
+        "To straighten the airflow to eliminate turbulence before it enters the combustion chamber"
+      ],
+      "correctIndex": 2,
+      "explanation": "The discharge (outlet) stator vanes straighten the swirling airflow coming off the last compressor rotor stage, eliminating turbulence before the air enters the combustion chamber."
+    },
+    {
+      "id": "pp01p2-q69",
+      "question": "What are the two main basic components of the turbine section in a gas turbine engine?",
+      "options": [
+        "Hot and cold sections",
+        "Stator and rotor",
+        "Impeller and diffuser"
+      ],
+      "correctIndex": 1,
+      "explanation": "The turbine section's two basic components are the stator (stationary nozzle guide vanes that direct gas flow) and the rotor (the rotating turbine blades that extract energy from the gas)."
+    },
+    {
+      "id": "pp01p2-q70",
+      "question": "Power is adjusted in a gas turbine engine by:",
+      "options": [
+        "Increasing air and fuel flow together",
+        "Increasing airflow to the combustion chamber alone, with fuel fixed",
+        "Increasing fuel flow alone, with airflow fixed"
+      ],
+      "correctIndex": 0,
+      "explanation": "Power in a gas turbine engine is adjusted by increasing both fuel flow and the resulting airflow through the engine together (via increased RPM), not fuel or air alone."
+    },
+    {
+      "id": "pp01p2-q71",
+      "question": "_____ is described as the external power plant efficiency, or a measure of the effectiveness with which kinetic energy in a power plant is converted to useful work for propelling the aircraft.",
+      "options": [
+        "Adiabatic efficiency",
+        "Thermal efficiency",
+        "Propulsive efficiency"
+      ],
+      "correctIndex": 2,
+      "explanation": "Propulsive efficiency measures how effectively the kinetic energy produced by the power plant is converted into useful work (thrust) for propelling the aircraft, as distinct from thermal efficiency, which concerns fuel energy conversion inside the engine."
+    },
+    {
+      "id": "pp01p2-q72",
+      "question": "The compression ratio of a centrifugal compressor stage, compared to a single axial compressor stage, is:",
+      "options": [
+        "Higher than that of an axial compressor stage",
+        "Exactly the same as an axial compressor stage",
+        "Lower than that of an axial compressor stage"
+      ],
+      "correctIndex": 0,
+      "explanation": "A single centrifugal compressor stage can achieve a much higher pressure ratio than a single axial compressor stage, which is one of its main advantages despite its larger frontal area."
+    },
+    {
+      "id": "pp01p2-q73",
+      "question": "What will happen to the thrust if the aircraft's speed increases, disregarding the ram effect?",
+      "options": [
+        "Thrust will decrease",
+        "Thrust will increase",
+        "Thrust will remain the same"
+      ],
+      "correctIndex": 0,
+      "explanation": "Disregarding the ram effect, thrust is proportional to the difference between exhaust velocity and inlet (aircraft) velocity; as aircraft speed increases, that difference — and so thrust — decreases."
+    },
+    {
+      "id": "pp01p2-q74",
+      "question": "An increase in air speed will cause turbine engine thrust to:",
+      "options": [
+        "Increase",
+        "Remain the same",
+        "Decrease"
+      ],
+      "correctIndex": 2,
+      "explanation": "As aircraft airspeed increases, the velocity difference between the exhaust jet and the incoming air decreases, which reduces net thrust, all else being equal."
+    },
+    {
+      "id": "pp01p2-q75",
+      "question": "Which of the following types of combustion sections are used in aircraft turbine engines?",
+      "options": [
+        "Can, annular, and can-annular",
+        "Annular and radial only",
+        "Can and tubular only"
+      ],
+      "correctIndex": 0,
+      "explanation": "Aircraft gas turbine combustion sections are generally built as one of three types: can-type, annular, or the hybrid can-annular design."
+    },
+    {
+      "id": "pp01p2-q76",
+      "question": "Boyle's Law states that, at constant temperature, if a gas is compressed:",
+      "options": [
+        "Its absolute pressure is inversely proportional to its volume",
+        "Its temperature must also increase proportionally",
+        "Its absolute pressure is directly proportional to its volume"
+      ],
+      "correctIndex": 0,
+      "explanation": "Boyle's Law states that at a constant temperature, the absolute pressure of a gas is inversely proportional to its volume — compress the gas into a smaller volume and its pressure rises proportionally."
+    },
+    {
+      "id": "pp01p2-q77",
+      "question": "What purpose does the nose cone on the fan (N1) of a high-bypass engine serve?",
+      "options": [
+        "To provide a mounting point for the spinner balance weights only",
+        "To reduce and straighten any turbulent air entering the fan",
+        "To house the engine's ignition exciter"
+      ],
+      "correctIndex": 1,
+      "explanation": "The fan's nose cone (spinner) smooths and straightens the airflow entering the fan, reducing turbulence before the air reaches the fan blades."
+    },
+    {
+      "id": "pp01p2-q78",
+      "question": "Where are the removable chip detectors typically fitted in a gas turbine engine's oil system?",
+      "options": [
+        "In the scavenge sub-system",
+        "In the breather sub-system",
+        "In the pressure sub-system"
+      ],
+      "correctIndex": 0,
+      "explanation": "Removable magnetic chip detectors are fitted in the scavenge (return) oil sub-system, where they can catch metal particles picked up from the bearings and gears as the oil returns to the tank."
+    },
+    {
+      "id": "pp01p2-q79",
+      "question": "The stator vanes in an axial-flow compressor:",
+      "options": [
+        "Add energy directly to the airflow like the rotor blades",
+        "Only serve a structural, non-aerodynamic function",
+        "Direct air into the first-stage rotor vanes at the proper angle"
+      ],
+      "correctIndex": 2,
+      "explanation": "Stator vanes are fixed vanes that redirect the airflow coming off each rotor stage to the correct angle for the next rotor stage, including guiding air onto the first-stage rotor."
+    },
+    {
+      "id": "pp01p2-q80",
+      "question": "In the Brayton thermodynamic cycle, as applied to a continuous-flow gas turbine engine:",
+      "options": [
+        "All events occur sequentially in the same location over time",
+        "Only two of the four Brayton cycle events actually occur",
+        "Events occur at the same time but at different locations within the engine"
+      ],
+      "correctIndex": 2,
+      "explanation": "Unlike a piston engine, where the four events of a cycle happen sequentially in the same cylinder over time, a gas turbine engine's Brayton cycle events (intake, compression, combustion, exhaust) happen continuously and simultaneously, but at different physical locations along the engine."
+    },
+    {
+      "id": "pp01p2-q81",
+      "question": "What is the major function of the turbine assembly in a turbojet engine?",
+      "options": [
+        "Cools the exhaust gases before they exit the nozzle",
+        "Supplies the power to turn the compressor",
+        "Supplies all of the engine's net thrust directly"
+      ],
+      "correctIndex": 1,
+      "explanation": "The turbine's major function is to extract enough energy from the hot expanding gases to drive (turn) the compressor (and accessories), with the remaining energy producing exhaust thrust."
+    },
+    {
+      "id": "pp01p2-q82",
+      "question": "What type of intake decreases gradually in cross-sectional area and then increases?",
+      "options": [
+        "A purely divergent intake",
+        "A purely convergent intake",
+        "A convergent/divergent intake"
+      ],
+      "correctIndex": 2,
+      "explanation": "A convergent-divergent intake first narrows (convergent section) and then widens again (divergent section), a shape used in certain supersonic intake designs."
+    },
+    {
+      "id": "pp01p2-q83",
+      "question": "The air passing through the combustion chamber of a jet engine is:",
+      "options": [
+        "Used only to support combustion, with cooling done separately",
+        "Used to support combustion and for cooling the engine",
+        "Entirely burned in the combustion process"
+      ],
+      "correctIndex": 1,
+      "explanation": "Only a portion (primary air) of the air entering the combustion chamber supports combustion directly; the remaining secondary/dilution air cools the flame tube walls and the gases before the turbine."
+    },
+    {
+      "id": "pp01p2-q84",
+      "question": "Thrust reversal on a high-bypass turbofan engine is commonly achieved by:",
+      "options": [
+        "Reversing the direction of rotation of the core engine",
+        "Opening additional intake doors at the front of the engine",
+        "Blocker doors (redirecting the fan bypass airflow)"
+      ],
+      "correctIndex": 2,
+      "explanation": "High-bypass turbofan thrust reversers typically use blocker doors to redirect the fan's bypass airflow forward and outward, producing reverse thrust from the (majority) cold stream."
+    },
+    {
+      "id": "pp01p2-q85",
+      "question": "Why is it necessary to have a combustion drain system on a gas turbine engine?",
+      "options": [
+        "To collect and recycle excess engine oil",
+        "To prevent initial over-fueling on startup or a hot start",
+        "To provide a backup fuel supply during flight"
+      ],
+      "correctIndex": 1,
+      "explanation": "A combustion drain system removes unburned fuel that can pool in the combustion chamber after a shutdown or failed start, preventing it from causing over-fueling and a hot start or fire hazard on the next start attempt."
+    }
+  ]
+}
