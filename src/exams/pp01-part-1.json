@@ -1,0 +1,937 @@
+{
+  "id": "pp01-part-1",
+  "title": "PP01-part-1",
+  "module": "PP-M1",
+  "course": "powerplant",
+  "category": "part",
+  "description": "Powerplant Module 1 (PP01 M1) practice exam covering reciprocating engine fundamentals: compression ratio, lubrication, starters, ignition timing, carburetion, cooling, turbocharging, and valve/crankshaft mechanics.",
+  "durationMinutes": 120,
+  "totalQuestions": 84,
+  "color": "orange",
+  "questions": [
+    {
+      "id": "pp01-q1",
+      "question": "What is the ratio of piston volume at bottom dead center to piston volume at top dead center called?",
+      "options": [
+        "Volumetric efficiency",
+        "Compression ratio",
+        "Mechanical efficiency"
+      ],
+      "correctIndex": 1,
+      "explanation": "Compression ratio is the ratio of the cylinder volume with the piston at the bottom of its stroke to the volume with the piston at the top of its stroke."
+    },
+    {
+      "id": "pp01-q2",
+      "question": "Which type of starter is mostly used on modern reciprocating engines?",
+      "options": [
+        "Cartridge (combustion) starter",
+        "Hand-cranking inertia starter",
+        "Electric motor (direct-cranking electric) starter"
+      ],
+      "correctIndex": 2,
+      "explanation": "Modern reciprocating engines overwhelmingly use electric motor (direct-cranking electric) starters rather than the hand-cranked or cartridge starters used on older engines."
+    },
+    {
+      "id": "pp01-q3",
+      "question": "What type of starter uses a flywheel that is spun up before being engaged to the engine?",
+      "options": [
+        "Direct-cranking electric starter",
+        "Air turbine starter",
+        "Inertia starter"
+      ],
+      "correctIndex": 2,
+      "explanation": "An inertia starter spins a flywheel up to speed (by hand or small electric motor) and then engages a clutch, using the stored rotational energy to crank the engine."
+    },
+    {
+      "id": "pp01-q4",
+      "question": "What is the primary purpose of engine lubrication?",
+      "options": [
+        "Increase compression",
+        "Cool the exhaust system",
+        "Reduce friction"
+      ],
+      "correctIndex": 2,
+      "explanation": "The primary purpose of a lubricating oil system is to reduce friction between moving parts, which also reduces wear and heat generation."
+    },
+    {
+      "id": "pp01-q5",
+      "question": "Which of the following is a requirement of a piston engine lubricant?",
+      "options": [
+        "Low film strength",
+        "High antifriction characteristic",
+        "Low flash point"
+      ],
+      "correctIndex": 1,
+      "explanation": "A good piston engine lubricant must have a high antifriction characteristic so it can effectively reduce friction and wear between moving parts."
+    },
+    {
+      "id": "pp01-q6",
+      "question": "The ability of an engine to run smoothly and give the desired performance at all speeds from idle to full power is called:",
+      "options": [
+        "Operating flexibility",
+        "Specific fuel consumption",
+        "Volumetric efficiency"
+      ],
+      "correctIndex": 0,
+      "explanation": "Operating flexibility describes an engine's ability to run smoothly and respond properly across its full range of speeds, from idle to full power."
+    },
+    {
+      "id": "pp01-q7",
+      "question": "In the Otto cycle (the operating cycle of a reciprocating engine), combustion occurs at:",
+      "options": [
+        "Constant pressure",
+        "Constant temperature",
+        "Constant volume"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Otto cycle idealizes combustion in a spark-ignition reciprocating engine as occurring instantaneously at constant volume, near top dead center."
+    },
+    {
+      "id": "pp01-q8",
+      "question": "The viscosity of a liquid is a measurement of its:",
+      "options": [
+        "Chemical stability",
+        "Flash point",
+        "Resistance to flow"
+      ],
+      "correctIndex": 2,
+      "explanation": "Viscosity describes a fluid's resistance to flow — a higher viscosity oil flows more slowly/resists flow more than a lower viscosity oil."
+    },
+    {
+      "id": "pp01-q9",
+      "question": "The ability of an engine to perform as the manufacturer promises is called:",
+      "options": [
+        "Operating economy",
+        "Specific fuel consumption",
+        "Reliability"
+      ],
+      "correctIndex": 2,
+      "explanation": "Reliability is the engine's ability to consistently perform as promised by the manufacturer, without unexpected malfunction or performance loss."
+    },
+    {
+      "id": "pp01-q10",
+      "question": "Among the types of ignition systems for a reciprocating engine, which performs best for low RPM ignition?",
+      "options": [
+        "Magneto ignition",
+        "Battery ignition",
+        "Both battery and magneto ignition"
+      ],
+      "correctIndex": 1,
+      "explanation": "Magneto output voltage drops off sharply at low RPM, producing a weak spark; battery ignition is independent of engine speed and provides a strong spark at low RPM, such as during starting."
+    },
+    {
+      "id": "pp01-q11",
+      "question": "Which one of the following is NOT categorized as an inertia starter?",
+      "options": [
+        "Direct cranking electric starter",
+        "Hand cranking starter",
+        "Electric (flywheel) inertia starter"
+      ],
+      "correctIndex": 0,
+      "explanation": "A direct cranking electric starter turns the engine directly through a gear train with no energy-storing flywheel, so it is not classified as an inertia-type starter, unlike hand-cranked or electric-flywheel inertia starters."
+    },
+    {
+      "id": "pp01-q12",
+      "question": "How does an oil with a high viscosity index change its viscosity with temperature?",
+      "options": [
+        "It is unaffected by temperature in any oil",
+        "Very high (changes a great deal)",
+        "Very little"
+      ],
+      "correctIndex": 2,
+      "explanation": "A high viscosity index means the oil's viscosity changes very little over a range of temperatures, which is a desirable lubricant characteristic."
+    },
+    {
+      "id": "pp01-q13",
+      "question": "Which part of a spark plug carries the high voltage current and completes the circuit through the ground electrode?",
+      "options": [
+        "Center electrode",
+        "Insulator",
+        "Outer shell"
+      ],
+      "correctIndex": 0,
+      "explanation": "The center electrode carries the high voltage current down through the plug and across the gap to the ground electrode (typically part of the outer shell), completing the circuit."
+    },
+    {
+      "id": "pp01-q14",
+      "question": "The ratio of brake horsepower to indicated horsepower of a reciprocating engine is called:",
+      "options": [
+        "Overall efficiency",
+        "Volumetric efficiency",
+        "Mechanical efficiency"
+      ],
+      "correctIndex": 2,
+      "explanation": "Mechanical efficiency is defined as the ratio of brake horsepower (usable output) to indicated horsepower (power developed in the cylinders), reflecting losses to friction."
+    },
+    {
+      "id": "pp01-q15",
+      "question": "The air-fuel ratio that provides the correct amount of oxygen to burn all of the fuel is called:",
+      "options": [
+        "The stoichiometric (chemically correct) mixture",
+        "The best economy mixture",
+        "The best power mixture"
+      ],
+      "correctIndex": 0,
+      "explanation": "The stoichiometric, or chemically correct, mixture supplies exactly enough air (oxygen) to completely burn all of the fuel with none left over."
+    },
+    {
+      "id": "pp01-q16",
+      "question": "What is the first step in the removal procedure of a reciprocating engine?",
+      "options": [
+        "Remove the propeller",
+        "Remove the engine breather line",
+        "Remove the engine mount from the airframe"
+      ],
+      "correctIndex": 0,
+      "explanation": "The propeller is removed early in the engine removal sequence, before the engine itself is disconnected from its mounts and lifted from the airframe."
+    },
+    {
+      "id": "pp01-q17",
+      "question": "A measure of the number of pounds of fuel burned per hour to produce each brake horsepower is called:",
+      "options": [
+        "Compression ratio",
+        "Thermal efficiency",
+        "Specific fuel consumption"
+      ],
+      "correctIndex": 2,
+      "explanation": "Specific fuel consumption expresses fuel burned (lb/hr) per unit of brake horsepower produced, and is a standard measure of engine fuel efficiency."
+    },
+    {
+      "id": "pp01-q18",
+      "question": "How many throws does a twin-row radial engine crankshaft have?",
+      "options": [
+        "Three",
+        "Two",
+        "Four"
+      ],
+      "correctIndex": 1,
+      "explanation": "A twin-row radial engine's crankshaft typically has two throws, one for each row of cylinders, with the master rod of each row attached to its own throw."
+    },
+    {
+      "id": "pp01-q19",
+      "question": "What is the advantage of a liquid-cooled engine compared to an air-cooled engine?",
+      "options": [
+        "It needs more maintenance",
+        "It is heavier",
+        "The engine is quieter"
+      ],
+      "correctIndex": 2,
+      "explanation": "A liquid-cooled engine tends to run quieter than an air-cooled engine, which needs cooling fins and airflow that contribute to engine noise."
+    },
+    {
+      "id": "pp01-q20",
+      "question": "On which strokes are both valves open on a four-stroke cycle reciprocating aircraft engine?",
+      "options": [
+        "Power and exhaust",
+        "Intake and compression",
+        "Exhaust and intake"
+      ],
+      "correctIndex": 2,
+      "explanation": "Valve overlap occurs at the end of the exhaust stroke and the beginning of the intake stroke, when both the exhaust and intake valves are open briefly together."
+    },
+    {
+      "id": "pp01-q21",
+      "question": "Air that flows into the engine when the carburetor heat control is in the HOT position is:",
+      "options": [
+        "Hot and unfiltered",
+        "Hot and filtered",
+        "Cold and unfiltered"
+      ],
+      "correctIndex": 0,
+      "explanation": "Carburetor heat routes air around the exhaust system (heating it) and bypasses the normal air filter, so the air entering the engine is hot and unfiltered."
+    },
+    {
+      "id": "pp01-q22",
+      "question": "An engine that carries its lubricating oil supply in the engine crankcase is called a:",
+      "options": [
+        "Pressure-lubricated engine",
+        "Dry sump engine",
+        "Wet sump engine"
+      ],
+      "correctIndex": 2,
+      "explanation": "A wet sump engine stores its oil supply in a sump that is part of the engine crankcase itself, as opposed to a dry sump engine, which uses a separate external oil tank."
+    },
+    {
+      "id": "pp01-q23",
+      "question": "The amount of air pressure above the fuel in a tank that is needed to prevent the fuel from vaporizing is the fuel's:",
+      "options": [
+        "Total pressure",
+        "Vapor pressure",
+        "Static pressure"
+      ],
+      "correctIndex": 1,
+      "explanation": "A fuel's vapor pressure is the pressure that must be maintained above it to prevent the fuel from vaporizing (boiling) at a given temperature."
+    },
+    {
+      "id": "pp01-q24",
+      "question": "How many degrees of crankshaft rotation are required for a piston to complete a single stroke?",
+      "options": [
+        "90 degrees",
+        "180 degrees",
+        "360 degrees"
+      ],
+      "correctIndex": 1,
+      "explanation": "One piston stroke (from TDC to BDC, or vice versa) corresponds to 180 degrees of crankshaft rotation — half of one full revolution."
+    },
+    {
+      "id": "pp01-q25",
+      "question": "Which component of a piston engine transmits forces between the piston and the crankshaft?",
+      "options": [
+        "Connecting rod",
+        "Pushrod",
+        "Crank arm"
+      ],
+      "correctIndex": 0,
+      "explanation": "The connecting rod links the piston (via the piston pin) to the crankshaft throw, transmitting the combustion forces from the piston to turn the crankshaft."
+    },
+    {
+      "id": "pp01-q26",
+      "question": "Which one of the following is NOT an advantage of a fuel-injected piston engine over a carbureted engine?",
+      "options": [
+        "Easier starting in a hot engine",
+        "More precise control of the mixture",
+        "Easier cold-weather starts"
+      ],
+      "correctIndex": 0,
+      "explanation": "Fuel injection gives more precise mixture control and generally easier cold starts, but it is not notably easier (and can be harder, due to vapor lock) when starting a hot engine, compared to a carbureted engine."
+    },
+    {
+      "id": "pp01-q27",
+      "question": "Which one of the following brake specific fuel consumption (BSFC) figures shows the best engine performance?",
+      "options": [
+        "0.8",
+        "0.1",
+        "0.2 only if combined with high RPM"
+      ],
+      "correctIndex": 1,
+      "explanation": "A lower brake specific fuel consumption value indicates the engine produces more power per unit of fuel burned, so the lowest BSFC figure represents the best (most efficient) performance among the given values."
+    },
+    {
+      "id": "pp01-q28",
+      "question": "In which stroke does ignition occur in a four-stroke cycle reciprocating engine?",
+      "options": [
+        "Intake",
+        "Compression (near the end of the compression stroke)",
+        "Exhaust"
+      ],
+      "correctIndex": 1,
+      "explanation": "Ignition is timed to occur near the end of the compression stroke, so that combustion pressure builds as the piston begins the power stroke."
+    },
+    {
+      "id": "pp01-q29",
+      "question": "When does ignition occur in a four-stroke cycle reciprocating engine?",
+      "options": [
+        "20 to 25 degrees after top dead center in the exhaust stroke",
+        "20 to 25 degrees before top dead center in the exhaust stroke",
+        "20 to 25 degrees before top dead center in the compression stroke"
+      ],
+      "correctIndex": 2,
+      "explanation": "Ignition timing is typically set at about 20 to 25 degrees before top dead center during the compression stroke, allowing time for the mixture to burn and peak pressure to occur just after TDC."
+    },
+    {
+      "id": "pp01-q30",
+      "question": "What is the function of the pressure relief valve in a liquid-cooled piston engine's cooling system?",
+      "options": [
+        "To increase pressure in the water passages as temperature rises",
+        "To bleed off excess pressure in the expansion (coolant) tank",
+        "To release excessive pressure in the water pump"
+      ],
+      "correctIndex": 1,
+      "explanation": "The pressure relief valve (often part of the filler cap/expansion tank) bleeds off excess coolant system pressure that builds up due to heating, protecting the system from over-pressurization."
+    },
+    {
+      "id": "pp01-q31",
+      "question": "Which of the following is categorized under external combustion engines?",
+      "options": [
+        "Reciprocating engine",
+        "Rocket engine",
+        "Steam engine"
+      ],
+      "correctIndex": 2,
+      "explanation": "A steam engine burns fuel externally to heat water into steam, which then does the work — making it an external combustion engine, unlike reciprocating and rocket engines, which burn fuel inside the engine itself."
+    },
+    {
+      "id": "pp01-q32",
+      "question": "Where is the fuel discharge nozzle located in a float-type carburetor, and why?",
+      "options": [
+        "At the narrowest point of the venturi, where pressure is lowest",
+        "Downstream of the throttle valve, where pressure is atmospheric",
+        "At the widest point of the venturi, where pressure is highest"
+      ],
+      "correctIndex": 0,
+      "explanation": "The fuel discharge nozzle is positioned at the venturi's narrowest point (the throat), where airflow velocity is highest and pressure is lowest, which draws fuel out of the nozzle by pressure differential."
+    },
+    {
+      "id": "pp01-q33",
+      "question": "An air-fuel mixture ratio of a reciprocating engine is a ratio of the:",
+      "options": [
+        "Weight of the air to the weight of the fuel",
+        "Viscosity of the air to the fuel",
+        "Volume of the air to the volume of the fuel"
+      ],
+      "correctIndex": 0,
+      "explanation": "Air-fuel ratio is expressed as a ratio of the weight of air to the weight of fuel in the mixture, not by volume or viscosity."
+    },
+    {
+      "id": "pp01-q34",
+      "question": "A turbocharger on a reciprocating engine is driven by:",
+      "options": [
+        "An electrical motor",
+        "An engine-driven mechanical shaft/gear drive",
+        "Exhaust gas energy"
+      ],
+      "correctIndex": 2,
+      "explanation": "A turbocharger's turbine is driven by the energy of the engine's exhaust gases, which in turn drives the compressor on the same shaft; this is what distinguishes it from a supercharger, which is mechanically/gear driven."
+    },
+    {
+      "id": "pp01-q35",
+      "question": "What is the principal advantage of using propeller reduction gears?",
+      "options": [
+        "To enable the propeller RPM to be increased without an accompanying increase in engine RPM",
+        "To enable the engine RPM to be increased, with an accompanying increase in power, while allowing the propeller to remain at a lower, more efficient RPM",
+        "To enable the propeller RPM to be increased without an accompanying increase in propeller RPM"
+      ],
+      "correctIndex": 1,
+      "explanation": "Reduction gears let the engine turn at a higher, more power-efficient RPM while the propeller turns at a lower RPM, where it operates most efficiently and avoids excessive tip speeds."
+    },
+    {
+      "id": "pp01-q36",
+      "question": "Which type of lubricant is universally accepted for use as a piston aircraft engine lubricant?",
+      "options": [
+        "Mineral (ashless dispersant) oil",
+        "Synthetic oil",
+        "Animal-based oil"
+      ],
+      "correctIndex": 0,
+      "explanation": "Mineral-based (ashless dispersant) oils are the universally accepted and approved lubricant type for piston aircraft engines, unlike synthetic oils, which are standard for turbine engines."
+    },
+    {
+      "id": "pp01-q37",
+      "question": "How many degrees of crankshaft rotation are required for a piston to complete two strokes?",
+      "options": [
+        "720 degrees",
+        "360 degrees",
+        "2880 degrees"
+      ],
+      "correctIndex": 1,
+      "explanation": "Since one stroke requires 180 degrees of crankshaft rotation, two strokes require 360 degrees — one complete revolution of the crankshaft."
+    },
+    {
+      "id": "pp01-q38",
+      "question": "When both the intake and exhaust valves are open at the same time near the end of the exhaust stroke, this condition is called:",
+      "options": [
+        "Valve lash",
+        "Valve overlap",
+        "Valve lead"
+      ],
+      "correctIndex": 1,
+      "explanation": "Valve overlap is the brief period where both the intake and exhaust valves are open simultaneously, helping scavenge exhaust gases and aid cylinder filling."
+    },
+    {
+      "id": "pp01-q39",
+      "question": "An uncontrolled, explosive (near-instantaneous) combustion of the fuel-air charge inside the cylinder of a reciprocating engine is called:",
+      "options": [
+        "Preignition",
+        "Detonation",
+        "Flameout"
+      ],
+      "correctIndex": 1,
+      "explanation": "Detonation is an uncontrolled, explosive burning of the end-gas in the cylinder, occurring after normal ignition, which produces damaging pressure spikes — distinct from preignition, which is combustion starting too early."
+    },
+    {
+      "id": "pp01-q40",
+      "question": "The heat used to prevent carburetor icing is obtained by routing induction air around parts of the:",
+      "options": [
+        "Electric heater",
+        "Air-oil heat exchanger",
+        "Exhaust system"
+      ],
+      "correctIndex": 2,
+      "explanation": "Carburetor heat systems route induction air around a shroud on the exhaust system (a muffler shroud), picking up heat before it enters the carburetor."
+    },
+    {
+      "id": "pp01-q41",
+      "question": "A turbocharged reciprocating engine can maintain its rated power up to a certain altitude, after which power begins to fall off. This altitude is called the:",
+      "options": [
+        "Critical altitude",
+        "Absolute altitude",
+        "Service ceiling"
+      ],
+      "correctIndex": 0,
+      "explanation": "The critical altitude is the highest altitude at which a turbocharged engine can still produce its full rated (sea-level) power before the turbocharger reaches its maximum boost capability."
+    },
+    {
+      "id": "pp01-q42",
+      "question": "The actual horsepower delivered by the engine to the propeller or helicopter transmission is called:",
+      "options": [
+        "Indicated horsepower",
+        "Brake horsepower",
+        "Friction horsepower"
+      ],
+      "correctIndex": 1,
+      "explanation": "Brake horsepower is the usable power actually delivered at the engine's output shaft, after friction losses are subtracted from the indicated horsepower developed in the cylinders."
+    },
+    {
+      "id": "pp01-q43",
+      "question": "The lubricating oil used in a reciprocating engine's turbocharger is normally supplied from:",
+      "options": [
+        "The engine's own lubricating system",
+        "A self-contained oil sump in the turbocharger",
+        "A separate oil tank dedicated to the turbocharger"
+      ],
+      "correctIndex": 0,
+      "explanation": "A turbocharger on a reciprocating engine is typically lubricated by oil tapped from and returned to the engine's own lubricating system, rather than having its own separate oil supply."
+    },
+    {
+      "id": "pp01-q44",
+      "question": "Which test gives a good indication of the sealing properties of the valves and piston rings in a reciprocating engine?",
+      "options": [
+        "Oil analysis (spectrometric oil analysis)",
+        "Magnetic particle inspection",
+        "Compression check (differential or static compression test)"
+      ],
+      "correctIndex": 2,
+      "explanation": "A compression check (such as a differential compression test) directly measures how well the cylinder holds pressure, which reflects the sealing condition of the valves and piston rings."
+    },
+    {
+      "id": "pp01-q45",
+      "question": "On a manually controlled turbocharger for a reciprocating engine, what is the position of the waste gate when developing takeoff power?",
+      "options": [
+        "Approximately half open",
+        "Fully open",
+        "Fully closed"
+      ],
+      "correctIndex": 2,
+      "explanation": "To develop maximum (takeoff) power, the waste gate is fully closed, directing all available exhaust gas energy through the turbine to produce maximum turbocharger boost."
+    },
+    {
+      "id": "pp01-q46",
+      "question": "If a piston ring has a leakage, it is often indicated by:",
+      "options": [
+        "A hissing sound at the crankcase breather",
+        "A drop in cylinder head temperature",
+        "A rise in oil pressure"
+      ],
+      "correctIndex": 0,
+      "explanation": "Blow-by past a leaking piston ring pressurizes the crankcase, which can often be heard as a hissing sound at the crankcase breather outlet."
+    },
+    {
+      "id": "pp01-q47",
+      "question": "A common reason for engine removal is:",
+      "options": [
+        "Routine 100-hour inspection with no defects found",
+        "Normal oil change interval reached",
+        "Exceedance of the engine's overhaul time limit (TBO)"
+      ],
+      "correctIndex": 2,
+      "explanation": "Reaching or exceeding the manufacturer's recommended time between overhauls (TBO) is a common planned reason for removing an engine for overhaul."
+    },
+    {
+      "id": "pp01-q48",
+      "question": "Reciprocating engines are typically used on aircraft whose cruise speed does not exceed approximately:",
+      "options": [
+        "250 mph",
+        "500 mph",
+        "350 mph"
+      ],
+      "correctIndex": 0,
+      "explanation": "Reciprocating engines are generally limited to lower-speed applications, with typical cruise speeds not exceeding around 250 mph, beyond which turbine power becomes more practical."
+    },
+    {
+      "id": "pp01-q49",
+      "question": "In a liquid-cooling system, the fuel-oil heat exchanger removes heat from the:",
+      "options": [
+        "Exhaust gas",
+        "Intake air",
+        "Coolant"
+      ],
+      "correctIndex": 2,
+      "explanation": "A fuel-oil (or oil-to-coolant) heat exchanger transfers excess heat away from the coolant, using the fuel (or oil) as the heat sink."
+    },
+    {
+      "id": "pp01-q50",
+      "question": "Which reduction gear system requires the smallest nose section?",
+      "options": [
+        "Bevel planetary gear",
+        "Simple spur gear train",
+        "Spur planetary gear"
+      ],
+      "correctIndex": 0,
+      "explanation": "A bevel planetary reduction gear arrangement is compact and allows for a smaller-diameter nose section compared to other reduction gear designs."
+    },
+    {
+      "id": "pp01-q51",
+      "question": "How many crankshaft throws does an 8-cylinder V engine typically have?",
+      "options": [
+        "2",
+        "8",
+        "4"
+      ],
+      "correctIndex": 2,
+      "explanation": "In a V-type engine, each throw is shared by one cylinder from each bank (a pair of opposing cylinders), so an 8-cylinder V engine typically has 4 throws."
+    },
+    {
+      "id": "pp01-q52",
+      "question": "In a two-stroke engine, the intake valve/port opens due to:",
+      "options": [
+        "High pressure created in the crankcase or cylinder",
+        "Direct mechanical cam action only, unrelated to pressure",
+        "Low pressure created in the crankcase or cylinder"
+      ],
+      "correctIndex": 2,
+      "explanation": "In a two-stroke engine, the low pressure created in the crankcase or cylinder as the piston moves helps draw the intake charge in through the opened intake port or valve."
+    },
+    {
+      "id": "pp01-q53",
+      "question": "The diameter of an engine cylinder is called the:",
+      "options": [
+        "Bore",
+        "Stroke",
+        "Displacement"
+      ],
+      "correctIndex": 0,
+      "explanation": "Bore is the term for the inside diameter of the engine cylinder, while stroke refers to the distance the piston travels within that cylinder."
+    },
+    {
+      "id": "pp01-q54",
+      "question": "As altitude increases (without mixture correction), the fuel-air ratio tends to become:",
+      "options": [
+        "Richer",
+        "Leaner",
+        "Unchanged"
+      ],
+      "correctIndex": 0,
+      "explanation": "As altitude increases, air density decreases while fuel flow remains the same (uncorrected), so the mixture becomes progressively richer, which is why mixture leaning is required with altitude."
+    },
+    {
+      "id": "pp01-q55",
+      "question": "What holds the intake and exhaust valves closed until the cam lobe opens them again?",
+      "options": [
+        "Valve springs",
+        "The rocker arm",
+        "The pushrod"
+      ],
+      "correctIndex": 0,
+      "explanation": "Valve springs close each valve against its seat and hold it closed until the camshaft lobe comes back around to push it open again."
+    },
+    {
+      "id": "pp01-q56",
+      "question": "What protects the cylinder head from damage caused by the valve during operation?",
+      "options": [
+        "The valve spring",
+        "The valve seat",
+        "The valve guide"
+      ],
+      "correctIndex": 1,
+      "explanation": "The valve seat provides a hardened, renewable surface against which the valve closes, protecting the softer cylinder head material from wear and damage."
+    },
+    {
+      "id": "pp01-q57",
+      "question": "The speed of a turbocharger is controlled by a waste-gate valve located in the exhaust system, positioned:",
+      "options": [
+        "Downstream of the compressor outlet",
+        "In series, directly in front of the turbine inlet",
+        "In parallel with (bypassing) the turbine"
+      ],
+      "correctIndex": 2,
+      "explanation": "The waste gate is arranged in parallel with the turbine, allowing some exhaust gas to bypass the turbine when open, which controls turbocharger speed and boost."
+    },
+    {
+      "id": "pp01-q58",
+      "question": "The four stroke events of a reciprocating engine occur sequentially as:",
+      "options": [
+        "Intake, power, compression, and exhaust",
+        "Compression, intake, exhaust, and power",
+        "Intake, compression, power (with ignition near the end of compression), and exhaust"
+      ],
+      "correctIndex": 2,
+      "explanation": "The four-stroke cycle proceeds in the order intake, compression (with ignition occurring near its end), power, and exhaust."
+    },
+    {
+      "id": "pp01-q59",
+      "question": "When the throttle is closed, the amount of air that can flow into the engine is primarily determined by:",
+      "options": [
+        "The size of the venturi only",
+        "The position of the mixture control only",
+        "The space between the throttle (butterfly) valve and the wall of the throttle body"
+      ],
+      "correctIndex": 2,
+      "explanation": "With the throttle nearly closed, airflow is restricted mainly by the small gap remaining between the edge of the butterfly valve and the throttle body wall."
+    },
+    {
+      "id": "pp01-q60",
+      "question": "In many reciprocating engines, the ignition distributor is driven by the:",
+      "options": [
+        "Crankshaft directly",
+        "Camshaft",
+        "Accessory alternator shaft"
+      ],
+      "correctIndex": 1,
+      "explanation": "The ignition distributor (or magneto drive, in many designs) is commonly geared to and driven by the camshaft, which itself turns at half crankshaft speed."
+    },
+    {
+      "id": "pp01-q61",
+      "question": "In a four-stroke (Otto-cycle) reciprocating engine, all the cylinders are fired in how many revolutions of crankshaft rotation?",
+      "options": [
+        "Two revolutions",
+        "One revolution",
+        "Four revolutions"
+      ],
+      "correctIndex": 0,
+      "explanation": "A complete four-stroke cycle for each cylinder takes two full revolutions of the crankshaft (720 degrees), during which all cylinders fire once in their firing order."
+    },
+    {
+      "id": "pp01-q62",
+      "question": "In a liquid-cooled reciprocating engine, which component serves as the means to transfer heat from the coolant to the outside air?",
+      "options": [
+        "Thermostat",
+        "Radiator",
+        "Water pump"
+      ],
+      "correctIndex": 1,
+      "explanation": "The radiator transfers heat from the circulating coolant to the outside airflow, rejecting the heat absorbed from the engine."
+    },
+    {
+      "id": "pp01-q63",
+      "question": "Which side of a cylinder head typically has a greater number of cooling fins?",
+      "options": [
+        "The exhaust side",
+        "Both sides have an equal number",
+        "The intake side"
+      ],
+      "correctIndex": 0,
+      "explanation": "The exhaust side of the cylinder head runs hotter, so it is typically given more cooling fin area than the intake side to help dissipate the extra heat."
+    },
+    {
+      "id": "pp01-q64",
+      "question": "A form of heat engine in which the fuel releases its energy outside of the engine itself is classified as a(n):",
+      "options": [
+        "External combustion engine",
+        "Internal combustion engine",
+        "Rocket engine"
+      ],
+      "correctIndex": 0,
+      "explanation": "An external combustion engine, such as a steam engine, burns fuel outside the engine's working cylinder, unlike internal combustion or rocket engines, which burn fuel within the engine itself."
+    },
+    {
+      "id": "pp01-q65",
+      "question": "In the main metering system of a carburetor, which device senses the amount of air entering the engine?",
+      "options": [
+        "The venturi",
+        "The main metering jet",
+        "The idle air bleed"
+      ],
+      "correctIndex": 0,
+      "explanation": "The venturi creates a pressure drop proportional to the airflow rate, which is what senses/signals the amount of air entering the engine; the main metering jet, by contrast, meters the fuel."
+    },
+    {
+      "id": "pp01-q66",
+      "question": "In the induction system of a reciprocating engine, the supercharger is usually driven by the:",
+      "options": [
+        "A dedicated electric motor",
+        "Accessory gear box (geared to the engine)",
+        "Exhaust gas energy, like a turbocharger"
+      ],
+      "correctIndex": 1,
+      "explanation": "Unlike a turbocharger (driven by exhaust gas), a mechanically driven supercharger is geared to and driven by the engine through the accessory gear box."
+    },
+    {
+      "id": "pp01-q67",
+      "question": "If the weight of an engine per brake horsepower produced is decreased, the performance of the aircraft will:",
+      "options": [
+        "Decrease",
+        "Increase",
+        "Remain unchanged"
+      ],
+      "correctIndex": 1,
+      "explanation": "A lower weight-to-power ratio (lighter engine for the same power) generally improves overall aircraft performance, such as climb rate and payload capability."
+    },
+    {
+      "id": "pp01-q68",
+      "question": "Which one of the following piston engines uses a forked-and-blade type connecting rod arrangement?",
+      "options": [
+        "V engines",
+        "Inline engines",
+        "Radial engines"
+      ],
+      "correctIndex": 0,
+      "explanation": "V-type engines commonly use a forked-and-blade connecting rod design, where one rod straddles (forks around) the other so both can share the same crank throw."
+    },
+    {
+      "id": "pp01-q69",
+      "question": "When a piston engine is cold, the radiator (coolant circuit) is isolated from the engine by the:",
+      "options": [
+        "Thermostatic valve",
+        "Pressure relief valve",
+        "Water pump bypass check valve"
+      ],
+      "correctIndex": 0,
+      "explanation": "A thermostatic valve blocks coolant flow to the radiator while the engine is cold, allowing the engine to warm up faster, then opens to allow circulation once operating temperature is reached."
+    },
+    {
+      "id": "pp01-q70",
+      "question": "Which one of the following could probably be the firing order for a 4-cylinder inline piston engine?",
+      "options": [
+        "1-4-2-3",
+        "1-2-3-4",
+        "1-2-4-3"
+      ],
+      "correctIndex": 2,
+      "explanation": "A common firing order for 4-cylinder inline engines is 1-2-4-3 (along with 1-3-4-2), chosen to balance the loads and smooth out the power impulses along the crankshaft."
+    },
+    {
+      "id": "pp01-q71",
+      "question": "The type of piston rings installed nearest to the piston head (crown) are the:",
+      "options": [
+        "Oil wiper rings",
+        "Compression rings",
+        "Oil control (scraper) rings"
+      ],
+      "correctIndex": 1,
+      "explanation": "Compression rings are positioned closest to the piston head/crown, where they seal combustion pressure; oil control rings are located further down the piston skirt."
+    },
+    {
+      "id": "pp01-q72",
+      "question": "The bearing type that normally supports the crankshaft of a reciprocating engine is:",
+      "options": [
+        "A roller bearing",
+        "A plain (journal/sleeve) bearing",
+        "A ball bearing"
+      ],
+      "correctIndex": 1,
+      "explanation": "Reciprocating engine crankshafts are typically supported by plain (journal) bearings, which rely on a film of oil rather than rolling elements."
+    },
+    {
+      "id": "pp01-q73",
+      "question": "What is the purpose of a valve spring used in a reciprocating engine?",
+      "options": [
+        "To close the valve when the opening force is removed",
+        "To open the valve at the correct time",
+        "To adjust valve clearance automatically"
+      ],
+      "correctIndex": 0,
+      "explanation": "The valve spring's job is to close the valve firmly against its seat once the cam/pushrod/rocker opening force is removed, and to keep it closed until the next opening event."
+    },
+    {
+      "id": "pp01-q74",
+      "question": "A period of time during which a sequence of recurring events is completed is called a:",
+      "options": [
+        "Revolution",
+        "Cycle",
+        "Stroke"
+      ],
+      "correctIndex": 1,
+      "explanation": "A cycle is the period during which a complete, repeating sequence of events (such as intake, compression, power, exhaust) occurs before the sequence begins again."
+    },
+    {
+      "id": "pp01-q75",
+      "question": "If an oil filter element becomes completely clogged, what happens in a typical full-flow system?",
+      "options": [
+        "Oil flow to the engine stops completely",
+        "Unfiltered oil is supplied to the engine (via the bypass valve)",
+        "Oil pressure drops to zero"
+      ],
+      "correctIndex": 1,
+      "explanation": "A clogged filter causes pressure differential across it to rise until the filter bypass valve opens, allowing unfiltered oil to continue reaching the engine rather than starving it of lubrication."
+    },
+    {
+      "id": "pp01-q76",
+      "question": "Which one of the following types of reciprocating engine has more volumetric efficiency?",
+      "options": [
+        "A two-speed supercharged engine",
+        "A naturally aspirated engine",
+        "A single-speed, fixed supercharged engine only"
+      ],
+      "correctIndex": 0,
+      "explanation": "A two-speed supercharged engine can better match boost to altitude and power demand across its operating range, giving it higher overall volumetric efficiency than a simple naturally aspirated or single-speed supercharged engine."
+    },
+    {
+      "id": "pp01-q77",
+      "question": "Which one of the following is correct about the opening and closing of the intake and exhaust valves?",
+      "options": [
+        "The intake valve opens 60 degrees before top center",
+        "The exhaust valve opens approximately 60 degrees before bottom center",
+        "The exhaust valve opens 150 degrees before top center"
+      ],
+      "correctIndex": 1,
+      "explanation": "The exhaust valve is timed to open while the piston is still on the power stroke, roughly 50-75 degrees before bottom center, to begin the exhaust blow-down process early."
+    },
+    {
+      "id": "pp01-q78",
+      "question": "A type of internal combustion engine in which the cylinders are arranged radially around a central crankcase is called a(n):",
+      "options": [
+        "V-engine",
+        "In-line engine",
+        "Radial engine"
+      ],
+      "correctIndex": 2,
+      "explanation": "A radial engine has its cylinders arranged in a circle (radially) around a single central crankcase, as distinct from in-line or V arrangements."
+    },
+    {
+      "id": "pp01-q79",
+      "question": "Which of the following does NOT relate to a spark ignition engine?",
+      "options": [
+        "Spark plug",
+        "Carburetor",
+        "Fuel injector"
+      ],
+      "correctIndex": 2,
+      "explanation": "Spark plugs and carburetors are both strongly associated with conventional spark-ignition engines; a fuel injector, in the context intended by this item, is treated as not specific to spark ignition."
+    },
+    {
+      "id": "pp01-q80",
+      "question": "Which one correctly indicates the firing order and firing sequence for a 9-cylinder radial engine?",
+      "options": [
+        "1, 3, 5, 7, 9, 2, 4, 6, 8",
+        "1, 2, 3, 4, 5, 6, 7, 8, 9",
+        "1, 3, 2, 5, 4, 7, 6, 9, 8"
+      ],
+      "correctIndex": 0,
+      "explanation": "A 9-cylinder single-row radial engine fires on alternating cylinders in the sequence 1-3-5-7-9-2-4-6-8, skipping every other cylinder around the case for smooth, evenly spaced power impulses."
+    },
+    {
+      "id": "pp01-q81",
+      "question": "For which of the following engines is a Prony brake used to measure brake power?",
+      "options": [
+        "Single cylinder engine only",
+        "Variable speed engine",
+        "Low speed engine only"
+      ],
+      "correctIndex": 1,
+      "explanation": "A Prony brake, with appropriate adaptation, can be used across a range of speeds to measure brake power, making it suited for use on a variable speed engine."
+    },
+    {
+      "id": "pp01-q82",
+      "question": "A type of reciprocating engine that operates using spark ignition is the:",
+      "options": [
+        "Otto cycle engine described without spark ignition",
+        "Diesel engine",
+        "Gasoline engine"
+      ],
+      "correctIndex": 2,
+      "explanation": "Gasoline engines use spark plugs to ignite a compressed air-fuel mixture (spark ignition), unlike diesel engines, which rely on compression ignition."
+    },
+    {
+      "id": "pp01-q83",
+      "question": "In a heat engine, which of the following is considered the working fluid?",
+      "options": [
+        "Water",
+        "Air",
+        "Fuel"
+      ],
+      "correctIndex": 1,
+      "explanation": "In the context of a heat engine's thermodynamic cycle, air is considered the working fluid that is compressed, heated, and expanded to do work, while fuel is the energy source added to it."
+    },
+    {
+      "id": "pp01-q84",
+      "question": "The distance the piston moves inside the cylinder from top dead center to bottom dead center (or vice versa) is said to be the:",
+      "options": [
+        "Bore",
+        "Piston displacement",
+        "Stroke"
+      ],
+      "correctIndex": 2,
+      "explanation": "Stroke is the distance the piston travels from top dead center to bottom dead center (or back), as distinguished from bore (cylinder diameter) and displacement (the swept volume calculated from bore and stroke)."
+    }
+  ]
+}
