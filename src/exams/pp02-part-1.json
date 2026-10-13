@@ -1,0 +1,1223 @@
+{
+  "id": "pp02-part-1",
+  "title": "PP02-part-1",
+  "module": "PP02-m1",
+  "course": "powerplant",
+  "category": "part",
+  "description": "Powerplant Module PP02 M1 practice exam covering gas turbine lubrication systems, oil pumps/filters/seals, compressor airflow control (VBV/VSV/TBV), turbine cooling and sealing air, and anti-icing.",
+  "durationMinutes": 150,
+  "totalQuestions": 110,
+  "color": "orange",
+  "questions": [
+    {
+      "id": "pp02p1-q1",
+      "question": "When compressor bleed air is used for inlet cowl anti-icing, what happens to EGT?",
+      "options": [
+        "EGT will rise",
+        "EGT remains unaffected",
+        "EGT will fall"
+      ],
+      "correctIndex": 0,
+      "explanation": "Diverting hot compressor bleed air for anti-icing reduces the air available for combustion/cooling and effectively increases engine load, causing EGT to rise."
+    },
+    {
+      "id": "pp02p1-q2",
+      "question": "The ability of oil to flow at a specific temperature is called:",
+      "options": [
+        "Flash point",
+        "Viscosity",
+        "Density"
+      ],
+      "correctIndex": 1,
+      "explanation": "Viscosity describes how easily (or how resistant) an oil is to flowing at a given temperature."
+    },
+    {
+      "id": "pp02p1-q3",
+      "question": "Any substance that has greasy or oily properties is called a:",
+      "options": [
+        "Coolant",
+        "Solvent",
+        "Lubricant"
+      ],
+      "correctIndex": 2,
+      "explanation": "A lubricant is, by definition, any substance with greasy or oily properties used to reduce friction between surfaces."
+    },
+    {
+      "id": "pp02p1-q4",
+      "question": "The effectiveness of an oil filter is measured by:",
+      "options": [
+        "Viscosity index",
+        "Micron (rating)",
+        "Flash point"
+      ],
+      "correctIndex": 1,
+      "explanation": "An oil filter's effectiveness is rated in microns, describing the smallest particle size it can reliably filter out."
+    },
+    {
+      "id": "pp02p1-q5",
+      "question": "The main (pressure) oil filter strains oil in which part of the lubrication system?",
+      "options": [
+        "Inside the oil tank only",
+        "At the inlet of the pump",
+        "At the outlet of the pump"
+      ],
+      "correctIndex": 2,
+      "explanation": "The main pressure filter is positioned at the outlet of the pressure pump, filtering oil before it is distributed under pressure to the engine's lubricated parts."
+    },
+    {
+      "id": "pp02p1-q6",
+      "question": "What type of oil system is usually used on a turbine engine?",
+      "options": [
+        "Total-loss oil system",
+        "Dry sump, pressure, spray system",
+        "Wet sump, splash system only"
+      ],
+      "correctIndex": 1,
+      "explanation": "Turbine engines typically use a dry-sump system with a pressure subsystem and spray jets/nozzles to deliver oil precisely to bearings and gears."
+    },
+    {
+      "id": "pp02p1-q7",
+      "question": "A type of oil that is artificially manufactured is called:",
+      "options": [
+        "Mineral oil",
+        "Animal-based oil",
+        "Synthetic oil"
+      ],
+      "correctIndex": 2,
+      "explanation": "Synthetic oil is chemically manufactured (artificially made) rather than refined directly from petroleum (mineral) or derived from animal sources."
+    },
+    {
+      "id": "pp02p1-q8",
+      "question": "In a spectrometric oil analysis program, the oil sample must be taken from:",
+      "options": [
+        "The oil tank and filter",
+        "Only the engine exhaust",
+        "Only the fuel tank"
+      ],
+      "correctIndex": 0,
+      "explanation": "Spectrometric oil samples are drawn from the oil system itself — the oil tank (and sometimes filter) — to analyze metal content reflecting engine wear."
+    },
+    {
+      "id": "pp02p1-q9",
+      "question": "Which of the following is NOT true about bearings?",
+      "options": [
+        "Plain bearings rely on an oil film rather than rolling elements",
+        "Roller bearings support highly axial loads",
+        "Ball bearings can support both radial and axial loads"
+      ],
+      "correctIndex": 1,
+      "explanation": "Roller bearings are designed primarily to support radial loads, not high axial (thrust) loads — ball bearings are generally better suited for combined radial and axial loading."
+    },
+    {
+      "id": "pp02p1-q10",
+      "question": "What is a secondary purpose of an engine's lubrication system?",
+      "options": [
+        "Combustion support",
+        "Cooling",
+        "Thrust production"
+      ],
+      "correctIndex": 1,
+      "explanation": "Beyond its primary purpose of reducing friction, an engine's lubrication system also serves a secondary purpose of carrying away heat (cooling) from bearings and gears."
+    },
+    {
+      "id": "pp02p1-q11",
+      "question": "Which one of the following is true about the LPTACC and HPTACC valves in a gas turbine engine's air system?",
+      "options": [
+        "Both valves are fully closed at startup",
+        "Both valves will not be fully closed",
+        "Only the LPTACC valve can be fully closed"
+      ],
+      "correctIndex": 1,
+      "explanation": "The LP and HP Turbine Active Clearance Control valves are managed so that neither is ever fully closed, ensuring some cooling/clearance control airflow is always available."
+    },
+    {
+      "id": "pp02p1-q12",
+      "question": "The air used to seal the engine's bearing chambers is taken from:",
+      "options": [
+        "HP compressor delivery air",
+        "The engine's service air bleed supply",
+        "Internal air tapping from the LP compressor stages"
+      ],
+      "correctIndex": 2,
+      "explanation": "Bearing chamber sealing air is tapped internally from the LP compressor stages, providing a lower-pressure air source suited to sealing without excessive leakage."
+    },
+    {
+      "id": "pp02p1-q13",
+      "question": "Inter-stage air seals in the front section of the turbine (for internal cooling) have:",
+      "options": [
+        "More restriction than the rear seals",
+        "Equal restriction to the rear seals",
+        "Less restriction than the rear seals"
+      ],
+      "correctIndex": 2,
+      "explanation": "Front inter-stage turbine air seals are designed with less restriction than the rear seals, matching the cooling air distribution needs across the turbine section."
+    },
+    {
+      "id": "pp02p1-q14",
+      "question": "Which pressure air source is commonly used to cool the turbine disks, blades, and vanes of a gas turbine engine?",
+      "options": [
+        "Low pressure air",
+        "High pressure air",
+        "Fan exhaust air"
+      ],
+      "correctIndex": 1,
+      "explanation": "High pressure compressor bleed air is commonly used to cool the hot-running turbine disks, blades, and vanes, since it is available at a pressure high enough to flow into the hot section."
+    },
+    {
+      "id": "pp02p1-q15",
+      "question": "Which one of the following is a solid lubricant?",
+      "options": [
+        "Mica",
+        "Grease",
+        "Ashless detergent oil"
+      ],
+      "correctIndex": 0,
+      "explanation": "Mica is a solid lubricant, used as a dry film lubricant in certain applications, unlike ashless detergent oil and grease, which are liquid/semi-liquid lubricants."
+    },
+    {
+      "id": "pp02p1-q16",
+      "question": "If a turbine engine lubrication system is not serviced soon after shutdown, the oil level in the tank may appear:",
+      "options": [
+        "The same as the actual amount",
+        "Less than the actual amount",
+        "More than the actual amount"
+      ],
+      "correctIndex": 1,
+      "explanation": "Right after shutdown, oil is still distributed throughout the engine (lines, bearings, sumps) and has not all drained back to the tank, so the tank may read lower than the true total oil quantity until it fully settles."
+    },
+    {
+      "id": "pp02p1-q17",
+      "question": "What prevents oil from seeping by gravity through the pump elements into the engine?",
+      "options": [
+        "Regulating valve",
+        "Anti-leakage valve",
+        "Drain valve"
+      ],
+      "correctIndex": 1,
+      "explanation": "An anti-leakage valve blocks oil from gravity-feeding through the pump and into the engine when the engine (and pump) is not running."
+    },
+    {
+      "id": "pp02p1-q18",
+      "question": "What is the primary purpose of the oil-to-fuel heat exchanger?",
+      "options": [
+        "To cool the oil",
+        "To cool the fuel",
+        "To heat the fuel only, with no effect on oil temperature"
+      ],
+      "correctIndex": 0,
+      "explanation": "The oil-to-fuel heat exchanger's primary purpose is to cool the hot engine oil, using the relatively cool fuel as a heat sink (which also conveniently warms the fuel)."
+    },
+    {
+      "id": "pp02p1-q19",
+      "question": "In a hot-tank, dry-sump lubrication system, the oil cooler is located in which subsystem?",
+      "options": [
+        "Supply subsystem",
+        "Pressure subsystem",
+        "Scavenge subsystem"
+      ],
+      "correctIndex": 1,
+      "explanation": "In a hot-tank dry-sump system, the oil cooler is positioned in the pressure subsystem, cooling the oil before it is delivered under pressure to the lubricated parts."
+    },
+    {
+      "id": "pp02p1-q20",
+      "question": "What component maintains the oil pump system pressure at the correct value?",
+      "options": [
+        "The filter bypass valve",
+        "The oil pressure relief valve",
+        "The oil cooler bypass valve"
+      ],
+      "correctIndex": 1,
+      "explanation": "The oil pressure relief valve regulates and maintains system oil pressure at the correct value by diverting excess oil flow back to the pump inlet or tank once a set pressure is reached."
+    },
+    {
+      "id": "pp02p1-q21",
+      "question": "Where is the location of the last-chance filters in a gas turbine engine's lubrication system?",
+      "options": [
+        "Pressure subsystem",
+        "Breather subsystem",
+        "Scavenge subsystem"
+      ],
+      "correctIndex": 0,
+      "explanation": "Last-chance filters are fitted in the pressure subsystem, immediately before oil spray jets/nozzles, providing a final filtration stage to protect those small orifices from blockage."
+    },
+    {
+      "id": "pp02p1-q22",
+      "question": "The type of separator that separates air from oil in the gearbox is known as a:",
+      "options": [
+        "Screen",
+        "De-oiler",
+        "De-aerator"
+      ],
+      "correctIndex": 1,
+      "explanation": "A de-oiler separates entrained oil out of the air being vented from the gearbox, before that air is released overboard through the breather."
+    },
+    {
+      "id": "pp02p1-q23",
+      "question": "Where does most of the heat absorbed by the oil in a turbine engine lubricating system come from?",
+      "options": [
+        "Turbine shaft bearings",
+        "Accessory gear box",
+        "Transfer gear box"
+      ],
+      "correctIndex": 0,
+      "explanation": "The turbine shaft bearings run in the hottest part of the engine and under the highest loads, making them the source of most of the heat absorbed by the circulating oil."
+    },
+    {
+      "id": "pp02p1-q24",
+      "question": "Most of the lubrication oil used in gas turbine engine lubrication systems is:",
+      "options": [
+        "Animal based oil",
+        "Synthetic oil",
+        "Mineral based oil"
+      ],
+      "correctIndex": 1,
+      "explanation": "Modern gas turbine engines almost universally use synthetic lubricating oils, which better withstand the high operating temperatures involved compared to mineral oils."
+    },
+    {
+      "id": "pp02p1-q25",
+      "question": "Which sub-system of the compressor airflow control system keeps water out of the HPC and prevents foreign object damage?",
+      "options": [
+        "The Variable bleed valve (VBV)",
+        "The Transient bleed valve (TBV)",
+        "The Variable stator vane (VSV)"
+      ],
+      "correctIndex": 0,
+      "explanation": "The variable bleed valve (VBV) bleeds off excess LP compressor air (and the water/debris it may carry) before it reaches the HPC, protecting it from water ingestion and FOD."
+    },
+    {
+      "id": "pp02p1-q26",
+      "question": "Most nose cowl anti-icing systems on gas turbine engines use air ducted from:",
+      "options": [
+        "Air from the APU",
+        "Hot exhaust of the engine",
+        "Compressor bleed air"
+      ],
+      "correctIndex": 2,
+      "explanation": "Nose cowl (inlet) anti-icing systems most commonly use hot compressor bleed air, ducted from the engine's own compressor stages, routed through the inlet lip."
+    },
+    {
+      "id": "pp02p1-q27",
+      "question": "When air is used for the engine inlet anti-icing system, it will cause:",
+      "options": [
+        "The EGT to fall and the specific fuel consumption and thrust to rise",
+        "The EGT and the specific fuel consumption to rise and the thrust to fall",
+        "The EGT to rise and the specific fuel consumption and thrust to rise together with no loss"
+      ],
+      "correctIndex": 1,
+      "explanation": "Bleeding air for inlet anti-icing reduces the air available for propulsion and increases engine load, which raises EGT and specific fuel consumption while reducing available thrust."
+    },
+    {
+      "id": "pp02p1-q28",
+      "question": "The air used to seal the engine bearing chambers is taken from:",
+      "options": [
+        "The engine's service air bleed supply",
+        "Internal air tapping from the LP compressor stages",
+        "HP compressor delivery air"
+      ],
+      "correctIndex": 1,
+      "explanation": "As with the earlier bearing-chamber sealing question, this air is tapped internally from the LP compressor stages rather than from HP delivery air or the service bleed supply."
+    },
+    {
+      "id": "pp02p1-q29",
+      "question": "For the compressor airflow control system, the EEC calculates the commanded VBV/VSV position as a function of:",
+      "options": [
+        "Engine speed and airplane data",
+        "Airplane data only",
+        "Engine speed only"
+      ],
+      "correctIndex": 0,
+      "explanation": "The EEC uses both engine speed and relevant airplane data (such as altitude/Mach) together to calculate the correct commanded VBV/VSV position for the current flight condition."
+    },
+    {
+      "id": "pp02p1-q30",
+      "question": "The cooling of the turbine rotor blade is used to prevent blade:",
+      "options": [
+        "Twist",
+        "Crack",
+        "Creep"
+      ],
+      "correctIndex": 2,
+      "explanation": "Turbine rotor blade cooling is primarily intended to prevent creep — the slow, permanent deformation that would otherwise occur from sustained high temperature and centrifugal stress."
+    },
+    {
+      "id": "pp02p1-q31",
+      "question": "The turbine case cooling air is ducted from:",
+      "options": [
+        "Only from compressor bleed air",
+        "Compressor bleed air and fan exhaust air",
+        "Only from fan exhaust air"
+      ],
+      "correctIndex": 1,
+      "explanation": "Turbine case cooling systems commonly use a mix of compressor bleed air and fan exhaust air, selected/blended to achieve the correct cooling effect for active clearance control."
+    },
+    {
+      "id": "pp02p1-q32",
+      "question": "Which component in the oil system pulls the oil to return after lubricating the gears and bearings?",
+      "options": [
+        "Oil pump (pressure pump)",
+        "Oil tank",
+        "Scavenge pump"
+      ],
+      "correctIndex": 2,
+      "explanation": "The scavenge pump draws (pulls) used oil back from the bearings and gears after lubrication, returning it to the oil tank, as distinct from the pressure pump, which pushes oil out to those components."
+    },
+    {
+      "id": "pp02p1-q33",
+      "question": "A spur gear type pump draws oil in and carries it:",
+      "options": [
+        "Through holes drilled in the gear teeth themselves",
+        "Between the teeth and then pressurizes it in the mesh",
+        "Around between the gear teeth and the casing"
+      ],
+      "correctIndex": 2,
+      "explanation": "A spur gear pump carries oil around the outside of the gears, trapped in the spaces between the gear teeth and the pump casing, from the inlet side to the outlet side."
+    },
+    {
+      "id": "pp02p1-q34",
+      "question": "Which one of the following is a lubricant requirement?",
+      "options": [
+        "High fire point",
+        "High pour point",
+        "Low flashpoint"
+      ],
+      "correctIndex": 0,
+      "explanation": "A good lubricant needs a high fire point (to resist igniting at engine operating temperatures), the opposite of a low flashpoint, and a low (not high) pour point so it still flows at cold temperatures."
+    },
+    {
+      "id": "pp02p1-q35",
+      "question": "What is the primary function of an engine lubricant?",
+      "options": [
+        "Cooling",
+        "Reducing friction",
+        "Performing and facilitating cleaning"
+      ],
+      "correctIndex": 1,
+      "explanation": "The primary function of an engine lubricant is reducing friction between moving parts; cooling and cleaning are important secondary functions."
+    },
+    {
+      "id": "pp02p1-q36",
+      "question": "A turbine engine lubrication system that carries all of the oil in the engine itself is called a:",
+      "options": [
+        "Hot tank system",
+        "Wet sump system",
+        "Dry sump system"
+      ],
+      "correctIndex": 1,
+      "explanation": "A wet sump system stores all of its oil within the engine itself (typically in the accessory gearbox sump), as opposed to a dry sump system, which uses a separate external oil tank."
+    },
+    {
+      "id": "pp02p1-q37",
+      "question": "The oil system pressure relief valve is usually positioned:",
+      "options": [
+        "Between the pressure pump and the pressure filter",
+        "Between the pressure filter and the oil cooler",
+        "Between the oil tank and the pressure pump"
+      ],
+      "correctIndex": 0,
+      "explanation": "The pressure relief valve is typically located right after the pressure pump, before the filter, so it can relieve excess pump output pressure immediately at the source."
+    },
+    {
+      "id": "pp02p1-q38",
+      "question": "Which one of the following is NOT true about a lubricant? It:",
+      "options": [
+        "Provides cleaning",
+        "Avoids friction",
+        "Provides cooling"
+      ],
+      "correctIndex": 1,
+      "explanation": "This item is marked (per the source) with 'avoids friction' as the statement that is NOT true, even though reducing friction is normally considered a lubricant's primary function — flagged here as worth double-checking against your course material."
+    },
+    {
+      "id": "pp02p1-q39",
+      "question": "Which lubricant type is NOT used for internal combustion (piston) engines?",
+      "options": [
+        "Animal lubricant",
+        "Mineral lubricant",
+        "Synthetic lubricant"
+      ],
+      "correctIndex": 0,
+      "explanation": "Animal-based lubricants are not used in internal combustion engines; approved lubricants are mineral (for piston engines) or synthetic (for turbine engines)."
+    },
+    {
+      "id": "pp02p1-q40",
+      "question": "Which pump has the greatest pumping capacity in a turbine engine lubrication system?",
+      "options": [
+        "Pressure pump",
+        "Supply pump",
+        "Scavenge pump"
+      ],
+      "correctIndex": 2,
+      "explanation": "The scavenge pump must handle a larger volume than the pressure pump, since the returning oil is mixed with air picked up from the bearing chambers, so it is built with greater pumping capacity."
+    },
+    {
+      "id": "pp02p1-q41",
+      "question": "When replacing a filter on an engine oil system, you must:",
+      "options": [
+        "Inspect and reuse the packing",
+        "Reuse the packing",
+        "Replace the packing"
+      ],
+      "correctIndex": 2,
+      "explanation": "Seal/packing rings (O-rings) on an oil filter should always be replaced with new ones when the filter is replaced, not reused, to ensure a proper seal."
+    },
+    {
+      "id": "pp02p1-q42",
+      "question": "An extension of the carbon residue test is the:",
+      "options": [
+        "Oxidation test",
+        "Corrosion and neutralization test",
+        "Ash test"
+      ],
+      "correctIndex": 2,
+      "explanation": "The ash test extends the carbon residue test by further analyzing the incombustible residue (ash content) left after the carbon residue test is performed."
+    },
+    {
+      "id": "pp02p1-q43",
+      "question": "Which parameter is desired for lubricating oil used on a gas turbine engine?",
+      "options": [
+        "High pour point",
+        "High cloud point",
+        "High viscosity index"
+      ],
+      "correctIndex": 2,
+      "explanation": "A high viscosity index (meaning viscosity changes very little with temperature) is a desired property for gas turbine lubricating oil; high pour point and high cloud point are both undesirable, since they indicate poor cold-flow properties."
+    },
+    {
+      "id": "pp02p1-q44",
+      "question": "What is the preferred maintenance action in the event of inadvertent mixing of incompatible lubricants?",
+      "options": [
+        "Flushing",
+        "Continuing to operate normally with no action required",
+        "Topping off with more of the original oil"
+      ],
+      "correctIndex": 0,
+      "explanation": "When incompatible lubricants are inadvertently mixed, the system should be flushed to remove the contaminated mixture before refilling with the correct, approved oil."
+    },
+    {
+      "id": "pp02p1-q45",
+      "question": "What factor affects magnetic friction (in a magnetic drag/eddy-current context)?",
+      "options": [
+        "Only oil viscosity",
+        "Only the surface area of the contact",
+        "Oil viscosity and surface area of the contact"
+      ],
+      "correctIndex": 2,
+      "explanation": "Magnetic friction in this context is affected by both the oil viscosity and the surface area of the contact, not by either factor alone."
+    },
+    {
+      "id": "pp02p1-q46",
+      "question": "Which seal is NOT used without compressor pressurizing air bleed?",
+      "options": [
+        "Carbon seals",
+        "Labyrinth seals",
+        "Rubbing seals"
+      ],
+      "correctIndex": 1,
+      "explanation": "Labyrinth seals rely on a controlled air pressure differential (from compressor bleed air) across their clearance to function as a seal, so they are not used without that pressurizing air supply."
+    },
+    {
+      "id": "pp02p1-q47",
+      "question": "Generally, which compressor bleed is used for the sealing function?",
+      "options": [
+        "High pressure compressor",
+        "Low pressure compressor",
+        "Intermediate compressor"
+      ],
+      "correctIndex": 1,
+      "explanation": "Low pressure compressor bleed air is generally used for sealing functions, since its lower pressure is better suited to sealing applications than the much higher HP compressor delivery air."
+    },
+    {
+      "id": "pp02p1-q48",
+      "question": "The Transient Bleed Valve (TBV) prevents:",
+      "options": [
+        "HPC stall during start and acceleration",
+        "HPC stall during start and deceleration",
+        "LPC stall during start and acceleration"
+      ],
+      "correctIndex": 0,
+      "explanation": "The TBV bleeds off excess HP compressor air during transient conditions like start and acceleration, preventing the HPC from stalling as it works to match changing airflow demands."
+    },
+    {
+      "id": "pp02p1-q49",
+      "question": "During engine start-up, what will be the position of the variable stator vanes (VSV) and variable bleed valve (VBV) respectively?",
+      "options": [
+        "Closed, closed",
+        "Open, open",
+        "Closed, open"
+      ],
+      "correctIndex": 2,
+      "explanation": "During start-up, the VSVs are closed (to reduce compressor airflow and help avoid stall) while the VBV is open (to bleed off excess air), matching the engine's low-speed operating needs."
+    },
+    {
+      "id": "pp02p1-q50",
+      "question": "The inlet cowl Thermal Anti-Icing (TAI) valve is:",
+      "options": [
+        "Pneumatically controlled and actuated",
+        "Electrically controlled and pneumatically actuated",
+        "Mechanically controlled and pneumatically actuated"
+      ],
+      "correctIndex": 1,
+      "explanation": "The TAI valve is electrically controlled (commanded) but uses pneumatic (bleed air) pressure to actually actuate/move the valve."
+    },
+    {
+      "id": "pp02p1-q51",
+      "question": "In a turbine case cooling system, if the cooling airflow rate increases:",
+      "options": [
+        "The turbine case is cooled and blade clearance increases",
+        "The turbine case expands and blade clearance decreases",
+        "The turbine case is cooled and blade clearance decreases"
+      ],
+      "correctIndex": 2,
+      "explanation": "Increased cooling airflow cools and contracts the turbine case, which reduces (tightens) the clearance between the case/shroud and the rotating turbine blades."
+    },
+    {
+      "id": "pp02p1-q52",
+      "question": "What does the button that pops out on an oil filter element tell the technician?",
+      "options": [
+        "That the filter is clogged",
+        "That the filter is new",
+        "That the filter has been removed"
+      ],
+      "correctIndex": 0,
+      "explanation": "A pop-out (bypass) indicator button signals that the filter element has become clogged enough that the bypass valve has opened, alerting the technician to replace it."
+    },
+    {
+      "id": "pp02p1-q53",
+      "question": "During engine starting, the variable bleed valves (VBV) are:",
+      "options": [
+        "Closed",
+        "Partially closed, cycling",
+        "Open"
+      ],
+      "correctIndex": 2,
+      "explanation": "During engine starting, the VBVs are open, bleeding off excess compressor air to help prevent compressor stall at low engine speeds."
+    },
+    {
+      "id": "pp02p1-q54",
+      "question": "Which one of the following is NOT a use of the engine air system cooling fan/disk?",
+      "options": [
+        "Sealing the bearing compartments",
+        "Cooling the turbine disks and blades",
+        "Cooling fan disk itself as a stated use"
+      ],
+      "correctIndex": 2,
+      "explanation": "Per the source material, 'cooling fan disk' is marked as the item that is NOT a genuine use/function being asked about in this question, as distinct from legitimate uses such as cooling turbine components or sealing bearing compartments."
+    },
+    {
+      "id": "pp02p1-q55",
+      "question": "A high viscosity index oil is one that:",
+      "options": [
+        "Must change its viscosity significantly with temperature",
+        "Must not change its viscosity appreciably with changes in its temperature",
+        "Has no measurable viscosity at any temperature"
+      ],
+      "correctIndex": 1,
+      "explanation": "A high viscosity index describes an oil whose viscosity stays relatively stable (does not change appreciably) across a range of operating temperatures, which is a desirable lubricant property."
+    },
+    {
+      "id": "pp02p1-q56",
+      "question": "The scavenge oil passes through a unit that separates air mixed into the return oil as it enters the oil tank. This unit is called a:",
+      "options": [
+        "De-oiler",
+        "Oil cooler",
+        "Deaerator"
+      ],
+      "correctIndex": 2,
+      "explanation": "A deaerator removes entrained air from the scavenge oil as it returns to the tank, preventing foaming and ensuring accurate oil quantity readings."
+    },
+    {
+      "id": "pp02p1-q57",
+      "question": "What is the function of the Transient Bleed Valve (TBV) system?",
+      "options": [
+        "It stores compressed air for engine restart in flight",
+        "It takes air from the fan and delivers it directly to the combustor",
+        "It takes air from the last stage compressor to the turbine section"
+      ],
+      "correctIndex": 2,
+      "explanation": "The TBV system bleeds air from the last compressor stage and routes it to the turbine section, helping to prevent compressor stall during transient operation."
+    },
+    {
+      "id": "pp02p1-q58",
+      "question": "At a high engine power setting, bleed air is typically tapped from the:",
+      "options": [
+        "Low pressure turbine",
+        "Low pressure compressor",
+        "High pressure compressor"
+      ],
+      "correctIndex": 1,
+      "explanation": "At high power settings, LP compressor bleed air is usually sufficient and preferred (to minimize the performance penalty), whereas HP compressor bleed is relied on more at lower power settings."
+    },
+    {
+      "id": "pp02p1-q59",
+      "question": "The oil pressure and scavenge pumps on a turbine engine are usually what type of pump?",
+      "options": [
+        "A spur-gear pump",
+        "A centrifugal pump",
+        "A piston (reciprocating) pump"
+      ],
+      "correctIndex": 0,
+      "explanation": "Turbine engine oil pressure and scavenge pumps are most commonly gear-type (spur-gear) positive-displacement pumps."
+    },
+    {
+      "id": "pp02p1-q60",
+      "question": "The color test (used to assess fuel or oil condition) is conducted with a device known as:",
+      "options": [
+        "An ASTM union colorimeter",
+        "A viscometer",
+        "A spectrometric oil analyzer"
+      ],
+      "correctIndex": 0,
+      "explanation": "The color test uses an ASTM union colorimeter, which visually compares a fluid sample's color against standard reference colors."
+    },
+    {
+      "id": "pp02p1-q61",
+      "question": "It may NOT be necessary to flush an engine oil system:",
+      "options": [
+        "When different types of lubricant oils were inadvertently mixed",
+        "When changing to another approved oil of a different brand",
+        "When servicing as per a scheduled interval"
+      ],
+      "correctIndex": 2,
+      "explanation": "A routine, scheduled oil service does not by itself require a full system flush; flushing is specifically called for when incompatible oils have been mixed or when changing to a different approved oil type."
+    },
+    {
+      "id": "pp02p1-q62",
+      "question": "Why are scavenge pump gears seen to be of larger capacity than pressure pump gears?",
+      "options": [
+        "Because the mass of oil increases upon heating",
+        "Because scavenge oil returns at a faster flow rate than pressure oil",
+        "To accommodate for the added air mass onto the scavenge system"
+      ],
+      "correctIndex": 2,
+      "explanation": "Scavenge pump gears are made larger to handle the combined volume of oil plus the air that becomes mixed into it in the bearing compartments, which the pressure pump does not need to handle."
+    },
+    {
+      "id": "pp02p1-q63",
+      "question": "An oil spectrometer is:",
+      "options": [
+        "A device used to identify the type/brand of oil",
+        "A device used to count (identify) metal contaminants in an oil",
+        "A device used to plot the trend of an engine's oil consumption"
+      ],
+      "correctIndex": 1,
+      "explanation": "An oil spectrometer analyzes an oil sample to identify and quantify trace metal particles, which indicate wear occurring inside the engine."
+    },
+    {
+      "id": "pp02p1-q64",
+      "question": "The 'Last Chance' thread filters in the oil distribution system are examined:",
+      "options": [
+        "During fault diagnosis only",
+        "During routine line maintenance",
+        "During engine overhaul"
+      ],
+      "correctIndex": 2,
+      "explanation": "Last-chance filters, being internal to the oil distribution lines near the spray nozzles, are typically examined during engine overhaul rather than routine line maintenance."
+    },
+    {
+      "id": "pp02p1-q65",
+      "question": "Which one of the following statements does NOT describe a viscosity requirement of GTE (gas turbine engine) oil?",
+      "options": [
+        "It should be as high as possible",
+        "It should be low enough to flow readily",
+        "It should be high enough to absorb stress loads"
+      ],
+      "correctIndex": 0,
+      "explanation": "GTE oil viscosity needs to be balanced — high enough to carry stress loads but low enough to flow readily at low temperatures — so 'as high as possible' with no upper bound does not correctly describe the requirement."
+    },
+    {
+      "id": "pp02p1-q66",
+      "question": "Which component in the oil system supplies oil under pressure to the parts to be lubricated?",
+      "options": [
+        "Oil tank",
+        "Scavenge pump",
+        "Oil pump (pressure pump)"
+      ],
+      "correctIndex": 2,
+      "explanation": "The pressure (oil) pump draws oil from the tank and delivers it under pressure to the bearings, gears, and other parts requiring lubrication."
+    },
+    {
+      "id": "pp02p1-q67",
+      "question": "Which of the following is the least important data point when taking an oil sample for a spectrometric oil analysis program?",
+      "options": [
+        "The time since the last oil sample was taken",
+        "Aircraft flight hours",
+        "Engine model and serial number"
+      ],
+      "correctIndex": 1,
+      "explanation": "While the time since the last sample and the engine model/S/N are important for trend analysis, total aircraft flight hours is comparatively the least important data point for interpreting a spectrometric oil sample."
+    },
+    {
+      "id": "pp02p1-q68",
+      "question": "Which one of the following is correct regarding regulations pertaining to the lubrication system?",
+      "options": [
+        "Oil tank fillers are not required to be marked at all",
+        "Each oil tank filler must be marked with the word 'oil'",
+        "There must be a shutoff valve at the inlet of each oil tank"
+      ],
+      "correctIndex": 1,
+      "explanation": "Regulations require that each oil tank filler opening be legibly marked with the word 'oil' to prevent inadvertent misservicing."
+    },
+    {
+      "id": "pp02p1-q69",
+      "question": "How do you specify whether an engine has a wet or a dry oil system?",
+      "options": [
+        "When the oil tank is not externally mounted, it is necessarily a wet tank system",
+        "To be called an oil system, oil must be contained submerging (surrounding) the accessory gears",
+        "On a dry tank system, the oil reservoir is located far from the engine"
+      ],
+      "correctIndex": 1,
+      "explanation": "A wet sump (oil) system is defined by the oil being contained within the engine itself, submerging/surrounding components like the accessory gears, rather than by the tank's mounting location alone."
+    },
+    {
+      "id": "pp02p1-q70",
+      "question": "On a modern gas turbine-powered aircraft, indications of the lubrication system are primarily displayed on which CDU/display?",
+      "options": [
+        "The primary engine display",
+        "The secondary engine display",
+        "The primary flight display"
+      ],
+      "correctIndex": 1,
+      "explanation": "Lubrication system parameters (oil pressure, temperature, quantity) are primarily shown on the secondary engine display, reserving the primary engine display for the most critical, always-visible parameters."
+    },
+    {
+      "id": "pp02p1-q71",
+      "question": "Which gas turbine sub-system schedules airflow in the amounts necessary to provide the optimum compressor pressure ratio at varying power settings?",
+      "options": [
+        "The variable bleed valve system",
+        "The turbine clearance control system",
+        "The variable stator vane system"
+      ],
+      "correctIndex": 1,
+      "explanation": "Per the source material, this item is marked with the turbine clearance control system as the answer — note this is worth double-checking against your course notes, since variable stator vanes/bleed valves are the systems more conventionally associated with scheduling compressor airflow."
+    },
+    {
+      "id": "pp02p1-q72",
+      "question": "The oil pressure in the oil cooler is:",
+      "options": [
+        "Lower than the fuel pressure",
+        "Higher than the fuel pressure",
+        "Exactly equal to the fuel pressure"
+      ],
+      "correctIndex": 1,
+      "explanation": "In a fuel/oil cooler, oil pressure is normally maintained higher than fuel pressure, so that any leak across the cooler sends oil into the fuel rather than fuel into the oil system."
+    },
+    {
+      "id": "pp02p1-q73",
+      "question": "A scavenge filter is incorporated in a gas turbine lubrication system to:",
+      "options": [
+        "Protect the turbine bearings directly",
+        "Remove water from the fuel system",
+        "Protect the pressure pump"
+      ],
+      "correctIndex": 2,
+      "explanation": "The scavenge filter removes debris from the returning oil before it reaches the pressure pump, protecting that pump from damage."
+    },
+    {
+      "id": "pp02p1-q74",
+      "question": "The working fluid of a constant speed drive (CSD) is:",
+      "options": [
+        "Contained within the unit itself",
+        "Shared with the engine's main lubrication system",
+        "Supplied externally from the aircraft's hydraulic system"
+      ],
+      "correctIndex": 0,
+      "explanation": "CSDs and IDGs (Integrated Drive Generators) have their own self-contained oil system, separate from the engine's main lubrication system."
+    },
+    {
+      "id": "pp02p1-q75",
+      "question": "What is a possible cause when a turbine engine indicates no change in power setting parameters, but oil temperature is high?",
+      "options": [
+        "Low cabin altitude",
+        "Engine main bearing distress",
+        "A faulty fuel flow indicator"
+      ],
+      "correctIndex": 1,
+      "explanation": "Rising oil temperature with no change in the normal power/parameter indications can point to developing main bearing distress, generating extra friction heat absorbed by the oil."
+    },
+    {
+      "id": "pp02p1-q76",
+      "question": "How is engine oil usually cooled?",
+      "options": [
+        "It is not actively cooled; it relies on radiation alone",
+        "By a fuel/oil cooler (heat exchanger)",
+        "By a dedicated air-conditioning pack"
+      ],
+      "correctIndex": 1,
+      "explanation": "Engine oil is most commonly cooled by a fuel/oil heat exchanger, which transfers heat from the hot oil into the cooler fuel."
+    },
+    {
+      "id": "pp02p1-q77",
+      "question": "What filters are used to protect oil pressure spray jets?",
+      "options": [
+        "Felt filters",
+        "Paper cartridge filters",
+        "In-line thread filters"
+      ],
+      "correctIndex": 2,
+      "explanation": "In-line thread (last-chance) filters are positioned right before the oil spray jets/nozzles to catch any debris that could otherwise clog these small, critical orifices."
+    },
+    {
+      "id": "pp02p1-q78",
+      "question": "The chip detector in the oil system is a:",
+      "options": [
+        "Mechanical float switch in the oil tank",
+        "Nonmagnetic strainer in the pressure line",
+        "Magnetic plug in the return (scavenge) line"
+      ],
+      "correctIndex": 2,
+      "explanation": "A chip detector is a magnetic plug fitted in the scavenge (return oil) line, which attracts and collects ferrous metal particles for inspection."
+    },
+    {
+      "id": "pp02p1-q79",
+      "question": "When rotating, a gerotor-type oil pump:",
+      "options": [
+        "Uses centrifugal force alone to move oil with no gear elements",
+        "Compresses oil directly between two pistons",
+        "Draws oil into the pump and carries it round between the gear teeth and the casing"
+      ],
+      "correctIndex": 2,
+      "explanation": "A gerotor (internal gear) pump draws oil in and carries it around between the inner and outer gear elements and the casing before discharging it at the outlet."
+    },
+    {
+      "id": "pp02p1-q80",
+      "question": "In a jet engine that uses a fuel-oil heat exchanger, the oil temperature is controlled by a thermostatic valve that regulates the flow of:",
+      "options": [
+        "Oil through the heat exchanger",
+        "Air through the oil tank breather",
+        "Fuel through the combustor"
+      ],
+      "correctIndex": 0,
+      "explanation": "A thermostatic valve regulates how much oil is routed through the fuel-oil heat exchanger, controlling oil temperature by varying that flow."
+    },
+    {
+      "id": "pp02p1-q81",
+      "question": "What is the purpose of the last-chance oil filters?",
+      "options": [
+        "To prevent damage to the oil spray nozzle",
+        "To filter all of the engine's oil supply at the pressure pump inlet",
+        "To remove air from the scavenge oil"
+      ],
+      "correctIndex": 0,
+      "explanation": "Last-chance filters provide a final, fine filtration stage immediately before the oil spray nozzles, protecting these small, easily clogged orifices from damage."
+    },
+    {
+      "id": "pp02p1-q82",
+      "question": "Which of the following is a function of the fuel-oil heat exchanger on a turbojet engine?",
+      "options": [
+        "It has no effect on fuel temperature",
+        "It increases fuel temperature",
+        "It decreases fuel temperature"
+      ],
+      "correctIndex": 1,
+      "explanation": "As the fuel-oil heat exchanger cools the hot oil, it correspondingly increases the temperature of the fuel passing through it, which also helps prevent fuel icing."
+    },
+    {
+      "id": "pp02p1-q83",
+      "question": "At cruise RPM, some oil flows through the relief valve of a gear-type engine oil pump. This is normal because the relief valve is set at a pressure which is:",
+      "options": [
+        "Higher than the pressure pump's capabilities",
+        "Lower than the pressure pump's capabilities",
+        "Exactly equal to the pressure pump's maximum output"
+      ],
+      "correctIndex": 1,
+      "explanation": "The relief valve is set below the pump's maximum output capability, so at cruise RPM some excess oil routinely bypasses through the relief valve, which is a normal condition."
+    },
+    {
+      "id": "pp02p1-q84",
+      "question": "What will happen to the return oil if the oil line between the scavenge pump and the oil cooler separates?",
+      "options": [
+        "All returning oil will be lost overboard with no safeguard",
+        "The pressure pump will immediately shut down",
+        "The scavenger return line check valve will close and force the oil to bypass directly to the intake side of the pressure pump"
+      ],
+      "correctIndex": 2,
+      "explanation": "A check valve in the scavenge return line closes if that line separates, redirecting oil to bypass directly to the pressure pump's intake side rather than being lost."
+    },
+    {
+      "id": "pp02p1-q85",
+      "question": "The oil-dampened main bearing utilized in some turbine engines is used to:",
+      "options": [
+        "Increase bearing stiffness to eliminate all clearance",
+        "Provide an oil film between the outer race and the bearing housing to reduce vibration and allow for slight misalignment",
+        "Eliminate the need for any bearing lubrication"
+      ],
+      "correctIndex": 1,
+      "explanation": "An oil-dampened bearing mounting uses a thin oil film between the bearing's outer race and its housing to absorb vibration and tolerate slight shaft misalignment."
+    },
+    {
+      "id": "pp02p1-q86",
+      "question": "After making a welded repair to a pressurized-type turbine engine oil tank, the tank should be pressure checked to:",
+      "options": [
+        "50% of the tank's maximum operating pressure",
+        "Not less than 5 PSI plus the maximum operating pressure of the tank",
+        "Exactly the tank's maximum operating pressure, no more"
+      ],
+      "correctIndex": 1,
+      "explanation": "A welded repair on a pressurized oil tank must be pressure tested to at least 5 PSI above the tank's maximum operating pressure, providing a safety margin above normal operation."
+    },
+    {
+      "id": "pp02p1-q87",
+      "question": "Ferrous metal particles in turbine engine oil cause an electrical (indicating-type) magnetic chip detector to indicate their presence by:",
+      "options": [
+        "Triggering a float switch inside the detector housing",
+        "Blocking oil flow through the detector entirely",
+        "Bridging the gap between the detector's center (positive) electrode and the ground electrode"
+      ],
+      "correctIndex": 2,
+      "explanation": "Ferrous particles are attracted magnetically and bridge the small gap between the chip detector's center electrode and ground electrode, completing a circuit that triggers the indication."
+    },
+    {
+      "id": "pp02p1-q88",
+      "question": "What would be the probable result if the oil system pressure relief valve stuck in the open position on a turbine engine?",
+      "options": [
+        "No noticeable effect on the system",
+        "A sudden spike in oil pressure well above normal",
+        "Decreased oil pressure (the source states decreased oil temperature as the effect noted)"
+      ],
+      "correctIndex": 2,
+      "explanation": "A relief valve stuck open continuously bypasses oil flow, which the source material associates with a resulting decrease in oil temperature, since more oil is being recirculated rather than doing useful work under pressure."
+    },
+    {
+      "id": "pp02p1-q89",
+      "question": "Low oil pressure can be detrimental to internal engine components. However, high oil pressure should be:",
+      "options": [
+        "Limited to the engine manufacturer's recommendations",
+        "Ignored, since high oil pressure carries no risk",
+        "Allowed to rise as high as the pump will produce"
+      ],
+      "correctIndex": 0,
+      "explanation": "While low pressure risks inadequate lubrication, excessively high oil pressure also carries risk (seal/line damage), so it should always be limited to the engine manufacturer's specified recommendations."
+    },
+    {
+      "id": "pp02p1-q90",
+      "question": "What is the primary purpose of the oil breather pressurization system used on turbine engines?",
+      "options": [
+        "Increases oil pressure throughout the system",
+        "Cools the returning scavenge oil",
+        "Prevents foaming of the oil"
+      ],
+      "correctIndex": 2,
+      "explanation": "Pressurizing the breather system raises the ambient pressure around the oil, which helps prevent the oil from foaming as entrained air is released."
+    },
+    {
+      "id": "pp02p1-q91",
+      "question": "How are the teeth of the gears in the accessory section of an engine normally lubricated?",
+      "options": [
+        "By grease packed into each gear mesh",
+        "They are not lubricated; they run dry by design",
+        "By splashed or sprayed oil"
+      ],
+      "correctIndex": 2,
+      "explanation": "Accessory gearbox gear teeth are normally lubricated by oil that is splashed or sprayed onto them as the gears rotate, rather than by a dedicated pressure feed to each mesh point."
+    },
+    {
+      "id": "pp02p1-q92",
+      "question": "Manufacturers normally require turbine engine oil servicing within a short time after engine shutdown primarily to:",
+      "options": [
+        "Prevent over-servicing (overfilling)",
+        "Allow maximum time for the oil to drain into the tank",
+        "Ensure the oil has fully cooled before checking"
+      ],
+      "correctIndex": 0,
+      "explanation": "Checking and servicing oil soon after shutdown (before oil distributed through the engine fully drains back) helps avoid an inaccurate reading that would lead to overfilling (over-servicing) the tank."
+    },
+    {
+      "id": "pp02p1-q93",
+      "question": "In order to relieve excessive pump pressure in an engine's internal oil system, most engines are equipped with a:",
+      "options": [
+        "Filter bypass valve",
+        "Relief valve",
+        "Check valve"
+      ],
+      "correctIndex": 1,
+      "explanation": "A pressure relief valve is fitted to bypass excess oil flow and limit maximum system pressure, protecting the oil system from over-pressurization."
+    },
+    {
+      "id": "pp02p1-q94",
+      "question": "The type of oil pumps most commonly used on turbine engines are classified as:",
+      "options": [
+        "Vane-type dynamic",
+        "Centrifugal",
+        "Positive displacement"
+      ],
+      "correctIndex": 2,
+      "explanation": "Turbine engine oil pumps (gear or gerotor type) are positive-displacement pumps, delivering a fixed volume of oil per revolution regardless of outlet pressure (within limits)."
+    },
+    {
+      "id": "pp02p1-q95",
+      "question": "If the oil in the oil cooler core and annular jacket becomes congealed, what unit prevents damage to the cooler?",
+      "options": [
+        "The scavenge check valve",
+        "The fuel shutoff valve",
+        "The oil pressure relief valve"
+      ],
+      "correctIndex": 2,
+      "explanation": "If congealed (thickened, cold) oil restricts flow through the cooler, the oil pressure relief valve opens to bypass flow around the blockage, preventing damaging pressure buildup in the cooler."
+    },
+    {
+      "id": "pp02p1-q96",
+      "question": "What will result if an oil filter becomes completely blocked?",
+      "options": [
+        "The engine will immediately shut down automatically",
+        "Oil will continue to flow at the normal rate through the system (via the bypass valve, unfiltered)",
+        "Oil flow to the engine will stop completely"
+      ],
+      "correctIndex": 1,
+      "explanation": "A full-flow oil filter's bypass valve opens when the filter is completely blocked, allowing oil (now unfiltered) to continue flowing to the engine at essentially the normal rate rather than starving it."
+    },
+    {
+      "id": "pp02p1-q97",
+      "question": "A turbine engine dry-sump lubrication system of the self-contained, high-pressure design consists of:",
+      "options": [
+        "Pressure and scavenge subsystems only, with no breather",
+        "Pressure, breather, and scavenge subsystems",
+        "A single combined subsystem handling all functions"
+      ],
+      "correctIndex": 1,
+      "explanation": "A self-contained, high-pressure dry-sump system is organized into three subsystems: pressure (supply), breather (venting), and scavenge (return)."
+    },
+    {
+      "id": "pp02p1-q98",
+      "question": "What is the primary purpose of the hopper located in the oil supply tank of some dry-sump engine installations?",
+      "options": [
+        "To store a backup supply of oil for emergency use",
+        "To filter all returning scavenge oil",
+        "To reduce the time required to warm the oil to operating temperature"
+      ],
+      "correctIndex": 2,
+      "explanation": "A hopper within the oil tank concentrates a smaller volume of oil for the pump to draw from initially, letting that oil reach operating temperature more quickly than the full tank volume would."
+    },
+    {
+      "id": "pp02p1-q99",
+      "question": "What determines the minimum particle size which will be excluded (filtered) by a Cuno-type (stacked disc, edge filtration) filter?",
+      "options": [
+        "The spacer thickness",
+        "The overall filter housing diameter",
+        "The number of discs stacked in the filter"
+      ],
+      "correctIndex": 0,
+      "explanation": "In a Cuno-type edge filter, the thickness of the spacers between the stacked discs determines the width of the filtering gap, and therefore the minimum particle size excluded."
+    },
+    {
+      "id": "pp02p1-q100",
+      "question": "A full-flow oil system has:",
+      "options": [
+        "A constant oil pressure regardless of throttle setting",
+        "No pressure relief valve of any kind",
+        "A variable oil pressure dependent upon throttle setting"
+      ],
+      "correctIndex": 2,
+      "explanation": "A full-flow system does not have a pressure-regulating valve, only a maximum pressure relief valve for safety, so its oil pressure varies with throttle/RPM setting rather than staying constant."
+    },
+    {
+      "id": "pp02p1-q101",
+      "question": "A felt filter in an oil lubrication system should be:",
+      "options": [
+        "Cleaned with solvent and reused",
+        "Removed and replaced with a new filter element",
+        "Reinstalled after a visual inspection only"
+      ],
+      "correctIndex": 1,
+      "explanation": "Felt filter elements are not cleanable/reusable; when due for service, they must be removed and replaced with a new element."
+    },
+    {
+      "id": "pp02p1-q102",
+      "question": "What filter is used in an oil scavenge pump on the inlet side of the pump?",
+      "options": [
+        "A paper cartridge filter",
+        "A wire mesh filter",
+        "A felt filter"
+      ],
+      "correctIndex": 1,
+      "explanation": "A wire mesh (screen) filter is typically used on the inlet side of a scavenge pump to catch larger debris before it can damage the pump, while finer filtration happens downstream."
+    },
+    {
+      "id": "pp02p1-q103",
+      "question": "A vane-type oil pump's output is controlled by:",
+      "options": [
+        "Outlet pressure acting against spring pressure",
+        "Engine RPM alone, with no other control",
+        "A dedicated electric solenoid valve"
+      ],
+      "correctIndex": 0,
+      "explanation": "In a vane-type pump, the output is self-regulated as outlet pressure acts against a spring-loaded control mechanism, adjusting vane position/eccentricity to limit output."
+    },
+    {
+      "id": "pp02p1-q104",
+      "question": "The sump in a dry-sump oil system:",
+      "options": [
+        "Also functions as the main oil cooler",
+        "Is used as a collecting point only",
+        "Is the primary oil storage reservoir"
+      ],
+      "correctIndex": 1,
+      "explanation": "In a dry-sump system, oil is scavenged back to the separate external reservoir, so the engine sump itself serves only as a collecting point, not as the main oil storage reservoir."
+    },
+    {
+      "id": "pp02p1-q105",
+      "question": "A jet engine gearbox breather is prevented from leaking oil to atmosphere by the action of:",
+      "options": [
+        "A simple vented cap with no moving parts",
+        "A spring-loaded poppet valve alone",
+        "An impeller (de-oiler) and centrifugal force"
+      ],
+      "correctIndex": 2,
+      "explanation": "The breather incorporates a rotating impeller (de-oiler) that uses centrifugal force to separate entrained oil from the vented air before it is released, preventing oil loss overboard."
+    },
+    {
+      "id": "pp02p1-q106",
+      "question": "The air-cooled oil cooler has an anti-surge (pressure relief bypass) valve in order to:",
+      "options": [
+        "Protect the cooler",
+        "Prevent the cooler from overheating the fuel",
+        "Increase cooling efficiency at low airspeed"
+      ],
+      "correctIndex": 0,
+      "explanation": "The valve (sometimes loosely called an 'anti-surge' valve, though it functions as an oil pressure relief bypass) protects the cooler core from damage due to excessive pressure, such as from cold, congealed oil."
+    },
+    {
+      "id": "pp02p1-q107",
+      "question": "A thread-type oil seal in a lubrication system:",
+      "options": [
+        "Uses a spinning thread to actively pump oil away from the seal face",
+        "Has a thread on a stationary portion to prevent fluid leaks",
+        "Relies entirely on an elastomer O-ring with no threaded feature"
+      ],
+      "correctIndex": 1,
+      "explanation": "A thread-type seal incorporates a fine thread machined onto a stationary part, which works (sometimes combined with rotation) to resist and prevent oil leakage past the seal."
+    },
+    {
+      "id": "pp02p1-q108",
+      "question": "The oil system generally used on most modern turboprop engines is the:",
+      "options": [
+        "Wet sump type",
+        "Dry sump type",
+        "Total-loss type"
+      ],
+      "correctIndex": 1,
+      "explanation": "Most modern turboprop engines use a dry-sump oil system, similar to turbojet/turbofan engines, with a separate external oil tank."
+    },
+    {
+      "id": "pp02p1-q109",
+      "question": "A spur gear pump operating in a lubrication system promotes:",
+      "options": [
+        "Low flow at high pressure",
+        "Equal flow and pressure at all times",
+        "High flow at low pressure"
+      ],
+      "correctIndex": 0,
+      "explanation": "Spur gear pumps are well suited to delivering relatively low flow rates at high pressure, which matches typical engine lubrication system requirements."
+    },
+    {
+      "id": "pp02p1-q110",
+      "question": "How is a lubrication fluid line typically identified?",
+      "options": [
+        "By the word 'oil' followed by circles",
+        "By a plain yellow stripe with no text",
+        "By the word 'lubrication' followed by squares"
+      ],
+      "correctIndex": 2,
+      "explanation": "Per standard fluid line identification marking, a lubrication line is labeled with the word 'lubrication' followed by a series of square symbols along its length."
+    }
+  ]
+}
