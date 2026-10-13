@@ -1,0 +1,728 @@
+{
+  "id": "pp03-part-2-new",
+  "title": "PP03-part-2(NEW)",
+  "module": "PP03-m2(new)",
+  "course": "powerplant",
+  "category": "part",
+  "description": "Powerplant Module 2 (PP03 M2) practice exam, expanded edition, covering light-aircraft and turboprop propeller systems (Hartzell / Hamilton Standard hydromatic), feathering/unfeathering, Alpha/Beta mode operation, propeller inspection, vibration, balancing, servicing, storage, and troubleshooting/repair.",
+  "durationMinutes": 95,
+  "totalQuestions": 65,
+  "color": "orange",
+  "questions": [
+    {
+      "id": "pp03new-q1",
+      "question": "Constant speed non-feathering propellers without counterweights, like Hartzell and other propellers of similar design, increase pitch angle using:",
+      "options": [
+        "Spring pressure",
+        "Governor oil pressure",
+        "Centrifugal twisting moment"
+      ],
+      "correctIndex": 1,
+      "explanation": "In non-counterweighted constant-speed, non-feathering propellers, governor oil pressure acting on the piston is what increases blade pitch angle."
+    },
+    {
+      "id": "pp03new-q2",
+      "question": "The type of mounting used in Hartzell propellers is:",
+      "options": [
+        "Tapered shaft mounting",
+        "Splined shaft mounting",
+        "Flanged mounting"
+      ],
+      "correctIndex": 2,
+      "explanation": "Hartzell propellers are typically mounted to the engine crankshaft flange using a flanged mounting arrangement."
+    },
+    {
+      "id": "pp03new-q3",
+      "question": "Centrifugal force acting on blade counterweights of most Hartzell aluminum and steel hub propeller models is used to:",
+      "options": [
+        "Increase blade pitch",
+        "Increase engine RPM",
+        "Decrease blade pitch"
+      ],
+      "correctIndex": 0,
+      "explanation": "Counterweights are positioned so centrifugal force throws them outward, which twists the blades toward a higher (increased) pitch angle."
+    },
+    {
+      "id": "pp03new-q4",
+      "question": "Constant speed, non-feathering propellers such as Hartzell and others with similar design, without counterweights, increase pitch angle using:",
+      "options": [
+        "Governor oil pressure",
+        "Spring pressure",
+        "Centrifugal twisting moment"
+      ],
+      "correctIndex": 0,
+      "explanation": "Without counterweights, governor oil pressure delivered to the propeller piston is the force that drives the blades toward higher pitch."
+    },
+    {
+      "id": "pp03new-q5",
+      "question": "The hydraulic cylinder of a Hartzell propeller, which provides power for changing the pitch, is mounted on:",
+      "options": [
+        "The aft of the hub",
+        "Inside of the hub",
+        "The front of the hub"
+      ],
+      "correctIndex": 2,
+      "explanation": "On Hartzell-type propellers, the pitch-change hydraulic cylinder is mounted on the front of the propeller hub."
+    },
+    {
+      "id": "pp03new-q6",
+      "question": "In constant speed, feathering Hartzell propellers, what force attempts to rotate the blades to a higher blade angle?",
+      "options": [
+        "Spring and counterweight forces",
+        "Blade aerodynamic twisting force",
+        "Blade centrifugal twisting moment"
+      ],
+      "correctIndex": 0,
+      "explanation": "In counterweighted feathering Hartzell propellers, spring force combined with counterweight centrifugal force drives the blades toward feather (higher angle); governor oil pressure opposes this to hold a lower, constant-speed angle."
+    },
+    {
+      "id": "pp03new-q7",
+      "question": "The linear motion of the hydraulically actuated piston in constant speed feathering propellers is transmitted through:",
+      "options": [
+        "Pinion and rack gear",
+        "Bearing and a fork",
+        "A pitch change rod and fork"
+      ],
+      "correctIndex": 2,
+      "explanation": "The piston's linear motion is converted to blade rotation through a pitch-change rod and fork (cam) arrangement acting on the blade shank."
+    },
+    {
+      "id": "pp03new-q8",
+      "question": "How is the centrifugal force of the blades transmitted to the hub spider?",
+      "options": [
+        "Through blade clamps and then through ball bearings",
+        "Through the mounting stud of the propeller hub",
+        "Through the pitch change rod and blade clamps"
+      ],
+      "correctIndex": 0,
+      "explanation": "Blade centrifugal loads pass through the blade clamps and then through the thrust (ball) bearings into the hub spider, which carries the load to the engine shaft."
+    },
+    {
+      "id": "pp03new-q9",
+      "question": "How is feathering accomplished in Hartzell counterweighted feathering propellers?",
+      "options": [
+        "By supplying the governor oil pressure, allowing the counterweights and feathering spring to feather the blades",
+        "By releasing the engine pump oil pressure, allowing the counterweights and feathering spring to feather the blades",
+        "By releasing the governor oil pressure, allowing the counterweights and feathering spring to feather the blades"
+      ],
+      "correctIndex": 2,
+      "explanation": "Feathering occurs when governor oil pressure is released (drained) from the propeller piston, allowing the counterweight and spring forces to rotate the blades to the feathered position."
+    },
+    {
+      "id": "pp03new-q10",
+      "question": "How is the oil from the governor of a Hartzell constant speed feathering propeller supplied to the hydraulic piston?",
+      "options": [
+        "Through a lubricating fitting of the hub",
+        "Through a pipe line to the propeller hub",
+        "Through a hollow engine shaft"
+      ],
+      "correctIndex": 2,
+      "explanation": "Governor oil is routed through a hollow engine (crankshaft) shaft into the rotating propeller assembly to reach the hydraulic piston."
+    },
+    {
+      "id": "pp03new-q11",
+      "question": "If governor-supplied oil is lost during operation, what will happen to the pitch angle of the blades of the propeller?",
+      "options": [
+        "Decreases pitch and unfeathers",
+        "Increases pitch and feathers",
+        "Decreases pitch and RPM"
+      ],
+      "correctIndex": 1,
+      "explanation": "Loss of governor oil pressure removes the force holding the blades at a lower angle, so the counterweights and feathering spring drive the blades toward higher pitch and full feather."
+    },
+    {
+      "id": "pp03new-q12",
+      "question": "Engine shutdown is normally accomplished during:",
+      "options": [
+        "The feathering process",
+        "The unfeathering process",
+        "Constant speed operation"
+      ],
+      "correctIndex": 0,
+      "explanation": "Engines equipped with feathering propellers are normally shut down with the propeller feathered (or feathering), rather than left windmilling or at constant-speed governing."
+    },
+    {
+      "id": "pp03new-q13",
+      "question": "What prevents the feathering spring and counterweights from feathering the propeller when the engine is shut down?",
+      "options": [
+        "Automatically removable low pitch stops",
+        "Automatically removable high-pitch stops",
+        "Resistance of governor oil pressure"
+      ],
+      "correctIndex": 1,
+      "explanation": "Mechanical high-pitch (feathering) stops hold the blades out of the feather position when the engine is shut down normally; they are automatically removed from the travel path only when feathering is actually commanded."
+    },
+    {
+      "id": "pp03new-q14",
+      "question": "What happens to the propeller if the condition lever (pitch control) of a Hartzell constant speed feathering propeller is pulled back to the limit of its travel?",
+      "options": [
+        "Feathered by supplying governor oil pressure to the piston",
+        "Reduce blade pitch angle by releasing oil pressure from the piston",
+        "Feathered by releasing governor oil pressure from the piston"
+      ],
+      "correctIndex": 2,
+      "explanation": "Pulling the condition lever fully aft commands feather by releasing (draining) governor oil pressure from the propeller piston, letting spring and counterweight force feather the blades."
+    },
+    {
+      "id": "pp03new-q15",
+      "question": "During normal in-flight unfeathering, what will happen if the propeller condition lever is positioned into the normal flight range?",
+      "options": [
+        "Reconnect the governed oil to supply line from the governor.",
+        "Causes the governor to connect the propeller oil supply to the drain",
+        "Causes the governor to connect the governed oil to the drain"
+      ],
+      "correctIndex": 0,
+      "explanation": "Moving the condition lever back into the normal flight range reconnects governed oil supply from the governor to the propeller piston, driving the blades out of feather."
+    },
+    {
+      "id": "pp03new-q16",
+      "question": "In general, among the types of restarting and unfeathering systems of propellers, which one of the following will take longer time to restart the engine?",
+      "options": [
+        "Accumulator unfeathering",
+        "Reciprocating engine restart unfeathering",
+        "Turboprop engine restart unfeathering"
+      ],
+      "correctIndex": 1,
+      "explanation": "Restarting a reciprocating engine to drive oil pressure back up for unfeathering takes considerably longer than accumulator-assisted or turboprop unfeathering methods."
+    },
+    {
+      "id": "pp03new-q17",
+      "question": "Among the unfeathering methods implemented in light aircraft, which one of the following is used in light training aircraft?",
+      "options": [
+        "Governor pump system",
+        "Air-oil accumulator pressure",
+        "Feathering pump"
+      ],
+      "correctIndex": 1,
+      "explanation": "Light training aircraft commonly use an air-oil accumulator, which stores pressurized oil to unfeather the propeller without needing the engine running first."
+    },
+    {
+      "id": "pp03new-q18",
+      "question": "What is the function of special unfeathering systems using an air-oil accumulator available for certain aircraft?",
+      "options": [
+        "To supply oil to the propeller pitch changing system piston",
+        "To drain oil from the pitch changing system piston",
+        "To transfer oil from the pitch changing system piston to the accumulator"
+      ],
+      "correctIndex": 0,
+      "explanation": "The air-oil accumulator stores oil under pressure so it can supply oil directly to the pitch-change piston, unfeathering the propeller without relying on engine-driven oil pressure."
+    },
+    {
+      "id": "pp03new-q19",
+      "question": "What is the function of the reduction gear assembly in turboprop aircraft?",
+      "options": [
+        "Reduce the high rpm from the engine to a propeller rpm",
+        "Reduce the power of the engine to maintain constant RPM",
+        "Increase the propeller thrust during the takeoff"
+      ],
+      "correctIndex": 0,
+      "explanation": "The reduction gearbox steps down the high rotational speed of the turbine/power section to the much lower RPM suited to an efficient propeller."
+    },
+    {
+      "id": "pp03new-q20",
+      "question": "Which of the following is incorrect regarding the function of the propeller brake? It is designed to:",
+      "options": [
+        "Maintain propeller rpm without exceeding the maximum propeller tip speed",
+        "Prevent windmilling when the propeller is feathered in flight after engine failure",
+        "Decrease the time for the propeller to come to a complete stop after engine shutdown"
+      ],
+      "correctIndex": 0,
+      "explanation": "Maintaining RPM within tip-speed limits is the job of the governor/control system, not the propeller brake; the brake's job is to prevent windmilling after feathering and to stop the propeller quickly after shutdown."
+    },
+    {
+      "id": "pp03new-q21",
+      "question": "For ground handling and reversing (beta range), the propeller can be operated to provide:",
+      "options": [
+        "Zero or negative thrust",
+        "Maximum thrust during takeoff",
+        "Fuel efficient pitch range"
+      ],
+      "correctIndex": 0,
+      "explanation": "The beta range allows blade angle to be reduced below the normal flight (alpha) range, down to zero or negative (reverse) thrust for ground handling and braking."
+    },
+    {
+      "id": "pp03new-q22",
+      "question": "What forces in propeller control systems for large turboprop engines are used to increase and decrease pitch angle?",
+      "options": [
+        "Counterweight to increase and oil pressure to decrease blade angle",
+        "Hydraulic pressure to increase and decrease propeller blade angle",
+        "Spring force to reduce and oil pressure to increase blade angle"
+      ],
+      "correctIndex": 1,
+      "explanation": "Large turboprop propeller systems typically use hydraulic (oil) pressure acting on both sides of the piston to both increase and decrease blade angle as commanded."
+    },
+    {
+      "id": "pp03new-q23",
+      "question": "What is the range of RPM during beta mode of propeller operation?",
+      "options": [
+        "60% to 80%",
+        "50% to 85%",
+        "45% to 75%"
+      ],
+      "correctIndex": 1,
+      "explanation": "Beta mode (ground/reversing range) typically spans roughly 50% to 85% of rated propeller RPM, below the normal governing range used in flight."
+    },
+    {
+      "id": "pp03new-q24",
+      "question": "During Beta operation of turboprop propellers, what is the mode of operation of the propeller governor?",
+      "options": [
+        "Under speed",
+        "On speed",
+        "Over speed"
+      ],
+      "correctIndex": 0,
+      "explanation": "In beta mode the propeller RPM is below the governor's selected speed, so the governor operates in the under-speed condition and is not actively governing blade angle."
+    },
+    {
+      "id": "pp03new-q25",
+      "question": "During Beta mode, the operation of the turboprop propeller is controlled by:",
+      "options": [
+        "Power lever",
+        "Condition lever",
+        "Mixture lever"
+      ],
+      "correctIndex": 0,
+      "explanation": "In beta range, moving the power lever directly schedules propeller blade angle (through the beta mechanism) rather than just engine power, which is why the power lever controls beta operation."
+    },
+    {
+      "id": "pp03new-q26",
+      "question": "How does fuel flow and engine horsepower change if the power lever is moved forward in Alpha mode?",
+      "options": [
+        "Both fuel flow and engine horsepower decrease",
+        "Both fuel flow and engine horsepower increase",
+        "Fuel flow decreases but engine horsepower decreases"
+      ],
+      "correctIndex": 1,
+      "explanation": "In alpha (constant-speed governing) mode, moving the power lever forward increases fuel flow, which increases engine horsepower while the governor holds RPM constant by adjusting blade angle."
+    },
+    {
+      "id": "pp03new-q27",
+      "question": "When the power lever is moved aft in alpha mode operation, how does the blade angle change to maintain the selected RPM?",
+      "options": [
+        "Increased",
+        "Unchanged",
+        "Decreased"
+      ],
+      "correctIndex": 2,
+      "explanation": "Moving the power lever aft reduces power; to hold the selected RPM constant, the governor decreases blade pitch angle so the reduced power can still turn the propeller at the same speed."
+    },
+    {
+      "id": "pp03new-q28",
+      "question": "What type of governor is used in the constant-speed, feathering, reversing PT6 Hartzell propeller system?",
+      "options": [
+        "A single-acting governor",
+        "A double-acting governor",
+        "Electrical governor"
+      ],
+      "correctIndex": 0,
+      "explanation": "The PT6/Hartzell constant-speed, feathering, reversing system uses a single-acting governor, which supplies oil pressure in one direction while opposing forces (spring/counterweight) act the other way."
+    },
+    {
+      "id": "pp03new-q29",
+      "question": "If there is an increase in oil pressure of the PT6 Hartzell propeller system, that drives the blades towards:",
+      "options": [
+        "High pitch",
+        "Low pitch",
+        "Feathering pitch"
+      ],
+      "correctIndex": 1,
+      "explanation": "In this system, rising governor oil pressure acting on the piston drives the blades toward lower pitch (opposing the spring/counterweight forces that drive toward feather/high pitch)."
+    },
+    {
+      "id": "pp03new-q30",
+      "question": "In Hartzell constant speed, feathering and reversing propellers, what is the function of the feathering spring during increased engine power?",
+      "options": [
+        "Decreases the propeller pitch to maintain the selected speed",
+        "Increases the propeller pitch to maintain the selected speed",
+        "Change the pitch angle to reverse thrust position"
+      ],
+      "correctIndex": 1,
+      "explanation": "As engine power rises, the feathering spring (assisted by counterweight force) works to increase propeller pitch, balancing against rising governor oil pressure to hold the selected RPM constant."
+    },
+    {
+      "id": "pp03new-q31",
+      "question": "Which part in the PT6 propeller governor is used to match the RPM of both propellers during cruise?",
+      "options": [
+        "Pressure relief valve",
+        "Governor spring",
+        "An electro-magnetic coil"
+      ],
+      "correctIndex": 2,
+      "explanation": "An electro-magnetic coil, part of the propeller synchronizing (synchrophasing) system, senses and matches the RPM of both propellers during cruise."
+    },
+    {
+      "id": "pp03new-q32",
+      "question": "What is the minimum blade angle allowed for flight operation of a Hartzell propeller?",
+      "options": [
+        "The minimum Alpha blade angle",
+        "The primary blade angle",
+        "The minimum beta blade angle"
+      ],
+      "correctIndex": 1,
+      "explanation": "The primary (low pitch) blade angle is the minimum angle permitted during flight; angles below this belong to the ground-only beta/reverse range."
+    },
+    {
+      "id": "pp03new-q33",
+      "question": "In the Hartzell constant speed, feathering and full reversing system, what prevents the blade angles from going any lower than the primary blade angle?",
+      "options": [
+        "Forward movement of the beta valve stops the oil supply to the propeller",
+        "Backward movement of the beta valve allows the oil supply to the propeller",
+        "When the lock-pitch solenoid valve is energized during flight"
+      ],
+      "correctIndex": 0,
+      "explanation": "As blade angle reaches the primary angle, forward movement of the beta valve shuts off further oil supply to the propeller, preventing the blades from moving to a lower (beta/reverse) angle in flight."
+    },
+    {
+      "id": "pp03new-q34",
+      "question": "What prevents the propeller from going into reverse or below the primary blade angle in the event of a beta system malfunction in flight?",
+      "options": [
+        "Energized lock-pitch solenoid valve",
+        "The slip ring forward movement",
+        "The beta valve forward movement"
+      ],
+      "correctIndex": 0,
+      "explanation": "An energized lock-pitch solenoid valve provides a backup that blocks oil flow needed to move blades into beta/reverse range if the normal beta valve mechanism malfunctions in flight."
+    },
+    {
+      "id": "pp03new-q35",
+      "question": "In the Hartzell propeller system, how is the propeller/power turbine of a PT6 engine prevented from accelerating beyond 106 percent RPM?",
+      "options": [
+        "Limiting fuel supply to the engine",
+        "Moving the governor beta valve backward",
+        "Changing the pitch angle of the blade to high"
+      ],
+      "correctIndex": 0,
+      "explanation": "Overspeed protection works by limiting the fuel supplied to the engine, which limits the power available to drive the propeller/power turbine beyond 106% RPM."
+    },
+    {
+      "id": "pp03new-q36",
+      "question": "What action takes place when the cockpit control lever for a hydromatic constant speed propeller is actuated?",
+      "options": [
+        "The governor bypass valve is positioned to direct pressure to the dome.",
+        "The governor booster pump pressure is varied proportionally",
+        "Compression of the governor speeder spring is changed"
+      ],
+      "correctIndex": 2,
+      "explanation": "Moving the cockpit (RPM/pitch) control lever changes the compression of the governor speeder spring, which resets the RPM the governor will maintain."
+    },
+    {
+      "id": "pp03new-q37",
+      "question": "In the Hamilton Standard hydromatic propeller system, how do oil pressure and the centrifugal twisting moment of the blades affect the pitch?",
+      "options": [
+        "Both forces move the piston to a lower angle",
+        "Oil pressure increases blade angle",
+        "Centrifugal moment force increases pitch angle"
+      ],
+      "correctIndex": 0,
+      "explanation": "In this system, both governor oil pressure and the blades' centrifugal twisting moment act together to move the piston toward a lower (decreased) pitch angle; a separate spring/counterweight force opposes them to increase pitch."
+    },
+    {
+      "id": "pp03new-q38",
+      "question": "Which component of the Hamilton Standard hydromatic propeller provides oil passages to/from the piston of the pitch changing mechanism?",
+      "options": [
+        "Hub assembly",
+        "Distributer valve",
+        "Dome assembly"
+      ],
+      "correctIndex": 1,
+      "explanation": "The distributor valve routes governor oil through internal passages to and from the pitch-change piston inside the hydromatic propeller."
+    },
+    {
+      "id": "pp03new-q39",
+      "question": "The assembly of the Hamilton Standard hydromatic propeller that contains both the blades and the mechanical means for holding them in position is:",
+      "options": [
+        "Distributer valve assembly",
+        "Propeller hub assembly",
+        "Dome assembly"
+      ],
+      "correctIndex": 1,
+      "explanation": "The hub assembly holds the blades and the mechanical components (bearings, clamps, cam) that retain and allow rotation of the blades in the hub."
+    },
+    {
+      "id": "pp03new-q40",
+      "question": "What converts linear movement of the piston in a Hamilton Standard hydromatic propeller to rotary motion?",
+      "options": [
+        "The bevel gear",
+        "The dome shell",
+        "A cylindrical cam"
+      ],
+      "correctIndex": 2,
+      "explanation": "A cylindrical cam with angled slots engages rollers on the blade root, converting the piston's linear travel into rotary (pitch-change) motion of the blades."
+    },
+    {
+      "id": "pp03new-q41",
+      "question": "Among the following forces acting on the hydromatic propeller pitch changing mechanism, which one tends to increase the blade angle?",
+      "options": [
+        "Governor oil pressure",
+        "Engine oil pressure",
+        "Blade centrifugal force"
+      ],
+      "correctIndex": 0,
+      "explanation": "In the Hamilton Standard hydromatic system, governor oil pressure acting on the piston is the force that increases blade angle, opposing centrifugal twisting moment which decreases it."
+    },
+    {
+      "id": "pp03new-q42",
+      "question": "How is the oil pressure delivery on a hydromatic propeller normally stopped after the blades have reached their full-feathered position?",
+      "options": [
+        "Electric cutout pressure switch",
+        "Pulling out the feathering push button.",
+        "Stop lugs in the teeth of the rotating cam."
+      ],
+      "correctIndex": 2,
+      "explanation": "Mechanical stop lugs in the teeth of the rotating cam physically halt further piston travel once the blades reach full feather, stopping further oil-driven movement."
+    },
+    {
+      "id": "pp03new-q43",
+      "question": "Which of the following forces operates to move the blades of a constant-speed counterweight-type propeller to the high pitch position?",
+      "options": [
+        "Engine oil pressure acting on the propeller piston",
+        "Centrifugal force acting on the counterweights.",
+        "Prop governor oil pressure acting on the piston"
+      ],
+      "correctIndex": 1,
+      "explanation": "On counterweight-type propellers, centrifugal force acting on the counterweights drives the blades toward high pitch, opposed by governor oil pressure which drives toward low pitch."
+    },
+    {
+      "id": "pp03new-q44",
+      "question": "When the engine fitted with a counterweight-type propeller is operating at exactly the RPM selected by the pilot, the governor will prevent:",
+      "options": [
+        "Oil supply to the propeller",
+        "Oil drain from the propeller",
+        "Feathering of the propeller"
+      ],
+      "correctIndex": 1,
+      "explanation": "At on-speed conditions the governor is in a neutral (on-speed) position, holding the existing oil volume in the propeller by blocking oil from draining out, keeping blade angle steady."
+    },
+    {
+      "id": "pp03new-q45",
+      "question": "Wood made propellers are usually expected to be inspected for crack in the area of:",
+      "options": [
+        "Blade cuff transition",
+        "Blade leading edge",
+        "Blade back surface"
+      ],
+      "correctIndex": 1,
+      "explanation": "Wood propellers are particularly prone to cracking along the leading edge, where impact damage and moisture ingress are most likely, so this area receives close inspection."
+    },
+    {
+      "id": "pp03new-q46",
+      "question": "The type of defect that is detected during inspection of a propeller blade by dye penetrant inspection is:",
+      "options": [
+        "Torsional stress",
+        "Surface cracks",
+        "Corrosion at the blade tip"
+      ],
+      "correctIndex": 1,
+      "explanation": "Dye penetrant inspection reveals surface-breaking defects such as cracks by drawing dye into them under capillary action; it does not detect subsurface corrosion or measure stress."
+    },
+    {
+      "id": "pp03new-q47",
+      "question": "During inspection of wood propellers, which of the following defects is a possible cause for rejection?",
+      "options": [
+        "No protective coating on propeller.",
+        "Solder missing from screw heads securing metal tipping.",
+        "An oversize hub or bolt hole, or elongated bolt holes."
+      ],
+      "correctIndex": 2,
+      "explanation": "An oversize or elongated hub/bolt hole compromises the structural fit and load path of the propeller and is grounds for rejection, unlike minor finish issues that can often be repaired."
+    },
+    {
+      "id": "pp03new-q48",
+      "question": "What must be done to avoid confusing sounds of a tapping test on a composite propeller blade and cuff area?",
+      "options": [
+        "Tap the leading edge guard area of the blade and the cuff transition area with different tapping coins.",
+        "Tap the cuff area and the transition area between the cuff and the blade separately from the blade area.",
+        "Tap the cuff area and the blade area simultaneously till sound difference recognized."
+      ],
+      "correctIndex": 1,
+      "explanation": "Because the cuff, the cuff-to-blade transition, and the blade itself can produce different normal tap tones, each area should be tapped and evaluated separately so a genuine defect isn't confused with a normal change in sound between sections."
+    },
+    {
+      "id": "pp03new-q49",
+      "question": "What method of inspection would be used to inspect an aluminum propeller blade when a crack is suspected?",
+      "options": [
+        "Bright light",
+        "Magnetic particle",
+        "Dye-penetrant"
+      ],
+      "correctIndex": 2,
+      "explanation": "Aluminum is non-ferromagnetic, so magnetic particle inspection won't work on it; dye-penetrant inspection is the standard method for revealing surface cracks on aluminum blades."
+    },
+    {
+      "id": "pp03new-q50",
+      "question": "What is the process of determining the positions of the tips of the propeller blades relative to each other?",
+      "options": [
+        "Blade balancing",
+        "Blade tracking",
+        "Blade pitch distribution"
+      ],
+      "correctIndex": 1,
+      "explanation": "Blade tracking measures how closely the path (track) of each blade tip matches the others as the propeller rotates, which is distinct from balancing (which addresses weight distribution)."
+    },
+    {
+      "id": "pp03new-q51",
+      "question": "If the center of gravity of one of the blades is different from the other blades of a propeller, what type of unbalance is experienced by the propeller?",
+      "options": [
+        "Static imbalance",
+        "Aerodynamic imbalance",
+        "Dynamic imbalance"
+      ],
+      "correctIndex": 2,
+      "explanation": "A blade with a different center of gravity location (not just weight) produces a moment that shows up only while the propeller is rotating, which is dynamic (rather than static) imbalance."
+    },
+    {
+      "id": "pp03new-q52",
+      "question": "With respect to engine RPM, how does the effect of an unbalanced propeller vary?",
+      "options": [
+        "Greater at high RPM",
+        "Same at all RPM",
+        "Greater at low RPM"
+      ],
+      "correctIndex": 0,
+      "explanation": "Centrifugal forces from an unbalanced mass increase with the square of rotational speed, so the vibration effects of propeller unbalance become much more pronounced at high RPM."
+    },
+    {
+      "id": "pp03new-q53",
+      "question": "Which type of propeller unbalance can be largely eliminated by checking blade contour and blade angle setting?",
+      "options": [
+        "Static unbalance",
+        "Aerodynamic unbalance",
+        "Dynamic unbalance"
+      ],
+      "correctIndex": 1,
+      "explanation": "Aerodynamic unbalance results from blades producing unequal thrust/lift, which traces back to differences in blade contour or pitch setting, so verifying and matching contour and angle largely eliminates it."
+    },
+    {
+      "id": "pp03new-q54",
+      "question": "Which of the following is used to correct horizontal unbalance of a wooden propeller?",
+      "options": [
+        "Lead weight",
+        "Solder pieces",
+        "Brass screws"
+      ],
+      "correctIndex": 1,
+      "explanation": "Horizontal (chordwise) unbalance of a wooden propeller is commonly corrected by adding solder pieces at the appropriate location on the blade."
+    },
+    {
+      "id": "pp03new-q55",
+      "question": "What is the purpose of an arbor used in balancing a propeller?",
+      "options": [
+        "Support the propeller on the balance knives.",
+        "Mark the propeller blades where weights are to be attached.",
+        "Level the balancing stand."
+      ],
+      "correctIndex": 0,
+      "explanation": "A balancing arbor is fitted through the propeller hub bore so the assembly can be supported on the balance stand's knife edges with minimal friction, allowing any heavy point to rotate downward."
+    },
+    {
+      "id": "pp03new-q56",
+      "question": "What type of oil is used for system operation of hydromatic propellers?",
+      "options": [
+        "Special oil",
+        "Grease",
+        "Engine oil"
+      ],
+      "correctIndex": 2,
+      "explanation": "Hydromatic propeller pitch-change systems use the same engine oil supplied by the engine's own lubrication system, rather than a separate special fluid."
+    },
+    {
+      "id": "pp03new-q57",
+      "question": "The maximum storage periods for installed propellers and applicable instructions may be found:",
+      "options": [
+        "Airworthiness Notices.",
+        "Propeller overhaul and repair manual.",
+        "Aircraft Maintenance Manual."
+      ],
+      "correctIndex": 2,
+      "explanation": "Storage period limits and the instructions for maintaining installed propellers during periods of inactivity are specified in the Aircraft Maintenance Manual."
+    },
+    {
+      "id": "pp03new-q58",
+      "question": "What is recommended practice when wooden propellers are stored?",
+      "options": [
+        "Wrap in grease proof paper.",
+        "Store in a horizontal position.",
+        "Store in a vertical position"
+      ],
+      "correctIndex": 1,
+      "explanation": "Wood propellers should be stored in a horizontal position to prevent uneven moisture absorption and warping that can result from prolonged vertical storage."
+    },
+    {
+      "id": "pp03new-q59",
+      "question": "If propellers installed on an engine may be out of use for a period of up to three months, what must be done for the variable pitch propeller system to protect it from corrosion?",
+      "options": [
+        "Exercising the propeller pitch system during weekly engine runs",
+        "Flush the pitch system with inhibiting oil, and treat all external parts with an approved rust preventative",
+        "Remove internal parts of the system and apply anti-corrosion agent"
+      ],
+      "correctIndex": 0,
+      "explanation": "For shorter inactivity periods (up to about three months), periodically exercising the propeller pitch system during routine weekly engine runs keeps oil circulating and surfaces coated, protecting against corrosion."
+    },
+    {
+      "id": "pp03new-q60",
+      "question": "When preparing a propeller blade for inspection it should be cleaned with:",
+      "options": [
+        "Steel wool.",
+        "Methyl ethyl ketone",
+        "Mild soap and water."
+      ],
+      "correctIndex": 2,
+      "explanation": "Mild soap and water is used to clean a propeller blade before inspection without damaging the surface or removing material, unlike abrasives or strong solvents."
+    },
+    {
+      "id": "pp03new-q61",
+      "question": "A cyclic variation in engine speed above and below the desired speed is known as:",
+      "options": [
+        "Surging",
+        "Cushion",
+        "Hunting"
+      ],
+      "correctIndex": 2,
+      "explanation": "\"Hunting\" describes a governor or control system cyclically overshooting and undershooting the target RPM instead of settling at a steady speed."
+    },
+    {
+      "id": "pp03new-q62",
+      "question": "During adjustment of propeller governor control, what is the acceptable amount of governor control lever cushion?",
+      "options": [
+        "3/8 inch",
+        "1/8 inch",
+        "1/4 inch"
+      ],
+      "correctIndex": 1,
+      "explanation": "The governor control (cockpit lever linkage) is typically adjusted to allow about 1/8 inch of cushion (free play) at the governor end of its travel."
+    },
+    {
+      "id": "pp03new-q63",
+      "question": "Generally, why is it required to install front and rear cone on each side of the propeller hub?",
+      "options": [
+        "To remove stress induced by the crankshaft on the propeller hub",
+        "To ensure that the propeller hub is centered on the crankshaft",
+        "To carry the weight of the reduction box behind the propeller shaft"
+      ],
+      "correctIndex": 1,
+      "explanation": "The matched front and rear mounting cones center the propeller hub precisely on the tapered crankshaft (or shaft) so the propeller runs true and concentric."
+    },
+    {
+      "id": "pp03new-q64",
+      "question": "What must be done to correct front cone bottoming during propeller installation?",
+      "options": [
+        "Insert a spacer of no more than specified thickness behind the front cone.",
+        "Insert a spacer of no more than specified thickness behind the rear cone.",
+        "Blending the apex of the front cone up to specified thickness"
+      ],
+      "correctIndex": 1,
+      "explanation": "If the front cone bottoms out before proper clamp-up is achieved, a spacer of no more than the specified thickness is inserted behind the rear cone to correct the fit."
+    },
+    {
+      "id": "pp03new-q65",
+      "question": "Why is the pulley stop screw on a propeller governor adjustable?",
+      "options": [
+        "To limit the maximum propeller pitch for takeoff.",
+        "To maintain the proper blade angle for cruising.",
+        "To limit the maximum engine speed during takeoff."
+      ],
+      "correctIndex": 2,
+      "explanation": "The adjustable pulley stop screw sets the governor's high-RPM limit, which caps the maximum engine/propeller speed available during takeoff power."
+    }
+  ]
+}
