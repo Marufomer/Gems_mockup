@@ -1,0 +1,530 @@
+{
+  "id": "pp-sub-final-b278",
+  "title": "PP-sub-final(B278)",
+  "module": "PP-sub-final",
+  "course": "powerplant",
+  "category": "school_final",
+  "description": "Powerplant sub-final comprehensive practice exam (Batch 278) covering gas turbine and reciprocating engine fundamentals, fuel and ignition systems, propellers, inspection methods, APU, and basic physics.",
+  "durationMinutes": 75,
+  "totalQuestions": 47,
+  "color": "orange",
+  "questions": [
+    {
+      "id": "ppsub278-q1",
+      "question": "Which of Newton's laws best describes engine thrust?",
+      "options": [
+        "Newton's first law",
+        "Newton's third law",
+        "Newton's second law"
+      ],
+      "correctIndex": 1,
+      "explanation": "Engine thrust is explained by Newton's third law (for every action there is an equal and opposite reaction): the engine accelerates gas rearward, and the reaction force propels the engine (and aircraft) forward."
+    },
+    {
+      "id": "ppsub278-q2",
+      "question": "What is a prerequisite of installing a QAD (Quick Attach Detach) assembly?",
+      "options": [
+        "Removing the propeller",
+        "Installing the gasket",
+        "Draining all engine oil"
+      ],
+      "correctIndex": 1,
+      "explanation": "Before mounting the QAD adapter/engine assembly, the mounting gasket must be installed in its proper location to ensure a correct, sealed fit."
+    },
+    {
+      "id": "ppsub278-q3",
+      "question": "What are the main sections of an APU (Auxiliary Power Unit)?",
+      "options": [
+        "Power, load and accessory section",
+        "Compressor, combustor and turbine section only",
+        "Intake, exhaust and fuel section"
+      ],
+      "correctIndex": 0,
+      "explanation": "An APU is commonly divided functionally into the power section (gas generator), the load (driven) section, and the accessory section."
+    },
+    {
+      "id": "ppsub278-q4",
+      "question": "Which properties of a fuel relate to its fluidity?",
+      "options": [
+        "Flash point and additive content",
+        "Viscosity and freezing point",
+        "Octane rating and color"
+      ],
+      "correctIndex": 1,
+      "explanation": "Viscosity (resistance to flow) and freezing point (temperature at which wax crystals form and flow stops) both directly determine how easily a fuel flows under given conditions."
+    },
+    {
+      "id": "ppsub278-q5",
+      "question": "How many crankshaft revolutions are required to complete the four strokes of a reciprocating engine cycle?",
+      "options": [
+        "2 revolutions",
+        "1 revolution",
+        "4 revolutions"
+      ],
+      "correctIndex": 0,
+      "explanation": "A four-stroke engine completes intake, compression, power, and exhaust over two full crankshaft revolutions (720 degrees total)."
+    },
+    {
+      "id": "ppsub278-q6",
+      "question": "What is the use of a vibrator in an ignition exciter?",
+      "options": [
+        "To change DC to AC (pulsating current)",
+        "To filter high-frequency noise",
+        "To regulate output voltage"
+      ],
+      "correctIndex": 0,
+      "explanation": "A vibrator mechanically or electronically interrupts a DC input to produce a pulsating/AC-like current, which can then be stepped up by a transformer within the exciter."
+    },
+    {
+      "id": "ppsub278-q7",
+      "question": "What is the effect of centrifugal twisting moment (CTM) on a propeller?",
+      "options": [
+        "It decreases blade angle",
+        "It has no effect on blade angle",
+        "It increases blade angle"
+      ],
+      "correctIndex": 0,
+      "explanation": "Centrifugal twisting moment acts on a rotating blade's mass distribution to twist it toward a lower (flatter) pitch angle."
+    },
+    {
+      "id": "ppsub278-q8",
+      "question": "What is the use of a transfer valve in a propeller system?",
+      "options": [
+        "To regulate hydraulic pressure in the landing gear",
+        "To block governor oil during feathering/unfeathering",
+        "To meter fuel to the engine"
+      ],
+      "correctIndex": 1,
+      "explanation": "The transfer valve isolates (blocks) normal governor oil flow during the feathering or unfeathering sequence so the feathering pump or accumulator can control the propeller instead."
+    },
+    {
+      "id": "ppsub278-q9",
+      "question": "What stops the feathering process in a hydromatic propeller?",
+      "options": [
+        "A mechanical shear pin",
+        "The engine ignition switch",
+        "A pressure cut-off switch"
+      ],
+      "correctIndex": 2,
+      "explanation": "A pressure cut-off switch senses when full feather (and the resulting oil pressure rise) has been reached and switches off the feathering pump."
+    },
+    {
+      "id": "ppsub278-q10",
+      "question": "What is the main advantage of turbine active clearance control?",
+      "options": [
+        "Simplified turbine blade design",
+        "Decreased fuel consumption",
+        "Increased engine noise"
+      ],
+      "correctIndex": 1,
+      "explanation": "Active clearance control tightens the gap between turbine blade tips and the case across the flight envelope, improving efficiency and reducing fuel consumption."
+    },
+    {
+      "id": "ppsub278-q11",
+      "question": "What comes last after magnetic particle inspection?",
+      "options": [
+        "Demagnetization",
+        "Dye penetrant application",
+        "Etching"
+      ],
+      "correctIndex": 0,
+      "explanation": "After magnetic particle inspection, the part must be demagnetized to remove residual magnetism that could otherwise affect instruments or attract ferrous debris."
+    },
+    {
+      "id": "ppsub278-q12",
+      "question": "What type of inspection can be detected by the naked eye and requires good lighting?",
+      "options": [
+        "Visual inspection",
+        "Ultrasonic inspection",
+        "Magnetic particle inspection"
+      ],
+      "correctIndex": 0,
+      "explanation": "Visual inspection relies on the unaided eye (sometimes aided by a flashlight or mirror) and depends heavily on adequate lighting to be effective."
+    },
+    {
+      "id": "ppsub278-q13",
+      "question": "Which type of magnetic particle inspection is used to detect defects on a surface parallel to the material (longitudinal defects)?",
+      "options": [
+        "Circular magnetization",
+        "Longitudinal magnetization",
+        "Residual magnetization"
+      ],
+      "correctIndex": 0,
+      "explanation": "Circular magnetization sets up a magnetic field circling the part, which is effective at revealing defects that run parallel (longitudinally) to the part's surface."
+    },
+    {
+      "id": "ppsub278-q14",
+      "question": "What is a safety requirement during removal of an ignition system?",
+      "options": [
+        "Disconnect the battery only, no wait time required",
+        "As per the AMM, pull the circuit breaker and wait at least 5 minutes",
+        "Simply turn off the ignition switch"
+      ],
+      "correctIndex": 1,
+      "explanation": "Ignition exciter units can retain a high-voltage charge after shutdown, so the AMM requires pulling the circuit breaker and waiting a specified time (commonly at least 5 minutes) before handling the system."
+    },
+    {
+      "id": "ppsub278-q15",
+      "question": "What is the working fluid of a gas turbine engine?",
+      "options": [
+        "Fuel",
+        "Air",
+        "Exhaust gas only"
+      ],
+      "correctIndex": 1,
+      "explanation": "Air is the working fluid of a gas turbine engine — it is compressed, has fuel added and burned within it, and then expands through the turbine."
+    },
+    {
+      "id": "ppsub278-q16",
+      "question": "What type of starter is commonly used on small reciprocating engines?",
+      "options": [
+        "Electrical motor (starter)",
+        "Air turbine starter",
+        "Hydraulic starter"
+      ],
+      "correctIndex": 0,
+      "explanation": "Small reciprocating engines typically use an electric starter motor, unlike larger turbine engines which commonly use air turbine or similar starters."
+    },
+    {
+      "id": "ppsub278-q17",
+      "question": "If an oil filter becomes clogged, what happens?",
+      "options": [
+        "The engine stops receiving any oil",
+        "Oil pressure drops to zero immediately",
+        "Unfiltered oil bypasses the filter and goes to the engine"
+      ],
+      "correctIndex": 2,
+      "explanation": "A clogged filter opens its bypass valve once differential pressure gets too high, allowing unfiltered oil to continue reaching the engine rather than starving it of lubrication."
+    },
+    {
+      "id": "ppsub278-q18",
+      "question": "If the flyweights of a propeller governor move outward, the governor is in what condition?",
+      "options": [
+        "On speed condition",
+        "Under speed condition",
+        "Over speed condition"
+      ],
+      "correctIndex": 2,
+      "explanation": "Flyweights move outward under increased centrifugal force when RPM rises above the selected speed, indicating an over-speed condition that the governor will act to correct."
+    },
+    {
+      "id": "ppsub278-q19",
+      "question": "Which type of inspection detects both surface and deep sub-surface defects?",
+      "options": [
+        "Dye penetrant inspection",
+        "Visual inspection",
+        "Ultrasonic inspection"
+      ],
+      "correctIndex": 2,
+      "explanation": "Ultrasonic inspection uses sound waves that can penetrate the material, allowing detection of both surface and deep internal (sub-surface) defects, unlike penetrant or visual methods which are surface-only."
+    },
+    {
+      "id": "ppsub278-q20",
+      "question": "What is the use of secondary air in a combustion chamber?",
+      "options": [
+        "For increasing combustion temperature",
+        "For fuel atomization only",
+        "For cooling (the liner and gases before the turbine)"
+      ],
+      "correctIndex": 2,
+      "explanation": "Secondary air is introduced downstream of the primary combustion zone to cool the flame tube liner and dilute/cool the hot gases to a temperature the turbine can tolerate."
+    },
+    {
+      "id": "ppsub278-q21",
+      "question": "What is the firing order convention for a radial engine?",
+      "options": [
+        "Random order determined by cylinder numbering only",
+        "Starting from the top cylinder, following the direction of rotation",
+        "Starting from the bottom cylinder, against the direction of rotation"
+      ],
+      "correctIndex": 1,
+      "explanation": "Radial engine firing order is established by numbering cylinders starting at the top and following around in the direction of crankshaft rotation, typically firing every other cylinder."
+    },
+    {
+      "id": "ppsub278-q22",
+      "question": "In a constant speed propeller, if governor oil pressure is lost, what happens to the propeller?",
+      "options": [
+        "It decreases pitch and unfeathers",
+        "It remains at its last set pitch",
+        "It increases pitch and feathers"
+      ],
+      "correctIndex": 2,
+      "explanation": "Loss of governor oil pressure removes the force holding blades at a lower angle, so spring/counterweight force drives the blades toward higher pitch and full feather."
+    },
+    {
+      "id": "ppsub278-q23",
+      "question": "A propeller mounted on the downstream end of a drive shaft, behind its supporting structure, is called a:",
+      "options": [
+        "Contra-rotating propeller",
+        "Tractor propeller",
+        "Pusher propeller"
+      ],
+      "correctIndex": 2,
+      "explanation": "A pusher propeller sits behind (downstream of) the engine/structure and pushes the aircraft, as opposed to a tractor propeller which pulls from ahead."
+    },
+    {
+      "id": "ppsub278-q24",
+      "question": "On which part of a propeller is damage considered most critical?",
+      "options": [
+        "The tip",
+        "The shank",
+        "The hub spinner"
+      ],
+      "correctIndex": 1,
+      "explanation": "The shank area is a highly stressed region of the blade near the root, so damage there is considered especially critical and typically requires the propeller to go to overhaul."
+    },
+    {
+      "id": "ppsub278-q25",
+      "question": "Which of the following is INCORRECT regarding high oil temperature in an engine?",
+      "options": [
+        "High oil temperature is caused by high oil pressure",
+        "High oil temperature can be caused by a malfunctioning oil cooler",
+        "High oil temperature can be caused by low oil quantity"
+      ],
+      "correctIndex": 0,
+      "explanation": "High oil pressure does not by itself cause high oil temperature; the two are governed by largely separate factors (pressure relief/regulation vs. heat generation and cooling), so linking high temperature directly to high pressure is the false statement."
+    },
+    {
+      "id": "ppsub278-q26",
+      "question": "Newton's second law of motion is also known as the:",
+      "options": [
+        "Law of inertia",
+        "Law of acceleration",
+        "Law of action and reaction"
+      ],
+      "correctIndex": 1,
+      "explanation": "Newton's second law (F = ma) relates force, mass, and acceleration, and is commonly referred to as the law of acceleration."
+    },
+    {
+      "id": "ppsub278-q27",
+      "question": "Where is the fuel boost pump typically located?",
+      "options": [
+        "In the fuel tank",
+        "In the fuel manifold",
+        "In the engine fuel control unit"
+      ],
+      "correctIndex": 0,
+      "explanation": "Boost pumps are commonly submerged in or mounted at the bottom of the fuel tank, ensuring positive fuel pressure to the engine-driven pump."
+    },
+    {
+      "id": "ppsub278-q28",
+      "question": "If TSFC (thrust specific fuel consumption) is 0.5 and fuel flow is 5 (consistent units), what is the thrust?",
+      "options": [
+        "2.5",
+        "10",
+        "5.5"
+      ],
+      "correctIndex": 1,
+      "explanation": "TSFC is defined as fuel flow divided by thrust, so thrust = fuel flow / TSFC = 5 / 0.5 = 10."
+    },
+    {
+      "id": "ppsub278-q29",
+      "question": "What does a thermocouple sense in a gas turbine engine?",
+      "options": [
+        "Fuel flow rate",
+        "EGT (Exhaust Gas Temperature)",
+        "Oil pressure"
+      ],
+      "correctIndex": 1,
+      "explanation": "Thermocouples generate a small voltage proportional to temperature and are used around the engine's exhaust/turbine section to sense EGT."
+    },
+    {
+      "id": "ppsub278-q30",
+      "question": "Which of the following is correct? I. A fuel heater uses bleed air as a heat source. II. A fuel heater uses oil as a heat source.",
+      "options": [
+        "Only II is true",
+        "Only I is true",
+        "Both I and II are true (different fuel heater designs use either source)"
+      ],
+      "correctIndex": 2,
+      "explanation": "Depending on the aircraft/engine installation, fuel heaters may use either hot compressor bleed air or hot engine oil as the heat source to prevent fuel ice, so both statements can be true across different designs."
+    },
+    {
+      "id": "ppsub278-q31",
+      "question": "What is the primary function of lubrication?",
+      "options": [
+        "To increase combustion efficiency",
+        "To reduce friction",
+        "To increase compression ratio"
+      ],
+      "correctIndex": 1,
+      "explanation": "The primary purpose of lubrication is to reduce friction between moving parts, with cooling, sealing, and cleaning as secondary benefits."
+    },
+    {
+      "id": "ppsub278-q32",
+      "question": "The actual distance a propeller advances through the air in one revolution is called the:",
+      "options": [
+        "Effective pitch",
+        "Blade angle",
+        "Geometric pitch"
+      ],
+      "correctIndex": 0,
+      "explanation": "Effective pitch is the actual forward distance traveled per revolution through the air, always less than the geometric (theoretical) pitch due to propeller slip."
+    },
+    {
+      "id": "ppsub278-q33",
+      "question": "Which of the following is NOT an input for the computing section of the FCU (Fuel Control Unit)?",
+      "options": [
+        "Compressor inlet temperature",
+        "Engine RPM",
+        "Starter lever (fuel cut-off lever) position"
+      ],
+      "correctIndex": 2,
+      "explanation": "The starter/cut-off lever position is a simple on-off command rather than a scheduling input; the FCU's computing section uses continuously varying parameters like inlet temperature and RPM to schedule fuel flow."
+    },
+    {
+      "id": "ppsub278-q34",
+      "question": "What is the source of oil for a turbocharger?",
+      "options": [
+        "Hydraulic system fluid",
+        "Engine lubrication oil",
+        "A dedicated turbocharger oil reservoir"
+      ],
+      "correctIndex": 1,
+      "explanation": "Turbochargers are typically lubricated and cooled using oil tapped from the engine's own lubrication system rather than a separate oil supply."
+    },
+    {
+      "id": "ppsub278-q35",
+      "question": "When is a gas turbine engine (GTE) most effective (produces the most thrust for a given setting)?",
+      "options": [
+        "Temperature has no effect on GTE performance",
+        "In hot temperature conditions",
+        "In cold temperature conditions"
+      ],
+      "correctIndex": 2,
+      "explanation": "Cold air is denser, increasing mass airflow through the engine for a given RPM/throttle setting, which increases thrust output compared to hot-day conditions."
+    },
+    {
+      "id": "ppsub278-q36",
+      "question": "Which of the following are torque-producing engines?",
+      "options": [
+        "Turbojet and ramjet engines",
+        "Turboprop and turboshaft engines",
+        "Turbofan and rocket engines"
+      ],
+      "correctIndex": 1,
+      "explanation": "Turboprop and turboshaft engines are designed to extract shaft torque (to drive a propeller or rotor/gearbox) rather than produce thrust primarily through exhaust velocity."
+    },
+    {
+      "id": "ppsub278-q37",
+      "question": "What are the main types of gas turbine combustion chambers?",
+      "options": [
+        "Can, annular, and can-annular",
+        "Single, dual, and triple spool type",
+        "Can, turbo, and ram type"
+      ],
+      "correctIndex": 0,
+      "explanation": "The three classic gas turbine combustion chamber configurations are the can (multiple individual chambers), annular (single continuous chamber), and can-annular (a hybrid) types."
+    },
+    {
+      "id": "ppsub278-q38",
+      "question": "What is a common reason for engine removal?",
+      "options": [
+        "Routine oil change due",
+        "Scheduled borescope inspection passed with no findings",
+        "TBO (Time Between Overhaul) exceeded"
+      ],
+      "correctIndex": 2,
+      "explanation": "An engine reaching its TBO limit is a standard, scheduled reason for removal and overhaul, distinct from routine servicing events."
+    },
+    {
+      "id": "ppsub278-q39",
+      "question": "What type of inspection is used to detect a surface crack on aluminum?",
+      "options": [
+        "Magnetic particle inspection",
+        "Eddy current inspection as the only option",
+        "Dye penetrant inspection"
+      ],
+      "correctIndex": 2,
+      "explanation": "Aluminum is non-ferromagnetic, so magnetic particle inspection cannot be used; dye penetrant inspection is a standard method for revealing surface-breaking cracks on aluminum parts."
+    },
+    {
+      "id": "ppsub278-q40",
+      "question": "Which documents are used to describe aircraft/engine operating limits and engine limits?",
+      "options": [
+        "The parts catalog and service bulletins only",
+        "The Operator's Manual and the Type Certificate Data Sheet (TCDS)",
+        "The weight and balance manual only"
+      ],
+      "correctIndex": 1,
+      "explanation": "Operating and engine limits are formally defined in the Type Certificate Data Sheet and detailed for operational use in the Operator's/Flight Manual."
+    },
+    {
+      "id": "ppsub278-q41",
+      "question": "Which type of propeller is most efficient at one specific engine rotational speed and forward airspeed?",
+      "options": [
+        "Constant speed propeller",
+        "Fixed pitch propeller",
+        "Full feathering propeller"
+      ],
+      "correctIndex": 1,
+      "explanation": "A fixed pitch propeller's single blade angle is optimized for one combination of RPM and airspeed, making it most efficient only at that specific design condition."
+    },
+    {
+      "id": "ppsub278-q42",
+      "question": "When bleed air is used for the engine inlet anti-icing system, what effect does it have?",
+      "options": [
+        "It causes EGT and specific fuel consumption to rise and thrust to fall",
+        "It causes EGT to drop and thrust to increase",
+        "It has no measurable effect on engine performance"
+      ],
+      "correctIndex": 0,
+      "explanation": "Diverting compressor bleed air for inlet anti-icing reduces the air available for thrust production, so the engine must work harder for the same output, raising EGT and SFC while reducing net thrust."
+    },
+    {
+      "id": "ppsub278-q43",
+      "question": "What action is taken by the variable stator vanes (VSV) during engine run-up?",
+      "options": [
+        "They control fuel flow directly to the combustor",
+        "They partially block/angle HPC airflow, preventing full downstream flow until design speed is reached",
+        "They fully open at idle and close at high power"
+      ],
+      "correctIndex": 1,
+      "explanation": "Variable stator vanes adjust their angle during acceleration to control airflow into the high pressure compressor stages, helping avoid compressor stall until the compressor reaches its design operating speed."
+    },
+    {
+      "id": "ppsub278-q44",
+      "question": "Which of the following best describes the role of the starter in a gas turbine engine?",
+      "options": [
+        "To ignite the fuel/air mixture",
+        "To initiate the compressor turning (rotation) process",
+        "To regulate fuel flow once the engine is running"
+      ],
+      "correctIndex": 1,
+      "explanation": "The starter's job is purely mechanical: to begin rotating the compressor/turbine assembly up to a self-sustaining speed; ignition and fuel scheduling are separate systems."
+    },
+    {
+      "id": "ppsub278-q45",
+      "question": "On a twin-spool engine, where is the N2 speed sensor typically located?",
+      "options": [
+        "On the main (accessory) gearbox",
+        "Directly on the fan blade tip",
+        "Inside the combustion chamber"
+      ],
+      "correctIndex": 0,
+      "explanation": "The N2 (high pressure spool) speed sensor is commonly mounted at the main accessory gearbox, which is driven by and reflects the HP spool's rotational speed."
+    },
+    {
+      "id": "ppsub278-q46",
+      "question": "Which inspection method is effective for detecting deep sub-surface cracks in aluminum products?",
+      "options": [
+        "Dye penetrant inspection",
+        "Magnetic particle inspection",
+        "Ultrasonic inspection"
+      ],
+      "correctIndex": 2,
+      "explanation": "Ultrasonic inspection uses sound waves that penetrate the material, making it effective for finding deep sub-surface defects that surface methods like dye penetrant cannot detect."
+    },
+    {
+      "id": "ppsub278-q47",
+      "question": "Which of the following filter ratings would most likely describe a replaceable (service) filter element?",
+      "options": [
+        "0.5 microns",
+        "200 microns",
+        "15 microns"
+      ],
+      "correctIndex": 2,
+      "explanation": "A nominal rating such as 15 microns is typical of a serviceable/replaceable filter element providing practical filtration without being so fine it would clog almost immediately."
+    }
+  ]
+}
