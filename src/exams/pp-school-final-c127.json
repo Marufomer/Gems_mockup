@@ -1,0 +1,893 @@
+{
+  "id": "pp-school-final-c127",
+  "title": "PP-school-final(C127)",
+  "module": "PP-school-final",
+  "course": "powerplant",
+  "category": "school_final",
+  "description": "Powerplant school-final comprehensive practice exam (C-127) covering gas turbine fundamentals, lubrication, starters, ignition systems, fuel systems and fuel control units, propellers, and inspection/maintenance publications topics.",
+  "durationMinutes": 130,
+  "totalQuestions": 80,
+  "color": "orange",
+  "questions": [
+    {
+      "id": "ppsfc127-q1",
+      "question": "In a gas turbine engine (Brayton cycle), combustion occurs at a constant:",
+      "options": [
+        "Volume",
+        "Temperature",
+        "Pressure"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Brayton cycle, which describes gas turbine engine operation, is characterized by constant-pressure combustion, unlike the constant-volume combustion of the Otto cycle."
+    },
+    {
+      "id": "ppsfc127-q2",
+      "question": "In the dual axial-flow or twin spool compressor system, the first stage turbine drives the:",
+      "options": [
+        "N1 and N2 compressors",
+        "N2 compressors",
+        "N1 compressors"
+      ],
+      "correctIndex": 1,
+      "explanation": "The first (high pressure) turbine stage is mechanically coupled only to the N2 (high pressure) compressor, forming the HP spool."
+    },
+    {
+      "id": "ppsfc127-q3",
+      "question": "The velocity of subsonic air as it flows through a convergent nozzle:",
+      "options": [
+        "Increases",
+        "Remains constant",
+        "Decreases"
+      ],
+      "correctIndex": 0,
+      "explanation": "For subsonic flow, a convergent duct accelerates the airflow as the cross-sectional area decreases, consistent with the continuity equation."
+    },
+    {
+      "id": "ppsfc127-q4",
+      "question": "At what stage in a turbine engine is gas pressure greatest?",
+      "options": [
+        "Compressor inlet",
+        "Compressor outlet",
+        "Turbine outlet"
+      ],
+      "correctIndex": 1,
+      "explanation": "Pressure peaks at the compressor discharge (combustor inlet), the highest-pressure point before expansion through the turbine reduces it."
+    },
+    {
+      "id": "ppsfc127-q5",
+      "question": "Equivalent shaft horsepower is the measure of the thrust produced by:",
+      "options": [
+        "Turboprop engines",
+        "Turbojet engines",
+        "Turbo shaft engines"
+      ],
+      "correctIndex": 0,
+      "explanation": "Equivalent Shaft Horsepower (ESHP) combines a turboprop's shaft power delivered to the propeller with the thrust produced by its exhaust, into one measure specific to turboprop engines."
+    },
+    {
+      "id": "ppsfc127-q6",
+      "question": "The abbreviation Pt7 used in turbine engine terminology means:",
+      "options": [
+        "The total inlet pressure",
+        "Total pressure at station no. 7",
+        "Pressure and temperature at station no. 7"
+      ],
+      "correctIndex": 1,
+      "explanation": "In engine station nomenclature, \"Pt\" denotes total pressure, with the following number identifying the specific engine station."
+    },
+    {
+      "id": "ppsfc127-q7",
+      "question": "The type of combustion chamber that is designed as one basket is:",
+      "options": [
+        "Annular",
+        "Can-annular",
+        "Can"
+      ],
+      "correctIndex": 0,
+      "explanation": "The annular combustion chamber is built as a single continuous basket (flame tube) surrounding the engine shaft, unlike the multiple individual baskets of a can-type chamber."
+    },
+    {
+      "id": "ppsfc127-q8",
+      "question": "The most common type of turbine used for a gas turbine engine:",
+      "options": [
+        "Impulse reaction turbine",
+        "Impulse turbine",
+        "Reaction turbine"
+      ],
+      "correctIndex": 0,
+      "explanation": "Most gas turbine engines use impulse-reaction (combination) blading, which combines the benefits of both designs for efficiency across the blade span."
+    },
+    {
+      "id": "ppsfc127-q9",
+      "question": "The load on a bearing parallel to the shaft on which the bearing is mounted:",
+      "options": [
+        "Axial bearing load",
+        "Radial bearing load",
+        "Tangential bearing load"
+      ],
+      "correctIndex": 0,
+      "explanation": "A load acting parallel to (along) the shaft's axis is, by definition, an axial load, as distinct from a radial load acting perpendicular to the shaft."
+    },
+    {
+      "id": "ppsfc127-q10",
+      "question": "Which type of seal consists of a series of cylindrical rotating knife edges?",
+      "options": [
+        "Gasket",
+        "Labyrinth seal",
+        "Carbon seal"
+      ],
+      "correctIndex": 1,
+      "explanation": "A labyrinth seal uses a series of rotating knife-edge fins forming a tortuous path that restricts (though does not fully eliminate) leakage."
+    },
+    {
+      "id": "ppsfc127-q11",
+      "question": "Which one of the following is more likely to be placed at the last engine station?",
+      "options": [
+        "Combustion chamber",
+        "Turbine section",
+        "After burner"
+      ],
+      "correctIndex": 2,
+      "explanation": "When fitted, the afterburner is located downstream of the turbine section, making it one of the last stations in the engine's gas path."
+    },
+    {
+      "id": "ppsfc127-q12",
+      "question": "___________ is the ratio between the fuel flow (in pounds per hour) and the thrust of the engine (in pounds).",
+      "options": [
+        "Thermal efficiency",
+        "Flat rate",
+        "Thrust specific fuel consumption"
+      ],
+      "correctIndex": 2,
+      "explanation": "Thrust Specific Fuel Consumption (TSFC) is defined exactly as fuel flow divided by thrust produced."
+    },
+    {
+      "id": "ppsfc127-q13",
+      "question": "The reaction theory is well defined by:",
+      "options": [
+        "Charles",
+        "Boyles",
+        "Newton"
+      ],
+      "correctIndex": 2,
+      "explanation": "Newton's third law of motion (action and reaction) is the basis of reaction/thrust theory used in jet propulsion."
+    },
+    {
+      "id": "ppsfc127-q14",
+      "question": "Which of the following is used for combustion?",
+      "options": [
+        "secondary air",
+        "diluted air",
+        "primary air"
+      ],
+      "correctIndex": 2,
+      "explanation": "Primary air is the portion directed into the primary combustion zone to support actual fuel burning, while secondary/dilution air is introduced downstream mainly for cooling."
+    },
+    {
+      "id": "ppsfc127-q15",
+      "question": "Type of bearing which is used to support both axial and radial loads:",
+      "options": [
+        "plain bearing",
+        "roller bearing",
+        "ball bearing"
+      ],
+      "correctIndex": 2,
+      "explanation": "Ball bearings can carry combined axial and radial loads, unlike straight roller bearings, which are primarily suited to radial loads only."
+    },
+    {
+      "id": "ppsfc127-q16",
+      "question": "Among the three types of inlet ducts for turboprop engine, which one of it requires an off-set reduction gearbox?",
+      "options": [
+        "under scoop inlet",
+        "ducted spinner inlet",
+        "conical spinner inlet"
+      ],
+      "correctIndex": 0,
+      "explanation": "An under-fuselage scoop inlet sits off the engine's centerline, which requires an offset reduction gearbox to route drive power to the propeller shaft."
+    },
+    {
+      "id": "ppsfc127-q17",
+      "question": "Gas Turbine Engines are categorized under:",
+      "options": [
+        "External combustion engines",
+        "Internal combustion engines",
+        "Steam engines"
+      ],
+      "correctIndex": 1,
+      "explanation": "Gas turbine engines burn fuel directly within the engine's own gas path, making them internal combustion engines."
+    },
+    {
+      "id": "ppsfc127-q18",
+      "question": "Inlet ducts for subsonic aircraft engine are:",
+      "options": [
+        "Convergent-divergent",
+        "Divergent",
+        "Convergent"
+      ],
+      "correctIndex": 1,
+      "explanation": "Subsonic inlet ducts are divergent (diffuser-shaped) so they slow the incoming air and raise its pressure before it reaches the compressor."
+    },
+    {
+      "id": "ppsfc127-q19",
+      "question": "One of the following types of compressor have relatively high compressor ratio per stage:",
+      "options": [
+        "Combination of axial and centrifugal compressor",
+        "Axial flow compressor",
+        "Centrifugal type compressor"
+      ],
+      "correctIndex": 2,
+      "explanation": "A single centrifugal compressor stage can achieve a substantially higher pressure ratio than a single axial compressor stage."
+    },
+    {
+      "id": "ppsfc127-q20",
+      "question": "Which one of the following is different from the others?",
+      "options": [
+        "piston engine",
+        "jet engine",
+        "steam engine"
+      ],
+      "correctIndex": 2,
+      "explanation": "A steam engine is an external combustion engine, while piston and jet engines are both internal combustion engines."
+    },
+    {
+      "id": "ppsfc127-q21",
+      "question": "Inside a GTE when work is done on the air, pressure and temperature of the air will increase and volume decreases. This takes place during:",
+      "options": [
+        "Combustion",
+        "Expansion",
+        "Compression"
+      ],
+      "correctIndex": 2,
+      "explanation": "Compression is the process in which work done on the air raises its pressure and temperature while reducing its volume."
+    },
+    {
+      "id": "ppsfc127-q22",
+      "question": "Helps to identify the source of air pressure or temperature when looking at more complex systems such as the fuel system:",
+      "options": [
+        "Engine bleed air",
+        "Engine stations",
+        "Engine configuration"
+      ],
+      "correctIndex": 1,
+      "explanation": "Standardized engine station numbering pinpoints exactly where in the gas path a given pressure or temperature reading originates, useful across complex interconnected systems."
+    },
+    {
+      "id": "ppsfc127-q23",
+      "question": "Which condition would be the least likely to be caused by failed or failing engine bearing?",
+      "options": [
+        "Excessive oil consumption",
+        "Low oil temperature",
+        "High oil temperature"
+      ],
+      "correctIndex": 1,
+      "explanation": "A deteriorating bearing generates friction and heat, raising oil temperature and often oil consumption; it would not be expected to cause oil temperature to drop."
+    },
+    {
+      "id": "ppsfc127-q24",
+      "question": "Upon what quality or characteristics of a lubricating oil is its viscosity index based?",
+      "options": [
+        "Its resistance to flow at a standard temperature as compared to high grade paraffin-base oil at the same temperature",
+        "Its rate of change in viscosity with temperature change",
+        "Its rate of flow through an orifice at a standard temperature"
+      ],
+      "correctIndex": 1,
+      "explanation": "Viscosity index specifically measures how much an oil's viscosity changes across a temperature range; a high viscosity index oil resists thinning when hot."
+    },
+    {
+      "id": "ppsfc127-q25",
+      "question": "The type of oil tank that is used in turbine engines is known as:",
+      "options": [
+        "integral",
+        "Wet sump",
+        "dry sump"
+      ],
+      "correctIndex": 2,
+      "explanation": "Turbine engines typically use a dry sump system with a separate external oil tank, unlike a wet sump design where oil is held within the engine/accessory case itself."
+    },
+    {
+      "id": "ppsfc127-q26",
+      "question": "The scupper drain in an oil tank is used:",
+      "options": [
+        "to drain the oil tank when it is serviced beyond the recommended level",
+        "to drain the oil tank totally",
+        "To avoid inadvertent over servicing"
+      ],
+      "correctIndex": 0,
+      "explanation": "The scupper drain catches and carries away any oil added beyond the correct fill level during servicing, directing it overboard rather than into the tank."
+    },
+    {
+      "id": "ppsfc127-q27",
+      "question": "The recommended aircraft lubricants are:",
+      "options": [
+        "Mineral or synthetic",
+        "Animal, mineral or synthetic based",
+        "vegetable, mineral or synthetic"
+      ],
+      "correctIndex": 0,
+      "explanation": "Approved aircraft lubricants are mineral (petroleum) or synthetic oils; animal and vegetable oils are unsuitable due to poor thermal and oxidative stability."
+    },
+    {
+      "id": "ppsfc127-q28",
+      "question": "A safety feature usually employed in pneumatic starters that is used to prevent the starter from reaching burst speed if inlet air does not terminate on schedule is the:",
+      "options": [
+        "Drive shaft shears point",
+        "Spring coupling release",
+        "Stator nozzle design that chokes airflow and stabilizes turbine wheel speed"
+      ],
+      "correctIndex": 2,
+      "explanation": "A choked stator nozzle design physically limits maximum airflow through the starter turbine, capping its speed even if air supply fails to cut off on schedule, preventing an overspeed/burst condition."
+    },
+    {
+      "id": "ppsfc127-q29",
+      "question": "Air turbine starters are generally designed so that reduction gear distress or damage may be detected by:",
+      "options": [
+        "Breakage of a shear section on the starter drive shaft",
+        "Characteristic sounds from the starter assembly during engine start",
+        "Inspection of a magnetic chip detector"
+      ],
+      "correctIndex": 2,
+      "explanation": "A magnetic chip detector in the starter's gear case collects metal particles shed by a deteriorating reduction gear, giving a reliable, inspectable indication of developing damage."
+    },
+    {
+      "id": "ppsfc127-q30",
+      "question": "Which one of the following is not the component of GTE ignition system?",
+      "options": [
+        "Ignition lead",
+        "Exciter box",
+        "Spark plug"
+      ],
+      "correctIndex": 2,
+      "explanation": "Gas turbine engines use igniter plugs, not the spark plugs used in reciprocating engines, so a spark plug is not actually part of a GTE ignition system."
+    },
+    {
+      "id": "ppsfc127-q31",
+      "question": "Which one of the following uses DC input?",
+      "options": [
+        "High voltage capacitor type ignition system only",
+        "Both (low voltage and high voltage capacitor type ignition systems)",
+        "Low voltage capacitor type ignition system only"
+      ],
+      "correctIndex": 1,
+      "explanation": "Both low-voltage and high-voltage capacitor discharge ignition systems take a DC input, which each then processes differently to produce their respective ignition pulses."
+    },
+    {
+      "id": "ppsfc127-q32",
+      "question": "Igniters for low voltage and high voltage system are interchangeable.",
+      "options": [
+        "True",
+        "False",
+        "We can't say anything"
+      ],
+      "correctIndex": 1,
+      "explanation": "Low-voltage and high-voltage igniter plugs are each designed for their specific exciter system's output characteristics and are not interchangeable between the two."
+    },
+    {
+      "id": "ppsfc127-q33",
+      "question": "Why do turbine engine ignition systems require high energy?",
+      "options": [
+        "To ignite the fuel under conditions of high altitude and high temperatures",
+        "To ignite the fuel under conditions of high altitude and low temperatures",
+        "Because the applied voltage is much greater"
+      ],
+      "correctIndex": 1,
+      "explanation": "High-energy ignition is needed to reliably ignite fuel in the thin, cold air encountered at high altitude, where ignition is otherwise more difficult."
+    },
+    {
+      "id": "ppsfc127-q34",
+      "question": "What are the principal advantages of the duplex fuel nozzle used in many Gas turbine engines?",
+      "options": [
+        "Provides better atomization and uniform flow pattern",
+        "Allows a wide range of fuels and filters to be used",
+        "Restricts the amount of fuel flow to a level where more efficient and complete burning of the fuel is achieved"
+      ],
+      "correctIndex": 0,
+      "explanation": "A duplex (dual-orifice) nozzle's separate primary/secondary flow paths provide good atomization and a more uniform spray pattern across a wide range of fuel flows."
+    },
+    {
+      "id": "ppsfc127-q35",
+      "question": "Which one of the following is not true?",
+      "options": [
+        "The gear type fuel pump is sometimes called centrifugal pump",
+        "Micron filter has the highest filtering action",
+        "Fuel pumps of turbine engines are designed to pump fuel in excess amount to the fuel control"
+      ],
+      "correctIndex": 0,
+      "explanation": "A gear-type pump is a positive-displacement pump, fundamentally different in operating principle from a centrifugal pump, so calling it a centrifugal pump is incorrect."
+    },
+    {
+      "id": "ppsfc127-q36",
+      "question": "What isolates the engine fuel system from the aircraft fuel system in the event of engine fire or maintenance reason?",
+      "options": [
+        "Low pressure shut off valve",
+        "High pressure shut off valve",
+        "Impeller by pass valve"
+      ],
+      "correctIndex": 0,
+      "explanation": "The low pressure shutoff valve, located near the aircraft fuel supply connection to the engine, isolates the engine fuel system from the aircraft's fuel system."
+    },
+    {
+      "id": "ppsfc127-q37",
+      "question": "Which computing section of a fuel control unit controls deceleration of an engine?",
+      "options": [
+        "Burner pressure sensor",
+        "Surge and temperature limiting valve",
+        "Speed governor"
+      ],
+      "correctIndex": 2,
+      "explanation": "The speed governor section schedules fuel reduction to control engine deceleration, helping prevent flameout or an uncontrolled speed decay during throttle reduction."
+    },
+    {
+      "id": "ppsfc127-q38",
+      "question": "Which one the following is not part of fuel metering sections?",
+      "options": [
+        "Pressure regulating valve",
+        "Burner pressure bellows",
+        "Throttle valve"
+      ],
+      "correctIndex": 1,
+      "explanation": "The burner pressure bellows belongs to the FCU's computing (sensing) section, not the fuel metering section itself."
+    },
+    {
+      "id": "ppsfc127-q39",
+      "question": "Which one of the following is not true about GTE fuel nozzles?",
+      "options": [
+        "Vaporizing fuel nozzle may use primers to aid starting of an engine",
+        "Pressure and dumping valve may be used in single line duplex fuel nozzle",
+        "Simplex fuel nozzles may use primers to aid starting of an engine"
+      ],
+      "correctIndex": 1,
+      "explanation": "The pressurizing and dump valve is a fuel-manifold-level component associated with the overall fuel system design, not something specifically featured within a single-line duplex nozzle itself."
+    },
+    {
+      "id": "ppsfc127-q40",
+      "question": "What type of fuel control unit is JFC 12-11?",
+      "options": [
+        "Electronic",
+        "Hydro-mechanical",
+        "Hydro-Pneumatic"
+      ],
+      "correctIndex": 1,
+      "explanation": "The JFC 12-11 is a hydro-mechanical fuel control unit."
+    },
+    {
+      "id": "ppsfc127-q41",
+      "question": "During failure of EEC, a supervisory Fuel control system reverts the control automatically to a:",
+      "options": [
+        "Pneumatic system",
+        "Hydro mechanical system",
+        "New operating channel"
+      ],
+      "correctIndex": 1,
+      "explanation": "On EEC failure, a supervisory fuel control system reverts authority to its underlying hydro-mechanical fuel control unit, which can continue to meter fuel without electronic input."
+    },
+    {
+      "id": "ppsfc127-q42",
+      "question": "What are the positions of the pressurizing and dump valve in a GTE fuel system when the aircraft is in flight?",
+      "options": [
+        "Pressurizing valve open, dump valve closed",
+        "Pressurizing valve open, dump valve open",
+        "Pressurizing valve closed, dump valve closed"
+      ],
+      "correctIndex": 0,
+      "explanation": "In flight, the pressurizing valve remains open to maintain fuel manifold pressure for proper nozzle atomization, while the dump (drain) valve stays closed since draining occurs only at shutdown."
+    },
+    {
+      "id": "ppsfc127-q43",
+      "question": "During engine shutdown, the minimum pressure and shutoff valve of JFC12-11 is closed by:",
+      "options": [
+        "Spring force and pump interstage pressure",
+        "Spring force and pump discharge pressure",
+        "Spring force only"
+      ],
+      "correctIndex": 2,
+      "explanation": "On this unit, the minimum pressure and shutoff valve is closed purely by spring force once fuel pressure drops enough at shutdown."
+    },
+    {
+      "id": "ppsfc127-q44",
+      "question": "What type of fuel control unit performs virtually all the functions necessary to support engine operation during all phases of flight?",
+      "options": [
+        "Hydro mechanical FCU",
+        "Full authority digital electronic control (FADEC)",
+        "Supervisory FCU"
+      ],
+      "correctIndex": 1,
+      "explanation": "A FADEC provides full-authority digital control over essentially all engine operating functions throughout the flight envelope, unlike a supervisory or purely hydro-mechanical unit."
+    },
+    {
+      "id": "ppsfc127-q45",
+      "question": "Which one of the following is true about combustion drain valve?",
+      "options": [
+        "Combustion drain valve uses burner pressure to stay open",
+        "During in-flight engine shutdown, the combustion drain valve stays closed",
+        "Combustion drain valve avoids hot starts"
+      ],
+      "correctIndex": 2,
+      "explanation": "By draining residual fuel pooled in the combustion chamber after shutdown, the combustion drain valve prevents that fuel from causing an overly rich, excessive hot start on the next attempt."
+    },
+    {
+      "id": "ppsfc127-q46",
+      "question": "The hydro mechanical fuel control unit controls fuel flow based on:",
+      "options": [
+        "Constant orifice area and variable pressure drop",
+        "Constant metered pressure and variable orifice area",
+        "Variable orifice area and constant pressure drop"
+      ],
+      "correctIndex": 2,
+      "explanation": "Classic hydro-mechanical FCUs meter fuel by varying a metering orifice's open area while a pressure regulator maintains a constant pressure drop across that orifice."
+    },
+    {
+      "id": "ppsfc127-q47",
+      "question": "___________ is the time measure to accelerate engine power from idle to max.",
+      "options": [
+        "trimming",
+        "Specific gravity",
+        "Acceleration check"
+      ],
+      "correctIndex": 2,
+      "explanation": "An acceleration check specifically measures the time an engine takes to accelerate from idle up to maximum rated power."
+    },
+    {
+      "id": "ppsfc127-q48",
+      "question": "In a propeller blade aerodynamic force diagram (showing net force, direction of flight, plane of rotation, and the angle between the blade chord and the direction of airflow striking the blade, labeled angle C), angle C is best described by:",
+      "options": [
+        "Blade angle",
+        "Angle of attack",
+        "Angle of relative wind"
+      ],
+      "correctIndex": 1,
+      "explanation": "Angle C, measured between the blade's chord line and the actual direction of the air flowing against the blade, is by definition the angle of attack."
+    },
+    {
+      "id": "ppsfc127-q49",
+      "question": "A measure of the power produced by a turboprop engine that combines the shaft horsepower being delivered to the propeller and the thrust being developed at the engine exhaust:",
+      "options": [
+        "Equivalent Shaft Horsepower",
+        "Thrust Horsepower",
+        "Propeller Output Horsepower"
+      ],
+      "correctIndex": 0,
+      "explanation": "Equivalent Shaft Horsepower (ESHP) combines the shaft power delivered to the propeller with the added thrust from the engine's exhaust into a single power figure."
+    },
+    {
+      "id": "ppsfc127-q50",
+      "question": "The pitch distribution (blade twist), and the change in aerofoil shape along the length of the blade is necessary because ________",
+      "options": [
+        "each section should produce the same thrust to minimize aerodynamic unbalance",
+        "it improves pilot vision through the propeller",
+        "each section moves through the air at a different velocity"
+      ],
+      "correctIndex": 0,
+      "explanation": "Because different radial sections of a rotating blade travel at different speeds, twisting the blade and varying its airfoil shape helps each section contribute more evenly to thrust, minimizing aerodynamic unbalance."
+    },
+    {
+      "id": "ppsfc127-q51",
+      "question": "Propeller slip is known as:",
+      "options": [
+        "Geometric pitch - Effective pitch",
+        "Geometric pitch + Effective pitch",
+        "Effective pitch - Geometric pitch"
+      ],
+      "correctIndex": 0,
+      "explanation": "Slip is defined as the difference between the theoretical (geometric) pitch and the actual (effective) distance the propeller advances per revolution."
+    },
+    {
+      "id": "ppsfc127-q52",
+      "question": "The natural force that tends to take the propeller blade to low blade angle is:",
+      "options": [
+        "Aerodynamic twisting moment",
+        "Thrust bending force",
+        "Centrifugal twisting moment"
+      ],
+      "correctIndex": 2,
+      "explanation": "Centrifugal twisting moment acts on a rotating blade's mass distribution to twist it toward a lower (flatter) pitch angle."
+    },
+    {
+      "id": "ppsfc127-q53",
+      "question": "An increase in forward speed ____________ angle of attack.",
+      "options": [
+        "Increases",
+        "Has no effect on",
+        "Decreases"
+      ],
+      "correctIndex": 2,
+      "explanation": "At a given blade/pitch attitude, increasing forward speed changes the relative airflow direction in a way that tends to decrease the angle of attack."
+    },
+    {
+      "id": "ppsfc127-q54",
+      "question": "Which of the following causes the greatest stress in the propeller blade?",
+      "options": [
+        "Centrifugal force",
+        "Thrust bending force",
+        "Torque bending force"
+      ],
+      "correctIndex": 0,
+      "explanation": "The centrifugal force generated by the blade's rotating mass produces by far the greatest stress among the forces acting on a propeller blade."
+    },
+    {
+      "id": "ppsfc127-q55",
+      "question": "Which of the following pitch changing forces always takes the blade to low pitch?",
+      "options": [
+        "Governor boosted oil pressure",
+        "Centrifugal force on counterweight",
+        "Centrifugal twisting moment"
+      ],
+      "correctIndex": 2,
+      "explanation": "Centrifugal twisting moment inherently acts to drive the blade toward low pitch in any propeller design, unlike counterweight or governor oil forces, which can be arranged to act in either direction depending on the specific design."
+    },
+    {
+      "id": "ppsfc127-q56",
+      "question": "Which of the following blades has low notch sensitivity?",
+      "options": [
+        "Composite blades",
+        "Steel blades",
+        "Aluminum blades"
+      ],
+      "correctIndex": 0,
+      "explanation": "Composite propeller blades are generally less prone to small surface notches or nicks propagating into cracks compared to metal blades."
+    },
+    {
+      "id": "ppsfc127-q57",
+      "question": "Increase in engine power of fixed pitch propeller causes __________.",
+      "options": [
+        "Propeller absorb more power",
+        "Decrease propeller drag",
+        "Increased blade angle"
+      ],
+      "correctIndex": 0,
+      "explanation": "Since a fixed-pitch propeller's blade angle cannot change, increased engine power is absorbed by the propeller turning faster, i.e., the propeller absorbs more power at the resulting higher RPM."
+    },
+    {
+      "id": "ppsfc127-q58",
+      "question": "Light aircraft feathering propeller are taken to high pitch by:",
+      "options": [
+        "Engine oil pressure",
+        "Spring force",
+        "Governor boosted oil pressure"
+      ],
+      "correctIndex": 1,
+      "explanation": "On many light aircraft feathering propellers, spring force (often assisted by counterweights) drives the blades toward high pitch/feather, opposed by governor oil pressure which holds a lower constant-speed angle."
+    },
+    {
+      "id": "ppsfc127-q59",
+      "question": "When the propeller is operating in an under speed condition, the governor will:",
+      "options": [
+        "Increase blade angle",
+        "Decrease fixed force",
+        "Decrease blade angle"
+      ],
+      "correctIndex": 2,
+      "explanation": "In an under-speed condition (RPM below the selected setting), the governor decreases blade angle to reduce load on the engine, allowing RPM to rise back toward the selected speed."
+    },
+    {
+      "id": "ppsfc127-q60",
+      "question": "Which of the following is an example of free power turbine engine?",
+      "options": [
+        "Garret TPE331 Engine",
+        "Rolls Royce Dart Engine",
+        "PT6 Engine"
+      ],
+      "correctIndex": 2,
+      "explanation": "The PT6 uses a free (independently rotating) power turbine driving the propeller, unlike the TPE331 and Dart, which use a turbine mechanically coupled directly to the propeller shaft."
+    },
+    {
+      "id": "ppsfc127-q61",
+      "question": "If an Epicyclic (planet stationary) gear train is used as a reduction gear and the annulus gear is held, power transmission will be:",
+      "options": [
+        "From sun to annulus gear",
+        "From sun to planetary gear",
+        "From planetary to sun gear"
+      ],
+      "correctIndex": 1,
+      "explanation": "With the annulus (ring) gear held stationary, input power applied to the sun gear is transmitted to the planetary gears, which then drive the output through the carrier."
+    },
+    {
+      "id": "ppsfc127-q62",
+      "question": "Which of the following is false about alpha operation of Hartzell feathering propeller?",
+      "options": [
+        "Power lever control propeller speed through fuel control",
+        "Beta valve fully open",
+        "Propeller governor control power turbine speed"
+      ],
+      "correctIndex": 1,
+      "explanation": "During alpha (normal flight range) operation, the beta valve is not fully open; it only opens fully for beta/ground range operation, making this statement the false one."
+    },
+    {
+      "id": "ppsfc127-q63",
+      "question": "What is the purpose of the master control system in a propeller system if equipped with?",
+      "options": [
+        "It is to eliminate vibration that arise from differences in propeller RPM",
+        "It is to control power of all engines at the same time",
+        "It is to increase the RPM of all propellers within allowable tolerance"
+      ],
+      "correctIndex": 1,
+      "explanation": "A master control (power) system allows the pilot to control power across all engines simultaneously and in coordination, from a single control input."
+    },
+    {
+      "id": "ppsfc127-q64",
+      "question": "In a propeller auto-feathering system, auto-feathering the propeller because of power loss or engine failure is initiated by:",
+      "options": [
+        "time delay unit",
+        "blocking relay",
+        "torque pressure switch"
+      ],
+      "correctIndex": 2,
+      "explanation": "A torque pressure switch senses the drop in torque/power following a power loss or engine failure and triggers the auto-feathering sequence."
+    },
+    {
+      "id": "ppsfc127-q65",
+      "question": "In propeller anti-icing system which one of the following units controls the output of the pump?",
+      "options": [
+        "Slinger ring",
+        "Rheostat",
+        "Pressure relief valve"
+      ],
+      "correctIndex": 1,
+      "explanation": "A rheostat varies the electrical current supplied to the anti-icing fluid pump's motor, controlling the pump's output rate."
+    },
+    {
+      "id": "ppsfc127-q66",
+      "question": "One of the following propeller auxiliary system do not have control from the cockpit:",
+      "options": [
+        "Manual feathering system",
+        "Synchronization and/or synchrophasing system",
+        "Propeller pitch lock system"
+      ],
+      "correctIndex": 2,
+      "explanation": "A pitch lock system engages automatically in response to an overspeed/oil-pressure-loss condition and is not directly operated by a cockpit control, unlike the synchronizing or manual feathering systems."
+    },
+    {
+      "id": "ppsfc127-q67",
+      "question": "What is the remedy for front cone bottoming?",
+      "options": [
+        "Filing (tapping) the apex of the front cone",
+        "Using a spacer behind the rear cone",
+        "Filing (tapping) the apex of the rear cone"
+      ],
+      "correctIndex": 1,
+      "explanation": "Front cone bottoming is corrected by inserting a spacer behind the rear cone, adjusting the overall stack-up so the front cone seats correctly."
+    },
+    {
+      "id": "ppsfc127-q68",
+      "question": "On the Hamilton Standard Hydromatic propeller, which adjustment should be used for fine RPM adjustment?",
+      "options": [
+        "Decreasing the stroke of the propeller control lever",
+        "Shifting the pulley stop pin hole",
+        "Turning the RPM adjustment screw"
+      ],
+      "correctIndex": 2,
+      "explanation": "Fine RPM adjustment on this governor is made by turning a dedicated RPM adjustment screw, which changes speeder spring tension."
+    },
+    {
+      "id": "ppsfc127-q69",
+      "question": "Which one is false about Ground Angle?",
+      "options": [
+        "It is the angle formed between the plane of rotation and the vertical axis",
+        "It is the angle formed between the propeller shaft and the horizontal axis",
+        "It is the angle formed between the propeller shaft and the vertical axis"
+      ],
+      "correctIndex": 2,
+      "explanation": "Ground angle is properly referenced to the propeller shaft and the horizontal plane (or equivalently, the plane of rotation and the vertical axis), not between the shaft and the vertical axis, making this statement false."
+    },
+    {
+      "id": "ppsfc127-q70",
+      "question": "What are the most important instrument checks on start cycle of an engine?",
+      "options": [
+        "EGT and oil pressure",
+        "EGT and oil temperature",
+        "Oil temperature and oil pressure"
+      ],
+      "correctIndex": 0,
+      "explanation": "During engine start, EGT (to catch a developing hot start) and oil pressure (to confirm adequate lubrication) are the most critical parameters to monitor."
+    },
+    {
+      "id": "ppsfc127-q71",
+      "question": "Component of gas turbine engine having material property of nonporous and non-metallic can be inspected by:",
+      "options": [
+        "Eddy current",
+        "Dye penetrant",
+        "Magnetic particle"
+      ],
+      "correctIndex": 1,
+      "explanation": "Dye penetrant inspection works on nonporous surfaces regardless of material, including non-metallic components, unlike magnetic particle (ferromagnetic metals only) or eddy current (electrically conductive metals only) methods."
+    },
+    {
+      "id": "ppsfc127-q72",
+      "question": "An engine structure consisting of structural members, skin, a fire-wall and engine mount:",
+      "options": [
+        "Cowlings",
+        "Pylon",
+        "Nacelle"
+      ],
+      "correctIndex": 2,
+      "explanation": "The nacelle is the structural housing, including the firewall and engine mount, that encloses the engine, distinct from the pylon (which attaches the nacelle to the wing/fuselage) and the cowlings (removable external skin panels)."
+    },
+    {
+      "id": "ppsfc127-q73",
+      "question": "Which one of the following is correct step of providing publications?",
+      "options": [
+        "Airworthiness directive, then service information letter, then service bulletin",
+        "Service information letter, then service bulletin, then airworthiness directive",
+        "Service bulletin, then service information letter, then airworthiness directive"
+      ],
+      "correctIndex": 1,
+      "explanation": "Manufacturer information typically progresses from an informal service information letter, to a more formal service bulletin, and finally, if mandated, to an FAA airworthiness directive."
+    },
+    {
+      "id": "ppsfc127-q74",
+      "question": "Compressor blade blending of PWJT3D engine is dependent on…………………except:",
+      "options": [
+        "Type of material of construction",
+        "The depth, radius and type of airfoil section",
+        "Number of stages of the compressor"
+      ],
+      "correctIndex": 2,
+      "explanation": "Blade blending limits are governed by the blade material properties and the local airfoil geometry at the blend site, not by how many stages the compressor has overall."
+    },
+    {
+      "id": "ppsfc127-q75",
+      "question": "The term that explains a bent compressor blade due to foreign object damage:",
+      "options": [
+        "Score",
+        "Gall",
+        "Burr"
+      ],
+      "correctIndex": 2,
+      "explanation": "As given in the source, \"burr\" is used here for this type of foreign object damage; note that burr more typically refers to a raised metal edge/ridge rather than a bent blade, so this term is worth double-checking against your reference material."
+    },
+    {
+      "id": "ppsfc127-q76",
+      "question": "Which one of the following cracks results in rejection of combustion chamber liner (JT3D)?",
+      "options": [
+        "Cracks in the swirl vanes",
+        "Cracks within the limit radiating from interconnector",
+        "Baffle crack connecting more than two holes"
+      ],
+      "correctIndex": 2,
+      "explanation": "A baffle crack that connects more than two cooling holes exceeds the typical allowable crack limit for the liner, making it cause for rejection, unlike isolated radiating cracks within limits or swirl vane cracks."
+    },
+    {
+      "id": "ppsfc127-q77",
+      "question": "During application of an engine compressor wash solution, what must be done?",
+      "options": [
+        "An adequate non-potable water supply must be available for rinsing",
+        "The solution must be applied at a higher temperature than the compressor",
+        "The engine must be motored"
+      ],
+      "correctIndex": 2,
+      "explanation": "During a compressor wash, the engine is motored (rotated by the starter without ignition) to help circulate the wash solution through and rinse the compressor."
+    },
+    {
+      "id": "ppsfc127-q78",
+      "question": "Hairline cracks that run at right angles to the length of a turbine blade are usually caused by what type of condition?",
+      "options": [
+        "Compressive stress",
+        "Over temperature",
+        "Creep"
+      ],
+      "correctIndex": 1,
+      "explanation": "Repeated over-temperature excursions commonly produce thermal fatigue cracking that runs transverse (at right angles) to the blade's length."
+    },
+    {
+      "id": "ppsfc127-q79",
+      "question": "Which inspection uses the proper measuring tools and table of limits?",
+      "options": [
+        "Visual inspection",
+        "Penetrant inspection",
+        "Dimensional inspection"
+      ],
+      "correctIndex": 2,
+      "explanation": "Dimensional inspection specifically involves measuring parts with tools such as calipers or gauges and comparing the results against a published table of limits."
+    },
+    {
+      "id": "ppsfc127-q80",
+      "question": "The time accumulated after overhaul is known as:",
+      "options": [
+        "SSV",
+        "TSO",
+        "TBO"
+      ],
+      "correctIndex": 1,
+      "explanation": "TSO (Time Since Overhaul) tracks the accumulated time since the component's last overhaul, distinct from TBO (Time Between Overhaul), which is the scheduled interval limit itself."
+    }
+  ]
+}
