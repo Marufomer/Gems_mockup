@@ -1,0 +1,1080 @@
+{
+  "id": "pp-school-final-b264",
+  "title": "PP-school-final(B264)",
+  "module": "PP-school-final",
+  "course": "powerplant",
+  "category": "school_final",
+  "description": "Powerplant school-final comprehensive practice exam (Batch 264) covering reciprocating and gas turbine engines, fuel systems, ignition systems, starters, propellers, lubrication, inspection, graphic communication, and general course topics.",
+  "durationMinutes": 150,
+  "totalQuestions": 97,
+  "color": "orange",
+  "questions": [
+    {
+      "id": "ppsf264-q1",
+      "question": "In orthographic drawing, which view shows the height and width of an object?",
+      "options": [
+        "Side (profile) view",
+        "Top view",
+        "Front view"
+      ],
+      "correctIndex": 2,
+      "explanation": "The front view, as the principal orthographic view, shows the object's height and width; the top view shows width and depth, and the side view shows height and depth."
+    },
+    {
+      "id": "ppsf264-q2",
+      "question": "Which line shows the intersection between a cutting plane and a sectioned object?",
+      "options": [
+        "Hidden line",
+        "Center line",
+        "Section line"
+      ],
+      "correctIndex": 2,
+      "explanation": "A section line marks the material surface that is cut by the cutting plane in a sectional view, typically shown as hatching."
+    },
+    {
+      "id": "ppsf264-q3",
+      "question": "Which sectional view is used to represent a complex drawing?",
+      "options": [
+        "Full section",
+        "Half section",
+        "Removed section"
+      ],
+      "correctIndex": 2,
+      "explanation": "A removed section is drawn apart from the main view, allowing a complex area to be shown clearly on its own without crowding the main drawing."
+    },
+    {
+      "id": "ppsf264-q4",
+      "question": "Which algebraic/Boolean law is illustrated by A(B+C) = AB + AC?",
+      "options": [
+        "Associative law",
+        "Commutative law",
+        "Distributive law"
+      ],
+      "correctIndex": 2,
+      "explanation": "This identity, where a factor is distributed across a sum, is the distributive law of multiplication over addition."
+    },
+    {
+      "id": "ppsf264-q5",
+      "question": "Which of the following is true regarding subsonic and supersonic flow regions?",
+      "options": [
+        "Below Mach 1, the airflow is supersonic",
+        "Below Mach 1, the airflow is subsonic",
+        "Mach number has no relationship to flow speed classification"
+      ],
+      "correctIndex": 1,
+      "explanation": "Mach number is the ratio of flow speed to the local speed of sound; a Mach number below 1 means the flow is traveling slower than the speed of sound, i.e., subsonic."
+    },
+    {
+      "id": "ppsf264-q6",
+      "question": "What is the purpose of a reamer?",
+      "options": [
+        "To cut a new round hole from solid material",
+        "To slightly increase and finish a hole to a precise diameter",
+        "To thread the inside of a hole"
+      ],
+      "correctIndex": 1,
+      "explanation": "A reamer is used after drilling to slightly enlarge and finish a hole to an exact, smooth final diameter."
+    },
+    {
+      "id": "ppsf264-q7",
+      "question": "What does drilling accomplish?",
+      "options": [
+        "Finishing a hole to exact size",
+        "Cutting external threads",
+        "Cutting a round hole"
+      ],
+      "correctIndex": 2,
+      "explanation": "Drilling is the process of cutting a round hole into material using a rotating drill bit."
+    },
+    {
+      "id": "ppsf264-q8",
+      "question": "What is the purpose of wing thickness (airfoil thickness)?",
+      "options": [
+        "To reduce the wing's structural weight only",
+        "To help distribute lift along the wing",
+        "To increase induced drag"
+      ],
+      "correctIndex": 1,
+      "explanation": "Airfoil thickness, along with other wing geometry, influences how lift is generated and distributed across the wing's chord and span."
+    },
+    {
+      "id": "ppsf264-q9",
+      "question": "Which of the following is an example of a reduced scale in technical drawing?",
+      "options": [
+        "2:1",
+        "1:1",
+        "1:2"
+      ],
+      "correctIndex": 2,
+      "explanation": "A reduced scale represents the object smaller than actual size, such as 1:2 (half size); 2:1 would be an enlarged scale and 1:1 is full size."
+    },
+    {
+      "id": "ppsf264-q10",
+      "question": "What kind of stress does a crankshaft primarily experience during engine operation?",
+      "options": [
+        "Torsional stress",
+        "Pure tensile stress",
+        "Pure compressive stress"
+      ],
+      "correctIndex": 0,
+      "explanation": "The crankshaft is subjected to torsional (twisting) loads as it transmits engine torque, in addition to bending loads from the connecting rods."
+    },
+    {
+      "id": "ppsf264-q11",
+      "question": "Induced drag is primarily generated at the:",
+      "options": [
+        "Wing tip",
+        "Wing root",
+        "Leading edge only"
+      ],
+      "correctIndex": 0,
+      "explanation": "Induced drag results from wingtip vortices formed as higher-pressure air beneath the wing spills around the tip to the lower-pressure air above."
+    },
+    {
+      "id": "ppsf264-q12",
+      "question": "What is the purpose of a warning sign/placard?",
+      "options": [
+        "To provide decorative branding",
+        "To indicate routine maintenance schedules only",
+        "To notify of hazards and potential accident situations"
+      ],
+      "correctIndex": 2,
+      "explanation": "Warning signs and placards alert personnel to hazards and situations that could lead to injury or accidents if not heeded."
+    },
+    {
+      "id": "ppsf264-q13",
+      "question": "In SAE steel alloy designation, what does the first digit indicate?",
+      "options": [
+        "The carbon content percentage",
+        "The heat treatment process used",
+        "The principal alloying element"
+      ],
+      "correctIndex": 2,
+      "explanation": "In the SAE/AISI numbering system, the first digit identifies the principal alloying element or alloy series (e.g., 1 for carbon steel, 4 for molybdenum steels)."
+    },
+    {
+      "id": "ppsf264-q14",
+      "question": "What are the small holes in the metal tipping of a wood propeller used for?",
+      "options": [
+        "Moisture drain and vent",
+        "Allowing lubrication of the hub",
+        "Reducing propeller weight"
+      ],
+      "correctIndex": 0,
+      "explanation": "Small holes in the metal tipping allow trapped moisture beneath the tipping to drain and vent, preventing moisture damage to the wood underneath."
+    },
+    {
+      "id": "ppsf264-q15",
+      "question": "What type of hub attachment is commonly used for wood propellers?",
+      "options": [
+        "Splined shaft attachment",
+        "Flanged attachment",
+        "Tapered attachment"
+      ],
+      "correctIndex": 2,
+      "explanation": "Wood propellers are traditionally mounted using a tapered shaft/hub attachment that centers and secures the propeller on the engine shaft."
+    },
+    {
+      "id": "ppsf264-q16",
+      "question": "If the intake valve opens 18 degrees before top center (at the end of the exhaust stroke) and closes 55 degrees after bottom center (in the compression stroke), what is the total intake valve event duration?",
+      "options": [
+        "253 degrees",
+        "198 degrees",
+        "233 degrees"
+      ],
+      "correctIndex": 0,
+      "explanation": "Total duration = 18 (before TC) + 180 (full stroke from TC to BC) + 55 (after BC) = 253 degrees of crankshaft rotation."
+    },
+    {
+      "id": "ppsf264-q17",
+      "question": "What component connects the connecting rod to the crankshaft?",
+      "options": [
+        "Main bearing journal",
+        "Crank pin",
+        "Wrist pin"
+      ],
+      "correctIndex": 1,
+      "explanation": "The crank pin (crankpin journal) is the offset section of the crankshaft to which the connecting rod's big end attaches."
+    },
+    {
+      "id": "ppsf264-q18",
+      "question": "If engine power is reduced, what happens to climb performance?",
+      "options": [
+        "Climb performance increases",
+        "Climb performance is unaffected",
+        "Climb performance decreases"
+      ],
+      "correctIndex": 2,
+      "explanation": "Climb performance depends on excess power/thrust beyond what is needed for level flight; reducing engine power reduces that excess, decreasing climb performance."
+    },
+    {
+      "id": "ppsf264-q19",
+      "question": "What component directly regulates turbocharger boost?",
+      "options": [
+        "Intake manifold",
+        "Wastegate valve",
+        "Throttle body"
+      ],
+      "correctIndex": 1,
+      "explanation": "The wastegate valve bypasses exhaust gas around the turbine to directly control turbocharger speed and, therefore, boost pressure."
+    },
+    {
+      "id": "ppsf264-q20",
+      "question": "During which part of the four-stroke cycle are both intake and exhaust valves open at the same time (valve overlap)?",
+      "options": [
+        "During the power (combustion) stroke",
+        "During the middle of the compression stroke",
+        "At the end of the exhaust stroke and the beginning of the intake stroke"
+      ],
+      "correctIndex": 2,
+      "explanation": "Valve overlap occurs around top center between the exhaust and intake strokes, where both valves are briefly open together to improve cylinder scavenging."
+    },
+    {
+      "id": "ppsf264-q21",
+      "question": "What is the primary purpose of engine lubrication?",
+      "options": [
+        "To increase compression ratio",
+        "To reduce friction",
+        "To increase combustion temperature"
+      ],
+      "correctIndex": 1,
+      "explanation": "The primary purpose of lubrication is to reduce friction between moving parts, which also helps with cooling, sealing, and cleaning as secondary benefits."
+    },
+    {
+      "id": "ppsf264-q22",
+      "question": "How many throws does the crankshaft of a V8 engine have?",
+      "options": [
+        "8",
+        "2",
+        "4"
+      ],
+      "correctIndex": 2,
+      "explanation": "In a V-type engine, two cylinders (one from each bank) share a common crank throw, so a V8 engine has 4 throws on its crankshaft."
+    },
+    {
+      "id": "ppsf264-q23",
+      "question": "The fuel discharge nozzle in a carburetor is located at the narrowest point of the venturi, where there is:",
+      "options": [
+        "No pressure change",
+        "Lowest pressure",
+        "Highest pressure"
+      ],
+      "correctIndex": 1,
+      "explanation": "At the venturi's narrowest point, airflow velocity is highest and, per Bernoulli's principle, static pressure is lowest, which draws fuel from the discharge nozzle."
+    },
+    {
+      "id": "ppsf264-q24",
+      "question": "The actual horsepower delivered by the engine to the propeller or helicopter transmission is:",
+      "options": [
+        "Friction horsepower",
+        "Indicated horsepower",
+        "Brake horsepower"
+      ],
+      "correctIndex": 2,
+      "explanation": "Brake horsepower is the usable power actually delivered at the output shaft, after friction losses are subtracted from indicated horsepower."
+    },
+    {
+      "id": "ppsf264-q25",
+      "question": "In a two-stroke engine, the intake valve/port is opened by:",
+      "options": [
+        "High pressure in the crankcase or cylinder",
+        "Low pressure in the crankcase or cylinder",
+        "Mechanical cam action only"
+      ],
+      "correctIndex": 1,
+      "explanation": "In many two-stroke designs, the pressure differential created in the crankcase or cylinder draws the intake charge in rather than relying solely on mechanical valve actuation."
+    },
+    {
+      "id": "ppsf264-q26",
+      "question": "Excessive vibration in an engine will cause:",
+      "options": [
+        "Increased oil pressure",
+        "Improved fuel economy",
+        "Bearing damage"
+      ],
+      "correctIndex": 2,
+      "explanation": "Excessive vibration imposes abnormal cyclic loads on rotating components, commonly leading to premature bearing wear and damage."
+    },
+    {
+      "id": "ppsf264-q27",
+      "question": "Which of the following is NOT a turbine rotor (blade) type?",
+      "options": [
+        "Divergent",
+        "Impulse",
+        "Reaction"
+      ],
+      "correctIndex": 0,
+      "explanation": "Turbine blades are classified as impulse or reaction (or a combination); \"divergent\" describes a duct/nozzle shape, not a turbine blade type."
+    },
+    {
+      "id": "ppsf264-q28",
+      "question": "What type of inlet duct is commonly used for a turboprop engine?",
+      "options": [
+        "Annular bypass inlet",
+        "Pitot-type nose inlet only",
+        "Under-fuselage (under) scoop"
+      ],
+      "correctIndex": 2,
+      "explanation": "Many turboprop installations use an under-slung scoop-type inlet positioned below the propeller/reduction gearbox to duct air into the compressor."
+    },
+    {
+      "id": "ppsf264-q29",
+      "question": "Which combustion chamber type is described as having a single flame tube?",
+      "options": [
+        "Annular type",
+        "Can type",
+        "Can-annular type"
+      ],
+      "correctIndex": 1,
+      "explanation": "As given, the can-type combustion chamber is described here as having a single flame tube per can; note that this differs from the more common distinction where the annular chamber has one continuous flame tube, so this item is worth double-checking against your source."
+    },
+    {
+      "id": "ppsf264-q30",
+      "question": "During engine starting, what is the typical state of the Variable Bypass Valve (VBV)?",
+      "options": [
+        "VBV partially open only above idle",
+        "VBV open",
+        "VBV closed"
+      ],
+      "correctIndex": 1,
+      "explanation": "During starting, the VBV is open to bleed off excess compressor airflow, helping the compressor avoid stall during the low-RPM start sequence."
+    },
+    {
+      "id": "ppsf264-q31",
+      "question": "Which duct/nozzle shape causes airflow area to gradually decrease and then increase?",
+      "options": [
+        "Convergent-divergent",
+        "Divergent only",
+        "Convergent only"
+      ],
+      "correctIndex": 0,
+      "explanation": "A convergent-divergent duct narrows to a throat (minimum area) and then expands again, the classic shape used to accelerate flow to and beyond the speed of sound."
+    },
+    {
+      "id": "ppsf264-q32",
+      "question": "Which type of propulsion is air-independent?",
+      "options": [
+        "Rocket engine",
+        "Turboprop engine",
+        "Turbojet engine"
+      ],
+      "correctIndex": 0,
+      "explanation": "A rocket engine carries its own oxidizer and does not require atmospheric air for combustion, unlike air-breathing turbojet or turboprop engines."
+    },
+    {
+      "id": "ppsf264-q33",
+      "question": "What is the purpose of an engine mount's vibration isolation feature?",
+      "options": [
+        "To absorb the vibration that would otherwise transmit to the aircraft structure",
+        "To increase engine cooling airflow",
+        "To reduce engine weight"
+      ],
+      "correctIndex": 0,
+      "explanation": "Engine mounts are designed to isolate and absorb engine vibration so it is not transmitted into the airframe structure."
+    },
+    {
+      "id": "ppsf264-q34",
+      "question": "Most aircraft with subsonic exhaust velocity use what type of exhaust nozzle?",
+      "options": [
+        "Convergent exhaust nozzle",
+        "Divergent exhaust nozzle",
+        "Convergent-divergent exhaust nozzle"
+      ],
+      "correctIndex": 0,
+      "explanation": "A simple convergent nozzle is sufficient to accelerate subsonic exhaust flow up to roughly sonic velocity, which meets the needs of most subsonic aircraft."
+    },
+    {
+      "id": "ppsf264-q35",
+      "question": "What is the SI unit of capacitance?",
+      "options": [
+        "Henry",
+        "Ohm",
+        "Farad"
+      ],
+      "correctIndex": 2,
+      "explanation": "The farad is the SI unit of electrical capacitance, named after Michael Faraday."
+    },
+    {
+      "id": "ppsf264-q36",
+      "question": "On a dual-spool engine, the first (high pressure) stage of turbines drives:",
+      "options": [
+        "The fan only",
+        "The HP compressor",
+        "The LP compressor"
+      ],
+      "correctIndex": 1,
+      "explanation": "On a dual-spool engine, the HP turbine is connected by a shaft directly to the HP compressor, forming the high-pressure spool."
+    },
+    {
+      "id": "ppsf264-q37",
+      "question": "What is the first station in a gas turbine engine (by convention)?",
+      "options": [
+        "Inlet section",
+        "Compressor section",
+        "Combustion section"
+      ],
+      "correctIndex": 0,
+      "explanation": "By standard engine station numbering convention, the inlet (air intake) section is designated as the first station of the engine."
+    },
+    {
+      "id": "ppsf264-q38",
+      "question": "What component creates a vortex (swirling airflow) in a gas turbine's flame tube?",
+      "options": [
+        "Igniter plug",
+        "Fuel flow divider",
+        "Swirl vanes"
+      ],
+      "correctIndex": 2,
+      "explanation": "Swirl vanes at the fuel nozzle/primary air entry impart a rotational (vortex) motion to incoming air, promoting good fuel/air mixing and flame stability."
+    },
+    {
+      "id": "ppsf264-q39",
+      "question": "Ram effect is defined as:",
+      "options": [
+        "The pressure drop caused by altitude increase",
+        "The temperature rise from combustion only",
+        "The pressure rise because of forward (aircraft) speed"
+      ],
+      "correctIndex": 2,
+      "explanation": "Ram effect is the increase in inlet air pressure (and density) caused by the aircraft's forward speed forcing air into the intake."
+    },
+    {
+      "id": "ppsf264-q40",
+      "question": "The load compressor of an APU is:",
+      "options": [
+        "A compressor that provides pneumatic power for the aircraft",
+        "The compressor stage that compresses air for the APU's own combustion only",
+        "A backup compressor used only during APU starting"
+      ],
+      "correctIndex": 0,
+      "explanation": "On many APUs, a dedicated \"load\" compressor section is driven by the APU turbine specifically to supply pneumatic (bleed air) power to the aircraft, separate from the compressor that supports the APU's own combustion process."
+    },
+    {
+      "id": "ppsf264-q41",
+      "question": "Which type of seal cannot be used without air pressure for seal pressurization?",
+      "options": [
+        "Carbon seal",
+        "Labyrinth seal",
+        "Lip seal"
+      ],
+      "correctIndex": 1,
+      "explanation": "Labyrinth seals depend on a pressure differential (maintained by bleed/pressurizing air) across their close clearances to be effective; without that pressurization they cannot properly seal."
+    },
+    {
+      "id": "ppsf264-q42",
+      "question": "Which component in the oil system pulls the oil back for return after it lubricates the gears and bearings?",
+      "options": [
+        "Scavenge pump",
+        "Pressure pump",
+        "Boost pump"
+      ],
+      "correctIndex": 0,
+      "explanation": "The scavenge pump(s) draw used oil from the various lubrication points (gears, bearings, sumps) and return it to the oil tank, separate from the pressure pump that supplies oil out."
+    },
+    {
+      "id": "ppsf264-q43",
+      "question": "In a turbine case cooling system, if the cooling air flow rate increases, what happens?",
+      "options": [
+        "The turbine case is cooled and blade clearance decreases",
+        "There is no change in case temperature or clearance",
+        "The turbine case heats up and blade clearance increases"
+      ],
+      "correctIndex": 0,
+      "explanation": "Increased cooling airflow shrinks the turbine case more, tightening (decreasing) the running clearance between the blade tips and the case/shroud for better efficiency."
+    },
+    {
+      "id": "ppsf264-q44",
+      "question": "The ability to maintain a protective barrier under heavy load, high temperature, and extreme pressure describes a lubricant's:",
+      "options": [
+        "Viscosity index",
+        "Film strength",
+        "Flash point"
+      ],
+      "correctIndex": 1,
+      "explanation": "Film strength is the property that allows a lubricant to maintain a protective oil film between surfaces even under heavy load and extreme conditions, preventing metal-to-metal contact."
+    },
+    {
+      "id": "ppsf264-q45",
+      "question": "Which of the following is NOT true about vegetable oil as a lubricant?",
+      "options": [
+        "It was historically used in some external/surface lubrication applications",
+        "It can gum or oxidize over time",
+        "It is commonly used for internal engine lubrication"
+      ],
+      "correctIndex": 2,
+      "explanation": "Vegetable oils are generally unsuitable for internal engine lubrication due to poor thermal stability and a tendency to gum and oxidize, so this statement is the false one."
+    },
+    {
+      "id": "ppsf264-q46",
+      "question": "Which of the following is NOT typically something that requires flushing?",
+      "options": [
+        "A fuel system after introduction of the wrong fuel type",
+        "A contaminated oil system after an internal failure",
+        "Regular scheduled servicing"
+      ],
+      "correctIndex": 2,
+      "explanation": "As given in the source, routine regular scheduled servicing is cited as not requiring a special flushing procedure, unlike contamination events that do."
+    },
+    {
+      "id": "ppsf264-q47",
+      "question": "What type of friction is found between meshing gear teeth?",
+      "options": [
+        "Wiping friction",
+        "Static friction",
+        "Rolling friction"
+      ],
+      "correctIndex": 0,
+      "explanation": "As the gear teeth mesh and slide against each other during engagement, the resulting friction is a sliding (wiping) friction."
+    },
+    {
+      "id": "ppsf264-q48",
+      "question": "Which of the following is NOT a reason for engine trimming?",
+      "options": [
+        "Changing the fuel control unit",
+        "Engine or component replacement affecting fuel schedule",
+        "Fuel pump change"
+      ],
+      "correctIndex": 2,
+      "explanation": "Trimming is performed to reset fuel scheduling after changes that affect it, such as FCU or component replacement; a routine fuel pump change by itself is given here as not being a trimming trigger."
+    },
+    {
+      "id": "ppsf264-q49",
+      "question": "What type of fuel additive is used to reduce wear on the fuel pump and FCU?",
+      "options": [
+        "Anti-static additive",
+        "Lubricity additive",
+        "Anti-icing additive"
+      ],
+      "correctIndex": 1,
+      "explanation": "Lubricity additives improve the fuel's lubricating properties, reducing wear on fuel pump and FCU components that rely on the fuel itself for lubrication."
+    },
+    {
+      "id": "ppsf264-q50",
+      "question": "Which of the following is a disadvantage of a vaporizing-type fuel nozzle?",
+      "options": [
+        "Poor atomization at high power",
+        "Poor performance during starting",
+        "Excessive weight compared to spray nozzles"
+      ],
+      "correctIndex": 1,
+      "explanation": "Vaporizing fuel nozzles rely on heat from the combustion chamber to vaporize fuel, which makes them perform poorly during starting, before the chamber is hot."
+    },
+    {
+      "id": "ppsf264-q51",
+      "question": "What is a characteristic of a centrifugal-type fuel boost pump?",
+      "options": [
+        "It requires no electrical power to operate",
+        "It only operates at high altitude",
+        "It separates air and vapor from the fuel"
+      ],
+      "correctIndex": 2,
+      "explanation": "A centrifugal boost pump's design allows entrained air and vapor to separate from the liquid fuel and vent off, helping prevent vapor lock in the fuel supply."
+    },
+    {
+      "id": "ppsf264-q52",
+      "question": "The freezing point of the widely used fuel Jet A-1 is higher than ______ and lower than ______.",
+      "options": [
+        "Diesel fuel, Jet A",
+        "Jet A, Jet B",
+        "Jet B, Jet A"
+      ],
+      "correctIndex": 1,
+      "explanation": "As given in the source, Jet A-1's freezing point is described as falling between Jet A and Jet B; note that typical published freezing points (Jet A about -40C, Jet A-1 about -47C, Jet B about -50C) would actually place Jet A-1 between Jet A and Jet B in the opposite order, so this is worth double-checking against your reference material."
+    },
+    {
+      "id": "ppsf264-q53",
+      "question": "The EEC (Electronic Engine Control) communicates with which unit of the fuel system?",
+      "options": [
+        "Fuel boost pump only",
+        "Fuel Control Unit",
+        "Fuel flowmeter only"
+      ],
+      "correctIndex": 1,
+      "explanation": "The EEC interfaces primarily with the Fuel Control Unit, sending trim/control signals that adjust fuel scheduling to the engine."
+    },
+    {
+      "id": "ppsf264-q54",
+      "question": "The component in the JT8D engine fuel system that drains the fuel manifold during engine shutdown is:",
+      "options": [
+        "Fuel heater",
+        "Pressurizing and Dump valve",
+        "Fuel flow divider"
+      ],
+      "correctIndex": 1,
+      "explanation": "The pressurizing and dump valve maintains fuel manifold pressure in operation and drains (dumps) the manifold at shutdown to prevent fuel coking in the hot nozzles."
+    },
+    {
+      "id": "ppsf264-q55",
+      "question": "What are the principal advantages of the duplex fuel nozzle used in many turbine engines?",
+      "options": [
+        "Provides better atomization and a more uniform flow pattern",
+        "Reduces total nozzle count required",
+        "Eliminates the need for a flow divider"
+      ],
+      "correctIndex": 0,
+      "explanation": "Duplex nozzles use separate primary and secondary fuel flow paths, giving good atomization and a more uniform spray pattern across a wide range of fuel flows."
+    },
+    {
+      "id": "ppsf264-q56",
+      "question": "A fuel flowmeter measures the amount of fuel being sent to the:",
+      "options": [
+        "Fuel manifold",
+        "Fuel boost pump",
+        "Fuel tank"
+      ],
+      "correctIndex": 0,
+      "explanation": "The fuel flowmeter is positioned to measure fuel flow on its way to the fuel manifold (and nozzles), giving the crew a real-time fuel flow indication."
+    },
+    {
+      "id": "ppsf264-q57",
+      "question": "When the engine is shut down, which fuel discharge stops first?",
+      "options": [
+        "Only the primary discharge stops first",
+        "Both primary and secondary discharge stop together",
+        "Only the secondary discharge stops first"
+      ],
+      "correctIndex": 1,
+      "explanation": "As given in the source, both the primary and secondary fuel discharge are cut off together at shutdown, typically by the shutoff/pressurizing valve."
+    },
+    {
+      "id": "ppsf264-q58",
+      "question": "Which of the following parameters is used by the FCU to help control fuel flow?",
+      "options": [
+        "Landing gear position",
+        "Cabin pressure only",
+        "Outside (ambient) air temperature"
+      ],
+      "correctIndex": 2,
+      "explanation": "FCUs schedule fuel flow using parameters that include sensed air temperature (such as compressor inlet/ambient temperature) along with RPM and throttle position."
+    },
+    {
+      "id": "ppsf264-q59",
+      "question": "When using an afterburner, compressor mass gas flow:",
+      "options": [
+        "Decreases significantly",
+        "Increases significantly",
+        "Remains the same"
+      ],
+      "correctIndex": 2,
+      "explanation": "The afterburner adds fuel and burns it downstream of the turbine, in the exhaust; it does not change the mass airflow passing through the compressor itself."
+    },
+    {
+      "id": "ppsf264-q60",
+      "question": "Which of the following is a feature of the engine main fuel pump?",
+      "options": [
+        "It operates only during engine start",
+        "It delivers fuel only at the exact quantity the engine needs at any moment",
+        "It delivers a continuous supply of fuel to the FCU at a quantity in excess of engine needs"
+      ],
+      "correctIndex": 2,
+      "explanation": "The main fuel pump is sized to supply more fuel than the engine could ever need at once; the FCU then meters back the excess, ensuring the engine is never fuel-starved."
+    },
+    {
+      "id": "ppsf264-q61",
+      "question": "What will be the effect on volatility when a fuel has low viscosity?",
+      "options": [
+        "Higher volatility",
+        "No effect on volatility",
+        "Lower volatility"
+      ],
+      "correctIndex": 0,
+      "explanation": "Fuels with lower viscosity tend to vaporize more readily, resulting in higher volatility, as given in the source."
+    },
+    {
+      "id": "ppsf264-q62",
+      "question": "Which of the following is NOT true about fuel viscosity?",
+      "options": [
+        "It changes with temperature",
+        "It should be as high as possible",
+        "It affects how easily fuel flows and atomizes"
+      ],
+      "correctIndex": 1,
+      "explanation": "Viscosity should be kept within a specified range suited to the fuel system and nozzles, not simply maximized; excessively high viscosity impairs flow and atomization."
+    },
+    {
+      "id": "ppsf264-q63",
+      "question": "Which type of compressor is more effective for power augmentation (e.g., in a turbocharger/supercharger application)?",
+      "options": [
+        "Axial compressor",
+        "Reciprocating (piston) compressor",
+        "Centrifugal compressor"
+      ],
+      "correctIndex": 2,
+      "explanation": "Centrifugal compressors can achieve a high pressure rise in a single stage and are well suited to power-augmentation applications such as turbocharging."
+    },
+    {
+      "id": "ppsf264-q64",
+      "question": "Using thrust horsepower of 10,500 and fuel-related figures given in the source (thrust produced 15,500, aircraft figure 1125), the calculated specific fuel consumption is:",
+      "options": [
+        "0.22",
+        "0.30",
+        "0.18"
+      ],
+      "correctIndex": 0,
+      "explanation": "Specific fuel consumption (SFC) is generally calculated as fuel flow divided by power or thrust output; the final figure given in the source for this calculation is 0.22, though the original wording of this word problem was unclear, so it's worth re-checking the exact figures against your source."
+    },
+    {
+      "id": "ppsf264-q65",
+      "question": "Which of the following is NOT supplied by an APU?",
+      "options": [
+        "Pneumatic (bleed air) power",
+        "Thrust",
+        "Electrical power"
+      ],
+      "correctIndex": 1,
+      "explanation": "An APU is not used to provide aircraft thrust; it instead supplies electrical and pneumatic power, and sometimes hydraulic power, on the ground or in flight."
+    },
+    {
+      "id": "ppsf264-q66",
+      "question": "What converts the forward and reverse motion of control levers into an analogue electrical signal?",
+      "options": [
+        "Thermocouple",
+        "Tachometer generator",
+        "Resolver"
+      ],
+      "correctIndex": 2,
+      "explanation": "A resolver converts mechanical lever position/motion into a corresponding analogue electrical signal for use by the engine control system."
+    },
+    {
+      "id": "ppsf264-q67",
+      "question": "What is the cause of a hot start?",
+      "options": [
+        "Excessive oil pressure",
+        "Low compressor inlet temperature",
+        "Residual fuel in the combustion chamber"
+      ],
+      "correctIndex": 2,
+      "explanation": "Residual (unburned) fuel pooled in the combustion chamber from a previous attempt can ignite excessively during the next start attempt, driving EGT above limits and causing a hot start."
+    },
+    {
+      "id": "ppsf264-q68",
+      "question": "Which of the following does NOT give information to the AVM (Airborne Vibration Monitoring) system?",
+      "options": [
+        "Accelerometer signals",
+        "EGT",
+        "Engine rotational speed reference"
+      ],
+      "correctIndex": 1,
+      "explanation": "The AVM system is built around vibration sensing (accelerometers referenced to engine speed); EGT is an unrelated temperature parameter and does not feed the AVM system."
+    },
+    {
+      "id": "ppsf264-q69",
+      "question": "What discharges stored energy in a capacitor when the engine is shut down?",
+      "options": [
+        "Exciter transformer",
+        "Relay coil",
+        "Discharge resistor"
+      ],
+      "correctIndex": 2,
+      "explanation": "A discharge resistor is connected across the capacitor to safely bleed off stored electrical energy once the ignition system (and engine) is shut down."
+    },
+    {
+      "id": "ppsf264-q70",
+      "question": "Which of the following is NOT true about ignition on a gas turbine engine?",
+      "options": [
+        "It is used during every normal engine start",
+        "It is only used for bad weather conditions",
+        "Continuous ignition may be selected for icing or turbulent conditions"
+      ],
+      "correctIndex": 1,
+      "explanation": "Ignition is required for every normal engine start, not only in bad weather; continuous ignition is additionally selected for conditions like icing, heavy precipitation, or turbulence."
+    },
+    {
+      "id": "ppsf264-q71",
+      "question": "In the ignition system, which component transforms the input voltage into a pulsed high voltage?",
+      "options": [
+        "Exciter box",
+        "Igniter plug",
+        "Capacitor bank only"
+      ],
+      "correctIndex": 0,
+      "explanation": "The exciter (ignition exciter unit) takes the relatively low input voltage and converts/steps it up into high-voltage pulses that are discharged through the igniter plug."
+    },
+    {
+      "id": "ppsf264-q72",
+      "question": "The air turbine starter used in most gas turbine engines is protected from attaining too high a speed, if the ratchet fails to release the clutch, by:",
+      "options": [
+        "A drive shaft shear section",
+        "An automatic cutoff valve only",
+        "A secondary ratchet mechanism"
+      ],
+      "correctIndex": 0,
+      "explanation": "A shear section in the starter drive shaft is designed to fail (shear) if the clutch fails to disengage, protecting the starter and engine from overspeed damage."
+    },
+    {
+      "id": "ppsf264-q73",
+      "question": "Which of the following is NOT true about the air turbine starter?",
+      "options": [
+        "It is powered by compressed air directed onto a turbine wheel",
+        "It drives the engine through a clutch and reduction gear",
+        "Its reduction gear reduces turbine RPM to 25,000 RPM"
+      ],
+      "correctIndex": 2,
+      "explanation": "An air turbine starter's reduction gearing brings its very high turbine speed down to a much lower output shaft speed suited to cranking the engine, nowhere near as high as 25,000 RPM, making this the false statement."
+    },
+    {
+      "id": "ppsf264-q74",
+      "question": "Which of the following is used on a gas turbine engine for ignition?",
+      "options": [
+        "Igniter plug",
+        "Spark plug",
+        "Glow plug"
+      ],
+      "correctIndex": 0,
+      "explanation": "Gas turbine engines use igniter plugs (high-energy, surface-gap type) rather than the spark plugs used in reciprocating engines."
+    },
+    {
+      "id": "ppsf264-q75",
+      "question": "Why do gas turbine engines commonly use two igniter plugs?",
+      "options": [
+        "For redundancy and reliability",
+        "To reduce fuel consumption",
+        "To increase total engine thrust"
+      ],
+      "correctIndex": 0,
+      "explanation": "Two igniter plugs are installed so that if one fails, the other can still reliably ignite the fuel/air mixture, providing redundancy."
+    },
+    {
+      "id": "ppsf264-q76",
+      "question": "Which of the following is NOT a purpose of the engine control system?",
+      "options": [
+        "Protecting the engine from exceeding operating limits",
+        "Supplying signals to control the flight controls",
+        "Scheduling fuel flow to match power demand"
+      ],
+      "correctIndex": 1,
+      "explanation": "The engine control system manages engine operation (fuel scheduling, limit protection, etc.); controlling the aircraft's flight controls is a separate system, not a function of engine control."
+    },
+    {
+      "id": "ppsf264-q77",
+      "question": "Which of the following are commonly used gas turbine engine performance indicators?",
+      "options": [
+        "Only EGT and hydraulic pressure",
+        "EPR, N1, N2, EGT and fuel flow",
+        "Only N1 and oil pressure"
+      ],
+      "correctIndex": 1,
+      "explanation": "Typical primary gas turbine performance indicators shown to the flight crew include EPR (or N1), N1, N2, EGT, and fuel flow."
+    },
+    {
+      "id": "ppsf264-q78",
+      "question": "Which of the following is true about the continuous ignition setting?",
+      "options": [
+        "It provides a low-tension continuous supply for takeoff, landing, and bad weather conditions",
+        "It is used only during normal cruise flight",
+        "It is only available on the ground"
+      ],
+      "correctIndex": 0,
+      "explanation": "Continuous ignition keeps the ignition system active throughout critical or adverse phases, such as takeoff, landing, and bad weather, in case of a flameout."
+    },
+    {
+      "id": "ppsf264-q79",
+      "question": "Which of the following is NOT used in an AC ignition system?",
+      "options": [
+        "Transformer",
+        "Vibrator",
+        "Capacitor"
+      ],
+      "correctIndex": 1,
+      "explanation": "A vibrator (mechanical or electronic chopper used to convert DC to pulsating current) is a component of DC-type induction ignition systems, not AC ignition systems."
+    },
+    {
+      "id": "ppsf264-q80",
+      "question": "A hung start is best described as:",
+      "options": [
+        "A failure to accelerate up to idle speed",
+        "An engine start with excessively low EGT",
+        "A normal start that occurs too quickly"
+      ],
+      "correctIndex": 0,
+      "explanation": "A hung (stagnated) start occurs when the engine stabilizes at an RPM below idle and fails to continue accelerating up to normal idle speed."
+    },
+    {
+      "id": "ppsf264-q81",
+      "question": "Compared with a fixed-pitch cruise propeller, a fixed-pitch climb propeller has a:",
+      "options": [
+        "Higher pitch angle",
+        "Lower (flatter) pitch angle",
+        "Identical pitch angle"
+      ],
+      "correctIndex": 1,
+      "explanation": "A climb propeller is set to a lower (flatter) pitch than a cruise propeller, which better matches the high-RPM, low-airspeed conditions of a climb."
+    },
+    {
+      "id": "ppsf264-q82",
+      "question": "The actual distance a propeller advances through the air in one revolution is called:",
+      "options": [
+        "Geometric pitch",
+        "Blade angle",
+        "Effective pitch"
+      ],
+      "correctIndex": 2,
+      "explanation": "Effective pitch is the actual forward distance traveled per revolution through the air, which is always less than the geometric (theoretical) pitch due to propeller slip."
+    },
+    {
+      "id": "ppsf264-q83",
+      "question": "During takeoff, which adjustment limit prevents further propeller blade movement?",
+      "options": [
+        "Low pitch stop only",
+        "High pitch stop only",
+        "Both low and high pitch stops together"
+      ],
+      "correctIndex": 0,
+      "explanation": "During takeoff, the low pitch stop limits how far the blades can move toward flat pitch, preventing the blades from going below the minimum allowed flight angle."
+    },
+    {
+      "id": "ppsf264-q84",
+      "question": "Which angle is formed between the chord line and the propeller's (or airfoil's) longitudinal axis?",
+      "options": [
+        "Angle of attack",
+        "Blade twist angle",
+        "Angle of incidence"
+      ],
+      "correctIndex": 2,
+      "explanation": "The angle of incidence is the fixed geometric angle between the chord line and a reference longitudinal axis, as distinct from the angle of attack, which varies with relative airflow."
+    },
+    {
+      "id": "ppsf264-q85",
+      "question": "Camber in a propeller (airfoil) is best described as:",
+      "options": [
+        "The total blade twist from root to tip",
+        "The distance between the leading and trailing edges",
+        "The distance between the chord and the mean camber line"
+      ],
+      "correctIndex": 2,
+      "explanation": "Camber describes the curvature of an airfoil section, measured as the distance between the straight chord line and the curved mean camber line."
+    },
+    {
+      "id": "ppsf264-q86",
+      "question": "What is the maximum allowable out-of-track limit for a metal propeller blade?",
+      "options": [
+        "1/32 inch",
+        "1/16 inch",
+        "1/8 inch"
+      ],
+      "correctIndex": 1,
+      "explanation": "A commonly cited out-of-track tolerance for metal propeller blades is 1/16 inch, beyond which the propeller requires correction."
+    },
+    {
+      "id": "ppsf264-q87",
+      "question": "What is used to dress out minor surface damage on a composite propeller blade?",
+      "options": [
+        "Sanding and filler",
+        "Heat treatment",
+        "A spoon-shaped riffle file only"
+      ],
+      "correctIndex": 0,
+      "explanation": "Minor surface damage on composite propeller blades is typically dressed out by sanding the area and applying an approved filler compound, following the manufacturer's repair procedures."
+    },
+    {
+      "id": "ppsf264-q88",
+      "question": "A cyclic variation in engine speed above and below the desired speed is characterized as:",
+      "options": [
+        "Surging",
+        "Hunting",
+        "Drooping"
+      ],
+      "correctIndex": 1,
+      "explanation": "\"Hunting\" describes a governor or control system cyclically overshooting and undershooting the target speed rather than settling steadily."
+    },
+    {
+      "id": "ppsf264-q89",
+      "question": "What is the status of the propeller governor during beta mode of operation?",
+      "options": [
+        "On speed",
+        "Under speed",
+        "Over speed"
+      ],
+      "correctIndex": 1,
+      "explanation": "In beta mode, propeller RPM is below the governor's selected speed, so the governor operates in the under-speed condition rather than actively governing blade angle."
+    },
+    {
+      "id": "ppsf264-q90",
+      "question": "Having reached the full-feathered position, further movement of the pitch-change mechanism is prevented by:",
+      "options": [
+        "The governor automatically locking the oil supply",
+        "A shear pin that breaks at full feather",
+        "Contact between the high angle stop ring in the base of the fixed cam and the stop lugs set in the teeth of the rotating cam"
+      ],
+      "correctIndex": 2,
+      "explanation": "Mechanical travel at full feather is physically stopped by the high angle stop ring (on the fixed cam) contacting the stop lugs on the rotating cam's teeth."
+    },
+    {
+      "id": "ppsf264-q91",
+      "question": "In a Hartzell propeller, how is the hydraulic piston's linear motion transferred to blade pitch change?",
+      "options": [
+        "By a pitch change rod and fork",
+        "By a pinion and rack gear",
+        "By a bevel gear set"
+      ],
+      "correctIndex": 0,
+      "explanation": "The piston's linear motion is converted into blade rotation through a pitch-change rod and fork (cam) arrangement acting on the blade shank."
+    },
+    {
+      "id": "ppsf264-q92",
+      "question": "The Propeller Control Lever is used for:",
+      "options": [
+        "Shutting off fuel to the engine",
+        "Controlling system RPM and blade angle in the Alpha Mode",
+        "Controlling only reverse thrust in Beta Mode"
+      ],
+      "correctIndex": 1,
+      "explanation": "In Alpha mode (normal flight range), the propeller control lever sets the RPM/blade angle the governor will maintain through its normal constant-speed governing function."
+    },
+    {
+      "id": "ppsf264-q93",
+      "question": "New findings that improve the performance, reliability, and airworthiness of an engine are communicated through:",
+      "options": [
+        "Service bulletins",
+        "Pilot operating handbooks",
+        "Type Certificate Data Sheets"
+      ],
+      "correctIndex": 0,
+      "explanation": "Manufacturers issue service bulletins to communicate improvements, recommended modifications, or corrective actions that affect performance, reliability, or airworthiness."
+    },
+    {
+      "id": "ppsf264-q94",
+      "question": "The process by which the fuel selector, power controls, and shutoff valve linkages (engine controls) are accurately adjusted to ensure instantaneous response to a control input is called:",
+      "options": [
+        "Calibration",
+        "Trimming",
+        "Rigging"
+      ],
+      "correctIndex": 2,
+      "explanation": "Rigging is the process of adjusting engine control linkages and cables so that cockpit control movement produces an accurate, immediate, and correctly proportioned response at the engine."
+    },
+    {
+      "id": "ppsf264-q95",
+      "question": "If the color of a humidity (desiccant) indicator is blue, what does this indicate?",
+      "options": [
+        "The indicator has expired and must be replaced",
+        "The contents have been exposed to excessive moisture and must be reconditioned",
+        "The condition of the air inside the bag/package is still \"safe\" (low humidity)"
+      ],
+      "correctIndex": 2,
+      "explanation": "A blue humidity indicator color typically signals a low-humidity, \"safe\" condition; the color commonly changes (often toward pink) as humidity exposure increases."
+    },
+    {
+      "id": "ppsf264-q96",
+      "question": "Which of the following is NOT a common visual inspection aid?",
+      "options": [
+        "Inspection mirror",
+        "Measuring ruler",
+        "Flashlight"
+      ],
+      "correctIndex": 1,
+      "explanation": "A flashlight and inspection mirror are classic aids for visual inspection; a measuring ruler is used for dimensional checks rather than purely visual inspection."
+    },
+    {
+      "id": "ppsf264-q97",
+      "question": "The monitoring of an engine's performance and condition over a period of time is commonly referred to as:",
+      "options": [
+        "Spot checking",
+        "Random sampling",
+        "Trend monitoring"
+      ],
+      "correctIndex": 2,
+      "explanation": "Trend monitoring tracks engine parameters over time to detect gradual changes that may indicate developing problems, rather than relying on a single snapshot reading."
+    }
+  ]
+}
