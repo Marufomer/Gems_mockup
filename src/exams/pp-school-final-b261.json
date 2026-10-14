@@ -1,0 +1,409 @@
+{
+  "id": "pp-school-final-b261",
+  "title": "PP-school-final(B261)",
+  "module": "PP-school-final",
+  "course": "powerplant",
+  "category": "school_final",
+  "description": "Powerplant school-final comprehensive practice exam (Batch 261) covering gas turbine and reciprocating engine fundamentals, fuel and ignition systems, starters, propellers, seals, inspection methods, regulatory documents, and general course (graphic communication) topics.",
+  "durationMinutes": 60,
+  "totalQuestions": 36,
+  "color": "orange",
+  "questions": [
+    {
+      "id": "ppsf261-q1",
+      "question": "Which of the following is TRUE about the turbine (in a gas turbine engine)?",
+      "options": [
+        "It drives the compressor and other accessories",
+        "It directly produces all of the engine's thrust with no other function",
+        "It compresses incoming air before combustion"
+      ],
+      "correctIndex": 0,
+      "explanation": "The turbine extracts energy from the expanding combustion gases to drive the compressor and engine-driven accessories (and, on turboprops/turboshafts, the propeller/rotor)."
+    },
+    {
+      "id": "ppsf261-q2",
+      "question": "Which lubricant is universally accepted as a piston (reciprocating) engine lubricant?",
+      "options": [
+        "Synthetic ester oil",
+        "Vegetable oil",
+        "Mineral oil"
+      ],
+      "correctIndex": 2,
+      "explanation": "Mineral (petroleum-based) oil has traditionally been the universally accepted lubricant for reciprocating aircraft engines."
+    },
+    {
+      "id": "ppsf261-q3",
+      "question": "Butyl, Buna-N, and Neoprene are types of:",
+      "options": [
+        "Synthetic rubber",
+        "Thermoplastic resin",
+        "Natural rubber"
+      ],
+      "correctIndex": 0,
+      "explanation": "Butyl, Buna-N, and Neoprene are all synthetic rubber compounds used for seals, hoses, and gaskets with differing chemical resistance properties."
+    },
+    {
+      "id": "ppsf261-q4",
+      "question": "What types of compressors are normally used with reverse-flow combustion chambers?",
+      "options": [
+        "Axial and centrifugal compressors",
+        "Only axial compressors",
+        "Only centrifugal compressors"
+      ],
+      "correctIndex": 0,
+      "explanation": "Reverse-flow combustion chamber designs are used with both axial and centrifugal compressor types, depending on the engine's overall architecture."
+    },
+    {
+      "id": "ppsf261-q5",
+      "question": "What are the types of combustion chambers used in gas turbine engines (GTE)?",
+      "options": [
+        "Annular, Centrifugal, and Axial",
+        "Can, Annular, and Can-annular",
+        "Can, Reverse-flow, and Straight-through"
+      ],
+      "correctIndex": 1,
+      "explanation": "Gas turbine engines use three classic combustion chamber configurations: can (multiple individual chambers), annular (single continuous chamber), and can-annular (a hybrid)."
+    },
+    {
+      "id": "ppsf261-q6",
+      "question": "Ignition is normally de-energized:",
+      "options": [
+        "Immediately after the starter is engaged",
+        "Only after the engine reaches full rated power",
+        "After the engine has sustained its self-accelerating speed"
+      ],
+      "correctIndex": 2,
+      "explanation": "Once the engine reaches a self-sustaining (self-accelerating) speed, continued combustion no longer needs ignition assistance, so ignition is normally switched off at that point."
+    },
+    {
+      "id": "ppsf261-q7",
+      "question": "The starter generator is used:",
+      "options": [
+        "Only as a starter, never as a generator",
+        "As a generator during normal engine operation and as a starter during engine starting",
+        "Only as a generator, never as a starter"
+      ],
+      "correctIndex": 1,
+      "explanation": "A starter-generator is a dual-purpose unit: it cranks the engine as a starter motor during start, then functions as the engine-driven generator once the engine is running."
+    },
+    {
+      "id": "ppsf261-q8",
+      "question": "After the engine sustains its self-accelerating speed, the starter:",
+      "options": [
+        "Keeps running with the engine indefinitely",
+        "Stays engaged",
+        "Disengages"
+      ],
+      "correctIndex": 2,
+      "explanation": "Once the engine can accelerate on its own, the starter is designed to automatically disengage so it isn't driven by (and potentially damaged by) the running engine."
+    },
+    {
+      "id": "ppsf261-q9",
+      "question": "Which inspection method is used to inspect internal parts of an engine without disassembling major parts?",
+      "options": [
+        "Dye penetrant inspection",
+        "Magnetic particle inspection",
+        "Borescopic inspection"
+      ],
+      "correctIndex": 2,
+      "explanation": "Borescopic inspection uses a flexible or rigid optical scope inserted through access ports to view internal engine components without removing major parts."
+    },
+    {
+      "id": "ppsf261-q10",
+      "question": "The applicable instructions for a propeller stored while still installed on the aircraft are provided in the:",
+      "options": [
+        "Propeller overhaul and repair manual",
+        "Aircraft Maintenance Manual",
+        "Illustrated Parts Catalog"
+      ],
+      "correctIndex": 1,
+      "explanation": "For a propeller stored in place on an installed aircraft, applicable storage/preservation instructions are found in the Aircraft Maintenance Manual, as opposed to the propeller's own overhaul manual, which covers a removed propeller."
+    },
+    {
+      "id": "ppsf261-q11",
+      "question": "The secondary fuel passage of a duplex fuel nozzle is opened by:",
+      "options": [
+        "A mechanical linkage from the throttle",
+        "Bleed air pressure",
+        "Fuel pressure"
+      ],
+      "correctIndex": 2,
+      "explanation": "In a duplex (dual-orifice) fuel nozzle, the secondary flow passage opens once fuel pressure rises enough to overcome the flow divider's spring setting, admitting additional fuel at higher power."
+    },
+    {
+      "id": "ppsf261-q12",
+      "question": "Oil pumps and scavenge pumps in an engine lubrication system are commonly:",
+      "options": [
+        "Spur gear pumps",
+        "Piston (reciprocating) pumps",
+        "Centrifugal pumps"
+      ],
+      "correctIndex": 0,
+      "explanation": "Both pressure and scavenge oil pumps are commonly of the spur gear type, which reliably moves oil using meshing gear teeth."
+    },
+    {
+      "id": "ppsf261-q13",
+      "question": "The Transfer Bleed Valve (TBV) is used to:",
+      "options": [
+        "Bleed air from the HPC to the HPT",
+        "Bleed air from the HPC to the LPT",
+        "Bleed air from the LPC to the LPT"
+      ],
+      "correctIndex": 1,
+      "explanation": "The transfer bleed valve bleeds high-pressure compressor (HPC) air and directs it into the low pressure turbine (LPT) section, helping manage compressor airflow and prevent stall."
+    },
+    {
+      "id": "ppsf261-q14",
+      "question": "A turbofan engine is a combination of:",
+      "options": [
+        "Turboshaft and Turboprop",
+        "Turbojet and Turboshaft",
+        "Turbojet and Turboprop"
+      ],
+      "correctIndex": 2,
+      "explanation": "A turbofan combines core turbojet principles (gas generator driving a turbine) with a large ducted fan stage, functionally blending characteristics of a turbojet and a turboprop's bypass airflow concept."
+    },
+    {
+      "id": "ppsf261-q15",
+      "question": "The simplest type of engine starter is the:",
+      "options": [
+        "Air impinging turbine starter",
+        "Electric starter-generator",
+        "Cartridge/pyrotechnic starter"
+      ],
+      "correctIndex": 0,
+      "explanation": "The air impinging (air turbine) starter is mechanically simple: compressed air is directed onto turbine buckets to spin the starter shaft, without the complexity of electrical starter-generator systems."
+    },
+    {
+      "id": "ppsf261-q16",
+      "question": "Which two projections show the true shape of an object without convergence (no vanishing point)?",
+      "options": [
+        "Orthography and perspective",
+        "Perspective and Oblique",
+        "Oblique and axonometric (axonography)"
+      ],
+      "correctIndex": 2,
+      "explanation": "Oblique and axonometric projections are both parallel (non-converging) projections, allowing true shape/size to be shown on certain faces, unlike perspective projection which converges toward vanishing points."
+    },
+    {
+      "id": "ppsf261-q17",
+      "question": "A gas turbine engine operating with constant pressure (combustion at constant pressure) follows the:",
+      "options": [
+        "Otto cycle",
+        "Diesel cycle",
+        "Brayton cycle"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Brayton cycle describes the constant-pressure combustion thermodynamic cycle used by gas turbine engines."
+    },
+    {
+      "id": "ppsf261-q18",
+      "question": "The distance the piston moves from Top Dead Center (TDC) to Bottom Dead Center (BDC) is called the:",
+      "options": [
+        "Bore",
+        "Displacement",
+        "Stroke"
+      ],
+      "correctIndex": 2,
+      "explanation": "Stroke is defined as the linear distance the piston travels between TDC and BDC."
+    },
+    {
+      "id": "ppsf261-q19",
+      "question": "The actual distance, in inches, that a propeller moves forward in one revolution is known as:",
+      "options": [
+        "Blade angle",
+        "Geometric pitch",
+        "Effective pitch"
+      ],
+      "correctIndex": 2,
+      "explanation": "Effective pitch is the actual forward distance traveled through the air per revolution, which is always less than the geometric (theoretical) pitch due to propeller slip."
+    },
+    {
+      "id": "ppsf261-q20",
+      "question": "The actual distance, in inches, that a propeller moves forward in one revolution is known as:",
+      "options": [
+        "Blade angle",
+        "Effective pitch",
+        "Geometric pitch"
+      ],
+      "correctIndex": 1,
+      "explanation": "Effective pitch is the actual forward distance traveled through the air per revolution, which is always less than the geometric (theoretical) pitch due to propeller slip."
+    },
+    {
+      "id": "ppsf261-q21",
+      "question": "During inspection, the desiccant in a bag was found to be blue in color. This indicates:",
+      "options": [
+        "The contents have absorbed excess moisture and require reconditioning",
+        "The air inside the bag is \"safe\"",
+        "The desiccant has expired and must be discarded"
+      ],
+      "correctIndex": 1,
+      "explanation": "A blue humidity indicator color signals a low-humidity, \"safe\" condition for the packaged item; the color typically shifts (often toward pink) as humidity exposure increases."
+    },
+    {
+      "id": "ppsf261-q22",
+      "question": "The propeller synchronizing system is used:",
+      "options": [
+        "To increase maximum propeller RPM beyond normal limits",
+        "To protect the engine RPM and reduce engine vibration",
+        "To control fuel flow between engines"
+      ],
+      "correctIndex": 1,
+      "explanation": "A synchronizing system matches propeller RPM across engines, which helps protect against RPM-related issues and reduces the vibration/beat caused by unsynchronized propellers."
+    },
+    {
+      "id": "ppsf261-q23",
+      "question": "To produce high power, the RPM should be:",
+      "options": [
+        "Lower in cold weather",
+        "Higher in cold weather",
+        "Lower in hot weather"
+      ],
+      "correctIndex": 1,
+      "explanation": "Cold, denser air allows the engine to safely run at higher RPM for a given power/stress level, supporting higher power output in cold weather conditions."
+    },
+    {
+      "id": "ppsf261-q24",
+      "question": "The fuselage generally provides _______ to longitudinal stability:",
+      "options": [
+        "Negative stability",
+        "No contribution to stability",
+        "Positive stability"
+      ],
+      "correctIndex": 0,
+      "explanation": "The fuselage by itself tends to be destabilizing (contributing negative stability) in the longitudinal axis; it is the tail surfaces that typically provide the positive stabilizing contribution."
+    },
+    {
+      "id": "ppsf261-q25",
+      "question": "As angle of attack (AOA) increases, what is the effect on lift?",
+      "options": [
+        "Increased AOA always decreases lift",
+        "AOA has no effect on lift",
+        "Increased AOA increases lift, up to the critical (stall) point"
+      ],
+      "correctIndex": 2,
+      "explanation": "Lift increases with angle of attack up until the critical angle of attack (stall), beyond which lift decreases sharply."
+    },
+    {
+      "id": "ppsf261-q26",
+      "question": "A Prony brake is used to measure:",
+      "options": [
+        "Fuel flow rate",
+        "Torque output of the engine",
+        "Exhaust gas temperature"
+      ],
+      "correctIndex": 1,
+      "explanation": "A Prony brake is a mechanical dynamometer device used to measure the torque (and thus power) output of an engine."
+    },
+    {
+      "id": "ppsf261-q27",
+      "question": "What is used to measure the specific gravity of oil?",
+      "options": [
+        "Ramsbottom (carbon residue test apparatus)",
+        "Hydrometer",
+        "Conradson (carbon residue test apparatus)"
+      ],
+      "correctIndex": 1,
+      "explanation": "A hydrometer measures the specific gravity (relative density) of a liquid such as oil, while Conradson and Ramsbottom tests measure carbon residue, not specific gravity."
+    },
+    {
+      "id": "ppsf261-q28",
+      "question": "Which ignition system is best suited to perform low-RPM ignition?",
+      "options": [
+        "Battery ignition",
+        "Magneto ignition",
+        "High-tension capacitor discharge ignition"
+      ],
+      "correctIndex": 0,
+      "explanation": "A battery ignition system can deliver adequate spark energy at low engine/alternator speeds, unlike magneto-type systems whose output depends on rotational speed."
+    },
+    {
+      "id": "ppsf261-q29",
+      "question": "If an extra-wide (oversized) exhaust nozzle is used, what is the effect?",
+      "options": [
+        "There is no effect on velocity or thrust",
+        "Velocity will decrease and causes thrust loss",
+        "Velocity will increase and thrust will improve"
+      ],
+      "correctIndex": 1,
+      "explanation": "An oversized exhaust nozzle fails to accelerate the exhaust gases as effectively, reducing exit velocity and resulting in a loss of thrust."
+    },
+    {
+      "id": "ppsf261-q30",
+      "question": "How is the starter motor typically cooled?",
+      "options": [
+        "By fuel-oil circulation",
+        "By ram air ducted from outside only",
+        "By an electric fan"
+      ],
+      "correctIndex": 2,
+      "explanation": "Many electric starter motors include an integral electric cooling fan to dissipate heat generated during the high-current starting cycle."
+    },
+    {
+      "id": "ppsf261-q31",
+      "question": "A tachometer is used to:",
+      "options": [
+        "Measure fuel flow",
+        "Measure exhaust gas temperature",
+        "Control (indicate and help regulate) RPM"
+      ],
+      "correctIndex": 2,
+      "explanation": "A tachometer indicates engine/propeller RPM, information the pilot or flight engineer uses to control and monitor engine speed."
+    },
+    {
+      "id": "ppsf261-q32",
+      "question": "Which type of seal is needed in areas where absolutely minimum leakage is allowed?",
+      "options": [
+        "Carbon seal",
+        "Gasket seal",
+        "Labyrinth seal"
+      ],
+      "correctIndex": 0,
+      "explanation": "A carbon (face-type) seal provides very tight, near-zero leakage sealing, making it the choice where leakage must be kept to an absolute minimum, unlike a labyrinth seal which allows a small, calibrated leakage by design."
+    },
+    {
+      "id": "ppsf261-q33",
+      "question": "When starting a turbine engine, a hung start is indicated by:",
+      "options": [
+        "The engine started but is unable to reach its self-accelerating speed",
+        "The engine being completely unable to start at all",
+        "The air/fuel mixture being excessively rich (a hot start)"
+      ],
+      "correctIndex": 0,
+      "explanation": "A hung start occurs when the engine begins rotating and lights off but stalls out at some RPM below the self-sustaining (self-accelerating) speed instead of continuing to accelerate."
+    },
+    {
+      "id": "ppsf261-q34",
+      "question": "A Type Certificate issued by the FAA that allows modification to an aircraft from its original type certificate design is:",
+      "options": [
+        "Type Certificate Data Sheet (TCDS)",
+        "Supplemental Type Certificate (STC)",
+        "Advisory Circular"
+      ],
+      "correctIndex": 1,
+      "explanation": "A Supplemental Type Certificate (STC) approves a modification to an aircraft's original type design, supplementing the original Type Certificate."
+    },
+    {
+      "id": "ppsf261-q35",
+      "question": "Information permanently affixed on the blade root for identification purposes is required to be registered on:",
+      "options": [
+        "FAR 23/25",
+        "FAR 65",
+        "FAR 45"
+      ],
+      "correctIndex": 2,
+      "explanation": "FAR Part 45 covers identification and registration marking requirements, including permanent identification data affixed to parts such as a propeller blade root."
+    },
+    {
+      "id": "ppsf261-q36",
+      "question": "What is the maximum number of (principal orthographic) views that can be obtained of an object?",
+      "options": [
+        "8",
+        "6",
+        "4"
+      ],
+      "correctIndex": 1,
+      "explanation": "An object can be fully described using up to six principal orthographic views: front, back, top, bottom, left side, and right side."
+    }
+  ]
+}
