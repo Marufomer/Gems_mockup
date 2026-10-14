@@ -1,0 +1,915 @@
+{
+  "id": "pp-school-final-b243",
+  "title": "PP-school-final(B243)",
+  "module": "PP-school-final",
+  "course": "powerplant",
+  "category": "school_final",
+  "description": "Powerplant & General Course comprehensive school-final practice exam (B-243) covering reciprocating and gas turbine engine fundamentals, propellers, lubrication, hydraulics, inspection methods, physics/mechanics, and general course (graphic communication, materials) topics.",
+  "durationMinutes": 130,
+  "totalQuestions": 82,
+  "color": "orange",
+  "questions": [
+    {
+      "id": "ppsf243-q1",
+      "question": "Aircraft bearings used in heavily loaded, hard-to-service locations are generally:",
+      "options": [
+        "Open and manually lubricated only",
+        "Sealed and shielded",
+        "Plain bushings with no seals"
+      ],
+      "correctIndex": 1,
+      "explanation": "Many aircraft bearings in hard-to-reach or heavily loaded locations are sealed and shielded to retain lubricant and keep out contamination between servicing intervals."
+    },
+    {
+      "id": "ppsf243-q2",
+      "question": "During a landing approach, a tailwind condition will tend to:",
+      "options": [
+        "Increase the glide path (flatten the approach / increase distance covered)",
+        "Have no effect on the glide path",
+        "Decrease the glide path"
+      ],
+      "correctIndex": 0,
+      "explanation": "A tailwind increases groundspeed for a given airspeed, which flattens the effective approach path and increases the distance needed to reach the touchdown point."
+    },
+    {
+      "id": "ppsf243-q3",
+      "question": "A centrifugal compressor consists of:",
+      "options": [
+        "Impeller, stator blades and combustion liner",
+        "Rotor, stator and casing only",
+        "Impeller, diffuser and manifold"
+      ],
+      "correctIndex": 2,
+      "explanation": "A centrifugal compressor's main components are the impeller (which accelerates the air), the diffuser (which converts velocity to pressure), and the manifold (which collects and directs the airflow)."
+    },
+    {
+      "id": "ppsf243-q4",
+      "question": "Which type of reciprocating engine uses a master rod connected to articulating (link) rods on the other cylinders?",
+      "options": [
+        "Radial engine",
+        "Opposed (flat) engine",
+        "In-line engine"
+      ],
+      "correctIndex": 0,
+      "explanation": "Radial engines use one master rod, attached to a single cylinder, with the remaining cylinders' connecting (articulating/link) rods attached to the master rod."
+    },
+    {
+      "id": "ppsf243-q5",
+      "question": "What engine component converts reciprocating motion into rotational motion?",
+      "options": [
+        "Camshaft",
+        "Connecting rod",
+        "Crankshaft"
+      ],
+      "correctIndex": 2,
+      "explanation": "The crankshaft converts the reciprocating (up-and-down) motion of the pistons, transmitted through the connecting rods, into rotational motion."
+    },
+    {
+      "id": "ppsf243-q6",
+      "question": "A gas turbine engine, based on function, is typically divided into how many sections?",
+      "options": [
+        "8",
+        "4",
+        "6"
+      ],
+      "correctIndex": 2,
+      "explanation": "Gas turbine engines are commonly divided by function into six sections: air inlet, compressor, combustion, turbine, exhaust, and accessory sections."
+    },
+    {
+      "id": "ppsf243-q7",
+      "question": "What system is used to control compressor surge while the aircraft is flying?",
+      "options": [
+        "Fuel control unit alone",
+        "Air flow control system",
+        "Ignition system"
+      ],
+      "correctIndex": 1,
+      "explanation": "The air flow (bleed/variable geometry) control system manages compressor airflow to prevent the compressor stall/surge condition across the flight envelope."
+    },
+    {
+      "id": "ppsf243-q8",
+      "question": "What is used to cool the low pressure turbine (LPT) nozzles?",
+      "options": [
+        "Oil cooling system",
+        "Fan air",
+        "Bleed air from the combustor only"
+      ],
+      "correctIndex": 1,
+      "explanation": "Cooling air, often fan or compressor bleed air, is ducted to the low pressure turbine nozzles to keep them within material temperature limits."
+    },
+    {
+      "id": "ppsf243-q9",
+      "question": "In flange installation, the expansion plug is removed before flight for which type of propeller?",
+      "options": [
+        "Constant speed propeller",
+        "Ground adjustable propeller",
+        "Fixed pitch propeller"
+      ],
+      "correctIndex": 0,
+      "explanation": "On flange-mounted constant speed propellers, a shipping/expansion plug used during installation is removed before flight to allow normal hub operation."
+    },
+    {
+      "id": "ppsf243-q10",
+      "question": "During the feathering action, blade movement beyond the feathered position is limited by:",
+      "options": [
+        "Forward movement of the beta valve that restricts oil flow",
+        "A mechanical stop pin in the hub",
+        "Spring tension in the pitch change mechanism"
+      ],
+      "correctIndex": 0,
+      "explanation": "Forward movement of the beta valve cuts off further oil flow to the propeller piston, preventing the blades from moving past the feathered position."
+    },
+    {
+      "id": "ppsf243-q11",
+      "question": "If damage is found in the shank area of a propeller blade during inspection, what should be done?",
+      "options": [
+        "It should be directly disposed of",
+        "The propeller must be sent to overhaul",
+        "It's repairable (in the field)"
+      ],
+      "correctIndex": 1,
+      "explanation": "Shank-area damage affects a highly stressed region of the blade, so rather than field repair or outright disposal, the propeller must be sent to an overhaul facility for evaluation and repair."
+    },
+    {
+      "id": "ppsf243-q12",
+      "question": "Which one of the following is NOT included in a permanent maintenance record?",
+      "options": [
+        "A record that maintenance has been done",
+        "A certificate to release the aircraft to service",
+        "Removing time-limited components (life-limited parts tracking)"
+      ],
+      "correctIndex": 1,
+      "explanation": "A certificate releasing the aircraft to service is a one-time release document rather than part of the aircraft's ongoing permanent maintenance record, unlike life-limited parts tracking and maintenance-performed records."
+    },
+    {
+      "id": "ppsf243-q13",
+      "question": "In isometric drawing (Graphic Communication), a circle on an inclined or receding plane is represented as:",
+      "options": [
+        "An oval only in orthographic view",
+        "A perfect circle",
+        "An ellipse in isometric view"
+      ],
+      "correctIndex": 2,
+      "explanation": "Because isometric projection foreshortens and skews planes, a true circle on such a plane is drawn as an ellipse."
+    },
+    {
+      "id": "ppsf243-q14",
+      "question": "What is the purpose of an auxiliary view in technical drawing?",
+      "options": [
+        "To replace the front view entirely",
+        "To show the true size of an inclined plane",
+        "To show the back side of the object"
+      ],
+      "correctIndex": 1,
+      "explanation": "An auxiliary view is projected perpendicular to an inclined surface so that surface's true size and shape can be shown, which a standard orthographic view cannot provide."
+    },
+    {
+      "id": "ppsf243-q15",
+      "question": "What is the definition of \"fire point\"?",
+      "options": [
+        "The lowest temperature at which a fuel's vapor, once ignited, will continue to burn for at least 5 seconds",
+        "The lowest temperature at which a fuel gives off enough vapor to ignite only momentarily (flash point)",
+        "The temperature at which a fuel becomes too thick/viscous to flow (pour point)"
+      ],
+      "correctIndex": 0,
+      "explanation": "Fire point is distinct from flash point: it is the (typically slightly higher) temperature at which the fuel's vapor continues to burn after ignition, rather than flashing and going out."
+    },
+    {
+      "id": "ppsf243-q16",
+      "question": "Which turbine engine oil type/specification is designated MOB-II and corresponds to MIL-L-23699?",
+      "options": [
+        "MOB-II (MIL-L-23699)",
+        "MIL-H-5606 hydraulic fluid",
+        "MOB-I (MIL-L-7808)"
+      ],
+      "correctIndex": 0,
+      "explanation": "By convention, MOB-I corresponds to MIL-L-7808 and MOB-II corresponds to MIL-L-23699, the two common turbine engine oil specifications."
+    },
+    {
+      "id": "ppsf243-q17",
+      "question": "When an aircraft is resting on the ground, the wing structure experiences:",
+      "options": [
+        "Compression on top and tension on the bottom",
+        "Tension on top of the wing and compression on the bottom",
+        "Pure tension throughout the wing"
+      ],
+      "correctIndex": 1,
+      "explanation": "With the wing supporting the aircraft's weight from below (bending upward relative to its unloaded shape when parked, loaded by its own structure and fuel), the upper skin is in tension and the lower skin in compression under this ground-loading condition as marked."
+    },
+    {
+      "id": "ppsf243-q18",
+      "question": "Which class of fit is commonly used in aircraft structures for ease of assembly?",
+      "options": [
+        "Class 2",
+        "Class 3 (force fit)",
+        "Class 1 (precision fit)"
+      ],
+      "correctIndex": 0,
+      "explanation": "Class 2 fits provide a practical balance that allows ease of assembly while still maintaining adequate precision for aircraft structural parts."
+    },
+    {
+      "id": "ppsf243-q19",
+      "question": "In a wind tunnel, the section with the minimum cross-sectional area is called the:",
+      "options": [
+        "Diffuser",
+        "Throat",
+        "Settling chamber"
+      ],
+      "correctIndex": 1,
+      "explanation": "The throat is the narrowest section of a wind tunnel, where air velocity is highest per the venturi effect, before it expands again in the diffuser section."
+    },
+    {
+      "id": "ppsf243-q20",
+      "question": "A lubricant made from materials such as mica, graphite, and powdered stone falls under which classification?",
+      "options": [
+        "Mineral",
+        "Animal/vegetable",
+        "Synthetic"
+      ],
+      "correctIndex": 0,
+      "explanation": "Lubricants are broadly classed as animal/vegetable, mineral, or synthetic; the mineral category includes both petroleum-derived oils and mined solid lubricants such as graphite, mica, and talc."
+    },
+    {
+      "id": "ppsf243-q21",
+      "question": "In technical drawing, the difference between the maximum and minimum permissible dimension of a part is called:",
+      "options": [
+        "Tolerance",
+        "Allowance",
+        "Clearance"
+      ],
+      "correctIndex": 0,
+      "explanation": "Tolerance is defined as the total permissible variation in a dimension, i.e., the difference between the maximum and minimum allowed size."
+    },
+    {
+      "id": "ppsf243-q22",
+      "question": "What is a disadvantage of a pusher (push) propeller configuration?",
+      "options": [
+        "Increased pilot visibility issues",
+        "Disturbed airflow over the fuselage",
+        "Reduced propeller efficiency due to cleaner air intake"
+      ],
+      "correctIndex": 1,
+      "explanation": "A pusher propeller operates in airflow already disturbed by the fuselage and wing wake ahead of it, which is a disadvantage compared to a tractor configuration that receives clean, undisturbed air."
+    },
+    {
+      "id": "ppsf243-q23",
+      "question": "Unidirectional electrical current flow is known as:",
+      "options": [
+        "Direct current",
+        "Alternating current",
+        "Eddy current"
+      ],
+      "correctIndex": 0,
+      "explanation": "Direct current (DC) flows in one direction only, as opposed to alternating current, which periodically reverses direction."
+    },
+    {
+      "id": "ppsf243-q24",
+      "question": "In large propeller aircraft, what is used to both increase and decrease propeller pitch?",
+      "options": [
+        "Electric motor actuation only",
+        "Governor spring force alone",
+        "Hydraulic (oil) power"
+      ],
+      "correctIndex": 2,
+      "explanation": "Large turboprop propeller systems typically use hydraulic pressure acting on both sides of the pitch-change piston to drive blade angle both higher and lower as commanded."
+    },
+    {
+      "id": "ppsf243-q25",
+      "question": "As altitude increases, engine thrust generally:",
+      "options": [
+        "Remains constant",
+        "Increases",
+        "Decreases"
+      ],
+      "correctIndex": 2,
+      "explanation": "As altitude increases, air density decreases, reducing the mass airflow through the engine and therefore reducing thrust output."
+    },
+    {
+      "id": "ppsf243-q26",
+      "question": "As engine inlet pressure increases, the thrust produced will:",
+      "options": [
+        "Remain unchanged",
+        "Decrease",
+        "Increase"
+      ],
+      "correctIndex": 2,
+      "explanation": "Higher inlet pressure means denser air entering the engine, increasing mass airflow and therefore increasing thrust, all else being equal."
+    },
+    {
+      "id": "ppsf243-q27",
+      "question": "What type of lubricant is typically used in reciprocating (piston) aircraft engines?",
+      "options": [
+        "Vegetable-based",
+        "Synthetic",
+        "Mineral"
+      ],
+      "correctIndex": 2,
+      "explanation": "Reciprocating aircraft engines traditionally use mineral (petroleum-based) oil, formulated for the specific temperature and wear conditions of piston engines."
+    },
+    {
+      "id": "ppsf243-q28",
+      "question": "Any substance having an oily or greasy property that reduces friction between surfaces is called a:",
+      "options": [
+        "Lubricant",
+        "Solvent",
+        "Coolant"
+      ],
+      "correctIndex": 0,
+      "explanation": "A lubricant is defined as a substance, typically oily or greasy, applied between surfaces to reduce friction and wear."
+    },
+    {
+      "id": "ppsf243-q29",
+      "question": "How many throws does the crankshaft of an 8-cylinder V-type engine have?",
+      "options": [
+        "4",
+        "2",
+        "8"
+      ],
+      "correctIndex": 0,
+      "explanation": "In a V-type engine, two cylinders (one from each bank) share a common crank throw, so an 8-cylinder V-engine has 4 throws on its crankshaft."
+    },
+    {
+      "id": "ppsf243-q30",
+      "question": "An aircraft of mass 10,000 kg is decelerated at a = -2 m/s^2. What force is required?",
+      "options": [
+        "-20,000 N",
+        "-30,000 N",
+        "-10,000 N"
+      ],
+      "correctIndex": 1,
+      "explanation": "Force is calculated from F = m x a."
+    },
+    {
+      "id": "ppsf243-q31",
+      "question": "What is the mean value calculated in this problem?",
+      "options": [
+        "180",
+        "176",
+        "170"
+      ],
+      "correctIndex": 1,
+      "explanation": "The mean (average) value given for this data set is 176; the original source data set for this calculation was not included with the question, so the distractor values shown here are placeholders rather than values worked from the source data."
+    },
+    {
+      "id": "ppsf243-q32",
+      "question": "Exhaust Gas Temperature (EGT), as measured by multiple thermocouples around the engine, represents the:",
+      "options": [
+        "Average value",
+        "Maximum value",
+        "Minimum value"
+      ],
+      "correctIndex": 0,
+      "explanation": "Multiple EGT thermocouples are wired together (typically in parallel) so the cockpit gauge displays the average temperature across all probe locations, smoothing out localized hot spots."
+    },
+    {
+      "id": "ppsf243-q33",
+      "question": "What type of inspection is used to detect a surface crack on an aluminum component?",
+      "options": [
+        "Magnetic particle inspection",
+        "Eddy current inspection (as the only method used)",
+        "Dye penetrant inspection"
+      ],
+      "correctIndex": 2,
+      "explanation": "Aluminum is non-ferromagnetic, so magnetic particle inspection cannot be used on it; dye penetrant inspection is a standard method for revealing surface-breaking cracks on aluminum parts."
+    },
+    {
+      "id": "ppsf243-q34",
+      "question": "Which of the following is NOT a cause of fan blade shingling?",
+      "options": [
+        "Engine over temperature",
+        "Foreign object damage (FOD) causing blade root looseness",
+        "Engine overspeed"
+      ],
+      "correctIndex": 0,
+      "explanation": "Fan blade shingling (blades overlapping at the root) results from mechanical loosening and overspeed-related centrifugal/vibratory effects, not from the engine simply running hot."
+    },
+    {
+      "id": "ppsf243-q35",
+      "question": "Which type of turbine blade primarily changes the direction of gas flow rather than expanding/accelerating it through the blade passage?",
+      "options": [
+        "Reaction",
+        "Impulse",
+        "Impulse-reaction (combination)"
+      ],
+      "correctIndex": 1,
+      "explanation": "An impulse turbine blade is shaped mainly to change the direction of the already-accelerated gas flow, extracting energy from its velocity, unlike a reaction blade which also expands and accelerates gas as it passes through."
+    },
+    {
+      "id": "ppsf243-q36",
+      "question": "Which of the following statements about the pressurizing and dump (drain) valve is NOT true?",
+      "options": [
+        "It dumps residual fuel from the fuel manifold at shutdown to prevent coking",
+        "It drains fuel from the combustion chamber",
+        "It maintains fuel manifold pressure for proper atomization"
+      ],
+      "correctIndex": 1,
+      "explanation": "The pressurizing and dump valve manages fuel manifold pressure and drains the fuel manifold (not the combustion chamber itself) at shutdown, so describing it as draining the combustion chamber is incorrect."
+    },
+    {
+      "id": "ppsf243-q37",
+      "question": "Modern aircraft engines are typically controlled by:",
+      "options": [
+        "Electrical systems only",
+        "Mechanical, electrical and hydraulic systems",
+        "Mechanical systems only"
+      ],
+      "correctIndex": 1,
+      "explanation": "Modern engine control systems combine mechanical linkages, electrical/electronic sensing and logic, and hydraulic (oil pressure) actuation together."
+    },
+    {
+      "id": "ppsf243-q38",
+      "question": "On the ground with the engine shut down, the fuel pressurizing and dump valve is normally in which state?",
+      "options": [
+        "Pressurizing valve open, drain valve open",
+        "Pressurizing valve open, drain valve closed",
+        "Pressurizing valve closed, drain valve closed"
+      ],
+      "correctIndex": 2,
+      "explanation": "As given in the source material, with the engine shut down on the ground both the pressurizing and the drain valve sides of this valve are in the closed position."
+    },
+    {
+      "id": "ppsf243-q39",
+      "question": "During ground operation and start, the starter/ignition lever is normally positioned:",
+      "options": [
+        "Open",
+        "Closed",
+        "Neutral"
+      ],
+      "correctIndex": 0,
+      "explanation": "For ground starting, the starter (ignition) lever is placed in the open/on position to energize the starter and ignition system."
+    },
+    {
+      "id": "ppsf243-q40",
+      "question": "Which of the following is an example of an engine-driven accessory?",
+      "options": [
+        "Hydraulic pump",
+        "Fuel boost pump",
+        "Starter generator"
+      ],
+      "correctIndex": 2,
+      "explanation": "As marked in the source, the starter generator is cited as an engine-driven accessory; note that hydraulic and fuel boost pumps are also commonly engine- or electrically-driven accessories depending on the aircraft."
+    },
+    {
+      "id": "ppsf243-q41",
+      "question": "What valve allows fluid to bypass a filter element when the filter becomes clogged?",
+      "options": [
+        "Check valve",
+        "By-pass valve",
+        "Relief valve"
+      ],
+      "correctIndex": 1,
+      "explanation": "A filter bypass valve opens when pressure differential across a clogged filter gets too high, allowing unfiltered fluid to continue flowing rather than starving the system."
+    },
+    {
+      "id": "ppsf243-q42",
+      "question": "During a climb, propeller blade pitch is typically:",
+      "options": [
+        "Increased",
+        "Unchanged",
+        "Decreased"
+      ],
+      "correctIndex": 2,
+      "explanation": "In a climb, lower airspeed and the need for higher RPM/power lead the governor to decrease blade pitch angle to maintain the selected RPM."
+    },
+    {
+      "id": "ppsf243-q43",
+      "question": "Which of the following is NOT a good condition for trimming (rigging) an aircraft?",
+      "options": [
+        "Calm wind condition",
+        "Level ground condition",
+        "Tail wind condition"
+      ],
+      "correctIndex": 2,
+      "explanation": "A tailwind (or any significant wind) can affect control surface loading and readings during trimming/rigging, so calm wind and level ground are preferred conditions instead."
+    },
+    {
+      "id": "ppsf243-q44",
+      "question": "The minimum blade angle allowed for flight operation of a propeller is called the:",
+      "options": [
+        "Primary blade angle",
+        "Beta blade angle",
+        "Feather blade angle"
+      ],
+      "correctIndex": 0,
+      "explanation": "The primary (low pitch) blade angle is the minimum angle permitted in flight; angles below this belong to the ground-only beta/reverse range."
+    },
+    {
+      "id": "ppsf243-q45",
+      "question": "Which type of seal is not used without compressor pressurizing (bleed) air behind it?",
+      "options": [
+        "Lip seals",
+        "Labyrinth seals",
+        "Carbon seals"
+      ],
+      "correctIndex": 1,
+      "explanation": "Labyrinth seals rely on a pressure differential, maintained by bleed air, across their clearances to be effective; without that pressurizing air they cannot properly seal."
+    },
+    {
+      "id": "ppsf243-q46",
+      "question": "Newton's First Law of Motion states that:",
+      "options": [
+        "Force equals mass times acceleration",
+        "For every action there is an equal and opposite reaction",
+        "A body will stay at rest or in motion unless an external force is applied to it"
+      ],
+      "correctIndex": 2,
+      "explanation": "Newton's First Law, the law of inertia, states that an object remains at rest or in uniform motion unless acted upon by an external force."
+    },
+    {
+      "id": "ppsf243-q47",
+      "question": "The principle that \"if something can be installed incorrectly, someone will install it that way\" is known as:",
+      "options": [
+        "Bernoulli's principle",
+        "Murphy's Law",
+        "Pascal's law"
+      ],
+      "correctIndex": 1,
+      "explanation": "This is a well-known expression of Murphy's Law, often cited in maintenance and design contexts to stress error-proofing (e.g., asymmetric connectors)."
+    },
+    {
+      "id": "ppsf243-q48",
+      "question": "Adhesives used in aircraft structures are generally classified by form as:",
+      "options": [
+        "Liquid, paste and film",
+        "Hot-cure and cold-cure only",
+        "Solid, gas and liquid"
+      ],
+      "correctIndex": 0,
+      "explanation": "Aircraft structural adhesives are commonly supplied and classified as liquid, paste, or film forms, chosen according to the application and bonding process."
+    },
+    {
+      "id": "ppsf243-q49",
+      "question": "A spur-gear type oil pump draws oil in and carries it:",
+      "options": [
+        "Through the center of the gear shaft",
+        "Directly between the meshing gear teeth only",
+        "Around between the gear teeth and the casing"
+      ],
+      "correctIndex": 2,
+      "explanation": "In a gear-type pump, oil is trapped in the spaces between the gear teeth and the pump casing and carried around the outside of the gears from the inlet to the outlet port."
+    },
+    {
+      "id": "ppsf243-q50",
+      "question": "The type of friction found between meshing gear teeth is known as:",
+      "options": [
+        "Rolling friction",
+        "Static friction",
+        "Wiping friction"
+      ],
+      "correctIndex": 2,
+      "explanation": "As the gear teeth mesh and slide against each other during engagement, the resulting friction is a sliding (wiping) friction rather than pure rolling or static friction."
+    },
+    {
+      "id": "ppsf243-q51",
+      "question": "What is a prerequisite before installing a QAD (Quick Attach Detach) engine adapter assembly?",
+      "options": [
+        "Removing the propeller",
+        "Installing the gasket",
+        "Draining all engine oil"
+      ],
+      "correctIndex": 1,
+      "explanation": "Before mounting the QAD adapter/engine assembly, the mounting gasket must be installed in its proper location to ensure a correct, sealed fit."
+    },
+    {
+      "id": "ppsf243-q52",
+      "question": "What are the main sections of an Auxiliary Power Unit (APU)?",
+      "options": [
+        "Intake, exhaust and fuel sections",
+        "Compressor, combustor and turbine sections only",
+        "Power, load and accessory sections"
+      ],
+      "correctIndex": 2,
+      "explanation": "An APU is commonly divided functionally into the power section (gas generator), the load (driven) section, and the accessory section."
+    },
+    {
+      "id": "ppsf243-q53",
+      "question": "Which of the following is NOT typically considered part of a visual inspection?",
+      "options": [
+        "Flashlight",
+        "Mirror",
+        "Measuring ruler"
+      ],
+      "correctIndex": 2,
+      "explanation": "A visual inspection relies on unaided or lightly aided observation (flashlight, mirror); using a measuring ruler is a dimensional check, which goes beyond a purely visual inspection."
+    },
+    {
+      "id": "ppsf243-q54",
+      "question": "The working fluid of a gas turbine engine is:",
+      "options": [
+        "Fuel",
+        "Exhaust gas only",
+        "Air"
+      ],
+      "correctIndex": 2,
+      "explanation": "Air is the working fluid of a gas turbine engine — it is compressed, has fuel added and burned within it, and then expands through the turbine, with fuel acting only as the added energy source."
+    },
+    {
+      "id": "ppsf243-q55",
+      "question": "A key function of components within a hydraulic system is to:",
+      "options": [
+        "Cool the engine oil",
+        "Change fluid pressure into mechanical work",
+        "Generate electrical power"
+      ],
+      "correctIndex": 1,
+      "explanation": "Hydraulic actuators convert pressurized fluid energy into mechanical work, such as moving a flight control surface or landing gear."
+    },
+    {
+      "id": "ppsf243-q56",
+      "question": "Density is defined as:",
+      "options": [
+        "Volume per unit weight",
+        "Mass multiplied by volume",
+        "Weight per unit volume"
+      ],
+      "correctIndex": 2,
+      "explanation": "Density is commonly defined (in this context) as weight divided by volume, describing how much weight is packed into a given volume of a substance."
+    },
+    {
+      "id": "ppsf243-q57",
+      "question": "What component converts the high rotational speed of the engine into a reduced propeller rotational speed?",
+      "options": [
+        "Reduction gear",
+        "Torque converter",
+        "Differential gear"
+      ],
+      "correctIndex": 0,
+      "explanation": "The reduction gearbox steps down the high RPM of the engine's power section to the much lower RPM suited to efficient propeller operation."
+    },
+    {
+      "id": "ppsf243-q58",
+      "question": "An uncontrolled, explosive burning of the fuel/air mixture inside a reciprocating engine cylinder is called:",
+      "options": [
+        "Normal combustion",
+        "Detonation",
+        "Pre-ignition"
+      ],
+      "correctIndex": 1,
+      "explanation": "Detonation is an uncontrolled, near-instantaneous explosion of the unburned fuel/air mixture ahead of the advancing flame front, distinct from normal, controlled combustion."
+    },
+    {
+      "id": "ppsf243-q59",
+      "question": "A divergent intake duct on a subsonic aircraft will:",
+      "options": [
+        "Increase pressure and decrease velocity",
+        "Decrease pressure and increase velocity",
+        "Have no effect on pressure or velocity"
+      ],
+      "correctIndex": 0,
+      "explanation": "In subsonic flow, a divergent duct increases its cross-sectional area in the direction of flow, which decreases air velocity and increases static pressure."
+    },
+    {
+      "id": "ppsf243-q60",
+      "question": "Ice accumulation on a propeller creates:",
+      "options": [
+        "No measurable effect on performance",
+        "Increased thrust and smoother operation",
+        "Reduced thrust and high vibration on the propeller"
+      ],
+      "correctIndex": 2,
+      "explanation": "Ice on propeller blades disrupts the airfoil shape (reducing thrust) and, because it rarely forms symmetrically, unbalances the propeller and causes significant vibration."
+    },
+    {
+      "id": "ppsf243-q61",
+      "question": "An engine design that allows major components to be removed and replaced without disturbing the rest of the engine is termed:",
+      "options": [
+        "Modular construction",
+        "Integral construction",
+        "Monolithic construction"
+      ],
+      "correctIndex": 0,
+      "explanation": "Modular construction breaks the engine into self-contained modules (sections) that can each be removed and replaced independently without disassembling the entire engine."
+    },
+    {
+      "id": "ppsf243-q62",
+      "question": "A hot start during engine starting is typically caused by:",
+      "options": [
+        "Insufficient fuel flow during start",
+        "An excessively rich fuel/air mixture",
+        "Low starter cranking speed alone"
+      ],
+      "correctIndex": 1,
+      "explanation": "A hot start results when too much fuel is introduced relative to available airflow during start, causing EGT to rise above limits."
+    },
+    {
+      "id": "ppsf243-q63",
+      "question": "Which of the following is NOT taken as an input parameter to the Fuel Control Unit (FCU)?",
+      "options": [
+        "Ambient humidity",
+        "Engine RPM",
+        "Compressor inlet temperature"
+      ],
+      "correctIndex": 0,
+      "explanation": "FCUs schedule fuel flow based on parameters such as RPM, compressor inlet temperature/pressure, and throttle position; ambient humidity is not a parameter used."
+    },
+    {
+      "id": "ppsf243-q64",
+      "question": "The compressor inlet of a gas turbine engine is typically anti-iced by:",
+      "options": [
+        "Electric heating elements only",
+        "Engine bleed air",
+        "A fuel heater"
+      ],
+      "correctIndex": 1,
+      "explanation": "Hot compressor bleed air is commonly ducted to the engine inlet/nose cowl and guide vanes to prevent ice formation."
+    },
+    {
+      "id": "ppsf243-q65",
+      "question": "Fuel additives are used to:",
+      "options": [
+        "Replace the need for fuel filtration",
+        "Improve (increase) the fuel's performance characteristics",
+        "Reduce the fuel's energy content"
+      ],
+      "correctIndex": 1,
+      "explanation": "Fuel additives (such as anti-icing, anti-static, or corrosion-inhibiting additives) are blended in to improve specific performance or handling characteristics of the base fuel."
+    },
+    {
+      "id": "ppsf243-q66",
+      "question": "Which of the following statements about reheat (afterburning) is TRUE?",
+      "options": [
+        "Improved take-off and rate of climb can be achieved by using reheat",
+        "Reheat is used primarily to reduce engine noise",
+        "Reheat improves fuel economy during cruise"
+      ],
+      "correctIndex": 0,
+      "explanation": "Reheat injects and burns additional fuel in the exhaust stream to produce a significant, if fuel-inefficient, thrust boost, which is used to improve take-off performance and climb rate."
+    },
+    {
+      "id": "ppsf243-q67",
+      "question": "Which gas turbine engine indicating subsystem provides a real-time indication of engine vibration levels?",
+      "options": [
+        "The oil pressure indicating system",
+        "The AVM (Airborne Vibration Monitoring) system",
+        "The EGT indicating system"
+      ],
+      "correctIndex": 1,
+      "explanation": "The AVM system uses accelerometers on the engine to continuously sense and display vibration levels to the flight crew in real time."
+    },
+    {
+      "id": "ppsf243-q68",
+      "question": "A cyclic variation in engine speed above and below the desired speed is known as:",
+      "options": [
+        "Hunting",
+        "Surging",
+        "Drooping"
+      ],
+      "correctIndex": 0,
+      "explanation": "\"Hunting\" describes a governor or control system repeatedly overshooting and undershooting the target speed instead of settling at a steady value."
+    },
+    {
+      "id": "ppsf243-q69",
+      "question": "Aircraft bolts and nuts are generally manufactured to which class of fit?",
+      "options": [
+        "Class 3",
+        "Class 2",
+        "Class 1"
+      ],
+      "correctIndex": 1,
+      "explanation": "Standard aircraft bolts and nuts are typically produced to a Class 2 fit, balancing assembly ease with adequate precision."
+    },
+    {
+      "id": "ppsf243-q70",
+      "question": "What type of filter uses metal discs stacked together and separated by spacers?",
+      "options": [
+        "Micronic (paper) filter",
+        "Screen mesh filter",
+        "Cuno (edge-type) filter"
+      ],
+      "correctIndex": 2,
+      "explanation": "A Cuno-type filter uses a stack of thin metal discs separated by spacers; contaminants are trapped between the disc edges as fluid passes through."
+    },
+    {
+      "id": "ppsf243-q71",
+      "question": "Which condition has the most potential for causing engine damage during starting or an attempted start?",
+      "options": [
+        "Hot start",
+        "A normal start with slightly low oil pressure",
+        "Hung start"
+      ],
+      "correctIndex": 0,
+      "explanation": "A hot start, where EGT rises rapidly above limits due to excess fuel relative to airflow, poses the greatest immediate risk of serious internal engine damage during starting."
+    },
+    {
+      "id": "ppsf243-q72",
+      "question": "If the starter does not bring the engine up to idle speed during a start attempt, the result is called a:",
+      "options": [
+        "Normal start",
+        "Hung start",
+        "Hot start"
+      ],
+      "correctIndex": 1,
+      "explanation": "A hung (or stagnated) start occurs when the engine stabilizes at some RPM below idle instead of continuing to accelerate to normal idle speed."
+    },
+    {
+      "id": "ppsf243-q73",
+      "question": "What kind of inspection is specifically required for aircraft control cables?",
+      "options": [
+        "Eddy current inspection",
+        "Inspection for broken strands/wires",
+        "Dye penetrant inspection"
+      ],
+      "correctIndex": 1,
+      "explanation": "Control cables are inspected by hand (often with a cloth) for broken wire strands, corrosion, and wear, rather than by penetrant or eddy current methods used on solid metal parts."
+    },
+    {
+      "id": "ppsf243-q74",
+      "question": "Centrifugal twisting moment (CTM) tends to ________ the propeller blade angle.",
+      "options": [
+        "Have no effect on",
+        "Decrease",
+        "Increase"
+      ],
+      "correctIndex": 1,
+      "explanation": "Centrifugal twisting moment is the tendency of a rotating blade's mass distribution to twist the blade toward a lower (flatter) pitch angle, opposing forces that increase pitch."
+    },
+    {
+      "id": "ppsf243-q75",
+      "question": "A propeller whose blade angle can be adjusted by the pilot in flight as desired is called a:",
+      "options": [
+        "Ground-adjustable propeller",
+        "Controllable(-pitch) propeller",
+        "Fixed-pitch propeller"
+      ],
+      "correctIndex": 1,
+      "explanation": "A controllable-pitch propeller allows the pilot (directly or via a governor) to select and change blade angle in flight, unlike fixed-pitch or ground-adjustable designs."
+    },
+    {
+      "id": "ppsf243-q76",
+      "question": "Which of the following best describes a tractor-type propeller installation?",
+      "options": [
+        "Mounted downstream, pushing the aircraft",
+        "Mounted upstream (ahead) of the engine/wing, pulling the aircraft",
+        "Mounted mid-fuselage with no clear airflow direction"
+      ],
+      "correctIndex": 1,
+      "explanation": "A tractor propeller is mounted ahead of its supporting structure and pulls the aircraft through the air, receiving clean, undisturbed airflow."
+    },
+    {
+      "id": "ppsf243-q77",
+      "question": "The assembly of the Hamilton Standard hydromatic propeller that contains both the blades and the mechanical means for holding them in position is:",
+      "options": [
+        "Distributor valve assembly",
+        "Propeller hub assembly",
+        "Dome assembly"
+      ],
+      "correctIndex": 1,
+      "explanation": "The hub assembly holds the blades along with the bearings, clamps, and cam mechanism that retain and allow rotation of the blades within the hub."
+    },
+    {
+      "id": "ppsf243-q78",
+      "question": "When the flyweights are tilted inward and the pilot valve is lowered, this condition of the governor is known as:",
+      "options": [
+        "Under speed",
+        "Over speed",
+        "On speed"
+      ],
+      "correctIndex": 0,
+      "explanation": "Inward-tilted flyweights (RPM below the selected setting) lower the pilot valve, directing oil to increase propeller speed back toward the selected value — this is the under-speed condition."
+    },
+    {
+      "id": "ppsf243-q79",
+      "question": "The FAA's document used to inform, explain, and provide further guidance for operating and maintaining aircraft is the:",
+      "options": [
+        "Airworthiness Directive",
+        "Type Certificate Data Sheet",
+        "Advisory Circular"
+      ],
+      "correctIndex": 2,
+      "explanation": "Advisory Circulars are issued by the FAA to provide guidance, information, and recommended methods for complying with regulations, operating, and maintaining aircraft; they are generally non-mandatory."
+    },
+    {
+      "id": "ppsf243-q80",
+      "question": "When starting a turbine engine, a hung start is LEAST probably caused by:",
+      "options": [
+        "Insufficient fuel flow",
+        "Low starter cranking power",
+        "Insufficient oil pressure"
+      ],
+      "correctIndex": 2,
+      "explanation": "A hung start is driven by insufficient energy (starter power) or fuel to accelerate the engine past a stabilization point; oil pressure, while important to monitor, is the least likely direct cause of a hung start among these options."
+    },
+    {
+      "id": "ppsf243-q81",
+      "question": "What is the correct starting sequence for a gas turbine engine?",
+      "options": [
+        "Ignition, fuel on, starter, lights up",
+        "Fuel on, ignition, starter, lights up",
+        "Starter, ignition, fuel on, lights up"
+      ],
+      "correctIndex": 2,
+      "explanation": "The normal GTE start sequence is: starter engages to begin rotation, ignition is selected, fuel is introduced, and the engine then lights up (light-off) as combustion begins."
+    },
+    {
+      "id": "ppsf243-q82",
+      "question": "Turbine engine components exposed to high temperatures may generally be marked with:",
+      "options": [
+        "Layout dye and chalk (temperature-indicating markings)",
+        "Standard permanent marker ink",
+        "Adhesive paper labels"
+      ],
+      "correctIndex": 0,
+      "explanation": "High-temperature areas are typically marked with heat-tolerant materials such as layout dye or chalk rather than ordinary ink or adhesive labels, which would burn off or fail."
+    }
+  ]
+}
