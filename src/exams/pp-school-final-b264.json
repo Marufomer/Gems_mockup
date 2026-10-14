@@ -578,7 +578,7 @@
         "Jet A, Jet B",
         "Jet B, Jet A"
       ],
-      "correctIndex": 1,
+      "correctIndex": 2,
       "explanation": "As given in the source, Jet A-1's freezing point is described as falling between Jet A and Jet B; note that typical published freezing points (Jet A about -40C, Jet A-1 about -47C, Jet B about -50C) would actually place Jet A-1 between Jet A and Jet B in the opposite order, so this is worth double-checking against your reference material."
     },
     {
